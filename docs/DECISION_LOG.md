@@ -1,5 +1,12 @@
 # Decision log
 
+## 2026-09-13 — Create a private GitHub remote
+
+The audited local history was pushed to
+`https://github.com/bbpcho/primitive-357-proof-audit` using HTTPS.  The
+repository remains private while the rank gate and redistribution review are
+open.  No large evidence asset or public release was uploaded.
+
 ## 2026-09-13 — Start a release-oriented Git repository
 
 The 4.4 GB experimental workspace is not made into one monolithic Git

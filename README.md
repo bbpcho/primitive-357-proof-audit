@@ -7,6 +7,8 @@ primitive generalized Fermat equation
   x^3+y^5=z^7.
 \]
 
+Private working remote: <https://github.com/bbpcho/primitive-357-proof-audit>
+
 It separates three things that had become too easy to confuse:
 
 1. a mathematical claim;

@@ -1,8 +1,10 @@
 # GitHub setup and publication handoff
 
-The local repository is already initialized on branch `main`.  The current
-machine's saved GitHub CLI credential for account `bbpcho` is invalid, so no
-remote repository has been created and no external state has been changed.
+The repository is initialized on branch `main` and pushed privately to:
+
+https://github.com/bbpcho/primitive-357-proof-audit
+
+The remote is named `origin`, and local `main` tracks `origin/main`.
 
 ## Recommended first publication state
 
@@ -12,9 +14,10 @@ durable review history without presenting the current manuscript as a
 finished public proof.  Change it to public when authorship, licensing,
 third-party redistribution, and the proof gate are settled.
 
-## One-time authentication
+## Authentication
 
-From a terminal:
+The GitHub CLI is authenticated as `bbpcho` using HTTPS.  If authentication
+expires, restore it from a terminal with:
 
 ```bash
 gh auth login -h github.com
@@ -23,9 +26,9 @@ gh auth login -h github.com
 Use the intended GitHub account and complete the browser/device flow.  No
 token should be committed to this repository.
 
-## Create the remote repository
+## Existing remote repository
 
-From this repository root:
+The creation command used from this repository root was:
 
 ```bash
 gh repo create primitive-357-proof-audit \

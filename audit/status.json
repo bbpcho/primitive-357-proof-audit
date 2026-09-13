@@ -3,6 +3,8 @@
   "as_of": "2026-09-13",
   "proof_complete": false,
   "public_proof_release_authorized": false,
+  "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
+  "github_visibility": "private",
   "current_candidate": "V3 manuscript plus post-V3 dependency closures",
   "blocking_gate": "independent Mordell-Weil rank, generation, and downstream-consumption reconstruction",
   "rank_workplan": "audit/rank-gap/gates.json",
