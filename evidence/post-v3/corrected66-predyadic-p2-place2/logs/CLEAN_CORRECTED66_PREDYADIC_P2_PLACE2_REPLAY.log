@@ -1,0 +1,39 @@
+ORIGINAL_WORKSPACE_USED=false
+PARI_GP=/usr/bin/gp
+GLOBAL_COLUMN_REBUILD_WALL_SECONDS=1.840348
+  ***   Warning: new maximum stack size = 8000000000 (7629.395 Mbytes).
+  *** read: Warning: increasing stack size to 16000000.
+  *** read: Warning: increasing stack size to 32000000.
+  *** read: Warning: increasing stack size to 64000000.
+  *** read: Warning: increasing stack size to 128000000.
+P29_REBUILD_CHANGED_CASES=[12, 57, 3]
+P29_REBUILD_RAW_SENSITIVITY=[8, 8, 4, 2, 2, 3, 2]
+STATUS=PASS_P29_CORRECTED_NONDYADIC_COLUMNS_V1
+GLOBAL_CHECKPOINT_COMPARISON_WALL_SECONDS=0.008815
+REBUILT_CHECKPOINT_SEMANTIC_EQUAL=PASS_16_COMPONENTS
+GLOBAL_COLUMN_REBUILD=EXACT_MATRICES_AND_GP_OBJECTS_WITH_SERIALIZATION_NORMALIZED
+GLOBAL_INTERSECTION_WALL_SECONDS=0.130311
+corrected split rank/dimension: 43 23
+corrected relaxed rank/dimension without p29: 47 19
+corrected after-p7 rank/dimension without p29,p2: 48 18
+old19 overlap relaxed/after-p7: 18 17
+p29 raw diagnostic: {'old_raw_rank': 8, 'corrected_raw_rank': 8, 'old_corrected_difference_rank': 4, 'diagonal_rank': 2, 'old19_corrected_raw_image_rank': 2, 'old19_raw_plus_diagonal_rank': 3, 'old19_basis_rows_outside_diagonal': [19], 'old19_outside_vectors_hex': ['0x55'], 'corrected_relaxed_raw_image_rank': 2, 'corrected_relaxed_raw_plus_diagonal_rank': 2, 'after_p7_raw_image_rank': 2, 'after_p7_raw_plus_diagonal_rank': 2, 'constraint_rows_appended': 0, 'reason': 'HNF22 8x2 diagonal image is not accepted here as the full bad-place Allowed condition', 'redundant_on_fresh_corrected_relaxed_space_without_full_allowed_theorem': True, 'redundancy_proof': 'the full raw Allowed preimage necessarily contains the diagonal; the corrected relaxed restriction image is contained in that diagonal because ranks(image), ranks(diagonal), and rank(image+diagonal) are all 2'}
+status: PASS_P29_CORRECTED_RELAXED_GLOBAL_INTERSECTION_V1
+NORM_SENSITIVITY_WALL_SECONDS=0.040046
+norm ranks old/new/stacked: 7 7 7
+transported old19 raw ranks old/new/joint: 2 2 3
+transported old19 outside diagonal: [19] 0x55
+fresh corrected19 raw/diagonal/joint: 2 2 2
+status: PASS_P29_NORM_TRANSPORTED19_SENSITIVITY_V1
+INDEPENDENT_GLOBAL_AUDIT_WALL_SECONDS=0.613064
+INDEPENDENT_GLOBAL_AUDIT=PASS
+PREDYADIC_BASIS=EXACT_18X66_MATRIX_EQUAL_TO_GP_RESERIALIZED_DYADIC_CONSUMED_COPY
+P2_PLACE2_PRODUCTION_WALL_SECONDS=277.619554
+CHECKPOINT=replay-output/p2-place2-production.json
+STATUS=PASS_SECOND_DYADIC_LOCAL_STOPPING
+P2_PLACE2_PRODUCTION=EXACT_JSON_EXCEPT_ELAPSED_SECONDS
+P2_PLACE2_INDEPENDENT_WALL_SECONDS=256.607051
+CHECKPOINT=results/2026-08-25_dyadic_stopping/certificates/independent_p2_place2_local_stopping_v1.json
+STATUS=PASS_INDEPENDENT_SECOND_DYADIC_LOCAL_STOPPING
+P2_PLACE2_INDEPENDENT=EXACT_JSON_EXCEPT_ELAPSED_SECONDS
+P2_PLACE2_CORRECTION=PASS_PROFILE_0_1_NONZERO

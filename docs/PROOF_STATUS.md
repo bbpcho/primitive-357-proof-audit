@@ -25,6 +25,8 @@ saturation and logarithm calculations.
 | Hecke ambient coverage | pass at certificate boundary | The conservative filtered ambient argument avoids relying on an unsupported complete-newspace claim. |
 | B124/D4 upstream provenance | pass at current evidence boundary | Tensor lift, 75D class, formal chart, and D4-log dependencies are supplied and replayed as a closed archive. |
 | p=5 obstruction provenance | packaged | The target-42/contact/cocycle dependency closure and replay are supplied; independent audit is still required. |
+| Corrected-66 pre-dyadic provenance | replayed, audit pending | All 222 declared inputs, the exact norm and local-condition sequence, and the 18-dimensional output are present and clean-replayed. |
+| Second-dyadic fake-kernel correction | replayed, audit pending | Production and independent relations reproduce the nonzero correction profile `(0,1)` from a clean extraction. |
 | Mordell--Weil lower bound | evidence present | Four explicit classes and finite-field witnesses exist, but must be integrated into one clean rank audit. |
 | Mordell--Weil upper bound and rank composition | **open audit gate** | Rebuild the Selmer/rank bound from primary inputs and prove that it combines with the known classes to give exactly the group statement consumed later. |
 | Saturation calculations | pass at current evidence boundary | The independent Kummer/two-saturation and five-saturation checks are complete; their precise consequences still have to be used correctly in the rank composition. |

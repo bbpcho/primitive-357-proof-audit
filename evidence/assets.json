@@ -62,6 +62,17 @@
       "source_path_from_workspace": "results/2026-09-13_p23_B124_D4_upstream_reconstruction_package_v1.zip",
       "role": "B124 tensors, 75D class, formal chart, and D4 logarithm upstream reconstruction",
       "audit_state": "completed_replay_current_evidence_boundary"
+    },
+    {
+      "id": "CORRECTED66_PREDYADIC_AND_P2_PLACE2_DEPENDENCY_CLOSURE_V1",
+      "filename": "2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "sha256": "b3c9a9d6d23e01b973e8acd08cdf623a5e2119a926c1c2384c8cf2964caa305c",
+      "bytes": 137069324,
+      "source_path_from_workspace": "results/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/audit-2026-09-13.1",
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "role": "corrected 66-squareclass pre-dyadic intersection and second-dyadic fake-kernel correction dependency closure",
+      "audit_state": "completed_clean_replay_pending_independent_audit"
     }
   ]
 }

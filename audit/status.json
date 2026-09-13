@@ -46,6 +46,18 @@
       "asset": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1"
     },
     {
+      "id": "corrected66_predyadic_dependency_closure",
+      "mandatory": true,
+      "state": "completed_clean_replay_pending_independent_audit",
+      "asset": "CORRECTED66_PREDYADIC_AND_P2_PLACE2_DEPENDENCY_CLOSURE_V1"
+    },
+    {
+      "id": "p2_place2_fake_kernel_correction_dependency_closure",
+      "mandatory": true,
+      "state": "completed_clean_replay_pending_independent_audit",
+      "asset": "CORRECTED66_PREDYADIC_AND_P2_PLACE2_DEPENDENCY_CLOSURE_V1"
+    },
+    {
       "id": "mordell_weil_rank_upper_bound_and_composition",
       "mandatory": true,
       "state": "open",

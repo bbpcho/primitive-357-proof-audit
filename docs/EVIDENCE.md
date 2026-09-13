@@ -36,7 +36,9 @@ The first asset set contains:
 - the complete V3 reproducibility archive;
 - the V3 arXiv upload archive and reader bundle;
 - the p=5 obstruction dependency closure;
-- the B124/D4 upstream reconstruction package.
+- the B124/D4 upstream reconstruction package;
+- the corrected 66-squareclass pre-dyadic intersection and second-dyadic
+  fake-kernel correction closure.
 
 The compact, reviewable control files for the two post-V3 packages are also
 tracked under `evidence/post-v3/`.  Their large `repository/` payloads remain
@@ -49,6 +51,9 @@ the actual downloaded files.
 The p=5 closure is attached to the private prerelease
 `audit-2026-09-13.1`.  Its direct URL is recorded in `evidence/assets.json`;
 GitHub authentication is required while the repository remains private.
+The corrected-66/second-dyadic closure is attached to the same prerelease and
+has its own direct URL, checksum, clean replay log, and compact control files
+under `evidence/post-v3/corrected66-predyadic-p2-place2/`.
 
 ## Immutable and working layers
 
