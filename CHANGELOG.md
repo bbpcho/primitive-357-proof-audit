@@ -11,3 +11,8 @@
 - Added exact GitHub-release-asset identities for the V3 archives, the p=5
   obstruction closure, and the B124/D4 upstream reconstruction.
 - Added local and CI verification of repository structure and status.
+- Attached the exact p=5 obstruction closure to private prerelease
+  `audit-2026-09-13.1`.
+- Corrected the workplan to record the saturation and split-23 logarithm
+  calculations as completed; the remaining gate is the rank upper bound and
+  its logical composition.

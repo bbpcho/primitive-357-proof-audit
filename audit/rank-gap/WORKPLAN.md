@@ -3,6 +3,15 @@
 This is the concrete working queue for closing the only gate that currently
 blocks theorem-level publication.
 
+## Corrected current state
+
+The V3 and post-V3 work has already completed the saturation calculations and
+both split-23 logarithm reconstructions.  They remain in this plan as immutable
+regression and consumption gates, not as open construction tasks.  The open
+mathematical task is the Mordell--Weil rank upper bound and the proof that its
+output combines with the known lower bound and saturation results to justify
+the exact group statement used downstream.
+
 ## Frozen starting points
 
 The V3 foundational driver is tracked at
@@ -51,17 +60,19 @@ map from its carrier signs to the two quotient coordinates.
 Output: full local-to-global dimension ledger, theorem hypotheses, and two
 independent decisions.
 
-### R4 — Torsion and saturation
+### R4 — Torsion and saturation (completed calculation)
 
-Audit torsion and every prime that can divide the index of the displayed
-subgroup.  State separately what the Section 7 mod-2 Kummer witness proves and
-what comes from other computations.
+Preserve and regression-check the completed torsion/saturation calculation.
+State separately what the Section 7 mod-2 Kummer witness proves and what comes
+from other computations.  Its use in a full generation statement remains
+conditional on R3.
 
-Output: prime-by-prime saturation ledger and generation conclusion.
+Output: the completed prime-by-prime saturation ledger and its exact bounded
+consequence; the final rank composition belongs to R3 and R6.
 
-### R5 — Both split-23 logarithm branches
+### R5 — Both split-23 logarithm branches (completed)
 
-Rebuild every column from upstream class data.  The s=4 D4 column must traverse
+Replay every column from upstream class data.  The s=4 D4 column traverses
 the B124 tensor, scalar-75, formal-chart, and integration chain rather than
 loading the saved D4 log as an unexplained premise.
 
@@ -87,6 +98,7 @@ first failed implication.
 
 ## Order
 
-Run R1 first.  R2 and R3 may then proceed independently.  R4 consumes both.
-R5 can run in parallel with R2--R4 at the evidence level, but it becomes
-load-bearing only after R4.  R6 consumes R4 and R5.  R7 is last.
+Run R1 first.  R2 and R3 may then proceed independently.  R4 and R5 are
+completed frozen inputs and should be regression-checked, not redesigned.  R6
+consumes the conclusion of R3 together with those completed inputs.  R7 is
+last.

@@ -23,14 +23,19 @@ The six large immutable archives are listed in `evidence/assets.json` and
 python3 -B scripts/verify_assets.py --assets-dir /path/to/downloads
 ```
 
+The p=5 obstruction dependency closure is attached to this prerelease.  The
+remaining listed archives are checksum-pinned but not yet attached.
+
 ## Current result
 
 Repository integrity, archive identity, and paper compilation pass.  The V3
 clean-extraction replay is preserved.  The p=5 and B124/D4 provenance gaps now
 have closed replay packages.
 
-The mathematical Mordell--Weil rank/generation audit remains open.  Therefore
-this is deliberately a prerelease audit snapshot, not a claim that the final
-proof has been independently completed.
+The saturation and split-23 logarithm calculations are complete at the current
+evidence boundary.  The mathematical Mordell--Weil rank upper-bound and
+composition audit remains open.  Therefore this is deliberately a prerelease
+audit snapshot, not a claim that the final proof has been independently
+completed.
 
 See `docs/RANK_GAP.md` for the exact completion gates.

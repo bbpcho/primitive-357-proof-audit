@@ -49,6 +49,8 @@
       "sha256": "03f3bfe077372275e570dd2541c033ba9a3c0701c80fecadfe1b575f3991d6eb",
       "bytes": 149934212,
       "source_path_from_workspace": "results/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/audit-2026-09-13.1",
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
       "role": "target-42, contact, cocycle, and p=5 obstruction dependency closure",
       "audit_state": "packaged_pending_independent_audit"
     },
@@ -59,7 +61,7 @@
       "bytes": 41653573,
       "source_path_from_workspace": "results/2026-09-13_p23_B124_D4_upstream_reconstruction_package_v1.zip",
       "role": "B124 tensors, 75D class, formal chart, and D4 logarithm upstream reconstruction",
-      "audit_state": "packaged_pending_independent_audit"
+      "audit_state": "completed_replay_current_evidence_boundary"
     }
   ]
 }

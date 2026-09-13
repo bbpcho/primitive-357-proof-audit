@@ -18,26 +18,26 @@
     {
       "id": "R3",
       "name": "selmer_rank_upper_bound_with_p5_closure",
-      "state": "not_started",
+      "state": "open_load_bearing_gate",
       "depends_on": ["R1"]
     },
     {
       "id": "R4",
-      "name": "torsion_saturation_and_generation",
-      "state": "not_started",
-      "depends_on": ["R2", "R3"]
+      "name": "torsion_and_saturation_regression_and_rank_composition",
+      "state": "pass_current_evidence_boundary_composition_waits_for_R3",
+      "depends_on": []
     },
     {
       "id": "R5",
       "name": "two_branch_global_log_reconstruction_with_b124_d4",
-      "state": "not_started",
-      "depends_on": ["R1"]
+      "state": "pass_current_evidence_boundary",
+      "depends_on": []
     },
     {
       "id": "R6",
       "name": "downstream_sieve_and_local_gate_consumption",
-      "state": "not_started",
-      "depends_on": ["R4", "R5"]
+      "state": "blocked_by_R3",
+      "depends_on": ["R3", "R4", "R5"]
     },
     {
       "id": "R7",

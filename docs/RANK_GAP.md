@@ -15,6 +15,19 @@ mathematical correction.  Passing programs alone is not enough: the audit must
 show why the computed group controls every rational divisor class used by the
 argument.
 
+## Current boundary
+
+The saturation computations and both split-23 logarithm reconstructions are
+complete at the current V3/post-V3 evidence boundary.  In particular, the
+B124 tensor lift, the two computations of 75D, the formal-chart decoder, and
+the D4 logarithm are no longer missing.  These stages should be replayed as
+regression checks, not listed as unsolved mathematics.
+
+The remaining rank gap is the clean proof of the Mordell--Weil upper bound and
+the exact logical composition that turns the four known independent classes,
+the completed saturation data, and the Selmer calculation into the group
+statement used by the sieve and Chabauty argument.
+
 ## Required theorem statement
 
 Before computation, the rank audit must name:
@@ -55,7 +68,7 @@ No verifier should infer a stronger group statement from a rank matrix alone.
 - Prove that the computed object bounds the stated Mordell--Weil rank; identify
   every general theorem used and verify its hypotheses.
 
-### 4. Torsion and saturation
+### 4. Torsion and saturation — completed calculation, composition retained
 
 - Determine the torsion subgroup used by the argument.
 - Prove the required index statement for the displayed rank-four subgroup.
@@ -64,7 +77,7 @@ No verifier should infer a stronger group statement from a rank matrix alone.
 - Retain the independent finite-field Kummer witness, while making clear which
   part of generation it proves and which parts remain imported.
 
-### 5. Global logarithm reconstruction
+### 5. Global logarithm reconstruction — completed regression gate
 
 - Recompute all four logarithm columns at both split-23 places from their
   upstream divisor classes.

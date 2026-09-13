@@ -6,7 +6,7 @@
   "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
   "github_visibility": "private",
   "current_candidate": "V3 manuscript plus post-V3 dependency closures",
-  "blocking_gate": "independent Mordell-Weil rank, generation, and downstream-consumption reconstruction",
+  "blocking_gate": "independent Mordell-Weil rank upper-bound reconstruction and composition with completed saturation/logarithm evidence",
   "rank_workplan": "audit/rank-gap/gates.json",
   "gates": [
     {
@@ -42,14 +42,26 @@
     {
       "id": "b124_d4_upstream_reconstruction",
       "mandatory": true,
-      "state": "packaged_pending_independent_audit",
+      "state": "pass_at_current_evidence_boundary",
       "asset": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1"
     },
     {
-      "id": "mordell_weil_rank_and_generation",
+      "id": "mordell_weil_rank_upper_bound_and_composition",
       "mandatory": true,
       "state": "open",
       "completion_contract": "docs/RANK_GAP.md"
+    },
+    {
+      "id": "saturation_calculations",
+      "mandatory": true,
+      "state": "pass_at_current_evidence_boundary",
+      "evidence": "audit/upstream-v2-review/v2_basis_repair"
+    },
+    {
+      "id": "split_23_global_logarithms",
+      "mandatory": true,
+      "state": "pass_at_current_evidence_boundary",
+      "asset": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1"
     },
     {
       "id": "final_theorem_composition",

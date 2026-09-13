@@ -46,6 +46,10 @@ legible without weakening dependency closure.
 The repository verifier checks the index itself.  `verify_assets.py` checks
 the actual downloaded files.
 
+The p=5 closure is attached to the private prerelease
+`audit-2026-09-13.1`.  Its direct URL is recorded in `evidence/assets.json`;
+GitHub authentication is required while the repository remains private.
+
 ## Immutable and working layers
 
 Released evidence is immutable.  Repairs create a new package and a new

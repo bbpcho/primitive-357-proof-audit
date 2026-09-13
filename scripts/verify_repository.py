@@ -53,7 +53,9 @@ def verify_status() -> None:
     assert status["proof_complete"] is False
     assert status["public_proof_release_authorized"] is False
     gates = {gate["id"]: gate for gate in status["gates"]}
-    assert gates["mordell_weil_rank_and_generation"]["state"] == "open"
+    assert gates["mordell_weil_rank_upper_bound_and_composition"]["state"] == "open"
+    assert gates["saturation_calculations"]["state"].startswith("pass_")
+    assert gates["split_23_global_logarithms"]["state"].startswith("pass_")
     assert gates["final_theorem_composition"]["state"] == "blocked_by_rank_gate"
     assert gates["public_proof_release"]["state"] == "blocked"
 
