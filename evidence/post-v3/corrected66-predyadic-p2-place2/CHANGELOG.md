@@ -16,3 +16,23 @@ upstream dependency chains.
   replay.
 - Preserved all historical artifacts unchanged; this is a new closure, not a
   repair in place.
+
+## Packaging repairs found by clean replay
+
+- Replaced an initial, incorrect byte-identity claim for the two 18-row text
+  files with the stronger relevant statement: they parse to the exact same
+  18-by-66 integer matrix.  Their distinct frozen hashes and the downstream
+  GP read/write provenance are now explicit.
+- Made the global-column replay compare every regenerated matrix and all 16
+  components of the GP checkpoint semantically, then restore the frozen text
+  serialization before replaying the historical hash certificate.  This
+  handles GP's environment-sensitive whitespace/binary serialization without
+  weakening the arithmetic comparison.
+- Moved the regenerated second-dyadic checkpoint inside the clean extraction
+  after its producer correctly rejected an output path outside the extracted
+  repository.
+- During diagnosis, one rebuild was mistakenly launched from the workspace
+  root and temporarily reserialized 74 historical global-replay outputs.
+  They were immediately restored from the pre-existing exact package snapshot.
+  All 74 contents, including checkpoint and certificate, were then rehashed
+  to their original manifest-bound identities before the final archive build.
