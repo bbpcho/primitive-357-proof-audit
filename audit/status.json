@@ -5,6 +5,7 @@
   "public_proof_release_authorized": false,
   "current_candidate": "V3 manuscript plus post-V3 dependency closures",
   "blocking_gate": "independent Mordell-Weil rank, generation, and downstream-consumption reconstruction",
+  "rank_workplan": "audit/rank-gap/gates.json",
   "gates": [
     {
       "id": "paper_build",

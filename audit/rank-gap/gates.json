@@ -1,0 +1,50 @@
+{
+  "schema": "primitive_357_rank_gap_workplan_v1",
+  "overall_state": "open",
+  "promotion_target": "independently_audited_rank4_generation_and_downstream_consumption",
+  "packages": [
+    {
+      "id": "R1",
+      "name": "theorem_interface_and_dependency_graph",
+      "state": "not_started",
+      "depends_on": []
+    },
+    {
+      "id": "R2",
+      "name": "four_class_rank_lower_bound",
+      "state": "not_started",
+      "depends_on": ["R1"]
+    },
+    {
+      "id": "R3",
+      "name": "selmer_rank_upper_bound_with_p5_closure",
+      "state": "not_started",
+      "depends_on": ["R1"]
+    },
+    {
+      "id": "R4",
+      "name": "torsion_saturation_and_generation",
+      "state": "not_started",
+      "depends_on": ["R2", "R3"]
+    },
+    {
+      "id": "R5",
+      "name": "two_branch_global_log_reconstruction_with_b124_d4",
+      "state": "not_started",
+      "depends_on": ["R1"]
+    },
+    {
+      "id": "R6",
+      "name": "downstream_sieve_and_local_gate_consumption",
+      "state": "not_started",
+      "depends_on": ["R4", "R5"]
+    },
+    {
+      "id": "R7",
+      "name": "clean_composition_dual_audit_and_manuscript_update",
+      "state": "not_started",
+      "depends_on": ["R6"]
+    }
+  ],
+  "release_rule": "overall_state must be pass before proof_complete may become true"
+}

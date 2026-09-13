@@ -27,6 +27,7 @@ open mathematical interface into a theorem.
 
 - [Current proof status](docs/PROOF_STATUS.md)
 - [Exact rank-gap completion contract](docs/RANK_GAP.md)
+- [Rank reconstruction workplan](audit/rank-gap/WORKPLAN.md)
 - [Evidence and release-asset model](docs/EVIDENCE.md)
 - [Release procedure](docs/RELEASE_PROCESS.md)
 - [GitHub publication handoff](docs/GITHUB_SETUP.md)
