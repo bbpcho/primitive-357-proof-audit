@@ -29,6 +29,7 @@ open mathematical interface into a theorem.
 - [Exact rank-gap completion contract](docs/RANK_GAP.md)
 - [Evidence and release-asset model](docs/EVIDENCE.md)
 - [Release procedure](docs/RELEASE_PROCESS.md)
+- [GitHub publication handoff](docs/GITHUB_SETUP.md)
 - [Decision log](docs/DECISION_LOG.md)
 - [Current manuscript](paper/manuscript.tex)
 - [Compiled V3 manuscript](paper/manuscript-v3.pdf)
