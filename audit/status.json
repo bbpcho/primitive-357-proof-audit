@@ -1,0 +1,64 @@
+{
+  "schema": "primitive_357_audit_status_v1",
+  "as_of": "2026-09-13",
+  "proof_complete": false,
+  "public_proof_release_authorized": false,
+  "current_candidate": "V3 manuscript plus post-V3 dependency closures",
+  "blocking_gate": "independent Mordell-Weil rank, generation, and downstream-consumption reconstruction",
+  "gates": [
+    {
+      "id": "paper_build",
+      "mandatory": true,
+      "state": "pass",
+      "evidence": "evidence/control-plane-v3/logs/PAPER_COMPILE_V3.log"
+    },
+    {
+      "id": "v3_dependency_integrity",
+      "mandatory": true,
+      "state": "pass",
+      "evidence": "evidence/control-plane-v3/manifests/PRIMITIVE_357_DEPENDENCY_CLOSED_RELEASE_V3_SHA256SUMS.txt"
+    },
+    {
+      "id": "clean_extraction_replay",
+      "mandatory": true,
+      "state": "pass_at_v3_boundary",
+      "evidence": "evidence/control-plane-v3/logs/CLEAN_EXTRACTION_COMPLETE_REPLAY_V3.log"
+    },
+    {
+      "id": "hecke_ambient_coverage",
+      "mandatory": true,
+      "state": "pass_at_certificate_boundary",
+      "evidence": "evidence/control-plane-v3/HECKE_AMBIENT_COVERAGE_V3.md"
+    },
+    {
+      "id": "p5_obstruction_dependency_closure",
+      "mandatory": true,
+      "state": "packaged_pending_independent_audit",
+      "asset": "P5_LITERAL_C_OBSTRUCTION_DEPENDENCY_CLOSURE_V1"
+    },
+    {
+      "id": "b124_d4_upstream_reconstruction",
+      "mandatory": true,
+      "state": "packaged_pending_independent_audit",
+      "asset": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1"
+    },
+    {
+      "id": "mordell_weil_rank_and_generation",
+      "mandatory": true,
+      "state": "open",
+      "completion_contract": "docs/RANK_GAP.md"
+    },
+    {
+      "id": "final_theorem_composition",
+      "mandatory": true,
+      "state": "blocked_by_rank_gate"
+    },
+    {
+      "id": "public_proof_release",
+      "mandatory": true,
+      "state": "blocked"
+    }
+  ],
+  "permitted_release_label": "audit snapshot",
+  "forbidden_release_label_until_closed": "complete proof"
+}

@@ -1,0 +1,4 @@
+SECTOR=irreducible-septic-sector
+COMMAND=/release/scripts/portable_python.py -B /release/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/scripts/verify_irreducible_degree7_sector_closure_v1.py
+EXIT=0 WALL_SECONDS=94.864478
+IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE=PASS_EXACT_PUTZ_SEVEN_FIELDS_PURE_RATIONAL_PARAMETER_AND_EXCEPTIONAL_Q29 DEPENDENCY_ROWS=46 OWN_ROWS=5 DEEP_REPLAY=0

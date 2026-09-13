@@ -1,0 +1,5 @@
+# Preserve imported audit and replay bytes exactly, including historical spacing.
+audit/upstream-v2-review/*.patch -whitespace
+evidence/control-plane-v3/V3_RELEASE_AUDIT.md -whitespace
+evidence/control-plane-v3/logs/** -whitespace
+evidence/post-v3/*/logs/** -whitespace

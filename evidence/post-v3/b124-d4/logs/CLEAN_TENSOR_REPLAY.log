@@ -1,0 +1,15 @@
+REPLAY_RECORD=COMPLETED_CLEAN_STAGE_RECOVERED_AFTER_LATER_WRAPPER_MARKER_MISMATCH
+ORIGINAL_WORKSPACE_USED=false
+STAGE=build_p23_B124_padic_tensor_lift_v1.sage EXIT=0
+PADIC_TENSOR_START degree=4 rows=122
+PADIC_TENSOR_DONE degree=4 elapsed=28.764
+PADIC_TENSOR_START degree=5 rows=188
+PADIC_TENSOR_DONE degree=5 elapsed=199.059
+PADIC_TENSOR_START degree=6 rows=510
+PADIC_TENSOR_DONE degree=6 elapsed=766.012
+PADIC_TENSOR_START degree=7 rows=392
+PADIC_TENSOR_DONE degree=7 elapsed=1346.242
+P23_B124_PADIC_TENSOR_STATUS=PASS_EXACT_PRODUCT_TENSOR_LIFT_MOD_23_POWER_8_AND_10
+cache={"bytes": 1069343, "path": "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/evidence/p23_B124_padic_tensors_mod23power10_v1.sobj", "sha256": "61d372b97f19a9b71306a7b0cb07ea83aba7d6f4c0b9fe05762ed9dc4267377f"}
+INVARIANT_CERTIFICATE_COMPARISON=PASS
+NOTE=The regenerated Sage serialization was mathematically exact but byte-nondeterministic; the sealed historical cache was restored before the scalar replay.

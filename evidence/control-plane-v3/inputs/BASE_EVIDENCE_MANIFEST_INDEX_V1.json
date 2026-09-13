@@ -1,0 +1,455 @@
+{
+  "claim_boundary": "computer-assisted proof candidate pending independent specialist review",
+  "date": "2026-09-11",
+  "geometry_supplement": [
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.py",
+      "sha256": "de3b8e28368510cdc18abc5dae9c3310b793b616ea8a15278f25c25ace6acaf7"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.log",
+      "sha256": "be7314f90f8de78ddc1e29b3bef9e4bd38efa8297fcaeda90192291e4c624e1f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.py",
+      "sha256": "dd93bdb302ab4adc0d9b731c73dda488402016a5ddf78e816bdb8d73aa38bda9"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.log",
+      "sha256": "90ab4a139f38bbf065aabe938d6f565775fab018f9cff7a8f8c46aeb7071a591"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_modular_canonical.py",
+      "sha256": "74c25e4666cbf6c3480ff12d35e49963ba334453ba6e978cd4ee1f7797a7a68f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_reconstruct.py",
+      "sha256": "de419d8d76af78fcf19a414642d993aa940715e3f4b45dfc490bd606d9549005"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_exact.json.gz",
+      "sha256": "1252327a057029dd0ff0f6347f848be88794842afa742503a6c179f683087739"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent.json.gz",
+      "sha256": "37b29f8fbbeee053432a87d442a6be0a7722eba2c24e75083ebe42625f9c39d1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.py",
+      "sha256": "c71f094867f544fa0e8c79ad6919cd0803328f9bd7e3c10c7c0efb8df3f1b028"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.log",
+      "sha256": "09453e357413df6991a9269e980cfb102cac4076ef1e8c27bc096e6d5d857fc9"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_sage.sage",
+      "sha256": "fc779e5a3af1e85564fd284b615e978ad8c19359caaddbd8df5eed4d99fc4d5d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_local.sage",
+      "sha256": "6747d5fb1552e4ca6ea21cb284ec3503844f9566b3d2c839be963801c4feee04"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_local_factor_certificate.py",
+      "sha256": "041f13d71d96b4a0d274e10b8aa069f8c42c815ce4387af1f4a5dc3628baf5b1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_local_factor_certificate.log",
+      "sha256": "eece024c02a591720ed6ae64190dc56d84c439d659ef9086d3427d47595753bb"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_jacobian.sage",
+      "sha256": "18fac34fd86a6c4829098658699728e2b56ac006248be73d99c1e62d1858f918"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_jacobian_p23.log",
+      "sha256": "4e5fe8cc5e71d7691f907442af6ebd63fc301fccc555f670d2fd32181887d597"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_jacobian_p43.log",
+      "sha256": "72297829e11a8bb12cc5b1770a8c9390f3d1c41db25d0b442479af96d3e96beb"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_rank2_certificate.py",
+      "sha256": "da6db5be6968dbb1061a1c02ce07c587af90bfb656d03953caf5dffd91fa8dfd"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_rank2_certificate.json",
+      "sha256": "3049e6564a101973980c00225ac737011e980fabb3cdd213bba0c226e19a7383"
+    }
+  ],
+  "manifest_count": 52,
+  "manifests": [
+    {
+      "base": "repository",
+      "path": "results/2026-08-26_corrected_quotient_coordinates/manifests/CORRECTED_HNF22_KNOWN_POINT_LITERAL_C_COMPLEMENT_THEOREM_V1_SHA256SUMS.txt",
+      "rows": 22,
+      "sha256": "e07d74eab048a560562c6cdd6fc4f0389e15b9a19a3709e129fd03eafdc1df0a",
+      "strictly_sorted": false
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-08-26_t_odd_odlyzko_downstream_implication_replay_v1/manifests/T_ODD_DOWNSTREAM_IMPLICATION_REPLAY_V1_SHA256SUMS.txt",
+      "rows": 15,
+      "sha256": "11969ffe15e5daf6ef5926338ea08fac6205e4dfdae3a7d6117a98d0aaa761c4",
+      "strictly_sorted": false
+    },
+    {
+      "base": "package",
+      "path": "results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1/manifests/T21_ODLYZKO_EXACT_LOCAL_CORRECTION_CERTIFICATE_V1_SHA256SUMS.txt",
+      "rows": 15,
+      "sha256": "4c987f2eb0c3cfd2cf4cf4295a0361545feb7f38f04cad367c5ca9d58ab236d5",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1_independent_adversarial_audit/manifests/INDEPENDENT_ADVERSARIAL_T21_ODLYZKO_EXACT_LOCAL_CERTIFICATE_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 18,
+      "sha256": "a08149ac90d2e616d3fcb97c0f0540d640637c92e6709d74e6e25175558ba201",
+      "strictly_sorted": false
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-08-26_v2r10_conditional_selmer_rank_integration_audit1/manifests/INDEPENDENT_FUTURE_V2R10_CONDITIONAL_SELMER_RANK_INTEGRATION_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 21,
+      "sha256": "fea916e6c9466349a14ea6aee61e30d4e253968724a5e98288c9c76119191be1",
+      "strictly_sorted": false
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-08-30_p7_f42_exact_five_saturation_repair_v1/manifests/P7_F42_EXACT_FIVE_SATURATION_REPAIR_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "9d4067f2d0546ae6a841322ac1263a61c1e0418513f78940cf39440febb8fb21",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-06_p23_local_log_saturation_v1/manifests/P23_LOCAL_LOG_SATURATION_THEOREM_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "64538e0f58faa2cc3065364820bbebd5fc55113175f9acfaf8fe8b333c3dc542",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-07_five_place_source_preimage_direct_verification_v1/manifests/UNCONDITIONAL_TRUE_2_SELMER_AND_RANK4_THEOREM_V1_SHA256SUMS.txt",
+      "rows": 17,
+      "sha256": "b4f1e4bafe67aad25f82a2ca234f7bec97948530560318a4b7f6822b5d4932d6",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_even_irreducible_cm_projector_elimination_v1/manifests/EVEN_IRREDUCIBLE_CM_PROJECTOR_ELIMINATION_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "e57feafb34fcc278d40dff6e26ae52b974cb013d4b845c773c8d11e824bd5867",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_even_irreducible_p7_ordinarity_projector_v1/manifests/EVEN_IRREDUCIBLE_P7_ORDINARITY_PROJECTOR_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "310912a3eb3613622e3ae55db60846755617cd43cf519d1197ab873f9db13f50",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_hilbert_hecke_packet_replay_audit_v1/manifests/HILBERT_HECKE_PACKET_REPLAY_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "87571bbbcb9c66222a7e9fb23d1a5d2b899ce21586e27bb8076d8a8c16ad884f",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_mixed_rational_t_signature_357_closure_v1/manifests/MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_V1_SHA256SUMS.txt",
+      "rows": 7,
+      "sha256": "67ebb77e814f40ccd0fc29851754589c68d0bf61d0444e5f6d4b7fff71f71fa7",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_odd_cm_boundary_case_projector_gap_v1/manifests/ODD_CM_BOUNDARY_CASE_PROJECTOR_GAP_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "932172ae62cc984fde8286ba075b838c761a9232d25712ae3cfe9eaaa594dee2",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_odd_packet_cm_join_audit_v1/manifests/ODD_PACKET_EXCEPTIONAL_INTERFERENCE_Q17_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "ba24279479cfd819c626da72e0ee451b83bb105ee476c727205ee9310e1e1ce9",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_odd_s2_exceptional_s7_projector_v1/manifests/ODD_S2_EXCEPTIONAL_S7_PROJECTOR_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "c932865010dc0ca35957df25672881d56c82dfd59809afefff6db38626e4e73a",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_putz_19_field_joint_projector_exploration_v1/manifests/PUTZ_19_FIELD_JOINT_PROJECTOR_COVER_V1_SHA256SUMS.txt",
+      "rows": 7,
+      "sha256": "54e0faae39499cfe5ad0ba3cd40f2546996254b7f4ce07a7eb29ed9229320108",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/manifests/PUTZ_DEGREE7_F42_PROJECTOR_BRIDGE_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "ab840000e83b017e5f67bff1d81cae2789b22cab1c147dcc89402295d3ebac20",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_putz_hunter_corrected_enumeration_v1/manifests/PUTZ_HUNTER_CORRECTED_ENUMERATION_V1_SHA256SUMS.txt",
+      "rows": 9,
+      "sha256": "d20ca7656ada2f06c75ea84bcc7af83f57be471192c14d968fdfe5e6cc0915ec",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/manifests/REDUCIBLE_MOD7_Q41_EXCEPTIONAL_INTERFERENCE_V1_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "2e3489bf317e85a250607ddf7583814665b383e06ba8639d6dba96543b869bb9",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_reducible_mod7_static_state_projector_v1/manifests/REDUCIBLE_MOD7_STATIC_STATE_PROJECTOR_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "d7731e02eb06adf3c0fb141f65c22719d02f63f5b3804352c9ffc0eeb59a0409",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/manifests/SIGNED_DS_BRANCH_LOCAL_PATTERN_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "55ecc0bf11a12aa4c9d3c5cb77fd078fe657246baae193c3e864075b304348e3",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "72a6625a0ff093a0f6f5f11d266e94c2a1e0adacc2cb93e22d804cb52ad6ff07",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V7_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "3e5d68aeeb389236ee5569c1bb849bb60843b8169eba0a35ec526a3a9df9f971",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-08_static_projector_interface_stress_audit_v1/manifests/STATIC_PROJECTOR_INTERFACE_STRESS_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "52fe3031a169cb22bef2d648f0ecf3efe83d410c006ddfa95a4d643ddce77d20",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_p109_km_c25_independent_replay_v1/manifests/P109_KM_C25_INDEPENDENT_REPLAY_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "42e0aafe76e08856628e57ce0f690b255baa0f30052342fcf4329fdce1fba9ea",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/manifests/PUTZ_HUNTER_CLOSED_INTERVAL_COMPLETENESS_REPAIR_V2_SHA256SUMS.txt",
+      "rows": 7,
+      "sha256": "48507dcfd70532c5ea8285121d07c0cbcf9a10666141143557ee87800780d839",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/manifests/PUTZ_HUNTER_FINITE_STATE_PROJECTOR_INVARIANT_V4_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "d22f4862e2b7cb86400c6d9a02ad87487f57bfbaf7d5d4d23b13a8ca6923c628",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/manifests/PUTZ_HUNTER_STATIC_STATE_SPACE_COMPLETENESS_REPAIR_V3_SHA256SUMS.txt",
+      "rows": 8,
+      "sha256": "27a8a2621ddb463ba80bbd43376f6c28bf6ce7dae1a68b83d12d89e3a9e2d7d3",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_hunter_local_algebra_covering_v6/manifests/PUTZ_HUNTER_LOCAL_ALGEBRA_COVERING_V6_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "7de45048ea5c86aed9bc4093e74d08248f232d4c1dfe6cd90d0c339b960bb91a",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/manifests/PUTZ_HUNTER_LOCAL_TSCHIRNHAUS_SUPPORT_V5_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "f5b99f80246c6a53479502233a4cdb8186d460e77df91526785860be6ad57091",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/manifests/PUTZ_TARGETED_HUNTER_SPECTRAL_BOUND_AUDIT_V7_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "c37b37783eaf7f520ef4cadb2837204b916e46e8fbb54c01308961761e49832d",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/manifests/PUTZ_THEOREM350_LOCAL_FILTER_INDEPENDENT_RECONSTRUCTION_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "f7d2c1dd50b61f616d81d58d9acfff861779ec497d4decf9eb176750057076ad",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/manifests/QUADRATIC_FACTOR_2_5_RECONSTRUCTION_V1_SHA256SUMS.txt",
+      "rows": 12,
+      "sha256": "400a746ed5f1ed605bbd0eab5f85872c763622f03326d5b85d8725d128170d91",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_quadratic_factor_router_2_5_v1/manifests/QUADRATIC_FACTOR_ROUTER_2_5_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "e59023e024525569432a79afc1339af5e5b5868fe896f6956b35fe3b63004faf",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_rational_factor_local_lemma_6_8_v1/manifests/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "75c2114b47f457c33374423c62f4ffee853b833a7faed4de24b244f274ba18be",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_rational_factor_mw_basis_attack_v1/manifests/RATIONAL_FACTOR_MW_BASIS_CHECKPOINT_V1_SHA256SUMS.txt",
+      "rows": 13,
+      "sha256": "e3b365f2673e30621bfb06d6037d6bd0860d2e4ca6fcc2326a5d9d2e510cb903",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_rational_factor_static_sieve_v1/manifests/RATIONAL_FACTOR_STATIC_SIEVE_V1_SHA256SUMS.txt",
+      "rows": 9,
+      "sha256": "d943decef302cf81498ee217ce3e4492ac6d2428022600892a73da6e319c1329",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_rational_t_projector_stress_audit_v1/manifests/RATIONAL_T_PROJECTOR_STRESS_AUDIT_V1_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "d4535bfc003e71b9a685c1c23f466fba43ad543499697f935a8a844df9527dde",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_signed_global_algebra_superselection_audit_v8/manifests/SIGNED_GLOBAL_ALGEBRA_SUPERSELECTION_AUDIT_V8_SHA256SUMS.txt",
+      "rows": 3,
+      "sha256": "badf0fedb6d47631ed11e75d81dfedbf1c68945510f022f89c9f55f913b0a1f3",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V10_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "2e01a880b5473b53911f7a3e186dca5bb020f266b7eefcafe646561e417856ba",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V13_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "d2afbfd1b8031e52918a9afe0fac8d937e899bad8be743f085c66a34febad5c2",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V14_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "d0a97afa204892286e3fd542c3de528718db7f91783282093906ed52b77d481a",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V15_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "30aee196b518b2679c8fc21aa2f7168d4c50236bdc765beb468cd0d4adca39f5",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V8_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "f4cf3eb725d681dda102f7cffb06ed80d30d6bcc4e9b68523e5269d6cef70980",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V9_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "363bffb39b80e64e2e1a09a679fc1a2a40ce373494929764c8b9c47c9fd8efee",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-09_static_projector_seven_field_q29_compression_v1/manifests/SEVEN_FIELD_SINGLE_Q29_SPECTRAL_COMPRESSION_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "1388a692c4add3ba9f7ba22f2ac88943b8810e24ec7047a2ca6e796745e97d49",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-10_complete_primitive_357_proof_v3/manifests/COMPLETE_PRIMITIVE_357_PROOF_V3_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "6aa2598126c4234327b3b6d76d466256b2ed0069e01670d7e04e10d6a24aa0fe",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-10_irreducible_degree7_sector_closure_v1/manifests/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_V1_SHA256SUMS.txt",
+      "rows": 5,
+      "sha256": "29c0177de31b16b8d1eedfb6bbc51e8d29720d319accf515ffbd5b3c7e1c9ccf",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-10_pvt_putz_interface_audit_v2/manifests/PVT_PUTZ_INTERFACE_AUDIT_V2_SHA256SUMS.txt",
+      "rows": 6,
+      "sha256": "f109b98b6fc61eb08af0076058e6fbab17e27caabbc68864e63d58c4c20e94c3",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-10_rational_factor_proposition_6_1_composition_v2/manifests/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2_SHA256SUMS.txt",
+      "rows": 10,
+      "sha256": "3db5bf02154c44b8043ea8ee47d3d4805b44a85aa6563e90a0047723114027d8",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/manifests/SECTION7_PROPOSITION_7_1_CLOSURE_V2_SHA256SUMS.txt",
+      "rows": 4,
+      "sha256": "caeebe2c9bb74976dc249387cc20b6b9eca893bc74539d7902840d1034255216",
+      "strictly_sorted": true
+    },
+    {
+      "base": "repository",
+      "path": "results/2026-09-11_primitive_357_fresh_paper/manifests/PRIMITIVE_357_FRESH_PAPER_SHA256SUMS.txt",
+      "rows": 3,
+      "sha256": "51af857b256e15fb646e1cb11430ee41bdfbefc7a2ecc8bd9642570b104536b7",
+      "strictly_sorted": true
+    }
+  ],
+  "paper_manifest": "results/2026-09-11_primitive_357_fresh_paper/manifests/PRIMITIVE_357_FRESH_PAPER_SHA256SUMS.txt",
+  "repository_byte_count": 101122578,
+  "repository_file_count": 425,
+  "schema": "primitive_357_paper_release_evidence_index_v1",
+  "theorem": "There are no nonzero primitive integers x,y,z with x^3+y^5=z^7.",
+  "top_composition_manifest": "results/2026-09-10_complete_primitive_357_proof_v3/manifests/COMPLETE_PRIMITIVE_357_PROOF_V3_SHA256SUMS.txt"
+}

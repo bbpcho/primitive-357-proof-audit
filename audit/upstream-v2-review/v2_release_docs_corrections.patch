@@ -1,0 +1,32 @@
+--- a/PROGRAMS_AND_CERTIFICATES.md
++++ b/PROGRAMS_AND_CERTIFICATES.md
+@@ -9,7 +9,7 @@
+     anc/PRIMITIVE_357_REPRODUCIBILITY_V2.tar.gz
+ 
+ The archive preserves the original repository-relative paths.  It contains
+-646 evidence files, including 191 mathematical program sources:
++649 evidence files, including 191 mathematical program sources:
+ 
+ - 133 Python programs;
+ - 21 PARI/GP programs;
+@@ -38,7 +38,7 @@
+     python3 -B scripts/verify_dependency_closed_release.py
+ 
+ The last command uses only Python's standard library.  It verifies the root
+-manifest, the exact 646-file repository closure, all 369 rows of the original
++manifest, the exact 649-file repository closure, all 369 rows of the original
+ 52-manifest evidence base, the explicit added-dependency index, and the
+ complete four-sector proof graph.  It should finish quickly.
+ 
+@@ -203,8 +203,9 @@
+ - `summaries/*`: human-readable reports;
+ - `manifests/*SHA256SUMS.txt`: cryptographic bindings for packages.
+ 
+-The release deliberately does not redistribute published papers.  General
+-theorems imported from Dahmen--Siksek, Putz, Pacetti--Villagra Torcomian,
++The release includes checksum-pinned copies of the Putz thesis, the PVT
++preprint, and the earlier composition review in repository/references/.
++General theorems imported from Dahmen--Siksek, Putz, Pacetti--Villagra Torcomian,
+ Breuil--Diamond, Flynn, Bruin--Poonen--Stoll, Siksek, and Bruin--Stoll remain
+ bibliographic dependencies.  The bundled programs certify the
+ project-specific finite calculations; they do not purport to reprove those

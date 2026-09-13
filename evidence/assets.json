@@ -1,0 +1,65 @@
+{
+  "schema": "primitive_357_release_asset_index_v1",
+  "hash_algorithm": "sha256",
+  "publication": {
+    "storage": "GitHub release assets",
+    "ordinary_git_objects": false,
+    "reason": "large immutable evidence archives"
+  },
+  "assets": [
+    {
+      "id": "PRIMITIVE_357_REPRODUCIBILITY_V3",
+      "filename": "PRIMITIVE_357_REPRODUCIBILITY_V3.tar.gz",
+      "sha256": "99ef2fa0466277092ed39570748870648c08c596a68ecb50f55cfc5d59107f26",
+      "bytes": 262784980,
+      "source_path_from_workspace": "results/2026-09-13_primitive_357_arxiv_release_v3/anc/PRIMITIVE_357_REPRODUCIBILITY_V3.tar.gz",
+      "role": "complete V3 dependency-closed reproducibility archive",
+      "audit_state": "sealed_v3"
+    },
+    {
+      "id": "PRIMITIVE_357_ARXIV_UPLOAD_WITH_PROGRAMS_V3_ZIP",
+      "filename": "PRIMITIVE_357_ARXIV_UPLOAD_WITH_PROGRAMS_V3.zip",
+      "sha256": "6556c9135681d9d21327ca232dcaabf1184db79dbfba4b944f1b521df49695c7",
+      "bytes": 259522879,
+      "source_path_from_workspace": "results/2026-09-13_primitive_357_arxiv_release_v3/PRIMITIVE_357_ARXIV_UPLOAD_WITH_PROGRAMS_V3.zip",
+      "role": "V3 arXiv source plus companion archive",
+      "audit_state": "sealed_v3"
+    },
+    {
+      "id": "PRIMITIVE_357_ARXIV_UPLOAD_WITH_PROGRAMS_V3_TGZ",
+      "filename": "PRIMITIVE_357_ARXIV_UPLOAD_WITH_PROGRAMS_V3.tar.gz",
+      "sha256": "a5fae5dac1ece532a3c08507a96fdc78ed78e93e17b7ae7200ca23e1ae12a466",
+      "bytes": 259521866,
+      "source_path_from_workspace": "results/2026-09-13_primitive_357_arxiv_release_v3/PRIMITIVE_357_ARXIV_UPLOAD_WITH_PROGRAMS_V3.tar.gz",
+      "role": "tar form of the V3 arXiv source plus companion archive",
+      "audit_state": "sealed_v3"
+    },
+    {
+      "id": "PRIMITIVE_357_PAPER_AND_RELEASE_GUIDE_V3",
+      "filename": "PRIMITIVE_357_PAPER_AND_RELEASE_GUIDE_V3.zip",
+      "sha256": "3b89c5a42b9fa0eaae4e6a33c892ab72730bc88ac04d748c08010278f34bd0e3",
+      "bytes": 579640,
+      "source_path_from_workspace": "results/2026-09-13_primitive_357_arxiv_release_v3/PRIMITIVE_357_PAPER_AND_RELEASE_GUIDE_V3.zip",
+      "role": "small reader bundle",
+      "audit_state": "sealed_v3"
+    },
+    {
+      "id": "P5_LITERAL_C_OBSTRUCTION_DEPENDENCY_CLOSURE_V1",
+      "filename": "2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "sha256": "03f3bfe077372275e570dd2541c033ba9a3c0701c80fecadfe1b575f3991d6eb",
+      "bytes": 149934212,
+      "source_path_from_workspace": "results/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "role": "target-42, contact, cocycle, and p=5 obstruction dependency closure",
+      "audit_state": "packaged_pending_independent_audit"
+    },
+    {
+      "id": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1",
+      "filename": "2026-09-13_p23_B124_D4_upstream_reconstruction_package_v1.zip",
+      "sha256": "c9109baf0b09e00528078bed39b2678feecae4eb80c014b4b5cfc48d6702cd88",
+      "bytes": 41653573,
+      "source_path_from_workspace": "results/2026-09-13_p23_B124_D4_upstream_reconstruction_package_v1.zip",
+      "role": "B124 tensors, 75D class, formal chart, and D4 logarithm upstream reconstruction",
+      "audit_state": "packaged_pending_independent_audit"
+    }
+  ]
+}

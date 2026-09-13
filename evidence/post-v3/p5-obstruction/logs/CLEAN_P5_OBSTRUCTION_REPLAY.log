@@ -1,0 +1,61 @@
+ORIGINAL_WORKSPACE_USED=false
+PARI_GP=/usr/bin/gp
+PRODUCER_WALL_SECONDS=0.920033
+  ***   Warning: new maximum stack size = 4000002048 (3814.699 Mbytes).
+  *** read: Warning: increasing stack size to 16000000.
+  *** read: Warning: increasing stack size to 32000000.
+  *** read: Warning: increasing stack size to 64000000.
+  *** read: Warning: increasing stack size to 128000000.
+P5_COMPONENT_SQRT_START=[1, 7, 2, 2, 1, 1, 0, 22, 2, 4*aa5c + 3, 0]
+P5_COMPONENT_SQRT_MARGIN=[1, 7, 9, 0]
+P5_COMPONENT_SQRT_START=[1, 5, 4, 1, 0, 0, 0, 24, 3*bb5c^3 + 3*bb5c^2 + 2*bb5c + 2, 4*bb5c^2 + 3*bb5c + 2, 0]
+P5_COMPONENT_SQRT_MARGIN=[1, 5, 17, 0]
+P5_CARRIER_SIGN_MARGIN=["rq_1", 0, 11, 11, 0, 1, 0, 1]
+P5_COMPONENT_SQRT_START=[2, 3, 2, 2, -1, 0, -1, 19, aa5c + 1, 2*aa5c + 3, 0]
+P5_COMPONENT_SQRT_MARGIN=[2, 3, 3, -1]
+P5_COMPONENT_SQRT_START=[2, 4, 4, 1, 0, 0, 0, 24, 4*bb5c^2 + 3*bb5c + 4, 2*bb5c + 2, 0]
+P5_COMPONENT_SQRT_MARGIN=[2, 4, 17, 0]
+P5_CARRIER_SIGN_MARGIN=["rq_2", 11, 0, 11, 0, 0, 1, 1]
+P5_COMPONENT_SQRT_START=[4, 3, 2, 2, -1, 0, -1, 19, aa5c + 1, 2*aa5c + 3, 0]
+P5_COMPONENT_SQRT_MARGIN=[4, 3, 3, -1]
+P5_COMPONENT_SQRT_START=[4, 5, 4, 1, 0, 0, 0, 24, 3*bb5c^3 + 3*bb5c^2 + 2*bb5c + 2, 4*bb5c^2 + 3*bb5c + 2, 0]
+P5_COMPONENT_SQRT_MARGIN=[4, 5, 17, 0]
+P5_CARRIER_SIGN_MARGIN=["rq_3", 0, 11, 11, 0, 0, 0, 0]
+P5_TARGET_DEGREES=[2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8]
+P5_BITANGENT_DEGREES=[2, 2, 4, 4, 4, 4, 4, 8, 8, 8, 8]
+P5_LITERAL_C_CARRIER_DATA=[["rq_1", 1, 7, 5, -1, [0, 11, 11, 0, 1, 4*aa5c + 3, aa5c + 4, 1], [7, 2, 2, 2, 1, 1, 2, 4*aa5c + 3, 9, 1, 13, 10, 1000000], [5, 5, 4, 1, 0, 0, 3*bb5c^3 + 3*bb5c^2 + 2*bb5c + 2, 4*bb5c^2 + 3*bb5c + 2, 17, 0, 11, 11, 1000000]], ["rq_2", 2, 3, 4, 1, [11, 0, 11, 1, 1, 0, aa5c + 4, 0], [3, 1, 2, 2, -1, 0, aa5c + 1, 2*aa5c + 3, 3, 0, 11, 4, 1000000], [4, 8, 4, 1, 0, 0, 4*bb5c^2 + 3*bb5c + 4, 2*bb5c + 2, 17, 0, 11, 11, 1000000]], ["rq_3", 4, 3, 5, -1, [0, 11, 11, 0, 0, 4*aa5c + 4, aa5c + 4, 0], [3, 1, 2, 2, -1, 0, aa5c + 1, 2*aa5c + 3, 3, 0, 11, 4, 1000000], [5, 5, 4, 1, 0, 0, 3*bb5c^3 + 3*bb5c^2 + 2*bb5c + 2, 4*bb5c^2 + 3*bb5c + 2, 17, 0, 11, 11, 1000000]]]
+P5_LITERAL_C_SIGNS=[-1, 1, -1]
+P5_LITERAL_C_SIGN_PRODUCT=1
+P5_LITERAL_C_OPPOSITE_ROOT_SIGNS=[1, -1, 1]
+CLAIM_BOUNDARY=exact p-adic/residue arithmetic only; A.26 meaning conditional on imported BPS and accepted five-place source packet
+STATUS=PASS_P5_LITERAL_C_A26_CANDIDATE_LATE_V2
+INDEPENDENT_WALL_SECONDS=1.191536
+  ***   Warning: new maximum stack size = 4000002048 (3814.699 Mbytes).
+  *** read: Warning: increasing stack size to 16000000.
+  *** read: Warning: increasing stack size to 32000000.
+  *** read: Warning: increasing stack size to 64000000.
+  *** read: Warning: increasing stack size to 128000000.
+INDEPENDENT_P5_LITERAL_C_SIGNS=[-1, 1, -1]
+INDEPENDENT_P5_LITERAL_C_OPPOSITE_ROOT_SIGNS=[1, -1, 1]
+INDEPENDENT_ANSWER_ISOLATION=production opened only after fresh signs
+STATUS=PASS_INDEPENDENT_P5_LITERAL_C_A26_REPLAY_V2
+PRODUCTION_RECORD=EXACT_GP_OBJECT
+INDEPENDENT_RECORD=EXACT_GP_OBJECT
+TARGET_CHARACTER_SPAN_WALL_SECONDS=0.569849
+{
+  "answer_isolation": "production diagnostic opened only after fresh result",
+  "claim_boundary": "exact finite AGL/module replay only; A.26/W5 identification and source membership are not inputs",
+  "matching_local_pairs": 126,
+  "physical_assignment_statistics": {
+    "(False, True, False, 2)": 84
+  },
+  "protocol": "INDEPENDENT_P5_TARGET_CHARACTER_SPAN_V1",
+  "quotient_dimension_statistics": {
+    "2": 84
+  },
+  "selected_target_factor_branch": 84,
+  "split_split_non_descent_negative_controls": 84
+}
+STATUS=PASS_INDEPENDENT_P5_TARGET_CHARACTER_SPAN_V1
+TARGET_CHARACTER_RECORD=EXACT_JSON_TO_FROZEN
+P5_OBSTRUCTION_REPLAY=PASS_ROOT00_10_ROOT11_01_BOTH_NONZERO

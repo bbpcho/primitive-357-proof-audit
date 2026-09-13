@@ -1,0 +1,27 @@
+{
+  "clean_command": "python3 -B scripts/verify_dependency_closed_release_v3.py --run-sector-replays --run-foundational-replays --require-original-workspace-absent",
+  "entrypoint": "scripts/run_foundational_replays_v3.py",
+  "output_comparison": {
+    "GP_text_and_semantics": "exact",
+    "Sage_JSON": "all invariant mathematical fields exact after deleting measured wall_seconds and the incidental compressed-cache identity",
+    "Sage_serialized_caches": "fresh identity recorded; Sage compression is not treated as canonical",
+    "combined_rank_and_local_certificates": "exact"
+  },
+  "schema": "primitive_357_foundational_regeneration_index_v3",
+  "scope": [
+    "fresh producer and answer-isolated five-place source reconstruction",
+    "fresh semantic comparison of both five-place outputs",
+    "Selmer character-projector and Mordell-Weil rank-four deduction",
+    "fresh s=4 and s=19 global abelian logarithm matrices at p=23",
+    "fresh combined rank-four annihilator and five local gates",
+    "fresh exceptional P1 second-order and lifted-root calculations",
+    "independent Section 7 finite-field Kummer 2-saturation witness"
+  ],
+  "software": {
+    "mpmath": "1.3.0",
+    "pari_gp": "2.15.4",
+    "python": "3.12",
+    "sage": "10.9",
+    "sympy": "1.14.0"
+  }
+}

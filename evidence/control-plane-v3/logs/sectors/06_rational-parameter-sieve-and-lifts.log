@@ -1,0 +1,4 @@
+SECTOR=rational-parameter-sieve-and-lifts
+COMMAND=/release/scripts/portable_python.py -B /release/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/scripts/verify_mixed_rational_t_signature_357_closure_v1.py
+EXIT=0 WALL_SECONDS=28.414962
+PASS_MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_EXACT_FIVE_BRANCH_POINTS

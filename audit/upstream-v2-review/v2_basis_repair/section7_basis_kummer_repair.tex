@@ -1,0 +1,73 @@
+% Proposed replacement for the unsupported index-bound argument.
+% Insert after the rational/twisted Mordell--Weil groups and divisor relation
+% have been established. Requires the standard odd-degree x-T Kummer map.
+
+We verify the remaining $2$-saturation directly.  Put
+$A=J(K)$, $H=\langle D_0,D_1,D_2,D_3\rangle$, and
+$H_0=\langle D_0,D_1,D_2,D'_3\rangle$.
+The established rational and twisted Mordell--Weil computations give
+$\operatorname{rank}A=3$.  The good-reduction bound
+$\gcd(\#J(\mathbf F_{11}),\#J(\mathbf F_{13}))=\gcd(150,320)=10$,
+together with the order of $D_0$, gives
+$A_{\mathrm{tors}}=\langle D_0\rangle\simeq\mathbf Z/10\mathbf Z$.
+For every $P\in A$, the identity
+$2P=(P+\sigma P)+(P-\sigma P)$ shows that $2A\subseteq H_0$.
+The verified divisor identity
+$D'_3=9D_0+3D_1-D_2-2D_3$ gives $H_0\subseteq H$.
+Thus $A/H$ is a finite group killed by $2$.
+
+Take the prime $\mathfrak l=(173,\theta-22)$ of $K$; indeed
+$22^2+35=3\cdot173$.  With $a=-36$, the birational change
+\[
+ u=\frac aX,\qquad v=\frac{a^2Y}{X^3}
+\]
+gives the odd monic model
+\[
+ v^2=g(u)=u^5+9u^4+864u^3+28512u^2+373248u+1679616.
+\]
+Modulo $\mathfrak l$, its five roots, in the chosen order, are
+\[
+ (r_1,r_2,r_3,r_4,r_5)=(15,90,119,122,164).
+\]
+They are distinct, so this is good reduction.  The usual odd-degree
+$x-T$ Kummer map, followed by the five quadratic characters of
+$\mathbf F_{173}^{\times}$, gives a homomorphism
+\[
+ J(\mathbf F_{173})/2J(\mathbf F_{173})
+ \longrightarrow
+ \{(e_1,\ldots,e_5)\in\mathbf F_2^5:\textstyle\sum_i e_i=0\}.
+\]
+Write $\delta(P)=\delta([P-\infty])$, where $\infty$ is the
+unique point at infinity of the odd-degree model, and let $P_-$ be
+the image of the original $\infty_-$.
+Here a square has character $0$ and a nonsquare has character $1$.
+For an ordinary point $P$, the $i$th squareclass is $u(P)-r_i$;
+for the branch point $W_i$, the vanishing component is replaced by
+$g'(r_i)$.  Both original points at infinity map to points with $u=0$.
+Consequently the squareclass vectors of $D_0,D_1,D_2,D_3$ are computed
+respectively from
+\[
+ \frac{\delta(W_5)}{\delta(P_-)},\qquad
+ \frac{-a-r_i}{-r_i},\qquad
+ r_i^2-3ar_i+a^2,\qquad
+ \frac{30a/(\theta+85)-r_i}{-r_i}.
+\]
+The denominator omitted from the third expression is $r_i^2$, a square.
+The resulting character matrix, with columns in this divisor order, is
+\[
+ \begin{pmatrix}
+ 0&0&1&1\\
+ 1&0&1&1\\
+ 1&0&1&0\\
+ 1&1&0&1\\
+ 1&1&1&1
+ \end{pmatrix}.
+\]
+Its first four rows have determinant $1$ over $\mathbf F_2$.
+Thus the four classes are independent in $A/2A$.
+Since $\dim_{\mathbf F_2}A/2A=3+1=4$, the image of $H$ is all of
+$A/2A$, so $A=H+2A=H$.  This proves
+\[
+ J(K)=\frac{\mathbf Z}{10\mathbf Z}D_0
+       \oplus\mathbf ZD_1\oplus\mathbf ZD_2\oplus\mathbf ZD_3.
+\]

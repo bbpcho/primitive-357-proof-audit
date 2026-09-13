@@ -1,0 +1,717 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.au
+x.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+No file THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.to
+c.
+
+LaTeX Warning: Citation `DahmenSiksek' on page 1 undefined on input line 121.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}]
+
+LaTeX Warning: Citation `Putz' on page 2 undefined on input line 140.
+
+[2]
+
+LaTeX Warning: Reference `thm:main' on page 3 undefined on input line 220.
+
+[3]
+
+LaTeX Warning: Reference `eq:original' on page 4 undefined on input line 272.
+
+
+LaTeX Warning: Reference `sec:descent' on page 4 undefined on input line 275.
+
+
+LaTeX Warning: Reference `sec:reducible-end' on page 4 undefined on input line 
+275.
+
+
+LaTeX Warning: Reference `sec:irreducible' on page 4 undefined on input line 27
+6.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 4 undefined on input line 301.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 4 undefined on input line 324.
+
+[4]
+
+LaTeX Warning: Reference `eq:rational-root-cleared' on page 5 undefined on inpu
+t line 348.
+
+
+LaTeX Warning: Reference `eq:quartic-cube' on page 5 undefined on input line 36
+7.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 5 undefined on input line 372.
+
+
+LaTeX Warning: Reference `eq:three-cubic-cases' on page 5 undefined on input li
+ne 375.
+
+
+LaTeX Warning: Citation `BruinStollSieve' on page 5 undefined on input line 394
+.
+
+
+LaTeX Warning: Reference `eq:rational-genus2' on page 5 undefined on input line
+ 407.
+
+
+LaTeX Warning: Reference `eq:three-cubic-cases' on page 5 undefined on input li
+ne 408.
+
+
+LaTeX Warning: Reference `eq:rational-local-alternative' on page 5 undefined on
+ input line 422.
+
+
+LaTeX Warning: Reference `eq:rational-local' on page 5 undefined on input line 
+425.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 5 undefined on input line 439.
+
+[5]
+
+LaTeX Warning: Citation `BruinStollDescent' on page 6 undefined on input line 4
+94.
+
+
+LaTeX Warning: Citation `BruinEC' on page 6 undefined on input line 514.
+
+
+LaTeX Warning: Reference `eq:fibre-product' on page 6 undefined on input line 5
+27.
+
+[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+LaTeX Warning: Citation `DahmenSiksek' on page 7 undefined on input line 565.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 7 undefined on input line 577.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 7 undefined on input line 593.
+
+[7] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg)
+
+LaTeX Warning: Citation `BruinStollSieve' on page 8 undefined on input line 640
+.
+
+
+LaTeX Warning: Citation `CasselsFlynn' on page 8 undefined on input line 656.
+
+
+LaTeX Warning: Citation `Flynn' on page 8 undefined on input line 656.
+
+
+LaTeX Warning: Reference `app:flynn' on page 8 undefined on input line 666.
+
+[8]
+
+LaTeX Warning: Reference `eq:section7-sieve' on page 9 undefined on input line 
+716.
+
+
+LaTeX Warning: Reference `eq:2240G2' on page 9 undefined on input line 716.
+
+
+LaTeX Warning: Reference `eq:local-pullback' on page 9 undefined on input line 
+717.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 9 undefined on input line 739.
+
+
+LaTeX Warning: Citation `Putz' on page 9 undefined on input line 741.
+
+[9]
+
+LaTeX Warning: Reference `eq:scaled-septic' on page 10 undefined on input line 
+809.
+
+
+LaTeX Warning: Reference `eq:eight-over-fifteen' on page 10 undefined on input 
+line 813.
+
+
+LaTeX Warning: Reference `app:Cplus' on page 10 undefined on input line 819.
+
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 10 undefined on
+ input line 822.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+
+LaTeX Warning: Citation `BPS' on page 10 undefined on input line 846.
+
+[10]
+
+LaTeX Warning: Citation `Siksek' on page 11 undefined on input line 903.
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 11 undefined on input line 92
+4.
+
+[11]
+
+LaTeX Warning: Citation `PVT' on page 12 undefined on input line 936.
+
+
+LaTeX Warning: Citation `PVT' on page 12 undefined on input line 949.
+
+
+LaTeX Warning: Citation `PVT' on page 12 undefined on input line 950.
+
+
+LaTeX Warning: Citation `PVT' on page 12 undefined on input line 958.
+
+
+LaTeX Warning: Reference `eq:PVT-map' on page 12 undefined on input line 959.
+
+
+LaTeX Warning: Reference `eq:four-levels' on page 12 undefined on input line 97
+1.
+
+
+LaTeX Warning: Citation `PVT' on page 12 undefined on input line 975.
+
+
+LaTeX Warning: Citation `DembeleVoight' on page 12 undefined on input line 990.
+
+
+[12]
+
+LaTeX Warning: Reference `eq:reducible-semisimplification' on page 13 undefined
+ on input line 1033.
+
+
+LaTeX Warning: Citation `Raynaud1974' on page 13 undefined on input line 1048.
+
+[13]
+
+LaTeX Warning: Reference `eq:PVT-map' on page 14 undefined on input line 1099.
+
+
+LaTeX Warning: Reference `eq:curve-polynomials' on page 14 undefined on input l
+ine 1144.
+
+
+LaTeX Warning: Reference `eq:test-polynomials' on page 14 undefined on input li
+ne 1145.
+
+
+LaTeX Warning: Reference `thm:main' on page 14 undefined on input line 1163.
+
+
+LaTeX Warning: Reference `eq:DS-order' on page 14 undefined on input line 1165.
+
+
+
+LaTeX Warning: Reference `eq:four-sectors' on page 14 undefined on input line 1
+166.
+
+
+LaTeX Warning: Reference `prop:rational-sector' on page 14 undefined on input l
+ine 1167.
+
+
+LaTeX Warning: Reference `prop:quadratic-sector' on page 14 undefined on input 
+line 1168.
+
+
+LaTeX Warning: Reference `prop:quartic-sector' on page 14 undefined on input li
+ne 1169.
+
+
+LaTeX Warning: Reference `prop:septic-sector' on page 14 undefined on input lin
+e 1170.
+
+[14]
+
+LaTeX Warning: Citation `PARI' on page 15 undefined on input line 1215.
+
+
+LaTeX Warning: Citation `Sage' on page 15 undefined on input line 1216.
+
+
+LaTeX Warning: Citation `Magma' on page 15 undefined on input line 1217.
+
+[15]
+
+LaTeX Warning: Reference `prop:rational-sector' on page 16 undefined on input l
+ine 1257.
+
+
+LaTeX Warning: Reference `prop:quadratic-sector' on page 16 undefined on input 
+line 1260.
+
+
+LaTeX Warning: Reference `prop:quartic-sector' on page 16 undefined on input li
+ne 1263.
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 16 undefined on input line 12
+66.
+
+
+LaTeX Warning: Reference `app:Cplus' on page 16 undefined on input line 1266.
+
+
+LaTeX Warning: Reference `prop:septic-sector' on page 16 undefined on input lin
+e 1272.
+
+
+LaTeX Warning: Reference `thm:main' on page 16 undefined on input line 1275.
+
+[16] [17] [18]
+
+LaTeX Warning: Reference `app:p23-data' on page 19 undefined on input line 1357
+.
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 19 undefined on input line 13
+58.
+
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 19 undefined on
+ input line 1373.
+
+[19] (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd) [20{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-rmtt.enc}]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 21 undefined on
+ input line 1424.
+
+[21]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 22 undefined on
+ input line 1433.
+
+[22]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 23 undefined on
+ input line 1442.
+
+[23]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 24 undefined on
+ input line 1451.
+
+[24]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 25 undefined on
+ input line 1468.
+
+[25]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 26 undefined on
+ input line 1481.
+
+[26]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 27 undefined on
+ input line 1490.
+
+[27]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 28 undefined on
+ input line 1499.
+
+[28]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 29 undefined on
+ input line 1508.
+
+[29]
+
+LaTeX Warning: Reference `eq:t-inverse-identity' on page 30 undefined on input 
+line 1528.
+
+
+LaTeX Warning: Reference `eq:section7-valuations' on page 30 undefined on input
+ line 1566.
+
+
+LaTeX Warning: Reference `eq:siksek-dets' on page 30 undefined on input line 16
+05.
+
+[30] [31]
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION
+_357_FROM_FRONTIER_TO_PROOF.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_T
+O_PROOF.pdf (31 pages, 476543 bytes).
+Transcript written on THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTI
+ER_TO_PROOF.log.
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.out)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.out)
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.toc
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}]) [2] [3] [4] [5] [6] [7{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thex.enc}] [8] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg) [9] [10]
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd) [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd) [21{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-rmtt.enc}] [22] [23] [24] [25] [26] [27] [28]
+[29] [30] [31] [32]
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_T
+O_PROOF.pdf (32 pages, 486931 bytes).
+Transcript written on THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTI
+ER_TO_PROOF.log.
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.out)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.out)
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.toc
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}]) [2] [3] [4] [5] [6] [7{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thex.enc}] [8] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg) [9] [10]
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd) [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd) [21{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-rmtt.enc}] [22] [23] [24] [25] [26] [27] [28]
+[29] [30] [31] [32]
+(./THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.aux) )<
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+mi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_T
+O_PROOF.pdf (32 pages, 486928 bytes).
+Transcript written on THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTI
+ER_TO_PROOF.log.

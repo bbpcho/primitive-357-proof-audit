@@ -1,0 +1,27 @@
+{
+  "available_at_build": {
+    "c_compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "magma": null,
+    "pari_gp": "2.15.4",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)\nkpathsea version 6.3.5\nCopyright 2023 Han The Thanh (pdfTeX) et al.\nThere is NO warranty.  Redistribution of this software is\ncovered by the terms of both the pdfTeX copyright and\nthe Lesser GNU General Public License.\nFor more information about these matters, see the file\nnamed COPYING and the pdfTeX source.\nPrimary author of pdfTeX: Han The Thanh (pdfTeX) et al.\nCompiled with libpng 1.6.43; using libpng 1.6.43\nCompiled with zlib 1.3; using zlib 1.3\nCompiled with xpdf version 4.04",
+    "sage": "10.9",
+    "sympy_mpmath": "1.14.0 1.3.0"
+  },
+  "build_host": {
+    "machine": "aarch64",
+    "platform": "Linux-6.17.0-1029-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]"
+  },
+  "schema": "primitive_357_dependency_closed_software_versions_v2",
+  "specialist_log_identity": {
+    "magma": "V2.29-10, as named by the authenticated Magma input/output packages",
+    "note": "Magma is proprietary and was not installed during this release build."
+  },
+  "upstream_trace_data_generation": {
+    "pari_gp": "2.17.2",
+    "replay_note": "The release rechecks all 6253 generated polynomials against the bundled output; it does not repeat this one-hour upstream generation.",
+    "reported_cpu_time": "15h 44min 18.655s",
+    "reported_wall_time": "1h 4min 49.297s",
+    "source": "third_party/GFE-5p3/Outputs/DataTimes.txt"
+  }
+}

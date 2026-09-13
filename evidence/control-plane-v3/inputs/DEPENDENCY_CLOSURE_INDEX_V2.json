@@ -1,0 +1,1286 @@
+{
+  "added_file_count": 224,
+  "added_files": [
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/BEAL_357_CERTIFICATE_INDEX.md",
+      "sha256": "84716f3af1a36a529edad395046856aad3045eaa3ed10d0dabc185d59e027649"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/BEAL_357_CLUSTER_PLAN.md",
+      "sha256": "e8e92883f7ba0e093f80bde05745731ebde47ac560c7595cfd5ae696cc6e258e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/BEAL_357_PROOF_AUDIT.md",
+      "sha256": "38cd70822264059814ccb021af06c532abeba1fd09f36631638e288edafc4ae1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/BEAL_357_README.md",
+      "sha256": "8d58a40586008ce37ae34fa3262ab0efed066224f14fc666c6e18fcdf54878ba"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/P7_F42_THREADRIPPER_SHA256.txt",
+      "sha256": "0d62024163c147aa4e4eb2d4b6f60179719796b846c0ef9b7688995b1e405c9d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/P7_F42_UBUNTU.md",
+      "sha256": "6cc5a63290cde4aeff74126d44f8a13f9ec167d31e72d53a7351e1336f18b730"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/P7_LEVEL33_SPARSE_MILESTONE.md",
+      "sha256": "7aa78811bf71d28d38e846d5d537847e49c320791066b91a68312dd4c0612172"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/SHA256SUMS_357.txt",
+      "sha256": "6621e1217bda1859c5ba90b1862ad25c0b512b36e95c1542e7c84358793fc1a1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/beal_357_progress.pdf",
+      "sha256": "1d398c5d1a9e31ad1a44e9097aa0b2fe84c2b68aa3b2569aa30021b204553c18"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/beal_357_progress.tex",
+      "sha256": "0d47d9f25e3d482c63c1ecb9d06a29daf126ec5a3e94ed924efee53b49b52635"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level00_20ops.log",
+      "sha256": "15e325d9895a671a2dc828ad9994a38b57b3fa28e3eb041866e8dec5b74df700"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level01_20ops.log",
+      "sha256": "15e325d9895a671a2dc828ad9994a38b57b3fa28e3eb041866e8dec5b74df700"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level02_20ops.log",
+      "sha256": "15e325d9895a671a2dc828ad9994a38b57b3fa28e3eb041866e8dec5b74df700"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level03_20ops.log",
+      "sha256": "8d059742c99bf2c21187f2fc3e3df642800b40b2a4fccf9c7982d3eba7758d95"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level10_20ops.log",
+      "sha256": "15e325d9895a671a2dc828ad9994a38b57b3fa28e3eb041866e8dec5b74df700"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level11_18ops.log",
+      "sha256": "021ba2255cdaec0b62e6aa0bcf85086aab8d7e6da15936e4b6e16f19385265b6"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level11_20ops.log",
+      "sha256": "15e325d9895a671a2dc828ad9994a38b57b3fa28e3eb041866e8dec5b74df700"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level12_18ops.log",
+      "sha256": "8c57d066e78ec429f91f13bed39598c65888820910e9811b37f4294016f18f86"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level12_20ops.log",
+      "sha256": "24850bcc638d71096311f28ae508cf3d50006cfa5e39030299b15aebf606912f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level13_18ops.log",
+      "sha256": "48e25dc5c7211a8765b3a8a8615a14bf4b7e923e6da7d42c683676d3ff914e04"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level13_20ops.log",
+      "sha256": "237607bc48a035152c9c05b0f197b0504d43b051f09cc9389834855a2ff20bc9"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level20_20ops.log",
+      "sha256": "c2ddea7b35362202410d9c4124090cb2bf7275f5070a97cb858164082b95c548"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level21_18ops.log",
+      "sha256": "95c84de3f82be3412970503b772185787aaa9f0599c536a93d32fa7114087514"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level21_20ops.log",
+      "sha256": "af0114ac217eb64dc524ded7d90cfcae2643c543dd1e3cc0eba3592a595dbb57"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level22_18ops.log",
+      "sha256": "df86088e36e78291ed0f378db5a4a1e5380d8b26413d30cd1c42ad5438329da4"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level22_20ops.log",
+      "sha256": "f3e3198ea39c6efafa04f0e17cf450309959b71afc53b2aef9092bb9178d4c76"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level23_18ops.log",
+      "sha256": "ceecb209ffe058c9483b7fcdb9e99a7a9d97e4606e354bcd733d8e5f715aaec2"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level23_20ops.log",
+      "sha256": "3fcfe6e94303ee4bc7fd73dce2bcf2e7fbee2af1df59e35ca9d2fc7a23451ed6"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level30_20ops.log",
+      "sha256": "20b92a2d8998930500724ecdfbade46a3dec0dfa417fd3ca1394d6b4c3d87e98"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level31_18ops.log",
+      "sha256": "9b22168feb63c59eeca52145a8113a339c540e1d37203a3279022640d68db0ab"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level31_20ops.log",
+      "sha256": "3a2497d5925ad3ce04713ffc276b6e954de4e912601bea792c4e3d3500cf2371"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level32_18ops.log",
+      "sha256": "923b8c4d25ade796363b13ae896d73add066d51c8507d5e814bf8ddde7e05089"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level32_20ops.log",
+      "sha256": "5259813f9459af31d1f028253e59c0be210251c5f86e4c30ef8f3f4313e47087"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level33_18ops.log",
+      "sha256": "37f00c5bd81abb8269f9a5dc9c6531733aecee2f765756ee84e36c8e714751e1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/level33_20ops.log",
+      "sha256": "f3472e860fed60f7b6308ed0242315a30bfbb6ae9ed7ee017e83ebddec9fe3ff"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p5_minus_modularity_obstruction.log",
+      "sha256": "7e77334175c44036e824946f4edffb612e400b29c3acc4f51a5c9ef70b000f1f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p5_minus_modularity_obstruction.m",
+      "sha256": "40395133d8d16ffa0ba5bda8c6d4ad77cc27855aa1de26cfb1b15a1169f9e37e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p5_minus_power_sieve.py",
+      "sha256": "b444b4ee49664a601c8cf6517153fe01ac81f247815fae4e9b91880348665786"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p5_minus_power_sieve_bound250.log",
+      "sha256": "78d13360747459078802dca4bac683f2f45e35efb0363b310dd8ce658e9404be"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_dahmen_siksek_s3_bridge.log",
+      "sha256": "e074a2f0ba252fbcf81d238527419be988659dee3e57270e1bd16b82e0fe93d7"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_dahmen_siksek_s3_bridge.m",
+      "sha256": "4d9b6684bba63e8adb450c17473e9a8ed083482f5c8ef0f0fbbe6c625db31028"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_even_branch_local7_certificate.py",
+      "sha256": "91fe6f12037e61064e20079a958f6fd4914f4177fa22e5a91b91665d1df9aab7"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_even_mod13_character_certificate.log",
+      "sha256": "fdd25de65b5def274e3b9b46e9599f45637bc665dcbf82b1ff56db4bc7d1f44b"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_even_mod13_character_certificate.py",
+      "sha256": "9dc272bc4ac4c499240d1f1f845c0141604acb1a87e759a7543fe784f269cfff"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_agl_diagnostic.json",
+      "sha256": "1f93f1bf7badab059ea0f98241653de98c20d637d83db8ad17a3417bf81f495a"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_agl_diagnostic.py",
+      "sha256": "13224158ea78c21be534da4cf98056850ca0c346002b2c850d185b7b86a88e2f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_certificate.py",
+      "sha256": "b8accd715abfdcdf5c73ea279d60c11611b545a251dd8b7a210c2a9b6f0189f8"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_certify.gp",
+      "sha256": "cfa76dfe026123e71f05cd2025ebed6af7a0196f2509e043b9d2600a8387b39e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_classgroup.gp",
+      "sha256": "b17f384af0cf9c43ce5f8bf74e1dd74bdf70cc0eca6133cb1a5b9d1d4a280128"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_exact.json.gz",
+      "sha256": "de8a1743bfe0e43ea904e0a2ffbfa3170ab41d69416971610333af21029d8d50"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_intermediate.gp",
+      "sha256": "2d09e3f8b07f5380ae62580c9efc0a383185e6a8d800d8edf1339269cde00048"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_intermediate.log",
+      "sha256": "195dbc2bc1fed7438886f93dbd79b4c5cdbb9da2d424df864627875b73eed2b2"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_intermediate_summary.txt",
+      "sha256": "3fa74c2cb034acca6e8e7961a20ed2f09a4fa769bd69a7c8e7fc553afb395055"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_nf.gp",
+      "sha256": "3257e7a9549df35a7b11de3e2a1fbf5cabd3324f13a9b8d2649a01e55a2a63d6"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_pari.py",
+      "sha256": "8bac5108c87ac3af0494deb22d5184f42ec2214d6fdb779c9fb272164d07b403"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_quotient_certify.gp",
+      "sha256": "6470f906a22177175b80970993aef06e5421ccd5d1312842106c314eb34c1a45"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_reduced.gp",
+      "sha256": "71b53040c8e4eb891e001d04ab000c721f8aca919c91a1f37c0f8e603903ccbd"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_relative_quartic.gp",
+      "sha256": "9957f31f2404afdae3563a8747207a7d4e3f0e66173c45d3520b4b1bfbccde49"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_subfield14.gp",
+      "sha256": "8eb71844b650b9e5a68657b25e8e001b44cb1103d0291064c6a4ab130aa6a4cb"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_tower_certificate.gp",
+      "sha256": "8c59c1c18010403e71b61a7df50ac6c7d259c7f71e255fdcaf3bac64abcd0e3d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_tower_certificate.log",
+      "sha256": "747abe11bd37fd70c4818d6bf0ce747fb5cf1888fe176cef830d9a09fb495a6f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_fibre_certificate.log",
+      "sha256": "d90fc2f176734bc2ffb7a637cbc0cfd40df79334d84e332d14635a1b95eeb82b"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_fibre_certificate.py",
+      "sha256": "2284d87aa3642c7729057820bae549d75b1656f65571920816c823a99285ca11"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_reconstruct.log",
+      "sha256": "c1f6d0bb3df58cfd1cab537102ebaf680fb8b722adccd18f36b6d0d47e7b54e7"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_degree7_galois_certificate.gp",
+      "sha256": "e842a9aecfe36606531f0691eee28df7bde1ad8db22512e65283207294dcd138"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_degree7_galois_certificate.log",
+      "sha256": "6d9bad1ccd693c48226c69ae7169ff8fdd632919dd7de6910f7ae6d70a79c7f2"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_genus20_cluster.m",
+      "sha256": "f7fc3910ecfedb915bbf8bf1054d54f7d2d601a9236996bde195da7c747f272d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_incidence_isogeny.json",
+      "sha256": "fd299b71999e8a9fa5ac1d3f7141b1d50c270934fafa0ad1e20a24226c7a0d2e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_incidence_isogeny_certificate.py",
+      "sha256": "05e3557aa5750e8883838119cb2b05e6c1676692c69dbb27802b82ce781316dc"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_modular_canonical_p1009.json",
+      "sha256": "720a5c835881fe45e9a265fed18fe6d8f25e9b694ca2ff780f753d2db90b75b3"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_public_tower.log",
+      "sha256": "dba0bfb152d2d81b5806a0c54e3fb9953bc9eb367335e52b0493b56610912026"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent.json.gz.log",
+      "sha256": "f34efbb34e1ae7dc36cea47a67be6247a7e4d8a6811bc457c9100f435bb2b66d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent_parallel.py",
+      "sha256": "63ee4c5866e7cb1ec20270fda031ada3593f36e5d15a9127ad9eda7eee0c50aa"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent_verify.log",
+      "sha256": "7668deeb416601a1084d901142dd42add94b388222d3b2f506d1a65d518904ab"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent_verify.py",
+      "sha256": "6efbf88232cb78fe009d9e3d3446f4eb42c62f3aab4e93a6c6d42bf2856644b0"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent.json.gz",
+      "sha256": "2cd4466aa1951b4774438557fed2c1e6e9208081675038ac4d762adcf785592e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent.json.gz.log",
+      "sha256": "027ebc40309b9291fc3b8730bf91333344ccb75413e503baf7540a39f7814803"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent_parallel.py",
+      "sha256": "fb90e7ccfffb9f60f3c9940508970c2d917c1244f14b4ca0732fd6295cc71189"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent_verify.log",
+      "sha256": "2cb61908753640ea8a4e400938231ddfe86ac7968e6b0eaa3aab9e1638a591d0"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent_verify.py",
+      "sha256": "ee3f293259deae8b809c6668c65227407be5c5ec0b6f641d199ac3d7db282cc4"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_sage_tower.sage",
+      "sha256": "f4eb574877254a664d85ce17266ec8b49b8209702851d1c7bde6ac4080686e29"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_threadripper.sh",
+      "sha256": "49ec00509b15aab88e06c42a9b5a87ba4b8fb799967b67619a106df80fa16a2f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_threadripper_packet.zip",
+      "sha256": "39c9c3fcc3d3e148feb00de926450fde1651b383a75590d0db2569e23a519be4"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_f42_threadripper_packet.zip.sha256",
+      "sha256": "519d29d39315c277e96dea9fd8c6f1df75cbfccaf8c7d0d29f314a8a9c8871bd"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_fano_genus3.m",
+      "sha256": "59167bd01252b0edbef8fbeb1163da98df22070931f69db4f269310583e7a987"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_ghost_local_symplectic_audit.py",
+      "sha256": "ab0894c3c0c9f4294ecc22610eded8bbf3281b99e1c18d3a3ee8dd892eece9cd"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_hecke2_generator_certificate.py",
+      "sha256": "fe8e3a64237bb7a42d7cda7fb7844817fb42450899721ce86859122c5a75285d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_inert_prime_packet_certificate.py",
+      "sha256": "21f5c12a5f81ac56575da0cbd9a414912dfc1c8f7044ff0cfff289df43b78fcf"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level22_certificate.log",
+      "sha256": "32a3c59ecfaa2120a8790275b21efcaba8d0449546578dde23e10d79e90d05b7"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level22_certificate.m",
+      "sha256": "e28abe749a5cbbfea1a6b730a4087ba15068feb20246dc142054e6e79f7c5d0c"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level22_charpoly_check.c",
+      "sha256": "d4c491992e377818cb0d2869bcb87ec22623edef79850e6b0200403d6e2ea135"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level22_quaternion_validation.py",
+      "sha256": "f8595fd6bd0757aa8921dcf9ed0f4f9648d8a807b4e283cfa4c9c0ef64bd201a"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level23_data_mod7.m",
+      "sha256": "2833cdd1e290727028496b1339997ac3b401ab1d42dd51a9a970502a69837403"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level23_special_type_certificate.log",
+      "sha256": "1d4073f141ec6e432d7c96388497eef5b4a37c1258e3efd4bc93bcf5b0711be8"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level23_special_type_certificate.m",
+      "sha256": "18c10b5a17a649565bb900d5365c224794e64f4605c28b725f5fdad12e6112f1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level32_special_at5_certificate.m",
+      "sha256": "9c22af0e8f5f2570b791a9d9f38032a6c43f901ea7f058eeef0a1c35f8dc8b49"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level32_special_at5_public.log",
+      "sha256": "45b399e2ffa4eb6bf0e179bceeb2b61161ece6c80128f9317f0b7e014ed26f8b"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level32_special_at5_public.m",
+      "sha256": "cc75dacda23620a4882fcf4872d580b7cb5b4546298610c9581b787bc6f9848b"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_census.m",
+      "sha256": "a2fb28dd1cb1e6d42e2283fa5b44138ceaf0f5fd5319f8b2b0788a0e4b2b76c4"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_census_public.m",
+      "sha256": "467e781932c0829e7cba069e2c8df06b08dae97629762b872a1b7317eec1cd6c"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_ghost_fingerprint.py",
+      "sha256": "ff42a80f078677928e7f81bb2ba740e5233a9e04854236c5f6a84101d7be4771"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke13_data.py",
+      "sha256": "25b5272f2ed8eaba2155b3be40acf6d5a334d412773720581b679de2e17f9501"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke17_data.py",
+      "sha256": "fb04820dc42577686f6c10038daa2db55d04cd8b050f7ae6185ff92ff5de0d73"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke2_data.py",
+      "sha256": "d5ac36eb72b7512e5dc5fb9378632aa7cb00dba9ca594bad40a1de636e7cf81f"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke7_data.py",
+      "sha256": "260e560e0e40559df36f490f25241ee996fcdb64db7843c62fd644b8b7f8dd5a"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_131_data.py",
+      "sha256": "281018e02ea989de7a3e670087dc9ca2b972043abb3e885466336f3aa45cc25e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_139_data.py",
+      "sha256": "dfeb98dda60cfc210beb2ad81c318832c7fe343aa0ee28b7ce9efe004cf867a4"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_149_data.py",
+      "sha256": "f5e2234e2d111e09d5ef1693685352b6652ef4e760df86b5f8cd9dcb281545c2"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_151_data.py",
+      "sha256": "27d99f0499853d62d1b2db403067c31ea8758e60eba8f416a1421fa578b449e0"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_data.py",
+      "sha256": "981c980abb5d4100881a2286baacb88051caa142c53b6b0d3a757f47bdb48ab4"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_more_data.py",
+      "sha256": "a688fb319798501bf2188a78742e312beeae1d36ec8f6ae6c32c5bce65ece8f5"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_next_data.py",
+      "sha256": "d982f8acf10e55f7185d45436d832700ac6f989f127bd3e867e8f535b77a0926"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_mod7_intersection.c",
+      "sha256": "ea5a509f854c00966171021151163c1db143d4aea2d7b38187c78bf0c8a91920"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_newquotient_certificate.log",
+      "sha256": "e1dc269bd4c5764725142ecd15e491a7d7f9419100f8cb6480b1ace833e3aba0"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_newquotient_certificate.py",
+      "sha256": "2db55ef236df4a984a24d2084cdbc2316e8e7d108ad685b859f265c19a85dd8b"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_quaternion_certificate.py",
+      "sha256": "e0da7429228bc8693c06b8854e069110935f3d3c889c2c1ad0a257a84aeca56b"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_level33_sparse_certificate.log",
+      "sha256": "37f00c5bd81abb8269f9a5dc9c6531733aecee2f765756ee84e36c8e714751e1"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_lower_levels_quaternion_certificate.py",
+      "sha256": "639426d1019ee301a1a59c007c48ba633cfae40203be3500050115bbdf74184e"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_branch_local2_certificate.py",
+      "sha256": "71857eeedcd09eac374fed20613ac6fed72c94e7bc2efc3dbd97f81e34a47ab6"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_branch_local7_certificate.py",
+      "sha256": "88fd0f4bb2697e313168ea05244b6bd08c87d6bae7eb5199d469b0d85e30c079"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_local_sieve.log",
+      "sha256": "76b7239973588a41874b38287a907188aa9ae444ac4a492cca62bf6f921d0322"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_local_sieve.py",
+      "sha256": "e8b4e08dbeb753703acd533fa722697c3c0d6accd686a1c019abc54b22967e54"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_q23_fq4_audit.c",
+      "sha256": "86671758e553a79fcf73ad0864ae6aaf37e97b1b7e4ebd0727d01de793fc92b8"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_q23_fq4_audit.log",
+      "sha256": "5e7c5ec6f281a2b2307150ddd9a84f684b6eaeeb3a13972461cb0186d9bd573a"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_selftwist_fields.log",
+      "sha256": "72817f56e452045bec47ed63a49999c4aa84508a5c35b9794f01418bf6769701"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_selftwist_fields.m",
+      "sha256": "b1478626cec7aff2781839e093341c9f6f9c959eb2f5e877fc6ce9b3278f47af"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_order4_local_elimination.log",
+      "sha256": "00f94912f6252a4d6e78369e4d5111830a955e642f415abfba8ae13acd9c304d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_order4_local_elimination.py",
+      "sha256": "e4afac802cd944623274b1ed1e1d28a6404e86794e7073ed998dd4dc3083bc4a"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_field_classgroups.gp",
+      "sha256": "8821637267b3c2735bcbf5e8af0f93d2d2cf7f252a4074bbf95a0647b51f9a71"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_field_classgroups.log",
+      "sha256": "ae5196894447a8962770e5ab85161a466d77260dda5d85c801687bba60f39f26"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_factor_sieve.log",
+      "sha256": "11aebe58e14b346cbf6c3ce1a0f7962978cc78a8edd1f76eee8add57c090b4d7"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_factor_sieve.py",
+      "sha256": "182d28c3523a681479863168a939e39dd682d61282ab6842ea09548d57a6cdaa"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod11.c",
+      "sha256": "e505eaf8b5c125eed3319ff30a1609e1d58442bf62340cd7f4180ecb08c0887d"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod11.log",
+      "sha256": "119d7ddc6fa970a6e98ea149a802ba07709d622a4da6c3e4f737afb75098e151"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod13.c",
+      "sha256": "e6130501a3f2255070ddb1312ade3e4ce7264b7ea5f8d93409a03d8c9ea40743"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod13.log",
+      "sha256": "39494d9e74e701cde0af9b478a9c345241b211b757b7fb313d08009ad88f1b91"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_reducible_ray_sieve.py",
+      "sha256": "71244e187dde9c7f8e44f35ea6bad248c4ebfd73a3838ed817a9875713f08f59"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_splitting_character_audit.log",
+      "sha256": "4908729e650b91f050d0849604468875e3afa554594ff9cc0473849e5a5eb227"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/p7_splitting_character_audit.py",
+      "sha256": "ae1529e4e21b0f426bc549f0e30abae7f67809f34e73dec050f27d2944a9faad"
+    },
+    {
+      "path": "beal_357_spark_handover_2026-08-20/project/verify_p7_data_mod7.py",
+      "sha256": "d66b1c5ed30c7f6f0b4903a8b43d9e4271b9ca43ce05e076ce84e0aac956ccbc"
+    },
+    {
+      "path": "references/AUDIT_COMPOSITION_V2.md",
+      "sha256": "74b865c967efc3cd9a06ef48109f92c3d106f56a7e95b11fd20a5a37b54a7394"
+    },
+    {
+      "path": "references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+      "sha256": "d5983c0949129942c3510d9c3a8de1fbf8998e4b0e5b5d822ddf94a795048004"
+    },
+    {
+      "path": "references/Thesis_CasperPutz.pdf",
+      "sha256": "5652812adac99a7d5c8b429a83072cbf5b1ccae35552645a837093dd8ade2c7c"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/certificates/p109_corrected_c25_discriminator_decision_v1.json",
+      "sha256": "e19c8ad7d41b7e0b3dfb4dba3ee004a13efced180f71a0ebb020c2706e99025c"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/certificates/p109_corrected_c25_discriminator_v1.json",
+      "sha256": "b92db2c44c35001a5312e1b68b71f0a7dd5ab4bc4ca531c0d18fd91112fd468b"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/certificates/p109_corrected_c25_fibre_discriminator_v1.json",
+      "sha256": "25732695e517bf06551a4ecfe056087a7410a8625c4ef517c8e633e4573d3b63"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/manifests/P109_CORRECTED_C25_DISCRIMINATOR_V1_SHA256SUMS.txt",
+      "sha256": "e55d539dbdec5db53b01e3bfa8a1531d8bd32477c38130f5ac8b3c1bf4976df4"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/scripts/compute_p109_corrected_c25_discriminator_v1.sage",
+      "sha256": "31b5abf31ec7288d82cc62f9e5008aa443fcadb134ad14902bd72a1ea989f382"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/scripts/verify_p109_corrected_c25_discriminator_v1.py",
+      "sha256": "2544b2257e7a696db0d1e09bddf1a5d46f638d5af986ee049942aecfe5ac21ce"
+    },
+    {
+      "path": "results/2026-08-30_p109_corrected_c25_discriminator_v1/summaries/P109_CORRECTED_C25_DISCRIMINATOR_V1.md",
+      "sha256": "4d4e3d9b128260c7ca8a51e80437b4f318eb22cb61c3dcd30b75e634e3e75345"
+    },
+    {
+      "path": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/certificates/independent_direct_p23_p43_execution_checkpoint_v1.json",
+      "sha256": "1902a9f2863e28caccc2be34766327678cc60a25889f0e8db474536da9c358b2"
+    },
+    {
+      "path": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/certificates/strict_corrected_c25_independent_audit_decision_v1.json",
+      "sha256": "23f7f8dee6bc32913205da47b4e355413cd0d91cdd5fa3c5fef9fcd94f962932"
+    },
+    {
+      "path": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/manifests/STRICT_CORRECTED_C25_INDEPENDENT_AUDIT_V1_SHA256SUMS.txt",
+      "sha256": "4188b03a9cc747c2bd84714ed342eb21d41c1426c06dc908729daf9e2ca92f78"
+    },
+    {
+      "path": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/scripts/reconstruct_direct_rows_v1.sage",
+      "sha256": "088edaa03e913b4181e2999014961cefc45d45e8fc55c5b8aefc4ac178322215"
+    },
+    {
+      "path": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/scripts/replay_exhaustive_sieves_v1.py",
+      "sha256": "c78e40b90229271cb1e20ba142edc9494a634c09b6607989f6d21bce15e31e61"
+    },
+    {
+      "path": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/summaries/STRICT_CORRECTED_C25_INDEPENDENT_AUDIT_V1.md",
+      "sha256": "b021dd59537275692cd944d78a4dbd5994bf1ce2623f38a533dff2bc66aaeda0"
+    },
+    {
+      "path": "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/certificates/p23_s4_full_log_matrix_v1.json",
+      "sha256": "3e6614d0aaa6892d4a4a43767d5086899cb5ad1894cd32e6785c7cfa35c5ca71"
+    },
+    {
+      "path": "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/evidence/p23_s4_full_log_matrix_v1.sobj",
+      "sha256": "5ef627c544df45697647de7d59831b6a82a215b0507f8ea4dadb204ea3271895"
+    },
+    {
+      "path": "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/scripts/compute_p23_s4_full_log_matrix_v1.sage",
+      "sha256": "bf28e327f751e7c9fd3be56f603adc5f172b6422248da0bc2bfd79d3c50e1515"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_P1_exceptional_root_coefficients_v1.json",
+      "sha256": "dd1b1a200ea3ddfebe66bb704878baa79a3e0dde80002be833567d51f5cae71d"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_P1_second_order_gate_v1.json",
+      "sha256": "01e81b5c03fb571a84a5d11ee55498a80c74b3789919569d97e955ff71a0deae"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_ros_log_rank_and_siksek_v1.json",
+      "sha256": "183ae745a23d2b0353bf8280488a67e22ce39ee1cf9203b46e72fc85455456e8"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_s19_full_log_matrix_v1.json",
+      "sha256": "cd852cba1fadab0d2870832dbb1f2b569dee85b00ba71c7c94ba6c18dcc5b877"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/evidence/p23_s19_full_log_matrix_v1.sobj",
+      "sha256": "3c449c414c69ae339f05ed363fc0d5305715081cebb8b3fe7e2b29b5eb709a61"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/analyze_p23_P1_second_order_gate_v1.sage",
+      "sha256": "33c901c4011e2726556dffe3895b523f0bd249357c1f266a92607e758e85e113"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/certify_p23_ros_log_rank_and_siksek_v1.sage",
+      "sha256": "bf5bb1b7d3daf0b2d9d1e4e35715a65fa33f4ad1ea97304b5023c29ae13d818e"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/compute_p23_s19_full_log_matrix_v1.sage",
+      "sha256": "91abe1af072868c55a7c2ec3b0d1d8a8622eed9dfe726a3b3aac1b7050d4e951"
+    },
+    {
+      "path": "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/lift_p23_P1_exceptional_root_and_coefficients_v1.sage",
+      "sha256": "e9606acb97db17e86e33ddfa6273aa885d06c8fcee4d8856361da731a3affabf"
+    },
+    {
+      "path": "results/2026-09-06_p23_ros_rank4_checkpoint_v1/manifests/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1_SHA256SUMS.txt",
+      "sha256": "7d6be2e99b27b5d77135aa19175aa528cdb08c251f780ae8a9bd5e396ce68e4b"
+    },
+    {
+      "path": "results/2026-09-06_p23_ros_rank4_checkpoint_v1/scripts/verify_p23_ros_rank4_checkpoint_v1.py",
+      "sha256": "7f5a9a8a52497e8f9e123471e2ce4eac77941ca2eb4f2284d805e316ade5db62"
+    },
+    {
+      "path": "results/2026-09-06_p23_ros_rank4_checkpoint_v1/summaries/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1.pdf",
+      "sha256": "55ce4cf7ea43749bb106461fd5e8fd3c1a950f9628cbc076a85886046465ed49"
+    },
+    {
+      "path": "results/2026-09-06_p23_ros_rank4_checkpoint_v1/summaries/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1.tex",
+      "sha256": "5d1a82558992abec77850f40d326a22fa18ddfcfd0a19329f32ebb2154c98507"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/certificates/odd_exceptional_splitting_cm_adversarial_crosscheck_decision_v2.json",
+      "sha256": "7de3e843da58994da0c6670f7529b5c695fbb6c12b97207926366aa1dc8607c9"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/manifests/ODD_EXCEPTIONAL_SPLITTING_CM_ADVERSARIAL_CROSSCHECK_V2_SHA256SUMS.txt",
+      "sha256": "2a1b15a7f5d076d2f144e36b4562f609928b193734790740a1f57aef60d9e5e0"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/scripts/crosscheck_odd_exceptional_splitting_cm_v2.sage",
+      "sha256": "ade3f9f8dc3d648ab32d777195383669e5de63b950cbde758617b0954961b646"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_ADVERSARIAL_CROSSCHECK_V2.md",
+      "sha256": "21811d020ee51a7fb39c6664bb2ceeee9f6e0775665f9dcdddb82d3a3ae0925e"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/certificates/odd_exceptional_splitting_cm_interference_decision_v2.json",
+      "sha256": "2fd1cb55e7eb4e6c853ac89e42e64d39503d93636c0c01d05d8f77047938fdac"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/manifests/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2_SHA256SUMS.txt",
+      "sha256": "31bc59d973631466b322e31d0594a710adf6be45e800aea4c92a573c8b500cc2"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/scripts/verify_odd_exceptional_splitting_cm_interference_v2.py",
+      "sha256": "2a93f571d8e03984e2f6d9f25ec42a7f10b9444af8a2eb1270f009324e80a21f"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.pdf",
+      "sha256": "b68153c69d282410ec906229f9997993f3f022fca2453088d9f79347888e0ce9"
+    },
+    {
+      "path": "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.tex",
+      "sha256": "7eb295b462e2870eba3f1cc63aedb1b88c01a0e15bf48e9754bf1b888f784080"
+    },
+    {
+      "path": "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/certificates/p23_exceptional_t_diagonal_v1.json",
+      "sha256": "5e2f74abd711d154198ee4a5c09d571ef71db7f124ae23faecf88a181229fcb6"
+    },
+    {
+      "path": "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/certificates/p23_exceptional_t_diagonal_v2.json",
+      "sha256": "e65e5a4901460dce3283c9bdf88b28a8c9c910bb279af89305ace3858f94d66d"
+    },
+    {
+      "path": "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/scripts/test_p23_exceptional_t_diagonal_v1.sage",
+      "sha256": "67afed9ef7fb817bcf514b1185428dfa61b161f13694afd79af80fdeb3811b76"
+    },
+    {
+      "path": "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/scripts/verify_p23_exceptional_t_diagonal_v2.py",
+      "sha256": "fcb2b33ac0ca0c99cf8c3aee8a8a872180861cea90253d0ba963e3ba6d8befd5"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/mixed_rational_t_mw_sieve_v1.json",
+      "sha256": "d00c7f81b8f33ebd44d319a6a18e748a6ffb68757d1766823e370f2b4521c4b8"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/p23_rational_t_diagonal_mw_sieve_intersection_v1.json",
+      "sha256": "475dd3c394bb21e1a64318f591f80c390237ab2a4c2ce0e85611547abf0a4798"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/p23_rational_t_diagonal_residue_inventory_v1.json",
+      "sha256": "f40422213fe68c2b5da2c2f349e03701f97457fe3a272fbfbbf835a2692d4be5"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/certify_mixed_rational_t_mw_sieve_v1.py",
+      "sha256": "9b220585b79fe7d58372600c80f440ad5a76e635b68342a1bc60a306601dbbe9"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/enumerate_p23_rational_t_diagonal_residues_v1.py",
+      "sha256": "ee559a94ca7b9fe8afd8335aca354c6970f04d9c96f273a8e4a5b1ef153f19e4"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/intersect_p23_t_diagonal_with_mw_sieve_v1.py",
+      "sha256": "a880b56cdd36e51876b6e747373be73782927f68c3c5ed80424c1253da4b6a8b"
+    },
+    {
+      "path": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/verify_mixed_rational_t_mw_sieve_v1.py",
+      "sha256": "3b4e09ea5d0ccae2c2f53932cf954865d9ea09f54e8c80165405008b1735369f"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/certificates/QUARTIC_FACTOR_ROUTER_3_4_CERTIFICATE_V1.json",
+      "sha256": "d95737bbc3ac185ee87ae90a940c5badcfb2744e54d324b8f94a11d76fca6514"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/inputs/lmfdb_quartic_unramified_3_5_7_signature_0_2.json",
+      "sha256": "0cfaeff6e9f1ba0cc065408fcb078ecf42a1154030ff8f6487bbf99d07b61596"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/manifests/QUARTIC_FACTOR_ROUTER_3_4_V1_SHA256SUMS.txt",
+      "sha256": "211f7881bd4ce6859f2c323b9d44cb97b13c019d84b80509ba83d01e5cc9ffdf"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/scripts/verify_quartic_factor_router_3_4.gp",
+      "sha256": "ff25d163faa8870c529301e8460f7a648074cc8e55a527e9c18a4964093bba56"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/scripts/verify_quartic_factor_router_3_4.py",
+      "sha256": "0e5d775d7b89eebadf3413bf902c318f06533553cb6feb6900b0d2975ec91cad"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.pdf",
+      "sha256": "dac4b43d83152372fcde49dd21dd44062027b7949578148a324f08fc87fb9b3e"
+    },
+    {
+      "path": "results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.tex",
+      "sha256": "ea7196f6b994ed824c760bd68a5f0214a56cde14d718c36f47634b8895aea636"
+    },
+    {
+      "path": "results/2026-09-09_section7_terminal_engine_reconstruction_v1/certificates/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_CERTIFICATE_V1.json",
+      "sha256": "df4961bc83c4db45aed4b44022c8132fd904396b5d48bc0099402b612ef73d99"
+    },
+    {
+      "path": "results/2026-09-09_section7_terminal_engine_reconstruction_v1/manifests/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1_SHA256SUMS.txt",
+      "sha256": "b6f66cbc55987d75e8a5687fb96bf464bfff92f557d17e0970566903d79aaf9f"
+    },
+    {
+      "path": "results/2026-09-09_section7_terminal_engine_reconstruction_v1/scripts/verify_section7_terminal_engine.py",
+      "sha256": "ce8a4295b6c44726d3904f27892a3dcf4d466ca30593ee3fa1c3376b4ef00ea4"
+    },
+    {
+      "path": "results/2026-09-09_section7_terminal_engine_reconstruction_v1/summaries/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1.pdf",
+      "sha256": "01a11905135ee04ff53f4d889b3ee8b8249340cacd1665a01127412f36811485"
+    },
+    {
+      "path": "results/2026-09-09_section7_terminal_engine_reconstruction_v1/summaries/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1.tex",
+      "sha256": "6e58f609a6e01a0395267f6767d2e5f809bd3d829cd80076e92f440900d2c2b9"
+    },
+    {
+      "path": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/certificates/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_CERTIFICATE_V2.json",
+      "sha256": "54bc0b8b98f460425169a0139e4ded3fba86e70b95f8b33ad3c830aa84996ece"
+    },
+    {
+      "path": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/manifests/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_V2_SHA256SUMS.txt",
+      "sha256": "2615cc6dcea37c152fc7898e1926480e1db4af57ec2c465f5787debdaef6634c"
+    },
+    {
+      "path": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/scripts/verify_section7_formal_group_lemma_7_5_v2.py",
+      "sha256": "05809333819ccd27ba0008aeafeff3d999444cbe08f74e5867072204dcd670ba"
+    },
+    {
+      "path": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/scripts/verify_section7_formal_group_lemma_7_5_v2_package.py",
+      "sha256": "3170fa0abcbd391187c764881d226ab0acf7d143c10eb8a3cfb8274fb93f231d"
+    },
+    {
+      "path": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/summaries/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_REPORT_V2.pdf",
+      "sha256": "59d9748c5b98aca313af9ad82c0b9497931f3495a3895ae914eda6ddb3a470b6"
+    },
+    {
+      "path": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/summaries/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_REPORT_V2.tex",
+      "sha256": "939235cafc822530ce9fd806164a415d92f332252154df9b87efa89c9012f933"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/certificates/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_CERTIFICATE_V1.json",
+      "sha256": "603f98d080f56c22c51ddea590c86cfd0b579eb86138ceaa554ef375110df1f0"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/evidence/MAGMA_V2_29_10_MORDELL_WEIL_TRANSCRIPT.txt",
+      "sha256": "c65acf913ea9d68c5b86909854b2472360d3cb7e56eca71bbad7d0602bf92351"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/manifests/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_V1_SHA256SUMS.txt",
+      "sha256": "5fd8798c9553e3874cf68880d7c18346ee9d3049419c44d8b17953786cf74abd"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_lemma_7_3.m",
+      "sha256": "1b348d417d63078157bcc20b8b96eeeb234e4cc89139d886bcef40aca24fc862"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_lemma_7_3_package.py",
+      "sha256": "68c68bfd24cb9348af983c4f85c7d0498350547da69a7858bc92217132004002"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_relation_lemma_7_3.py",
+      "sha256": "e56c2d51dfa0bb5cd62df5a40c666e83f58be1494dd8725bd8dd9d987cc65be6"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/summaries/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_REPORT_V1.pdf",
+      "sha256": "d0cd5ce6ce29a30a9f84863845f11cdd5bcf87ec287875e79b37a4ee946ab67d"
+    },
+    {
+      "path": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/summaries/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_REPORT_V1.tex",
+      "sha256": "247a0bf830988e6bfcbea143a6f93374d350225f6a673ec201dd7babadd7408b"
+    },
+    {
+      "path": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/certificates/SECTION7_MW_SIEVE_LEMMA_7_4_CERTIFICATE_V1.json",
+      "sha256": "2c0db05188a036b5095ec9a0ea54a1d371002e5caec2a02c514ced12bc83af04"
+    },
+    {
+      "path": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/manifests/SECTION7_MW_SIEVE_LEMMA_7_4_V1_SHA256SUMS.txt",
+      "sha256": "a8a08deee46de6324ca07c499f2ff374be4fa430243914ed13d26f5900a08a6e"
+    },
+    {
+      "path": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/scripts/verify_section7_mw_sieve_lemma_7_4.py",
+      "sha256": "081525819d8112843698f4ab516fa7bacf8ec1e0f53622bf5415d6cb3ef2752a"
+    },
+    {
+      "path": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/scripts/verify_section7_mw_sieve_lemma_7_4_package.py",
+      "sha256": "7ec2cbbcb38445a284417917e73f4edcbb00cb3411ce09a1d5808421184c4cb6"
+    },
+    {
+      "path": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/summaries/SECTION7_MW_SIEVE_LEMMA_7_4_REPORT_V1.pdf",
+      "sha256": "71f793426f048caad0266f4a79e8f8e3b03ecd2038a0697a87aaac194bb326f9"
+    },
+    {
+      "path": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/summaries/SECTION7_MW_SIEVE_LEMMA_7_4_REPORT_V1.tex",
+      "sha256": "fc247ff8acda88b4740e3a012e0741f50cd4d9a9c95161189735188f972b1f44"
+    }
+  ],
+  "base_release": "2026-09-11_primitive_357_paper_release_v1",
+  "base_repository_file_count": 425,
+  "clean_extraction_policy": {
+    "access": "filesystem path absent inside a bubblewrap mount namespace",
+    "evidence_bytes_modified": false,
+    "original_workspace": "/home/pcho/Documents/Codex/beal_357",
+    "path_relocation": "historical machine-local literals replaced only in memory"
+  },
+  "groups": [
+    {
+      "files": [
+        "results/2026-09-09_quartic_factor_router_3_4_v1/certificates/QUARTIC_FACTOR_ROUTER_3_4_CERTIFICATE_V1.json",
+        "results/2026-09-09_quartic_factor_router_3_4_v1/inputs/lmfdb_quartic_unramified_3_5_7_signature_0_2.json",
+        "results/2026-09-09_quartic_factor_router_3_4_v1/manifests/QUARTIC_FACTOR_ROUTER_3_4_V1_SHA256SUMS.txt",
+        "results/2026-09-09_quartic_factor_router_3_4_v1/scripts/verify_quartic_factor_router_3_4.gp",
+        "results/2026-09-09_quartic_factor_router_3_4_v1/scripts/verify_quartic_factor_router_3_4.py",
+        "results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.pdf",
+        "results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.tex"
+      ],
+      "id": "section7_quartic_router",
+      "kind": "complete_package",
+      "root": "results/2026-09-09_quartic_factor_router_3_4_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-09_section7_terminal_engine_reconstruction_v1/certificates/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_CERTIFICATE_V1.json",
+        "results/2026-09-09_section7_terminal_engine_reconstruction_v1/manifests/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1_SHA256SUMS.txt",
+        "results/2026-09-09_section7_terminal_engine_reconstruction_v1/scripts/verify_section7_terminal_engine.py",
+        "results/2026-09-09_section7_terminal_engine_reconstruction_v1/summaries/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1.pdf",
+        "results/2026-09-09_section7_terminal_engine_reconstruction_v1/summaries/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1.tex"
+      ],
+      "id": "section7_terminal_engine",
+      "kind": "complete_package",
+      "root": "results/2026-09-09_section7_terminal_engine_reconstruction_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/certificates/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_CERTIFICATE_V1.json",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/evidence/MAGMA_V2_29_10_MORDELL_WEIL_TRANSCRIPT.txt",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/manifests/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_V1_SHA256SUMS.txt",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_lemma_7_3.m",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_lemma_7_3_package.py",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_relation_lemma_7_3.py",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/summaries/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_REPORT_V1.pdf",
+        "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/summaries/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_REPORT_V1.tex"
+      ],
+      "id": "section7_mordell_weil_basis",
+      "kind": "complete_package",
+      "root": "results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/certificates/SECTION7_MW_SIEVE_LEMMA_7_4_CERTIFICATE_V1.json",
+        "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/manifests/SECTION7_MW_SIEVE_LEMMA_7_4_V1_SHA256SUMS.txt",
+        "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/scripts/verify_section7_mw_sieve_lemma_7_4.py",
+        "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/scripts/verify_section7_mw_sieve_lemma_7_4_package.py",
+        "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/summaries/SECTION7_MW_SIEVE_LEMMA_7_4_REPORT_V1.pdf",
+        "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/summaries/SECTION7_MW_SIEVE_LEMMA_7_4_REPORT_V1.tex"
+      ],
+      "id": "section7_mordell_weil_sieve",
+      "kind": "complete_package",
+      "root": "results/2026-09-10_section7_mw_sieve_lemma_7_4_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/certificates/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_CERTIFICATE_V2.json",
+        "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/manifests/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_V2_SHA256SUMS.txt",
+        "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/scripts/verify_section7_formal_group_lemma_7_5_v2.py",
+        "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/scripts/verify_section7_formal_group_lemma_7_5_v2_package.py",
+        "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/summaries/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_REPORT_V2.pdf",
+        "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/summaries/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_REPORT_V2.tex"
+      ],
+      "id": "section7_model_intrinsic_formal_group",
+      "kind": "complete_package",
+      "root": "results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic"
+    },
+    {
+      "files": [
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/mixed_rational_t_mw_sieve_v1.json",
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/p23_rational_t_diagonal_mw_sieve_intersection_v1.json",
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/p23_rational_t_diagonal_residue_inventory_v1.json",
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/certify_mixed_rational_t_mw_sieve_v1.py",
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/enumerate_p23_rational_t_diagonal_residues_v1.py",
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/intersect_p23_t_diagonal_with_mw_sieve_v1.py",
+        "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/scripts/verify_mixed_rational_t_mw_sieve_v1.py"
+      ],
+      "id": "rational_parameter_residue_sieve",
+      "kind": "complete_package",
+      "root": "results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/certificates/p23_exceptional_t_diagonal_v1.json",
+        "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/certificates/p23_exceptional_t_diagonal_v2.json",
+        "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/scripts/test_p23_exceptional_t_diagonal_v1.sage",
+        "results/2026-09-08_p23_exceptional_t_diagonal_test_v1/scripts/verify_p23_exceptional_t_diagonal_v2.py"
+      ],
+      "id": "rational_parameter_exceptional_diagonal",
+      "kind": "complete_package",
+      "root": "results/2026-09-08_p23_exceptional_t_diagonal_test_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-06_p23_ros_rank4_checkpoint_v1/manifests/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1_SHA256SUMS.txt",
+        "results/2026-09-06_p23_ros_rank4_checkpoint_v1/scripts/verify_p23_ros_rank4_checkpoint_v1.py",
+        "results/2026-09-06_p23_ros_rank4_checkpoint_v1/summaries/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1.pdf",
+        "results/2026-09-06_p23_ros_rank4_checkpoint_v1/summaries/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1.tex"
+      ],
+      "id": "rational_parameter_rank4_checkpoint",
+      "kind": "complete_package",
+      "root": "results/2026-09-06_p23_ros_rank4_checkpoint_v1"
+    },
+    {
+      "files": [
+        "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/certificates/independent_direct_p23_p43_execution_checkpoint_v1.json",
+        "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/certificates/strict_corrected_c25_independent_audit_decision_v1.json",
+        "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/manifests/STRICT_CORRECTED_C25_INDEPENDENT_AUDIT_V1_SHA256SUMS.txt",
+        "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/scripts/reconstruct_direct_rows_v1.sage",
+        "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/scripts/replay_exhaustive_sieves_v1.py",
+        "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/summaries/STRICT_CORRECTED_C25_INDEPENDENT_AUDIT_V1.md"
+      ],
+      "id": "rational_parameter_strict_c25_independent_audit",
+      "kind": "complete_package",
+      "root": "results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1"
+    },
+    {
+      "files": [
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/certificates/p109_corrected_c25_discriminator_decision_v1.json",
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/certificates/p109_corrected_c25_discriminator_v1.json",
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/certificates/p109_corrected_c25_fibre_discriminator_v1.json",
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/manifests/P109_CORRECTED_C25_DISCRIMINATOR_V1_SHA256SUMS.txt",
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/scripts/compute_p109_corrected_c25_discriminator_v1.sage",
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/scripts/verify_p109_corrected_c25_discriminator_v1.py",
+        "results/2026-08-30_p109_corrected_c25_discriminator_v1/summaries/P109_CORRECTED_C25_DISCRIMINATOR_V1.md"
+      ],
+      "id": "rational_parameter_p109_c25_discriminator",
+      "kind": "complete_package",
+      "root": "results/2026-08-30_p109_corrected_c25_discriminator_v1"
+    },
+    {
+      "files": [
+        "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/certificates/odd_exceptional_splitting_cm_interference_decision_v2.json",
+        "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/manifests/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2_SHA256SUMS.txt",
+        "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/scripts/verify_odd_exceptional_splitting_cm_interference_v2.py",
+        "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.pdf",
+        "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.tex"
+      ],
+      "id": "odd_exceptional_cm_interference",
+      "kind": "complete_package",
+      "root": "results/2026-09-08_odd_exceptional_splitting_cm_interference_v2"
+    },
+    {
+      "files": [
+        "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/certificates/odd_exceptional_splitting_cm_adversarial_crosscheck_decision_v2.json",
+        "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/manifests/ODD_EXCEPTIONAL_SPLITTING_CM_ADVERSARIAL_CROSSCHECK_V2_SHA256SUMS.txt",
+        "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/scripts/crosscheck_odd_exceptional_splitting_cm_v2.sage",
+        "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_ADVERSARIAL_CROSSCHECK_V2.md"
+      ],
+      "id": "odd_exceptional_cm_crosscheck",
+      "kind": "complete_package",
+      "root": "results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2"
+    },
+    {
+      "files": [
+        "beal_357_spark_handover_2026-08-20/project/beal_357_progress.tex"
+      ],
+      "id": "rational_parameter_source_bridge",
+      "kind": "selected_authenticated_inputs"
+    },
+    {
+      "files": [
+        "beal_357_spark_handover_2026-08-20/project/verify_p7_data_mod7.py"
+      ],
+      "id": "hilbert_hecke_upstream_data_parser",
+      "kind": "selected_authenticated_inputs"
+    },
+    {
+      "files": [
+        "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/scripts/compute_p23_s4_full_log_matrix_v1.sage",
+        "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/certificates/p23_s4_full_log_matrix_v1.json",
+        "results/2026-08-31_p23_alternative_km_base_chart_screen_v1/evidence/p23_s4_full_log_matrix_v1.sobj"
+      ],
+      "id": "rational_parameter_s4_log_inputs",
+      "kind": "selected_authenticated_inputs"
+    },
+    {
+      "files": [
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/compute_p23_s19_full_log_matrix_v1.sage",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_s19_full_log_matrix_v1.json",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/evidence/p23_s19_full_log_matrix_v1.sobj",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/certify_p23_ros_log_rank_and_siksek_v1.sage",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_ros_log_rank_and_siksek_v1.json",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/analyze_p23_P1_second_order_gate_v1.sage",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_P1_second_order_gate_v1.json",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/lift_p23_P1_exceptional_root_and_coefficients_v1.sage",
+        "results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_P1_exceptional_root_coefficients_v1.json"
+      ],
+      "id": "rational_parameter_s19_log_and_lift_inputs",
+      "kind": "selected_authenticated_inputs"
+    },
+    {
+      "files": [
+        "beal_357_spark_handover_2026-08-20/project/BEAL_357_CERTIFICATE_INDEX.md",
+        "beal_357_spark_handover_2026-08-20/project/BEAL_357_CLUSTER_PLAN.md",
+        "beal_357_spark_handover_2026-08-20/project/BEAL_357_PROOF_AUDIT.md",
+        "beal_357_spark_handover_2026-08-20/project/BEAL_357_README.md",
+        "beal_357_spark_handover_2026-08-20/project/P7_F42_THREADRIPPER_SHA256.txt",
+        "beal_357_spark_handover_2026-08-20/project/P7_F42_UBUNTU.md",
+        "beal_357_spark_handover_2026-08-20/project/P7_LEVEL33_SPARSE_MILESTONE.md",
+        "beal_357_spark_handover_2026-08-20/project/SHA256SUMS_357.txt",
+        "beal_357_spark_handover_2026-08-20/project/beal_357_progress.pdf",
+        "beal_357_spark_handover_2026-08-20/project/beal_357_progress.tex",
+        "beal_357_spark_handover_2026-08-20/project/level00_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level01_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level02_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level03_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level10_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level11_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level11_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level12_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level12_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level13_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level13_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level20_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level21_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level21_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level22_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level22_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level23_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level23_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level30_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level31_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level31_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level32_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level32_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level33_18ops.log",
+        "beal_357_spark_handover_2026-08-20/project/level33_20ops.log",
+        "beal_357_spark_handover_2026-08-20/project/p5_minus_modularity_obstruction.log",
+        "beal_357_spark_handover_2026-08-20/project/p5_minus_modularity_obstruction.m",
+        "beal_357_spark_handover_2026-08-20/project/p5_minus_power_sieve.py",
+        "beal_357_spark_handover_2026-08-20/project/p5_minus_power_sieve_bound250.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_dahmen_siksek_s3_bridge.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_dahmen_siksek_s3_bridge.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_even_branch_local7_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_even_mod13_character_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_even_mod13_character_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_agl_diagnostic.json",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_agl_diagnostic.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_certify.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_classgroup.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_exact.json.gz",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_intermediate.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_intermediate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_intermediate_summary.txt",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_nf.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_pari.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_quotient_certify.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_reduced.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_relative_quartic.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_subfield14.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_tower_certificate.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_tower_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_fibre_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_fibre_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_jacobian.sage",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_jacobian_p23.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_branch_jacobian_p43.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_exact.json.gz",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_local.sage",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_reconstruct.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_reconstruct.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_sage.sage",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_degree7_galois_certificate.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_degree7_galois_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_genus20_cluster.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_incidence_isogeny.json",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_incidence_isogeny_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_local_factor_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_local_factor_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_modular_canonical.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_modular_canonical_p1009.json",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_public_tower.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_rank2_certificate.json",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_rank2_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent.json.gz",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent.json.gz.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent_parallel.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent_verify.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_relative_resolvent_verify.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent.json.gz",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent.json.gz.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent_parallel.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent_verify.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_resolvent_verify.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_sage_tower.sage",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_threadripper.sh",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_threadripper_packet.zip",
+        "beal_357_spark_handover_2026-08-20/project/p7_f42_threadripper_packet.zip.sha256",
+        "beal_357_spark_handover_2026-08-20/project/p7_fano_genus3.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_ghost_local_symplectic_audit.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_hecke2_generator_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_inert_prime_packet_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level22_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_level22_certificate.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level22_charpoly_check.c",
+        "beal_357_spark_handover_2026-08-20/project/p7_level22_quaternion_validation.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level23_data_mod7.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level23_special_type_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_level23_special_type_certificate.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level32_special_at5_certificate.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level32_special_at5_public.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_level32_special_at5_public.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_census.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_census_public.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_ghost_fingerprint.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke13_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke17_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke2_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke7_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_131_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_139_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_149_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_151_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_more_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_hecke_split_next_data.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_mod7_intersection.c",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_newquotient_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_newquotient_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_quaternion_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_level33_sparse_certificate.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_lower_levels_quaternion_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_branch_local2_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_branch_local7_certificate.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_local_sieve.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_local_sieve.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_q23_fq4_audit.c",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_q23_fq4_audit.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_selftwist_fields.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_odd_cm_selftwist_fields.m",
+        "beal_357_spark_handover_2026-08-20/project/p7_order4_local_elimination.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_order4_local_elimination.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_field_classgroups.gp",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_field_classgroups.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_factor_sieve.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_factor_sieve.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod11.c",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod11.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod13.c",
+        "beal_357_spark_handover_2026-08-20/project/p7_pure_trace_mod13.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_reducible_ray_sieve.py",
+        "beal_357_spark_handover_2026-08-20/project/p7_splitting_character_audit.log",
+        "beal_357_spark_handover_2026-08-20/project/p7_splitting_character_audit.py"
+      ],
+      "id": "original_project_manifest_closure",
+      "kind": "strict_manifest_closure",
+      "manifest": "beal_357_spark_handover_2026-08-20/project/SHA256SUMS_357.txt"
+    },
+    {
+      "files": [
+        "references/AUDIT_COMPOSITION_V2.md",
+        "references/Thesis_CasperPutz.pdf",
+        "references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf"
+      ],
+      "id": "putz_pvt_primary_and_review_sources",
+      "kind": "exact_external_sources_relocated_in_memory"
+    }
+  ],
+  "repair_scope": "Adds every file required by the ordinary sector-level replay suite, including the complete Section 7 packages and the rational-parameter sieve, rank, local-root, and lift interfaces.",
+  "repository_file_count": 649,
+  "schema": "primitive_357_dependency_closure_index_v2",
+  "third_party_source_snapshot": {
+    "file_count_including_manifest": 17,
+    "manifest": "third_party/GFE-5p3/UPSTREAM_SHA256SUMS.txt",
+    "origin": "third_party/GFE-5p3/UPSTREAM_ORIGIN.json",
+    "root": "third_party/GFE-5p3",
+    "upstream_commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423"
+  }
+}

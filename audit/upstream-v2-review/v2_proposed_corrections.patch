@@ -1,0 +1,469 @@
+--- a/THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.tex
++++ b/THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357_FROM_FRONTIER_TO_PROOF.tex
+@@ -68,7 +68,8 @@
+ 
+ For the six pure fields we construct an explicit Fano resolvent, descend to
+ a smooth plane quartic of genus three over $\Q(\sqrt{-7})$, and prove that
+-its rational-parameter locus consists only of five branch points.  For the
++its rational-parameter locus consists only of five points above the branch
++values.  For the
+ exceptional field we combine the modularity and conductor results of
+ Pacetti--Villagra Torcomian with level lowering over $\Q(\sqrt5)$ and a
+ finite Hecke comparison at $29$.  We also reconstruct the three published
+@@ -157,9 +158,9 @@
+ $A_7$-orbits.  Their compatible pairs give a degree-$120$ resolvent whose
+ quotient is an explicit smooth plane quartic $C_+$ over
+ $\Q(\sqrt{-7})$.  A rational-parameter theorem shows that the relevant
+-parameter on $C_+$ takes rational values only at five branch points.  A
+-nonzero primitive solution would have to give a nonbranch point, so all six
+-pure fields are excluded.
++parameter on $C_+$ takes rational values only at five points above
++$0$, $1$, and $\infty$.  A nonzero primitive solution would have parameter
++outside that set, so all six pure fields are excluded.
+ 
+ \item For the exceptional field we place the specialization in the Frey
+ family of Pacetti--Villagra Torcomian, use their modularity and conductor
+@@ -283,8 +284,7 @@
+ published inputs from Dahmen--Siksek.  We record them because they are the
+ interface between a primitive solution and every later computation.
+ 
+-The first two derivatives needed below are encoded in the elementary
+-identity
++The derivative and the two branch values are given by
+ \begin{equation}\label{eq:derivative}
+           \Phi'(T)=105T^4(T-1)^2,
+           \qquad \Phi(0)=0,\quad \Phi(1)=1.
+@@ -298,20 +298,21 @@
+ \end{equation}
+ Its squareclass is therefore $-7$.
+ 
+-The local covering theorem at $7$ in \cite{DahmenSiksek}, together with the
+-fact that the algebra has at most two global factors, yields an exhaustive
+-partition by factor degrees:
++The local covering theorem at $7$ in \cite[Proposition~3.5]{DahmenSiksek}
++gives local factor-degree patterns $[1,6]$, $[2,5]$, $[3,4]$, and $[7]$.
++Global factors induce groupings of the irreducible local factors, so their
++degrees are obtained by coarsening these patterns.  Consequently the
++possible global factor-degree patterns are exactly among
+ \begin{equation}\label{eq:four-sectors}
+                   [1,6],\qquad [2,5],\qquad [3,4],\qquad [7].
+ \end{equation}
+-For completeness, the Newton polygons explain the four shapes.  If $7\mid
+-X$, the lower hull has vertices $(0,5r),(5,1),(7,0)$ and gives $[5,2]$.
+-If $7\mid Y$, translation by $1$ gives vertices
+-$(0,3r),(3,1),(7,0)$ and hence $[3,4]$.  In the unit and $7\mid Z$
+-branches, translation at the unique root modulo $7$ gives either one
+-length-seven segment or a linear segment followed by a length-six segment.
+-Thus the remaining shapes are $[7]$ and $[1,6]$.  No other global sector
+-can contain a solution.
++In particular, there are at most two global factors.  For example, if
++$7\mid X$ and $r=\ord_7(X)$, the Newton polygon has vertices
++$(0,5r),(5,1),(7,0)$, giving irreducible local factors of degrees $5$ and $2$.
++If $7\mid Y$ and $r=\ord_7(Y)$, translation by $1$ gives vertices
++$(0,3r),(3,1),(7,0)$, giving irreducible local factors of degrees $3$ and $4$.
++The unit case, and the $7\mid Z$ case after scaling to an integral model,
++give the remaining local patterns by the cited proposition.
+ 
+ We now eliminate the four sectors one at a time.
+ 
+@@ -368,8 +369,8 @@
+  \mathcal F=\alpha(u+v\omega)^3,\qquad
+                \alpha\in\{1,9\omega,3\omega^2\},\qquad u,v\in\Q.
+ \end{equation}
+-For $\alpha=1$, integrality and coprimality sharpen this to
+-$u,v\in\Z$ and $\gcd(u,v)=1$.
++For $\alpha=1$, \cite[Lemma~6.4]{DahmenSiksek} further gives
++$w,u,v\in\Z$, with $\gcd(Z,w)=\gcd(u,v)=1$.
+ 
+ Expanding \eqref{eq:three-cubic-cases} produces three genus-two curves.
+ One has no $\Q_2$-point because its primitive homogeneous sextic is always
+@@ -501,8 +502,14 @@
+  \xi_3&-35&1&-5.
+ \end{array}
+ \]
+-The first class is locally impossible away from the checked Weierstrass
+-endpoints.  The other two classes map to elliptic curves over $L_4$.  Their
++The first class cannot lift to a nonendpoint rational point on $D$.
++Indeed, in this class $x=-3ta^2$ and $x-4=tb^2$, whereas the additional
++condition on $D$ requires $x(x-4)/(-35)$ to be a square.  This would make
++$3/35$ a square, which is impossible already over $\Q_7$.  The endpoint
++$x=4$ does not lift either, since it would require $\beta^2=105$.
++The other two classes map to elliptic curves over $L_4$.
++
++Their
+ ranks are respectively $3$ and $2$, their torsion is trivial, and elliptic
+ Chabauty \cite{BruinEC} retains only the rational $x$-coordinates
+ \[
+@@ -561,13 +568,14 @@
+ coordinates as an unexamined proxy for the formal group.
+ 
+ The quartic direct factor is totally imaginary and unramified outside
+-$\{3,5,7\}$.  Dahmen--Siksek obtain the complete list of seventeen such
+-quartic fields from the Number Field Database and apply their local tests
+-\cite[Proposition~4.3]{DahmenSiksek}.  The resulting exact reduction is
+-the local signatures at $2$, $5$, and $7$ give the exact reduction
+-\[
+-                         17\longrightarrow5\longrightarrow2\longrightarrow1.
+-\]
++$\{3,5,7\}$.  Dahmen--Siksek consider the complete lists of nineteen cubic
++fields of signature $(1,1)$ and seventeen quartic fields of signature
++$(0,2)$ unramified outside this set.  They compare each cubic--quartic
++product with the permitted local algebras at $3$, $5$, and $7$.
++Their Proposition~4.3 leaves two products, whose cubic factors are
++$\Q(\sqrt[3]{5^\alpha7})$ for $\alpha=1,2$, and whose quartic factor is the
++same field in both cases \cite[Proposition~4.3]{DahmenSiksek}.
++
+ The surviving field is
+ \begin{equation}\label{eq:quartic-field}
+  M=\Q[a]/(a^4-a^3+3a^2+3a+9)
+@@ -581,7 +589,8 @@
+ 
+ \subsection{The Mordell--Weil group and sieve}
+ 
+-Exact $2$-descent, torsion calculations, height bounds, and saturation give
++We use the Mordell--Weil group determination of
++\cite[Lemma~7.3]{DahmenSiksek}, which gives
+ \begin{equation}\label{eq:section7-MW}
+  J_2(k)=\langle D_0\rangle_{10}
+        \oplus\Z D_1\oplus\Z D_2\oplus\Z D_3.
+@@ -683,8 +692,10 @@
+ argument.
+ 
+ Suppose now that $A_\eta$ is a field.  It has degree $7$, signature
+-$(1,3)$, is unramified outside $\{3,5,7\}$, and has prescribed completions
+-at those primes.  Putz's exhaustive Hunter enumeration
++$(1,3)$, is unramified outside $\{3,5,7\}$, and has the prescribed
++local algebras at $2$, $3$, $5$, and $7$ of
++\cite[Corollary~3.4 and Propositions~3.5--3.7]{DahmenSiksek}.
++Putz's exhaustive Hunter enumeration
+ \cite[Theorem~3.50]{Putz} gives exactly seven possibilities:
+ \begin{equation}\label{eq:seven-fields}
+  \Q\!\left(\sqrt[7]{3^a5}\right)\quad(1\leq a\leq6),
+@@ -740,9 +751,11 @@
+ 
+ To see why this quotient detects the six pure fields, call
+ $F\in\mathcal F_+$ and $G\in\mathcal F_-$ compatible when they have no
+-line in common.  Each $F$ has exactly eight compatible $G$'s, giving 120
+-compatible pairs.  Their normalization is a curve $X_{42}/\Q$.  The
+-stabilizer of a compatible pair in $A_7$ is the Frobenius group $F_{21}$,
++line in common.  We use unordered pairs $\{F,G\}$, since odd
++permutations exchange the two $A_7$-orbits.  Each $F$ has exactly eight
++compatible $G$'s, giving 120 such pairs.  The normalization of the
++corresponding cover is a curve $X_{42}/\Q$.  The stabilizer of an
++unordered compatible pair in $A_7$ is the Frobenius group $F_{21}$,
+ and its stabilizer in $S_7$ is $F_{42}$.  Thus $X_{42}$ has degree $120$
+ over the $t$-line and, after base change to $K_7$, the forgetful map
+ \begin{equation}\label{eq:eight-over-fifteen}
+@@ -765,6 +778,17 @@
+ $3$.  The inverse parameter is the exact rational function
+ $t=-G_t/H_t$; all coefficients of the two quintics are printed in
+ Table~\ref{tab:t-parameter-coefficients}.
++The archive file \path{p7_f42_canonical_exact.json.gz} specifies
++the forward coordinates $N_j(q,t)$ for $j=1,2,3$, and the inverse
++forms $G_q,H_q$.  Exact reduction modulo $R_+(q,t)$ verifies
++\[
++ Q(N_1,N_2,N_3)=0,\qquad
++ G_q(N)+qH_q(N)=0,\qquad G_t(N)+tH_t(N)=0,
++\]
++where $Q$ is the printed quartic and the two inverse denominators are
++nonzero in the function field.  Recovering both generators $q$ and $t$
++proves that this map induces an isomorphism of function fields, hence of
++the smooth projective models, preserving the parameter.
+ 
+ \begin{theorem}[rational-parameter theorem]\label{thm:rational-t}
+ Let $J_+=\operatorname{Jac}(C_+)$.  Then
+@@ -784,11 +808,18 @@
+  \qquad \Sha(J_+/K_7)[2]=0,
+ \]
+ and $D_2,D_3,D_4,D_5$ form a basis modulo $2$.  Their subgroup therefore
+-has odd index.  The relation
++has odd index.  The existence of the fifth-division class used below can
++be seen from the branch divisor.  Write $A=(t)_0/5$, a $K_7$-rational
++divisor of degree three, and set $B=[A-3P_1]$.  The pole divisor is
++$(t)_\infty=7P_3+7P_4+P_5$, so
++\[
++ 5B=7D_3+7D_4+D_5.
++\]
++Consequently the class $E=3B-4D_3-4D_4$ satisfies
+ \begin{equation}\label{eq:Erelation}
+-                         5E=D_3+D_4+3D_5
+-\end{equation}
+-defines the basis $(D_2,E,D_4,D_5)$ used for the odd-primary part.  Four
++                         5E=D_3+D_4+3D_5.
++\end{equation}
++We use $(D_2,E,D_4,D_5)$ for the odd-primary part.  Four
+ independent local $C_{25}$ rows have determinant $4$ modulo $5$, and
+ $J_+(K_7)[5]=0$; hence this subgroup is $5$-saturated.
+ 
+@@ -848,9 +879,9 @@
+ locus.
+ \end{proof}
+ 
+-Each $P_i$ in Theorem~\ref{thm:rational-t} is a branch point of the descent
+-map.  A nonzero primitive solution would give a nonbranch point with
+-rational parameter.  Consequently none of the six pure fields occurs.
++Each $P_i$ in Theorem~\ref{thm:rational-t} lies above one of the branch
++values $0$, $1$, and $\infty$.  A nonzero primitive solution would give a
++point with rational parameter outside this set.  Consequently none of the six pure fields occurs.
+ 
+ \subsection{The exceptional field}
+ 
+@@ -881,22 +912,17 @@
+ control and finiteness at every prime above $7$.  Here $7$ is inert and
+ unramified in $F$, so there is a single such prime.
+ 
+-Now assume that $\bar\rho_7$ is irreducible.  Over the totally real field
+-$F$ this is the absolute-irreducibility hypothesis used in the
+-Hilbert-modular level-lowering step.  The representation is modular and
+-totally odd, has cyclotomic determinant, is finite at the prime above $7$,
+-and is unramified away from $3$, $(\sqrt5)$, and $7$, with the local
+-conductor exponents computed in Section~3 of \cite{PVT}.  Thus the
+-Hilbert-modular level-lowering theorem of Breuil--Diamond
+-\cite{BreuilDiamond} applies.  Pacetti--Villagra Torcomian package these
+-hypotheses and the local conductor calculation in their Theorem~7.8: there
+-is a parallel-weight-two Hilbert newform over $F$, with trivial
+-Nebentypus, whose residual representation is $\bar\rho_7$ and whose level
+-is one of
++Now assume that $\bar\rho_7$ is irreducible.  Apply
++\cite[Theorem~7.8]{PVT} with $p=7$ to the specialization
++\eqref{eq:PVT-map}.  This theorem packages the modularity, local conductor
++calculation, and level-lowering argument for the plus motive: there is a
++parallel-weight-two Hilbert newform over $F$, with trivial Nebentypus,
++whose residual representation is $\bar\rho_7$ and whose level is one of
+ \begin{equation}\label{eq:four-levels}
+-           3^{\epsilon_3}(\sqrt5)^{\epsilon_5},\qquad
+-           (\epsilon_3,\epsilon_5)\in\{2,3\}^2.
+-\end{equation}
++ 3^{\epsilon_3}(\sqrt5)^{\epsilon_5},\qquad
++ (\epsilon_3,\epsilon_5)\in\{2,3\}^2.
++\end{equation}
++
+ The conclusion here is a newform conclusion, but the finite elimination below
+ does not depend on reconstructing a new quotient.  Let $V_N$ be the full
+ mod-$7$ cuspidal Brandt module at one of the four levels~$N$ in
+@@ -918,10 +944,16 @@
+ memory, by $T^{49}-T$, which admits every $\F_{49}$-valued trace.
+ 
+ Write $W_N\subseteq V_N$ for the intersection after these seventeen verified
+-conditions and the conservative no-filter condition at $131$.  The local
+-trichotomy proves that the reduction of every newform supplied by level
+-lowering belongs to $W_N$.  This uses the standard integral
+-Brandt--Jacquet--Langlands and Hecke-equivariance interface, but no
++conditions and the conservative no-filter condition at $131$.  Characteristic-zero Jacquet--Langlands
++\cite[Theorem~3.9 and \S4]{DembeleVoight} supplies the corresponding
++Hecke eigenvector in the definite quaternionic function model.  The exact
++order and neighbour computations verify the maximal order, class number
++one, and the complete Hecke operators; all finite stabilizer orders divide
++$120$, hence are prime to $7$.  The integral function lattice and its
++cuspidal mass condition are therefore preserved at primes above $7$.
++Scale the eigenvector to be primitive in this local lattice and reduce.
++The resulting nonzero vector has the required residual eigenvalues.
++The local trichotomy places it in $W_N$.  This proves coverage without
+ degeneracy-map subtraction.  A fresh simultaneous primary decomposition has
+ packet dimensions, with multiplicity, summing to $\dim W_N$ at every level.
+ The prime-$2$ calculation gives the necessary residual trace $-1$ when $X$ is
+@@ -956,37 +988,83 @@
+        =\psi\oplus\psi^{-1}\bar\chi_7.
+ \end{equation}
+ At a finite prime $\lambda\nmid7$, the cyclotomic character is unramified,
+-so the two summands in \eqref{eq:reducible-semisimplification} have the
+-same Artin-conductor exponent.  Additivity of the conductor and the local
+-bounds $\epsilon_3,\epsilon_5\leq3$ therefore give
+-\[
+- 2a_\lambda(\psi)=a_\lambda(\bar\rho_7)\leq3,
+- \qquad\text{hence}\qquad a_\lambda(\psi)\leq1
+-\]
+-at the primes over $3$ and $5$, and exponent zero elsewhere away from
+-$7$.  At the prime over $7$, finiteness together with the determinant
+-$\bar\chi_7$ gives, after semisimplification, the finite-flat characters
+-of weights $0$ and $1$; the weight-zero factor $\psi$ is unramified.
+-Consequently
++so the two characters in \eqref{eq:reducible-semisimplification} have the
++same Artin-conductor exponent.  The conductor of the semisimplification
++is at most that of the representation.  Thus the local conductor bounds
++at the primes above $3$ and $5$ give
++\[
++ 2a_\lambda(\psi)
++ =a_\lambda(\bar\rho_7^{\mathrm{ss}})
++ \leq a_\lambda(\bar\rho_7)\leq3,
++ \qquad a_\lambda(\psi)\leq1.
++\]
++At every other finite prime away from $7$, the character $\psi$ is
++unramified.
++
++The prime $\mathfrak p=(7)$ is unramified and inert in $F$, with residue
++field $\F_{49}$.  By the finite-flat character classification
++\cite[Corollary~3.4.4]{Raynaud1974}, its restriction to inertia has the form
++\[
++ \psi|_{I_{\mathfrak p}}=\omega_2^{r_0+7r_1},
++ \qquad r_0,r_1\in\{0,1\},
++\]
++The character has level dividing two because it is a rank-one character
++of the full local Galois group.  Here $\omega_2$ is a fundamental
++character of level two, normalized so
++that $\omega_2^{8}=\bar\chi_7|_{I_{\mathfrak p}}$.
++The two mixed possibilities must be excluded globally.  Put
++$\varepsilon=(1+\sqrt5)/2$ and
++\[
++ u=\varepsilon^8=13+21\varepsilon.
++\]
++The unit $u$ is totally positive and satisfies
++\[
++ u\equiv1\pmod{3(\sqrt5)},\qquad u\equiv-1\pmod{7}.
++\]
++Global reciprocity applied to $u$ shows that the value of $\psi$ on its
++local reciprocity image at $\mathfrak p$ is $1$: at every other finite
++place this follows from the conductor bounds just proved, and at both
++real places it follows from total positivity.  The displayed inertial
++character gives that value as $(-1)^{r_0+r_1}$.  Hence $r_0=r_1$.
++If both are zero then $\psi$ is unramified at $\mathfrak p$; if both are
++one then $\psi^{-1}\bar\chi_7$ is unramified there.  Interchanging the two
++characters if necessary, we may therefore choose $\psi$ such that
+ \begin{equation}\label{eq:character-conductor}
+-                       \operatorname{cond}(\psi)\mid3(\sqrt5).
+-\end{equation}
+-Both real places must be included because the representation is odd.  The
+-narrow ray group of modulus
+-$3(\sqrt5)\infty_1\infty_2$ is $C_4\times C_2$, so
+-\eqref{eq:character-conductor} gives exactly eight characters; all eight
+-are enumerated.  This proves the conductor bound used in the reducible
+-branch rather than taking it as an unexplained restriction.
++ \operatorname{cond}(\psi)\mid3(\sqrt5).
++\end{equation}
++Including both real places gives a modulus containing the conductor of
++$\psi$ regardless of its signs.  Its narrow ray group is
++$C_4\times C_2$, so there are eight possible characters, all of which are
++included in the comparison.
+ 
+ At $q=29$, take
+ $\mathfrak q=(29,\sqrt5-11)$; the conjugate prime gives the conjugate
+-packet and the same common-root test.  The four admissible values
+-$\eta=10,14,24,28$ correspond by \eqref{eq:PVT-map} to
++packet and the same common-root test.  The exceptional septic polynomial
++is squarefree modulo $29$ with factor degrees $[1,3,3]$.  Among
++$\eta\in\F_{29}\setminus\{0,1\}$, the polynomial $\Phi(T)-\eta$ has
++this pattern precisely for $\eta=10,14,24,28$.
++
++The branch residues do not give this pattern.  If $29\mid X$, scale the
++five-root cluster at $T=0$ using $\ord_{29}(\eta)=5\ord_{29}(X)$.
++Its separable reduction has degrees $[1,2,2]$, since $29\equiv-1\pmod5$;
++the complementary quadratic has degrees $[1,1]$.  If $29\mid Y$, the
++corresponding three-root cluster at $T=1$ has degrees $[1,2]$, and the
++complementary quartic has degrees $[1,1,2]$.  Both cases therefore have
++pattern $[1,1,1,2,2]$.  If $29\mid Z$, the scaled coordinate $U=ZT$
++gives reduction $15U^7-X^5$; its pattern is $[1,1,1,1,1,1,1]$ or $[7]$
++because $\F_{29}$ contains the seventh roots of unity.  Hensel's lemma
++applies to each scaled separable reduction.  Thus only the four ordinary
++values remain.  By \eqref{eq:PVT-map} they correspond to
+ $t_0=14,10,25,15$.  Direct point counting on
+ \[
+                 y^2=5x^6-12x^5+10t_0x^3+t_0^2
+ \]
+-gives the following Frobenius trace polynomials over $\F_7$:
++gives the following polynomials over $\F_7$ satisfied by the two
++conjugate real-multiplication Frobenius traces.  Explicitly, if
++$N_1=\#C_{t_0}(\F_{29})$, $N_2=\#C_{t_0}(\F_{29^2})$,
++$A=30-N_1$, and $B=(A^2-(842-N_2))/2$, the degree-four Frobenius
++polynomial is $X^4-AX^3+BX^2-29AX+29^2$, and the two traces satisfy
++$T^2-AT+(B-58)$.  The table records the latter polynomial modulo $7$:
+ \begin{equation}\label{eq:curve-polynomials}
+ \begin{array}{c|c|c}
+ \eta&t_0&\text{curve polynomial}\\ \hline
+@@ -1002,8 +1080,9 @@
+ $T_{\mathfrak q}$ modulo $7$ on every packet surviving the conservative
+ $T_2$ condition.  The preceding dimension accounting proves that every
+ residual eigenvalue $a_{\mathfrak q}(f)\bmod\mathfrak p$, for every relevant
+-newform and every $\mathfrak p\mid7$ in its coefficient field, is a root of
+-one of the first four displayed factors.  We retain the factors as they
++newform and each coefficient prime $\mathfrak p\mid7$ realizing the required
++Frey congruence, is a root of
++one of the first four or the sixth displayed factors.  We retain the factors as they
+ occur in the packet calculation, so they need not be squarefree or minimal.
+ The reducible characters contribute the possible traces
+ $\psi(\mathfrak q)+\psi(\mathfrak q)^{-1}$.  The resulting complete
+@@ -1012,8 +1091,14 @@
+  T,\quad T^2,\quad T^2+5T+2,\quad T^2+3T+4,\quad T-2,\quad T-5.
+ \end{equation}
+ Here $T^2$ and $T^2+3T+4=(T-2)^2$ deliberately record multiplicity; for
+-the resultant test they have the same roots as $T$ and $T-2$.  The value
+-$T$ also covers the zero trace in the reducible branch.  The
++the resultant test they have the same roots as $T$ and $T-2$.  For the specified prime $\mathfrak q$, the ray class has order two:
++a totally positive generator is $6-\varepsilon$, whose square is
++congruent to the totally positive unit $\varepsilon^2$ modulo
++$3(\sqrt5)$; its class is nontrivial, since modulo $3$ the generator is
++$-\varepsilon=\varepsilon^5$, whereas every totally positive unit is an
++even power of $\varepsilon$, whose order modulo $3$ is $8$.
++Thus the reducible traces are
++$2$ and $-2$, covered by the displayed linear factors.  The
+ $24$ pairwise resultants of \eqref{eq:curve-polynomials} and
+ \eqref{eq:test-polynomials} form the matrix
+ \begin{equation}\label{eq:resultants}
+@@ -1102,13 +1187,14 @@
+ \begin{center}
+ \texttt{python3 -B scripts/verify\_dependency\_closed\_release.py}
+ \end{center}
+-from the archive root checks the release manifest, every transitive evidence
+-manifest, the explicit dependency index, and the theorem-composition graph.
++from the archive root checks the declared release manifest, the $52$ base
++evidence manifests, the explicit added-file index, and consistency of the
++theorem-composition graph.
+ The optional \texttt{--run-sector-replays} mode reruns the ordinary sector
+ verifiers.  The distributed logs were produced from a clean extraction in an
+ isolated filesystem in which the original workspace path was absent.  In the
+ arXiv source bundle the release is the ancillary file
+-\texttt{anc/PRIMITIVE\_357\_REPRODUCIBILITY\_V2.tar.gz}; the accompanying
++\path{anc/PRIMITIVE_357_REPRODUCIBILITY_V2.tar.gz}; the accompanying
+ \texttt{PROGRAMS\_AND\_CERTIFICATES.md} gives proposition-by-proposition
+ commands and paths.  The principal correspondence is:
+ \begin{center}
+@@ -1396,16 +1482,30 @@
+ coordinate ring and checks the base points in the three branch fibres.
+ Direct substitution gives
+ $t(P_1)=0$, $t(P_2)=1$, and $t(P_3)=t(P_4)=t(P_5)=\infty$.
++Local expansions on the smooth quartic give
++\[
++ \ord_{P_1}(t)=5,\qquad \ord_{P_2}(t-1)=3,\qquad
++ \ord_{P_3}(1/t)=\ord_{P_4}(1/t)=7,\qquad \ord_{P_5}(1/t)=1.
++\]
++In particular, $P_5$ is an unramified point above the branch value
++$\infty$.
+ 
+ \section{Integral coordinates for the genus-two formal group}
+ \label{app:flynn}
+ 
+-Flynn's six regular coordinates near the origin may be written
++On the divisor-pair chart, write
++$\alpha_1=x_1+x_2$ and $\alpha_2=x_1x_2$.  The unnormalized rational
++coordinate functions in Flynn's projective embedding include
+ \[
+  a_{15}=1,\quad a_{14}=\alpha_1,\quad a_{13}=\alpha_2,\quad
+  a_{12}=\alpha_1^2-2\alpha_2,\quad
+  a_{11}=\alpha_1\alpha_2,\quad a_{10}=\alpha_2^2.
+ \]
++These formulas use the representative with $a_{15}=1$; they do not
++normalize $a_0$ to $1$.  Near the projective origin, the normalized
++coordinates are instead $s_i=a_i/a_0$.  In particular,
++$a_0a_{15}=a_5^2$, so $s_{15}=s_5^2$ and $s_{15}$ vanishes at the origin.
++
+ The computations use the following integral coordinate block:
+ \[
+  b_i=a_i\quad(0\leq i\leq11),\qquad
+@@ -1484,6 +1584,18 @@
+ caract\`eres galoisiens},
+ Ann. Sci. \'{E}c. Norm. Sup\'{e}r. (4) \textbf{47} (2014), 905--974.
+ 
++\bibitem{Raynaud1974}
++M.~Raynaud,
++\emph{Sch\'emas en groupes de type $(p,\ldots,p)$},
++Bull. Soc. Math. France \textbf{102} (1974), 241--280,
++\href{https://doi.org/10.24033/bsmf.1779}{doi:10.24033/bsmf.1779}.
++
++\bibitem{DembeleVoight}
++L.~Demb\'el\'e and J.~Voight,
++\emph{Explicit methods for Hilbert modular forms},
++\href{https://jvoight.github.io/articles/hmf-crm-bcn-053024.pdf}{author's version},
++Theorem~3.9 and \S4.
++
+ \bibitem{Flynn}
+ E.~V. Flynn,
+ \emph{The Jacobian and formal group of a curve of genus $2$ over an

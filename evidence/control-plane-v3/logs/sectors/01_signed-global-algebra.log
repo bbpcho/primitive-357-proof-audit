@@ -1,0 +1,30 @@
+SECTOR=signed-global-algebra
+COMMAND=/release/scripts/portable_python.py -B /release/repository/results/2026-09-09_signed_global_algebra_superselection_audit_v8/scripts/verify_signed_global_algebra_superselection_audit_v8.py
+EXIT=0 WALL_SECONDS=0.241619
+{
+  "discriminant_squareclass": "-7",
+  "global_degree_sectors": [
+    [
+      7
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "product_exclusion_claimed": false,
+  "quantum_mechanical_axioms_used": false,
+  "real_signature": [
+    1,
+    3
+  ],
+  "status": "PASS_SIGNED_GLOBAL_ALGEBRA_SUPERSELECTION_AUDIT_V8"
+}

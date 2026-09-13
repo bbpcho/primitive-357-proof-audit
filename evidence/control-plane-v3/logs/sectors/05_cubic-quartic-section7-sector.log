@@ -1,0 +1,5 @@
+SECTOR=cubic-quartic-section7-sector
+COMMAND=/release/scripts/portable_python.py -B /release/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/scripts/verify_section7_proposition_7_1_closure_v2.py
+PORTABLE_MINIMUM_CHILD_TIMEOUT=1800
+EXIT=0 WALL_SECONDS=1447.239718
+SECTION7_PROPOSITION_7_1_CLOSURE_V2=PASS_ROUTER_LEMMAS_7_3_7_4_MODEL_INTRINSIC_7_5_AND_TERMINAL DEPENDENCY_ROWS=27 OWN_ROWS=4 MODE=ORDINARY

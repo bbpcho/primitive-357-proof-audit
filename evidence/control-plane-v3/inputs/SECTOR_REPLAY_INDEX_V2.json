@@ -1,0 +1,120 @@
+{
+  "ordinary_runtime": {
+    "mpmath": "1.3.0",
+    "pari_gp": "2.15.4",
+    "python": "3.12",
+    "sage": "10.9",
+    "sympy": "1.14.0"
+  },
+  "original_workspace_must_be_absent": true,
+  "replays": [
+    {
+      "base": "repository",
+      "dependencies": [
+        "base evidence tree"
+      ],
+      "id": "signed-global-algebra",
+      "sha256": "a268df1312026c53ece04a6023ce09fa84c67fe3760070f40d265f8bdd5d7487",
+      "source": "results/2026-09-09_signed_global_algebra_superselection_audit_v8/scripts/verify_signed_global_algebra_superselection_audit_v8.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "base evidence tree"
+      ],
+      "id": "rational-factor-sector",
+      "sha256": "3614d78b3e47ff975edae2dac19371fc8e8a596b186bf6aed0e889ab758c0093",
+      "source": "results/2026-09-10_rational_factor_proposition_6_1_composition_v2/scripts/verify_rational_factor_proposition_6_1_checkpoint_v2.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "base evidence tree"
+      ],
+      "id": "quadratic-factor-router",
+      "sha256": "eff2508a9510ed81360caa26483de477d3502375faddb3cf304b9199dec7bf0e",
+      "source": "results/2026-09-09_quadratic_factor_router_2_5_v1/scripts/verify_quadratic_factor_router_2_5.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "base evidence tree"
+      ],
+      "id": "quadratic-factor-terminal",
+      "sha256": "acc73e0d2d28c4bdeea7d47e957efb90ffd53c449d1b6407c1472e9db7339c0f",
+      "source": "results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/scripts/verify_quadratic_factor_2_5_reconstruction.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "section7_quartic_router",
+        "section7_terminal_engine",
+        "section7_mordell_weil_basis",
+        "section7_mordell_weil_sieve",
+        "section7_model_intrinsic_formal_group"
+      ],
+      "id": "cubic-quartic-section7-sector",
+      "sha256": "5eecac5939f10ad7ed8232cb454aa9b327bb48ae07b042f69733e9a5126fad17",
+      "source": "results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/scripts/verify_section7_proposition_7_1_closure_v2.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "rational_parameter_residue_sieve",
+        "rational_parameter_exceptional_diagonal",
+        "rational_parameter_rank4_checkpoint",
+        "rational_parameter_strict_c25_independent_audit",
+        "rational_parameter_p109_c25_discriminator",
+        "rational_parameter_source_bridge",
+        "hilbert_hecke_upstream_data_parser",
+        "rational_parameter_s4_log_inputs",
+        "rational_parameter_s19_log_and_lift_inputs"
+      ],
+      "id": "rational-parameter-sieve-and-lifts",
+      "sha256": "c5f027482657148ed5726ece10c2f65e6de0b4ddbbb157b607d08b633c4fbced",
+      "source": "results/2026-09-08_mixed_rational_t_signature_357_closure_v1/scripts/verify_mixed_rational_t_signature_357_closure_v1.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "base evidence tree",
+        "rational-parameter closure"
+      ],
+      "id": "irreducible-septic-sector",
+      "sha256": "72fe3af1b6ab5624e4cfe8004209d866559a1dd38a206fdd208759fb3fb334b5",
+      "source": "results/2026-09-10_irreducible_degree7_sector_closure_v1/scripts/verify_irreducible_degree7_sector_closure_v1.py"
+    },
+    {
+      "base": "release",
+      "dependencies": [
+        "complete upstream GFE-5p3 snapshot",
+        "6253 trace polynomials",
+        "archived FLINT filter source"
+      ],
+      "id": "hilbert-hecke-filter-coverage",
+      "sha256": "936a0eab39e1a9684614152bde52feff93815ae7a2fa0346a299db1ff1903441",
+      "source": "scripts/verify_hilbert_hecke_filter_coverage.py"
+    },
+    {
+      "base": "release",
+      "dependencies": [
+        "filter-coverage audit",
+        "four freshly rebuilt conservative filtered ambient modules",
+        "prime-2 local trace certificate"
+      ],
+      "id": "hilbert-hecke-ambient-coverage",
+      "sha256": "0c4dac55eda72764d615e2e4c49431ff969165d4ed798eafa44baa798ffd96a3",
+      "source": "scripts/verify_hilbert_hecke_ambient_coverage.py"
+    },
+    {
+      "base": "repository",
+      "dependencies": [
+        "base evidence tree"
+      ],
+      "id": "putz-pvt-interface",
+      "sha256": "afe663b53deb691793ca5719b6547faf80ca96788b753bad66689100c73b1fb7",
+      "source": "results/2026-09-10_pvt_putz_interface_audit_v2/scripts/verify_pvt_putz_interface_v2_package.py"
+    }
+  ],
+  "schema": "primitive_357_sector_replay_index_v2"
+}

@@ -1,0 +1,1042 @@
+{
+  "arithmetic_result": {
+    "both_nonzero": true,
+    "carrier_bits_root_00": [
+      1,
+      0,
+      1
+    ],
+    "carrier_bits_root_11": [
+      0,
+      1,
+      0
+    ],
+    "carrier_signs_root_00": [
+      -1,
+      1,
+      -1
+    ],
+    "coordinate_root_00": [
+      1,
+      0
+    ],
+    "coordinate_root_11": [
+      0,
+      1
+    ]
+  },
+  "claim_boundary": "conditional A.26 implication only; no broader Selmer or Diophantine conclusion",
+  "coherent_manifest_rows": {
+    "results/2026-08-25_source_class_bridge_resume/certificates/p7_orbit42_56_coherent_cocycle_v4_resume1.SHA256SUMS.txt": 12,
+    "results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_COCYCLE_V4_RESUME1_FROZEN_SHA256SUMS.txt": 74
+  },
+  "declared_edge_categories": {
+    "a26_gate_manifest": 2,
+    "a26_gate_sources": 19,
+    "coherent_generated": 6,
+    "coherent_path_inputs": 20,
+    "dictionary_inputs": 5,
+    "p5_v2_authoritative": 10,
+    "p5_v2_diagnostic": 2,
+    "p5_v2_root": 1,
+    "p5_worker_inputs": 10,
+    "partition_gauge_manifest": 23,
+    "precision_nested": 2,
+    "theorem_nested": 4,
+    "umbrella_anchor": 1,
+    "umbrella_direct": 14
+  },
+  "declared_hash_edges": 119,
+  "declared_unique_targets": 93,
+  "named_anchors": {
+    "coherent_cocycle": {
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/p7_orbit42_56_coherent_cocycle_v4_resume1.json",
+      "sha256": "93aa36c5595f7d735591ccba1a8b8b759f2d4b1679ba356cace426befaaffb64"
+    },
+    "contact_cross_matrix": {
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_cross_matrices_v6.bin",
+      "sha256": "ee5a608769d29dd88cfcff4800609996df745c7fb736b1a259c808570f80b9fa"
+    },
+    "p5_manifest": {
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p5_literal_c_a26_candidate_late_v2_manifest.json",
+      "sha256": "119a96d68bb75a9b90ecbd09f353887f8c490c397c973aef94195acce3236db0"
+    },
+    "target42_root": {
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/inputs/p7_target42_tau_relative_root_v1.bin",
+      "sha256": "9de7000696dbe254b0bc06bf47e21e9f0f9ce846809bbc1d25a32498ec011acd"
+    }
+  },
+  "nodes": [
+    {
+      "bytes": 105368073,
+      "path": "repository/beal_357_spark_handover_2026-08-20/checkpoint/p7_f42_bitangent_bnf.bin",
+      "role": "declared-dependency",
+      "sha256": "66299b2e47a6812a3b8b53adc365994fd6d554dba8e9bd7de5fc627ece9cc6c5"
+    },
+    {
+      "bytes": 1263,
+      "path": "repository/beal_357_spark_handover_2026-08-20/project/p7_f42_bitangent_reduced.gp",
+      "role": "declared-dependency",
+      "sha256": "71b53040c8e4eb891e001d04ab000c721f8aca919c91a1f37c0f8e603903ccbd"
+    },
+    {
+      "bytes": 53337,
+      "path": "repository/results/2026-08-20_descent_support/checkpoints/tower_exact.bin",
+      "role": "declared-dependency",
+      "sha256": "c5a0eb3d2743bae80a7d76d83eb4cd62f6636647eba9a1591bd046327146c40b"
+    },
+    {
+      "bytes": 2433,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/bad_local_rvee_corrections.json",
+      "role": "declared-dependency",
+      "sha256": "9ba282093b1b186fee062559b5a4eebfe38cb05a04443614f156fab7112a8b67"
+    },
+    {
+      "bytes": 2965,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/compatible_even_theta.json",
+      "role": "declared-dependency",
+      "sha256": "af024f7ca3c05a5554854c716cffa937558da19575b518026e7a4f858e2f4bd4"
+    },
+    {
+      "bytes": 3006,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/compatible_even_theta_733177_s237021.json",
+      "role": "declared-dependency",
+      "sha256": "62eb93e535daf7654fbf46a424a1534248a74e9c110cd47c43a4dc2545d09ccc"
+    },
+    {
+      "bytes": 3004,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/compatible_even_theta_733177_s496156.json",
+      "role": "declared-dependency",
+      "sha256": "bcc0e40333c08a98291c07ed60ebeceae62737f48c729c0611bbf09336160e69"
+    },
+    {
+      "bytes": 862,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/local_condition_3.gpdata",
+      "role": "declared-dependency",
+      "sha256": "2629326ef48943cf5a1bcb8b8fb69698eec7cf9cf3dabec63d63d0c14e9716dc"
+    },
+    {
+      "bytes": 830,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/local_condition_5.gpdata",
+      "role": "declared-dependency",
+      "sha256": "d500112744f809d4a1e0dbcf7ec565bce7cff0f0e08afa73d245ed1d7b55f41e"
+    },
+    {
+      "bytes": 1062,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/p7_known_cycles_r_residues.gpdata",
+      "role": "declared-dependency",
+      "sha256": "8e702f718ebd7076eb9cef2a6f17f911290a98573e57757a65e92fe7c031d1c6"
+    },
+    {
+      "bytes": 143931,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/p7_partition_r_detection.json",
+      "role": "declared-dependency",
+      "sha256": "b3d6d2b616535dbff319b33e1c1f5f559a8449a4bd9a9dd5eda04eef195487a6"
+    },
+    {
+      "bytes": 6397,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/p7_second_tetrad_search.json",
+      "role": "declared-dependency",
+      "sha256": "7a30e3a1a1c34bae74414070ae29cbb2f0710ccaa680d31b35beff381a26c80f"
+    },
+    {
+      "bytes": 5451,
+      "path": "repository/results/2026-08-21_descent_galois/certificates/p7_target_tetrad_orbit.json",
+      "role": "declared-dependency",
+      "sha256": "2e44a8eb374ba7decab444149f537590286c152b138fa8f4c2311b9ab885eca2"
+    },
+    {
+      "bytes": 33168,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/compatible_even_theta.json",
+      "role": "declared-dependency",
+      "sha256": "6b85859a88465dd6a619923cbcf24b37c0f96bf5dc457aa461e441fa922cdd5f"
+    },
+    {
+      "bytes": 34617,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/compatible_even_theta_733177_s237021.json",
+      "role": "declared-dependency",
+      "sha256": "37355c1cd1b3de2c487f0720349be1396f2d01ad1394a5c68570f200e3c2642f"
+    },
+    {
+      "bytes": 34621,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/compatible_even_theta_733177_s496156.json",
+      "role": "declared-dependency",
+      "sha256": "58bc62aeb033aa828a7fdee68560dfac383209b299552f907809864c3d1a7949"
+    },
+    {
+      "bytes": 3047466,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/local_condition_5.bin",
+      "role": "declared-dependency",
+      "sha256": "2bd42ec60a05810098cfc4798f8a838b62db85ea42f0db2f903fe25f397f2dd0"
+    },
+    {
+      "bytes": 2657433,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/local_condition_7_v2.bin",
+      "role": "declared-dependency",
+      "sha256": "79ba671da94baac481959c1ac519fa239019baa7081e954c33625cadd71c530a"
+    },
+    {
+      "bytes": 30513,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/p7_degree42_tetrad_sum_resolvent.json",
+      "role": "declared-dependency",
+      "sha256": "18fcf14d28d1e9136eef521323af9856263d75309263b0a3ea5277cdb270333c"
+    },
+    {
+      "bytes": 11152641,
+      "path": "repository/results/2026-08-21_descent_galois/checkpoints/tower_quartet_syzygy_v1.bin",
+      "role": "declared-dependency",
+      "sha256": "e48129f4d041d54a9b47f7b9a46a140bf0f5b34aa4d6add87686f179af07ee39"
+    },
+    {
+      "bytes": 766724,
+      "path": "repository/results/2026-08-21_descent_galois/inputs/Bruin_Poonen_Stoll_1205.4456v2.pdf",
+      "role": "declared-dependency",
+      "sha256": "e53e4912cab98eb0e514afa2fbf17b21f446ac032b6b1855e11784bbc478fb47"
+    },
+    {
+      "bytes": 1288,
+      "path": "repository/results/2026-08-21_descent_galois/inputs/split_prime_geometry_homogeneous_19163_v1.json",
+      "role": "declared-dependency",
+      "sha256": "9f0c560f1bc6b89e5482cdcd8dd13d6ba627a2d92c6f10ab624920e9b8cb73a7"
+    },
+    {
+      "bytes": 7348,
+      "path": "repository/results/2026-08-21_descent_galois/scripts/certify_bad_decomposition_subgroups.py",
+      "role": "target-character-replay-support",
+      "sha256": "55846735130dbbc7853083a7cb7c95ff193f059784aeb35707cc1955d9a8a08d"
+    },
+    {
+      "bytes": 8459,
+      "path": "repository/results/2026-08-21_descent_galois/scripts/certify_bad_local_rvee_corrections.py",
+      "role": "target-character-replay-support",
+      "sha256": "fd515382adcbf024b073cdf49a4c9969dce4e35f8bee3b8d9e38e20d12fbeadb"
+    },
+    {
+      "bytes": 1090,
+      "path": "repository/results/2026-08-22_discovery_engine/certificates/degree42_h28_conjugate_v2.json",
+      "role": "declared-dependency",
+      "sha256": "24227ee3dd20cd86626545bf47e5d27f82975cc9d4bc36f12d0ab5415d9b9bec"
+    },
+    {
+      "bytes": 3925,
+      "path": "repository/results/2026-08-22_discovery_engine/certificates/degree42_incidence_by_traces.json",
+      "role": "declared-dependency",
+      "sha256": "fb5616ee330b72389ec03913e0612e154b875acf4b948e1f685a5e66e8a6530d"
+    },
+    {
+      "bytes": 2879,
+      "path": "repository/results/2026-08-22_discovery_engine/certificates/degree42_incidence_by_traces_replay.json",
+      "role": "declared-dependency",
+      "sha256": "8a009d508e3d7d26451e894a87f9123f9939cfd919be6ca93d119162d7e658ab"
+    },
+    {
+      "bytes": 2137,
+      "path": "repository/results/2026-08-22_discovery_engine/certificates/degree42_resolvent_separability.json",
+      "role": "declared-dependency",
+      "sha256": "5264bcb49d08bb402166496f6b3f231630324e2bc6159bcb8e35c58093f1d5c4"
+    },
+    {
+      "bytes": 1048,
+      "path": "repository/results/2026-08-22_discovery_engine/certificates/degree56_root_bound9.json",
+      "role": "declared-dependency",
+      "sha256": "89e9f3f74bfc2f422d12a40148c4a2ce1d4cbaea7a0ba3df2899d640f26a59f8"
+    },
+    {
+      "bytes": 67233793,
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_cross_matrices_v6.bin",
+      "role": "contact-checkpoint",
+      "sha256": "ee5a608769d29dd88cfcff4800609996df745c7fb736b1a259c808570f80b9fa"
+    },
+    {
+      "bytes": 1074801,
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_crt_exact_candidate_batch4_v1_after_128.bin",
+      "role": "contact-checkpoint",
+      "sha256": "daa64b9d2fffd5d0c6021f8b47f76d6982c4c07fef80c339d6cd2fff12463f95"
+    },
+    {
+      "bytes": 1116353,
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_v4_lineY.bin",
+      "role": "contact-checkpoint",
+      "sha256": "7377aa1221050c0f40c5a8c5e02d5793833d83a5eb08ae885429520a5912ea73"
+    },
+    {
+      "bytes": 1116209,
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_horner_one_element_v3.bin",
+      "role": "contact-checkpoint",
+      "sha256": "9bf02783c7d5daf222dd9d5e8d26f8563d1fd9836fa8929471376201f60b813b"
+    },
+    {
+      "bytes": 4920402,
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_incidence_by_traces.json",
+      "role": "declared-dependency",
+      "sha256": "7c694ad3a2fedc44d69d540b92c5ee33a440359c5fc3b535ad8b65b7084c263e"
+    },
+    {
+      "bytes": 1271521,
+      "path": "repository/results/2026-08-22_discovery_engine/checkpoints/degree42_line_contact_reduced_L_v3.bin",
+      "role": "contact-checkpoint",
+      "sha256": "5d93c3bac5f19a210836ec310265031f442392b91c91734594e9452f1ea46daf"
+    },
+    {
+      "bytes": 15491,
+      "path": "repository/results/2026-08-22_discovery_engine/scripts/attempt_degree42_incidence_lift.py",
+      "role": "declared-dependency",
+      "sha256": "d1fcadffc34600d58e51cbb17e5203920cdfd1156844e80cb706bae30da636eb"
+    },
+    {
+      "bytes": 18260,
+      "path": "repository/results/2026-08-22_discovery_engine/scripts/construct_degree42_incidence_by_traces.py",
+      "role": "declared-dependency",
+      "sha256": "70f0b40a7b9c6ab3bd3bb045800328174ff69bb7e390eda1b6bdc0ef9bb7108f"
+    },
+    {
+      "bytes": 5206,
+      "path": "repository/results/2026-08-24_discovery_engine/certificates/p7_root5_root1_omega_readonly_bridge_adapter_v1_final.json",
+      "role": "declared-dependency",
+      "sha256": "34c6ed63d1b631b72435f9480d9123306e7b561fba737d6e07e308baea11ff92"
+    },
+    {
+      "bytes": 3979173,
+      "path": "repository/results/2026-08-24_discovery_engine/checkpoints/p7_omega_odd_one_orbit_position_v1.json",
+      "role": "declared-dependency",
+      "sha256": "cb7e4fa7446f1823482f1a8554b3d3d7b7de3105be693aa169f5f2b2366c27eb"
+    },
+    {
+      "bytes": 26039,
+      "path": "repository/results/2026-08-24_discovery_engine/scripts/certify_p7_omega_odd_one_orbit_position_v1.py",
+      "role": "declared-dependency",
+      "sha256": "c973fe0f20774d5fd19eaeb927301c7661e4f6f4e2ee7b50f7855c67046e12ec"
+    },
+    {
+      "bytes": 7503,
+      "path": "repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_LOCAL_STOPPING_THEOREM.md",
+      "role": "declared-dependency",
+      "sha256": "61b5ac063ff1a538bec7a409671eddc7fa9cddb5c1c72906bbbf4415817ddc06"
+    },
+    {
+      "bytes": 7166,
+      "path": "repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE2_AUGMENTED_LOCAL_STOPPING_THEOREM.md",
+      "role": "declared-dependency",
+      "sha256": "3268de83b18fc6cbddd9988c053bf6443c2eb9f95375b4cba6d5ceacef5cd769"
+    },
+    {
+      "bytes": 66149,
+      "path": "repository/results/2026-08-25_global_assembly/checkpoints/global_kappa_dyadic_restriction_v1.json",
+      "role": "declared-dependency",
+      "sha256": "544e369c07435842db4ae96cceecc2512d7850b8f2e40100d7d9fa7c278d7124"
+    },
+    {
+      "bytes": 218505,
+      "path": "repository/results/2026-08-25_global_obstruction/checkpoints/displayed_fake_quotient_diagonal_normalized_v10.bin",
+      "role": "declared-dependency",
+      "sha256": "6caa14cb0b19fbc83e8f45f963b7979d3360a86739091cf33311fc589b720180"
+    },
+    {
+      "bytes": 16567,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/coherent_root_ratio_global_correction_0x7f_v2.json",
+      "role": "declared-dependency",
+      "sha256": "760ccf309f97e9a66dbd49f5564d7dc0de44fff82ee17a26e1f50ef43a284515"
+    },
+    {
+      "bytes": 42355,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/independent_p7_full315_completion_v1.json",
+      "role": "declared-dependency",
+      "sha256": "018c2e704606d4f567a4cf718d3f5a9a2ed6991f9826a84de8d18db12542d665"
+    },
+    {
+      "bytes": 93441,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/p7_full315_completion_attack_v2.json",
+      "role": "declared-dependency",
+      "sha256": "9692fadecff9993a75d9dc472ab286f0871af31bba53707fa05f9804d1826a91"
+    },
+    {
+      "bytes": 2502,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/p7_orbit42_56_coherent_cocycle_v4_resume1.SHA256SUMS.txt",
+      "role": "coherent-cocycle",
+      "sha256": "f3ad1b4df7a6a0e902489496dd03bb166e9a6cfaa7b68c1d0b7c05380bcd7174"
+    },
+    {
+      "bytes": 22708,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/p7_orbit42_56_coherent_cocycle_v4_resume1.json",
+      "role": "coherent-cocycle",
+      "sha256": "93aa36c5595f7d735591ccba1a8b8b759f2d4b1679ba356cace426befaaffb64"
+    },
+    {
+      "bytes": 17042,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/certificates/p7_orbit42_56_coherent_cocycle_v4_resume1_postrun_absolute_runtime_exact_result_v1.json",
+      "role": "coherent-cocycle",
+      "sha256": "08cae492160d6e001c5704c94e66014c19ef9584b2614eeec086dfe15374ce21"
+    },
+    {
+      "bytes": 6144856,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_degree56_completion_incidence_rational_v4_resume1.gpdata",
+      "role": "coherent-cocycle",
+      "sha256": "9377656104e1b114ccca6aca7c08c95dd601b09bbf96b7d401b11994cccafb97"
+    },
+    {
+      "bytes": 1638233,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_degree56_completion_incidence_trace_v4_resume1.json",
+      "role": "coherent-cocycle",
+      "sha256": "292b168d18db5d29ee1cc1492d1ba3af3f8ed420bed7d42473ed0414802fe587"
+    },
+    {
+      "bytes": 7937,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_orbit42_56_charzero_negatives_v4_resume1.bin",
+      "role": "declared-dependency",
+      "sha256": "d501eda78faf828de49157572658fe56e7bb31882a6b41990ff9777ad322ceec"
+    },
+    {
+      "bytes": 3903,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_orbit42_56_cocycle_input_v4_resume1.gpdata",
+      "role": "declared-dependency",
+      "sha256": "f24249dddcc55826253a9260c9fdb3184f605aa0b27248b97733774125194f8f"
+    },
+    {
+      "bytes": 31717,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_orbit42_56_exact_cc_rational_v4_resume1.gpdata",
+      "role": "declared-dependency",
+      "sha256": "6fd3939e0d7b25f0c8d492119df9f3ba3386dc3aa9c29f07fb6cf7f6438f8092"
+    },
+    {
+      "bytes": 1334065,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_orbit42_56_exact_tau_norms_v4_resume1.bin",
+      "role": "declared-dependency",
+      "sha256": "7a7c3a98c89e653766db759e72aa81d43bea04906c5c03b6ee1ee701623e731d"
+    },
+    {
+      "bytes": 567497,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_orbit42_56_exact_tau_provenance_v4_resume1.bin",
+      "role": "declared-dependency",
+      "sha256": "8f38bddb30c78566fe4b64ac0bcd2c0a4055db1bed41a150fea7758c664a161d"
+    },
+    {
+      "bytes": 8238,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/checkpoints/p7_orbit42_56_root_values_v4_resume1.gpdata",
+      "role": "declared-dependency",
+      "sha256": "09f6c0e4c81c1015eeffbaa68c5598594c1a395408a4de43f63b5f8755bfbe34"
+    },
+    {
+      "bytes": 3031,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/inputs/complement_split_prime_root_values_v1.gpdata",
+      "role": "declared-dependency",
+      "sha256": "45d19b5a2c2a82a9571ad6fe93f8a753a9eb406e9c9c135df35d2f339facd4c7"
+    },
+    {
+      "bytes": 643513,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/inputs/p7_size56_tau_relative_root_v1.bin",
+      "role": "declared-dependency",
+      "sha256": "100a8e4ef0133effb395fbe93facdcca338a159b1e85172cfb58ff87e446032d"
+    },
+    {
+      "bytes": 288545,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/inputs/p7_target42_tau_relative_root_v1.bin",
+      "role": "target42-root",
+      "sha256": "9de7000696dbe254b0bc06bf47e21e9f0f9ce846809bbc1d25a32498ec011acd"
+    },
+    {
+      "bytes": 16105,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/logs/p7_orbit42_56_coherent_cocycle_v4_resume1.log",
+      "role": "coherent-cocycle",
+      "sha256": "9f7a8a3d052d2bdf8907816fa8e68df9f545448584aec07752a12f9e50ad4f4b"
+    },
+    {
+      "bytes": 13001,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/logs/p7_orbit42_56_coherent_cocycle_v4_resume1.validator.log",
+      "role": "coherent-cocycle",
+      "sha256": "95bca1265387afaad4a624caa21ea65e393b5ca983c108ada943e1121666a3b0"
+    },
+    {
+      "bytes": 2723,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/logs/p7_orbit42_56_coherent_cocycle_v4_resume1.versions.log",
+      "role": "coherent-cocycle",
+      "sha256": "e9fa6bc35e92c0d9597f2f65f23405dcedfb872796bca9222ed9740d16cfa535"
+    },
+    {
+      "bytes": 44365,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/certify_coherent_root_ratio_global_correction_0x7f_v1.py",
+      "role": "declared-dependency",
+      "sha256": "121e5a6559cab5623ec9132e7174d90a1a3ef094c19c95134468ce6c8e1d9b53"
+    },
+    {
+      "bytes": 2354,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/certify_p7_orbit42_56_charzero_negatives_v4.gp",
+      "role": "declared-dependency",
+      "sha256": "be41f957cbaaac25d4d97180a9717f430379ed1347b15bfc3cbd70ef20d1c569"
+    },
+    {
+      "bytes": 19592,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/certify_p7_orbit42_56_coherent_cocycle_v3.py",
+      "role": "coherent-cocycle",
+      "sha256": "af9022fafa39f939077e15284364650ae2576b124905da2875b9937176990053"
+    },
+    {
+      "bytes": 20817,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/certify_p7_orbit42_56_coherent_cocycle_v4.py",
+      "role": "coherent-cocycle",
+      "sha256": "60f048145b0d1d0547b4e3dcb9ca7110f97a0eae8689ca4166fdf40806fe69d2"
+    },
+    {
+      "bytes": 6770,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/certify_p7_orbit42_56_exact_tau_norms_v2.gp",
+      "role": "declared-dependency",
+      "sha256": "27a9bea60c619cf48b33fce741c8ed677c815c125386cf5541733aa27d8b600c"
+    },
+    {
+      "bytes": 2561,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/compare_p7_orbit42_56_stored_roots_v2.gp",
+      "role": "declared-dependency",
+      "sha256": "fd9fa7515f23afd0439cd471025122c02cd139ca15079d3d9c44b3f4346cd70e"
+    },
+    {
+      "bytes": 18392,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/construct_p7_degree56_completion_incidence_v2.py",
+      "role": "coherent-cocycle",
+      "sha256": "f9427554276731d473911edea296b5b2ccf83ac52766f435f73ba74a41b59e47"
+    },
+    {
+      "bytes": 24055,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/construct_p7_degree56_completion_incidence_v4.py",
+      "role": "coherent-cocycle",
+      "sha256": "d92649818ce02fa9c0361c0437cd98c083acf3d815e425a6a7e2e84b41dcec54"
+    },
+    {
+      "bytes": 5407,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/evaluate_p7_orbit42_56_exact_roots_v3.gp",
+      "role": "declared-dependency",
+      "sha256": "637d35040ba476bf68214b0b16a040e4e82ad43513ebcb7f33939ece5805d2ce"
+    },
+    {
+      "bytes": 2266,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/export_p7_degree56_completion_gp_v2.py",
+      "role": "coherent-cocycle",
+      "sha256": "01b4ca98b838e728e36706062943d4bd9a3ac90ba08055c0297a68f27944b256"
+    },
+    {
+      "bytes": 2357,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/export_p7_degree56_completion_gp_v4.py",
+      "role": "coherent-cocycle",
+      "sha256": "d99a9d02780222a5cde346925f04fa5d50edbeaf099ab3b43f579d3bc462eb8c"
+    },
+    {
+      "bytes": 1078,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/export_p7_orbit42_56_exact_cc_v3.gp",
+      "role": "declared-dependency",
+      "sha256": "3b5504c086d78e58e38679d078ecf1859df06483bce68ad6ce3b566b140ecd99"
+    },
+    {
+      "bytes": 4729,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_degree56_trace_v2.py",
+      "role": "declared-dependency",
+      "sha256": "3ba3dd32cb0d657e97101e0b9aaa08f623d42d843f65846f09e628e41e65b24f"
+    },
+    {
+      "bytes": 11383,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_degree56_trace_v4.py",
+      "role": "declared-dependency",
+      "sha256": "2bd3814785b56d32394e33fc3af5a2720949ea1341f714612412add1001200e0"
+    },
+    {
+      "bytes": 5656,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_cc_line_binding_v3.py",
+      "role": "declared-dependency",
+      "sha256": "918797131be08ccbfca27eb6aaa6645deebca0abcbc7292de02ab6e0357a4292"
+    },
+    {
+      "bytes": 6028,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_cc_line_binding_v4.py",
+      "role": "declared-dependency",
+      "sha256": "d623bf617a45cd5dd65ac6b5797323ec063f5211679fe3574d0ca4cdf0404aa2"
+    },
+    {
+      "bytes": 2335,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_charzero_negatives_v4.gp",
+      "role": "declared-dependency",
+      "sha256": "e1bd366e348da614175ed8cc8525d62af544bbd3ae94f483cbd8a124149437be"
+    },
+    {
+      "bytes": 7593,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_cocycle_v3.py",
+      "role": "declared-dependency",
+      "sha256": "7312ca3be097d5c6a5c312e628e69593ce821e0f3b9c5233047fd655f20f622d"
+    },
+    {
+      "bytes": 11460,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_cocycle_v4.py",
+      "role": "declared-dependency",
+      "sha256": "216c9d75273bee1ea2751cbb0cade468fb824c09c408e99837277479dac9b6e0"
+    },
+    {
+      "bytes": 5974,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_exact_tau_norms_v3.gp",
+      "role": "declared-dependency",
+      "sha256": "8346ebb2ccb85f0f2ad91ea6571934a06ac78a67a6d85d273f4a9df3986231ec"
+    },
+    {
+      "bytes": 1904,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/independent_verify_p7_orbit42_56_stored_roots_v3.gp",
+      "role": "declared-dependency",
+      "sha256": "2c19931ddc08c36f84d8234b4cea0718d0020dc80eff7e4ed360c1633e9dadb7"
+    },
+    {
+      "bytes": 4244,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/prepare_p7_orbit42_56_cocycle_input_v3.py",
+      "role": "declared-dependency",
+      "sha256": "0602bab304aa22c88fadf346ebbd46d8b9ad4ab8b2356d0f24f62db0f3310cc2"
+    },
+    {
+      "bytes": 4616,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/prepare_p7_orbit42_56_cocycle_input_v4.py",
+      "role": "declared-dependency",
+      "sha256": "288158defcfd792a1f1b8c2c17e904ec2e0957220a9013b1fc8e0b601fe8801f"
+    },
+    {
+      "bytes": 5564,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/run_p7_orbit42_56_coherent_cocycle_v1.sh",
+      "role": "coherent-cocycle",
+      "sha256": "3afe73c0b9ae9c84658d79c0e25ed07093518ac83e02ee779e7f651b56a0aa2d"
+    },
+    {
+      "bytes": 13111,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/run_p7_orbit42_56_coherent_cocycle_v2.sh",
+      "role": "coherent-cocycle",
+      "sha256": "5e8b316152e994278218301f17e02d9a560e93c0055e8eda0c05439ecac946ab"
+    },
+    {
+      "bytes": 10221,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/run_p7_orbit42_56_coherent_cocycle_v3.sh",
+      "role": "coherent-cocycle",
+      "sha256": "09d40bfc5cb55f490a345063c02f83e098826130c9f7a3e86e36bba4d1e40850"
+    },
+    {
+      "bytes": 1112,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/run_p7_orbit42_56_coherent_cocycle_v4.sh",
+      "role": "coherent-cocycle",
+      "sha256": "efd59a7b9c96ae302ae6cf23cbccafed73b3d73a27e804758bc05d4b29b53603"
+    },
+    {
+      "bytes": 13594,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/run_p7_orbit42_56_coherent_cocycle_v4_active.sh",
+      "role": "coherent-cocycle",
+      "sha256": "dc37c1c8596b228b7a8aa692e08e1dd83e03e5636d7a36a6b76111b75a32219e"
+    },
+    {
+      "bytes": 14931,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/run_p7_orbit42_56_coherent_cocycle_v4_resume1_active.sh",
+      "role": "coherent-cocycle",
+      "sha256": "f4a9e3bb51e8447b714cc95db37ee7402f434d510d6180065691c359578d7482"
+    },
+    {
+      "bytes": 1011,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/validate_p7_orbit42_56_exact_cc_export_v3.gp",
+      "role": "declared-dependency",
+      "sha256": "87f3b6f21f4217f9df800ead878181d143fa9665f64e1c7a08410289af3f2401"
+    },
+    {
+      "bytes": 4131,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/scripts/validate_p7_orbit42_56_exact_roots_v3.gp",
+      "role": "declared-dependency",
+      "sha256": "291486bc32f5c3f960a8d2dbb220f7fff0e8c53a4bf4e76143771161177cf616"
+    },
+    {
+      "bytes": 12921,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/COHERENT_ROOT_RELATION_SIGN_THEOREM_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "ebf90a098cfffd8c1eb7674953c051e689cba0116fc792447f35a77d4bdd9aac"
+    },
+    {
+      "bytes": 14633,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/DISPLAYED_COMPLEMENT_BPS_A13_SAME_ALPHA_PROMOTION_THEOREM_V1.md",
+      "role": "declared-dependency",
+      "sha256": "f4eae72faeeb5b6ce3e8cef5d0bd9d46713c5c2951707b2bceae68b0c5ad0d01"
+    },
+    {
+      "bytes": 11273,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/EXACT_TAU_STAR_ORBIT_PROVENANCE_CERTIFICATE_DESIGN.md",
+      "role": "declared-dependency",
+      "sha256": "aeefc84cd0ce6c0843af1a76ff02ac503ad88905beffc2afa5095347059ef2bb"
+    },
+    {
+      "bytes": 15365,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V3_THEOREM_AND_STATIC_GO_NOGO_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "df3d29d1d1ad1a0229f08507f667c946c49a9b590dd1e1a349267d064cd85943"
+    },
+    {
+      "bytes": 7203,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_CAP_VERDICT_ERRATUM_V1.md",
+      "role": "declared-dependency",
+      "sha256": "e08523114b753e5cc911daf20025ed81318a3f509e8073a06a0344f312f7dcd7"
+    },
+    {
+      "bytes": 6253,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_RESOURCE_CAP_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "13241e00c38290dc263fc5ad95378728498ac0a6c6ab23ec4398452eb002bd87"
+    },
+    {
+      "bytes": 16073,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_THEOREM_AND_STATIC_GO_NOGO_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "f6dac9278311dc27f70309ea1bc083c71bbbd38c43e1008aad77d0a4f57d7f94"
+    },
+    {
+      "bytes": 10456,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_FULL315_COMPLETION_MASK8_TYPE_DECISION.md",
+      "role": "declared-dependency",
+      "sha256": "99a639893068aed7fe9453397b40623755281181a79c05cb0d452852a23b29cf"
+    },
+    {
+      "bytes": 24637,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_LITERAL_C_FIVE_PLACE_THEOREM_ACCEPTANCE_AUDIT_V1.md",
+      "role": "declared-dependency",
+      "sha256": "dca515cac416e88d23852761aa1f66d7fb9cd5a46b60a06f2f8beb45d1fd5b35"
+    },
+    {
+      "bytes": 6030,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_CYCLE3_ROOT5_AUGMENTED_CORRECTION_LOCAL_STOPPING_THEOREM.md",
+      "role": "declared-dependency",
+      "sha256": "986256bcd79719e037951cdd92c5cbe1c5db117f83a9d0820f927601eff2cf1a"
+    },
+    {
+      "bytes": 8307,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_COCYCLE_V3_FROZEN_SHA256SUMS.txt",
+      "role": "declared-dependency",
+      "sha256": "2a8f207168e98c33ff18f47010977a058f3c285050f0506339928665a6141500"
+    },
+    {
+      "bytes": 10868,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_COCYCLE_V4_FROZEN_SHA256SUMS.txt",
+      "role": "declared-dependency",
+      "sha256": "a759d24408368147ba2062eda7e09d4009fe6c27c9f9de0e7a8c0771fa857303"
+    },
+    {
+      "bytes": 12296,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_COCYCLE_V4_RESUME1_FROZEN_SHA256SUMS.txt",
+      "role": "declared-dependency",
+      "sha256": "5df2c56747a79a8393add1930b71a5af8c550be3d532d581ae8bf241b6f60a97"
+    },
+    {
+      "bytes": 4964,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V1_PRODUCTION_DESIGN.md",
+      "role": "declared-dependency",
+      "sha256": "232848daa8923a30451fe67d2b9779141882aead40c0f7cf9dc63934aeef78b6"
+    },
+    {
+      "bytes": 5392,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V2_PRODUCTION_DESIGN.md",
+      "role": "declared-dependency",
+      "sha256": "68b41dd9af7f1eefcc232c6e282efd92887e8dc5c55b7ba6908e74053436b688"
+    },
+    {
+      "bytes": 9044,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V3_PRODUCTION_DESIGN.md",
+      "role": "declared-dependency",
+      "sha256": "28bd5d43af1b7fa594d2ddd14a657ea038ac7cafb584a0aa10519fd62dfb7886"
+    },
+    {
+      "bytes": 9681,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V4_PRODUCTION_DESIGN.md",
+      "role": "declared-dependency",
+      "sha256": "03107ac63435d490840bf8ff6aa5709f61a73864b82ad74e192864b20452a373"
+    },
+    {
+      "bytes": 6978,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V4_RESUME1_PRODUCTION_DESIGN.md",
+      "role": "declared-dependency",
+      "sha256": "e1f8572cb07f40ec132978c7cc8914abff58c53b4ab51e9d948bc2336180a79c"
+    },
+    {
+      "bytes": 6917,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/REFRAMER_P7_ORBIT42_56_COHERENT_COCYCLE_V1_STATIC_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "bf9fbac85eeb32e1e9d7ab652726d85394b345e9b51713975ab79b68f75f3649"
+    },
+    {
+      "bytes": 4049,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/REFRAMER_P7_ORBIT42_56_COHERENT_COCYCLE_V2_STATIC_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "2caf9dd7c8767eb3d119bb4e6685bea1304a3f6d1c4ace95b74b6a612241af5f"
+    },
+    {
+      "bytes": 3428,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_COHERENT_COCYCLE_V3_ACCEPTANCE_CHECKLIST_ERRATUM_V1.md",
+      "role": "declared-dependency",
+      "sha256": "62f93714b640ff1580cac2dda945316b93b908539d70140b66ae99b171af36fa"
+    },
+    {
+      "bytes": 11800,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_COHERENT_COCYCLE_V3_STATIC_ACCEPTANCE_CHECKLIST.md",
+      "role": "declared-dependency",
+      "sha256": "b67a534c8564a3cc20140f7fa6e1c27211ee267407e549d6eb2236a0d3782f7d"
+    },
+    {
+      "bytes": 6680,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V1_STATIC_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "8c620e90d719e28e2e682ec72768df59b8a72a6d3360599e22b2d751d9f14dc6"
+    },
+    {
+      "bytes": 7473,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V2_STATIC_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "b5b1a8005810989969a2afbf16840babb79e8b96521447def5a2be8031e752d2"
+    },
+    {
+      "bytes": 8685,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V3_STATIC_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "546a26e22747313fbf15335ad1910bb5771d2dc8f422c34225cd461b8de599f1"
+    },
+    {
+      "bytes": 14031,
+      "path": "repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V4_STATIC_AUDIT.md",
+      "role": "declared-dependency",
+      "sha256": "481b5635489f22e38b3749502a1a2c2017529dfa6226073e7dcfca44dab267f5"
+    },
+    {
+      "bytes": 247,
+      "path": "repository/results/2026-08-26_literal_c_a26_p5_conditional_rejection_independent_audit/INDEPENDENT_P5_LITERAL_C_A26_CONDITIONAL_REJECTION_AUDIT_V1_SHA256SUMS.txt",
+      "role": "declared-dependency",
+      "sha256": "4cace4d9fdc2946d1defb5ce4800a1b036d28fa205d9d62db4abf06360774232"
+    },
+    {
+      "bytes": 9799,
+      "path": "repository/results/2026-08-26_literal_c_a26_p5_conditional_rejection_independent_audit/scripts/audit_declared_hash_closure_v1.py",
+      "role": "declared-dependency",
+      "sha256": "21455be09bd6bd41cc2de3a3f9b41192d84ef9c41742545b1a5b0e706b0156bd"
+    },
+    {
+      "bytes": 10719,
+      "path": "repository/results/2026-08-26_literal_c_a26_p5_conditional_rejection_independent_audit/summaries/INDEPENDENT_P5_LITERAL_C_A26_CONDITIONAL_REJECTION_AUDIT_V1.md",
+      "role": "declared-dependency",
+      "sha256": "674cf6bbfb8b52eccbe434a80c77717e75aa63c9e86a096c2bb33db4f6f0cedb"
+    },
+    {
+      "bytes": 3202,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/LITERAL_C_P7_PARTITION_GAUGE_THEOREM_V1_SHA256SUMS.txt",
+      "role": "partition-gauge",
+      "sha256": "df0588e2cfe3fca12ac5d174d958fff699f7c0762365f72304d08de7d1b7abf1"
+    },
+    {
+      "bytes": 15233,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/certificates/independent_literal_c_p7_partition_gauge_v1_final.bin",
+      "role": "partition-gauge",
+      "sha256": "bdae69e738114609ddb872573b15479716c8036a32a54ea780af61557b5b73e5"
+    },
+    {
+      "bytes": 13409,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/certificates/literal_c_p7_partition_gauge_labelled_v1_final.bin",
+      "role": "partition-gauge",
+      "sha256": "1ba663c3962ad1033a3213a7f7f972c187e8e6f79c70a47ba988bb89a7284db4"
+    },
+    {
+      "bytes": 14769,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/checkpoints/independent_literal_c_p7_partition_gauge_precomparison_v1_final.bin",
+      "role": "partition-gauge",
+      "sha256": "cce9934b526d55bcaae8acda9c031a95d4c2cc1a247b70dd10f91c761086cab5"
+    },
+    {
+      "bytes": 22281,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/checkpoints/literal_c_p7_partition_gauge_candidates_v1_final.bin",
+      "role": "partition-gauge",
+      "sha256": "ac9cd3516138108537f2f7ad158edd5490954ef290fb235534814f3cbe4c6343"
+    },
+    {
+      "bytes": 419,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/logs/independent_literal_c_p7_partition_gauge_v1_final.txt",
+      "role": "partition-gauge",
+      "sha256": "8fdf7bed35efba1f91c03db17e5acfab62401c959f5527f6348f9a9572578be1"
+    },
+    {
+      "bytes": 445,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/logs/literal_c_p7_partition_gauge_candidates_v1_final.txt",
+      "role": "partition-gauge",
+      "sha256": "853bd6ed4d7497067232efcdcab45dc1c774077b721739c326cbd177e898bad5"
+    },
+    {
+      "bytes": 474,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/logs/literal_c_p7_partition_gauge_labelled_v1_final.txt",
+      "role": "partition-gauge",
+      "sha256": "734ced505c910f3bf5da441e8baa514f3bebc3955d8d55ea684a7b4fad92f06f"
+    },
+    {
+      "bytes": 9080,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/scripts/bind_literal_c_p7_partition_gauge_v1.gp",
+      "role": "partition-gauge",
+      "sha256": "6a9850ad6ba2de9410fc7a31e411d7465deb1b8e54c3b2ec42510c425808cf62"
+    },
+    {
+      "bytes": 8983,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/scripts/derive_literal_c_p7_partition_gauge_candidates_v1.gp",
+      "role": "partition-gauge",
+      "sha256": "9df43afc5544bcade166f54e3646659f68043b023e8634726c1e32f06bf4a964"
+    },
+    {
+      "bytes": 12215,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/scripts/independent_replay_literal_c_p7_partition_gauge_v1.gp",
+      "role": "partition-gauge",
+      "sha256": "10526db2ea3dc6203a93cf901840e6c18888bbcbefb715f5c629ee62f81b80f9"
+    },
+    {
+      "bytes": 12186,
+      "path": "repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/summaries/LITERAL_C_P7_PARTITION_GAUGE_THEOREM_V1.md",
+      "role": "partition-gauge",
+      "sha256": "f09c231ab60ebb69709cc3b58dd5bcba4186d64ece014ebc4fbeb3e3c6a6e150"
+    },
+    {
+      "bytes": 510,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/independent_p5_target_character_span_v1.json",
+      "role": "p5-obstruction",
+      "sha256": "8eb24d1a06a7f812806d88d737022ba767500d44b7dca68cdc2748ed5f0e8624"
+    },
+    {
+      "bytes": 9923,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p2_literal_c_scout_non_authoritative_v1.json",
+      "role": "declared-dependency",
+      "sha256": "3d08e549befab4082a5882d9686d0f680335a0a84b0d4ed677df8bf4ec55dddf"
+    },
+    {
+      "bytes": 2745,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p5_literal_c_a26_candidate_late_v2_manifest.json",
+      "role": "p5-obstruction",
+      "sha256": "119a96d68bb75a9b90ecbd09f353887f8c490c397c973aef94195acce3236db0"
+    },
+    {
+      "bytes": 2578,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p5_literal_c_a26_conditional_rejection_theorem_v1.json",
+      "role": "p5-obstruction",
+      "sha256": "97781fdb00aa2157187ac10da4d70bae3d33b04e8811324e1f220453505311df"
+    },
+    {
+      "bytes": 4521,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p5_literal_c_a26_conditional_rejection_umbrella_v1.json",
+      "role": "p5-obstruction",
+      "sha256": "810f5c8d01ea6c874c23a3d6dc86c4cb281af1bff76ff58dfac6ab5ea726cbb2"
+    },
+    {
+      "bytes": 1193,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p5_literal_c_a26_precision_stability_v2.json",
+      "role": "p5-obstruction",
+      "sha256": "c76643c6dd6da8042f6cf4eab6ea4a3009f55088bfe80d8f7877fa041e62b444"
+    },
+    {
+      "bytes": 43522,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/certificates/p5_target_character_diagnostic_v1.json",
+      "role": "p5-obstruction",
+      "sha256": "200540c163498fef81a95bac18edef907ee8f2c575acf5ffdf70c1ae2ee96524"
+    },
+    {
+      "bytes": 2409,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/checkpoints/independent_p5_literal_c_a26_replay_v1.bin",
+      "role": "p5-obstruction",
+      "sha256": "64a96a3347b2e051b2d2ff3e1a87a5f1f756f089a666fd532d5e5ab78ad0a5fc"
+    },
+    {
+      "bytes": 2577,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/checkpoints/independent_p5_literal_c_a26_replay_v2.bin",
+      "role": "p5-obstruction",
+      "sha256": "a31601767668389572fa6dd968707244df4a52fd81778ff8b759f3960d164cea"
+    },
+    {
+      "bytes": 5817,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/checkpoints/p5_literal_c_a26_candidate_late_v1.bin",
+      "role": "p5-obstruction",
+      "sha256": "b37868ac4a8290ee8e19da508a86ec7a25985d39f841ecece8044f6238a2a151"
+    },
+    {
+      "bytes": 8281,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/checkpoints/p5_literal_c_a26_candidate_late_v2.bin",
+      "role": "p5-obstruction",
+      "sha256": "13eca9b227c317a1498101eb2e99e9b829a048133fd682db965b15fa21829890"
+    },
+    {
+      "bytes": 14989,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/certify_p5_literal_c_a26_candidate_late_v2.gp",
+      "role": "p5-obstruction",
+      "sha256": "325d0024ae3d8c6a09f773c081a9d8b1a575d3cb103c20cd3090cda74cece9df"
+    },
+    {
+      "bytes": 13559,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/diagnose_p5_target_characters_v1.py",
+      "role": "p5-obstruction",
+      "sha256": "ccd6b5441cda5421e7e76356b576e86367220f082d57b325d0b382ef9b601aa6"
+    },
+    {
+      "bytes": 9643,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p2_literal_c_a26_candidate_late_v1.py",
+      "role": "declared-dependency",
+      "sha256": "a013e4279ad29f985458ca119502baca3b58986c0bc83a4403d99cf559597804"
+    },
+    {
+      "bytes": 10834,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p5_literal_c_residue_bits_v2.gp",
+      "role": "p5-obstruction",
+      "sha256": "41d66b5b97bc43d5b62246be0facf69f606c5debe2654ebcb19487a09e0ab94f"
+    },
+    {
+      "bytes": 11262,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p5_target_character_span_v1.py",
+      "role": "p5-obstruction",
+      "sha256": "a9961a0f52a9d188e8c0e174be4abbac372105349876c7cd992f67c584e6031d"
+    },
+    {
+      "bytes": 10638,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/scout_p2_literal_c_a26_candidate_late_v1.py",
+      "role": "declared-dependency",
+      "sha256": "9fee8bcc641e0863b1062bc46467e47a8202c87172c66a036158d42e19f2e518"
+    },
+    {
+      "bytes": 5628,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/summaries/P5_LITERAL_C_A26_CANDIDATE_LATE_V2_REPORT.md",
+      "role": "declared-dependency",
+      "sha256": "d8f2b003bfcf479a2d88cfcb17938d1ba0c59e2fcc00571dd3a50ea98c7a88dc"
+    },
+    {
+      "bytes": 2745,
+      "path": "repository/results/2026-08-26_literal_c_a26_residual_bits/summaries/P5_LITERAL_C_A26_CONDITIONAL_REJECTION_THEOREM_V1.md",
+      "role": "declared-dependency",
+      "sha256": "3cc4b7ba304cd010fc3565677f2881a10ab9276cfc3bd93c3a26cdc205bf7d82"
+    },
+    {
+      "bytes": 235,
+      "path": "repository/results/2026-08-26_literal_c_a26_true_lift_gate/LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1_SHA256SUMS.txt",
+      "role": "A26-gate",
+      "sha256": "79b9a20d224a37c472a6558f5266088e23f90f26eb0c882ece0c8711bcb129ee"
+    },
+    {
+      "bytes": 14635,
+      "path": "repository/results/2026-08-26_literal_c_a26_true_lift_gate/certificates/literal_c_bps_a26_true_lift_gate_v1.json",
+      "role": "A26-gate",
+      "sha256": "301a389c52f17bfcd3bcda7a7b444e3b2cae489b2e36ff080e2f0e4ce2f46182"
+    },
+    {
+      "bytes": 21798,
+      "path": "repository/results/2026-08-26_literal_c_a26_true_lift_gate/summaries/LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1.md",
+      "role": "A26-gate",
+      "sha256": "5c4038f73b999863322f80ccd1125800faf54b8508670d8f420fe88d8e65a31f"
+    },
+    {
+      "bytes": 8858,
+      "path": "repository/results/2026-08-26_literal_c_a26_true_lift_gate/summaries/SCEPTIC_LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1_AUDIT.md",
+      "role": "A26-gate",
+      "sha256": "f7571f508540292e4304105ebb6a51b60c9706c0753e460ce8de1d4f479904cc"
+    },
+    {
+      "bytes": 5862,
+      "path": "repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_FULL_LOCAL_FAKE_IMAGE_DIAGONAL_THEOREM.md",
+      "role": "declared-dependency",
+      "sha256": "435932ca3675a985225d17a4da1c22d51bc7d29c2be3971f9e2feed0a29fbd4f"
+    }
+  ],
+  "portable_replay_support_files_beyond_declared_hash_edges": [
+    "repository/results/2026-08-21_descent_galois/scripts/certify_bad_decomposition_subgroups.py",
+    "repository/results/2026-08-21_descent_galois/scripts/certify_bad_local_rvee_corrections.py"
+  ],
+  "schema": "p5_literal_c_obstruction_dependency_closure_v1",
+  "scope": "exact checkpoint-to-obstruction closure for carrier signs and quotient coordinates",
+  "software": {
+    "pari_gp": "2.15.4",
+    "python": "3.12"
+  },
+  "union_file_count": 160
+}
