@@ -1,0 +1,757 @@
+{
+  "scope": "synthetic promotion fixtures only; no actual proof record generated or repository promoted",
+  "status": "PASS",
+  "executions": 75,
+  "records": [
+    {
+      "case": "dry",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "control_unchanged": true,
+      "last_line": "PASS_DRY_REVIEW_NO_CONTROL_FILES_CHANGED"
+    },
+    {
+      "case": "dry",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "control_unchanged": true,
+      "last_line": "PASS_DRY_REVIEW_NO_CONTROL_FILES_CHANGED"
+    },
+    {
+      "case": "dry",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "control_unchanged": true,
+      "last_line": "PASS_DRY_REVIEW_NO_CONTROL_FILES_CHANGED"
+    },
+    {
+      "case": "apply",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "control_unchanged": false,
+      "last_line": "PASS_APPLIED_VERIFIED_RELEASE_PROMOTION"
+    },
+    {
+      "case": "apply",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "control_unchanged": false,
+      "last_line": "PASS_APPLIED_VERIFIED_RELEASE_PROMOTION"
+    },
+    {
+      "case": "apply",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": true,
+      "exit_code": 0,
+      "control_unchanged": false,
+      "last_line": "PASS_APPLIED_VERIFIED_RELEASE_PROMOTION"
+    },
+    {
+      "case": "bad_replay",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual integrated replay did not pass"
+    },
+    {
+      "case": "bad_replay",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual integrated replay did not pass"
+    },
+    {
+      "case": "bad_replay",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual integrated replay did not pass"
+    },
+    {
+      "case": "stale_prior",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual prior run was not fresh and complete"
+    },
+    {
+      "case": "stale_prior",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual prior run was not fresh and complete"
+    },
+    {
+      "case": "stale_prior",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual prior run was not fresh and complete"
+    },
+    {
+      "case": "missing_prior_job",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual prior job coverage incomplete"
+    },
+    {
+      "case": "missing_prior_job",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual prior job coverage incomplete"
+    },
+    {
+      "case": "missing_prior_job",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual prior job coverage incomplete"
+    },
+    {
+      "case": "missing_hecke_sector",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual sector coverage incomplete"
+    },
+    {
+      "case": "missing_hecke_sector",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual sector coverage incomplete"
+    },
+    {
+      "case": "missing_hecke_sector",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual sector coverage incomplete"
+    },
+    {
+      "case": "missing_fano_sector",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual sector coverage incomplete"
+    },
+    {
+      "case": "missing_fano_sector",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual sector coverage incomplete"
+    },
+    {
+      "case": "missing_fano_sector",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: actual sector coverage incomplete"
+    },
+    {
+      "case": "changed_pdf",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: separate PDF differs from the tested manuscript"
+    },
+    {
+      "case": "changed_pdf",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: separate PDF differs from the tested manuscript"
+    },
+    {
+      "case": "changed_pdf",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: separate PDF differs from the tested manuscript"
+    },
+    {
+      "case": "control_paper_mismatch",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: control manuscript differs from the tested paper: paper/manuscript.tex"
+    },
+    {
+      "case": "control_paper_mismatch",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: control manuscript differs from the tested paper: paper/manuscript.tex"
+    },
+    {
+      "case": "control_paper_mismatch",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: control manuscript differs from the tested paper: paper/manuscript.tex"
+    },
+    {
+      "case": "extra_zip_member",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: ZIP payload does not equal the final manifest"
+    },
+    {
+      "case": "extra_zip_member",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: ZIP payload does not equal the final manifest"
+    },
+    {
+      "case": "extra_zip_member",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: ZIP payload does not equal the final manifest"
+    },
+    {
+      "case": "symlink_control",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: symlink in repository snapshot: linked"
+    },
+    {
+      "case": "symlink_control",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: symlink in repository snapshot: linked"
+    },
+    {
+      "case": "symlink_control",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: symlink in repository snapshot: linked"
+    },
+    {
+      "case": "unsynced_checker",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: control verifier is not synchronized: verify_assets.py"
+    },
+    {
+      "case": "unsynced_checker",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: control verifier is not synchronized: verify_assets.py"
+    },
+    {
+      "case": "unsynced_checker",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: control verifier is not synchronized: verify_assets.py"
+    },
+    {
+      "case": "candidate_only_zip",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: missing archived verification record: ARTIFACT_SELECTION.json"
+    },
+    {
+      "case": "candidate_only_zip",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: missing archived verification record: ARTIFACT_SELECTION.json"
+    },
+    {
+      "case": "candidate_only_zip",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: missing archived verification record: ARTIFACT_SELECTION.json"
+    },
+    {
+      "case": "omitted_fano_log",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "omitted_fano_log",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "omitted_fano_log",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "substituted_fano_log",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived fresh output differs from the actual replay: sectors/logs/independent_fano_resolvent_foundation.log"
+    },
+    {
+      "case": "substituted_fano_log",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived fresh output differs from the actual replay: sectors/logs/independent_fano_resolvent_foundation.log"
+    },
+    {
+      "case": "substituted_fano_log",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived fresh output differs from the actual replay: sectors/logs/independent_fano_resolvent_foundation.log"
+    },
+    {
+      "case": "omitted_runtime",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "omitted_runtime",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "omitted_runtime",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "substituted_runtime",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived fresh output differs from the actual replay: RUNTIME_VERSIONS.json"
+    },
+    {
+      "case": "substituted_runtime",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived fresh output differs from the actual replay: RUNTIME_VERSIONS.json"
+    },
+    {
+      "case": "substituted_runtime",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived fresh output differs from the actual replay: RUNTIME_VERSIONS.json"
+    },
+    {
+      "case": "omitted_math_binary",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "omitted_math_binary",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "omitted_math_binary",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: final archive additions differ from the exact retained records"
+    },
+    {
+      "case": "forged_selection_omission",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived artifact selection differs from the complete fresh output selection"
+    },
+    {
+      "case": "forged_selection_omission",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived artifact selection differs from the complete fresh output selection"
+    },
+    {
+      "case": "forged_selection_omission",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived artifact selection differs from the complete fresh output selection"
+    },
+    {
+      "case": "substituted_driver",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: INTEGRATED_REPLAY.log"
+    },
+    {
+      "case": "substituted_driver",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: INTEGRATED_REPLAY.log"
+    },
+    {
+      "case": "substituted_driver",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: INTEGRATED_REPLAY.log"
+    },
+    {
+      "case": "substituted_host",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: HOST_ENVIRONMENT.json"
+    },
+    {
+      "case": "substituted_host",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: HOST_ENVIRONMENT.json"
+    },
+    {
+      "case": "substituted_host",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: HOST_ENVIRONMENT.json"
+    },
+    {
+      "case": "substituted_selector",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: tools/select_final_artifacts.py"
+    },
+    {
+      "case": "substituted_selector",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: tools/select_final_artifacts.py"
+    },
+    {
+      "case": "substituted_selector",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: archived external record differs: tools/select_final_artifacts.py"
+    },
+    {
+      "case": "changed_candidate_identity",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: asset construction refers to a different candidate archive"
+    },
+    {
+      "case": "changed_candidate_identity",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: asset construction refers to a different candidate archive"
+    },
+    {
+      "case": "changed_candidate_identity",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: asset construction refers to a different candidate archive"
+    },
+    {
+      "case": "unknown_native_output",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: fresh artifact selection failed: Unclassified native software; review explicitly before selecting: unclassified-tool"
+    },
+    {
+      "case": "unknown_native_output",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: fresh artifact selection failed: Unclassified native software; review explicitly before selecting: unclassified-tool"
+    },
+    {
+      "case": "unknown_native_output",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: fresh artifact selection failed: Unclassified native software; review explicitly before selecting: unclassified-tool"
+    },
+    {
+      "case": "unknown_symlink_output",
+      "mode": [
+        "normal"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: fresh artifact selection failed: Unclassified directory alias; review before selecting: unknown-link"
+    },
+    {
+      "case": "unknown_symlink_output",
+      "mode": [
+        "-O"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: fresh artifact selection failed: Unclassified directory alias; review before selecting: unknown-link"
+    },
+    {
+      "case": "unknown_symlink_output",
+      "mode": [
+        "-OO"
+      ],
+      "expected_success": false,
+      "exit_code": 1,
+      "control_unchanged": true,
+      "last_line": "RELEASE_PROMOTION_FAILED: fresh artifact selection failed: Unclassified directory alias; review before selecting: unknown-link"
+    }
+  ]
+}

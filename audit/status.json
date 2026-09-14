@@ -1,91 +1,99 @@
 {
-  "schema": "primitive_357_audit_status_v1",
-  "as_of": "2026-09-13",
-  "proof_complete": false,
-  "public_proof_release_authorized": false,
+  "schema": "primitive_357_audit_status_v2",
+  "as_of": "2026-09-14",
+  "release_tag": "verified-2026-09-14.1",
+  "release_asset_id": "PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1",
+  "release_state": "verified",
+  "proof_complete": true,
+  "public_proof_release_authorized": true,
   "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
   "github_visibility": "private",
-  "current_candidate": "V3 manuscript plus post-V3 dependency closures",
-  "blocking_gate": "independent Mordell-Weil rank upper-bound reconstruction and composition with completed saturation/logarithm evidence",
+  "current_candidate": "Integrated verified release with independently completed rank audit",
+  "blocking_gate": null,
   "rank_workplan": "audit/rank-gap/gates.json",
+  "fresh_replay": {
+    "state": "pass",
+    "binding": "audit/verified-2026-09-14/REPLAY_BINDING.json"
+  },
   "gates": [
     {
       "id": "paper_build",
       "mandatory": true,
       "state": "pass",
-      "evidence": "evidence/control-plane-v3/logs/PAPER_COMPILE_V3.log"
-    },
-    {
-      "id": "v3_dependency_integrity",
-      "mandatory": true,
-      "state": "pass",
-      "evidence": "evidence/control-plane-v3/manifests/PRIMITIVE_357_DEPENDENCY_CLOSED_RELEASE_V3_SHA256SUMS.txt"
-    },
-    {
-      "id": "clean_extraction_replay",
-      "mandatory": true,
-      "state": "pass_at_v3_boundary",
-      "evidence": "evidence/control-plane-v3/logs/CLEAN_EXTRACTION_COMPLETE_REPLAY_V3.log"
+      "evidence": "audit/verified-2026-09-14/PAPER_BUILD.log"
     },
     {
       "id": "hecke_ambient_coverage",
       "mandatory": true,
-      "state": "pass_at_certificate_boundary",
-      "evidence": "evidence/control-plane-v3/HECKE_AMBIENT_COVERAGE_V3.md"
+      "state": "pass",
+      "evidence": "docs/EVIDENCE.md"
     },
     {
       "id": "p5_obstruction_dependency_closure",
       "mandatory": true,
-      "state": "packaged_pending_independent_audit",
-      "asset": "P5_LITERAL_C_OBSTRUCTION_DEPENDENCY_CLOSURE_V1"
-    },
-    {
-      "id": "b124_d4_upstream_reconstruction",
-      "mandatory": true,
-      "state": "pass_at_current_evidence_boundary",
-      "asset": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "corrected66_predyadic_dependency_closure",
       "mandatory": true,
-      "state": "completed_clean_replay_pending_independent_audit",
-      "asset": "CORRECTED66_PREDYADIC_AND_P2_PLACE2_DEPENDENCY_CLOSURE_V1"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
+    },
+    {
+      "id": "p7_complete_local_image",
+      "mandatory": true,
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "p2_place2_fake_kernel_correction_dependency_closure",
       "mandatory": true,
-      "state": "completed_clean_replay_pending_independent_audit",
-      "asset": "CORRECTED66_PREDYADIC_AND_P2_PLACE2_DEPENDENCY_CLOSURE_V1"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "mordell_weil_rank_upper_bound_and_composition",
       "mandatory": true,
-      "state": "open",
-      "completion_contract": "docs/RANK_GAP.md"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "saturation_calculations",
       "mandatory": true,
-      "state": "pass_at_current_evidence_boundary",
-      "evidence": "audit/upstream-v2-review/v2_basis_repair"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "split_23_global_logarithms",
       "mandatory": true,
-      "state": "pass_at_current_evidence_boundary",
-      "asset": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "final_theorem_composition",
       "mandatory": true,
-      "state": "blocked_by_rank_gate"
+      "state": "pass",
+      "evidence": "docs/RANK_GAP.md"
+    },
+    {
+      "id": "published_and_magma_premises",
+      "mandatory": true,
+      "state": "imported",
+      "evidence": "docs/EVIDENCE.md"
+    },
+    {
+      "id": "fresh_integrated_replay",
+      "mandatory": true,
+      "state": "pass",
+      "evidence": "audit/verified-2026-09-14/REPLAY_BINDING.json"
     },
     {
       "id": "public_proof_release",
       "mandatory": true,
-      "state": "blocked"
+      "state": "pass",
+      "evidence": "audit/verified-2026-09-14/REPLAY_BINDING.json"
     }
   ],
-  "permitted_release_label": "audit snapshot",
-  "forbidden_release_label_until_closed": "complete proof"
+  "verification_boundary": "The mathematical audit and fresh integrated replay of the exact sealed inputs are complete. Published results and the explicitly identified historical Magma computations remain imported premises; no fresh Magma execution or proof-assistant formalization is claimed. The replay binding records the tested inputs, final archive and unchanged manuscript identities."
 }

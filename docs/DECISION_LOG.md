@@ -36,3 +36,11 @@ immutable archives.  They are not silently folded into the older V3 archive.
 
 Reason: this retains a legible history of which audit question caused each
 addition and permits reviewers to verify the repair independently.
+
+## 2026-09-14 — Integrate the completed independent proof audit
+
+The newly supplied rank dependencies and adopted independent replacements close the named rank-upper-bound gate. The complete local-image arguments include the replacement p=7 kernel witness and second-dyadic correction. Exact linear algebra identifies the complementary literal class used by the completed p=5 obstruction.
+
+The manuscript distinguishes H0 from H1: odd index concerns H0, whereas index coprime to 400 and finite-sieve coverage concern the E-enlarged H1. The correction notice preserves the preceding sealed audit identity.
+
+The user authorized a newly verified release and GitHub changes. The new tag is `verified-2026-09-14.1`. Its publication-ready machine status requires the fresh integrated replay and the exact sealed asset bindings; historical PASS summaries alone do not satisfy that requirement. The stated published and Magma premises remain explicit.

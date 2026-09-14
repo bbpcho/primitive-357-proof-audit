@@ -1,50 +1,73 @@
 {
-  "schema": "primitive_357_rank_gap_workplan_v1",
-  "overall_state": "open",
-  "promotion_target": "independently_audited_rank4_generation_and_downstream_consumption",
+  "schema": "primitive_357_rank_gap_workplan_v2",
+  "overall_state": "pass",
+  "as_of": "2026-09-14",
+  "mathematical_scope": "Combined independent audit and adopted replacement proofs; published/Magma premises remain explicit. Final assembled-release replay is recorded separately.",
   "packages": [
     {
       "id": "R1",
       "name": "theorem_interface_and_dependency_graph",
-      "state": "not_started",
-      "depends_on": []
+      "state": "pass",
+      "depends_on": [],
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "R2",
       "name": "four_class_rank_lower_bound",
-      "state": "not_started",
-      "depends_on": ["R1"]
+      "state": "pass",
+      "depends_on": [
+        "R1"
+      ],
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "R3",
       "name": "selmer_rank_upper_bound_with_p5_closure",
-      "state": "open_load_bearing_gate",
-      "depends_on": ["R1"]
+      "state": "pass",
+      "depends_on": [
+        "R1",
+        "R2"
+      ],
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "R4",
-      "name": "torsion_and_saturation_regression_and_rank_composition",
-      "state": "pass_current_evidence_boundary_composition_waits_for_R3",
-      "depends_on": []
+      "name": "torsion_saturation_and_rank_composition",
+      "state": "pass",
+      "depends_on": [
+        "R3"
+      ],
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "R5",
-      "name": "two_branch_global_log_reconstruction_with_b124_d4",
-      "state": "pass_current_evidence_boundary",
-      "depends_on": []
+      "name": "two_branch_global_log_reconstruction",
+      "state": "pass",
+      "depends_on": [
+        "R1"
+      ],
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "R6",
       "name": "downstream_sieve_and_local_gate_consumption",
-      "state": "blocked_by_R3",
-      "depends_on": ["R3", "R4", "R5"]
+      "state": "pass",
+      "depends_on": [
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "evidence": "docs/RANK_GAP.md"
     },
     {
       "id": "R7",
-      "name": "clean_composition_dual_audit_and_manuscript_update",
-      "state": "not_started",
-      "depends_on": ["R6"]
+      "name": "independent_composition_and_manuscript_update",
+      "state": "pass",
+      "depends_on": [
+        "R6"
+      ],
+      "evidence": "docs/RANK_GAP.md"
     }
   ],
-  "release_rule": "overall_state must be pass before proof_complete may become true"
+  "release_rule": "The completed rank gate alone does not authorize verified status: audit/status.json additionally requires the fresh integrated replay binding and sealed asset identity."
 }

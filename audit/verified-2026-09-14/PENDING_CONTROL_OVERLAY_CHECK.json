@@ -1,0 +1,27 @@
+{
+  "scope": "actual base control repository with proposed overlay and actual seven-asset index; pending fresh integrated replay",
+  "status": "PASS",
+  "records": [
+    {
+      "mode": [
+        "normal"
+      ],
+      "exit_code": 0,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "mode": [
+        "-O"
+      ],
+      "exit_code": 0,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "mode": [
+        "-OO"
+      ],
+      "exit_code": 0,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    }
+  ]
+}

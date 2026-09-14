@@ -1,0 +1,70 @@
+{
+  "schema": "primitive357_integrated_replay_v1",
+  "status": "PASS_FRESH_INTEGRATED_REPLAY",
+  "input_manifest": {
+    "files": 1746,
+    "manifest_sha256": "922d3d410834b2584afb9ebcb908357854c277deab33e0c1290af2080d117a0b"
+  },
+  "seconds": 3046.846905208,
+  "components": [
+    {
+      "id": "prior",
+      "exit_code": 0,
+      "process_group_id": 53490,
+      "log": "logs/prior.log",
+      "sha256": "e35bd52e25b05e89b0ada43a58bff9692d13fa1c57b3efed99ec1b2fbea9d0f5",
+      "seconds": 2965.0181362090007
+    },
+    {
+      "id": "rank_local",
+      "exit_code": 0,
+      "process_group_id": 56662,
+      "log": "logs/rank_local.log",
+      "sha256": "e87c1c26220fb07c7e685191cc8c872a35509ab4dc22e6c6549ce7c452918acb",
+      "seconds": 81.09134637500028
+    },
+    {
+      "id": "sectors",
+      "exit_code": 0,
+      "process_group_id": 53489,
+      "log": "logs/sectors.log",
+      "sha256": "0004ea475f7f4a438f2b3b2c0442409a6de392c273865b4287334140756f1f02",
+      "seconds": 926.7599637080002
+    }
+  ],
+  "rank_conclusions": {
+    "pre7_dimension": 19,
+    "post7_dimension": 18,
+    "final_dimension": 12,
+    "diagonal_dimension": 7,
+    "fake_containing_quotient_dimension": 5,
+    "equals_B_plus_literal_c": true
+  },
+  "prior_groups": [
+    "exports",
+    "rawdyadic",
+    "foundation",
+    "fiveplace",
+    "p5",
+    "logs",
+    "finite_maps"
+  ],
+  "subgroups": {
+    "H0": [
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "H1": [
+      "D2",
+      "E",
+      "D4",
+      "D5"
+    ],
+    "relation": "5E=D3+D4+3D5",
+    "saturation_scope": "H0 is 2-saturated; H1 is 2- and 5-saturated. Rank4 supplies finite index. Coverage modulo400 uses H1. No assertion that H0 is 5-saturated."
+  },
+  "proof_scope": "The manuscript composes the freshly checked support, local containing space B+<c>, exclusion of both true lifts of c, saturation, logarithms, sieve and sector evidence. Checksums alone do not establish these implications.",
+  "retained_premises": "Published theorems and the explicitly identified historical Magma certificates retain their stated provenance; this is not a fresh Magma rerun or formal proof-assistant verification."
+}

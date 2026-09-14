@@ -1,0 +1,1658 @@
+{
+  "scope": "synthetic control-verifier tests, not mathematical replay",
+  "status": "PASS",
+  "cases": 55,
+  "executions": 165,
+  "records": [
+    {
+      "case": "valid_pending",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "valid_pending",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "valid_pending",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "valid_verified",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_VERIFIED"
+    },
+    {
+      "case": "valid_verified",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_VERIFIED"
+    },
+    {
+      "case": "valid_verified",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_VERIFIED"
+    },
+    {
+      "case": "valid_pending_fixture_from_verified_host",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "valid_pending_fixture_from_verified_host",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "valid_pending_fixture_from_verified_host",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "empty_assets",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "empty_assets",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "empty_assets",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "duplicate_gate_id",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'paper_build'"
+    },
+    {
+      "case": "duplicate_gate_id",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'paper_build'"
+    },
+    {
+      "case": "duplicate_gate_id",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'paper_build'"
+    },
+    {
+      "case": "missing_gate",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL gate coverage mismatch"
+    },
+    {
+      "case": "missing_gate",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL gate coverage mismatch"
+    },
+    {
+      "case": "missing_gate",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL gate coverage mismatch"
+    },
+    {
+      "case": "disabled_gate",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL mandatory gate disabled: paper_build"
+    },
+    {
+      "case": "disabled_gate",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL mandatory gate disabled: paper_build"
+    },
+    {
+      "case": "disabled_gate",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL mandatory gate disabled: paper_build"
+    },
+    {
+      "case": "premature_proof_flag",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL release flags disagree with release state"
+    },
+    {
+      "case": "premature_proof_flag",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL release flags disagree with release state"
+    },
+    {
+      "case": "premature_proof_flag",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL release flags disagree with release state"
+    },
+    {
+      "case": "duplicate_asset_id",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "duplicate_asset_id",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "duplicate_asset_id",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "bool_asset_bytes",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL invalid asset byte size"
+    },
+    {
+      "case": "bool_asset_bytes",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL invalid asset byte size"
+    },
+    {
+      "case": "bool_asset_bytes",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL invalid asset byte size"
+    },
+    {
+      "case": "traversing_asset_filename",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "traversing_asset_filename",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "traversing_asset_filename",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "traversing_workspace_path",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "traversing_workspace_path",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "traversing_workspace_path",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "untracked_file",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['extra.txt']"
+    },
+    {
+      "case": "untracked_file",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['extra.txt']"
+    },
+    {
+      "case": "untracked_file",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['extra.txt']"
+    },
+    {
+      "case": "untracked_nested_build",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['evidence/build/extra.txt']"
+    },
+    {
+      "case": "untracked_nested_build",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['evidence/build/extra.txt']"
+    },
+    {
+      "case": "untracked_nested_build",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['evidence/build/extra.txt']"
+    },
+    {
+      "case": "untracked_nested_git",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['evidence/.git/extra.txt']"
+    },
+    {
+      "case": "untracked_nested_git",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['evidence/.git/extra.txt']"
+    },
+    {
+      "case": "untracked_nested_git",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['evidence/.git/extra.txt']"
+    },
+    {
+      "case": "untracked_cache_payload",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['scripts/__pycache__/payload.json']"
+    },
+    {
+      "case": "untracked_cache_payload",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['scripts/__pycache__/payload.json']"
+    },
+    {
+      "case": "untracked_cache_payload",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['scripts/__pycache__/payload.json']"
+    },
+    {
+      "case": "root_build_exclusion",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "root_build_exclusion",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "root_build_exclusion",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "compiled_cache_exclusion",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "compiled_cache_exclusion",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "compiled_cache_exclusion",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_PENDING_FRESH_REPLAY"
+    },
+    {
+      "case": "tracked_digest_mismatch",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked digest mismatch: README.md"
+    },
+    {
+      "case": "tracked_digest_mismatch",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked digest mismatch: README.md"
+    },
+    {
+      "case": "tracked_digest_mismatch",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked digest mismatch: README.md"
+    },
+    {
+      "case": "manifest_omission",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['README.md']"
+    },
+    {
+      "case": "manifest_omission",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['README.md']"
+    },
+    {
+      "case": "manifest_omission",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tracked snapshot coverage mismatch: ['README.md']"
+    },
+    {
+      "case": "manifest_duplicate",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL duplicate or unsorted tracked manifest"
+    },
+    {
+      "case": "manifest_duplicate",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL duplicate or unsorted tracked manifest"
+    },
+    {
+      "case": "manifest_duplicate",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL duplicate or unsorted tracked manifest"
+    },
+    {
+      "case": "directory_symlink",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in repository snapshot: linked"
+    },
+    {
+      "case": "directory_symlink",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in repository snapshot: linked"
+    },
+    {
+      "case": "directory_symlink",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in repository snapshot: linked"
+    },
+    {
+      "case": "excluded_root_symlink",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in repository snapshot: build"
+    },
+    {
+      "case": "excluded_root_symlink",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in repository snapshot: build"
+    },
+    {
+      "case": "excluded_root_symlink",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in repository snapshot: build"
+    },
+    {
+      "case": "parent_component_symlink",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-420jafhj/repo/docs"
+    },
+    {
+      "case": "parent_component_symlink",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-420jafhj/repo/docs"
+    },
+    {
+      "case": "parent_component_symlink",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-420jafhj/repo/docs"
+    },
+    {
+      "case": "duplicate_json_key",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL duplicate JSON key: proof_complete"
+    },
+    {
+      "case": "duplicate_json_key",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL duplicate JSON key: proof_complete"
+    },
+    {
+      "case": "duplicate_json_key",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL duplicate JSON key: proof_complete"
+    },
+    {
+      "case": "replay_missing_component",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL missing or extra replay component"
+    },
+    {
+      "case": "replay_missing_component",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL missing or extra replay component"
+    },
+    {
+      "case": "replay_missing_component",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL missing or extra replay component"
+    },
+    {
+      "case": "replay_duplicate_component",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'prior'"
+    },
+    {
+      "case": "replay_duplicate_component",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'prior'"
+    },
+    {
+      "case": "replay_duplicate_component",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL empty or duplicate id: 'prior'"
+    },
+    {
+      "case": "replay_failed_component",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL failed replay component: prior"
+    },
+    {
+      "case": "replay_failed_component",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL failed replay component: prior"
+    },
+    {
+      "case": "replay_failed_component",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL failed replay component: prior"
+    },
+    {
+      "case": "replay_bool_exit_code",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL failed replay component: prior"
+    },
+    {
+      "case": "replay_bool_exit_code",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL failed replay component: prior"
+    },
+    {
+      "case": "replay_bool_exit_code",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL failed replay component: prior"
+    },
+    {
+      "case": "replay_missing_prior_group",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL prior replay group coverage"
+    },
+    {
+      "case": "replay_missing_prior_group",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL prior replay group coverage"
+    },
+    {
+      "case": "replay_missing_prior_group",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL prior replay group coverage"
+    },
+    {
+      "case": "replay_wrong_manifest",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL fresh replay was not run on the indexed tested manifest"
+    },
+    {
+      "case": "replay_wrong_manifest",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL fresh replay was not run on the indexed tested manifest"
+    },
+    {
+      "case": "replay_wrong_manifest",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL fresh replay was not run on the indexed tested manifest"
+    },
+    {
+      "case": "replay_failed_rank_join",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL rank join missing"
+    },
+    {
+      "case": "replay_failed_rank_join",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL rank join missing"
+    },
+    {
+      "case": "replay_failed_rank_join",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL rank join missing"
+    },
+    {
+      "case": "proof_index_omits_input",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL proof-input index does not cover every tested input"
+    },
+    {
+      "case": "proof_index_omits_input",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL proof-input index does not cover every tested input"
+    },
+    {
+      "case": "proof_index_omits_input",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL proof-input index does not cover every tested input"
+    },
+    {
+      "case": "proof_index_changes_input",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL proof-input identity mismatch: a.txt"
+    },
+    {
+      "case": "proof_index_changes_input",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL proof-input identity mismatch: a.txt"
+    },
+    {
+      "case": "proof_index_changes_input",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL proof-input identity mismatch: a.txt"
+    },
+    {
+      "case": "final_manifest_changes_tested_input",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tested input changed or disappeared from the final release: a.txt"
+    },
+    {
+      "case": "final_manifest_changes_tested_input",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tested input changed or disappeared from the final release: a.txt"
+    },
+    {
+      "case": "final_manifest_changes_tested_input",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tested input changed or disappeared from the final release: a.txt"
+    },
+    {
+      "case": "final_manifest_omits_tested_input",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tested input changed or disappeared from the final release: scripts/check.py"
+    },
+    {
+      "case": "final_manifest_omits_tested_input",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tested input changed or disappeared from the final release: scripts/check.py"
+    },
+    {
+      "case": "final_manifest_omits_tested_input",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL tested input changed or disappeared from the final release: scripts/check.py"
+    },
+    {
+      "case": "sealed_asset_binding_mismatch",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL replay binding and sealed asset index disagree"
+    },
+    {
+      "case": "sealed_asset_binding_mismatch",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL replay binding and sealed asset index disagree"
+    },
+    {
+      "case": "sealed_asset_binding_mismatch",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL replay binding and sealed asset index disagree"
+    },
+    {
+      "case": "replay_log_changed",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL component log digest: prior"
+    },
+    {
+      "case": "replay_log_changed",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL component log digest: prior"
+    },
+    {
+      "case": "replay_log_changed",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "REPOSITORY_VERIFICATION=FAIL component log digest: prior"
+    },
+    {
+      "case": "valid_assets_flat",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "valid_assets_flat",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "valid_assets_flat",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "empty_assets_flat",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "empty_assets_flat",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "empty_assets_flat",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "duplicate_asset_id_flat",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "duplicate_asset_id_flat",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "duplicate_asset_id_flat",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "asset_traversal_flat",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "asset_traversal_flat",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "asset_traversal_flat",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "valid_assets_workspace",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "valid_assets_workspace",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "valid_assets_workspace",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "empty_assets_workspace",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "empty_assets_workspace",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "empty_assets_workspace",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or invalid record list"
+    },
+    {
+      "case": "duplicate_asset_id_workspace",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "duplicate_asset_id_workspace",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "duplicate_asset_id_workspace",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL empty or duplicate id: 'PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1'"
+    },
+    {
+      "case": "asset_traversal_workspace",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "asset_traversal_workspace",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "asset_traversal_workspace",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unsafe relative path: ../archive.zip"
+    },
+    {
+      "case": "wrong_asset_bytes",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL size mismatch: archive.zip"
+    },
+    {
+      "case": "wrong_asset_bytes",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL size mismatch: archive.zip"
+    },
+    {
+      "case": "wrong_asset_bytes",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL size mismatch: archive.zip"
+    },
+    {
+      "case": "asset_file_symlink",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-6dbw1ul0/assets/archive.zip"
+    },
+    {
+      "case": "asset_file_symlink",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-6dbw1ul0/assets/archive.zip"
+    },
+    {
+      "case": "asset_file_symlink",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-6dbw1ul0/assets/archive.zip"
+    },
+    {
+      "case": "asset_parent_symlink",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-9n7swfnh/workspace/assets"
+    },
+    {
+      "case": "asset_parent_symlink",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-9n7swfnh/workspace/assets"
+    },
+    {
+      "case": "asset_parent_symlink",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL symlink in file path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-9n7swfnh/workspace/assets"
+    },
+    {
+      "case": "selected_asset",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "selected_asset",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "selected_asset",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "unknown_asset_selection",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unknown --asset-id selection: ['UNKNOWN']"
+    },
+    {
+      "case": "unknown_asset_selection",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unknown --asset-id selection: ['UNKNOWN']"
+    },
+    {
+      "case": "unknown_asset_selection",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL unknown --asset-id selection: ['UNKNOWN']"
+    },
+    {
+      "case": "duplicate_asset_selection",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL duplicate --asset-id selection"
+    },
+    {
+      "case": "duplicate_asset_selection",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL duplicate --asset-id selection"
+    },
+    {
+      "case": "duplicate_asset_selection",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL duplicate --asset-id selection"
+    },
+    {
+      "case": "default_still_checks_all_assets",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL [Errno 2] No such file or directory: '/private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-ws1zc1c5/assets/other.zip'\nPASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip"
+    },
+    {
+      "case": "default_still_checks_all_assets",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL [Errno 2] No such file or directory: '/private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-ws1zc1c5/assets/other.zip'\nPASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip"
+    },
+    {
+      "case": "default_still_checks_all_assets",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": false,
+      "exit_code": 1,
+      "matched": true,
+      "output": "ASSET_VERIFICATION=FAIL [Errno 2] No such file or directory: '/private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-control-ws1zc1c5/assets/other.zip'\nPASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip"
+    },
+    {
+      "case": "selection_skips_unrequested_asset_bytes",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "selection_skips_unrequested_asset_bytes",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "selection_skips_unrequested_asset_bytes",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nASSET_VERIFICATION=PASS_1_FILES"
+    },
+    {
+      "case": "multiple_selected_assets",
+      "mode": [
+        "normal"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nPASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 other.zip\nASSET_VERIFICATION=PASS_2_FILES"
+    },
+    {
+      "case": "multiple_selected_assets",
+      "mode": [
+        "-O"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nPASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 other.zip\nASSET_VERIFICATION=PASS_2_FILES"
+    },
+    {
+      "case": "multiple_selected_assets",
+      "mode": [
+        "-OO"
+      ],
+      "expected_pass": true,
+      "exit_code": 0,
+      "matched": true,
+      "output": "PASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 archive.zip\nPASS f64d7c56118fbac5deab613bc58af4f3d5399c21a43d16bd2fa772c52023d366 29 other.zip\nASSET_VERIFICATION=PASS_2_FILES"
+    }
+  ]
+}

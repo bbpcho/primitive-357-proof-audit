@@ -48,7 +48,7 @@
        $x^3+y^5=z^7$\\[3mm]
        \large From the published frontier to a certified proof}
 \author{\mbox{}}
-\date{13 September 2026}
+\date{14 September 2026}
 
 \begin{document}
 \maketitle
@@ -842,15 +842,18 @@ The corresponding parameter values are $0,1,\infty,\infty,\infty$.
 \end{theorem}
 
 \begin{proof}
-Put $D_i=[P_i-P_1]$.  An exact $2$-descent, implemented in the general
-genus-three framework of \cite{BPS}, and a rank calculation give
+Put $D_i=[P_i-P_1]$ and $H_0=\langle D_2,D_3,D_4,D_5\rangle$.
+Appendix~\ref{app:rank-proof} gives the complete containing-space and local
+stopping argument in the genus-three framework of \cite{BPS}, including
+the $7$-adic kernel witness and the literal $5$-adic obstruction.  Together
+with the independently checked lower bound, it proves
 \[
  \dim_{\F_2}\operatorname{Sel}_2(J_+/K_7)=4,
  \qquad \rank J_+(K_7)=4,
- \qquad \Sha(J_+/K_7)[2]=0,
+ \qquad \Sha(J_+/K_7)[2]=0.
 \]
-and $D_2,D_3,D_4,D_5$ form a basis modulo $2$.  Their subgroup therefore
-has odd index.  The existence of the fifth-division class used below can
+The independent $2$-saturation witness shows that $D_2,D_3,D_4,D_5$
+form a basis modulo $2$.  Thus $H_0$ has odd index.  The existence of the fifth-division class used below can
 be seen from the branch divisor.  Write $A=(t)_0/5$, a $K_7$-rational
 divisor of degree three, and set $B=[A-3P_1]$.  The pole divisor is
 $(t)_\infty=7P_3+7P_4+P_5$, so
@@ -861,9 +864,12 @@ Consequently the class $E=3B-4D_3-4D_4$ satisfies
 \begin{equation}\label{eq:Erelation}
                          5E=D_3+D_4+3D_5.
 \end{equation}
-We use $(D_2,E,D_4,D_5)$ for the odd-primary part.  Four
-independent local $C_{25}$ rows have determinant $4$ modulo $5$, and
-$J_+(K_7)[5]=0$; hence this subgroup is $5$-saturated.
+Set $H_1=\langle D_2,E,D_4,D_5\rangle$.  Equation~\eqref{eq:Erelation}
+gives $H_0\subseteq H_1$.  Four independent local $C_{25}$ rows have
+determinant $4$ modulo $5$, and $J_+(K_7)[5]=0$; hence $H_1$ is
+$5$-saturated.  Its index is therefore coprime to $400$, and
+$H_1\to J_+(K_7)/400J_+(K_7)$ is surjective.  This is the coefficient
+coverage used in the sieve.
 
 At the split primes
 \[
@@ -894,8 +900,10 @@ and their projection at the two primes above $23$ consists precisely of the
 five ordered residue pairs of $P_1,\ldots,P_5$.
 
 The combined $23$-adic logarithm matrix has size $6\times4$ and rank $4$.
-Two independent annihilating differentials therefore vanish on all of
-$J_+(K_7)$.  At the disks of $P_2,P_3,P_4,P_5$, the Siksek tangent
+The resulting two independent logarithmic functionals vanish on $H_0$.
+Since $H_0$ has finite index, they vanish on all of $J_+(K_7)$: for any
+$P\in J_+(K_7)$, a nonzero integer multiple of $P$ lies in $H_0$, and
+the logarithm takes values in characteristic zero.  At the disks of $P_2,P_3,P_4,P_5$, the Siksek tangent
 determinants modulo $23$ are
 \begin{equation}\label{eq:siksek-dets}
                               12,\quad16,\quad4,\quad19.
@@ -1220,30 +1228,34 @@ the same as that of large integer arithmetic or a table of modular forms in
 a conventional proof: the inputs, outputs, and verification conditions are
 part of the mathematical record.  The argument also imports the general
 theorems cited in the bibliography, rather than attempting to reprove them
-from first principles.
+from first principles.  In the cubic--quartic sector, the rational and
+twisted Mordell--Weil and torsion computations used in
+\cite[Lemma~7.3]{DahmenSiksek} remain explicit published/Magma inputs.
+The finite-field $173$ Kummer argument repairs the separate $2$-saturation
+step; it does not replace those rank and torsion inputs.  No new Magma
+execution of those inputs is claimed by the independent release audit.
 
 \subsection{Companion certificate archive}
 
-The companion archive preserves the evidence in repository-relative paths
-and provides a single integrity and interface verifier.  Running
+The verified release is identified by tag
+\texttt{verified-2026-09-14.1} and by the separately recorded checksum of
+\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}.
+It preserves the V3, $5$-adic and rank-closure inputs under distinct
+repository-relative evidence roots.  Historical archives remain immutable.
+The release-level integrity and theorem-interface verifier is
 \begin{center}
-\texttt{python3 -B scripts/verify\_dependency\_closed\_release\_v3.py}
+\texttt{python3 -B scripts/verify\_release.py}.
 \end{center}
-from the archive root checks the declared release manifest, the $52$ base
-evidence manifests, the exact $765$-file repository closure, the explicit
-added-file and generator-input indexes, and consistency of the
-theorem-composition graph.  The optional pair of flags
-\texttt{--run-sector-replays --run-foundational-replays} reruns both the ten
-sector entry points and the foundational reconstruction: the two independent
-five-place workers, their semantic comparison, the Selmer projector and
-rank-four deduction, both split-$23$ global logarithm matrices, the combined
-annihilator, and the exceptional local calculation.  The distributed complete
-log was produced from a clean extraction in an isolated filesystem in which
-the original workspace path was absent.  In the arXiv source bundle the
-release is the ancillary file
-\path{anc/PRIMITIVE_357_REPRODUCIBILITY_V3.tar.gz}; the accompanying
-\texttt{PROGRAMS\_AND\_CERTIFICATES.md} gives proposition-by-proposition
-commands and paths.  The principal correspondence is:
+Its \texttt{--replay} mode, supplied with explicit SageMath and PARI/GP
+executables and an output directory, runs the adopted reconstruction
+checks.  The accompanying \path{PROGRAMS_AND_CERTIFICATES.md} gives
+the exact commands, dependency indexes, successful logs and retained
+imported premises.  In particular, the rank route includes the actual local
+image and fake-kernel stopping proofs in Appendix~\ref{app:rank-proof},
+the same-literal-$c$ comparison, and the corrected $H_0/H_1$ index
+statement.  The historical V3 and post-V3 PASS records are retained as
+provenance; they are not substitutes for these adopted checks.
+The principal correspondence is:
 \begin{center}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{.22\textwidth}
                     >{\raggedright\arraybackslash}p{.20\textwidth}
@@ -1278,14 +1290,15 @@ Theorem~\ref{thm:main}
 \bottomrule
 \end{tabular}
 \end{center}
-The archive distinguishes three operations.  The default verifier is a
-dependency-free check of identity, coverage, and exact finite interfaces.
-The supplied Python and PARI/GP programs rerun the open exact-arithmetic
-layers.  SageMath and Magma programs rerun the curve, descent, modular-form,
-and Chabauty layers when those systems are available; authenticated logs are
-included for computations requiring the proprietary Magma runtime.  Imported
-published theorems remain bibliographic dependencies and are not represented
-as newly proved computational claims.
+The archive distinguishes identity checks, arithmetic replay, and the
+mathematical implications of the resulting certificates.  A checksum
+establishes identity, not a theorem.  The adopted Python, PARI/GP and
+SageMath programs reconstruct the specified arithmetic layers, with errors
+and precision failures treated as failures.  The release guide separately
+identifies computations retained as published inputs or authenticated Magma
+transcripts.  These are not represented as fresh independent executions.
+The global rank and local stopping conclusions use the stated general
+theorems and verified hypotheses as well as the replayed arithmetic.
 
 \section{Concluding perspective}
 
@@ -1603,6 +1616,8 @@ P_5&(7,8,9)&(10,14,21).
 \]
 These data independently reproduce the tangent determinants in
 \eqref{eq:siksek-dets} once the two annihilator rows are applied.
+
+\input{rank-proof.tex}
 
 \small
 \begin{thebibliography}{99}

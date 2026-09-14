@@ -1,85 +1,42 @@
-# Primitive (3,5,7): proof audit and reproducible release
+# Primitive (3,5,7): verified proof release
 
-This repository is the working control centre for the proposed proof of the
-primitive generalized Fermat equation
+This repository records the computer-assisted proof of the nonexistence of nonzero primitive integer solutions to
 
 \[
-  x^3+y^5=z^7.
+x^3+y^5=z^7.
 \]
 
-Private working remote: <https://github.com/bbpcho/primitive-357-proof-audit>
+The independent rank audit is complete. The corrected global squareclass space, complete local images, 7-adic and dyadic kernel witnesses, and the obstruction at 5 give Mordell–Weil rank four for the genus-three Jacobian used in the pure-septic argument. The manuscript now states this proof chain and its precise saturation and logarithm consequences.
 
-It separates three things that had become too easy to confuse:
+The integrated release is **`verified-2026-09-14.1`**, with asset **`PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip`**. The final asset identity and replay decision are recorded in the release index and verification results. Earlier V3 and dependency-closure archives retain their original filenames and checksums.
 
-1. a mathematical claim;
-2. a successful replay of a particular certificate;
-3. a publication-ready proof.
+The proof continues to use the stated published theorems and identified Magma computations, including the rational/twist Mordell–Weil and torsion inputs in the cubic–quartic sector. The new audit does not claim a fresh Magma execution of those inputs. Integrity checks, arithmetic replays and mathematical implications are distinguished in the evidence guide.
 
-The present state is **audit in progress**.  The paper compiles, the V3
-dependency-closed release and its sector replays are preserved, and two later
-dependency packages close important provenance omissions.  The final theorem
-is **not yet marked proved here** because the Mordell--Weil rank chain still
-needs a clean independent reconstruction from its upstream inputs.
+## Read the proof and its audit
 
-That conservative status is intentional.  A green integrity check means that
-the named bytes are present and consistent; it does not silently promote an
-open mathematical interface into a theorem.
-
-## Start here
-
+- [Current manuscript](paper/manuscript.tex) and [compiled manuscript](paper/manuscript.pdf)
+- [Rank proof appendix](paper/rank-proof.tex)
 - [Current proof status](docs/PROOF_STATUS.md)
-- [Exact rank-gap completion contract](docs/RANK_GAP.md)
-- [Rank reconstruction workplan](audit/rank-gap/WORKPLAN.md)
-- [Evidence and release-asset model](docs/EVIDENCE.md)
+- [Completed rank reconstruction](docs/RANK_GAP.md)
+- [Evidence and trust boundary](docs/EVIDENCE.md)
+- [Programs and certificate guide](release/PROGRAMS_AND_CERTIFICATES.md)
+- [Correction to the subgroup notation](docs/H0_H1_CORRIGENDUM.md)
 - [Release procedure](docs/RELEASE_PROCESS.md)
-- [GitHub publication handoff](docs/GITHUB_SETUP.md)
-- [Decision log](docs/DECISION_LOG.md)
-- [Current manuscript](paper/manuscript.tex)
-- [Compiled V3 manuscript](paper/manuscript-v3.pdf)
 
-Run the fast repository checks with:
+Run the repository checks with `make verify` and rebuild the paper with `make paper`. These operations have their stated repository and build scope; they do not replace the mathematical replays.
+
+From a clean extraction of the integrated release, run:
 
 ```bash
-make verify
+python3 -B scripts/verify_release.py
+python3 -B scripts/verify_release.py --replay \
+  --python /path/to/python-with-sympy-and-flint \
+  --sage-python /path/to/sage-python --gp /path/to/gp \
+  --output-dir /path/to/new-verification-output
 ```
 
-If the large evidence archives have been downloaded into one directory:
+Use the Python executable of the documented Sage environment. The programs guide identifies the input roots, adopted checks, generated records and imported premises. Failed arithmetic, missing dependencies and unresolved precision are failures, even when an underlying process returns exit status zero.
 
-```bash
-python3 -B scripts/verify_assets.py --assets-dir /path/to/assets
-```
+## Repository and immutable assets
 
-For the present local workspace, the exact same check can be made with:
-
-```bash
-python3 -B scripts/verify_assets.py --workspace-root ..
-```
-
-The paper can be rebuilt with:
-
-```bash
-make paper
-```
-
-## Repository versus release assets
-
-Git tracks the manuscript, audit state, indexes, verification programs,
-small certificates, and replay logs.  Large closed evidence archives are not
-put into ordinary Git history.  They are named and SHA-256 pinned in
-`evidence/assets.json` and are intended to be attached to a GitHub release.
-This avoids GitHub's ordinary object-size limit while retaining exact,
-downloadable evidence.
-
-The complete V3 reproducibility archive is about 263 MB; the p=5 obstruction
-closure is about 150 MB; and the B124/D4 reconstruction package is about
-42 MB.  Their cryptographic identities, byte sizes, roles, and local source
-paths are all recorded.
-
-## Publication rule
-
-No tag may be described as a proof release until every mandatory gate in
-`audit/status.json` is `pass`, two independent audit records agree, the paper
-states exactly the proved boundary, and a clean extraction reproduces the
-claimed computations without reaching into the original workspace.
-
-Until then, repository releases should be labelled **audit snapshots**.
+Git tracks the paper, source checks, audit decisions, indexes and compact evidence. Large exact inputs are carried in the separately indexed release asset. Historical evidence remains identifiable; a repair creates a new release and a new manifest rather than changing a sealed archive under its old name.

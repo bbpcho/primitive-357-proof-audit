@@ -1,0 +1,23 @@
+{
+  "schema": "primitive357_replay_binding_v1",
+  "release_tag": "verified-2026-09-14.1",
+  "asset_id": "PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1",
+  "asset_sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+  "asset_bytes": 588945520,
+  "replay_result": {
+    "path": "audit/verified-2026-09-14/REPLAY_RESULT.json",
+    "sha256": "ce61f8709efba204be1ce92daece555598d3bd00d7afdc3c63753ba55e601c31"
+  },
+  "tested_manifest": {
+    "path": "audit/verified-2026-09-14/TESTED_RELEASE_MANIFEST.json",
+    "sha256": "922d3d410834b2584afb9ebcb908357854c277deab33e0c1290af2080d117a0b"
+  },
+  "proof_inputs": {
+    "path": "audit/verified-2026-09-14/PROOF_INPUTS_SHA256.json",
+    "sha256": "238235a2ddf0f26b71d42155545dc9c237015466228d8d14ef05435c6b66b8d7"
+  },
+  "final_manifest": {
+    "path": "audit/verified-2026-09-14/FINAL_RELEASE_MANIFEST.json",
+    "sha256": "f804c0391dd5d8a2c39eb11bc846b941d5338c22a9359fc434e2e8809a25833c"
+  }
+}

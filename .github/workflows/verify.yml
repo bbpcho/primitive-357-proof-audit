@@ -13,5 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify repository structure and audit state
-        run: python3 -B scripts/verify_repository.py
+      - name: Verify snapshot and recorded release status
+        run: |
+          python3 -B scripts/verify_repository.py
+          python3 -B -O scripts/verify_repository.py
+          python3 -B -OO scripts/verify_repository.py
+      - name: Exercise integrity and status rejection controls
+        run: python3 -B scripts/test_verifiers.py

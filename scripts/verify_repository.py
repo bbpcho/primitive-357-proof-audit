@@ -1,124 +1,170 @@
 #!/usr/bin/env python3
-"""Fast structural checks for the proof-audit control repository."""
+"""Validate the complete control snapshot and the recorded release decision.
 
+This is an integrity/status check, not an arithmetic replay. All checks use
+ordinary runtime conditions and remain active under python -O and -OO.
+"""
 from __future__ import annotations
 
-import hashlib
-import json
+import os
 from pathlib import Path
-import re
+import stat
 import sys
-
+from verification_common import (asset_index, digest_value, manifest_rows, read_json,
+    regular_file, relative_path, require, sha256, unique_records)
 
 ROOT = Path(__file__).resolve().parents[1]
-HEX64 = re.compile(r"[0-9a-f]{64}\Z")
+TAG = "verified-2026-09-14.1"
+MANIFEST = "evidence/TRACKED_SNAPSHOT_SHA256.txt"
+ASSET_ID = "PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1"
+PRIOR_GROUPS = ["exports", "rawdyadic", "foundation", "fiveplace", "p5", "logs", "finite_maps"]
+GATES = {"paper_build", "hecke_ambient_coverage", "p5_obstruction_dependency_closure",
+    "corrected66_predyadic_dependency_closure", "p7_complete_local_image",
+    "p2_place2_fake_kernel_correction_dependency_closure",
+    "mordell_weil_rank_upper_bound_and_composition", "saturation_calculations",
+    "split_23_global_logarithms", "final_theorem_composition",
+    "published_and_magma_premises", "fresh_integrated_replay", "public_proof_release"}
 
 
-def sha256(path: Path) -> str:
-    h = hashlib.sha256()
-    with path.open("rb") as handle:
-        for block in iter(lambda: handle.read(1024 * 1024), b""):
-            h.update(block)
-    return h.hexdigest()
+def bound_json(root, row):
+    path = regular_file(root, row["path"])
+    require(sha256(path) == digest_value(row["sha256"]), "bound file digest mismatch: " + row["path"])
+    return read_json(path), path
 
 
-def verify_asset_index() -> None:
-    data = json.loads((ROOT / "evidence/assets.json").read_text())
-    assert data["schema"] == "primitive_357_release_asset_index_v1"
-    assets = data["assets"]
-    names = [item["filename"] for item in assets]
-    ids = [item["id"] for item in assets]
-    assert len(names) == len(set(names)) == len(ids) == len(set(ids))
-    for item in assets:
-        assert Path(item["filename"]).name == item["filename"]
-        assert HEX64.fullmatch(item["sha256"])
-        assert isinstance(item["bytes"], int) and item["bytes"] > 0
-        rel = Path(item["source_path_from_workspace"])
-        assert not rel.is_absolute() and ".." not in rel.parts
+def verify_replay(binding_path, assets):
+    binding = read_json(regular_file(ROOT, binding_path))
+    require(binding.get("schema") == "primitive357_replay_binding_v1", "replay binding schema")
+    require(binding.get("release_tag") == TAG and binding.get("asset_id") == ASSET_ID,
+            "wrong release identity in replay binding")
+    asset = unique_records(assets).get(ASSET_ID)
+    require(asset is not None, "verified release asset is not indexed")
+    require(binding["asset_sha256"] == asset["sha256"] and binding["asset_bytes"] == asset["bytes"],
+            "replay binding and sealed asset index disagree")
+    result, result_path = bound_json(ROOT, binding["replay_result"])
+    tested, tested_path = bound_json(ROOT, binding["tested_manifest"])
+    proof, _ = bound_json(ROOT, binding["proof_inputs"])
+    final, _ = bound_json(ROOT, binding["final_manifest"])
+    tested_rows, final_rows = manifest_rows(tested), manifest_rows(final)
+    require(result.get("schema") == "primitive357_integrated_replay_v1"
+            and result.get("status") == "PASS_FRESH_INTEGRATED_REPLAY", "fresh integrated replay is not PASS")
+    require(result["input_manifest"] == {"files": len(tested_rows), "manifest_sha256": sha256(tested_path)},
+            "fresh replay was not run on the indexed tested manifest")
+    components = unique_records(result["components"])
+    markers = {"prior": "PASS_SELECTED_PRIOR_GROUPS", "rank_local": "PASS_FRESH_RANK_LOCAL_COMPONENT",
+               "sectors": "PASS_FRESH_TEN_SECTORS_AND_INTERFACES"}
+    require(set(components) == set(markers), "missing or extra replay component")
+    for name, row in components.items():
+        require(type(row["exit_code"]) is int and row["exit_code"] == 0, "failed replay component: " + name)
+        log = regular_file(result_path.parent, row["log"])
+        require(sha256(log) == digest_value(row["sha256"]), "component log digest: " + name)
+        require(sum(line.strip() == markers[name] for line in log.read_text().splitlines()) == 1,
+                "missing or repeated component success marker: " + name)
+    require(result["prior_groups"] == PRIOR_GROUPS, "prior replay group coverage")
+    require(result["rank_conclusions"].get("equals_B_plus_literal_c") is True, "rank join missing")
+    require(proof.get("schema") == "primitive357_proof_inputs_v1" and proof.get("release_tag") == TAG,
+            "proof-input index schema/tag")
+    proof_rows = manifest_rows({"schema": "primitive357_verified_release_manifest_v1", "files": proof["files"]})
+    require(set(proof_rows) == set(tested_rows), "proof-input index does not cover every tested input")
+    for path, row in tested_rows.items():
+        identity = {key: row[key] for key in ("path", "sha256", "bytes")}
+        require(proof_rows[path] == identity, "proof-input identity mismatch: " + path)
+        require(path in final_rows and all(final_rows[path][key] == value for key, value in identity.items()),
+                "tested input changed or disappeared from the final release: " + path)
 
-    checksum_lines = [
-        line for line in
-        (ROOT / "evidence/checksums/RELEASE_ASSETS_SHA256.txt")
-        .read_text()
-        .splitlines()
-        if line
-    ]
-    expected = [f"{item['sha256']}  {item['filename']}" for item in assets]
-    assert checksum_lines == expected
+
+def verify_status(assets):
+    status = read_json(regular_file(ROOT, "audit/status.json"))
+    require(status.get("schema") == "primitive_357_audit_status_v2", "audit status schema")
+    require(status.get("release_tag") == TAG and status.get("release_asset_id") == ASSET_ID, "status release identity")
+    gates = unique_records(status["gates"])
+    require(set(gates) == GATES, "gate coverage mismatch")
+    for name, gate in gates.items():
+        require(gate.get("mandatory") is True, "mandatory gate disabled: " + name)
+        regular_file(ROOT, gate["evidence"])
+        expected = "imported" if name == "published_and_magma_premises" else "pass"
+        if name not in {"fresh_integrated_replay", "public_proof_release"}:
+            require(gate.get("state") == expected, "mathematical gate is not complete: " + name)
+    work = read_json(regular_file(ROOT, status["rank_workplan"]))
+    require(work.get("schema") == "primitive_357_rank_gap_workplan_v2" and work.get("overall_state") == "pass",
+            "rank workplan is not complete")
+    packages = unique_records(work["packages"])
+    require(set(packages) == {"R" + str(i) for i in range(1, 8)}, "rank package coverage")
+    for key, row in packages.items():
+        require(row["state"] == "pass", "rank package is not pass: " + key)
+        deps = row["depends_on"]
+        require(isinstance(deps, list) and len(deps) == len(set(deps))
+                and all(d in packages and d < key for d in deps), "invalid rank package dependencies")
+        regular_file(ROOT, row["evidence"])
+    phase = status["release_state"]
+    require(phase in {"pending_fresh_replay", "verified"}, "unsupported release state")
+    verified = phase == "verified"
+    require(status["proof_complete"] is verified and status["public_proof_release_authorized"] is verified,
+            "release flags disagree with release state")
+    for key in ("fresh_integrated_replay", "public_proof_release"):
+        require(gates[key]["state"] == ("pass" if verified else "pending"), "release gate state mismatch")
+    fresh = status["fresh_replay"]
+    if verified:
+        require(fresh["state"] == "pass", "fresh replay has not passed")
+        verify_replay(fresh["binding"], assets)
+    else:
+        require(fresh == {"state": "pending", "binding": None}, "pending release must not assert a replay")
+    return phase
 
 
-def verify_status() -> None:
-    status = json.loads((ROOT / "audit/status.json").read_text())
-    assert status["schema"] == "primitive_357_audit_status_v1"
-    assert status["proof_complete"] is False
-    assert status["public_proof_release_authorized"] is False
-    gates = {gate["id"]: gate for gate in status["gates"]}
-    assert gates["mordell_weil_rank_upper_bound_and_composition"]["state"] == "open"
-    assert gates["saturation_calculations"]["state"].startswith("pass_")
-    assert gates["split_23_global_logarithms"]["state"].startswith("pass_")
-    assert gates["final_theorem_composition"]["state"] == "blocked_by_rank_gate"
-    assert gates["public_proof_release"]["state"] == "blocked"
+def inventory():
+    # Only these top-level generated/private directories are excluded. A nested
+    # data/build or data/.git directory is evidence, not an automatic exclusion.
+    result = set()
+    def visit(directory, parts):
+        for entry in os.scandir(directory):
+            name_parts = parts + (entry.name,)
+            name = "/".join(name_parts)
+            mode = entry.stat(follow_symlinks=False).st_mode
+            require(not stat.S_ISLNK(mode), "symlink in repository snapshot: " + name)
+            if not parts and entry.name in {".git", "build"}:
+                require(stat.S_ISDIR(mode), "excluded root must be a directory: " + name)
+                continue
+            if stat.S_ISDIR(mode):
+                visit(entry.path, name_parts)
+            else:
+                require(stat.S_ISREG(mode), "non-regular repository entry: " + name)
+                bytecode = len(name_parts) > 1 and name_parts[-2] == "__pycache__" and entry.name.endswith((".pyc", ".pyo"))
+                if name != MANIFEST and not bytecode:
+                    result.add(name)
+    visit(ROOT, ())
+    return result
 
 
-def verify_tracked_manifest() -> None:
-    manifest_path = ROOT / "evidence/TRACKED_SNAPSHOT_SHA256.txt"
-    lines = manifest_path.read_text().splitlines()
-    seen: set[str] = set()
-    ordered_paths: list[str] = []
+def verify_tracked_manifest():
+    lines = regular_file(ROOT, MANIFEST).read_text().splitlines()
+    require(bool(lines), "empty tracked manifest")
+    seen = []
     for line in lines:
-        digest, separator, rel_text = line.partition("  ")
-        assert separator == "  " and HEX64.fullmatch(digest)
-        rel = Path(rel_text)
-        assert not rel.is_absolute() and ".." not in rel.parts
-        assert rel_text not in seen
-        seen.add(rel_text)
-        ordered_paths.append(rel_text)
-        path = ROOT / rel
-        assert path.is_file() and not path.is_symlink()
-        assert sha256(path) == digest
-
-    assert ordered_paths == sorted(ordered_paths)
-
-    actual = {
-        path.relative_to(ROOT).as_posix()
-        for path in ROOT.rglob("*")
-        if path.is_file()
-        and ".git" not in path.relative_to(ROOT).parts
-        and path != manifest_path
-        and "build" not in path.relative_to(ROOT).parts
-        and "__pycache__" not in path.relative_to(ROOT).parts
-    }
-    assert seen == actual, (
-        f"tracked snapshot coverage mismatch: missing={sorted(actual-seen)}, "
-        f"extra={sorted(seen-actual)}"
-    )
+        digest, separator, name = line.partition("  ")
+        require(separator == "  " and name != MANIFEST, "invalid manifest line")
+        digest_value(digest)
+        path = regular_file(ROOT, name)
+        require(sha256(path) == digest, "tracked digest mismatch: " + name)
+        seen.append(name)
+    require(seen == sorted(set(seen)), "duplicate or unsorted tracked manifest")
+    actual = inventory()
+    require(set(seen) == actual, "tracked snapshot coverage mismatch: " + repr(sorted(set(seen) ^ actual)))
 
 
-def main() -> int:
-    required = [
-        "README.md",
-        "paper/manuscript.tex",
-        "paper/manuscript-v3.pdf",
-        "docs/PROOF_STATUS.md",
-        "docs/RANK_GAP.md",
-        "evidence/assets.json",
-        "audit/status.json",
-    ]
-    for rel in required:
-        path = ROOT / rel
-        if not path.is_file() or path.is_symlink():
-            raise SystemExit(f"missing required regular file: {rel}")
-
-    verify_asset_index()
-    verify_status()
+def main():
+    for name in ("README.md", "paper/manuscript.tex", "paper/rank-proof.tex", "paper/manuscript.pdf",
+                 "docs/PROOF_STATUS.md", "docs/RANK_GAP.md", "docs/EVIDENCE.md", "docs/H0_H1_CORRIGENDUM.md"):
+        regular_file(ROOT, name)
+    assets = asset_index(ROOT)
+    phase = verify_status(assets)
     verify_tracked_manifest()
-    print("REPOSITORY_VERIFICATION=PASS_STRICT_CONTROL_PLANE_AND_OPEN_RANK_GATE")
-    return 0
+    print("REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_" + phase.upper())
 
 
 if __name__ == "__main__":
     try:
-        sys.exit(main())
-    except (AssertionError, KeyError, json.JSONDecodeError) as exc:
-        print(f"REPOSITORY_VERIFICATION=FAIL {exc}", file=sys.stderr)
+        main()
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        print("REPOSITORY_VERIFICATION=FAIL " + str(exc), file=sys.stderr)
         sys.exit(1)

@@ -1,0 +1,131 @@
+START export_contact_data
+PASS export_contact_data 0.43
+START export_line_data
+PASS export_line_data 0.01
+START export_geometry_modq
+PASS export_geometry_modq 0.05
+START export_exact_tau_data
+PASS export_exact_tau_data 0.23
+START export_tower
+PASS export_tower 0.01
+START exact_contact
+PASS exact_contact 26.05
+START reconstruct_raw66
+PASS reconstruct_raw66 759.58
+START verify_source_columns
+PASS verify_source_columns 8.86
+START verify_local_point_lifts
+PASS verify_local_point_lifts 0.06
+START dyadic_decomposition_envelope
+PASS dyadic_decomposition_envelope 2.51
+START T21_prime_principality
+PASS T21_prime_principality 14.0
+START F_odd_class
+PASS F_odd_class 10.71
+START pair_ambiguous
+PASS pair_ambiguous 15.68
+START F_unit_domain
+PASS F_unit_domain 1.7
+START L_unit_domain
+PASS L_unit_domain 0.26
+START E_class_one
+PASS E_class_one 1.33
+START J27_images
+PASS J27_images 42.42
+START J27_terminal
+PASS J27_terminal 2.26
+START J27_chain
+PASS J27_chain 1.28
+START class_field_bindings
+PASS class_field_bindings 0.03
+START T21_norm_export
+PASS T21_norm_export 0.07
+START T21_directed_Arb_bound
+PASS T21_directed_Arb_bound 2.78
+START S4_integral_relation
+PASS S4_integral_relation 0.02
+START exact_66_point_diagonal_coordinates
+PASS exact_66_point_diagonal_coordinates 301.84
+START fiveplace_producer
+PASS fiveplace_producer 33.0
+START fiveplace_independent
+PASS fiveplace_independent 120.6
+START fiveplace_semantic
+PASS fiveplace_semantic 2.15
+START p5_producer_and_independent
+PASS p5_producer_and_independent 7.89
+START p5_precision_and_negative_controls
+PASS p5_precision_and_negative_controls 9.4
+START exact_tau_norms
+PASS exact_tau_norms 11.3
+START exact_stored_roots
+PASS exact_stored_roots 18.57
+START exact_conjugate_evaluations
+PASS exact_conjugate_evaluations 9.35
+START local5_point_image
+PASS local5_point_image 22.21
+START local5_image_rank
+PASS local5_image_rank 0.07
+START finite_cocycle_and_line
+PASS finite_cocycle_and_line 8.14
+START check_exact_line_bindings
+PASS check_exact_line_bindings 0.03
+START check_v3_same_c
+PASS check_v3_same_c 0.11
+START check_completion_incidence
+PASS check_completion_incidence 0.06
+START check_geometric_tetrads
+PASS check_geometric_tetrads 0.74
+START check_smooth_modq
+PASS check_smooth_modq 1.64
+START check_affine_stabilizer
+PASS check_affine_stabilizer 0.46
+START check_intrinsic_theta
+PASS check_intrinsic_theta 0.03
+START check_contact_units
+PASS check_contact_units 0.93
+START check_global_fibre
+PASS check_global_fibre 0.59
+START theta_separating_invariant
+PASS theta_separating_invariant 1.74
+START global_transitive_correction_envelope
+PASS global_transitive_correction_envelope 2.04
+START p5_target_character_span
+PASS p5_target_character_span 0.32
+START p5_ambient_character_quotients
+PASS p5_ambient_character_quotients 2.28
+START exact_tensor_s4
+PASS exact_tensor_s4 112.22
+START exact_tensor_s19
+PASS exact_tensor_s19 55.36
+START tensor_reductions
+PASS tensor_reductions 7.0
+START prepare_four_column_logs
+PASS prepare_four_column_logs 0.47
+START four_column_log_s4
+PASS four_column_log_s4 132.42
+START four_column_log_s19
+PASS four_column_log_s19 159.46
+START annihilator_binding
+PASS annihilator_binding 0.05
+START canonical_local_series_and_P1_lift
+PASS canonical_local_series_and_P1_lift 0.03
+START section7_precision_bounds
+PASS section7_precision_bounds 17.65
+START C25_all_six_maps
+PASS C25_all_six_maps 115.68
+START torsion_and_43_orders
+PASS torsion_and_43_orders 220.0
+START corrected_H1_five_saturation
+PASS corrected_H1_five_saturation 0.03
+START orders_23_43
+PASS orders_23_43 125.6
+START all_sixteen_two_primary_maps
+PASS all_sixteen_two_primary_maps 433.93
+START all_sixteen_projected_E
+PASS all_sixteen_projected_E 44.51
+START outside_point_annihilation
+PASS outside_point_annihilation 93.56
+START two_saturation_characters
+PASS two_saturation_characters 0.03
+PASS_SELECTED_PRIOR_GROUPS

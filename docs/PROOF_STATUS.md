@@ -1,60 +1,26 @@
-# Proof status
+# Proof status — 14 September 2026
 
-Status date: 13 September 2026
+The named Mordell–Weil rank-upper-bound and composition gate is **closed by the combined independent audit and adopted replacement checks**. The new release integrates those checks and the manuscript corrections. The GitHub control repository separately records publication readiness in its machine-readable status ledger. The extracted archive carries the final clean-extraction replay records and artifact identities; its supported entry point is `scripts/verify_release.py`.
 
-## Executive status
+| Mathematical interface | Audited conclusion |
+|---|---|
+| Corrected global squareclasses and local restrictions | All relevant fake Selmer classes are represented in the corrected 66-dimensional space; the selected complete local conditions give dimensions 66→23→22→20→19→18→15→12. |
+| Complete local image at 7 | The actual closed-point image is nonzero; the cycle P4−P1 lies in the full fake kernel and has correction −1. Local Kummer dimension two forces fake-image dimension one. |
+| Complete second-dyadic local image | Three independent actual fake images and a nonzero fake-kernel correction in a four-dimensional local Kummer group force fake-image dimension three. |
+| Final containing quotient | Modulo the seven-dimensional diagonal, the quotient is exactly B⊕⟨c⟩, with dim B=4 and the same literal c used at 5. |
+| Obstruction at 5 | Both coherent lifts of c are excluded; the true-to-fake comparison kernel is zero. Every coset c+B is therefore excluded. |
+| Pure-septic Jacobian rank | The true 2-Selmer dimension and Mordell–Weil rank are both four; Sha[2]=0. |
+| Saturation and finite coefficient coverage | H0=⟨D2,D3,D4,D5⟩ has odd index. H1=⟨D2,E,D4,D5⟩ contains H0 and is 5-saturated. The index of H1 is coprime to 400, so it covers J(K)/400J(K). |
+| Global logarithms | Both split-23 logarithm branches are reconstructed. The annihilator of the finite-index subgroup H0 annihilates all of J(K). |
+| Exceptional septic field | The conservative Hecke ambient argument and terminal trace comparison retain the earlier audited conclusion; no complete-newspace or old/new-subtraction assumption is introduced. |
+| Cubic–quartic sector | The p=173 Kummer repair supplies the missing 2-saturation step. The stated published/Magma rational and twist rank/torsion premises remain explicit inputs. |
 
-The project has a strong manuscript and an unusually extensive computational
-evidence base.  Packaging integrity, clean extraction, the four-sector routing,
-the conservative Hecke ambient calculation, and several formerly missing
-dependency closures have concrete replay evidence.
+The completed rank proof is [RANK_GAP.md](RANK_GAP.md), despite the historical filename. The manuscript includes the argument in its rank appendix. [H0_H1_CORRIGENDUM.md](H0_H1_CORRIGENDUM.md) corrects an ambiguity in the preceding audit addendum without altering the sealed audit archive.
 
-The repository nevertheless records the main theorem as **open at audit
-level**.  The unresolved item is not a vague request for more computation: it
-is a specific need to reconstruct and independently validate the
-Mordell--Weil rank upper bound and its composition with the completed
-saturation and logarithm calculations.
+## Verification boundary
 
-## Gate table
+The new release must be read together with its final verification result. A manifest check establishes the identity and completeness of named files. Arithmetic replay reconstructs the specified calculations. The human-readable proof states why those calculations imply the local and global bounds.
 
-| Gate | State | Meaning |
-|---|---|---|
-| Manuscript builds cleanly | pass | The current TeX and V3 PDF are present; the sealed V3 log records a clean three-pass build. |
-| Dependency-closed V3 integrity | pass | The 765-file V3 release has a strict manifest and clean-extraction replay. |
-| Attribution and presentation repairs | pass in current draft | The current source includes the expanded provenance and Hecke discussion. |
-| Hecke ambient coverage | pass at certificate boundary | The conservative filtered ambient argument avoids relying on an unsupported complete-newspace claim. |
-| B124/D4 upstream provenance | pass at current evidence boundary | Tensor lift, 75D class, formal chart, and D4-log dependencies are supplied and replayed as a closed archive. |
-| p=5 obstruction provenance | packaged | The target-42/contact/cocycle dependency closure and replay are supplied; independent audit is still required. |
-| Corrected-66 pre-dyadic provenance | replayed, audit pending | All 222 declared inputs, the exact norm and local-condition sequence, and the 18-dimensional output are present and clean-replayed. |
-| Second-dyadic fake-kernel correction | replayed, audit pending | Production and independent relations reproduce the nonzero correction profile `(0,1)` from a clean extraction. |
-| Mordell--Weil lower bound | evidence present | Four explicit classes and finite-field witnesses exist, but must be integrated into one clean rank audit. |
-| Mordell--Weil upper bound and rank composition | **open audit gate** | Rebuild the Selmer/rank bound from primary inputs and prove that it combines with the known classes to give exactly the group statement consumed later. |
-| Saturation calculations | pass at current evidence boundary | The independent Kummer/two-saturation and five-saturation checks are complete; their precise consequences still have to be used correctly in the rank composition. |
-| Global logarithms and local gates | pass at current evidence boundary | Both split-23 branches, including the formerly cached D4 upstream chain, have been reconstructed and replayed. |
-| Final theorem composition | blocked | It becomes eligible only after the rank chain and its downstream use are independently closed. |
-| Public proof release | blocked | Publish only an audit snapshot until the mathematical gate above is closed. |
+The original historical PASS scripts alone do not contain all of the new local completeness proofs. The integrated route adopts the independent actual-field, geometric, finite-module and rank-composition checks. The absent historical p=7 cycle-3 workers are replaced mathematically by the supplied exact-data reconstruction; their absence is not hidden by a successful summary parser.
 
-## What “packaged” does and does not mean
-
-“Packaged” means that the dependency closure, programs, inputs, logs, and
-hashes needed for a claimed replay have been gathered into one portable
-object.  It is stronger than merely pointing to a file in the working tree.
-It is weaker than an independent mathematical audit.  That distinction is
-the principal design rule of this repository.
-
-## Immediate workstream
-
-The next work should be a single rank audit with a deliberately narrow output.
-It should reuse, rather than redo, the completed saturation and logarithm
-packages:
-
-1. state the exact Mordell--Weil group, subgroup, and rank claim;
-2. reconstruct the rank lower and upper bounds and their exact implication;
-3. audit the p=5 closure at the point where it enters the upper bound;
-4. verify that the later sieve, completed saturation, and completed local-log
-   arguments consume precisely those
-   outputs and no stronger unstated claim;
-5. issue either a signed-off rank certificate or a precise no-go report.
-
-Only after that should the main theorem wording and public release status be
-changed.
+Published results remain bibliographic premises. Authenticated Magma transcripts remain computational premises where identified by the guide. No fresh proprietary Magma execution is claimed in the independent release audit. These boundaries apply to the complete theorem just as they did to the earlier sector reviews.

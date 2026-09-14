@@ -1,0 +1,184 @@
+\section{The complete rank-four descent and its downstream use}
+\label{app:rank-proof}
+
+This appendix specifies the local completeness and comparison statements
+used in Theorem~\ref{thm:rational-t}.  Write $K=K_7=\Q(\sqrt{-7})$ and
+$J=J_+$.  The points and curve are those of Appendix~\ref{app:Cplus}.
+Put
+\[
+ H_0=\langle D_2,D_3,D_4,D_5\rangle,\qquad
+ H_1=\langle D_2,E,D_4,D_5\rangle.
+\]
+The relation \eqref{eq:Erelation} implies $H_0\subseteq H_1$.
+We distinguish these subgroups throughout: the $2$-saturation concerns
+$H_0$, while the $5$-saturation concerns $H_1$.
+
+\subsection{The containing space and complete local conditions}
+
+The global class-group, unit and support calculations give an ordered
+$66$-dimensional space of squareclass representatives containing every
+relevant fake Selmer class.  The bitangent and syzygetic-tetrad construction
+identifies the actual descent modules with those of
+\cite[Corollary~12.5 and Appendix~A]{BPS}.  This identification uses the
+exact line/contact identities, all $315$ syzygetic tetrads, the rational
+even theta characteristic, and the seven blocks supplied by the exact
+field tower.  The resulting Galois action is contained in
+$\operatorname{AGL}_3(\F_2)$ and is transitive on the $28$ bitangents;
+no equality with the full affine group is needed.
+
+For each selected place, the restriction matrix is reconstructed by
+arithmetic in the actual local bitangent algebra.  The allowed subspace
+contains the entire local Kummer image.  At four split good primes and the
+nonsplit prime $1051$, this is proved by exhibiting sufficiently many
+independent point images and using the local two-torsion bound.  The same
+argument gives image dimensions two and three at the places above $3$ and
+$5$.  At $7$ and $2$, the fake-kernel corrections described below supply
+the required stopping bounds.  The successive intersections have dimensions
+\begin{equation}\label{eq:rank-dimensions}
+ 66\longrightarrow23\longrightarrow22\longrightarrow20
+ \longrightarrow19\longrightarrow18\longrightarrow15\longrightarrow12.
+\end{equation}
+The stages are, respectively, the four split primes, the nonsplit prime,
+the places above $3,5,7$, and the two dyadic places.  The other archived
+prime conditions and the norm condition are redundant on this route.
+Each of the $66$ restriction columns at the selected places is checked.
+Independent linear algebra verifies the intersections and their equality
+with the arrays consumed by the subsequent stages.
+
+The diagonal subspace has dimension seven.  If $Q$ denotes the resulting
+quotient and $B$ the fake image of $H_0$, exact coordinate identities give
+\begin{equation}\label{eq:rank-containing-quotient}
+ Q=B\oplus\langle c\rangle,\qquad \dim B=4,\qquad \dim Q=5.
+\end{equation}
+Here $c$ is the same literal squareclass used in the $5$-adic obstruction
+below.  Equality in \eqref{eq:rank-containing-quotient} is checked directly;
+it is not inferred from dimensions alone.  It is enough that $Q$ contains
+the relevant fake Selmer image: no assertion that every survivor is a
+Selmer class is used.
+
+\subsection{The local stopping argument at seven}
+
+The actual decomposition data imply
+$\dim_{\F_2}J[2](K_v)=2$ at $v\mid7$, hence
+$\#J(K_v)/2J(K_v)=4$.  Set $z_3=[P_4]-[P_1]$.  Exact local square tests
+at all seven components of the bitangent algebra give
+\[
+                      f(z_3)=3\lambda^2.
+\]
+Thus $z_3$ belongs to the full fake kernel.
+
+A fresh computation in the degree-$42$ target algebra uses a completion
+$A/K_v$ with $(e,f)=(4,1)$.  Its incidence algebra is the product of two
+unramified quadratic extensions of $A$.  An exact integral Eisenstein
+model over $\Q_7$ has degree eight.  Strong Hensel bounds, followed by
+Krasner's lemma, bind its approximate generator to the exact target root.
+Gauss valuation bounds propagate that root error through every rational
+line, incidence and conic coefficient.  The incidence factors are lifted
+from coprime factors; a single uniformizer change in one factor reveals
+the second irreducible residual quadratic.
+
+After removing the even valuations of $f(z_3)/3$, the two unit square roots
+exist by the simple-root Hensel criterion over $\F_{49}$.  Their norm
+residues are both one, while the normalized conic quotient has residue
+six.  Since every target tetrad has weight four, $\theta(3)=3^2$, and
+\cite[Lemma~A.24(a)]{BPS} gives
+\[
+ \zeta(z_3)=\frac{r(z_3)}{\tau_*(\lambda)\,3^2}=-1.
+\]
+The exact contact identity makes this quotient an element of $\mu_2$;
+reduction in odd residue characteristic distinguishes its two possible
+values.  At working precisions $100$ and $120$ over $\Q_7$, strengthened
+factor lifting gives separation margins $255$ and $511$ in $A$.
+The distinct cycle $[P_2]-[P_1]$, also with diagonal $3$, gives $+1$.
+Changing either square-root sign leaves its quadratic norm unchanged.
+
+Every local affine-group candidate with the measured bitangent and
+incidence profiles is checked: evaluation on this target descends to
+$R^\vee(K_v)/qE^\vee(K_v)$.  Some candidate characters vanish, so the
+profile alone is not a nonvanishing proof.  The actual value $-1$ proves
+that the physical correction is nonzero.
+
+A genuine closed point over the unramified quadratic extension supplies
+a nonzero fake image.  Its local model is transported to the printed
+quartic by
+\[
+                         Z_{\rm original}=-7Z_{\rm local}.
+\]
+The point satisfies a strong Hensel inequality, all seven line-value
+squareclasses are stable, and its norm-line vector equals the archived
+allowed line modulo the two diagonal classes.  There is therefore both a
+nonzero fake image and a nonzero fake kernel in a group of order four.
+The stopping equality of \cite[Lemma~A.24(b)]{BPS} proves that the full
+fake image has dimension one, as required in
+\eqref{eq:rank-dimensions}.
+
+\subsection{The second dyadic correction}
+
+At the dyadic place where $w=(1+s)/2\equiv0\pmod2$, the local Kummer
+group has dimension $3+\dim J[2](K_v)=4$.  Exhaustive local square tests
+prove that the four known point differences have fake-image rank two.
+The resolved point $C_0$ gives an independent third image.  Two further
+actual local cycles have fake-kernel relations
+\[
+ [\text{old mask},C_0\text{ coefficient},\text{diagonal}]
+             =[1,1,-10],\qquad [1,0,2].
+\]
+The exact degree-six target fields and their quadratic incidence factors
+are certified by their local integral bases, ramification and residue
+polynomials.  In each factor a square-root witness is certified by Hensel
+lifting.  No uniqueness claim about the finite root search is needed.
+Both cycles give correction profile $(0,1)$ on the two sextic carriers;
+a stronger working accuracy gives the same profile.
+
+For all $28$ affine-group candidates compatible with the actual target
+splitting $[3,3,6,6,24]$, the two sextic evaluations annihilate
+$qE^\vee(K_v)$ and form independent characters of the two-dimensional
+correction quotient.  The nonzero entry therefore detects a genuine
+nonzero fake-kernel correction.  The three-dimensional fake image and
+this nonzero kernel fill the local Kummer group of dimension four, so the
+full fake image has dimension three.  Together with the independently
+verified first-dyadic image, this proves the last two cuts in
+\eqref{eq:rank-dimensions}.
+
+\subsection{The complementary class and the rank conclusion}
+
+The global correction module is one-dimensional.  In the actual
+$5$-adic correction quotient, which has dimension two, the two coherent
+global lifts of the literal $c$ in \eqref{eq:rank-containing-quotient}
+have obstruction vectors
+\[
+ \omega_{00}=(1,0),\qquad \omega_{11}=(0,1),\qquad
+                         \kappa_5(\rho)=(1,1).
+\]
+Here $\rho$ generates the global correction module; the last vector is
+the difference of the two lift obstructions, not either obstruction
+itself.  The functional $(u,v)\mapsto u+v$ kills this difference and is
+nonzero on both lifts.  The true-to-fake Selmer comparison kernel is zero,
+because this global correction generator restricts nontrivially and the
+actual local fake map at $5$ has trivial kernel.
+
+If a true Selmer class had fake image $c+b$ with $b\in B$, subtracting
+the Kummer class of a point of $H_0$ mapping to $b$ would give an
+everywhere locally Kummer lift of $c$, contrary to the displayed
+obstructions.  Thus the true Selmer image lies in $B$, and its dimension
+is at most four.  The independently verified lower bound is four.  Since
+$J(K)[2]=0$, the Kummer exact sequence gives
+\[
+ \dim_{\F_2}\operatorname{Sel}^{2}(J/K)=\rank J(K)=4,
+                      \qquad \Sha(J/K)[2]=0.
+\]
+The direct comparison of literal squareclasses, exact target norm roots,
+coherent sign relations, and actual local images are included in the
+release; cached obstruction bits alone are not used as proof.
+
+Finally, the independent $2$-saturation gives $[J(K):H_0]$ odd.  The
+relation \eqref{eq:Erelation} and the checked $5$-saturation of $H_1$
+give
+\[
+                         \gcd([J(K):H_1],400)=1.
+\]
+Consequently $H_1\to J(K)/400J(K)$ is surjective.  This is the coefficient
+coverage used by the finite sieve; full saturation at every prime is not
+required.  A characteristic-zero logarithmic functional vanishing on
+$H_0$ vanishes on $J(K)$, since $H_0$ has finite index.  Thus the verified
+logarithmic annihilator used in Theorem~\ref{thm:rational-t} is global.

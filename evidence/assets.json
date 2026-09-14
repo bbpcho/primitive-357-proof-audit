@@ -73,6 +73,28 @@
       "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
       "role": "corrected 66-squareclass pre-dyadic intersection and second-dyadic fake-kernel correction dependency closure",
       "audit_state": "completed_clean_replay_pending_independent_audit"
+    },
+    {
+      "id": "PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1",
+      "filename": "PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "bytes": 588945520,
+      "source_path_from_workspace": "work/verified_release_2026_09_14/dist/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1",
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "role": "integrated verified proof and dependency-closed independent replay",
+      "audit_state": "verified_fresh_integrated_replay"
+    },
+    {
+      "id": "PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026_09_14",
+      "filename": "PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026-09-14.pdf",
+      "sha256": "d401c8629d7f98949a68e9db34086db6a6b230439b3173538df250e7b5a0c050",
+      "bytes": 500213,
+      "source_path_from_workspace": "work/verified_release_2026_09_14/dist/PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026-09-14.pdf",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1",
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026-09-14.pdf",
+      "role": "separate compiled manuscript identical to the tested archive PDF",
+      "audit_state": "verified_fresh_integrated_replay"
     }
   ]
 }

@@ -1,54 +1,22 @@
 # Release process
 
-## Release types
+The mathematical rank gate is closed. Promotion of this integrated candidate to the verified release separately requires a fresh replay of its exact input set and verification of the sealed asset.
 
-### Audit snapshot
+## Candidate and sealing procedure
 
-An audit snapshot may be published while mathematical gates remain open.  Its
-title and notes must say so.  It may contain new dependency packages, no-go
-reports, and manuscript drafts.
+1. Finish the manuscript and guide, build the paper, and inspect the changed PDF pages.
+2. Assemble declared immutable evidence and adopted checks in a new release directory. Generate its complete input manifest.
+3. Extract a newly created candidate archive into a clean directory. Run `scripts/verify_release.py --replay` with the documented Python, Sage and PARI/GP runtimes and a fresh output directory outside the extracted input.
+4. Require all three components: prior foundations, rank/local reconstruction and sector checks. Preserve complete logs, the integrated result and the tested input manifest.
+5. Add compact verification records to the final archive. Every tested input must retain its exact path, size and hash. The proof-input index must cover every tested manifest row; the final manifest may add the final records.
+6. Seal the new archive under its new basename, record its size and SHA-256 in the asset index, and verify the actual archive bytes.
+7. Copy the integrated result, logs, tested manifest, proof-input index, final manifest and their binding record into the control repository. Set the release status to verified only when their required identities and successful component records agree.
+8. Regenerate the control-repository snapshot manifest and run both repository verification and asset verification, including Python optimization mode. Review the resulting commit and attach the sealed archive to the authorized GitHub release.
 
-### Proof release
+The control verifier checks the structure and identity of recorded evidence. The arithmetic verifier reconstructs its declared calculations. Neither replaces the mathematical implications and imported premises stated in the manuscript and guide.
 
-A proof release is permitted only when `audit/status.json` has
-`proof_complete: true` and every mandatory gate is `pass`.
+## Names and immutable history
 
-## Candidate procedure
+This release uses tag `verified-2026-09-14.1` and asset `PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip`. Earlier tags and archives remain unchanged. A later repair receives a new name and manifest; an existing sealed archive must not be recompressed under the same name.
 
-1. Start from a clean Git commit.
-2. Run `make verify`.
-3. Build the paper with `make paper` and inspect the resulting PDF.
-4. Place every large candidate asset in one staging directory.
-5. Run `python3 -B scripts/verify_assets.py --assets-dir STAGING`.
-6. Extract each replayable package into a fresh temporary directory and run
-   its documented verifier.
-7. Run the sector and foundational replay in an environment where the
-   original workspace cannot be reached.
-8. Record software versions, commands, exit codes, wall times, and logs.
-9. Obtain two independent audit decisions for any newly load-bearing
-   mathematical interface.
-10. Update the manuscript, status ledger, asset index, checksum list, and
-    changelog in one reviewable commit.
-
-## Tag and asset convention
-
-- Audit snapshots: `audit-YYYY-MM-DD.N`
-- Proof candidates: `proof-candidate-N`
-- Final release: `v1.0.0`, only after the proof gate closes
-
-Attach large archives to the corresponding GitHub release using their exact
-basenames.  Do not recompress a sealed archive under the same name: archive
-metadata changes its SHA-256 even when payload files are unchanged.
-
-## Public-release checklist
-
-- [ ] Author name and affiliation supplied.
-- [ ] Repository license and third-party redistribution rights decided.
-- [ ] Rank/generation gate independently closed.
-- [ ] Downstream sieve/local-log consumption audited.
-- [ ] Manuscript claim matches the audited boundary.
-- [ ] Paper compiles without unresolved references or overlapping material.
-- [ ] All release assets match `evidence/assets.json`.
-- [ ] Clean-extraction complete replay passes.
-- [ ] Two independent final audit decisions pass.
-- [ ] Release notes distinguish new results, repairs, and inherited facts.
+The author field in the supplied manuscript remains for the author to complete before arXiv submission. The release does not invent author, affiliation or license metadata. Published results and the identified historical Magma computations retain their explicit provenance.
