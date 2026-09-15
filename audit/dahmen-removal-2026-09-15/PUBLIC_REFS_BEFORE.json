@@ -1,0 +1,42 @@
+[
+  {
+    "ref": "refs/heads/main",
+    "node_id": "REF_kwDOUZOPFK9yZWZzL2hlYWRzL21haW4",
+    "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/refs/heads/main",
+    "object": {
+      "sha": "8e1b03f6084339ab9286b4e6c8c1618abbfb75c7",
+      "type": "commit",
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/commits/8e1b03f6084339ab9286b4e6c8c1618abbfb75c7"
+    }
+  },
+  {
+    "ref": "refs/tags/audit-2026-09-13.1",
+    "node_id": "REF_kwDOUZOPFLxyZWZzL3RhZ3MvYXVkaXQtMjAyNi0wOS0xMy4x",
+    "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/refs/tags/audit-2026-09-13.1",
+    "object": {
+      "sha": "60cd77e4b599df39562403d4fb834aa626773300",
+      "type": "commit",
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/commits/60cd77e4b599df39562403d4fb834aa626773300"
+    }
+  },
+  {
+    "ref": "refs/tags/first-submission-2026-09-15.1",
+    "node_id": "REF_kwDOUZOPFNoAJ3JlZnMvdGFncy9maXJzdC1zdWJtaXNzaW9uLTIwMjYtMDktMTUuMQ",
+    "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/refs/tags/first-submission-2026-09-15.1",
+    "object": {
+      "sha": "5c32fe14ca27b468e4e03bb22c1113e96a27fe67",
+      "type": "tag",
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/tags/5c32fe14ca27b468e4e03bb22c1113e96a27fe67"
+    }
+  },
+  {
+    "ref": "refs/tags/verified-2026-09-14.1",
+    "node_id": "REF_kwDOUZOPFL9yZWZzL3RhZ3MvdmVyaWZpZWQtMjAyNi0wOS0xNC4x",
+    "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/refs/tags/verified-2026-09-14.1",
+    "object": {
+      "sha": "d0497ed7234181fa226c43a044a4dc463268730c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/tags/d0497ed7234181fa226c43a044a4dc463268730c"
+    }
+  }
+]

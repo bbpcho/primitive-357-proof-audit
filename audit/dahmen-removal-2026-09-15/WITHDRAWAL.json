@@ -1,0 +1,52 @@
+{
+  "schema": "primitive357_distribution_withdrawal_v1",
+  "date": "2026-09-15",
+  "status": "PUBLIC_DAHMEN_SIKSEK_PDF_COPIES_WITHDRAWN",
+  "authorized_action": "Author requested removal from earlier public versions because redistribution permission had not been obtained.",
+  "removed_assets": [
+    {
+      "release_id": 389036163,
+      "release_tag": "first-submission-2026-09-15.1",
+      "asset_id": 565450862,
+      "filename": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+      "former_download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip"
+    },
+    {
+      "release_id": 388385413,
+      "release_tag": "verified-2026-09-14.1",
+      "asset_id": 563394734,
+      "filename": "PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "former_download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip"
+    }
+  ],
+  "removed_work": {
+    "authors": [
+      "S. R. Dahmen",
+      "S. Siksek"
+    ],
+    "title": "On the generalized Fermat equation x^5+y^3=z^7",
+    "member": "primary/dahmen-siksek/GFE357.pdf",
+    "bytes": 235180,
+    "sha256": "8b69da80fe79959ed1e05d35b613f7f728f599571b8f84f0a0d29c78e4c205c6"
+  },
+  "verification": {
+    "path": "PUBLIC_REMOVAL_VERIFICATION.json",
+    "sha256": "d0dbabffc7b8c70913f164ea8155a9ed43a301f26101565c50300d1654ca7b8e"
+  },
+  "other_public_archives": "The retained p5 and rank release archives match their public digests and contain no matching DS PDF or nested archive.",
+  "git_history": "All public refs matched the non-shallow local history:12commits,309 reachable blobs. No DS PDF was found; no Git history rewrite was required.",
+  "paper_source_changed": false,
+  "current_paper_sha256": "298c057b09e765e9bbe71ae4cd7460e323180691b7e4187201fa6bfffba121a5",
+  "historical_replay_records_changed": false,
+  "historical_archives_overwritten_locally": false,
+  "replacement_complete_companion_published": false,
+  "remaining_submission_holds": [
+    "Requested Dahmen reply",
+    "Verified replacement complete computational distribution and remaining third-party rights resolution"
+  ],
+  "arxiv_submitted": false
+}

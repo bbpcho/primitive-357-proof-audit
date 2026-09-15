@@ -1,0 +1,76 @@
+{
+  "checked_at_utc": "2026-09-15T12:56:48.545985+00:00",
+  "scope": "Unauthenticated public GitHub release API and browser-download URLs; not previous external copies or caches outside these responses.",
+  "checks": {
+    "affected_assets_absent_from_public_release_list": true,
+    "affected_asset_api_returns_404": true,
+    "original_download_urls_return_404_after_redirects": true,
+    "cachebusted_download_urls_return_404_after_redirects": true,
+    "p5_asset_retained": true,
+    "rank_asset_retained": true,
+    "p5_digest_unchanged": true,
+    "rank_digest_unchanged": true,
+    "remote_main_unchanged": true
+  },
+  "all_checks_pass": true,
+  "requests": {
+    "release_list": {
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases?per_page=100&_audit=1789477007",
+      "method": "GET",
+      "status": 200,
+      "effective_url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases?per_page=100&_audit=1789477007",
+      "curl_exit": 0
+    },
+    "remote_head": {
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/ref/heads/main?_audit=1789477007",
+      "method": "GET",
+      "status": 200,
+      "effective_url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/ref/heads/main?_audit=1789477007",
+      "curl_exit": 0
+    },
+    "asset_api_563394734": {
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases/assets/563394734?_audit=1789477007",
+      "method": "GET",
+      "status": 404,
+      "effective_url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases/assets/563394734?_audit=1789477007",
+      "curl_exit": 0
+    },
+    "original_download_563394734": {
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "method": "HEAD",
+      "status": 404,
+      "effective_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "curl_exit": 0
+    },
+    "cachebusted_download_563394734": {
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip?_audit=1789477007",
+      "method": "HEAD",
+      "status": 404,
+      "effective_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip?_audit=1789477007",
+      "curl_exit": 0
+    },
+    "asset_api_565450862": {
+      "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases/assets/565450862?_audit=1789477007",
+      "method": "GET",
+      "status": 404,
+      "effective_url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases/assets/565450862?_audit=1789477007",
+      "curl_exit": 0
+    },
+    "original_download_565450862": {
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "method": "HEAD",
+      "status": 404,
+      "effective_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "curl_exit": 0
+    },
+    "cachebusted_download_565450862": {
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip?_audit=1789477007",
+      "method": "HEAD",
+      "status": 404,
+      "effective_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip?_audit=1789477007",
+      "curl_exit": 0
+    }
+  },
+  "raw_record_sha256": "9cf232c56d717aadbbf340e2e00cf804b405c6844aaadac56237d9d7bad5f712",
+  "raw_record_path": "PUBLIC_REMOVAL_RAW.json"
+}

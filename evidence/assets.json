@@ -81,9 +81,12 @@
       "bytes": 588945520,
       "source_path_from_workspace": "work/verified_release_2026_09_14/dist/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
       "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1",
-      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
       "role": "integrated verified proof and dependency-closed independent replay",
-      "audit_state": "verified_fresh_integrated_replay"
+      "audit_state": "verified_fresh_integrated_replay",
+      "withdrawn_download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "availability": "withdrawn_2026_09_15",
+      "withdrawal_reason": "Nested Dahmen-Siksek working-paper PDF included without redistribution permission",
+      "withdrawal_record": "audit/dahmen-removal-2026-09-15/WITHDRAWAL.json"
     },
     {
       "id": "PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026_09_14",

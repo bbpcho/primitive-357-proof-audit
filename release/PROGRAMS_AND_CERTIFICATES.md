@@ -1,5 +1,7 @@
 # Programs and certificates — verified-2026-09-14.1
 
+**Distribution update (15 September 2026):** the two large companion/source-data release assets were withdrawn to remove the unlicensed Dahmen–Siksek PDF. The mathematical and replay descriptions below retain their historical scope; they do not assert current public availability of the full archive. A complete replacement companion is pending. See [the current availability notice](../README.md#current-availability).
+
 The integrated release combines immutable exact inputs with the adopted independent verification route. Run the release-level verifier from the extracted archive root:
 
 ```bash
@@ -37,7 +39,7 @@ The prior-evidence runner is `audit/work/integration_prior/replay_prior_evidence
 | Exceptional septic elimination | Conservative Hecke-filter and ambient coverage, local source hypotheses, ray-character argument, and the terminal 24 nonzero resultants. |
 | Cubic–quartic sector | Published/Magma rational/twist rank and torsion inputs, p=173 Kummer repair, actual sieve, and corrected formal-coordinate/precision checks. |
 
-The sector replay includes a full reconstruction of the degree-15 Fano resolvent by the unchanged [original Fano certificate](../evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.py). It recomputes all 80 CRT primes, obtains a 1330-bit modulus exceeding the rigorous 1230-bit coefficient bound, and checks five further primes. Its fresh log is `sectors/logs/independent_fano_resolvent_foundation.log` in the selected output directory. The absolute and relative degree-42 verifier defaults separately audit their saved CRT certificates at three fresh primes each; those defaults do not rerun their entire CRT production. The full Fano reconstruction and the exact canonical identities supply the adopted resolvent foundation.
+The sector replay includes a full reconstruction of the degree-15 Fano resolvent by the unchanged original Fano certificate, historically located at `evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.py` inside the withdrawn full archive. It recomputes all 80 CRT primes, obtains a 1330-bit modulus exceeding the rigorous 1230-bit coefficient bound, and checks five further primes. Its fresh log is `sectors/logs/independent_fano_resolvent_foundation.log` in the selected output directory. The absolute and relative degree-42 verifier defaults separately audit their saved CRT certificates at three fresh primes each; those defaults do not rerun their entire CRT production. The full Fano reconstruction and the exact canonical identities supply the adopted resolvent foundation.
 
 ## Rank and local witness records
 

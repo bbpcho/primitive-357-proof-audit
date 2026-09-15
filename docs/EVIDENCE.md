@@ -1,10 +1,12 @@
 # Evidence and verification boundary
 
+**Distribution update (15 September 2026):** the two large companion/source-data release assets were withdrawn to remove the unlicensed Dahmen–Siksek PDF. The mathematical and replay descriptions below retain their historical scope; they do not assert current public availability of the full archive. A complete replacement companion is pending. See [the current availability notice](../README.md#current-availability).
+
 The first-submission release distinguishes exact input data, recorded output, replayable computations, and checked mathematical implications. Hash equality identifies bytes; it does not prove the statement written in those bytes. A successful historical replay is used only for its documented scope. This is not proof-assistant certification or external human peer review.
 
 ## The first-submission collection
 
-The release [`first-submission-2026-09-15.1`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1) supplies the canonical 36-page paper and two separate assets: the 35,879-byte arXiv source ZIP and the 601,649,354-byte companion ZIP. The [README download table](../README.md#downloads) identifies their exact names and links. The large companion is a GitHub asset, not the arXiv source upload.
+The historical release [`first-submission-2026-09-15.1`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1) originally supplied the 36-page paper and two separate assets: the 35,879-byte arXiv source ZIP and the 601,649,354-byte companion ZIP. The large companion has since been withdrawn. The current paper and small source ZIP are linked from the repository README.
 
 The companion includes three immutable components:
 

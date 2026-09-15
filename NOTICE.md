@@ -26,3 +26,10 @@ Earlier archives and audit records retain their original identities and
 record what was verified. Preserving their hashes does not certify rights
 to redistribute every component. A replacement distribution must have a
 new identity and must verify its dependency and replay requirements.
+
+On 15 September 2026 the author requested withdrawal of the public copies
+of the Dahmen–Siksek working paper. The two affected large release assets
+were removed; their public release notes record the withdrawal. See
+[audit/dahmen-removal-2026-09-15/README.md](audit/dahmen-removal-2026-09-15/README.md).
+This does not remove citations or alter the original mathematical inputs.
+A replacement complete companion has not yet been published.

@@ -1,0 +1,79 @@
+{
+  "target_sha256": "8b69da80fe79959ed1e05d35b613f7f728f599571b8f84f0a0d29c78e4c205c6",
+  "target_bytes": 235180,
+  "archive_scans": [
+    {
+      "name": "work/p5_archive_audit/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "bytes": 149934212,
+      "sha256": "03f3bfe077372275e570dd2541c033ba9a3c0701c80fecadfe1b575f3991d6eb",
+      "objects_checked": 1,
+      "archives_opened": 1,
+      "matches": []
+    },
+    {
+      "name": "work/rank_closure_audit/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "bytes": 137069860,
+      "sha256": "ec90f7ce74fcdebfb3c398a7ac7da8426d590ff9abc0ef115e4824c0e2918248",
+      "objects_checked": 1,
+      "archives_opened": 1,
+      "matches": []
+    },
+    {
+      "name": "work/verified_release_2026_09_14/dist/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "objects_checked": 34,
+      "archives_opened": 24,
+      "matches": [
+        "work/verified_release_2026_09_14/dist/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip!PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz!primary/dahmen-siksek/GFE357.pdf"
+      ]
+    },
+    {
+      "name": "work/v3_audit/submission/anc/PRIMITIVE_357_REPRODUCIBILITY_V3.tar.gz",
+      "bytes": 262784980,
+      "sha256": "99ef2fa0466277092ed39570748870648c08c596a68ecb50f55cfc5d59107f26",
+      "objects_checked": 31,
+      "archives_opened": 21,
+      "matches": [
+        "work/v3_audit/submission/anc/PRIMITIVE_357_REPRODUCIBILITY_V3.tar.gz!2026-09-13_primitive_357_dependency_closed_release_v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz!primary/dahmen-siksek/GFE357.pdf"
+      ]
+    }
+  ],
+  "companion_binding": {
+    "name": "work/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+    "bytes": 601649354,
+    "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+    "embedded_verified": [
+      {
+        "member": "computational_materials/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+        "bytes": 588945520,
+        "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33"
+      }
+    ]
+  },
+  "git_history_scan": {
+    "git_refs": [
+      "8e1b03f6084339ab9286b4e6c8c1618abbfb75c7 refs/heads/main",
+      "8e1b03f6084339ab9286b4e6c8c1618abbfb75c7 refs/remotes/origin/HEAD",
+      "8e1b03f6084339ab9286b4e6c8c1618abbfb75c7 refs/remotes/origin/main",
+      "60cd77e4b599df39562403d4fb834aa626773300 refs/tags/audit-2026-09-13.1",
+      "5c32fe14ca27b468e4e03bb22c1113e96a27fe67 refs/tags/first-submission-2026-09-15.1",
+      "d0497ed7234181fa226c43a044a4dc463268730c refs/tags/verified-2026-09-14.1"
+    ],
+    "is_shallow": "false",
+    "reachable_commit_count": 12,
+    "reachable_blob_count": 309,
+    "scanned_blob_count": 1,
+    "archive_blobs": [
+      {
+        "name": "git:5c507f522419327ade267912e3dc4613e7de9993:release/PRIMITIVE_357_ARXIV_SOURCE_REVIEWER_CORRECTED_2026-09-15.zip",
+        "bytes": 41554,
+        "sha256": "2e4dfac874cecb55f16b1f18a039d430f7777ea472f9477129a0577b7ec976bf",
+        "objects_checked": 1,
+        "archives_opened": 1,
+        "matches": []
+      }
+    ],
+    "direct_pdf_matches": []
+  }
+}

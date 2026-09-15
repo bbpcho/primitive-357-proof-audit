@@ -1,5 +1,7 @@
 # Verified release — 14 September 2026
 
+**Distribution update (15 September 2026):** the two large companion/source-data release assets were withdrawn to remove the unlicensed Dahmen–Siksek PDF. The mathematical and replay descriptions below retain their historical scope; they do not assert current public availability of the full archive. A complete replacement companion is pending. See [the current availability notice](../README.md#current-availability).
+
 Tag: `verified-2026-09-14.1`
 
 New asset: `PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip`
