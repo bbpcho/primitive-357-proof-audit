@@ -8,7 +8,7 @@
   "public_proof_release_authorized": true,
   "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
   "github_visibility": "public",
-  "current_candidate": "First-submission manuscript by Peter Chocian, with corrected argument audit and fresh Magma addendum",
+  "current_candidate": "Reviewer-corrected first-submission manuscript with clarified rank exposition, expanded attribution and approved author licences",
   "blocking_gate": null,
   "rank_workplan": "audit/rank-gap/gates.json",
   "fresh_replay": {
@@ -97,7 +97,20 @@
   ],
   "verification_boundary": "The sealed 14 September inputs retain their completed integrated replay. The 15 September grouped argument audit found no remaining project-specific gap at the reviewed level; seven unchanged Magma jobs and four negative controls were run separately. Published results and mathematical software remain dependencies. No proof-assistant formalization or external human specialist review is claimed. The current paper is bound separately; it is not the unchanged manuscript named in the historical replay binding.",
   "current_paper_publication": "audit/first-submission-2026-09-15/PUBLICATION.json",
-  "computational_baseline_note": "release_tag, release_asset_id, fresh_replay and the original gates identify the unchanged sealed 14 September computational baseline. The current paper and added audit have separate identities in current_paper_publication.",
+  "computational_baseline_note": "release_tag, release_asset_id, fresh_replay and the original gates identify the unchanged sealed 14 September computational baseline. The current paper and added audit have separate identities in current_paper_publication. The local pre-submission revision is bound separately in current_paper_revision; submission-readiness fields concern this revision, not the historical computational gate state.",
   "public_access_check": "audit/first-submission-2026-09-15/PUBLIC_ACCESS_CHECK.json",
-  "current_release_publication_verification": "audit/first-submission-2026-09-15/PUBLICATION_VERIFICATION.json"
+  "current_release_publication_verification": "audit/first-submission-2026-09-15/PUBLICATION_VERIFICATION.json",
+  "current_paper_revision": "audit/reviewer-corrections-2026-09-15/REVISION.json",
+  "arxiv_submission_ready": false,
+  "arxiv_submission_holds": [
+    "Requested Dahmen reply pending",
+    "Third-party permission or verified replacement distribution pending, including PVT and nested full-paper copies"
+  ],
+  "author_licensing": {
+    "adopted": true,
+    "original_code": "MIT",
+    "original_paper_and_documentation": "CC-BY-4.0",
+    "third_party_material_excluded": true,
+    "author_authorization": "Author delegated the choice after the proposed licences and commercial-reuse impact were explained."
+  }
 }

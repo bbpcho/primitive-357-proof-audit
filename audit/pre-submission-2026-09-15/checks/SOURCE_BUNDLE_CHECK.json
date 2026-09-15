@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "filename": "PRIMITIVE_357_ARXIV_SOURCE_REVIEW_2026-09-15.zip",
+  "bytes": 40199,
+  "sha256": "258800adb3f6a72668c2b280ced7505b6856ec5c7e2afcf00608ab625d7cf1a7",
+  "members": [
+    {
+      "name": "manuscript.tex",
+      "sha256": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1"
+    },
+    {
+      "name": "rank-proof.tex",
+      "sha256": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af"
+    }
+  ],
+  "passes": 3,
+  "pages": 39,
+  "rebuild_pdf_sha256": "d29b38ee9e41cebe695f358166eb04dadccc4322ac79189583a9c79bbe704e75",
+  "review_pdf_sha256": "d29b38ee9e41cebe695f358166eb04dadccc4322ac79189583a9c79bbe704e75",
+  "byte_identical_rebuild": true,
+  "text_identical_rebuild": true,
+  "scope": "Two-file source archive extracted and built without external project files; no unresolved references or overfull boxes.",
+  "build_environment": {
+    "engine_version": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+    "SOURCE_DATE_EPOCH": "1789430400",
+    "FORCE_SOURCE_DATE": "1",
+    "command": [
+      "pdflatex",
+      "-no-shell-escape",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "manuscript.tex"
+    ],
+    "passes": 3
+  }
+}

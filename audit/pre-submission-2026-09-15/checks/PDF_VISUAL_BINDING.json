@@ -1,0 +1,26 @@
+{
+  "pdf": "work/pre_submission_revision_2026_09_15/repository/build/paper/manuscript.pdf",
+  "pdf_sha256": "d29b38ee9e41cebe695f358166eb04dadccc4322ac79189583a9c79bbe704e75",
+  "pdf_bytes": 533980,
+  "pdf_pages": 39,
+  "main_source_sha256": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1",
+  "rendered_pages": 39,
+  "sample_render_dimensions": [
+    1061,
+    1500
+  ],
+  "layout_only_reversal_sha256": "e49f621482dfe41fcd2bd0a5d251b88115e2083bee7064b9a0f457f3bf8cc852",
+  "identifiers_pdf_page": 18,
+  "printed_hashes_exact": {
+    "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90": true,
+    "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33": true
+  },
+  "printed_tags_exact": {
+    "first-submission-2026-09-15.1": true,
+    "verified-2026-09-14.1": true
+  },
+  "release_link_targets": [
+    "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1",
+    "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1"
+  ]
+}

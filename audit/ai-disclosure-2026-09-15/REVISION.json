@@ -1,0 +1,91 @@
+{
+  "schema": "primitive357_ai_disclosure_correction_v1",
+  "date": "2026-09-15",
+  "status": "CORRECTED_ARXIV_SOURCE_PACKAGE_VERIFIED",
+  "author": "Peter Chocian",
+  "affiliation": "Independent researcher",
+  "prior_revision": {
+    "path": "audit/pre-submission-2026-09-15/REVISION.json",
+    "sha256": "1e85becebc8e874569d1996e5fbd4c8dcbc3acf488df625ee2cb560746d72371"
+  },
+  "paper": {
+    "manuscript.tex": "00e13361b333712e838ab2799dd0121d9648ca1e46efee4694906f0b23ee3edf",
+    "rank-proof.tex": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af",
+    "manuscript.pdf": "2f6e2b7cad6253514483477fae7616f898fe029b1c941510e6e66425f99b0766"
+  },
+  "pdf_output_filename": "primitive_357_peter_chocian_corrected_2026_09_15.pdf",
+  "pages": 39,
+  "source_bundle": {
+    "filename": "PRIMITIVE_357_ARXIV_SOURCE_CORRECTED_2026-09-15.zip",
+    "bytes": 40300,
+    "sha256": "281c65360b364441da3b39a205a02be1d72e6ec4a78bc1bddc9c00175aa56575",
+    "members": [
+      {
+        "name": "manuscript.tex",
+        "sha256": "00e13361b333712e838ab2799dd0121d9648ca1e46efee4694906f0b23ee3edf"
+      },
+      {
+        "name": "rank-proof.tex",
+        "sha256": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af"
+      }
+    ]
+  },
+  "paper_change": "Only the AI-disclosure and author-contribution paragraph in Section 8.4. All mathematical source outside that paragraph, including the rank appendix, is unchanged.",
+  "checks": {
+    "paragraph_only_change": "PASS",
+    "source_package_clean_rebuild": "PASS_BYTE_IDENTICAL_PDF",
+    "final_visual_review": "PASS",
+    "identical_raster_pages": 37,
+    "visually_changed_pages": [
+      17,
+      18
+    ],
+    "printed_frozen_evidence_identifiers_unchanged": true
+  },
+  "ai_use": {
+    "OpenAI_Codex": [
+      "developing and checking mathematical arguments",
+      "computational investigation",
+      "program and certificate development",
+      "verification design",
+      "debugging",
+      "release preparation",
+      "drafting and revising the manuscript"
+    ],
+    "OpenAI_ChatGPT": [
+      "research and writing"
+    ],
+    "Anthropic_Claude": [
+      "error checking"
+    ]
+  },
+  "author_contribution": "Originated the project discovery approach and research direction, supplied key inputs, reviewed the evidence, and accepts responsibility for all claims; statement supplied and approved by the author.",
+  "frozen_evidence": [
+    {
+      "id": "companion",
+      "filename": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+      "release_tag": "first-submission-2026-09-15.1"
+    },
+    {
+      "id": "source_data",
+      "filename": "PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "release_tag": "verified-2026-09-14.1"
+    }
+  ],
+  "submission_holds": [
+    "Dahmen reply requested in the author-supplied report remains pending",
+    "PVT repository snapshot and paper-PDF redistribution permission or replacement remains pending"
+  ],
+  "author_licensing": {
+    "state": "choice_pending",
+    "proposal": "MIT for original code and CC BY 4.0 for original paper/documentation; third-party material excluded",
+    "adopted": false
+  },
+  "arxiv_submitted": false,
+  "github_published": false,
+  "scope": "Disclosure and packaging correction; no new mathematical claim, arithmetic replay, formal verification or external human specialist review."
+}

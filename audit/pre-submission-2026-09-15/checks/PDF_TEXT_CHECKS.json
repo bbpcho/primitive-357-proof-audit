@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "pages": 39,
+  "bytes": 533980,
+  "pdf_sha256": "d29b38ee9e41cebe695f358166eb04dadccc4322ac79189583a9c79bbe704e75",
+  "checks": {
+    "author": true,
+    "affiliation": true,
+    "claude_role": true,
+    "openai_disclosure": true,
+    "companion_hash_printed": true,
+    "source_data_hash_printed": true,
+    "companion_tag_printed": true,
+    "source_data_tag_printed": true,
+    "old_mask_removed": true,
+    "no_unresolved_references": true
+  },
+  "scope": "Text and identity checks; visual review is separate."
+}

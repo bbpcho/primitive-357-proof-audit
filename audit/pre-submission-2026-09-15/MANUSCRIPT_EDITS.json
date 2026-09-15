@@ -1,0 +1,41 @@
+{
+  "baseline_tex_sha256": "3619e519ae58533573cc5b5ebd6e86df0f063a916376200949c6c8ab8cb6c507",
+  "revised_main_tex_sha256": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1",
+  "changes": [
+    {
+      "before": "The historical computation first imposed eighteen",
+      "after": "Our earlier computation first imposed eighteen",
+      "reason": "Attribute the earlier filtering run to this project, not to PVT."
+    },
+    {
+      "before": "at the $18$ historical filter primes",
+      "after": "at those $18$ filter primes",
+      "reason": "Retain clear ownership of the earlier filters throughout the paragraph."
+    },
+    {
+      "before": "Seventeen of the eighteen historical filters are exactly",
+      "after": "Seventeen of those eighteen filters are exactly",
+      "reason": "Avoid ambiguous attribution of the filter defect."
+    },
+    {
+      "before": "historical degree-$48$ filter omitted the allowed level-lowering trace $1$,",
+      "after": "degree-$48$ filter in our earlier computation omitted the allowed level-lowering trace $1$,",
+      "reason": "Explicitly attribute the omitted 131 trace to our earlier computation."
+    },
+    {
+      "before": "\\subsection{Companion certificate archive}",
+      "after": "\\paragraph{Use of generative AI.}\nOpenAI ChatGPT and Codex were used in developing and checking arguments,\nwriting and revising computational programs, preparing verification\nmaterials, and drafting and editing this paper.  Anthropic Claude was\nused for error checking.  The author is responsible for the mathematical\nstatements, computations, references and conclusions.  AI-generated\nsuggestions and reviews are not mathematical certificates: the proof\nrests on the arguments given here, the cited results and the specified\ncomputations.  These AI-assisted reviews do not constitute independent\nhuman peer review or proof-assistant formalization.\n\n\\subsection{Companion certificate archive}",
+      "reason": "Report the known substantive AI roles, including the author-supplied use of Claude for error checking, in Section8.4."
+    },
+    {
+      "before": "The programs, exact inputs, certificates and verification records\naccompanying this paper are collected in\n\\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}.\nIts guide records the component filenames, checksums and replay\ninstructions.  These are versioned computational materials for this paper.\n\nThe source and data component is identified by tag\n\\texttt{verified-2026-09-14.1} in the repository\n\\href{https://github.com/bbpcho/primitive-357-proof-audit}{\\texttt{bbpcho/primitive-357-proof-audit}}\nand by the checksum of\n\\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}.\n",
+      "after": "The programs, exact inputs, certificates and verification records\nare available from the repository\n\\href{https://github.com/bbpcho/primitive-357-proof-audit}{\\texttt{bbpcho/primitive-357-proof-audit}}.\nThe fixed first-submission companion is\n\\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}\n($601\\,649\\,354$ bytes).  Its release tag is\n\\begin{center}\n\\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1}{\\texttt{first-submission-2026-09-15.1}}.\n\\end{center}\nIts SHA-256 digest is\n\\begin{quote}\\small\\ttfamily\nfa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90\n\\end{quote}\nThe unchanged source and data component is\n\\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}\n($588\\,945\\,520$ bytes).  Its release tag is\n\\begin{center}\n\\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1}{\\texttt{verified-2026-09-14.1}}.\n\\end{center}\nIts SHA-256 digest is\n\\begin{quote}\\small\\ttfamily\n27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33\n\\end{quote}\nThe tags and digests identify fixed computational records.  Earlier\nmanuscript copies inside those archives are retained as provenance; the\npresent document incorporates the subsequent expository revisions.\nThe companion guide records the component filenames and replay\ninstructions.\n",
+      "reason": "Print the exact two release tags, immutable archive identities and SHA256digests in Section8.5 without a circular hash of an archive containing this revised paper."
+    },
+    {
+      "before": "It contains the geometric, $5$-adic and rank-closure inputs under distinct\nevidence roots.  The companion also contains the argument-audit materials,\nincluding the exact supplementary checks and seven Magma execution records.",
+      "after": "The source and data component contains the geometric, $5$-adic and\nrank-closure inputs under distinct evidence roots.  The companion also\ncontains the argument-audit materials, exact supplementary checks and\nseven Magma execution records assembled for that release.",
+      "reason": "Identify the component containing the data and limit supplementary-record claims to the frozen release."
+    }
+  ]
+}

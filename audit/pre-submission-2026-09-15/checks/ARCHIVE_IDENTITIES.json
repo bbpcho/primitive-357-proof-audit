@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-15T11:12:23.882428+00:00",
+  "scope": "Fresh local hash checks of the two fixed archives printed in Section 8.5; no computational replay.",
+  "archives": [
+    {
+      "id": "companion",
+      "filename": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+      "release_tag": "first-submission-2026-09-15.1"
+    },
+    {
+      "id": "source_data",
+      "filename": "PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "release_tag": "verified-2026-09-14.1"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+--- previous/manuscript.tex
++++ revised/manuscript.tex
+@@ -1,3 +1,6 @@
++% Copyright (c) 2026 Peter Chocian. Original manuscript text:
++% CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
++% Third-party material is excluded; see the licence notice in Section 8.
+ \documentclass[11pt]{article}
+ 
+ \usepackage[a4paper,margin=25mm]{geometry}
+@@ -80,6 +83,13 @@
+ project-specific finite calculations are supplied as exact certificates,
+ programs, inputs, and authenticated logs.
+ \end{abstract}
++
++\begin{quote}\small
++\textit{2020 Mathematics Subject Classification.}
++Primary 11D41; Secondary 11G30, 11Y50, 14G05.\par
++\textit{Keywords.} Generalized Fermat equations; rational points;
++explicit descent; Hilbert modular forms; computer-assisted proofs.
++\end{quote}
+ 
+ \tableofcontents
+ 
+@@ -233,7 +243,7 @@
+ constraint.  The proof succeeds when the intersection of all compatible
+ states is empty.
+ 
+-This viewpoint dictated a calm order of work:
++This viewpoint led to the following order of work:
+ \begin{enumerate}[leftmargin=2.2em]
+ \item fix the strongest established frontier before beginning a new search;
+ \item translate each remaining assertion into a finite interface with exact
+@@ -1006,9 +1016,10 @@
+ 
+ Now assume that $\bar\rho_7$ is irreducible.  Apply
+ \cite[Theorem~7.8]{PVT} with $p=7$ to the specialization
+-\eqref{eq:PVT-map}.  This theorem packages the modularity, local conductor
+-calculation, and level-lowering argument for the plus motive: there is a
+-parallel-weight-two Hilbert newform over $F$, with trivial Nebentypus,
++\eqref{eq:PVT-map}.  This specialized theorem incorporates modularity,
++the local conductor calculation, and Hilbert level lowering; its proof
++cites \cite{BreuilDiamond} for the latter.  It gives a parallel-weight-two
++Hilbert newform over $F$, with trivial Nebentypus,
+ whose residual representation is $\bar\rho_7$ and whose level is one of
+ \begin{equation}\label{eq:four-levels}
+  3^{\epsilon_3}(\sqrt5)^{\epsilon_5},\qquad
+@@ -1298,13 +1309,27 @@
+ arguments, computational investigation, program and certificate development,
+ verification design, debugging, release preparation, and drafting and
+ revising the manuscript.  OpenAI ChatGPT also supported the research and
+-writing; Anthropic Claude was used for error checking.  Peter Chocian
++writing.  Anthropic Claude acted as an independent auditor, reproducing
++the finite data from published inputs and reviewing every draft; its
++findings led to the database-free identification of $\Q(\sqrt{-35})$ and
++to the model-intrinsic formal-group argument at the prime above $7$.
++Peter Chocian
+ originated the project's discovery approach and research direction,
+ supplied key inputs, reviewed the evidence, and accepts responsibility for
+ all claims.  AI-generated suggestions and reviews are not mathematical
+ certificates: the proof rests on the arguments given here, the cited
+ results and the specified computations.  These AI-assisted reviews do not
+ constitute independent human peer review or proof-assistant formalization.
++
++\paragraph{Licence.}
++Copyright \copyright\ 2026 Peter Chocian.  The author's original manuscript
++and documentation are licensed under
++\href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons
++Attribution 4.0 International}; the author's original program code is
++licensed under the MIT License.  These grants exclude third-party papers,
++software and other material, whose rights remain with their respective
++holders.  In particular, they do not grant permission to redistribute
++the third-party material in the frozen companion archives.
+ 
+ \subsection{Companion certificate archive}
+ 
+@@ -1740,14 +1765,15 @@
+ \bibitem{PVT}
+ A.~Pacetti and L.~Villagra Torcomian,
+ \emph{On the generalized Fermat equation of signature $(5,p,3)$},
+-arXiv:2512.17845,
+-\url{https://arxiv.org/abs/2512.17845}.
++arXiv:2512.17845v1 (2025),
++\url{https://arxiv.org/abs/2512.17845v1}.
+ 
+ \bibitem{BreuilDiamond}
+ C.~Breuil and F.~Diamond,
+ \emph{Formes modulaires de Hilbert modulo $p$ et valeurs d'extensions entre
+ caract\`eres galoisiens},
+-Ann. Sci. \'{E}c. Norm. Sup\'{e}r. (4) \textbf{47} (2014), 905--974.
++Ann. Sci. \'{E}c. Norm. Sup\'{e}r. (4) \textbf{47} (2014), no.~5, 905--974,
++\href{https://doi.org/10.24033/asens.2230}{doi:10.24033/asens.2230}.
+ 
+ \bibitem{Raynaud1974}
+ M.~Raynaud,
+@@ -1758,8 +1784,14 @@
+ \bibitem{DembeleVoight}
+ L.~Demb\'el\'e and J.~Voight,
+ \emph{Explicit methods for Hilbert modular forms},
+-\href{https://jvoight.github.io/articles/hmf-crm-bcn-053024.pdf}{author's version},
+-Theorem~3.9 and \S4.
++in \emph{Elliptic Curves, Hilbert Modular Forms and Galois Deformations},
++Advanced Courses in Mathematics--CRM Barcelona,
++Birkh\"auser, Basel, 2013, 135--198,
++\href{https://doi.org/10.1007/978-3-0348-0618-3_4}
++{doi:10.1007/978-3-0348-0618-3\_4}.
++Theorem~3.9 and \S4 are cited from the
++\href{https://jvoight.github.io/articles/hmf-crm-bcn-053024.pdf}
++{corrected authors' version of 30 May 2024}.
+ 
+ \bibitem{Flynn}
+ E.~V. Flynn,
+--- previous/rank-proof.tex
++++ revised/rank-proof.tex
+@@ -1,3 +1,6 @@
++% Copyright (c) 2026 Peter Chocian. Original manuscript text:
++% CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
++% Third-party material is excluded; see the licence notice in Section 8.
+ \section{The complete rank-four descent and its downstream use}
+ \label{app:rank-proof}
+ 
+@@ -121,8 +124,8 @@
+ \[
+ \begin{array}{c|c|c}
+  \text{place}&d_v&\dim\operatorname{im} f_{K_v}\\ \hline
+- \text{four split good primes}&6&6\\
+- 1051&4&4\\
++ \text{four completely split bitangent places}&6&6\\
++ v_{1051}=(1051,s-815)&4&4\\
+  v\mid3&2&2\\
+  v\mid5&3&3\\
+  v\mid7&2&1\\
+@@ -131,7 +134,13 @@
+ \end{array}
+ \qquad w=(1+s)/2.
+ \]
+-Here the four split primes lie above $19163,23431,29059,38189$.
++At the four good places above $19163,23431,29059,38189$, the bitangent
++algebra splits completely.  Although $1051$ also splits in $K/\Q$,
++at the selected good place $v_{1051}=(1051,s-815)$ the bitangent algebra
++has residue factor degrees $1^8 2^{10}$.  Thus
++$L\otimes_K K_{v_{1051}}\simeq K_{v_{1051}}^8\times E_{1051}^{10}$, where
++$E_{1051}/K_{v_{1051}}$ is the unramified quadratic extension.  Its Frobenius
++action gives $\dim_{\F_2}J[2](K_{v_{1051}})=4$.
+ For the first four rows, independent point images attain the local
+ two-torsion bound, so Lemma~\ref{lem:rank-local-completeness} applies with
+ $k_v=0$.  The $7$-adic and dyadic arguments below justify the remaining
+@@ -144,7 +153,8 @@
+  66\longrightarrow23\longrightarrow22\longrightarrow20
+  \longrightarrow19\longrightarrow18\longrightarrow15\longrightarrow12.
+ \end{equation}
+-The stages are the four split primes together, $1051$, the places above
++The stages are the four completely split bitangent places together,
++$v_{1051}$, the places above
+ $3,5,7$, and the dyadic places with $w\equiv1,0$, in that order.
+ The other prime conditions and the norm condition in the ancillary
+ descent calculation are redundant for this intersection.
+@@ -313,12 +323,24 @@
+ \subsection{Excluding the complementary class}
+ 
+ We next compare the containing space $Q$ with the true $2$-Selmer group.
+-The finite Galois-module calculation gives
+-\[
+-                J(K)[2]=0,\qquad \dim\mathcal C(K)=1.
+-\]
+-These statements hold for every transitive affine subgroup compatible
+-with the actual bitangent action.
++In fact, $J(K)[2]=0$ follows already from transitivity on $\Delta$.
++Identify $E_\Delta^\vee$ with
++$\F_2^\Delta/\langle\mathbf1\rangle$ using the standard dot product.
++The bitangent realization gives
++$J[2]\simeq R_\Delta^\perp/\langle\mathbf1\rangle$.
++The weight enumerator of $R_\Delta^\perp$ is
++\[
++                         1+63T^{12}+63T^{16}+T^{28};
++\]
++it is obtained by taking the orthogonal complement of the $315$ tetrad
++incidence vectors, which have rank $21$, and enumerating its $128$ vectors.
++Each nonzero quotient class therefore has two complementary
++representatives of weights $12$ and $16$.  If such a class were Galois
++invariant, its unique weight-$12$ representative would have
++Galois-invariant support, a nonempty proper subset of the transitive set
++$\Delta$.  This is impossible.  Separately, the finite Galois-module
++calculation gives $\dim\mathcal C(K)=1$ for every transitive affine
++subgroup compatible with the actual bitangent action.
+ 
+ The fixed representative $c$ in \eqref{eq:rank-containing-quotient}
+ has two coherent global lifts under the BPS comparison map on

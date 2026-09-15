@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "filename": "PRIMITIVE_357_ARXIV_SOURCE_CORRECTED_2026-09-15.zip",
+  "bytes": 40300,
+  "sha256": "281c65360b364441da3b39a205a02be1d72e6ec4a78bc1bddc9c00175aa56575",
+  "members": [
+    {
+      "name": "manuscript.tex",
+      "sha256": "00e13361b333712e838ab2799dd0121d9648ca1e46efee4694906f0b23ee3edf"
+    },
+    {
+      "name": "rank-proof.tex",
+      "sha256": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af"
+    }
+  ],
+  "pages": 39,
+  "review_pdf_bytes": 534107,
+  "review_pdf_sha256": "2f6e2b7cad6253514483477fae7616f898fe029b1c941510e6e66425f99b0766",
+  "rebuild_pdf_sha256": "2f6e2b7cad6253514483477fae7616f898fe029b1c941510e6e66425f99b0766",
+  "byte_identical_rebuild": true,
+  "disclosure_text_checks": true,
+  "frozen_evidence_hashes_unchanged": true,
+  "build_environment": {
+    "engine_version": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+    "SOURCE_DATE_EPOCH": "1789430400",
+    "FORCE_SOURCE_DATE": "1",
+    "command": [
+      "-no-shell-escape",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "manuscript.tex"
+    ],
+    "passes": 3
+  },
+  "scope": "Corrected two-file arXiv source package built from clean extraction; this is not an arithmetic replay."
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "primitive357_reviewer_corrections_v1",
+  "date": "2026-09-15",
+  "status": "REVISED_PAPER_AND_SOURCE_PACKAGE_VERIFIED",
+  "author": "Peter Chocian",
+  "affiliation": "Independent researcher",
+  "prior_revision": {
+    "path": "audit/ai-disclosure-2026-09-15/REVISION.json",
+    "sha256": "fc1ea44266b393f69b2ab290f545ebeb3244d9a77cc883789fad8e962fbf0b51"
+  },
+  "paper": {
+    "manuscript.tex": "70f66fe3605ecbde730e21fbee0308daaf0533fcd566d464274944066c3ef9cf",
+    "rank-proof.tex": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8",
+    "manuscript.pdf": "298c057b09e765e9bbe71ae4cd7460e323180691b7e4187201fa6bfffba121a5"
+  },
+  "pdf": {
+    "filename": "primitive_357_peter_chocian_reviewer_corrected_2026_09_15.pdf",
+    "bytes": 540209,
+    "sha256": "298c057b09e765e9bbe71ae4cd7460e323180691b7e4187201fa6bfffba121a5",
+    "pages": 40
+  },
+  "source_bundle": {
+    "filename": "PRIMITIVE_357_ARXIV_SOURCE_REVIEWER_CORRECTED_2026-09-15.zip",
+    "bytes": 41554,
+    "sha256": "2e4dfac874cecb55f16b1f18a039d430f7777ea472f9477129a0577b7ec976bf"
+  },
+  "source_members": [
+    {
+      "name": "manuscript.tex",
+      "sha256": "70f66fe3605ecbde730e21fbee0308daaf0533fcd566d464274944066c3ef9cf"
+    },
+    {
+      "name": "rank-proof.tex",
+      "sha256": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8"
+    }
+  ],
+  "author_licensing": {
+    "adopted": true,
+    "original_code": "MIT",
+    "original_paper_and_documentation": "CC-BY-4.0",
+    "third_party_material_excluded": true,
+    "author_authorization": "Author delegated the choice after the proposed licences and commercial-reuse impact were explained."
+  },
+  "claude_attribution": "Author-supplied fuller statement faithfully included; independent-auditor role and the database-free quadratic-field identification and model-intrinsic formal-group argument are attributed as requested.",
+  "checks": {
+    "source_clean_rebuild": "PASS_BYTE_IDENTICAL_PDF",
+    "final_visual_review": "PASS",
+    "independent_manuscript_diff_review": "PASS",
+    "primary_citations_and_MSC_review": "PASS",
+    "licence_scope_review": "PASS",
+    "fresh_1051_factorization": "PASS_1^8_2^10_AT_s815",
+    "fresh_bitangent_code_enumeration": "PASS_1+63T^12+63T^16+T^28"
+  },
+  "mathematical_input_changes": false,
+  "new_complete_arithmetic_replay": false,
+  "frozen_evidence": [
+    {
+      "id": "companion",
+      "filename": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+      "release_tag": "first-submission-2026-09-15.1"
+    },
+    {
+      "id": "source_data",
+      "filename": "PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "release_tag": "verified-2026-09-14.1"
+    }
+  ],
+  "arxiv_submitted": false,
+  "submission_holds": [
+    "Requested Dahmen reply pending",
+    "Third-party permission or verified replacement distribution pending, including PVT and nested full-paper copies"
+  ],
+  "github_publication_note": "Repository commit metadata identifies publication of this revision. Historical release assets retain their previous identities."
+}

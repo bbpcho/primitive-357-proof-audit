@@ -1,3 +1,6 @@
+% Copyright (c) 2026 Peter Chocian. Original manuscript text:
+% CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
+% Third-party material is excluded; see the licence notice in Section 8.
 \documentclass[11pt]{article}
 
 \usepackage[a4paper,margin=25mm]{geometry}
@@ -80,6 +83,13 @@ step as a literature input, reconstructed input, or new argument.  All
 project-specific finite calculations are supplied as exact certificates,
 programs, inputs, and authenticated logs.
 \end{abstract}
+
+\begin{quote}\small
+\textit{2020 Mathematics Subject Classification.}
+Primary 11D41; Secondary 11G30, 11Y50, 14G05.\par
+\textit{Keywords.} Generalized Fermat equations; rational points;
+explicit descent; Hilbert modular forms; computer-assisted proofs.
+\end{quote}
 
 \tableofcontents
 
@@ -233,7 +243,7 @@ and $p$-adic analytic coordinates.  Each representation supplies a
 constraint.  The proof succeeds when the intersection of all compatible
 states is empty.
 
-This viewpoint dictated a calm order of work:
+This viewpoint led to the following order of work:
 \begin{enumerate}[leftmargin=2.2em]
 \item fix the strongest established frontier before beginning a new search;
 \item translate each remaining assertion into a finite interface with exact
@@ -1006,9 +1016,10 @@ unramified in $F$, so there is a single such prime.
 
 Now assume that $\bar\rho_7$ is irreducible.  Apply
 \cite[Theorem~7.8]{PVT} with $p=7$ to the specialization
-\eqref{eq:PVT-map}.  This theorem packages the modularity, local conductor
-calculation, and level-lowering argument for the plus motive: there is a
-parallel-weight-two Hilbert newform over $F$, with trivial Nebentypus,
+\eqref{eq:PVT-map}.  This specialized theorem incorporates modularity,
+the local conductor calculation, and Hilbert level lowering; its proof
+cites \cite{BreuilDiamond} for the latter.  It gives a parallel-weight-two
+Hilbert newform over $F$, with trivial Nebentypus,
 whose residual representation is $\bar\rho_7$ and whose level is one of
 \begin{equation}\label{eq:four-levels}
  3^{\epsilon_3}(\sqrt5)^{\epsilon_5},\qquad
@@ -1018,7 +1029,7 @@ whose residual representation is $\bar\rho_7$ and whose level is one of
 The conclusion here is a newform conclusion, but the finite elimination below
 does not depend on reconstructing a new quotient.  Let $V_N$ be the full
 mod-$7$ cuspidal Brandt module at one of the four levels~$N$ in
-\eqref{eq:four-levels}.  The historical computation first imposed eighteen
+\eqref{eq:four-levels}.  Our earlier computation first imposed eighteen
 local trace-polynomial conditions, so its output must not be called the full
 ambient module.  We instead verify the coverage of every condition.
 
@@ -1027,12 +1038,12 @@ prime: ordinary specialization, one of the two degenerations $t=0,\infty$,
 or the level-lowering specialization $t=1$.  From the complete upstream
 \texttt{Data.txt}, the certificate independently reduces all $6253$ trace
 polynomials at $37$ primes modulo~$7$.  Separately, it reconstructs all
-$1264$ ordinary parameters at the $18$ historical filter primes and all
+$1264$ ordinary parameters at those $18$ filter primes and all
 $128$ boundary character possibilities at the $16$ split primes.  It
 performs the required relative-degree-two trace transport for the boundary
-data and adjoins both signs of $N(\mathfrak q)+1$.  Seventeen of the eighteen historical filters are exactly
+data and adjoins both signs of $N(\mathfrak q)+1$.  Seventeen of those eighteen filters are exactly
 the resulting squarefree allowed-trace polynomials.  At $\ell=131$ the
-historical degree-$48$ filter omitted the allowed level-lowering trace $1$,
+degree-$48$ filter in our earlier computation omitted the allowed level-lowering trace $1$,
 since $-(131+1)\equiv1\pmod7$.  We therefore replace only that condition, in
 memory, by $T^{49}-T$, which admits every $\F_{49}$-valued trace.
 
@@ -1293,22 +1304,67 @@ algorithms; they are not independent implementations.  The numerical
 height comparison supplements, and does not replace, the separate exact
 height bounds.
 
+\paragraph{Substantial AI-assisted research and writing.}
+OpenAI Codex was used extensively in developing and checking mathematical
+arguments, computational investigation, program and certificate development,
+verification design, debugging, release preparation, and drafting and
+revising the manuscript.  OpenAI ChatGPT also supported the research and
+writing.  Anthropic Claude acted as an independent auditor, reproducing
+the finite data from published inputs and reviewing every draft; its
+findings led to the database-free identification of $\Q(\sqrt{-35})$ and
+to the model-intrinsic formal-group argument at the prime above $7$.
+Peter Chocian
+originated the project's discovery approach and research direction,
+supplied key inputs, reviewed the evidence, and accepts responsibility for
+all claims.  AI-generated suggestions and reviews are not mathematical
+certificates: the proof rests on the arguments given here, the cited
+results and the specified computations.  These AI-assisted reviews do not
+constitute independent human peer review or proof-assistant formalization.
+
+\paragraph{Licence.}
+Copyright \copyright\ 2026 Peter Chocian.  The author's original manuscript
+and documentation are licensed under
+\href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons
+Attribution 4.0 International}; the author's original program code is
+licensed under the MIT License.  These grants exclude third-party papers,
+software and other material, whose rights remain with their respective
+holders.  In particular, they do not grant permission to redistribute
+the third-party material in the frozen companion archives.
+
 \subsection{Companion certificate archive}
 
 The programs, exact inputs, certificates and verification records
-accompanying this paper are collected in
-\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}.
-Its guide records the component filenames, checksums and replay
-instructions.  These are versioned computational materials for this paper.
-
-The source and data component is identified by tag
-\texttt{verified-2026-09-14.1} in the repository
-\href{https://github.com/bbpcho/primitive-357-proof-audit}{\texttt{bbpcho/primitive-357-proof-audit}}
-and by the checksum of
-\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}.
-It contains the geometric, $5$-adic and rank-closure inputs under distinct
-evidence roots.  The companion also contains the argument-audit materials,
-including the exact supplementary checks and seven Magma execution records.
+are available from the repository
+\href{https://github.com/bbpcho/primitive-357-proof-audit}{\texttt{bbpcho/primitive-357-proof-audit}}.
+The fixed first-submission companion is
+\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}
+($601\,649\,354$ bytes).  Its release tag is
+\begin{center}
+\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1}{\texttt{first-submission-2026-09-15.1}}.
+\end{center}
+Its SHA-256 digest is
+\begin{quote}\small\ttfamily
+fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90
+\end{quote}
+The unchanged source and data component is
+\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}
+($588\,945\,520$ bytes).  Its release tag is
+\begin{center}
+\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1}{\texttt{verified-2026-09-14.1}}.
+\end{center}
+Its SHA-256 digest is
+\begin{quote}\small\ttfamily
+27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33
+\end{quote}
+The tags and digests identify fixed computational records.  Earlier
+manuscript copies inside those archives are retained as provenance; the
+present document incorporates the subsequent expository revisions.
+The companion guide records the component filenames and replay
+instructions.
+The source and data component contains the geometric, $5$-adic and
+rank-closure inputs under distinct evidence roots.  The companion also
+contains the argument-audit materials, exact supplementary checks and
+seven Magma execution records assembled for that release.
 The source and data component's integrity and theorem-interface verifier is
 \begin{center}
 \texttt{python3 -B scripts/verify\_release.py}.
@@ -1709,14 +1765,15 @@ Fermat equations}, PhD thesis, Vrije Universiteit Amsterdam, 2024,
 \bibitem{PVT}
 A.~Pacetti and L.~Villagra Torcomian,
 \emph{On the generalized Fermat equation of signature $(5,p,3)$},
-arXiv:2512.17845,
-\url{https://arxiv.org/abs/2512.17845}.
+arXiv:2512.17845v1 (2025),
+\url{https://arxiv.org/abs/2512.17845v1}.
 
 \bibitem{BreuilDiamond}
 C.~Breuil and F.~Diamond,
 \emph{Formes modulaires de Hilbert modulo $p$ et valeurs d'extensions entre
 caract\`eres galoisiens},
-Ann. Sci. \'{E}c. Norm. Sup\'{e}r. (4) \textbf{47} (2014), 905--974.
+Ann. Sci. \'{E}c. Norm. Sup\'{e}r. (4) \textbf{47} (2014), no.~5, 905--974,
+\href{https://doi.org/10.24033/asens.2230}{doi:10.24033/asens.2230}.
 
 \bibitem{Raynaud1974}
 M.~Raynaud,
@@ -1727,8 +1784,14 @@ Bull. Soc. Math. France \textbf{102} (1974), 241--280,
 \bibitem{DembeleVoight}
 L.~Demb\'el\'e and J.~Voight,
 \emph{Explicit methods for Hilbert modular forms},
-\href{https://jvoight.github.io/articles/hmf-crm-bcn-053024.pdf}{author's version},
-Theorem~3.9 and \S4.
+in \emph{Elliptic Curves, Hilbert Modular Forms and Galois Deformations},
+Advanced Courses in Mathematics--CRM Barcelona,
+Birkh\"auser, Basel, 2013, 135--198,
+\href{https://doi.org/10.1007/978-3-0348-0618-3_4}
+{doi:10.1007/978-3-0348-0618-3\_4}.
+Theorem~3.9 and \S4 are cited from the
+\href{https://jvoight.github.io/articles/hmf-crm-bcn-053024.pdf}
+{corrected authors' version of 30 May 2024}.
 
 \bibitem{Flynn}
 E.~V. Flynn,

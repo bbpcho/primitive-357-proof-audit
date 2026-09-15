@@ -1,0 +1,14 @@
+{
+  "schema": "primitive357_disclosure_edit_v1",
+  "date": "2026-09-15",
+  "scope": "Only the Section 8.4 AI-disclosure paragraph changes in the mathematical source. The approved statement is used without its self-reference to Section 8.4; the existing review/certification boundary is retained.",
+  "baseline_main_sha256": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1",
+  "revised_main_sha256": "00e13361b333712e838ab2799dd0121d9648ca1e46efee4694906f0b23ee3edf",
+  "rank_appendix_sha256_unchanged": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af",
+  "before": "\\paragraph{Use of generative AI.}\nOpenAI ChatGPT and Codex were used in developing and checking arguments,\nwriting and revising computational programs, preparing verification\nmaterials, and drafting and editing this paper.  Anthropic Claude was\nused for error checking.  The author is responsible for the mathematical\nstatements, computations, references and conclusions.  AI-generated\nsuggestions and reviews are not mathematical certificates: the proof\nrests on the arguments given here, the cited results and the specified\ncomputations.  These AI-assisted reviews do not constitute independent\nhuman peer review or proof-assistant formalization.\n\n",
+  "after": "\\paragraph{Substantial AI-assisted research and writing.}\nOpenAI Codex was used extensively in developing and checking mathematical\narguments, computational investigation, program and certificate development,\nverification design, debugging, release preparation, and drafting and\nrevising the manuscript.  OpenAI ChatGPT also supported the research and\nwriting; Anthropic Claude was used for error checking.  Peter Chocian\noriginated the project's discovery approach and research direction,\nsupplied key inputs, reviewed the evidence, and accepts responsibility for\nall claims.  AI-generated suggestions and reviews are not mathematical\ncertificates: the proof rests on the arguments given here, the cited\nresults and the specified computations.  These AI-assisted reviews do not\nconstitute independent human peer review or proof-assistant formalization.\n\n",
+  "check": {
+    "single_paragraph_replacement": true,
+    "outside_paragraph_unchanged": true
+  }
+}

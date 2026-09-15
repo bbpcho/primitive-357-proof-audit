@@ -1,0 +1,77 @@
+{
+  "schema": "primitive357_pre_submission_revision_v1",
+  "date": "2026-09-15",
+  "status": "PRE_SUBMISSION_REVIEW_FILES_PREPARED",
+  "author": "Peter Chocian",
+  "affiliation": "Independent researcher",
+  "baseline_commit": "6462ef2b78dd01702603b7dc1b8a095dec90b040",
+  "github_published": false,
+  "arxiv_submitted": false,
+  "new_release_tag": null,
+  "pages": 39,
+  "paper": {
+    "manuscript.tex": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1",
+    "rank-proof.tex": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af",
+    "manuscript.pdf": "d29b38ee9e41cebe695f358166eb04dadccc4322ac79189583a9c79bbe704e75"
+  },
+  "source_bundle": {
+    "filename": "PRIMITIVE_357_ARXIV_SOURCE_REVIEW_2026-09-15.zip",
+    "bytes": 40199,
+    "sha256": "258800adb3f6a72668c2b280ced7505b6856ec5c7e2afcf00608ab625d7cf1a7",
+    "members": [
+      {
+        "name": "manuscript.tex",
+        "sha256": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1"
+      },
+      {
+        "name": "rank-proof.tex",
+        "sha256": "cd40f15fed038fc089ac5020bd6b7af41f01352b890b5c316b138db8ff0330af"
+      }
+    ]
+  },
+  "frozen_evidence": [
+    {
+      "id": "companion",
+      "filename": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+      "release_tag": "first-submission-2026-09-15.1"
+    },
+    {
+      "id": "source_data",
+      "filename": "PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+      "release_tag": "verified-2026-09-14.1"
+    }
+  ],
+  "checks": {
+    "three_pass_build": "PASS",
+    "source_bundle_clean_build": "PASS_BYTE_IDENTICAL_PDF",
+    "pdf_text_checks": "PASS",
+    "all_39_pages_visual_review": "PASS",
+    "main_paper_recorded_diff": "PASS_SEVEN_EDITS",
+    "appendix_mathematical_second_pass": "NO_FURTHER_CORRECTION_IDENTIFIED"
+  },
+  "ai_use": {
+    "OpenAI_ChatGPT_Codex": [
+      "developing and checking arguments",
+      "writing and revising computation code",
+      "verification materials",
+      "drafting and editing"
+    ],
+    "Anthropic_Claude": [
+      "error checking"
+    ]
+  },
+  "submission_holds": [
+    "Dahmen reply requested in the author-supplied report remains pending",
+    "PVT repository snapshot and paper-PDF redistribution permission or replacement remains pending"
+  ],
+  "author_licensing": {
+    "state": "choice_pending",
+    "proposal": "MIT for original code and CC BY 4.0 for original paper/documentation; third-party material excluded",
+    "adopted": false
+  },
+  "scope": "Editorial and mathematical-exposition revision, checked against existing computational evidence. No new combined arithmetic replay, proof-assistant formalization, external human specialist review, GitHub publication or arXiv submission is claimed."
+}

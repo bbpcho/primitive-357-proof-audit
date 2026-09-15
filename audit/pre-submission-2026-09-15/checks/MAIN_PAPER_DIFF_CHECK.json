@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "baseline_sha256": "3619e519ae58533573cc5b5ebd6e86df0f063a916376200949c6c8ab8cb6c507",
+  "revised_sha256": "9568974a78699bedfea5aecce92e547fd0122b9306f790ffb6681f11f99838c1",
+  "recorded_edits": 7,
+  "scope": "Exact application of the recorded main-paper edits reconstructs the revised source; the rank appendix has a separate review."
+}

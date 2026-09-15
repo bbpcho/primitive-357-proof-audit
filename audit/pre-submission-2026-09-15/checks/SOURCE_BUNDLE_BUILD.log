@@ -1,0 +1,837 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+entering extended mode
+(./manuscript.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/capt-of/capt-of.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file manuscript.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+No file manuscript.toc.
+[1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2
+026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2026/texmf-
+dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc
+/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Citation `DahmenSiksek' on page 2 undefined on input line 121.
+
+
+LaTeX Warning: Citation `Putz' on page 2 undefined on input line 140.
+
+[2]
+
+LaTeX Warning: Reference `thm:main' on page 3 undefined on input line 220.
+
+[3]
+
+LaTeX Warning: Reference `eq:original' on page 4 undefined on input line 272.
+
+
+LaTeX Warning: Reference `sec:descent' on page 4 undefined on input line 275.
+
+
+LaTeX Warning: Reference `sec:reducible-end' on page 4 undefined on input line 
+275.
+
+
+LaTeX Warning: Reference `sec:irreducible' on page 4 undefined on input line 27
+6.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 4 undefined on input line 301.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 4 undefined on input line 324.
+
+[4]
+
+LaTeX Warning: Reference `eq:rational-root-cleared' on page 5 undefined on inpu
+t line 348.
+
+
+LaTeX Warning: Reference `eq:quartic-cube' on page 5 undefined on input line 36
+7.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 5 undefined on input line 372.
+
+
+LaTeX Warning: Reference `eq:three-cubic-cases' on page 5 undefined on input li
+ne 375.
+
+
+LaTeX Warning: Citation `BruinStollSieve' on page 5 undefined on input line 394
+.
+
+
+LaTeX Warning: Reference `eq:rational-genus2' on page 5 undefined on input line
+ 407.
+
+
+LaTeX Warning: Reference `eq:three-cubic-cases' on page 5 undefined on input li
+ne 408.
+
+[5]
+
+LaTeX Warning: Reference `eq:rational-local-alternative' on page 6 undefined on
+ input line 422.
+
+
+LaTeX Warning: Reference `eq:rational-local' on page 6 undefined on input line 
+425.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 6 undefined on input line 439.
+
+
+LaTeX Warning: Citation `BruinStollDescent' on page 6 undefined on input line 4
+94.
+
+[6{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+LaTeX Warning: Citation `BruinEC' on page 7 undefined on input line 514.
+
+
+LaTeX Warning: Reference `eq:fibre-product' on page 7 undefined on input line 5
+27.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 7 undefined on input line 565.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 7 undefined on input line 577.
+
+[7]
+
+LaTeX Warning: Citation `DahmenSiksek' on page 8 undefined on input line 593.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 8 undefined on input line 613.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-euf.cfg) [8]
+
+LaTeX Warning: Citation `BruinStollSieve' on page 9 undefined on input line 666
+.
+
+
+LaTeX Warning: Citation `CasselsFlynn' on page 9 undefined on input line 682.
+
+
+LaTeX Warning: Citation `Flynn' on page 9 undefined on input line 682.
+
+
+LaTeX Warning: Reference `app:flynn' on page 9 undefined on input line 692.
+
+[9]
+
+LaTeX Warning: Reference `eq:section7-sieve' on page 10 undefined on input line
+ 742.
+
+
+LaTeX Warning: Reference `eq:2240G2' on page 10 undefined on input line 742.
+
+
+LaTeX Warning: Reference `eq:local-pullback' on page 10 undefined on input line
+ 743.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 10 undefined on input line 765.
+
+
+LaTeX Warning: Citation `Putz' on page 10 undefined on input line 767.
+
+[10]
+
+LaTeX Warning: Reference `eq:scaled-septic' on page 11 undefined on input line 
+834.
+
+
+LaTeX Warning: Reference `eq:eight-over-fifteen' on page 11 undefined on input 
+line 838.
+
+
+LaTeX Warning: Reference `app:Cplus' on page 11 undefined on input line 844.
+
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 11 undefined on
+ input line 847.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd)
+
+LaTeX Warning: Reference `app:rank-proof' on page 11 undefined on input line 87
+1.
+
+
+LaTeX Warning: Citation `BPS' on page 11 undefined on input line 872.
+
+[11]
+
+LaTeX Warning: Reference `eq:Erelation' on page 12 undefined on input line 892.
+
+
+
+LaTeX Warning: Citation `Siksek' on page 12 undefined on input line 936.
+
+[12]
+
+LaTeX Warning: Reference `thm:rational-t' on page 13 undefined on input line 97
+4.
+
+
+LaTeX Warning: Citation `PVT' on page 13 undefined on input line 986.
+
+
+LaTeX Warning: Citation `PVT' on page 13 undefined on input line 999.
+
+
+LaTeX Warning: Citation `PVT' on page 13 undefined on input line 1000.
+
+
+LaTeX Warning: Citation `PVT' on page 13 undefined on input line 1008.
+
+
+LaTeX Warning: Reference `eq:PVT-map' on page 13 undefined on input line 1009.
+
+
+LaTeX Warning: Reference `eq:four-levels' on page 13 undefined on input line 10
+21.
+
+[13]
+
+LaTeX Warning: Citation `PVT' on page 14 undefined on input line 1025.
+
+
+LaTeX Warning: Citation `DembeleVoight' on page 14 undefined on input line 1042
+.
+
+
+LaTeX Warning: Reference `eq:reducible-semisimplification' on page 14 undefined
+ on input line 1093.
+
+[14]
+
+LaTeX Warning: Citation `Raynaud1974' on page 15 undefined on input line 1108.
+
+
+LaTeX Warning: Reference `eq:PVT-map' on page 15 undefined on input line 1159.
+
+[15]
+
+LaTeX Warning: Reference `eq:curve-polynomials' on page 16 undefined on input l
+ine 1204.
+
+
+LaTeX Warning: Reference `eq:test-polynomials' on page 16 undefined on input li
+ne 1205.
+
+
+LaTeX Warning: Reference `thm:main' on page 16 undefined on input line 1223.
+
+
+LaTeX Warning: Reference `eq:DS-order' on page 16 undefined on input line 1225.
+
+
+
+LaTeX Warning: Reference `eq:four-sectors' on page 16 undefined on input line 1
+226.
+
+
+LaTeX Warning: Reference `prop:rational-sector' on page 16 undefined on input l
+ine 1227.
+
+
+LaTeX Warning: Reference `prop:quadratic-sector' on page 16 undefined on input 
+line 1228.
+
+
+LaTeX Warning: Reference `prop:quartic-sector' on page 16 undefined on input li
+ne 1229.
+
+
+LaTeX Warning: Reference `prop:septic-sector' on page 16 undefined on input lin
+e 1230.
+
+[16]
+
+LaTeX Warning: Citation `PARI' on page 17 undefined on input line 1275.
+
+
+LaTeX Warning: Citation `Sage' on page 17 undefined on input line 1276.
+
+
+LaTeX Warning: Citation `Magma' on page 17 undefined on input line 1277.
+
+
+LaTeX Warning: Citation `DahmenSiksek' on page 17 undefined on input line 1285.
+
+
+[17]
+
+LaTeX Warning: Reference `app:rank-proof' on page 18 undefined on input line 13
+50.
+
+
+LaTeX Warning: Reference `prop:rational-sector' on page 18 undefined on input l
+ine 1365.
+
+
+LaTeX Warning: Reference `prop:quadratic-sector' on page 18 undefined on input 
+line 1368.
+
+
+LaTeX Warning: Reference `prop:quartic-sector' on page 18 undefined on input li
+ne 1371.
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 18 undefined on input line 13
+74.
+
+
+LaTeX Warning: Reference `app:Cplus' on page 18 undefined on input line 1374.
+
+
+LaTeX Warning: Reference `prop:septic-sector' on page 18 undefined on input lin
+e 1380.
+
+
+LaTeX Warning: Reference `thm:main' on page 18 undefined on input line 1383.
+
+[18] [19] [20]
+
+LaTeX Warning: Reference `app:p23-data' on page 21 undefined on input line 1466
+.
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 21 undefined on input line 14
+67.
+
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 21 undefined on
+ input line 1482.
+
+[21] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmtt.fd) [22{/usr/loca
+l/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 23 undefined on
+ input line 1533.
+
+[23]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 24 undefined on
+ input line 1542.
+
+[24]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 25 undefined on
+ input line 1551.
+
+[25]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 26 undefined on
+ input line 1560.
+
+[26]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 27 undefined on
+ input line 1577.
+
+[27]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 28 undefined on
+ input line 1590.
+
+[28]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 29 undefined on
+ input line 1599.
+
+[29]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 30 undefined on
+ input line 1608.
+
+[30]
+
+LaTeX Warning: Reference `tab:t-parameter-coefficients' on page 31 undefined on
+ input line 1617.
+
+[31]
+
+LaTeX Warning: Reference `eq:t-inverse-identity' on page 32 undefined on input 
+line 1643.
+
+
+LaTeX Warning: Reference `eq:section7-valuations' on page 32 undefined on input
+ line 1680.
+
+[32]
+
+LaTeX Warning: Reference `eq:siksek-dets' on page 33 undefined on input line 17
+19.
+
+(./rank-proof.tex
+
+LaTeX Warning: Reference `app:Cplus' on page 33 undefined on input line 6.
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 33 undefined on input line 13
+.
+
+
+LaTeX Warning: Reference `eq:Erelation' on page 33 undefined on input line 14.
+
+
+LaTeX Warning: Citation `BPS' on page 33 undefined on input line 48.
+
+
+LaTeX Warning: Citation `BPS' on page 33 undefined on input line 54.
+
+[33]
+
+LaTeX Warning: Reference `eq:rank-kernel-correction' on page 34 undefined on in
+put line 72.
+
+
+LaTeX Warning: Citation `BPS' on page 34 undefined on input line 73.
+
+
+LaTeX Warning: Citation `BPS' on page 34 undefined on input line 91.
+
+
+LaTeX Warning: Citation `BPS' on page 34 undefined on input line 92.
+
+
+LaTeX Warning: Citation `BPS' on page 34 undefined on input line 101.
+
+
+LaTeX Warning: Reference `lem:rank-local-completeness' on page 34 undefined on 
+input line 136.
+
+[34]
+
+LaTeX Warning: Reference `eq:rank-containing-quotient' on page 35 undefined on 
+input line 167.
+
+
+LaTeX Warning: Reference `eq:rank-kernel-correction' on page 35 undefined on in
+put line 194.
+
+
+LaTeX Warning: Reference `eq:rank-dimensions' on page 35 undefined on input lin
+e 216.
+
+
+LaTeX Warning: Reference `lem:rank-local-completeness' on page 35 undefined on 
+input line 219.
+
+[35]
+
+LaTeX Warning: Reference `lem:rank-local-completeness' on page 36 undefined on 
+input line 292.
+
+
+LaTeX Warning: Reference `eq:rank-dimensions' on page 36 undefined on input lin
+e 294.
+
+[36]
+
+LaTeX Warning: Reference `eq:rank-containing-quotient' on page 37 undefined on 
+input line 323.
+
+
+LaTeX Warning: Citation `BPS' on page 37 undefined on input line 326.
+
+
+LaTeX Warning: Citation `BPS' on page 37 undefined on input line 365.
+
+[37]
+
+LaTeX Warning: Reference `eq:Erelation' on page 38 undefined on input line 411.
+
+
+
+LaTeX Warning: Reference `thm:rational-t' on page 38 undefined on input line 42
+7.
+
+) [38] [39] (./manuscript.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `manuscript.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.
+pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7
+.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/texmf-dist/
+fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
+1/public/lm/lmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/l
+m/lmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi7.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-d
+ist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/t
+ype1/public/lm/lmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/
+lm/lmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2026/texmf-dist/fonts/
+type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt8
+.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on manuscript.pdf (39 pages, 522107 bytes).
+Transcript written on manuscript.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+entering extended mode
+(./manuscript.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/capt-of/capt-of.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./manuscript.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(./manuscript.out) (./manuscript.out)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./manuscript.toc [1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/
+pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/u
+sr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/t
+exlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026/te
+xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) [2] [3] [4] [5] [6] [7{/usr/local/
+texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [8]
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-euf.cfg) [9]
+[10] [11] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd) [12]
+[13] [14] [15] [16] [17] [18] [19] [20] [21]
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmtt.fd) [22{/usr/local/tex
+live/2026/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}] [23] [24] [25] [26]
+[27] [28] [29] [30] [31] [32] (./rank-proof.tex [33] [34] [35] [36] [37])
+[38] [39] (./manuscript.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.
+pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7
+.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/texmf-dist/
+fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
+1/public/lm/lmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/l
+m/lmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi7.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-d
+ist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/t
+ype1/public/lm/lmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/
+lm/lmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2026/texmf-dist/fonts/
+type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt8
+.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on manuscript.pdf (39 pages, 533977 bytes).
+Transcript written on manuscript.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+entering extended mode
+(./manuscript.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/capt-of/capt-of.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./manuscript.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(./manuscript.out) (./manuscript.out)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(./manuscript.toc [1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/
+pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/u
+sr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/t
+exlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026/te
+xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) [2] [3] [4] [5] [6] [7{/usr/local/
+texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [8]
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-euf.cfg) [9]
+[10] [11] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd) [12]
+[13] [14] [15] [16] [17] [18] [19] [20] [21]
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmtt.fd) [22{/usr/local/tex
+live/2026/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}] [23] [24] [25] [26]
+[27] [28] [29] [30] [31] [32] (./rank-proof.tex [33] [34] [35] [36] [37])
+[38] [39] (./manuscript.aux) )</usr/local/texlive/2026/texmf-dist/fonts/type1/p
+ublic/amsfonts/euler/eufm10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1
+/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
+1/public/lm/lmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/l
+m/lmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pf
+b></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/lo
+cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texliv
+e/2026/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2026/texmf-dist/fon
+ts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
+blic/lm/lmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr
+10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></us
+r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2026/te
+xmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2026/texmf-dist/fon
+ts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pub
+lic/lm/lmri10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lms
+y10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/te
+xlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/
+texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist
+/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msbm10.pfb>
+Output written on manuscript.pdf (39 pages, 533980 bytes).
+Transcript written on manuscript.log.
