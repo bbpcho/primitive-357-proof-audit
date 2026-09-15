@@ -83,3 +83,10 @@ not claim a fresh complete arithmetic replay, a new Magma execution,
 proof-assistant formalization, or independent human specialist review.
 
 Additional evidence: [REFERENCE_AND_RECORD_REVIEW.md](REFERENCE_AND_RECORD_REVIEW.md).
+
+The first clean-extraction check of documentation commit `276b6bd` caught
+an accidental `audit/.DS_Store` entry in the control manifest: local macOS
+metadata appeared during preparation but was not tracked in Git. The
+follow-up removes that local metadata and its manifest entry, restoring
+agreement between the manifest and the committed files. No mathematical
+file or verification condition was changed by this packaging correction.
