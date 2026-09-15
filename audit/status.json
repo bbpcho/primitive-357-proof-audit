@@ -7,7 +7,7 @@
   "proof_complete": true,
   "public_proof_release_authorized": true,
   "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
-  "github_visibility": "private",
+  "github_visibility": "public",
   "current_candidate": "First-submission manuscript by Peter Chocian, with corrected argument audit and fresh Magma addendum",
   "blocking_gate": null,
   "rank_workplan": "audit/rank-gap/gates.json",
@@ -97,5 +97,6 @@
   ],
   "verification_boundary": "The sealed 14 September inputs retain their completed integrated replay. The 15 September grouped argument audit found no remaining project-specific gap at the reviewed level; seven unchanged Magma jobs and four negative controls were run separately. Published results and mathematical software remain dependencies. No proof-assistant formalization or external human specialist review is claimed. The current paper is bound separately; it is not the unchanged manuscript named in the historical replay binding.",
   "current_paper_publication": "audit/first-submission-2026-09-15/PUBLICATION.json",
-  "computational_baseline_note": "release_tag, release_asset_id, fresh_replay and the original gates identify the unchanged sealed 14 September computational baseline. The current paper and added audit have separate identities in current_paper_publication."
+  "computational_baseline_note": "release_tag, release_asset_id, fresh_replay and the original gates identify the unchanged sealed 14 September computational baseline. The current paper and added audit have separate identities in current_paper_publication.",
+  "public_access_check": "audit/first-submission-2026-09-15/PUBLIC_ACCESS_CHECK.json"
 }
