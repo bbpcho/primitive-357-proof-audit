@@ -1,0 +1,18 @@
+{
+  "status": "PASS_ACTUAL_PARENT_PREPARER_COMPACT_FIXTURE",
+  "parent_source": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/prepare_current_binding.py",
+  "parent_source_sha256": "689b32b8d0cecb1baeaf8a5d14a2b75fdabe2eb3b1f511369dcb8a20f9ca52f9",
+  "result": {
+    "status": "PASS_CANDIDATE_CONTROL_OVERLAY",
+    "current_binding": {
+      "path": "audit/replacement-release-2026-09-15/BINDING.json",
+      "sha256": "45b606b98d0e1c2fd0d1d4335b1b71a060abfb24f404bf5151366c00b23e7ed2",
+      "bytes": 6517
+    },
+    "logs_copied": 99,
+    "archive_payloads_checked": true
+  },
+  "nested_output_rejected_before_creation": true,
+  "fixture_only": true,
+  "public_status_or_original_inputs_modified": false
+}

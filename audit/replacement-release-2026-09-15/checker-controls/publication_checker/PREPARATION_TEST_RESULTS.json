@@ -1,0 +1,647 @@
+{
+  "status": "PASS_SYNTHETIC_PUBLICATION_STAGING_CONTROLS",
+  "synthetic_fixtures_not_live_observations": true,
+  "cases": 80,
+  "results": [
+    {
+      "case": "valid_five_observations_select_three",
+      "python_mode": "normal",
+      "expected_success": true,
+      "exit_code": 0,
+      "passed": true,
+      "diagnostic": ""
+    },
+    {
+      "case": "archive_not_final",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong final companion"
+    },
+    {
+      "case": "paper_for_other_companion",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "visual_review_pending",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "canonical_tex_changed",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Canonical paper differs from actual build"
+    },
+    {
+      "case": "rehashed_wrong_zip_member",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP member identity mismatch"
+    },
+    {
+      "case": "rehashed_missing_zip_member",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP exact member coverage"
+    },
+    {
+      "case": "rehashed_duplicate_zip_member",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP exact member coverage"
+    },
+    {
+      "case": "rehashed_symlink_zip_member",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP exact member coverage"
+    },
+    {
+      "case": "not_public_repository",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong or nonpublic observed release"
+    },
+    {
+      "case": "authenticated_downloads",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong or nonpublic observed release"
+    },
+    {
+      "case": "missing_fifth_role",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Observation must contain exactly five asset roles"
+    },
+    {
+      "case": "duplicate_download_role",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Missing or duplicate role"
+    },
+    {
+      "case": "failed_download",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong downloaded asset: companion"
+    },
+    {
+      "case": "bool_release_id",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Invalid release ID"
+    },
+    {
+      "case": "wrong_release_id",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Release API mismatch"
+    },
+    {
+      "case": "wrong_download_asset_id",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: API/download identity mismatch: companion"
+    },
+    {
+      "case": "duplicate_api_asset_id",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Duplicate API asset ID"
+    },
+    {
+      "case": "wrong_api_digest",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: API/download identity mismatch: companion"
+    },
+    {
+      "case": "wrong_tag_commit",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Tag commit observation mismatch"
+    },
+    {
+      "case": "wrong_tag_ref",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong tag reference"
+    },
+    {
+      "case": "draft_api",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Release API mismatch"
+    },
+    {
+      "case": "download_precedes_publication",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Downloads precede publication"
+    },
+    {
+      "case": "naive_timestamp",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Timestamp lacks timezone"
+    },
+    {
+      "case": "missing_withdrawal",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal must cover exactly the two old assets"
+    },
+    {
+      "case": "withdrawal_api_still_public",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal endpoint is not observed HTTP 404"
+    },
+    {
+      "case": "withdrawal_download_still_public",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal endpoint is not observed HTTP 404"
+    },
+    {
+      "case": "wrong_withdrawn_hash",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawn historical identity mismatch"
+    },
+    {
+      "case": "wrong_withdrawal_endpoint",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong withdrawal endpoint"
+    },
+    {
+      "case": "withdrawal_before_new_publication",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal observation precedes completed replacement download checks"
+    },
+    {
+      "case": "withdrawal_before_download_checks",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal observation precedes completed replacement download checks"
+    },
+    {
+      "case": "withdrawal_example_rejected",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Example is not withdrawal evidence"
+    },
+    {
+      "case": "arxiv_submission_claim",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "missing_dahmen_hold",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "duplicate_json_key",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Duplicate JSON key: draft"
+    },
+    {
+      "case": "missing_downloaded_bytes",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Missing regular file: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/publication-preparation-tests-1mbjcqeu/normal-missing_downloaded_bytes/downloads/FINAL_COMPANION_REPLAY_GUIDE.md"
+    },
+    {
+      "case": "changed_api_record_bytes",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: File identity mismatch: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/publication-preparation-tests-1mbjcqeu/normal-changed_api_record_bytes/downloads/REPOSITORY_API.json"
+    },
+    {
+      "case": "symlink_downloaded_file",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Symlink path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/publication-preparation-tests-1mbjcqeu/normal-symlink_downloaded_file/downloads/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf"
+    },
+    {
+      "case": "overlay_arxiv_ready_claim",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Overlay makes unsupported arXiv claim"
+    },
+    {
+      "case": "existing_output_refused",
+      "python_mode": "normal",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Output root must be new"
+    },
+    {
+      "case": "valid_five_observations_select_three",
+      "python_mode": "-O",
+      "expected_success": true,
+      "exit_code": 0,
+      "passed": true,
+      "diagnostic": ""
+    },
+    {
+      "case": "archive_not_final",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong final companion"
+    },
+    {
+      "case": "paper_for_other_companion",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "visual_review_pending",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "canonical_tex_changed",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Canonical paper differs from actual build"
+    },
+    {
+      "case": "rehashed_wrong_zip_member",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP member identity mismatch"
+    },
+    {
+      "case": "rehashed_missing_zip_member",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP exact member coverage"
+    },
+    {
+      "case": "rehashed_duplicate_zip_member",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP exact member coverage"
+    },
+    {
+      "case": "rehashed_symlink_zip_member",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Source ZIP exact member coverage"
+    },
+    {
+      "case": "not_public_repository",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong or nonpublic observed release"
+    },
+    {
+      "case": "authenticated_downloads",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong or nonpublic observed release"
+    },
+    {
+      "case": "missing_fifth_role",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Observation must contain exactly five asset roles"
+    },
+    {
+      "case": "duplicate_download_role",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Missing or duplicate role"
+    },
+    {
+      "case": "failed_download",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong downloaded asset: companion"
+    },
+    {
+      "case": "bool_release_id",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Invalid release ID"
+    },
+    {
+      "case": "wrong_release_id",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Release API mismatch"
+    },
+    {
+      "case": "wrong_download_asset_id",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: API/download identity mismatch: companion"
+    },
+    {
+      "case": "duplicate_api_asset_id",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Duplicate API asset ID"
+    },
+    {
+      "case": "wrong_api_digest",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: API/download identity mismatch: companion"
+    },
+    {
+      "case": "wrong_tag_commit",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Tag commit observation mismatch"
+    },
+    {
+      "case": "wrong_tag_ref",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong tag reference"
+    },
+    {
+      "case": "draft_api",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Release API mismatch"
+    },
+    {
+      "case": "download_precedes_publication",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Downloads precede publication"
+    },
+    {
+      "case": "naive_timestamp",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Timestamp lacks timezone"
+    },
+    {
+      "case": "missing_withdrawal",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal must cover exactly the two old assets"
+    },
+    {
+      "case": "withdrawal_api_still_public",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal endpoint is not observed HTTP 404"
+    },
+    {
+      "case": "withdrawal_download_still_public",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal endpoint is not observed HTTP 404"
+    },
+    {
+      "case": "wrong_withdrawn_hash",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawn historical identity mismatch"
+    },
+    {
+      "case": "wrong_withdrawal_endpoint",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Wrong withdrawal endpoint"
+    },
+    {
+      "case": "withdrawal_before_new_publication",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal observation precedes completed replacement download checks"
+    },
+    {
+      "case": "withdrawal_before_download_checks",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Withdrawal observation precedes completed replacement download checks"
+    },
+    {
+      "case": "withdrawal_example_rejected",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Example is not withdrawal evidence"
+    },
+    {
+      "case": "arxiv_submission_claim",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "missing_dahmen_hold",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Final paper build does not match the sealed companion or submission state"
+    },
+    {
+      "case": "duplicate_json_key",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Duplicate JSON key: draft"
+    },
+    {
+      "case": "missing_downloaded_bytes",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Missing regular file: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/publication-preparation-tests-1mbjcqeu/optimized-missing_downloaded_bytes/downloads/FINAL_COMPANION_REPLAY_GUIDE.md"
+    },
+    {
+      "case": "changed_api_record_bytes",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: File identity mismatch: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/publication-preparation-tests-1mbjcqeu/optimized-changed_api_record_bytes/downloads/REPOSITORY_API.json"
+    },
+    {
+      "case": "symlink_downloaded_file",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Symlink path: /private/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/publication-preparation-tests-1mbjcqeu/optimized-symlink_downloaded_file/downloads/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf"
+    },
+    {
+      "case": "overlay_arxiv_ready_claim",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Overlay makes unsupported arXiv claim"
+    },
+    {
+      "case": "existing_output_refused",
+      "python_mode": "-O",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "ValueError: Output root must be new"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "closed_interval_rows": 52583,
+  "exact_discriminant_polynomials": 279,
+  "field_isomorphism_classes": 19,
+  "lagrange_bound_comparisons": 3266460,
+  "new_endpoint_rows": 1,
+  "new_row_field_check": {
+    "field_discriminant": -72788443565395359375,
+    "field_to_target_ratio": 3421899009,
+    "irreducible": 1,
+    "polynomial_discriminant": "-383378551970026492712109375",
+    "reduced_polynomial": "x^7 - x^6 - 6*x^5 + 55*x^4 + 50*x^3 + 510*x^2 + 1240*x + 1085",
+    "target_discriminant": -21271359375
+  },
+  "predecessor_half_open_rows": 52582,
+  "proof_safe_case467_rows": 3623,
+  "status": "PASS_HUNTER_CLOSED_INTERVAL_AND_DIRECTED_BOUND_COMPLETENESS_REPAIR_V2",
+  "ubsan_endpoint_prefix_cases": 12
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_SUPPORT_SET_COMPARISONS_WITH_REPORTED_TOTAL_ERRATUM",
+  "scope": "Read-only identities, independent input-table row count and exact completed comparisons, not another enumeration or formal verification",
+  "result_sha256": "f7695254dd72a9cc0b888495e0eb49de79a470ee894e010450d8f53f35872138",
+  "log_sha256": "42e3e79ad86d791c55480f0b1a7d83d3cfbb91f01f79d9cf6eb0c7162dceffdd",
+  "source_sha256": "d811a3e74596265b6f9b8302f5978d7a8d6ed93904ead23093eb208fb8a09d0a",
+  "profile_sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef",
+  "counts": {
+    "p2e0mod8": 199728,
+    "p3e2mod9": 3942,
+    "p3e4mod9": 15426,
+    "p3e6mod9": 17766,
+    "p5e4mod5": 155,
+    "p5e6mod5": 25,
+    "p7e5mod7": 133,
+    "p7e7mod7": 7
+  },
+  "actual_total_rows": 237182,
+  "legacy_printed_total_rows": 236182,
+  "reported_total_error": 1000,
+  "erratum": "The source print, sealed ledger/certificate and uncorrected supervisor summary say 236182. The eight authenticated table counts sum to 237182. All eight generated set comparisons passed; the correction does not alter a support or an enumeration. Raw records remain unchanged.",
+  "elapsed_seconds": 16.170381,
+  "failed_attempt_preserved": true,
+  "main_suite_coverage_unchanged": "13 sectors / 65 prior jobs / 16 rank jobs / 5 producer joins"
+}

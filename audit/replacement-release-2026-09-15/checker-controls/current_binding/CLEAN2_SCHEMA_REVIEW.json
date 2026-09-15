@@ -1,0 +1,57 @@
+{
+  "status": "PASS_CLEAN2_BINDING_SCHEMA_REVIEW",
+  "scope": "Record/schema compatibility and compact controls; no claim that CLEAN2 complete replay has passed",
+  "active_driver_schema": "primitive357-isolated-driver-v1",
+  "active_record_paths": {
+    "isolated_driver": "records/completed-replay/isolation/CLEAN2_ISOLATED_DRIVER.json",
+    "isolation_profile": "records/completed-replay/isolation/clean2_offline.sb",
+    "isolation_probes": "records/completed-replay/isolation/CLEAN2_PROBE_RESULTS.json"
+  },
+  "actual_preflight": {
+    "status": "PASS_OFFLINE_ISOLATION_PROBES",
+    "checks": 28,
+    "all_passed": true
+  },
+  "failed_clean1": {
+    "status": "FAILED_ISOLATED_DRIVER",
+    "preserved_prefix": "records/completed-replay/earlier-incomplete-run/",
+    "not_used_as_active_driver": true
+  },
+  "evidence": [
+    {
+      "path": "prepare_current_binding.py",
+      "bytes": 4980,
+      "sha256": "689b32b8d0cecb1baeaf8a5d14a2b75fdabe2eb3b1f511369dcb8a20f9ca52f9"
+    },
+    {
+      "path": "launch_clean2.py",
+      "bytes": 2867,
+      "sha256": "7c0d5e24f5e424ea04406e0a8a944cebacad14d38afd40c5daffc9c984980aef"
+    },
+    {
+      "path": "replay_design/isolation_clean2/clean2_offline.sb",
+      "bytes": 3330,
+      "sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef"
+    },
+    {
+      "path": "replay_design/isolation_clean2/CLEAN2_PROBE_RUN.json",
+      "bytes": 1608,
+      "sha256": "6b76c505edd4abf0d189b2d4aa3c00620412830cb923b62d7ee61fa014df4482"
+    },
+    {
+      "path": "clean2/runtime-tmp/preflight/PROBE_RESULTS.json",
+      "bytes": 7210,
+      "sha256": "9459374c2abb8a01068a9d87199aa6a60ecf87baa60873a40d2f4301ddeed3aa"
+    },
+    {
+      "path": "CLEAN1_ISOLATED_DRIVER.json",
+      "bytes": 2943,
+      "sha256": "0503495c5fd55a271f01ed5736fd67fbc2b30ed804d40b812ce2428d06297d33"
+    },
+    {
+      "path": "finalize_companion.py",
+      "bytes": 12180,
+      "sha256": "1d459fa972c0fdeea475df0c1582f4af304f21759ec64af8af1a8894a8488492"
+    }
+  ]
+}

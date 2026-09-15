@@ -1,0 +1,93 @@
+{
+  "schema": "primitive357_current_paper_revision_v1",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "companion_binding": {
+    "path": "audit/replacement-release-2026-09-15/BINDING.json",
+    "bytes": 6659,
+    "sha256": "84e2d9f4e560cccc710c90ed86a68cff55c2ca77ed8778d6f706f1f999422a63"
+  },
+  "paper_files": {
+    "manuscript.tex": {
+      "path": "paper/manuscript.tex",
+      "bytes": 88805,
+      "sha256": "14e9d83527b01cb4c9bca9b7406024f549264cffb9b116e5e6e53f5a99f72f26"
+    },
+    "rank-proof.tex": {
+      "path": "paper/rank-proof.tex",
+      "bytes": 21502,
+      "sha256": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8"
+    },
+    "manuscript.pdf": {
+      "path": "paper/manuscript.pdf",
+      "bytes": 541652,
+      "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407"
+    }
+  },
+  "source_bundle": {
+    "archive": {
+      "path": "release/PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "bytes": 41982,
+      "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548"
+    },
+    "members": [
+      {
+        "path": "manuscript.tex",
+        "repository_path": "paper/manuscript.tex",
+        "bytes": 88805,
+        "sha256": "14e9d83527b01cb4c9bca9b7406024f549264cffb9b116e5e6e53f5a99f72f26"
+      },
+      {
+        "path": "rank-proof.tex",
+        "repository_path": "paper/rank-proof.tex",
+        "bytes": 21502,
+        "sha256": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8"
+      }
+    ]
+  },
+  "assets": {
+    "paper_pdf": {
+      "name": "primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "bytes": 541652,
+      "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf"
+    },
+    "source_zip": {
+      "name": "PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "bytes": 41982,
+      "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip"
+    },
+    "companion": {
+      "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "bytes": 320731221,
+      "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip"
+    }
+  },
+  "submission": {
+    "arxiv_submission_made": false,
+    "arxiv_submission_ready": false,
+    "dahmen_reply_pending": true,
+    "holds": [
+      "Requested Dahmen reply pending"
+    ]
+  },
+  "preparation_input_identities": {
+    "final_archive_identity": {
+      "bytes": 814,
+      "sha256": "9bfbef9fb8b240029994cd5cc3db93d7da101f58e0b6aecc7a1315a3ed0b4abd"
+    },
+    "paper_build": {
+      "bytes": 2285,
+      "sha256": "4d5dde05cb1220bfdfd4d512b06808dc8c4f16726ae14c36b8c70094ce7d13f6"
+    },
+    "public_download_observation": {
+      "bytes": 3039,
+      "sha256": "5cdae351488464228ccf3f968c98b97f20817d32689bc0b0f99853e49bf49343"
+    },
+    "withdrawal_observation": {
+      "bytes": 2750,
+      "sha256": "7b30003b5c700cf15971c457f392acdc7b9995c2fbd28b451b9ff24a2947511d"
+    }
+  }
+}

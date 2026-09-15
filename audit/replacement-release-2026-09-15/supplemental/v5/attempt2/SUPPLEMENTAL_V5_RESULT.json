@@ -1,0 +1,81 @@
+{
+  "schema": "primitive357_supplemental_v5_replay_v1",
+  "status": "PASS_FRESH_ISOLATED_SUPPLEMENTAL_V5",
+  "started_utc": "2026-09-15T15:36:42.267249+00:00",
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/replay_design/isolation_clean2/clean2_offline.sb",
+    "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-B",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/scripts/verify_putz_hunter_local_tschirnhaus_support_v5.py"
+  ],
+  "cwd": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2",
+  "environment": {
+    "PATH": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2/bin:/Library/Developer/CommandLineTools/usr/bin:/usr/bin:/bin:/sbin:/usr/sbin:/opt/homebrew/bin",
+    "DEVELOPER_DIR": "/Library/Developer/CommandLineTools",
+    "SDKROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+    "HOME": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2/home",
+    "TMPDIR": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2",
+    "XDG_CACHE_HOME": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2/xdg-cache",
+    "CLANG_MODULE_CACHE_PATH": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2/clang-cache",
+    "PYTHONPATH": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/runtime_deps",
+    "PYTHONOPTIMIZE": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONINTMAXSTRDIGITS": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "PRIMITIVE357_EXTERNAL_INPUTS": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/private"
+  },
+  "source_sha256": "d811a3e74596265b6f9b8302f5978d7a8d6ed93904ead23093eb208fb8a09d0a",
+  "profile_sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef",
+  "supervisor_sha256": "157f5821a93fb1edd3d25659cfca5b85f371be5e81c023f44532f15ba95ada6a",
+  "compiler_dispatch": {
+    "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v5_attempt2/bin/g++",
+    "target": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+    "resolved_target": "/Library/Developer/CommandLineTools/usr/bin/clang",
+    "sha256": "1590ac950a3d627817d09ade5cb60b2115f17a72182a3141e010b4bcc482a0c9"
+  },
+  "before": {
+    "distribution_manifest_sha256": "f64c38fd747a54ae7a7928b6a8fdbe96ec5ff4b785a7dabd1f8413fd73ec6e99",
+    "logical_manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9",
+    "logical_map_sha256": "3e238f165f22d22981ecb49b3f718b6b4091a3dc9663d18b4708eacdaa76f0d6",
+    "external_lock_sha256": "478111f48b7a28ad4f184e8182c257b80c6daa5e408072519ea4e8c4571439fe",
+    "private_identity_sha256": "ea8ca5d572a11b391ec71e1f4f34ec9fd82be61b5fa38dd874075e3f82f59117",
+    "logical_files": 2128,
+    "private_files": 73
+  },
+  "scope": "Direct unchanged V5 local Tschirnhaus support reconstruction under the existing clean2 boundary. Separately observed supplement; not an extra main13/65/16/5 job and not V15 --full or Hunter V7 --full.",
+  "exit_code": 0,
+  "elapsed_seconds": 16.170381,
+  "after": {
+    "distribution_manifest_sha256": "f64c38fd747a54ae7a7928b6a8fdbe96ec5ff4b785a7dabd1f8413fd73ec6e99",
+    "logical_manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9",
+    "logical_map_sha256": "3e238f165f22d22981ecb49b3f718b6b4091a3dc9663d18b4708eacdaa76f0d6",
+    "external_lock_sha256": "478111f48b7a28ad4f184e8182c257b80c6daa5e408072519ea4e8c4571439fe",
+    "private_identity_sha256": "ea8ca5d572a11b391ec71e1f4f34ec9fd82be61b5fa38dd874075e3f82f59117",
+    "logical_files": 2128,
+    "private_files": 73
+  },
+  "required_exact_marker": "PASS_PUTZ_HUNTER_LOCAL_TSCHIRNHAUS_SUPPORT_V5",
+  "marker_count": 1,
+  "all_input_bytes_unchanged": true,
+  "conclusions": {
+    "local_representatives": [
+      2,
+      8,
+      6,
+      10
+    ],
+    "support_rows": 236182,
+    "missing_rows": 0,
+    "extra_rows": 0
+  },
+  "finished_utc": "2026-09-15T15:36:59.994281+00:00",
+  "log": {
+    "path": "V5.log",
+    "bytes": 487,
+    "sha256": "42e3e79ad86d791c55480f0b1a7d83d3cfbb91f01f79d9cf6eb0c7162dceffdd"
+  }
+}

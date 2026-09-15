@@ -1,0 +1,77 @@
+{
+  "schema": "primitive357_publication_record_preparation_v1",
+  "status": "PASS_STAGED_PUBLICATION_RECORDS",
+  "publication_check": {
+    "status": "PASS_CURRENT_PUBLICATION_OFFLINE_BINDING",
+    "release_tag": "replay-companion-2026-09-15.2",
+    "paper_files": 3,
+    "source_zip_members": 2,
+    "public_assets": 3,
+    "arxiv_submission_made": false,
+    "arxiv_submission_ready": false,
+    "submission_holds": [
+      "Requested Dahmen reply pending"
+    ],
+    "network_requests_made": false,
+    "companion_archive_bytes_checked": true,
+    "boundary": "Authenticates actual local paper/source ZIP and saved publication/download records. Public access was observed at the recorded time; this checker makes no network request, mathematical replay, peer-review or arXiv-submission claim."
+  },
+  "input_identities": {
+    "final_archive_identity": {
+      "bytes": 814,
+      "sha256": "9bfbef9fb8b240029994cd5cc3db93d7da101f58e0b6aecc7a1315a3ed0b4abd"
+    },
+    "paper_build": {
+      "bytes": 2285,
+      "sha256": "4d5dde05cb1220bfdfd4d512b06808dc8c4f16726ae14c36b8c70094ce7d13f6"
+    },
+    "public_download_observation": {
+      "bytes": 3039,
+      "sha256": "5cdae351488464228ccf3f968c98b97f20817d32689bc0b0f99853e49bf49343"
+    },
+    "withdrawal_observation": {
+      "bytes": 2750,
+      "sha256": "7b30003b5c700cf15971c457f392acdc7b9995c2fbd28b451b9ff24a2947511d"
+    }
+  },
+  "verified_download_roles": [
+    "companion",
+    "paper_pdf",
+    "source_zip",
+    "replay_guide",
+    "checksums"
+  ],
+  "publication_roles": [
+    "paper_pdf",
+    "source_zip",
+    "companion"
+  ],
+  "withdrawal_asset_ids": [
+    561595084,
+    561674379
+  ],
+  "record_rows": {
+    "state": "published",
+    "paper_revision": {
+      "path": "audit/replacement-release-2026-09-15/PAPER_REVISION.json",
+      "bytes": 3430,
+      "sha256": "cfde0bedece312f69f0ca4ccbf27499e0e01fc14bc025d532158781febcb9f7c"
+    },
+    "publication": {
+      "path": "audit/replacement-release-2026-09-15/PUBLICATION.json",
+      "bytes": 1699,
+      "sha256": "bd1dea7a330c4025d58a9b6935dd2c32f250b75899e4dd47052d6c6b427b4a3d"
+    },
+    "public_access": {
+      "path": "audit/replacement-release-2026-09-15/PUBLIC_ACCESS_CHECK.json",
+      "bytes": 1675,
+      "sha256": "0f3c81e8119030afd67d6589182beab6e88fd5edd7b8aa18a5440403d4c1e896"
+    }
+  },
+  "network_requests_made": false,
+  "repository_modified": false,
+  "github_modified": false,
+  "arxiv_submission_made": false,
+  "arxiv_submission_ready": false,
+  "boundary": "Offline authentication of supplied actual observations and local bytes; no new live observations are manufactured."
+}

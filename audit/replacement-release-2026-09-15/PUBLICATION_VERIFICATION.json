@@ -1,0 +1,15 @@
+{
+  "status": "PASS_CURRENT_PUBLICATION_OFFLINE_BINDING",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "paper_files": 3,
+  "source_zip_members": 2,
+  "public_assets": 3,
+  "arxiv_submission_made": false,
+  "arxiv_submission_ready": false,
+  "submission_holds": [
+    "Requested Dahmen reply pending"
+  ],
+  "network_requests_made": false,
+  "companion_archive_bytes_checked": true,
+  "boundary": "Authenticates actual local paper/source ZIP and saved publication/download records. Public access was observed at the recorded time; this checker makes no network request, mathematical replay, peer-review or arXiv-submission claim."
+}

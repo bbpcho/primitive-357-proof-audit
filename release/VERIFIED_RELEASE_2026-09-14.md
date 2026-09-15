@@ -1,6 +1,6 @@
 # Verified release — 14 September 2026
 
-**Distribution update (15 September 2026):** the two large companion/source-data release assets were withdrawn to remove the unlicensed Dahmen–Siksek PDF. The mathematical and replay descriptions below retain their historical scope; they do not assert current public availability of the full archive. A complete replacement companion is pending. See [the current availability notice](../README.md#current-availability).
+**Historical release; replacement available.** The large source-data and companion downloads were withdrawn on 15 September 2026 to remove the unlicensed Dahmen–Siksek PDF. The descriptions below concern the original 14 September release. The current package is [`replay-companion-2026-09-15.2`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2), with a separately bound fresh complete replay and authenticated external inputs. See the [replacement audit](../audit/replacement-release-2026-09-15/README.md) and [current programs guide](PROGRAMS_AND_CERTIFICATES.md).
 
 Tag: `verified-2026-09-14.1`
 

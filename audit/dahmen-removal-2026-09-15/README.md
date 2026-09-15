@@ -1,3 +1,5 @@
+> **Later update (2026-09-15):** this is the historical event record. The [current replacement audit](../replacement-release-2026-09-15/README.md) records the published replacement, completed public-download checks and later p=5/rank withdrawals. The original event text below is retained unchanged.
+
 # Withdrawal of the Dahmen–Siksek paper copies
 
 On 15 September 2026 the author requested removal of the Dahmen–Siksek working paper from earlier public distributions because redistribution permission had not been obtained.

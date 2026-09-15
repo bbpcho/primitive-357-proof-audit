@@ -44,3 +44,9 @@ The newly supplied rank dependencies and adopted independent replacements close 
 The manuscript distinguishes H0 from H1: odd index concerns H0, whereas index coprime to 400 and finite-sieve coverage concern the E-enlarged H1. The correction notice preserves the preceding sealed audit identity.
 
 The user authorized a newly verified release and GitHub changes. The new tag is `verified-2026-09-14.1`. Its publication-ready machine status requires the fresh integrated replay and the exact sealed asset bindings; historical PASS summaries alone do not satisfy that requirement. The stated published and Magma premises remain explicit.
+
+## 2026-09-15 — Publish the externally acquired-input replacement
+
+The replacement `replay-companion-2026-09-15.2` was published and its five public assets were downloaded without authentication and checked against the sealed identities. The p=5 and rank downloads containing the BPS paper were withdrawn afterward, with both old API and download endpoints observed as HTTP 404. Their original byte identities remain in the ledger.
+
+The main 13/65/16/5 replay and five separate default-reader checks retain distinct scope. The V5 reporting aggregate is corrected to 237,182 without changing the eight exact support tables. Seven prior Magma executions and the cited mathematical/software premises remain explicit. The release tag identifies prepared snapshot A; these observed postpublication records belong to the main-branch follow-up B. No arXiv submission has been made; Dahmen's requested reply remains the hold.

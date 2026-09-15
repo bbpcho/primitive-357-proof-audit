@@ -1,0 +1,30 @@
+{
+  "schema": "primitive357_publication_checker_artifacts_v1",
+  "files": [
+    {
+      "path": "CONTRACT.md",
+      "bytes": 7274,
+      "sha256": "4dd127e56081885a1bc8ce35dc8279f0daf17b5cac6d56c125cedcba2b18fd51"
+    },
+    {
+      "path": "TEST_RESULTS.json",
+      "bytes": 2910,
+      "sha256": "d3d101552e594f0a8877d18cbd4a766ed9edf81680888605952a961ab9866417"
+    },
+    {
+      "path": "TEST_RESULTS.log",
+      "bytes": 2405,
+      "sha256": "59be03faac8e7a5edf1880030e062dd48ba11223b7b46c47a4c79211052493a4"
+    },
+    {
+      "path": "test_current_publication.py",
+      "bytes": 8765,
+      "sha256": "462312b438a54b2abdd758294d7648ca416c4d02c94a4a0332a2deca9143d7e8"
+    },
+    {
+      "path": "verify_current_publication.py",
+      "bytes": 8935,
+      "sha256": "590e35b0d1296cfcab6568ce0292aede0abf9d346c8079989071b7ebe911dcab"
+    }
+  ]
+}

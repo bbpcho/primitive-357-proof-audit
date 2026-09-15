@@ -1,0 +1,37 @@
+{
+  "schema": "primitive357_release_asset_set_v1",
+  "status": "PASS_EXACT_LOCAL_RELEASE_ASSETS",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "assets": [
+    {
+      "role": "companion",
+      "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "bytes": 320731221,
+      "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85"
+    },
+    {
+      "role": "paper_pdf",
+      "name": "primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "bytes": 541652,
+      "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407"
+    },
+    {
+      "role": "source_zip",
+      "name": "PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "bytes": 41982,
+      "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548"
+    },
+    {
+      "role": "replay_guide",
+      "name": "FINAL_COMPANION_REPLAY_GUIDE.md",
+      "bytes": 15717,
+      "sha256": "e840ecf5816cf128d86c97f0824a8ed834c71d01423cc5fa7bc8b233ffc7aa05"
+    },
+    {
+      "role": "checksums",
+      "name": "SHA256SUMS.txt",
+      "bytes": 447,
+      "sha256": "35146f5c910b31d259546026da2ad9f86178bc2b8056f92723cf86b605aff8c1"
+    }
+  ]
+}

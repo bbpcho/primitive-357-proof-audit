@@ -1,3 +1,5 @@
+> **Later update (2026-09-15):** this is the historical event record. The [current replacement audit](../replacement-release-2026-09-15/README.md) records the published replacement, completed public-download checks and later p=5/rank withdrawals. The original event text below is retained unchanged.
+
 # First-submission publication record — 15 September 2026
 
 The canonical paper is [paper/manuscript.pdf](../../paper/manuscript.pdf). PUBLICATION.json binds its PDF and two LaTeX files to the three separately downloadable release assets. SHA256SUMS.txt lists those assets.

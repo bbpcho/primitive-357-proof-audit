@@ -1,3 +1,5 @@
+> **Later update (2026-09-15):** this is the historical event record. The [current replacement audit](../replacement-release-2026-09-15/README.md) records the published replacement, completed public-download checks and later p=5/rank withdrawals. The original event text below is retained unchanged.
+
 # Reviewer corrections and author licensing — 15 September 2026
 
 This is the latest pre-submission paper revision by **Peter Chocian, Independent researcher**. It remains a proposed first submission; no arXiv submission has been made.

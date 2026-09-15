@@ -1,0 +1,25 @@
+{
+  "status": "PASS_CURRENT_BINDING_HELPER_CONTROLS",
+  "checks": [
+    {
+      "log": "TEST_RESULTS.log",
+      "tests": 33,
+      "passed": true,
+      "optimized": false
+    },
+    {
+      "log": "TEST_RESULTS_OPTIMIZED.log",
+      "tests": 33,
+      "passed": true,
+      "optimized": true
+    }
+  ],
+  "actual_withdrawn_control_snapshot": {
+    "status": "CURRENT_DISTRIBUTION_NOT_VERIFIED",
+    "state": "full_companion_withdrawn"
+  },
+  "current_complete_replay_binding": "NOT_CREATED: actual full replay and final archive identities are still parent-owned/pending",
+  "no_control_repository_edits": true,
+  "actual_parent_preparer_compact_fixture": "PASS: all archive payloads checked; nested output rejected before creation",
+  "clean2_schema_review": "PASS: actual 28-check preflight supported; full CLEAN2 completion not claimed"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "primitive357_current_public_access_v1",
+  "repository": "https://github.com/bbpcho/primitive-357-proof-audit",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "release_id": 389233177,
+  "draft": false,
+  "checked_utc": "2026-09-15T19:52:12.945161+00:00",
+  "unauthenticated_request": true,
+  "repository_visibility": "public",
+  "downloads": [
+    {
+      "name": "primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "bytes": 541652,
+      "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "role": "paper_pdf",
+      "asset_id": 566037085,
+      "http_status": 200
+    },
+    {
+      "name": "PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "bytes": 41982,
+      "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "role": "source_zip",
+      "asset_id": 566037400,
+      "http_status": 200
+    },
+    {
+      "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "bytes": 320731221,
+      "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "role": "companion",
+      "asset_id": 566069480,
+      "http_status": 200
+    }
+  ]
+}

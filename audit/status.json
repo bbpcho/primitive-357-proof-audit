@@ -8,7 +8,7 @@
   "public_proof_release_authorized": true,
   "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
   "github_visibility": "public",
-  "current_candidate": "Rebuilt manuscript and sealed replacement companion; release publication pending",
+  "current_candidate": "Current first-submission manuscript and published replacement companion with a fresh complete isolated replay",
   "blocking_gate": null,
   "rank_workplan": "audit/rank-gap/gates.json",
   "fresh_replay": {
@@ -95,16 +95,15 @@
       "evidence": "audit/verified-2026-09-14/REPLAY_BINDING.json"
     }
   ],
-  "verification_boundary": "The replacement completed the declared isolated 13-sector / 65-prior-job / 16-rank-job / five-producer-join replay and five separately recorded default adapted-reader checks. Its final ZIP was freshly extracted and all replay inputs matched the tested inputs exactly. Publication has not yet been observed in this snapshot. Seven earlier Magma jobs, the cited literature and mathematical software remain premises. No proof-assistant formalization or external human peer review is claimed.",
-  "current_paper_publication": null,
-  "computational_baseline_note": "release_tag, release_asset_id, fresh_replay and the original gates identify the unchanged sealed 14 September computational baseline. The current paper and added audit have separate identities in current_paper_publication. The local pre-submission revision is bound separately in current_paper_revision; submission-readiness fields concern this revision, not the historical computational gate state.",
-  "public_access_check": null,
-  "current_release_publication_verification": null,
-  "current_paper_revision": "audit/replacement-release-2026-09-15/PREPUBLICATION_PREPARATION.json",
+  "verification_boundary": "The current replacement has a bound fresh isolated 13-sector/interface, 65-prior-job, 16-rank-local-check replay with five fresh input joins. The main irreducible-sector mode is DEEP_REPLAY=0; five default adapted-reader checks passed separately. V5 has eight exact support-table equalities totaling 237182 rows; the historical aggregate 236182 is corrected by an explicit erratum. Seven earlier Magma executions and four controls are carried records, not jobs rerun by this suite. Cited mathematical results and software remain premises. No proof-assistant formalization or external human peer review is claimed.",
+  "current_paper_publication": "audit/replacement-release-2026-09-15/PUBLICATION.json",
+  "computational_baseline_note": "The legacy top-level release_tag, release_asset_id, release_state, fresh_replay and original gates retain the unchanged 14 September historical binding. The current replacement and its later public observations are authenticated by current_distribution and current_publication. The release tag identifies the preparation snapshot; postpublication records are a main-branch follow-up.",
+  "public_access_check": "audit/replacement-release-2026-09-15/PUBLIC_ACCESS_CHECK.json",
+  "current_release_publication_verification": "audit/replacement-release-2026-09-15/PUBLICATION_VERIFICATION.json",
+  "current_paper_revision": "audit/replacement-release-2026-09-15/PAPER_REVISION.json",
   "arxiv_submission_ready": false,
   "arxiv_submission_holds": [
-    "Requested Dahmen reply pending",
-    "Replacement publication, public download checks and older BPS-containing asset withdrawals pending"
+    "Requested Dahmen reply pending"
   ],
   "author_licensing": {
     "adopted": true,
@@ -114,11 +113,18 @@
     "author_authorization": "Author delegated the choice after the proposed licences and commercial-reuse impact were explained."
   },
   "current_distribution": {
-    "state": "full_companion_withdrawn",
-    "record": "audit/dahmen-removal-2026-09-15/WITHDRAWAL.json",
-    "public_complete_replay_inputs_available": false,
+    "state": "verified_externalized_replay",
+    "public_complete_replay_inputs_available": true,
+    "replacement_complete_companion_published": true,
     "original_mathematical_replay_status_unchanged": true,
-    "replacement_complete_companion_published": false
+    "binding": {
+      "path": "audit/replacement-release-2026-09-15/BINDING.json",
+      "bytes": 6659,
+      "sha256": "84e2d9f4e560cccc710c90ed86a68cff55c2ca77ed8778d6f706f1f999422a63"
+    },
+    "acquisition_required": true,
+    "public_inputs_scope": "Public companion plus the pinned externally acquired/private inputs; required licensed retained material is bundled.",
+    "withdrawal_record": "audit/replacement-release-2026-09-15/OLD_ASSET_WITHDRAWAL_OBSERVATION.json"
   },
   "historical_publications": [
     {
@@ -132,7 +138,28 @@
     }
   ],
   "current_publication": {
-    "state": "pending"
+    "state": "published",
+    "paper_revision": {
+      "path": "audit/replacement-release-2026-09-15/PAPER_REVISION.json",
+      "bytes": 3430,
+      "sha256": "cfde0bedece312f69f0ca4ccbf27499e0e01fc14bc025d532158781febcb9f7c"
+    },
+    "publication": {
+      "path": "audit/replacement-release-2026-09-15/PUBLICATION.json",
+      "bytes": 1699,
+      "sha256": "bd1dea7a330c4025d58a9b6935dd2c32f250b75899e4dd47052d6c6b427b4a3d"
+    },
+    "public_access": {
+      "path": "audit/replacement-release-2026-09-15/PUBLIC_ACCESS_CHECK.json",
+      "bytes": 1675,
+      "sha256": "0f3c81e8119030afd67d6589182beab6e88fd5edd7b8aa18a5440403d4c1e896"
+    }
   },
-  "replacement_preparation": "audit/replacement-release-2026-09-15/PREPUBLICATION_PREPARATION.json"
+  "replacement_preparation": "audit/replacement-release-2026-09-15/PREPUBLICATION_PREPARATION.json",
+  "arxiv_submission_made": false,
+  "release_tag_snapshot": {
+    "tag": "replay-companion-2026-09-15.2",
+    "commit": "82bac30be7daa6b7ee9a118c9c7ad583dc674fc5",
+    "scope": "Prepared source snapshot A; the current main-branch records describe later publication/download/withdrawal observations B."
+  }
 }

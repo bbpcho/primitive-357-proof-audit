@@ -1,0 +1,9 @@
+{
+  "schema": "primitive357_prepared_repository_commit_v1",
+  "commit": "82bac30be7daa6b7ee9a118c9c7ad583dc674fc5",
+  "git_tree": "786206b82cecc0b14767782c48166f22200e1eb5",
+  "pushed": true,
+  "origin_main_matches": true,
+  "recorded_utc": "2026-09-15T16:06:14.967924+00:00",
+  "release_tag": "replay-companion-2026-09-15.2"
+}

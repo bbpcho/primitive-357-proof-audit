@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "ACTUAL_PREPARER_CHECK.json",
+      "bytes": 742,
+      "sha256": "cb09d4e516706bbca53af02e9cd1f89df579a147d60fa34c546e8cd753f0ac0c"
+    },
+    {
+      "path": "ACTUAL_PREPARER_CHECK.log",
+      "bytes": 742,
+      "sha256": "cb09d4e516706bbca53af02e9cd1f89df579a147d60fa34c546e8cd753f0ac0c"
+    },
+    {
+      "path": "CHECK_REPORT.json",
+      "bytes": 843,
+      "sha256": "76652cc94129a734a20e365dacc5ad54bee8e54372dfc28c624912ed106a66b1"
+    },
+    {
+      "path": "CLEAN2_SCHEMA_REVIEW.json",
+      "bytes": 2014,
+      "sha256": "870d7e9d8f6146ea1e6d2124743f4c956ebde2e30d36815ce6c7481de561a9c0"
+    },
+    {
+      "path": "CURRENT_WITHDRAWN_STATUS_CHECK.json",
+      "bytes": 91,
+      "sha256": "a9bf0d6080c90144ee7ab8ea51b9fe89a5fe43ac62581ce4842cf01f2f2f044d"
+    },
+    {
+      "path": "PREPARER_REVIEW.md",
+      "bytes": 2410,
+      "sha256": "603ca9263af4690777305ad1fa95133cace2addaad4fe710ad7d2c9be065819c"
+    },
+    {
+      "path": "PUBLICATION_REVIEW.md",
+      "bytes": 2162,
+      "sha256": "d7d07e7b536a1065e10cfb0c991a6b1e4d67de9638167c0adc4f966ebf93ce25"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9747,
+      "sha256": "0f518ad5d1315756f4bc9d9b2277f88e15b9c72e0a6df8e17c35cd1be34722da"
+    },
+    {
+      "path": "TEST_RESULTS.log",
+      "bytes": 3004,
+      "sha256": "4a450e4578bc6cadd379c834b566d3dfbe9d201aaff53671da8a8e510b1b8da7"
+    },
+    {
+      "path": "TEST_RESULTS_OPTIMIZED.log",
+      "bytes": 3004,
+      "sha256": "1d0b6736d38e3ea98890c428d2962ffb4c02f3d679941b18eb11dccd1f8c555d"
+    },
+    {
+      "path": "current_replay_coverage.py",
+      "bytes": 8815,
+      "sha256": "2b06c8a397ede765a30de67a55e05cdf91d1cf5b58dcd7ce6e57d0e16d63a0ec"
+    },
+    {
+      "path": "test_actual_preparer.py",
+      "bytes": 3751,
+      "sha256": "e35334705abfe276c4bb93c590f4a93441fd4547e2c9ee56f7a0cb0a841d8b86"
+    },
+    {
+      "path": "test_current_distribution.py",
+      "bytes": 17880,
+      "sha256": "4a89e3965165e2fccf9679b337a4a50ceb80a909351a4f67a1e6151a481681bd"
+    },
+    {
+      "path": "verify_current_distribution.py",
+      "bytes": 21743,
+      "sha256": "108d5d70497d7693f4638644f6fa3470ebcbcad00930961198a1024e3f22c843"
+    }
+  ]
+}

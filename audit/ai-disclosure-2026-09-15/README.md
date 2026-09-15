@@ -1,3 +1,5 @@
+> **Later update (2026-09-15):** this is the historical event record. The [current replacement audit](../replacement-release-2026-09-15/README.md) records the published replacement, completed public-download checks and later p=5/rank withdrawals. The original event text below is retained unchanged.
+
 # Corrected arXiv source package — 15 September 2026
 
 The author-approved contribution statement is now in Section 8.4 under “Substantial AI-assisted research and writing.” It states Codex's extensive role, ChatGPT's research and writing support, Claude's error checking, and Peter Chocian's discovery approach, research direction, inputs, evidence review and responsibility. The in-paper statement omits the self-reference to Section 8.4 and retains the existing distinction between AI checking, mathematical certificates, independent human peer review and formal verification.

@@ -1,3 +1,5 @@
+> **Later update (2026-09-15):** this is the historical event record. The [current replacement audit](../replacement-release-2026-09-15/README.md) records the published replacement, completed public-download checks and later p=5/rank withdrawals. The original event text below is retained unchanged.
+
 # Pre-submission review revision — 15 September 2026
 
 The revised paper is 39 pages, by Peter Chocian, Independent researcher. It remains the author's first proposed arXiv submission on this equation. The source upload contains only `manuscript.tex` and `rank-proof.tex` and is 40,199 bytes. These are review files; no arXiv submission or new GitHub publication was made for this revision.

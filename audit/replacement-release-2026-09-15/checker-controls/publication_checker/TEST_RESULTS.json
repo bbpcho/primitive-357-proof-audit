@@ -1,0 +1,128 @@
+{
+  "schema": "primitive357_publication_checker_controls_v1",
+  "status": "PASS_SYNTHETIC_PUBLICATION_CONTROLS",
+  "control_count": 29,
+  "checks": [
+    {
+      "id": "test_arxiv_submission_claim_rejected",
+      "passed": true
+    },
+    {
+      "id": "test_asset_id_download_mismatch",
+      "passed": true
+    },
+    {
+      "id": "test_authenticated_not_public_evidence",
+      "passed": true
+    },
+    {
+      "id": "test_bool_release_id",
+      "passed": true
+    },
+    {
+      "id": "test_changed_paper",
+      "passed": true
+    },
+    {
+      "id": "test_changed_source_zip",
+      "passed": true
+    },
+    {
+      "id": "test_changed_tex",
+      "passed": true
+    },
+    {
+      "id": "test_companion_wrong_binding",
+      "passed": true
+    },
+    {
+      "id": "test_companion_wrong_tag",
+      "passed": true
+    },
+    {
+      "id": "test_complete_publication_binding",
+      "passed": true
+    },
+    {
+      "id": "test_download_hash_mismatch",
+      "passed": true
+    },
+    {
+      "id": "test_download_wrong_tag_url",
+      "passed": true
+    },
+    {
+      "id": "test_draft_release",
+      "passed": true
+    },
+    {
+      "id": "test_failed_download",
+      "passed": true
+    },
+    {
+      "id": "test_false_ready_dahmen_pending",
+      "passed": true
+    },
+    {
+      "id": "test_hidden_dahmen_hold",
+      "passed": true
+    },
+    {
+      "id": "test_legacy_unbound_is_not_pass",
+      "passed": true
+    },
+    {
+      "id": "test_missing_asset_id",
+      "passed": true
+    },
+    {
+      "id": "test_missing_download",
+      "passed": true
+    },
+    {
+      "id": "test_missing_release_id",
+      "passed": true
+    },
+    {
+      "id": "test_pending_cannot_be_ready",
+      "passed": true
+    },
+    {
+      "id": "test_pending_is_not_pass",
+      "passed": true
+    },
+    {
+      "id": "test_private_repository",
+      "passed": true
+    },
+    {
+      "id": "test_ready_never_means_submitted",
+      "passed": true
+    },
+    {
+      "id": "test_record_binding_without_local_large_companion",
+      "passed": true
+    },
+    {
+      "id": "test_rehashed_wrong_source_member",
+      "passed": true
+    },
+    {
+      "id": "test_source_zip_omits_rank",
+      "passed": true
+    },
+    {
+      "id": "test_source_zip_symlink",
+      "passed": true
+    },
+    {
+      "id": "test_status_gate_disagreement",
+      "passed": true
+    }
+  ],
+  "checker_sha256": "590e35b0d1296cfcab6568ce0292aede0abf9d346c8079989071b7ebe911dcab",
+  "test_source_sha256": "462312b438a54b2abdd758294d7648ca416c4d02c94a4a0332a2deca9143d7e8",
+  "log_sha256": "59be03faac8e7a5edf1880030e062dd48ba11223b7b46c47a4c79211052493a4",
+  "current_distribution_checker_sha256": "108d5d70497d7693f4638644f6fa3470ebcbcad00930961198a1024e3f22c843",
+  "scope": "Synthetic controls joined to the actual companion-verifier fixture; no network request, publication, mathematical replay or arXiv submission."
+}

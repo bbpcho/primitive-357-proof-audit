@@ -1,0 +1,34 @@
+test_arxiv_submission_claim_rejected (__main__.Tests.test_arxiv_submission_claim_rejected) ... ok
+test_asset_id_download_mismatch (__main__.Tests.test_asset_id_download_mismatch) ... ok
+test_authenticated_not_public_evidence (__main__.Tests.test_authenticated_not_public_evidence) ... ok
+test_bool_release_id (__main__.Tests.test_bool_release_id) ... ok
+test_changed_paper (__main__.Tests.test_changed_paper) ... ok
+test_changed_source_zip (__main__.Tests.test_changed_source_zip) ... ok
+test_changed_tex (__main__.Tests.test_changed_tex) ... ok
+test_companion_wrong_binding (__main__.Tests.test_companion_wrong_binding) ... ok
+test_companion_wrong_tag (__main__.Tests.test_companion_wrong_tag) ... ok
+test_complete_publication_binding (__main__.Tests.test_complete_publication_binding) ... ok
+test_download_hash_mismatch (__main__.Tests.test_download_hash_mismatch) ... ok
+test_download_wrong_tag_url (__main__.Tests.test_download_wrong_tag_url) ... ok
+test_draft_release (__main__.Tests.test_draft_release) ... ok
+test_failed_download (__main__.Tests.test_failed_download) ... ok
+test_false_ready_dahmen_pending (__main__.Tests.test_false_ready_dahmen_pending) ... ok
+test_hidden_dahmen_hold (__main__.Tests.test_hidden_dahmen_hold) ... ok
+test_legacy_unbound_is_not_pass (__main__.Tests.test_legacy_unbound_is_not_pass) ... ok
+test_missing_asset_id (__main__.Tests.test_missing_asset_id) ... ok
+test_missing_download (__main__.Tests.test_missing_download) ... ok
+test_missing_release_id (__main__.Tests.test_missing_release_id) ... ok
+test_pending_cannot_be_ready (__main__.Tests.test_pending_cannot_be_ready) ... ok
+test_pending_is_not_pass (__main__.Tests.test_pending_is_not_pass) ... ok
+test_private_repository (__main__.Tests.test_private_repository) ... ok
+test_ready_never_means_submitted (__main__.Tests.test_ready_never_means_submitted) ... ok
+test_record_binding_without_local_large_companion (__main__.Tests.test_record_binding_without_local_large_companion) ... ok
+test_rehashed_wrong_source_member (__main__.Tests.test_rehashed_wrong_source_member) ... ok
+test_source_zip_omits_rank (__main__.Tests.test_source_zip_omits_rank) ... ok
+test_source_zip_symlink (__main__.Tests.test_source_zip_symlink) ... ok
+test_status_gate_disagreement (__main__.Tests.test_status_gate_disagreement) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 2.329s
+
+OK

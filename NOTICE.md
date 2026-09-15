@@ -1,35 +1,13 @@
 # Notice and redistribution boundary
 
-The manuscript author is **Peter Chocian**, with affiliation **Independent
-researcher**. The canonical paper is the first-submission manuscript dated
-15 September 2026 in `paper/`. Earlier authorless or working manuscripts
-inside sealed evidence archives are retained as historical records.
+The manuscript author is **Peter Chocian**, **Independent researcher**. The canonical first-submission manuscript is in `paper/`. Earlier authorless or working manuscripts inside the evidence remain historical records.
 
-The author's original program code is licensed under MIT. His original
-paper and documentation are licensed under CC BY 4.0. The author approved
-this choice on 15 September 2026. [LICENSE.md](LICENSE.md) defines its scope
-and links to the full licence texts.
+The author's original program code is licensed under MIT. His original paper and documentation are licensed under CC BY 4.0. He approved this choice on 15 September 2026. [LICENSE.md](LICENSE.md) defines the scope and links to the full texts. These grants do not relicense third-party material or imply its authors' endorsement.
 
-Third-party papers and software retain their own copyright and licence
-terms. Their inclusion or citation does not assign their rights to the
-manuscript author. Consult the notices accompanying those components.
+The replacement release [`replay-companion-2026-09-15.2`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2) excludes the full Dahmen–Siksek, Pacetti–Villagra Torcomian and Bruin–Poonen–Stoll papers and the identified unlicensed PVT/Putz source snapshots. An explicit lock records pinned public sources, exact sizes, hashes and private destinations. No downstream redistribution grant is claimed for these excluded copies. Acquisition and exact source reconstruction take place privately; the tools do not upload acquired files.
 
-The frozen computational archives include the Pacetti–Villagra Torcomian
-paper and a snapshot of `lucasvillagra/GFE-5p3` at commit
-`e88f914c577ab6cf9a45e5cdd82c1993477fb423`. No downstream redistribution
-licence for those components has been established. The author's licences
-do not cure that issue. Permission or a replacement distribution using
-pinned external acquisition remains necessary. Full third-party papers
-inside nested archives also need to be included in that inventory.
+The PVT snapshot remains identified by commit `e88f914c577ab6cf9a45e5cdd82c1993477fb423`. Project changes to Hunter sources are distributed as copy coordinates into pinned upstream files plus the project's inserted lines; the complete upstream or reconstructed sources are not bundled. The PVT mod-7 table is regenerated privately from the authenticated upstream dataset. This reduction does not independently regenerate that dataset. Seven historical native executables that were only hashed by the suite are omitted, with their original identities and the limited authentication changes recorded.
 
-Earlier archives and audit records retain their original identities and
-record what was verified. Preserving their hashes does not certify rights
-to redistribute every component. A replacement distribution must have a
-new identity and must verify its dependency and replay requirements.
+Two licensed exceptions remain unchanged: Piet Hein Casper Putz's *Enumeration of local and global étale algebras applied to generalized Fermat equations* (Vrije Universiteit Amsterdam, 2024, [DOI 10.5463/thesis.832](https://doi.org/10.5463/thesis.832)), under the official CC BY-ND 4.0 notice, and the GNU MPFR 4.2.1 header under LGPL 3 or later. The companion's `THIRD_PARTY_NOTICES.md`, `inputs/RETAINED_LICENSED_MATERIAL.json` and `LICENSES/` record attribution, the separate unchanged thesis wrappers, and the full applicable notices and licence texts. Peter's licences do not cover these works.
 
-On 15 September 2026 the author requested withdrawal of the public copies
-of the Dahmen–Siksek working paper. The two affected large release assets
-were removed; their public release notes record the withdrawal. See
-[audit/dahmen-removal-2026-09-15/README.md](audit/dahmen-removal-2026-09-15/README.md).
-This does not remove citations or alter the original mathematical inputs.
-A replacement complete companion has not yet been published.
+The earlier large assets containing the Dahmen–Siksek working paper were withdrawn on 15 September 2026. The older p=5 and rank downloads containing the BPS paper have also been withdrawn. Original hashes and release records remain as provenance, not permission to redistribute those payloads. See the [withdrawal record](audit/dahmen-removal-2026-09-15/README.md) and the [replacement audit](audit/replacement-release-2026-09-15/README.md) for the exact scope, fresh acquisition and replay bindings. Citations and mathematical premises are retained.

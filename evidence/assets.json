@@ -50,9 +50,16 @@
       "bytes": 149934212,
       "source_path_from_workspace": "results/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
       "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/audit-2026-09-13.1",
-      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
       "role": "target-42, contact, cocycle, and p=5 obstruction dependency closure",
-      "audit_state": "packaged_pending_independent_audit"
+      "audit_state": "packaged_pending_independent_audit",
+      "withdrawn_download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "availability": "withdrawn_2026_09_15",
+      "withdrawn_utc": "2026-09-15T19:52:39.626367+00:00",
+      "github_asset_id": 561595084,
+      "withdrawal_reason": "Full Bruin-Poonen-Stoll paper included without an established downstream redistribution grant",
+      "withdrawal_record": "audit/replacement-release-2026-09-15/OLD_ASSET_WITHDRAWAL_OBSERVATION.json",
+      "superseded_by": "replay-companion-2026-09-15.2",
+      "audit_state_scope": "Historical packaging/audit status retained; current adopted replay is recorded separately."
     },
     {
       "id": "P23_B124_D4_UPSTREAM_RECONSTRUCTION_V1",
@@ -70,9 +77,16 @@
       "bytes": 137069860,
       "source_path_from_workspace": "results/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
       "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/audit-2026-09-13.1",
-      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
       "role": "corrected 66-squareclass pre-dyadic intersection and second-dyadic fake-kernel correction dependency closure",
-      "audit_state": "completed_clean_replay_pending_independent_audit"
+      "audit_state": "completed_clean_replay_pending_independent_audit",
+      "withdrawn_download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "availability": "withdrawn_2026_09_15",
+      "withdrawn_utc": "2026-09-15T19:52:39.626367+00:00",
+      "github_asset_id": 561674379,
+      "withdrawal_reason": "Full Bruin-Poonen-Stoll paper included without an established downstream redistribution grant",
+      "withdrawal_record": "audit/replacement-release-2026-09-15/OLD_ASSET_WITHDRAWAL_OBSERVATION.json",
+      "superseded_by": "replay-companion-2026-09-15.2",
+      "audit_state_scope": "Historical packaging/audit status retained; current adopted replay is recorded separately."
     },
     {
       "id": "PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1",
@@ -86,7 +100,8 @@
       "withdrawn_download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
       "availability": "withdrawn_2026_09_15",
       "withdrawal_reason": "Nested Dahmen-Siksek working-paper PDF included without redistribution permission",
-      "withdrawal_record": "audit/dahmen-removal-2026-09-15/WITHDRAWAL.json"
+      "withdrawal_record": "audit/dahmen-removal-2026-09-15/WITHDRAWAL.json",
+      "superseded_by": "replay-companion-2026-09-15.2"
     },
     {
       "id": "PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026_09_14",
@@ -98,6 +113,54 @@
       "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/verified-2026-09-14.1/PRIMITIVE_357_VERIFIED_MANUSCRIPT_2026-09-14.pdf",
       "role": "separate compiled manuscript identical to the tested archive PDF",
       "audit_state": "verified_fresh_integrated_replay"
+    },
+    {
+      "id": "PRIMITIVE_357_REPLAY_COMPANION_2026_09_15_V2",
+      "filename": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+      "bytes": 320731221,
+      "source_path_from_workspace": "work/replacement_release_2026_09_15/final/PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2",
+      "github_release_id": 389233177,
+      "github_asset_id": 566069480,
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+      "role": "Current replacement computational companion with bound fresh replay",
+      "current_role": "companion",
+      "audit_state": "verified_current_replacement_publication",
+      "availability": "public_download_verified",
+      "publication_record": "audit/replacement-release-2026-09-15/PUBLICATION.json"
+    },
+    {
+      "id": "PRIMITIVE_357_PETER_CHOCIAN_SUBMISSION_2026_09_15_V2",
+      "filename": "primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407",
+      "bytes": 541652,
+      "source_path_from_workspace": "output/pdf/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2",
+      "github_release_id": 389233177,
+      "github_asset_id": 566037085,
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+      "role": "Current first-submission paper bound to the replacement companion",
+      "current_role": "paper_pdf",
+      "audit_state": "verified_current_replacement_publication",
+      "availability": "public_download_verified",
+      "publication_record": "audit/replacement-release-2026-09-15/PUBLICATION.json"
+    },
+    {
+      "id": "PRIMITIVE_357_ARXIV_SOURCE_2026_09_15_V2",
+      "filename": "PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548",
+      "bytes": 41982,
+      "source_path_from_workspace": "output/PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "github_release": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2",
+      "github_release_id": 389233177,
+      "github_asset_id": 566037400,
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+      "role": "Current two-file arXiv source package with byte-identical clean PDF rebuild",
+      "current_role": "source_zip",
+      "audit_state": "verified_current_replacement_publication",
+      "availability": "public_download_verified",
+      "publication_record": "audit/replacement-release-2026-09-15/PUBLICATION.json"
     }
   ]
 }

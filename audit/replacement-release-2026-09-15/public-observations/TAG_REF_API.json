@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/replay-companion-2026-09-15.2",
+  "node_id": "REF_kwDOUZOPFNoAJ3JlZnMvdGFncy9yZXBsYXktY29tcGFuaW9uLTIwMjYtMDktMTUuMg",
+  "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/refs/tags/replay-companion-2026-09-15.2",
+  "object": {
+    "sha": "82bac30be7daa6b7ee9a118c9c7ad583dc674fc5",
+    "type": "commit",
+    "url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/git/commits/82bac30be7daa6b7ee9a118c9c7ad583dc674fc5"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "primitive357_supplemental_v4_v6_clean2_v1",
+  "status": "PASS_SUPPLEMENTAL_V4_V6_FRESH_REPLAY",
+  "scope": "Additional direct V4 and V6 leaf replays, separate from the unchanged 13/65/16/5 main suite; not a full V15 --full execution or fresh Hunter binary run",
+  "started_utc": "2026-09-15T15:29:35.883724+00:00",
+  "finished_utc": "2026-09-15T15:29:57.693646+00:00",
+  "launcher_sha256": "6f2bfd0f7604ce3b1be6ac5124df679dcad19d42e6b85aa10961602742328436",
+  "plan_sha256": "e68ed7fc51b598d0f7254f1c0166a898d9a85b3fa7e03c14ce56fe6b1eb4cf11",
+  "input_identities_before_sha256": "8e96864f428823f3877e3a81a04697ddfbc9b32bec78bdae8ee7236482be54b6",
+  "input_identities_after_sha256": "8e96864f428823f3877e3a81a04697ddfbc9b32bec78bdae8ee7236482be54b6",
+  "bound_input_count": 2170,
+  "inputs_unchanged": true,
+  "records": [
+    {
+      "id": "v4",
+      "status": "PASS_FRESH_LEAF_REPLAY",
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/replay_design/isolation_clean2/clean2_offline.sb",
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/scripts/verify_putz_hunter_finite_state_projector_invariant_v4.py"
+      ],
+      "cwd": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v4",
+      "env": {
+        "DEVELOPER_DIR": "/Library/Developer/CommandLineTools",
+        "SDKROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "PATH": "/Library/Developer/CommandLineTools/usr/bin:/usr/bin:/bin:/sbin:/usr/sbin:/opt/homebrew/bin",
+        "TMPDIR": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v4/tmp",
+        "DOT_SAGE": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v4/sage-cache",
+        "XDG_CACHE_HOME": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v4/xdg-cache",
+        "CLANG_MODULE_CACHE_PATH": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v4/clang-cache",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONOPTIMIZE": "0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PRIMITIVE357_EXTERNAL_INPUTS": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/private"
+      },
+      "started_utc": "2026-09-15T15:29:35.884083+00:00",
+      "source": {
+        "path": "results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/scripts/verify_putz_hunter_finite_state_projector_invariant_v4.py",
+        "sha256": "42ae7551f0a9733574451f50c321c87acc1681113cc252a2a067542a4fd940dc",
+        "bytes": 37817
+      },
+      "runtime_executable_sha256": "ac60cfe0268614638d0ffa35f3b0284fc7b3a11482723793455e17eeb278509e",
+      "sandbox_profile_sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef",
+      "required_exact_marker": "PASS_PUTZ_HUNTER_FINITE_STATE_PROJECTOR_INVARIANT_V4",
+      "output_did_not_exist": true,
+      "log": "v4.log",
+      "finished_utc": "2026-09-15T15:29:36.714553+00:00",
+      "elapsed_seconds": 0.822,
+      "exit_code": 0,
+      "timed_out": false,
+      "marker_count": 1,
+      "diagnostics_detected": false,
+      "log_sha256": "a89dc6228c9dd9be4061f2316c2614ae90360002af10c2f55eee75a134e9e918",
+      "log_bytes": 387
+    },
+    {
+      "id": "v6",
+      "status": "PASS_FRESH_LEAF_REPLAY",
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/replay_design/isolation_clean2/clean2_offline.sb",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-I",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/scripts/verify_putz_hunter_local_algebra_covering_v6.py"
+      ],
+      "cwd": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v6",
+      "env": {
+        "DEVELOPER_DIR": "/Library/Developer/CommandLineTools",
+        "SDKROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "PATH": "/Library/Developer/CommandLineTools/usr/bin:/usr/bin:/bin:/sbin:/usr/sbin:/opt/homebrew/bin",
+        "TMPDIR": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v6/tmp",
+        "DOT_SAGE": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v6/sage-cache",
+        "XDG_CACHE_HOME": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v6/xdg-cache",
+        "CLANG_MODULE_CACHE_PATH": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/supplemental_v4_v6/attempt2/v6/clang-cache",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONOPTIMIZE": "0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PRIMITIVE357_EXTERNAL_INPUTS": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/private"
+      },
+      "started_utc": "2026-09-15T15:29:35.884126+00:00",
+      "source": {
+        "path": "results/2026-09-09_putz_hunter_local_algebra_covering_v6/scripts/verify_putz_hunter_local_algebra_covering_v6.py",
+        "sha256": "9a35397f954dab6fdc3dbd3ae47d9f52b4227b6c31b1f21372ac98e8555ac2a0",
+        "bytes": 25611
+      },
+      "runtime_executable_sha256": "58e6b747f3d26e0f2412ea48e4ac99534a8ddacb92a8c07ae1b0f36527bc24c4",
+      "sandbox_profile_sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef",
+      "required_exact_marker": "PASS_PUTZ_HUNTER_LOCAL_ALGEBRA_COVERING_V6",
+      "output_did_not_exist": true,
+      "log": "v6.log",
+      "finished_utc": "2026-09-15T15:29:57.228208+00:00",
+      "elapsed_seconds": 21.341,
+      "exit_code": 0,
+      "timed_out": false,
+      "marker_count": 1,
+      "diagnostics_detected": false,
+      "log_sha256": "369ba98102b73a8fe79331129e568147042c41cdefbec9412779310dec2949b2",
+      "log_bytes": 1535
+    }
+  ]
+}

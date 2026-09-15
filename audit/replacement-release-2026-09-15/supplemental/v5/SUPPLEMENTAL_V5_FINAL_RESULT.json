@@ -1,0 +1,43 @@
+{
+  "schema": "primitive357_supplemental_v5_corrected_summary_v1",
+  "status": "PASS_V5_EXACT_SUPPORT_COMPARISONS_WITH_TOTAL_LABEL_CORRECTION",
+  "raw_run": {
+    "path": "attempt2/SUPPLEMENTAL_V5_RESULT.json",
+    "bytes": 4808,
+    "sha256": "f7695254dd72a9cc0b888495e0eb49de79a470ee894e010450d8f53f35872138"
+  },
+  "raw_log": {
+    "path": "attempt2/V5.log",
+    "bytes": 487,
+    "sha256": "42e3e79ad86d791c55480f0b1a7d83d3cfbb91f01f79d9cf6eb0c7162dceffdd"
+  },
+  "count_review": {
+    "path": "COMPLETED_RECORD_REVIEW.json",
+    "bytes": 1323,
+    "sha256": "34d9182031da7372d0eab81a9092b50cc2860c17d7671cecf51962f75c57f06e"
+  },
+  "scope": "Direct unchanged V5 local Tschirnhaus support reconstruction under the existing clean2 boundary. Separately observed supplement; not an extra main13/65/16/5 job and not V15 --full or Hunter V7 --full.",
+  "source_sha256": "d811a3e74596265b6f9b8302f5978d7a8d6ed93904ead23093eb208fb8a09d0a",
+  "profile_sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef",
+  "exit_code": 0,
+  "elapsed_seconds": 16.170381,
+  "started_utc": "2026-09-15T15:36:42.267249+00:00",
+  "finished_utc": "2026-09-15T15:36:59.994281+00:00",
+  "all_input_bytes_unchanged": true,
+  "per_table_support_rows": {
+    "p2e0mod8": 199728,
+    "p3e2mod9": 3942,
+    "p3e4mod9": 15426,
+    "p3e6mod9": 17766,
+    "p5e4mod5": 155,
+    "p5e6mod5": 25,
+    "p7e5mod7": 133,
+    "p7e7mod7": 7
+  },
+  "raw_reported_support_rows": 236182,
+  "independently_counted_support_rows": 237182,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "exact_set_matches": 8,
+  "correction": "The source print, sealed ledger/certificate and uncorrected supervisor summary say 236182. The eight authenticated table counts sum to 237182. All eight generated set comparisons passed; the correction does not alter a support or an enumeration. Raw records remain unchanged."
+}

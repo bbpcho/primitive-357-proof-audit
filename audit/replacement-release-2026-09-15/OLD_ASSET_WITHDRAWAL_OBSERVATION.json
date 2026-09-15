@@ -1,0 +1,58 @@
+{
+  "schema": "primitive357_old_asset_withdrawal_observation_v1",
+  "status": "PASS_WITHDRAWN_PUBLIC_ENDPOINTS",
+  "repository": "https://github.com/bbpcho/primitive-357-proof-audit",
+  "replacement_release_tag": "replay-companion-2026-09-15.2",
+  "checked_utc": "2026-09-15T19:52:39.626367+00:00",
+  "unauthenticated_request": true,
+  "request_method": "GET",
+  "replacement_public_download_observation_sha256": "5cdae351488464228ccf3f968c98b97f20817d32689bc0b0f99853e49bf49343",
+  "assets": [
+    {
+      "asset_id": 561595084,
+      "name": "2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "bytes": 149934212,
+      "sha256": "03f3bfe077372275e570dd2541c033ba9a3c0701c80fecadfe1b575f3991d6eb",
+      "local_original_preserved": true,
+      "api_url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases/assets/561595084",
+      "api_http_status": 404,
+      "api_curl_exit_code": 0,
+      "api_response": {
+        "path": "withdrawal_observations/attempt1/561595084_api.txt",
+        "bytes": 139,
+        "sha256": "3213620f57d4cb2c180519cf48da8e9dcd4a187fb353e06078067d9a2564bd99"
+      },
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1.zip",
+      "download_http_status": 404,
+      "download_curl_exit_code": 0,
+      "download_response": {
+        "path": "withdrawal_observations/attempt1/561595084_download.txt",
+        "bytes": 9,
+        "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      }
+    },
+    {
+      "asset_id": 561674379,
+      "name": "2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "bytes": 137069860,
+      "sha256": "ec90f7ce74fcdebfb3c398a7ac7da8426d590ff9abc0ef115e4824c0e2918248",
+      "local_original_preserved": true,
+      "api_url": "https://api.github.com/repos/bbpcho/primitive-357-proof-audit/releases/assets/561674379",
+      "api_http_status": 404,
+      "api_curl_exit_code": 0,
+      "api_response": {
+        "path": "withdrawal_observations/attempt1/561674379_api.txt",
+        "bytes": 139,
+        "sha256": "3213620f57d4cb2c180519cf48da8e9dcd4a187fb353e06078067d9a2564bd99"
+      },
+      "download_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/audit-2026-09-13.1/2026-09-13_corrected66_predyadic_and_p2_place2_dependency_closure_v1.zip",
+      "download_http_status": 404,
+      "download_curl_exit_code": 0,
+      "download_response": {
+        "path": "withdrawal_observations/attempt1/561674379_download.txt",
+        "bytes": 9,
+        "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      }
+    }
+  ]
+}

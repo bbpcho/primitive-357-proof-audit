@@ -1,0 +1,41 @@
+{
+  "status": "PASS_PUBLICATION_PREPARATION_HELPER_REVIEW",
+  "synthetic_control_count": 80,
+  "modes": [
+    "normal",
+    "-O"
+  ],
+  "input_overlay_unchanged_in_every_control": true,
+  "actual_publication_records_generated": false,
+  "repository_modified": false,
+  "github_modified": false,
+  "files": [
+    {
+      "path": "prepare_publication_records.py",
+      "bytes": 19479,
+      "sha256": "0960252756fa193e3b6a613807110a5ad12038a68f8771f417e398ee33a7e7c7"
+    },
+    {
+      "path": "publication_checker/test_prepare_publication_records.py",
+      "bytes": 14075,
+      "sha256": "3618d6bfc58d33fd0e925ab1ffa3169744ca3bff5fa3b3831484f07708ea1b1b"
+    },
+    {
+      "path": "publication_checker/PREPARE_RECORDS.md",
+      "bytes": 4844,
+      "sha256": "ad2a16d4b0fe8e899558b8848e34fbe6831c88e5e50218618e8ab503db861108"
+    },
+    {
+      "path": "publication_checker/WITHDRAWAL_OBSERVATION_SYNTHETIC_EXAMPLE.json",
+      "bytes": 1551,
+      "sha256": "f2a96756945fede64847daa4280b464b2d1bf59259daf606058fd7725676f83d"
+    },
+    {
+      "path": "publication_checker/PREPARATION_TEST_RESULTS.json",
+      "bytes": 19605,
+      "sha256": "5c6131976c9bc73ff666636b731f70060c851b022adcad018878a3f513e1e334"
+    }
+  ],
+  "failed_controls_create_no_output": true,
+  "requires_completed_visual_review": true
+}

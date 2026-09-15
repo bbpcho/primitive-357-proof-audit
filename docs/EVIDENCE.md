@@ -1,55 +1,35 @@
 # Evidence and verification boundary
 
-**Distribution update (15 September 2026):** the two large companion/source-data release assets were withdrawn to remove the unlicensed Dahmen–Siksek PDF. The mathematical and replay descriptions below retain their historical scope; they do not assert current public availability of the full archive. A complete replacement companion is pending. See [the current availability notice](../README.md#current-availability).
+The current public package is [`replay-companion-2026-09-15.2`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2), distributed as `PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip`. The [replacement audit](../audit/replacement-release-2026-09-15/README.md) binds its exact archive and input identities to the fresh complete isolated run. It records **13 sector/interface records, 65 prior jobs and 16 rank-local checks**, with the latter joined to five freshly generated inputs. The current paper and small arXiv source ZIP are separate assets linked from the [repository README](../README.md).
 
-The first-submission release distinguishes exact input data, recorded output, replayable computations, and checked mathematical implications. Hash equality identifies bytes; it does not prove the statement written in those bytes. A successful historical replay is used only for its documented scope. This is not proof-assistant certification or external human peer review.
+Hash equality identifies bytes; it does not prove a mathematical assertion. Arithmetic replay reconstructs specified calculations. The argument audit checks how those calculations support the proof, while preserving the cited mathematical and software premises. These are distinct forms of evidence, not proof-assistant certification or external human peer review.
 
-## The first-submission collection
+## The replacement and its inputs
 
-The historical release [`first-submission-2026-09-15.1`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1) originally supplied the 36-page paper and two separate assets: the 35,879-byte arXiv source ZIP and the 601,649,354-byte companion ZIP. The large companion has since been withdrawn. The current paper and small source ZIP are linked from the repository README.
+`COMPANION_MANIFEST.json` identifies the exact public file set. Repeated evidence is stored once by SHA-256 under `objects/`. `inputs/REPLAY_FILE_MAP.json` restores the original logical layout, including the three repositories `evidence/v3/repository/`, `evidence/p5/repository/` and `evidence/rank/repository/`, and the adopted programs under `audit/work/`.
 
-The companion includes three immutable components:
+`inputs/EXTERNAL_INPUTS_LOCK.json` identifies 62 downloads and 12 derived objects by source, exact byte count and hash. The acquisition records distinguish fresh public downloads from derivation. The full DS, PVT and BPS papers and identified unlicensed PVT/Putz programs are acquired privately. Complete modified Hunter sources are reconstructed from pinned upstream bytes and the project's inserted lines. The PVT mod-7 table is parsed and reduced from the pinned dataset; its underlying production is not freshly repeated. The unchanged Putz thesis and MPFR header are retained under their documented third-party licences.
 
-| Component | Scope |
-|---|---|
-| `computational_materials/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip` | Full source/data snapshot, adopted reconstruction programs and recorded integrated replays. |
-| `verification/PRIMITIVE_357_LOGICAL_AUDIT_AND_REVIEW_DRAFT_2026-09-15_V1.zip` | The 118-node argument ledger, 70 named imports, sector reviews, corrections and supplementary exact checks. Begin with its `AUDIT_REPORT.md`. |
-| `verification/PRIMITIVE_357_FRESH_MAGMA_REPLAY_2026-09-15_V1.zip` | Seven official Magma V2.29-10 executions, exact inputs/outputs, mathematical checks and four negative controls. |
+The new distribution omits seven historical native executables. Their previous role was byte authentication, not execution by the adopted suite. The transformation records retain their original identities and identify the removed provenance checks; the mathematical source, numerical-output and arithmetic checks remain. Repacked nested archives and their adapted input contracts have new identities, propagated through the verification graph. They are not described as unchanged containers.
 
-The ledger has no unresolved project-specific nodes at the reviewed lemma/interface level. It preserves superseded rows and draft corrections, and leaves cited mathematics and software algorithms explicit. The first-submission editorial record binds the canonical paper to that reviewed draft without changing formulas, theorem environments or the rank appendix.
+The full replay uses authenticated private logical and external roots, separate output, declared software dependencies and process-wide offline isolation. It checks inputs before and after execution and independently validates the completed-result joins. The [programs guide](../release/PROGRAMS_AND_CERTIFICATES.md) gives the supported commands. `make verify` in this control repository checks repository records only.
 
-For convenient reading, this repository contains indexed extracts of the [argument audit](../audit/logical-audit-2026-09-15/AUDIT_REPORT.md), the [Magma replay records](../audit/magma-replay-2026-09-15/README.md), and the [first-submission record](../audit/first-submission-2026-09-15/README.md). The argument-audit extracts do not replace the complete audit folders and large replay inputs in the companion.
+## Mathematical evidence and imported premises
 
-The companion does not claim a newly executed combined replay of all three components. Its integrity command is `python3 checks/verify_companion.py`. Mathematical replays follow each component's guide and runtime requirements; supplementary audit scripts may require their recorded paths to be relocated after extraction.
+The [claim ledger](../audit/logical-audit-2026-09-15/PROOF_LEDGER.md) contains 118 grouped claims and 70 named imported dependencies, with no unresolved project-specific nodes at the reviewed lemma/interface level. Its earlier statuses and corrections remain identifiable. The independent rank route supplies actual restrictions for all 66 coordinates, full local-image bounds, the replacement 7-adic nonzero kernel witness, second-dyadic character and Hensel checks, and identification of the same complementary class c excluded at 5. Prior class/unit, finite-Jacobian, saturation and full-logarithm checks supply the remaining premises.
 
-## Immutable inputs and adopted checks
+The absent historical p=7 cycle-3 worker is replaced by `reconstruct_p7_witness_unramified.py`, its exact contact binding, finite quotient check and full-component square/source proofs. This is a mathematical replacement, not a claim to reproduce an unavailable program byte for byte. The [round-9 review](../audit/round9-review-2026-09-15/README.md) separately records exact finite calculations and numerical monodromy corroboration.
 
-The unchanged 14 September source/data component preserves the V3, p=5 and rank-closure repositories under separate roots:
+Dahmen–Siksek supplies the cited sector routing and earlier reducible-sector results; Putz supplies the seven-field bound; Pacetti–Villagra Torcomian and the cited Hilbert modular results supply the modular premises. Generalized descent and correction use Bruin–Poonen–Stoll, including Corollary 12.5 and Appendix A. Local arguments use the stated Hensel, local abelian-variety, Kummer and Chabauty results with their checked hypotheses. These references concern other authors' work, not earlier papers by Peter Chocian.
 
-- `evidence/v3/repository/`
-- `evidence/p5/repository/`
-- `evidence/rank/repository/`
+Seven [official Magma V2.29-10 jobs and four negative controls](../audit/magma-replay-2026-09-15/README.md) are retained as previously executed evidence. They include the rational and twisted full-group calculations. The replacement suite does not execute Magma or independently implement its algorithms. The finite-field p=173 argument supplies the separate two-saturation step; numerical height comparisons do not replace exact height bounds.
 
-Within that component, the audit sources and reports are carried under `audit/work/`, with their dependency indexes. Runtime installations and untracked caches are not evidence inputs. Its supported replays use declared paths in the extracted component and a separate output directory. Its entry point is `scripts/verify_release.py`, with the documented `--replay` options for Python, SageMath, PARI/GP and output location.
+Rank four gives finite index for H0=⟨D2,D3,D4,D5⟩, and its two-saturation gives odd index. The five-saturated group H1=⟨D2,E,D4,D5⟩ contains H0; H1 has index coprime to 400 and covers the finite sieve coefficients. The logarithmic annihilator already extends from H0 by finite index. See the [H0/H1 correction](H0_H1_CORRIGENDUM.md).
 
-The independent rank route supplies more than the original archive's top-level PASS: actual local restrictions for all 66 coordinates, full local image bounds, the replacement 7-adic nonzero kernel witness, the second-dyadic character and Hensel proof, and exact identification of the same complementary class c. The previous p=5 audit supplies its actual geometry, coherent roots, local obstruction and comparison-kernel calculation. The earlier class/unit, finite-Jacobian, saturation, and full logarithm checks supply the remaining premises.
+## Historical identities
 
-The absent historical p=7 cycle-3 worker is replaced by `reconstruct_p7_witness_unramified.py`, its exact contact input binding, finite quotient check and companion full-component square/source proofs. The replacement does not claim to reproduce an unavailable program byte for byte.
+The earlier [`first-submission-2026-09-15.1`](https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1) collection originally supplied a 36-page paper, a 35,879-byte source ZIP and a 601,649,354-byte companion. The companion combined the unchanged `PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip`, `PRIMITIVE_357_LOGICAL_AUDIT_AND_REVIEW_DRAFT_2026-09-15_V1.zip` and `PRIMITIVE_357_FRESH_MAGMA_REPLAY_2026-09-15_V1.zip`. It did not claim a new combined arithmetic run of those three components. Its `COMPONENT_MANIFEST.json` and historical command `python3 checks/verify_companion.py` concern that collection alone.
 
-## Imported results and software
+The earlier large companion/source-data assets containing the DS paper and the older p=5/rank downloads containing the BPS paper have been withdrawn. Their release notes, checksums and [first-submission record](../audit/first-submission-2026-09-15/README.md) retain the historical identities. The new companion has its own public tag and manifest. The inherited inner manifest's `verified-2026-09-14.1` label remains an internal compatibility identifier, with a rebuilt inventory bound to the replacement.
 
-The sector routing and prior reducible-sector eliminations use Dahmen–Siksek; the seven-field bound uses Putz; the modularity/level-lowering argument uses the cited Pacetti–Villagra Torcomian and Hilbert modular results. The generalized descent and correction interpretation use Bruin–Poonen–Stoll, including Corollary 12.5 and Appendix A. The local conclusions also use the stated Hensel, local abelian-variety, Kummer and Chabauty results with checked hypotheses. These citations concern other authors' work, not earlier arXiv papers by Peter Chocian.
-
-The cubic–quartic sector retains its identified rational and twisted Mordell–Weil and torsion inputs. Both full-group computations occur among the seven Magma jobs in the companion. The p=173 finite-field Kummer proof supplies the separate saturation step. A fresh Magma execution is evidence from that software, not an independent implementation of its algorithms. The numerical height comparison does not replace exact height bounds. The 14 September component's statement that it did not newly execute those Magma jobs remains accurate for that component; the new records are separately identified.
-
-The Python, PARI/GP and SageMath arithmetic replays use their documented versions. Their checks are designed to reject missing inputs, failed operations, unresolved precision, and arithmetic diagnostics even when a subprocess returns zero. Each verification record identifies which checks were actually executed. Independently checked arithmetic does not amount to an independent implementation of every computer-algebra primitive.
-
-## Scope of the group statements
-
-Rank four proves that the original point subgroup H0 has finite index. Its 2-saturation gives odd index. The 5-saturated group is H1, which contains the branch-division class E. It is H1 that has index coprime to 400 and covers the finite sieve coefficients. The logarithmic annihilator already extends from H0 by finite index. See [the correction notice](H0_H1_CORRIGENDUM.md).
-
-A literature theorem or authenticated transcript is not silently promoted to a fresh independent computation. A formerly missing interface is no longer listed as open once its replacement proof and hypotheses have been checked; the ledger retains the earlier status and identifies the supplement.
-
-## Asset identity
-
-The first-submission assets have new basenames and a new release tag. Their exact byte sizes, SHA-256 values and verification results are recorded in the machine-readable indexes. `COMPONENT_MANIFEST.json` inside the companion identifies all its named components and top-level files. Earlier archives retain their identities, including records of failed attempts and superseded arguments. Older manuscripts inside those archives are historical evidence; the canonical paper is `paper/manuscript.pdf` at the top level of the companion and in this repository.
+Older manuscripts and execution logs remain provenance within the evidence. The canonical current paper is in this repository's `paper/` and the current release's separate paper/source assets. The paper has not been submitted to arXiv; Dahmen's requested reply remains the submission hold.
