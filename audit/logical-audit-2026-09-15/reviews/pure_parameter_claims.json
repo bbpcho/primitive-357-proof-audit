@@ -1,0 +1,663 @@
+[
+  {
+    "id": "PURE-01",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 755
+    },
+    "claim": "Each of the six pure septic fields has normal closure F42 and quadratic subfield Q(sqrt(-7)).",
+    "hypotheses": [
+      "Field has the displayed form Q((3^a5)^(1/7)),1≤a≤6."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.py",
+        "detail": "Lines145–159 identify F42 as the normalizer of a regular C7."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Eisenstein at5 gives degree7. Its compositum with Q(zeta7) has degree42, since degrees7 and6 are coprime, and is the splitting field. The quadratic subfield of Q(zeta7) is Q(sqrt(-7)); the cyclic order7 normal subgroup yields no additional quadratic quotient.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-02",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 763
+    },
+    "claim": "The generic degree15 Fano cover and degree120 unordered compatible-pair cover have the claimed monodromy, indices and passports.",
+    "hypotheses": [
+      "Characteristic zero; t is transcendental for the generic construction."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.py",
+        "detail": "Lines124–207 enumerate all planes, unordered compatible pairs, normalizers and generating5/3-cycle pairs."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/irreducible-septic-sector.log",
+        "detail": "Retained fresh bridge execution in the integrated sector run."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "h_t has derivative7V^4(V−15)^2, critical values0,1 and an order7 pole. Every possible generating5/3-cycle pair in the program generates A7; the discriminant adds the nontrivial quadratic constant extension. The unordered-pair stabilizers are actual normalizers, not groups identified by size alone. Riemann–Hurwitz gives genera3 and20.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-03",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 782
+    },
+    "claim": "The printed R+ is the genuine irreducible Fano orbit polynomial with coordinate q=M/225.",
+    "hypotheses": [
+      "Root invariant and Vandermonde orientation as printed."
+    ],
+    "dependencies": [
+      "PURE-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.py",
+        "detail": "Lines137–249 reconstruct unscaled integer coefficients by interpolation and80-prime CRT beyond the coefficient bound."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/independent_fano_resolvent_foundation.log",
+        "detail": "Actual separate main computation:1330-bit CRT modulus exceeds1230-bit bound; five disjoint validations."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/pure_parameter.md",
+        "detail": "New bounded separating-fibre calculation at p101879,t68522:15 distinct invariant values in each orbit."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "The degree bound floor(3k/7) follows from root growth. Integer alternating coefficients factor through the Vandermonde, making the U/W reconstruction integral before scaling. The Cauchy and seven-node interpolation bound applies to every coefficient. A separating fibre shows no invariant-sheet collapse, and A7 transitivity then gives irreducibility.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-04",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 818
+    },
+    "claim": "The explicit quartic is smooth and isomorphic to the smooth projective Fano model, preserving t.",
+    "hypotheses": [
+      "The source polynomial R+ is irreducible."
+    ],
+    "dependencies": [
+      "PURE-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.py",
+        "detail": "Lines306–387 perform exact monic-R+ remainder calculations; both inverse denominators are nonzero."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/validate_exact_log_tensors.sage",
+        "detail": "Lines26–36 bind the function field to the canonical quartic; line74 checks geometric smoothness of reduction."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/tensor_validation_s4.json",
+        "detail": "Fresh exact curve and smooth-reduction result."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/tensor_validation_s19.json",
+        "detail": "Conjugate branch result."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/pure_parameter.md",
+        "detail": "All15 quartic coefficient pairs and84 parameter components in this manuscript snapshot match the exact packet."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Recovering both q and t makes the induced function-field map an isomorphism. Nonconstant t ensures the image is the whole smooth quartic. Proper smooth projective models extend this isomorphism across zeros of coordinate denominators. Smooth reduction at23 excludes a geometric generic singularity; a smooth plane quartic is geometrically irreducible and has genus3.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-05",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 809
+    },
+    "claim": "Every pure-field specialization with rational t outside0,1,infinity gives a K7-point on C+ with that same t.",
+    "hypotheses": [
+      "The specialized septic algebra is one of the six pure fields.",
+      "t is outside the three ramified values."
+    ],
+    "dependencies": [
+      "PURE-01",
+      "PURE-02",
+      "PURE-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.py",
+        "detail": "Normalizer identity gives the required fixed unordered sheet."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines794–816 use the unordered-pair cover and its degree8 forgetful map."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The specialized F42 has a unique Sylow7 subgroup and, on seven roots, equals its normalizer. It fixes a conjugate compatible-pair sheet, hence a rational point of the finite etale quotient fibre. After base change to K7 the chosen parity orientation defines the forgetful map. Normalization and the smooth-projective isomorphism cover all coordinate-chart failures; no affine denominator restriction is imposed on the hypothetical point.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-06",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 855
+    },
+    "claim": "The global divisor construction supplies E and the exact relation5E=D3+D4+3D5.",
+    "hypotheses": [
+      "Degree15 t has passport5^3 over0 and7^2 1 over infinity.",
+      "The reference points have local orders5,3,7,7,1."
+    ],
+    "dependencies": [
+      "PURE-02",
+      "PURE-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.py",
+        "detail": "Lines408–445 verify reference points and direct parameter values; none is a common base point."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_projected_E.py",
+        "detail": "Constructs the zero divisor of the cancelled rational function and checks the exact divisor identity at all selected reductions."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/projected_E_reconstruction/p23_root4.json",
+        "detail": "Representative fresh divisor and corrected-generator checks."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/review/pure_ramification_exact.py",
+        "detail": "Earlier exact characteristic-zero local-order calculation, read as computation evidence; same coefficients bound again here."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A=(t)_0/5 is a K7-rational effective degree3 divisor. With B=[A−3P1],5B=7D3+7D4+D5. Therefore E=3B−4D3−4D4 has the claimed relation. This is an existence construction, not an unsupported division by5. Since pole orders7+7+1 exhaust degree15, there are no omitted poles.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-07",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 855
+    },
+    "claim": "H0 and H1 are2-saturated; H1 is5-saturated, without using a global rank upper bound.",
+    "hypotheses": [
+      "Good reduction excludes J(K7)[2] and J(K7)[5].",
+      "Local character maps are defined on the full reduced Jacobian at the places used."
+    ],
+    "dependencies": [
+      "PURE-04",
+      "PURE-06"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/two_primary_saturation_characters.py",
+        "detail": "Checks every edge of characters on independently reconstructed full two-parts; four original and corrected rows are invertible mod2."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/check_c25_maps.py",
+        "detail": "Actual C25 arithmetic and all point images; four rows over23/43 used for saturation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/integration_prior/check_five_saturation.py",
+        "detail": "Corrected determinant4 mod5 and explicit no5-torsion premise."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/torsion_and_orders_checks.json",
+        "detail": "Good reduction at53 gives150039, coprime10."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p23_root4.json",
+        "detail": "Full order10200 at23."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p43_root37.json",
+        "detail": "Full order73200 at43."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Four independent characters kill2J, respectively5J, and force all subgroup coefficients of an element in ell J to be divisible byell. Thus H intersect ell J=ell H; absence of ell-torsion gives ell-saturation. At the character places, exact full orders and independently distinguished subgroup sizes prove the character domain is the whole two/five-primary part. Proper local subgroups at other sieve primes are not used to invent global characters.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-08",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 867
+    },
+    "claim": "H1 has finite index prime to400 and provides a common coefficient vector for the sieve.",
+    "hypotheses": [
+      "Ambient rank is4 from RANK-END.",
+      "The four generator logs are independent (also a lower-bound witness)."
+    ],
+    "dependencies": [
+      "RANK-END",
+      "PURE-06",
+      "PURE-07",
+      "PURE-12"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines855–872 distinguish H0 from H1."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/two_primary_saturation_characters.json",
+        "detail": "Rank-independent saturation conclusion and corrected character rows."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The four logarithm columns show H0 has rank4; the rank upper bound makes its index finite. Its2-saturation makes the index odd. H0 is contained in H1, and H1 is5-saturated, so [J:H1] is prime to2 and5. H0 itself need not be5-saturated and is never used as the corrected mod400 basis. Surjectivity H1→J/400J follows.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-09",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 878
+    },
+    "claim": "The finite tables give necessary simultaneous constraints on every global curve point, even where only projected point images rather than a full local group order were reconstructed.",
+    "hypotheses": [
+      "All reduced curve points and projected known generators are enumerated and have the checked16- or25-power annihilator.",
+      "The same global subgroup H1 has index n coprime400."
+    ],
+    "dependencies": [
+      "PURE-08"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_two_primary_maps.py",
+        "detail": "Actual KM additions, pairwise state distinction, all generator edges and every point image at16 places."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/verify_outside_projected_point_orders.py",
+        "detail": "Every outside point projection is directly killed by16."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_projected_E.py",
+        "detail": "Every projected E has the actual old-to-corrected basis relation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/check_c25_maps.py",
+        "detail": "All six C25 maps,336 point images and exact E relation."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Write n[P−P1] as an integer combination of H1. Its coefficient vector multiplied by n inverse mod400 works at every selected place. On the actually checked primary point images and generator images multiplication by n is invertible. This proves the needed common-vector condition without assuming an uncomputed whole-Jacobian order at every large prime. It also justifies discarding point images proved outside the known local subgroup.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-10",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 878
+    },
+    "claim": "The exhaustive coupled sieve leaves592 mod16,1252 mod25,144 mod400 classes and exactly the five stated ordered residue pairs at23.",
+    "hypotheses": [
+      "Geometric local maps are those independently reconstructed in PURE-09.",
+      "Canonical coefficients are integral at each selected prime."
+    ],
+    "dependencies": [
+      "PURE-04",
+      "PURE-09"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/scripts/verify_mixed_rational_t_mw_sieve_durable_v1.py",
+        "detail": "Lines56–61 return unknown at simultaneous numerator/denominator zero; lines120–207 exhaust coefficients and joint point fingerprints."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/rational-parameter-sieve-and-lifts.log",
+        "detail": "Fresh finite/local execution."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/mixed_rational_t_mw_sieve_v1.json",
+        "detail": "Complete replay tables and encoded survivor hashes."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/check_pure_finite.py",
+        "detail": "Previously independently implemented point enumeration and exhaustive finite loops; data remain byte-identical."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "All16^4 and25^4 vectors and all compatible pairs are considered. The corrected coefficient map is(a,e,c,d)→(a,13e,c+13e,d+39e) mod16. At each point, rational t requires equal projective reductions when both are defined by the printed forms. A simultaneous zero is retained as unknown, so the false branch-only base-locus sentence is not used by the filter. The resulting five pairs are verified on coordinates, not inferred merely from matching counts.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-11",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1584
+    },
+    "claim": "Both23-adic curve charts and the printed differential evaluations meet the good-reduction hypotheses.",
+    "hypotheses": [
+      "Canonical quartic is the model used for reductions and functions."
+    ],
+    "dependencies": [
+      "PURE-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_jacobian_orders.py",
+        "detail": "Function-field L-polynomial calculation reconstructs the orders."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p23_root4.json",
+        "detail": "Coefficients1,−4,4,56,92,−2116,12167; order10200."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p23_root19.json",
+        "detail": "Same conjugate result."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/analyze_p23_P1_second_order_gate_v1.sage",
+        "detail": "Local Newton and integral differential expansions."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/check_p1_local_series.py",
+        "detail": "Independent tangent evaluation from Q(1,y,z) at all ten reference reductions."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "23 is odd and unramified in K7 and splits as4/19. Both plane reductions are geometrically smooth. Every reference point is in X=1 with Q_z a unit, so y−y(Pi) parametrizes its entire disk and(1,y,z)dy/Q_z is the compatible integral regular differential basis. In particular the points labelled t=infinity do not require an omitted affine chart.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-12",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 902
+    },
+    "claim": "All four actual divisor-class logarithms at both23-adic places are reconstructed with the stated precision.",
+    "hypotheses": [
+      "Exact Riemann–Roch lattices and multiplication tensors are validated on the canonical curve.",
+      "Every local-ring linear operation uses a unit pivot and checks all rows."
+    ],
+    "dependencies": [
+      "PURE-04",
+      "PURE-11"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/validate_exact_log_tensors.sage",
+        "detail": "Exact poles,150 basis functions per branch, full ranks,1088 products per branch, W0=V2."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/proposed_log_replay_repair/compute_p23_s4_full_log_matrix_v1.sage",
+        "detail": "D4 is now computed in the scalar/decode/integration loops."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/proposed_log_replay_repair/compute_p23_s19_full_log_matrix_v1_import_repair.sage",
+        "detail": "Conjugate four-column replacement."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-27_p23_branchwise_km_small_s4_probe_v1/scripts/replay_small_KM_group_law_and_75D.sage",
+        "detail": "Lines193–415: full local-ring row modules/kernels and small-model group law."
+      },
+      {
+        "path_or_url": "https://arxiv.org/pdf/math/0105182",
+        "detail": "Khuri-Makdisi §5 small model, Propositions5.3–5.4 and Theorem4.1 second equality method; d0≥g+1."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/sage_replay/s4_candidate/audit_result.json",
+        "detail": "All12 normalized entries agree with the actual four-column computation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/sage_replay/s19_candidate/audit_result.json",
+        "detail": "Conjugate actual four-column result."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Here d0=6≥g+1=4. The validated lattices and unit minors give the local-ring versions of the field operations without hidden division by23. The divisor matrices represent D0+Pi−P1, so the class sign is correct. A unit scalar moves each class into the formal neighborhood; decoded divisors give the sum of local integrals divided by that scalar. Integral differential tails k−v23(k) bound truncation, and precision10 gives9 digits after dividing the logs by23. Old D4 caches serve only as comparisons.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-13",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 902
+    },
+    "claim": "Two exact global annihilator rows exist and kill all of J(K7), not just H0.",
+    "hypotheses": [
+      "Ambient rank4, hence H0 has finite index.",
+      "The normalized6×4 logarithm matrix has an invertible4×4 block mod23."
+    ],
+    "dependencies": [
+      "RANK-END",
+      "PURE-12"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/check_global_log_binding.py",
+        "detail": "Independent inversion of the first four rows produces L=(−CB inverse |I2), verifies LT=0 mod23^9 and exact agreement with the consumer."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/global_log_binding_checks.json",
+        "detail": "Actual matrix and annihilator digits."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_ros_log_rank_and_siksek_v1.json",
+        "detail": "Consumer matrix, annihilator and tangent data."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The unit block remains invertible over Z23, so its exact lift defines an exact annihilator whose computed reduction is certified. If nP lies in H0, then n L log(P)=0; characteristic zero gives L log(P)=0. Torsion is killed automatically. Neither knowledge of the full index nor23-saturation is required.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-14",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 911
+    },
+    "claim": "Siksek Theorem2 applies to the four regular product disks.",
+    "hypotheses": [
+      "Smooth projective geometrically irreducible genus3 curve.",
+      "p=23 is odd, unramified in K7 and good at both places.",
+      "A full-rank subgroup and an integral annihilator basis are available."
+    ],
+    "dependencies": [
+      "PURE-04",
+      "PURE-08",
+      "PURE-11",
+      "PURE-13"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://msp.org/ant/2013/7-4/ant-v7-n4-p01-p.pdf",
+        "detail": "Section4(p1)–(p3), Theorem2 p776 and its following remarks: full rank of the reduced h×d tangent matrix gives uniqueness in the product unit ball."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "Here d=2,g=3,r=4,h=2. The checked matrices are precisely the two-place differential evaluation matrices followed by the integral annihilator. All required hypotheses, including the product of both residue disks, are met.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-15",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 906
+    },
+    "claim": "The four regular product disks contain no extra common Coleman zero.",
+    "hypotheses": [
+      "All hypothetical points lie in the five product disks from the sieve."
+    ],
+    "dependencies": [
+      "PURE-10",
+      "PURE-13",
+      "PURE-14"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_ros_log_rank_and_siksek_v1.json",
+        "detail": "Tangent determinants12,16,4,19."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/p1_local_series_checks.json",
+        "detail": "Independent canonical tangent computations at all five named points."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A unit2×2 linear term and integral higher terms give uniqueness on each entire product residue disk centered atP2,P3,P4,P5. The reference point is an exact zero because its divisor class is global. This is an exhaustion argument on disks, not a finite sample of local points.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-16",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 915
+    },
+    "claim": "The whole P1 product disk contains exactly two common Coleman zeros, one being P1.",
+    "hypotheses": [
+      "Exact annihilator and integral local differentials from preceding claims."
+    ],
+    "dependencies": [
+      "PURE-11",
+      "PURE-13"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/analyze_p23_P1_second_order_gate_v1.sage",
+        "detail": "Builds the divided second equation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/lift_p23_P1_exceptional_root_and_coefficients_v1.sage",
+        "detail": "Lines96–149 integrate, normalize and Hensel lift."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/check_p1_local_series.py",
+        "detail": "Independent canonical derivation and exhaustive529-residue-pair check."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "With local parameters23u,23v, divide the first annihilator integral by23 and the combination(second−6first) by23². These are integral restricted power series, and the divisions do not discard zeros. Their reductions are2u+4v and21u+6v+14u²+21v². They have exactly(0,0),(14,16), with determinants20,3. Multivariate Hensel uniqueness/existence in each residue pair and complete residue enumeration cover the entire Z23² domain.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-17",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 920
+    },
+    "claim": "The second P1 Coleman zero has unequal split-place t-values, rigorously excluding rational t.",
+    "hypotheses": [
+      "Its parameters are certified modulo23^7.",
+      "The quintic denominator is a unit at both reconstructed endpoints."
+    ],
+    "dependencies": [
+      "PURE-04",
+      "PURE-16"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_P1_exceptional_root_coefficients_v1.json",
+        "detail": "All seven Hensel digit stages, ending u2889982329,v1104375606."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-08_p23_exceptional_t_diagonal_test_v1/scripts/verify_p23_exceptional_t_diagonal_v2.py",
+        "detail": "Lines63–137 solve the curve, check unit denominator, evaluate t and its difference."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/p1_local_series_checks.json",
+        "detail": "Independent power series and every lifted digit; rigorous tail estimate."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/rational-parameter-sieve-and-lifts.log",
+        "detail": "Actual final exceptional-t check."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Coefficients modulo23^9 and two normalizing divisions yield equations modulo23^7; omitted integrated terms k≥12 have valuation at least12 before those divisions. The root therefore determines coordinates modulo23^8. Unit denominators preserve that precision for t. Values59233664629 and24239267738 differ with exact valuation5 and first digit9, also independently checked in this audit. Equality of rational t in the two embeddings is impossible.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-18",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 835
+    },
+    "claim": "The rational-parameter locus is exactly P1,…,P5.",
+    "hypotheses": [
+      "The separate rank conclusion RANK-END holds."
+    ],
+    "dependencies": [
+      "PURE-05",
+      "PURE-06",
+      "PURE-08",
+      "PURE-10",
+      "PURE-15",
+      "PURE-17"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines835–930; all necessary interfaces are expanded in this review."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The sieve forces any rational-parameter point into a reference product disk. Four disks are unique by the regular criterion. The P1 disk has its reference zero plus one extra zero excluded by unequal t. Conversely the five exact K7-points have rational values0,1,infinity,infinity,infinity. The argument claims neither that the extra zero is global nor that all C+(K7) points have rational t.",
+    "remaining": "None within this claim; upstream dependencies retain their separate scope."
+  },
+  {
+    "id": "PURE-19",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1540
+    },
+    "claim": "CORRECTION_REQUIRED: the common quintic base points are not all confined to the three branch fibres.",
+    "hypotheses": [
+      "Use the proved generic degree15 map and exact printed quintics."
+    ],
+    "dependencies": [
+      "PURE-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.py",
+        "detail": "The verifier checks five reference points and rational inverse identities; it contains no complete branch-only base-locus verification."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/pure_parameter.md",
+        "detail": "New exact F23 Groebner basis, simple base point[1:15:5], cancelled t=2, and finite-flat argument proving a characteristic-zero lift."
+      }
+    ],
+    "status": "GAP_IDENTIFIED",
+    "justification": "The special base scheme has length5 and no X=0 point. Generic common-base degree is20−15=5; therefore the finite scheme is flat overZ23. Its simple rational point lifts etale to a genuine generic base point. The local leading coefficients G=5u+…,H=9u+… give t=2 mod23, outside0,1,infinity. This is a false ancillary mathematical/scope statement, not a failure of the normalized t-map or the conservative sieve.",
+    "remaining": "Replace lines1540–1542 by the unique-extension statement supplied in the report. No terminal step depends on branch-only confinement; do not describe the current manuscript as error-free until this correction is made."
+  },
+  {
+    "id": "PURE-END",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 932
+    },
+    "claim": "None of the six pure fields in the seven-field enumeration can arise from a nonzero primitive solution.",
+    "hypotheses": [
+      "The enumeration supplies the six displayed pure possibilities.",
+      "Nonzero primitive solution gives rational eta outside0,1,infinity."
+    ],
+    "dependencies": [
+      "FIELD-END",
+      "RANK-END",
+      "PURE-05",
+      "PURE-18"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines809–816 and932–934 join the necessary field-to-curve bridge with rational-parameter exhaustion."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The pure-field specialization forces a K7-point on C+ preserving eta. The rational-parameter theorem restricts its value to0,1,infinity, contradicting nonzero primitive input. The separate ancillary base-locus correction PURE-19 is required in the text but is not a premise of this elimination.",
+    "remaining": "The FIELD-END and RANK-END claims remain owned by the other reviewers; this report does not replace their audits. Apply PURE-19 wording correction."
+  }
+]

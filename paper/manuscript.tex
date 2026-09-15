@@ -12,8 +12,9 @@
 
 \definecolor{proofblue}{RGB}{26,55,92}
 \hypersetup{
-  pdftitle={The Primitive Generalized Fermat Equation of signature 3,5,7: From the published frontier to a certified proof},
+  pdftitle={The Primitive Generalized Fermat Equation of signature 3,5,7: A computer-assisted proof},
   pdfsubject={A computer-assisted proof},
+  pdfauthor={Peter Chocian},
   colorlinks=true,
   linkcolor=proofblue,
   citecolor=proofblue,
@@ -46,9 +47,9 @@
 
 \title{\textbf{The Primitive Generalized Fermat Equation}\\[1mm]
        $x^3+y^5=z^7$\\[3mm]
-       \large From the published frontier to a certified proof}
-\author{\mbox{}}
-\date{14 September 2026}
+       \large A computer-assisted proof}
+\author{Peter Chocian\\[1mm]\small Independent researcher}
+\date{15 September 2026}
 
 \begin{document}
 \maketitle
@@ -59,7 +60,7 @@ We prove that the generalized Fermat equation
                          x^3+y^5=z^7
 \]
 has no solution in nonzero coprime integers, and we make explicit how the
-proof grows from the previously published frontier.  Dahmen--Siksek had
+proof extends the prior work cited below.  Dahmen--Siksek had
 established the signed local descent and eliminated the three cases in which
 the associated degree-seven algebra is reducible.  Putz had then proved that
 the remaining irreducible case can involve only seven septic fields: six
@@ -72,11 +73,10 @@ its rational-parameter locus consists only of five points above the branch
 values.  For the
 exceptional field we combine the modularity and conductor results of
 Pacetti--Villagra Torcomian with level lowering over $\Q(\sqrt5)$ and a
-finite Hecke comparison at $29$.  We also reconstruct the three published
-reducible-sector arguments as independently replayable calculations, adding
+finite Hecke comparison at $29$.  We also reconstruct the three reducible-sector arguments of Dahmen--Siksek as independently replayable calculations, adding
 a database-free identification of the quadratic field and an intrinsic
 formal-group treatment at the ramified prime.  The paper labels every major
-step as published input, reconstructed input, or new argument.  All
+step as a literature input, reconstructed input, or new argument.  All
 project-specific finite calculations are supplied as exact certificates,
 programs, inputs, and authenticated logs.
 \end{abstract}
@@ -114,7 +114,7 @@ makes clear which general theorems are imported, which earlier computations
 are reconstructed for confidence, and which arguments close the remaining
 gap.
 
-\subsection{The published frontier}
+\subsection{Prior work}
 
 The mathematical starting point was already far advanced.  Dahmen and
 Siksek proved the following strong partial result
@@ -138,7 +138,7 @@ Putz then made this residual problem finite.  His exhaustive Hunter
 enumeration, with the prescribed local algebra data, proves that an
 irreducible descent algebra must be one of exactly seven fields
 \cite[Theorem~3.50]{Putz}.  Six are pure septic fields and the seventh is an
-exceptional septic field.  Thus the published frontier can be summarized in
+exceptional septic field.  Thus the established frontier can be summarized in
 one sentence:
 \begin{quote}
 \emph{a nontrivial primitive solution would have to pass through one of seven
@@ -170,7 +170,7 @@ above $29$, the four curve trace polynomials and the six possible modular or
 character factors have $24$ nonzero resultants modulo $7$.  This excludes the
 exceptional field.
 
-\item We reconstruct the previously published reducible sectors in an exact
+\item We reconstruct the reducible-sector arguments of Dahmen--Siksek in an exact
 certificate framework.  This is not presented as a new elimination of those
 sectors.  It provides an independent route through the finite arithmetic and
 adds two genuine refinements: the quadratic factor is identified from its
@@ -181,7 +181,7 @@ Jacobian model.
 \item We compose all four sectors into a single machine-checkable theorem
 graph.  Every project-specific finite assertion is tied to exact input bytes,
 an explicit predicate, and a replay program or authenticated completed log.
-Published general theorems remain ordinary bibliographic dependencies.
+General theorems from the literature remain ordinary bibliographic dependencies.
 \end{enumerate}
 
 \subsection{A provenance-aware proof map}
@@ -201,7 +201,7 @@ the literature; it does not claim priority for that result.
 stage & status before this paper & role in this paper\\
 \midrule
 signed local descent and four factor sectors
- & published by Dahmen--Siksek
+ & Dahmen--Siksek
  & imported, restated, and independently checked\\
 sectors $[1,6]$, $[2,5]$, $[3,4]$
  & eliminated by Dahmen--Siksek
@@ -210,7 +210,7 @@ irreducible sector $[7]$
  & reduced by Putz to seven explicit fields
  & the seven-field list is imported and authenticated\\
 six pure septic fields
- & not eliminated at the published frontier
+ & not eliminated by the cited prior work
  & excluded here by the Fano resolvent and the rational-parameter theorem\\
 one exceptional septic field
  & modular tools available, but no terminal comparison
@@ -235,14 +235,14 @@ states is empty.
 
 This viewpoint dictated a calm order of work:
 \begin{enumerate}[leftmargin=2.2em]
-\item fix the strongest published frontier before beginning a new search;
+\item fix the strongest established frontier before beginning a new search;
 \item translate each remaining assertion into a finite interface with exact
 inputs and a stated acceptance predicate;
 \item use exploratory computation only to discover a model, prime, or
 quotient, and then replace discovery by a deterministic certificate;
 \item keep the four descent sectors separate until each has a terminal
 statement, and only then compose them;
-\item distinguish a recomputation of a published argument from a genuinely
+\item distinguish a recomputation of an existing argument from a genuinely
 new bridge or obstruction.
 \end{enumerate}
 This is why the proof is modular.  A specialist can inspect the new
@@ -266,7 +266,7 @@ to finitely many congruence classes, and local analytic functions decide
 whether those classes contain a point compatible with the original rational
 parameter.
 
-The argument uses standard published results in descent, number-field
+The argument uses standard results in descent, number-field
 enumeration, modularity, level lowering, formal groups, Mordell--Weil sieves,
 and Chabauty methods.  The large finite calculations specific to
 \eqref{eq:original} are exact and are separated into independently
@@ -281,7 +281,7 @@ final sections compose the proof and describe the certificates.
 
 \paragraph{Provenance.}
 The local covering and exhaustive four-sector reduction in this section are
-published inputs from Dahmen--Siksek.  We record them because they are the
+inputs from Dahmen--Siksek.  We record them because they are the
 interface between a primitive solution and every later computation.
 
 The derivative and the two branch values are given by
@@ -587,6 +587,26 @@ The associated quotient is the genus-two curve
 \end{equation}
 over $k$.  Write $J_2=\operatorname{Jac}(C_2)$.
 
+Here is the solution-bearing condition used in the terminal argument.
+Put $\kappa=(7+\delta)/2$, choose a root $u$ generating
+$M=k(\sqrt\kappa)$, and let $v$ be its conjugate over $k$.
+The quotient map of \cite[Lemma~7.2]{DahmenSiksek} gives a point
+$P\in C_2(k)$ with
+\[
+ U(P)=\frac{(u+v)^2}{uv},\qquad \rho(P)=\Phi(u)=\eta\in\Q,
+\]
+where $\rho\in k(C_2)$ is the quotient parameter.  The denominator
+$uv$ is nonzero because $\eta\ne0$.  Moreover $U(P)\notin\Q$.
+Indeed, $N_{k/\Q}(\kappa)=21$ is not a square in $k$, so $M/\Q$
+is not Galois and its only quadratic subfield is $k$.
+If $U(P)\in\Q$, the equation
+$(u/v)^2+(2-U(P))(u/v)+1=0$ implies $u/v\in k$.
+Since $uv\in k$, we obtain $u^2\in k$, and hence
+$u=b\sqrt\kappa$ for some nonzero $b\in k$.
+The coefficient of $\sqrt\kappa$ in $\Phi(u)\in k$ then gives
+$b^2=-7/(5\kappa)$.  This is impossible: its norm would give
+$N_{k/\Q}(b)^2=7/75$, which is not a rational square.
+
 \subsection{The Mordell--Weil group and sieve}
 
 We use the Mordell--Weil group determination of
@@ -602,7 +622,13 @@ $H_0=\langle D_0,D_1,D_2,D'_3\rangle$.  The rational and twisted
 Mordell--Weil computations used in the cited lemma give
 $\rank A=3$; good reduction at $11$ and $13$, together with the displayed
 order of $D_0$, gives $A_{\rm tors}=\langle D_0\rangle\simeq\Z/10\Z$.
-Moreover, $2A\subseteq H_0\subseteq H$, the second inclusion following from
+For the nontrivial $\sigma\in\Gal(k/\Q)$ and every $P\in A$,
+\[
+                  2P=(P+\sigma P)+(P-\sigma P).
+\]
+The full rational and twisted groups identify the fixed and anti-fixed
+summands on the right with the named generators of $H_0$.
+Thus $2A\subseteq H_0\subseteq H$, the second inclusion following from
 the verified relation
 \[
                  D'_3=9D_0+3D_1-D_2-2D_3.
@@ -729,7 +755,7 @@ The sector $[3,4]$ is empty.
 \section{The irreducible septic sector}\label{sec:irreducible}
 
 \paragraph{Provenance.}
-The seven-field enumeration is Putz's published theorem.  The elimination of
+The seven-field enumeration is Putz's classification theorem.  The elimination of
 the six pure fields and the exceptional field is the new terminal part of the
 argument.
 
@@ -749,8 +775,7 @@ We call the first six fields pure and the last field exceptional.
 \subsection{The pure fields}
 
 The Fano-resolvent construction and the rational-parameter theorem in this
-subsection supply the geometric obstruction that was absent at the published
-seven-field frontier.
+subsection supply the geometric obstruction that was absent from the cited prior work.
 
 The normal closure of a pure field has Frobenius group $F_{42}$ and unique
 quadratic subfield
@@ -912,13 +937,30 @@ This is the number-field Chabauty criterion of \cite{Siksek}; the values are
 units, so each disk contains only its reference point among common
 Coleman zeros.
 
-At $P_1$, a normalized second-order system has exactly two simple reduced
-zeros,
+At $P_1$, write the two local parameters as $23u,23v$, so that the
+whole product residue disk is parametrized by $(u,v)\in\Z_{23}^2$.
+For the two annihilator integrals $F_1,F_2$, use the normalized equations
+$F_1/23=0$ and $(F_2-6F_1)/23^2=0$.  The second numerator is integrally
+divisible by $23^2$: its linear coefficients vanish modulo $23$ before
+scaling, and all higher terms supply the extra factor.  The reductions are
+\[
+              2u+4v=0,\qquad
+              21u+6v+14u^2+21v^2=0.
+\]
+They have exactly two simple reduced zeros,
 \[
                          (u,v)=(0,0),\qquad(14,16),
 \]
-with determinants $20$ and $3$.  The first is $P_1$.  At the second, the two
-local parameter values modulo $23^8=78{,}310{,}985{,}281$ are
+with determinants $20$ and $3$.  Multivariate Hensel lifting gives one
+exact common zero in each of these two classes and none elsewhere.
+The first is $P_1$.  The arithmetic retains seven digits after both
+normalizing divisions: an omitted integrated term of exponent $k\ge12$
+has valuation at least $k-v_{23}(k)\ge12$, and the coefficient arithmetic
+retains the required precision.  Multiplication by $23$ gives the local
+coordinates modulo $23^8$.  The canonical parameter denominator is a
+unit at both lifted endpoints, so its evaluation preserves those eight
+digits.  At the second zero, the two parameter values modulo
+$23^8=78{,}310{,}985{,}281$ are
 \[
  t_{s=4}=59{,}233{,}664{,}629,\qquad
  t_{s=19}=24{,}239{,}267{,}738.
@@ -935,7 +977,7 @@ point with rational parameter outside this set.  Consequently none of the six pu
 
 \subsection{The exceptional field}
 
-The general modularity and conductor theorems used here are published inputs.
+The general modularity and conductor theorems used here are cited inputs.
 The project-specific specialization, exhaustive packet and ray-character
 interfaces, and the terminal $q=29$ comparison form the new finite
 elimination.
@@ -952,7 +994,7 @@ In our variables
 \end{equation}
 Put $F=\Q(\sqrt5)$ and let
 \(\bar\rho_7:G_F\to\operatorname{GL}_2(\overline{\F}_7)\) be the residual
-representation of their plus motive at $t_0$.  The use of the modular
+representation of the weight-two realization of their plus motive at $t_0$.  The use of the modular
 method at the small exponent $p=7$ rests on the following precise inputs,
 not on the headline large-exponent theorem of \cite{PVT}.
 Theorem~2.4(1) of \cite{PVT} states that for $r=3$ and $q\geq5$ the plus
@@ -984,17 +1026,19 @@ Section~7.4 of \cite{PVT} gives an exhaustive trichotomy at an auxiliary
 prime: ordinary specialization, one of the two degenerations $t=0,\infty$,
 or the level-lowering specialization $t=1$.  From the complete upstream
 \texttt{Data.txt}, the certificate independently reduces all $6253$ trace
-polynomials at $37$ primes modulo~$7$, verifies all ordinary parameters and
-all five and three degenerate character values, performs the required
-relative-degree-two trace transport, and adjoins both signs of
-$N(\mathfrak q)+1$.  Seventeen of the eighteen historical filters are exactly
+polynomials at $37$ primes modulo~$7$.  Separately, it reconstructs all
+$1264$ ordinary parameters at the $18$ historical filter primes and all
+$128$ boundary character possibilities at the $16$ split primes.  It
+performs the required relative-degree-two trace transport for the boundary
+data and adjoins both signs of $N(\mathfrak q)+1$.  Seventeen of the eighteen historical filters are exactly
 the resulting squarefree allowed-trace polynomials.  At $\ell=131$ the
 historical degree-$48$ filter omitted the allowed level-lowering trace $1$,
 since $-(131+1)\equiv1\pmod7$.  We therefore replace only that condition, in
 memory, by $T^{49}-T$, which admits every $\F_{49}$-valued trace.
 
 Write $W_N\subseteq V_N$ for the intersection after these seventeen verified
-conditions and the conservative no-filter condition at $131$.  Characteristic-zero Jacquet--Langlands
+conditions and the condition at $131$ imposing no further restriction
+on $\F_{49}$-valued Frey eigenvalues.  Characteristic-zero Jacquet--Langlands
 \cite[Theorem~3.9 and \S4]{DembeleVoight} supplies the corresponding
 Hecke eigenvector in the definite quaternionic function model.  The exact
 order and neighbour computations verify the maximal order, class number
@@ -1006,16 +1050,24 @@ The resulting nonzero vector has the required residual eigenvalues.
 The local trichotomy places it in $W_N$.  This proves coverage without
 degeneracy-map subtraction.  A fresh simultaneous primary decomposition has
 packet dimensions, with multiplicity, summing to $\dim W_N$ at every level.
-The prime-$2$ calculation gives the necessary residual trace $-1$ when $X$ is
-even and $0$ when $Y$ is even.  Retaining every packet for which that scalar
+The exceptional field is unramified at $2$ with local factor degrees
+$[1,2,4]$.  If $2\mid Z$, the integral equation for $W=ZT$ reduces to
+\[
+ W^7+1=(W+1)(W^3+W+1)(W^3+W^2+1)\quad\text{over }\F_2.
+\]
+Its factors are distinct and irreducible, giving local degrees $[1,3,3]$,
+a contradiction.  Hence $Z$ is odd, and exactly one of $X,Y$ is even.
+In the variable convention $X^5+Y^3=Z^7$ used here, the prime-$2$
+calculation gives the necessary residual trace $-1$ when $Y$ is even
+and $0$ when $X$ is even.  Retaining every packet for which that scalar
 is a root of the residual $T_2$ polynomial gives
 \[
 \begin{array}{c|rrrr}
  &22&23&32&33\\ \hline
  \dim W_N&8&38&28&98\\
  \text{all packets}&4&14&12&24\\
- X\text{-even}&1&2&2&5\\
- Y\text{-even}&2&10&3&11.
+ Y\text{-even}&1&2&2&5\\
+ X\text{-even}&2&10&3&11.
 \end{array}
 \]
 Across all thirty-six retained packet occurrences, the set of residual
@@ -1187,7 +1239,7 @@ organized so that discovery is not used as evidence: every accepted output
 is checked against exact input data and against the mathematical predicate
 stated in the relevant proposition.  The certificate archive serves two
 different purposes.  It independently reconstructs finite calculations from
-the published part of the proof, and it supplies the load-bearing arithmetic
+the cited arguments of Dahmen--Siksek, and it supplies the load-bearing arithmetic
 for the new seven-field elimination.  The provenance column below keeps
 those purposes distinct.
 
@@ -1229,32 +1281,47 @@ a conventional proof: the inputs, outputs, and verification conditions are
 part of the mathematical record.  The argument also imports the general
 theorems cited in the bibliography, rather than attempting to reprove them
 from first principles.  In the cubic--quartic sector, the rational and
-twisted Mordell--Weil and torsion computations used in
-\cite[Lemma~7.3]{DahmenSiksek} remain explicit published/Magma inputs.
-The finite-field $173$ Kummer argument repairs the separate $2$-saturation
-step; it does not replace those rank and torsion inputs.  No new Magma
-execution of those inputs is claimed by the independent release audit.
+twisted Mordell--Weil and torsion results in
+\cite[Lemma~7.3]{DahmenSiksek} remain explicit inputs.
+The finite-field $173$ Kummer argument supplies the separate
+$2$-saturation step; it does not replace those rank and torsion inputs.
+Seven archived Magma inputs, including both full-group computations,
+were executed through the official Magma calculator, version V2.29-10.
+Their exact inputs, outputs and mathematical checks are included in
+the companion verification materials.  These executions use Magma's
+algorithms; they are not independent implementations.  The numerical
+height comparison supplements, and does not replace, the separate exact
+height bounds.
 
 \subsection{Companion certificate archive}
 
-The verified release is identified by tag
-\texttt{verified-2026-09-14.1} and by the separately recorded checksum of
+The programs, exact inputs, certificates and verification records
+accompanying this paper are collected in
+\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}.
+Its guide records the component filenames, checksums and replay
+instructions.  These are versioned computational materials for this paper.
+
+The source and data component is identified by tag
+\texttt{verified-2026-09-14.1} in the repository
+\href{https://github.com/bbpcho/primitive-357-proof-audit}{\texttt{bbpcho/primitive-357-proof-audit}}
+and by the checksum of
 \path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}.
-It preserves the V3, $5$-adic and rank-closure inputs under distinct
-repository-relative evidence roots.  Historical archives remain immutable.
-The release-level integrity and theorem-interface verifier is
+It contains the geometric, $5$-adic and rank-closure inputs under distinct
+evidence roots.  The companion also contains the argument-audit materials,
+including the exact supplementary checks and seven Magma execution records.
+The source and data component's integrity and theorem-interface verifier is
 \begin{center}
 \texttt{python3 -B scripts/verify\_release.py}.
 \end{center}
 Its \texttt{--replay} mode, supplied with explicit SageMath and PARI/GP
-executables and an output directory, runs the adopted reconstruction
-checks.  The accompanying \path{PROGRAMS_AND_CERTIFICATES.md} gives
-the exact commands, dependency indexes, successful logs and retained
-imported premises.  In particular, the rank route includes the actual local
-image and fake-kernel stopping proofs in Appendix~\ref{app:rank-proof},
-the same-literal-$c$ comparison, and the corrected $H_0/H_1$ index
-statement.  The historical V3 and post-V3 PASS records are retained as
-provenance; they are not substitutes for these adopted checks.
+executables and an output directory, runs the specified reconstruction
+checks.  The component guide \path{PROGRAMS_AND_CERTIFICATES.md} gives
+the commands, dependency indexes, successful logs and retained imported
+premises.  In particular, the rank route includes the actual local-image
+and fake-kernel stopping proofs in Appendix~\ref{app:rank-proof},
+the same-literal-$c$ comparison, and the $H_0/H_1$ index statement.
+The companion guide identifies the supplementary verifiers separately;
+the integrity check alone is not an arithmetic replay.
 The principal correspondence is:
 \begin{center}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{.22\textwidth}
@@ -1264,22 +1331,22 @@ The principal correspondence is:
 mathematical assertion & provenance & certificate family\\
 \midrule
 four exhaustive factor sectors
-  & published; reconstructed
+  & Dahmen--Siksek; reconstructed
   & signed global-algebra superselection\\
 Proposition~\ref{prop:rational-sector}
-  & published; reconstructed
+  & Dahmen--Siksek; reconstructed
   & rational-factor composition and its Mordell--Weil, sieve, and local packages\\
 Proposition~\ref{prop:quadratic-sector}
-  & published, with new intrinsic routing
+  & Dahmen--Siksek; new intrinsic routing
   & database-free quadratic router and quadratic-factor reconstruction\\
 Proposition~\ref{prop:quartic-sector}
-  & published, with new formal-group certification
+  & Dahmen--Siksek; new formal-group certification
   & quartic router, Mordell--Weil basis, sieve, and intrinsic formal-group packages\\
 Theorem~\ref{thm:rational-t} and Appendix~\ref{app:Cplus}
   & new
   & Fano-cover, canonical-quartic, rational-parameter, and split-prime packages\\
 exceptional-field elimination
-  & new, using published modular theorems
+  & new, using cited modular theorems
   & Putz--PVT interface and finite $q=29$ comparison packages\\
 Proposition~\ref{prop:septic-sector}
   & new terminal composition
@@ -1294,9 +1361,9 @@ The archive distinguishes identity checks, arithmetic replay, and the
 mathematical implications of the resulting certificates.  A checksum
 establishes identity, not a theorem.  The adopted Python, PARI/GP and
 SageMath programs reconstruct the specified arithmetic layers, with errors
-and precision failures treated as failures.  The release guide separately
-identifies computations retained as published inputs or authenticated Magma
-transcripts.  These are not represented as fresh independent executions.
+and precision failures treated as failures.  The companion guide
+distinguishes imported literature results, authenticated Magma execution
+records, and independently reconstructed calculations.
 The global rank and local stopping conclusions use the stated general
 theorems and verified hypotheses as well as the replayed arithmetic.
 
@@ -1312,7 +1379,7 @@ This organization is useful beyond the present signature.  It separates
 three tasks that are often entangled: enumerating the possible algebraic
 states, transporting a state to a curve where a finitely generated group
 acts, and testing the remaining local states with analytic functions.  It
-also makes the proof modular: a general theorem can be replaced by an
+also makes the proof modular: a computational component can be replaced by an
 independent implementation without changing the surrounding argument, while
 the finite interfaces remain explicit.
 
@@ -1537,10 +1604,15 @@ The exact canonical-map identity on $C_+$ is
 \begin{equation}\label{eq:t-inverse-identity}
                          G_t+tH_t=0,
 \end{equation}
-and therefore $t=-G_t/H_t$ away from the common projective base locus.  The
-certificate verifies \eqref{eq:t-inverse-identity} in the homogeneous
-coordinate ring and checks the base points in the three branch fibres.
-Direct substitution gives
+and therefore $t=-G_t/H_t$ wherever $H_t\ne0$.
+This rational function extends uniquely to a morphism
+$C_+\to\mathbf P^1$, since $C_+$ is smooth and projective.
+At a common zero of $G_t,H_t$, the value is obtained after cancelling
+their common vanishing in a local parameter; it cannot be read from
+the displayed projective pair alone.  The finite sieve retains such
+common-zero reductions conservatively.  The certificate verifies
+\eqref{eq:t-inverse-identity}; the five reference points are not common
+zeros, and direct substitution gives
 $t(P_1)=0$, $t(P_2)=1$, and $t(P_3)=t(P_4)=t(P_5)=\infty$.
 Local expansions on the smooth quartic give
 \[

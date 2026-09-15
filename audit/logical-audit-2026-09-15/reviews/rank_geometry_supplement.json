@@ -1,0 +1,103 @@
+[
+  {
+    "id": "RANK-03",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 20
+    },
+    "claim": "The exact source line/contact algebra gives all28 actual bitangents with the printed base embedding; the degree42/56 targets and incidence quartics represent their stated syzygetic four-subsets, and the exported tau(c) values are the actual four-incidence norms of the same literal source.",
+    "hypotheses": [
+      "RANK-01: printed curve and smoothness, including good reduction at733177",
+      "Standard exact Sage/PARI arithmetic specifications",
+      "BPS bitangent/contact and syzygetic-conic dictionary"
+    ],
+    "dependencies": [
+      "RANK-01",
+      "BPS:12.1",
+      "BPS:12.2",
+      "BPS:5.7"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/fresh_replay_results.json",
+        "detail": "Fresh sealed-input exports, exact contact/quartic identity, exact incidence division and norm determinants, and nonzero contact-component checks."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/fresh_tetrad_replay_results.json",
+        "detail": "Fresh export and all40,950 conic-rank calculations identify all315 actual masks at both embeddings."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/export_and_fibre_bindings.json",
+        "detail": "Additional exact R42/J42 and R56/J56/H28 cross-export equality; all196 target fibres and ordered bitangent roots; target98 span rank21 equals full315."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/source_quartic_sign_results.json",
+        "detail": "Exact direct source-quotient restriction: printed s=+T5 gives all five contact-square coefficients; \u2212T5 fails four."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/check_source_base.log",
+        "detail": "Exact Pre[8], p5 T5 and V3 T5 equality."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/immutable_input_index.json",
+        "detail": "SHA256 and sizes of all18 sealed source inputs."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_geometry_supplement.md",
+        "detail": "Equation-by-equation source and inference review, with explicit unit and characteristic-zero fibre arguments."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Fresh exact computations prove P is monic integral irreducible of degree56, s\u00b2=\u22127 and the exact source/base bindings. The universal line restriction of the actual printed quartic is a nonzero scalar times its contact quadratic squared; its28 conjugates are distinct. Smoothness and the standard28 count identify all bitangents. The actual315 conic masks are freshly determined at good reduction and identify characteristic-zero syzygies by specialization and the315 count. Both exact target polynomials are squarefree and their monic quartic J divides H28. All target nodes are distinct and every reduced J is exactly the product over the assigned four actual roots, giving the unique Hensel fibre identification. All336 contact flags have A and the conic proportionality numerator nonzero, so no product-algebra component is lost. Exact CP22=N6 and 24-term determinants of multiplication by its incidence pullback verify both tau(c) norm arrays. The additional exact export/trace join prevents substituting a different degree56 target or incidence record. No stored PASS was used to accept these identities.",
+    "remaining": "No remaining project-specific exact geometry/export obligation in this node. Standard arithmetic implementations and the stated smoothness/BPS premises are trusted. Global coherent-root signs and other rank nodes are separate; this node does not claim a rank bound."
+  },
+  {
+    "id": "RANK-05",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 24
+    },
+    "claim": "The exact tower defines seven intrinsic blocks; the actual theta torsor has an intrinsic Galois-stable eight-set whose separating invariant fixes an even theta characteristic, implying Galois containment in AGL3(F2).",
+    "hypotheses": [
+      "Actual bitangent/syzygetic identification from RANK-03 and RANK-04",
+      "Riemann-Mumford theta/Weil-pairing theorem and recovery from odd-theta incidence",
+      "Standard exact polynomial, Hensel, and algebraic-integer norm arguments"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-04",
+      "BPS:5.1",
+      "BPS:5.4",
+      "BPS:5.5"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/work/p5_archive_audit/theta/theta_invariant_results.json",
+        "detail": "Fresh irreducibility, exact tower identities, root bound, all56 simple lifted roots, sixteen triangle sums and exact norm inequality."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/work/p5_archive_audit/coherence/intrinsic_theta_results.json",
+        "detail": "Fresh quadratic-form, polar rank6, actual315 xor relations and exactly8 intrinsic compatible candidates, with56 triples each."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/work/p5_archive_audit/coherence/affine_stabilizer_results.json",
+        "detail": "Fresh8-star/28-edge reconstruction and equality of the full partition/theta stabilizer with all1344 affine transformations."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/export_and_fibre_bindings.json",
+        "detail": "Source-root orders equal theta checkpoints; tetrahedral relation span21 and theta-difference span6."
+      },
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Primary Sections5.1\u20135.2, Theorem5.1, Proposition5.4, Corollary5.5, and Sections12.1\u201312.3 inspected."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_geometry_supplement.md",
+        "detail": "Full universal Galois-stability and algebraic-integer norm inference, distinguishing containment from equality."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "T1(T4)=0, T3(T4)=T5 and T5\u00b2=\u22127 hold exactly in the actual source field; fourteen distinct simple T1 reductions across the two K embeddings prove the degree14 intermediate field and exact seven blocks of four over K. The verified full theta incidence makes the even/orthogonality condition intrinsic and Galois-stable; exhaustive enumeration gives8 candidates and56 triples per candidate. Their invariants are integral, degree at most16 over Q. The exact coefficient inequality puts every conjugate source root inside radius9, giving difference norm bound40889^16. At each embedding,28 distinct simple source roots lift correctly modulo733177^24, with the proper T5 value; freshly recomputed triangle sums separate all8 candidates and candidate0 equals\u221248+12w to this precision. Since733177^24 exceeds the nonzero integral norm bound, equality is exact. Its distinct invariant makes this theta Galois-fixed. The explicitly reconstructed graph and exact full stabilizer calculation give containment in AGL3(F2), not equality. These are project-specific numerical and theorem-interface checks, not reliance on a group-name field or saved flag.",
+    "remaining": "No remaining project-specific tower/root-bound/theta identification obligation in this node. It depends on the actual geometry and standard primary results listed. The complete rank upper bound still requires its other separately audited nodes."
+  }
+]

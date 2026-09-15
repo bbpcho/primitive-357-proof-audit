@@ -1,0 +1,200 @@
+--- sealed-release/manuscript.tex
++++ logical-audit-draft/manuscript.tex
+@@ -48,7 +48,7 @@
+        $x^3+y^5=z^7$\\[3mm]
+        \large From the published frontier to a certified proof}
+ \author{\mbox{}}
+-\date{14 September 2026}
++\date{15 September 2026 --- logical-audit review draft}
+ 
+ \begin{document}
+ \maketitle
+@@ -587,6 +587,26 @@
+ \end{equation}
+ over $k$.  Write $J_2=\operatorname{Jac}(C_2)$.
+ 
++Here is the solution-bearing condition used in the terminal argument.
++Put $\kappa=(7+\delta)/2$, choose a root $u$ generating
++$M=k(\sqrt\kappa)$, and let $v$ be its conjugate over $k$.
++The quotient map of \cite[Lemma~7.2]{DahmenSiksek} gives a point
++$P\in C_2(k)$ with
++\[
++ U(P)=\frac{(u+v)^2}{uv},\qquad \rho(P)=\Phi(u)=\eta\in\Q,
++\]
++where $\rho\in k(C_2)$ is the quotient parameter.  The denominator
++$uv$ is nonzero because $\eta\ne0$.  Moreover $U(P)\notin\Q$.
++Indeed, $N_{k/\Q}(\kappa)=21$ is not a square in $k$, so $M/\Q$
++is not Galois and its only quadratic subfield is $k$.
++If $U(P)\in\Q$, the equation
++$(u/v)^2+(2-U(P))(u/v)+1=0$ implies $u/v\in k$.
++Since $uv\in k$, we obtain $u^2\in k$, and hence
++$u=b\sqrt\kappa$ for some nonzero $b\in k$.
++The coefficient of $\sqrt\kappa$ in $\Phi(u)\in k$ then gives
++$b^2=-7/(5\kappa)$.  This is impossible: its norm would give
++$N_{k/\Q}(b)^2=7/75$, which is not a rational square.
++
+ \subsection{The Mordell--Weil group and sieve}
+ 
+ We use the Mordell--Weil group determination of
+@@ -602,7 +622,13 @@
+ Mordell--Weil computations used in the cited lemma give
+ $\rank A=3$; good reduction at $11$ and $13$, together with the displayed
+ order of $D_0$, gives $A_{\rm tors}=\langle D_0\rangle\simeq\Z/10\Z$.
+-Moreover, $2A\subseteq H_0\subseteq H$, the second inclusion following from
++For the nontrivial $\sigma\in\Gal(k/\Q)$ and every $P\in A$,
++\[
++                  2P=(P+\sigma P)+(P-\sigma P).
++\]
++The full rational and twisted groups identify the fixed and anti-fixed
++summands on the right with the named generators of $H_0$.
++Thus $2A\subseteq H_0\subseteq H$, the second inclusion following from
+ the verified relation
+ \[
+                  D'_3=9D_0+3D_1-D_2-2D_3.
+@@ -912,13 +938,30 @@
+ units, so each disk contains only its reference point among common
+ Coleman zeros.
+ 
+-At $P_1$, a normalized second-order system has exactly two simple reduced
+-zeros,
++At $P_1$, write the two local parameters as $23u,23v$, so that the
++whole product residue disk is parametrized by $(u,v)\in\Z_{23}^2$.
++For the two annihilator integrals $F_1,F_2$, use the normalized equations
++$F_1/23=0$ and $(F_2-6F_1)/23^2=0$.  The second numerator is integrally
++divisible by $23^2$: its linear coefficients vanish modulo $23$ before
++scaling, and all higher terms supply the extra factor.  The reductions are
++\[
++              2u+4v=0,\qquad
++              21u+6v+14u^2+21v^2=0.
++\]
++They have exactly two simple reduced zeros,
+ \[
+                          (u,v)=(0,0),\qquad(14,16),
+ \]
+-with determinants $20$ and $3$.  The first is $P_1$.  At the second, the two
+-local parameter values modulo $23^8=78{,}310{,}985{,}281$ are
++with determinants $20$ and $3$.  Multivariate Hensel lifting gives one
++exact common zero in each of these two classes and none elsewhere.
++The first is $P_1$.  The arithmetic retains seven digits after both
++normalizing divisions: an omitted integrated term of exponent $k\ge12$
++has valuation at least $k-v_{23}(k)\ge12$, and the coefficient arithmetic
++retains the required precision.  Multiplication by $23$ gives the local
++coordinates modulo $23^8$.  The canonical parameter denominator is a
++unit at both lifted endpoints, so its evaluation preserves those eight
++digits.  At the second zero, the two parameter values modulo
++$23^8=78{,}310{,}985{,}281$ are
+ \[
+  t_{s=4}=59{,}233{,}664{,}629,\qquad
+  t_{s=19}=24{,}239{,}267{,}738.
+@@ -952,7 +995,7 @@
+ \end{equation}
+ Put $F=\Q(\sqrt5)$ and let
+ \(\bar\rho_7:G_F\to\operatorname{GL}_2(\overline{\F}_7)\) be the residual
+-representation of their plus motive at $t_0$.  The use of the modular
++representation of the weight-two realization of their plus motive at $t_0$.  The use of the modular
+ method at the small exponent $p=7$ rests on the following precise inputs,
+ not on the headline large-exponent theorem of \cite{PVT}.
+ Theorem~2.4(1) of \cite{PVT} states that for $r=3$ and $q\geq5$ the plus
+@@ -984,17 +1027,19 @@
+ prime: ordinary specialization, one of the two degenerations $t=0,\infty$,
+ or the level-lowering specialization $t=1$.  From the complete upstream
+ \texttt{Data.txt}, the certificate independently reduces all $6253$ trace
+-polynomials at $37$ primes modulo~$7$, verifies all ordinary parameters and
+-all five and three degenerate character values, performs the required
+-relative-degree-two trace transport, and adjoins both signs of
+-$N(\mathfrak q)+1$.  Seventeen of the eighteen historical filters are exactly
++polynomials at $37$ primes modulo~$7$.  Separately, it reconstructs all
++$1264$ ordinary parameters at the $18$ historical filter primes and all
++$128$ boundary character possibilities at the $16$ split primes.  It
++performs the required relative-degree-two trace transport for the boundary
++data and adjoins both signs of $N(\mathfrak q)+1$.  Seventeen of the eighteen historical filters are exactly
+ the resulting squarefree allowed-trace polynomials.  At $\ell=131$ the
+ historical degree-$48$ filter omitted the allowed level-lowering trace $1$,
+ since $-(131+1)\equiv1\pmod7$.  We therefore replace only that condition, in
+ memory, by $T^{49}-T$, which admits every $\F_{49}$-valued trace.
+ 
+ Write $W_N\subseteq V_N$ for the intersection after these seventeen verified
+-conditions and the conservative no-filter condition at $131$.  Characteristic-zero Jacquet--Langlands
++conditions and the condition at $131$ imposing no further restriction
++on $\F_{49}$-valued Frey eigenvalues.  Characteristic-zero Jacquet--Langlands
+ \cite[Theorem~3.9 and \S4]{DembeleVoight} supplies the corresponding
+ Hecke eigenvector in the definite quaternionic function model.  The exact
+ order and neighbour computations verify the maximal order, class number
+@@ -1006,16 +1051,24 @@
+ The local trichotomy places it in $W_N$.  This proves coverage without
+ degeneracy-map subtraction.  A fresh simultaneous primary decomposition has
+ packet dimensions, with multiplicity, summing to $\dim W_N$ at every level.
+-The prime-$2$ calculation gives the necessary residual trace $-1$ when $X$ is
+-even and $0$ when $Y$ is even.  Retaining every packet for which that scalar
++The exceptional field is unramified at $2$ with local factor degrees
++$[1,2,4]$.  If $2\mid Z$, the integral equation for $W=ZT$ reduces to
++\[
++ W^7+1=(W+1)(W^3+W+1)(W^3+W^2+1)\quad\text{over }\F_2.
++\]
++Its factors are distinct and irreducible, giving local degrees $[1,3,3]$,
++a contradiction.  Hence $Z$ is odd, and exactly one of $X,Y$ is even.
++In the variable convention $X^5+Y^3=Z^7$ used here, the prime-$2$
++calculation gives the necessary residual trace $-1$ when $Y$ is even
++and $0$ when $X$ is even.  Retaining every packet for which that scalar
+ is a root of the residual $T_2$ polynomial gives
+ \[
+ \begin{array}{c|rrrr}
+  &22&23&32&33\\ \hline
+  \dim W_N&8&38&28&98\\
+  \text{all packets}&4&14&12&24\\
+- X\text{-even}&1&2&2&5\\
+- Y\text{-even}&2&10&3&11.
++ Y\text{-even}&1&2&2&5\\
++ X\text{-even}&2&10&3&11.
+ \end{array}
+ \]
+ Across all thirty-six retained packet occurrences, the set of residual
+@@ -1232,8 +1285,16 @@
+ twisted Mordell--Weil and torsion computations used in
+ \cite[Lemma~7.3]{DahmenSiksek} remain explicit published/Magma inputs.
+ The finite-field $173$ Kummer argument repairs the separate $2$-saturation
+-step; it does not replace those rank and torsion inputs.  No new Magma
+-execution of those inputs is claimed by the independent release audit.
++step; it does not replace those rank and torsion inputs.  The
++14 September release audit did not newly execute those Magma inputs.
++A separate replay on 15 September 2026 executed seven unchanged inputs
++through the official Magma calculator, version V2.29-10, including both
++of these full-group computations.  All seven completed successfully;
++their exact input identities, output records and mathematical checks are
++preserved in the separate fresh-Magma replay addendum.  This is a fresh
++execution using Magma, rather than an independent implementation of its
++algorithms.  The floating height comparison in that addendum does not
++replace the separate exact height bounds.
+ 
+ \subsection{Companion certificate archive}
+ 
+@@ -1296,7 +1357,8 @@
+ SageMath programs reconstruct the specified arithmetic layers, with errors
+ and precision failures treated as failures.  The release guide separately
+ identifies computations retained as published inputs or authenticated Magma
+-transcripts.  These are not represented as fresh independent executions.
++transcripts.  The seven subsequent Magma executions described above are
++recorded separately from that immutable release.
+ The global rank and local stopping conclusions use the stated general
+ theorems and verified hypotheses as well as the replayed arithmetic.
+ 
+@@ -1537,10 +1599,15 @@
+ \begin{equation}\label{eq:t-inverse-identity}
+                          G_t+tH_t=0,
+ \end{equation}
+-and therefore $t=-G_t/H_t$ away from the common projective base locus.  The
+-certificate verifies \eqref{eq:t-inverse-identity} in the homogeneous
+-coordinate ring and checks the base points in the three branch fibres.
+-Direct substitution gives
++and therefore $t=-G_t/H_t$ wherever $H_t\ne0$.
++This rational function extends uniquely to a morphism
++$C_+\to\mathbf P^1$, since $C_+$ is smooth and projective.
++At a common zero of $G_t,H_t$, the value is obtained after cancelling
++their common vanishing in a local parameter; it cannot be read from
++the displayed projective pair alone.  The finite sieve retains such
++common-zero reductions conservatively.  The certificate verifies
++\eqref{eq:t-inverse-identity}; the five reference points are not common
++zeros, and direct substitution gives
+ $t(P_1)=0$, $t(P_2)=1$, and $t(P_3)=t(P_4)=t(P_5)=\infty$.
+ Local expansions on the smooth quartic give
+ \[

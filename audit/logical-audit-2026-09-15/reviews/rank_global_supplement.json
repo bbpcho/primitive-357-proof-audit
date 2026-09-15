@@ -1,0 +1,160 @@
+[
+  {
+    "id": "RANK-08",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 18
+    },
+    "claim": "The ordered66-dimensional space contains every relevant global fake Selmer representative.",
+    "hypotheses": [
+      "Correct support set",
+      "Unconditional class-group2-primary bound",
+      "Complete unit squareclasses",
+      "All support generators and diagonal normalization"
+    ],
+    "dependencies": [
+      "RANK-07",
+      "BPS:7.2",
+      "BPS:7.3",
+      "BPS:9.2",
+      "BPS:10.9a",
+      "STANDARD:Minkowski",
+      "STANDARD:ClassFieldTheory",
+      "Yu:OrdinaryAmbiguousClassFormula",
+      "Doud:Theorem2.4",
+      "DAndreaDickenstein:MacaulayResultant",
+      "STANDARD:AnalyticClassNumberFormula",
+      "STANDARD:DirichletUnits"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_foundations.md",
+        "detail": "Complete source-to-argument review including ordinary/narrow class distinction, sufficient support and unit index."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_second_review.md",
+        "detail": "Separate agent review of the mathematical implications and exact input bindings."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/macaulay_support_result.json",
+        "detail": "Fresh exact resultant and nonzero prime valuations."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/base_conventions.log",
+        "detail": "Fresh prime inventories, all38 principal ideal identities and base-place conventions."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/regulator_factor_result.json",
+        "detail": "Independent exact full and free determinant calculation."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "An independently reconstructed primitive integral quartic discriminant gives a sufficient bad-prime support set, with the correct s=15 place over29; exact inventories and38 principal generators are bound to it. K has class number1 by Minkowski. The reviewed unconditional class-number chain uses the degree21 analytic discriminant bound, ordinary quadratic ambiguous class formulas, the S4 zeta relation and independently recomputed free regulator factor2^27. Exact two-layer unit enlargement and full-rank residue characters prove v2(J)=27 and Cl(L)[2]=0. The S-unit sequence therefore supplies all28+38=66 squareclasses; BPS7.3 and10.9(a) give the required containing direction.",
+    "remaining": "BPS, class field theory, the explicit analytic discriminant inequality and exact arithmetic libraries are imports. This pass independently reran support/determinant arithmetic and reviewed the class/unit sources and sealed fresh outputs; it did not rerun the large interval partition or every high-degree field computation."
+  },
+  {
+    "id": "RANK-09",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 29
+    },
+    "claim": "Each of66 local columns is the restriction of the same global generator in the actual local algebra.",
+    "hypotheses": [
+      "Complete prime inventory",
+      "Correct embeddings, uniformizers and square tests",
+      "Same ordered source basis"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-08",
+      "STANDARD:LocalSquareclasses"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_foundations.md",
+        "detail": "Restriction-map proof and precise trust boundary."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_second_review.md",
+        "detail": "Independent review of Hilbert basis and all-column implication."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/predyadic.gp",
+        "detail": "Complete odd-place source reviewed."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/reconstruct_raw66.gp",
+        "detail": "Actual Hilbert bases and all66 square multiplybacks in every component."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/logs/reconstruct_raw66.log",
+        "detail": "Sealed fresh output for all seven actual components."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/base_conventions.log",
+        "detail": "Fresh support and place binding."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "All66 actual global generators are restricted, with the printed line-field and base-place identities checked. Odd coordinates are actual valuation parity and residue Euler characters. In each actual dyadic completion d=e*f+2 selected global classes have nonsingular actual Hilbert pairing, hence form a squareclass basis. Each of66 proposed coordinate combinations is tested by an exact local-square test in that completion. These462 multiplybacks certify the map independently of the approximate factor models used to discover coordinates.",
+    "remaining": "The predyadic and actual-completion arithmetic is the sealed fresh replay whose complete source was reviewed here. Local-image completeness is a separate premise; exact number-field/local-square algorithms are trusted software inputs."
+  },
+  {
+    "id": "RANK-FIRST-DYADIC",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 108
+    },
+    "claim": "The first dyadic allowed matrix is the full fake local image, of dimension4.",
+    "hypotheses": [
+      "The actual local descent and squareclass bases are those of RANK03/09.",
+      "The local torsion/group bound gives dim J(K_v)/2J(K_v) at most4."
+    ],
+    "dependencies": [
+      "RANK-01",
+      "RANK-03",
+      "RANK-06",
+      "RANK-09",
+      "BPS:11.6",
+      "STANDARD:StrongHensel",
+      "RANK-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_foundations.md",
+        "detail": "True source-point existence, all-component stability, actual-coordinate binding and dimension squeeze."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/verify_local_point_lifts.gp",
+        "detail": "Complete source read: normalized Hensel residual9, derivative0, line-stability margins28,14,28,14."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/verify_source_columns.gp",
+        "detail": "All8 source columns bound in all4 actual components; rank3 diagonal, rank7 total."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/logs/verify_local_point_lifts.log",
+        "detail": "Previously freshly replayed point/line estimates."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/logs/verify_source_columns.log",
+        "detail": "Previously freshly replayed source columns and ranks."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/dyadic_decomposition_envelope.py",
+        "detail": "Inspected complete95-class enumeration, freshly rerun unchanged; actual first-place orbit degrees4,6,6,12 leave5 classes, all with fixed J[2] dimension1."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/dyadic_decomposition_envelope.json",
+        "detail": "Fresh complete finite subgroup result with generators and actual fixed-space dimensions."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/dyadic_decomposition_envelope.log",
+        "detail": "Fresh output; group1344,95 subgroup classes, five first-place and seven second-place matches."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "At w=1, [2:46:1] lifts to a true point with X error of valuation9. Strict line estimates preserve squareclasses in every actual completion. Three diagonal classes, four exact global differences and the true local point are verified against RANK09 bases. Their total rank7 minus diagonal3 proves fake-image dimension at least4. The independent finite local group bound gives at most4, hence equality. The upper bound is now explicit: fresh exhaustive enumeration of all95 AGL3(F2) subgroup classes gives five classes with the actual first-place orbit degrees[4,6,6,12], and every one fixes a one-dimensional subspace of J[2]. Thus the genus3 Q2 local quotient has dimension3+1=4 by BPS11.6.",
+    "remaining": "The actual points/columns were replayed in the sealed audit and source-reviewed here; the complete local-torsion subgroup enumeration was rerun in this pass. Strong Hensel and the local Kummer dimension theorem remain imported."
+  }
+]

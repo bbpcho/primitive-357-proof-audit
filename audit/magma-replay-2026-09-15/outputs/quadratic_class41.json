@@ -1,0 +1,11 @@
+{
+  "id": "quadratic_class41",
+  "inputSha256": "73a4f662f7731bac2f45fb225444f6a67089363a2d645e6411361ff6ac4687a8",
+  "outputSha256": "e1b865d910019bbed86ff09c4eb068e3c0687a354b2c1cb1eb1be8133c88ac9c",
+  "observedAt": "2026-09-15T07:30:22.447Z",
+  "stats": "Seed: 467240505; Total time: 37.130 seconds; Total memory usage: 96.16MB.",
+  "output": "E1_RANK_BOUNDS 3 3\nE1_TORSION_INVARIANTS []\nE1_GENERATORS_INDEPENDENT true\nE1_EXACT_RANK_FROM_UPPER_BOUND_AND_INDEPENDENCE 3\nE1_GLOBAL_CHABAUTY_V {\n    0,\n    -2*G.2 + 2*G.3,\n    2*G.2 - 2*G.3\n}\nE1_GLOBAL_CHABAUTY_R 6592880678883323322765152793600\nE1_GLOBAL_R_FACTORIZATION [ <2, 10>, <3, 5>, <5, 2>, <7, 4>, <11, 1>, <17, 1>,\n<19, 1>, <29, 1>, <31, 1>, <37, 1>, <43, 1>, <47, 1>, <53, 1>, <61, 1>, <71, 1>,\n<83, 1>, <97, 1> ]\nE1_RATIONAL_X { (35/9 : 1), (0 : 1) }\nE1_SATURATION_THROUGH_97_UNCHANGED true\nCLASS41_STATUS=PASS_GLOBAL_CHABAUTY_AND_INDEX_DISCHARGE\n\n",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "capture": "Live calculator DOM input and result; byte hashes computed on captured strings, checked against local files"
+}

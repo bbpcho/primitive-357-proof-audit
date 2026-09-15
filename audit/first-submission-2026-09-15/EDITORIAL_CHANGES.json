@@ -1,0 +1,181 @@
+{
+  "basis_sha256": "677973b6c12c3a65b0670a8886bdb3e89fce9be77af286fbbd1ccdcc3694af1e",
+  "paper_sha256": "3619e519ae58533573cc5b5ebd6e86df0f063a916376200949c6c8ab8cb6c507",
+  "scope": "Author metadata and first-submission presentation; no mathematical formulas, theorem statements, certificates or computational outputs changed.",
+  "changes": [
+    {
+      "old": "From the published frontier to a certified proof",
+      "new": "A computer-assisted proof",
+      "reason": "Present the first-submission paper directly and avoid ambiguity about previous publications or formal certification.",
+      "occurrences": 2
+    },
+    {
+      "old": "\\author{\\mbox{}}",
+      "new": "\\author{Peter Chocian\\\\[1mm]\\small Independent researcher}",
+      "reason": "Author and affiliation supplied explicitly by the user.",
+      "occurrences": 1
+    },
+    {
+      "old": "\\date{15 September 2026 --- logical-audit review draft}",
+      "new": "\\date{15 September 2026}",
+      "reason": "Remove internal audit-draft designation from the paper.",
+      "occurrences": 1
+    },
+    {
+      "old": "  pdfsubject={A computer-assisted proof},",
+      "new": "  pdfsubject={A computer-assisted proof},\n  pdfauthor={Peter Chocian},",
+      "reason": "Set PDF author metadata.",
+      "occurrences": 1
+    },
+    {
+      "old": "proof grows from the previously published frontier.",
+      "new": "proof extends the prior work cited below.",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "the three published\nreducible-sector arguments",
+      "new": "the three reducible-sector arguments of Dahmen--Siksek",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "step as published input, reconstructed input, or new argument.",
+      "new": "step as a literature input, reconstructed input, or new argument.",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "\\subsection{The published frontier}",
+      "new": "\\subsection{Prior work}",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "Thus the published frontier can be summarized in",
+      "new": "Thus the established frontier can be summarized in",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "the previously published reducible sectors",
+      "new": "the reducible-sector arguments of Dahmen--Siksek",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "Published general theorems remain ordinary bibliographic dependencies.",
+      "new": "General theorems from the literature remain ordinary bibliographic dependencies.",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": " & published by Dahmen--Siksek",
+      "new": " & Dahmen--Siksek",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": " & not eliminated at the published frontier",
+      "new": " & not eliminated by the cited prior work",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "fix the strongest published frontier",
+      "new": "fix the strongest established frontier",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "a recomputation of a published argument",
+      "new": "a recomputation of an existing argument",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "The argument uses standard published results",
+      "new": "The argument uses standard results",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "published inputs from Dahmen--Siksek.",
+      "new": "inputs from Dahmen--Siksek.",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "Putz's published theorem.",
+      "new": "Putz's classification theorem.",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "absent at the published\nseven-field frontier",
+      "new": "absent from the cited prior work",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "The general modularity and conductor theorems used here are published inputs.",
+      "new": "The general modularity and conductor theorems used here are cited inputs.",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "the published part of the proof,",
+      "new": "the cited arguments of Dahmen--Siksek,",
+      "reason": "Clarify attribution to prior literature without implying an earlier paper by the author.",
+      "occurrences": 1
+    },
+    {
+      "old": "from first principles.  In the cubic--quartic sector, the rational and\ntwisted Mordell--Weil and torsion computations used in\n\\cite[Lemma~7.3]{DahmenSiksek} remain explicit published/Magma inputs.\nThe finite-field $173$ Kummer argument repairs the separate $2$-saturation\nstep; it does not replace those rank and torsion inputs.  The\n14 September release audit did not newly execute those Magma inputs.\nA separate replay on 15 September 2026 executed seven unchanged inputs\nthrough the official Magma calculator, version V2.29-10, including both\nof these full-group computations.  All seven completed successfully;\ntheir exact input identities, output records and mathematical checks are\npreserved in the separate fresh-Magma replay addendum.  This is a fresh\nexecution using Magma, rather than an independent implementation of its\nalgorithms.  The floating height comparison in that addendum does not\nreplace the separate exact height bounds.",
+      "new": "from first principles.  In the cubic--quartic sector, the rational and\ntwisted Mordell--Weil and torsion results in\n\\cite[Lemma~7.3]{DahmenSiksek} remain explicit inputs.\nThe finite-field $173$ Kummer argument supplies the separate\n$2$-saturation step; it does not replace those rank and torsion inputs.\nSeven archived Magma inputs, including both full-group computations,\nwere executed through the official Magma calculator, version V2.29-10.\nTheir exact inputs, outputs and mathematical checks are included in\nthe companion verification materials.  These executions use Magma's\nalgorithms; they are not independent implementations.  The numerical\nheight comparison supplements, and does not replace, the separate exact\nheight bounds.",
+      "reason": "Describe computations as evidence accompanying this paper, retaining all trust and height qualifications.",
+      "occurrences": 1
+    },
+    {
+      "old": "The verified release is identified by tag\n\\texttt{verified-2026-09-14.1} and by the separately recorded checksum of\n\\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}.\nIt preserves the V3, $5$-adic and rank-closure inputs under distinct\nrepository-relative evidence roots.  Historical archives remain immutable.\nThe release-level integrity and theorem-interface verifier is\n\\begin{center}\n\\texttt{python3 -B scripts/verify\\_release.py}.\n\\end{center}\nIts \\texttt{--replay} mode, supplied with explicit SageMath and PARI/GP\nexecutables and an output directory, runs the adopted reconstruction\nchecks.  The accompanying \\path{PROGRAMS_AND_CERTIFICATES.md} gives\nthe exact commands, dependency indexes, successful logs and retained\nimported premises.  In particular, the rank route includes the actual local\nimage and fake-kernel stopping proofs in Appendix~\\ref{app:rank-proof},\nthe same-literal-$c$ comparison, and the corrected $H_0/H_1$ index\nstatement.  The historical V3 and post-V3 PASS records are retained as\nprovenance; they are not substitutes for these adopted checks.",
+      "new": "The programs, exact inputs, certificates and verification records\naccompanying this paper are collected in\n\\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}.\nIts guide records the component filenames, checksums and replay\ninstructions.  These are versioned computational materials for this paper.\n\nThe source and data component is identified by tag\n\\texttt{verified-2026-09-14.1} in the repository\n\\href{https://github.com/bbpcho/primitive-357-proof-audit}{\\texttt{bbpcho/primitive-357-proof-audit}}\nand by the checksum of\n\\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}.\nIt contains the geometric, $5$-adic and rank-closure inputs under distinct\nevidence roots.  The companion also contains the argument-audit materials,\nincluding the exact supplementary checks and seven Magma execution records.\nThe source and data component's integrity and theorem-interface verifier is\n\\begin{center}\n\\texttt{python3 -B scripts/verify\\_release.py}.\n\\end{center}\nIts \\texttt{--replay} mode, supplied with explicit SageMath and PARI/GP\nexecutables and an output directory, runs the specified reconstruction\nchecks.  The component guide \\path{PROGRAMS_AND_CERTIFICATES.md} gives\nthe commands, dependency indexes, successful logs and retained imported\npremises.  In particular, the rank route includes the actual local-image\nand fake-kernel stopping proofs in Appendix~\\ref{app:rank-proof},\nthe same-literal-$c$ comparison, and the $H_0/H_1$ index statement.\nThe companion guide identifies the supplementary verifiers separately;\nthe integrity check alone is not an arithmetic replay.",
+      "reason": "Describe one complete companion collection for this first paper, with existing data snapshots as versioned components.",
+      "occurrences": 1
+    },
+    {
+      "old": "  & published; reconstructed",
+      "new": "  & Dahmen--Siksek; reconstructed",
+      "reason": "Attribute the earlier mathematical results accurately.",
+      "occurrences": 2
+    },
+    {
+      "old": "  & published, with new intrinsic routing",
+      "new": "  & Dahmen--Siksek; new intrinsic routing",
+      "reason": "Attribute the earlier mathematical results accurately.",
+      "occurrences": 1
+    },
+    {
+      "old": "  & published, with new formal-group certification",
+      "new": "  & Dahmen--Siksek; new formal-group certification",
+      "reason": "Attribute the earlier mathematical results accurately.",
+      "occurrences": 1
+    },
+    {
+      "old": "  & new, using published modular theorems",
+      "new": "  & new, using cited modular theorems",
+      "reason": "Attribute the earlier mathematical results accurately.",
+      "occurrences": 1
+    },
+    {
+      "old": "and precision failures treated as failures.  The release guide separately\nidentifies computations retained as published inputs or authenticated Magma\ntranscripts.  The seven subsequent Magma executions described above are\nrecorded separately from that immutable release.",
+      "new": "and precision failures treated as failures.  The companion guide\ndistinguishes imported literature results, authenticated Magma execution\nrecords, and independently reconstructed calculations.",
+      "reason": "Remove audit chronology while preserving provenance distinctions.",
+      "occurrences": 1
+    },
+    {
+      "old": "a general theorem can be replaced by an\nindependent implementation",
+      "new": "a computational component can be replaced by an\nindependent implementation",
+      "reason": "Only a computational component, not a general theorem, is replaced by an implementation.",
+      "occurrences": 1
+    }
+  ]
+}

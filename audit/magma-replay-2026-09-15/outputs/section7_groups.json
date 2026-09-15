@@ -1,0 +1,11 @@
+{
+  "id": "section7_groups",
+  "inputSha256": "1b348d417d63078157bcc20b8b96eeeb234e4cc89139d886bcef40aca24fc862",
+  "outputSha256": "2690df9f2b82b175f3c9ee37efa15bf280f17cae5cce81a2bedad5bc12b61d6a",
+  "observedAt": "2026-09-15T07:24:15.884Z",
+  "stats": "Seed: 3389539998; Total time: 26.149 seconds; Total memory usage: 129.59MB.",
+  "output": "UNTWISTED_GROUP [ 10, 0 ]\nUNTWISTED_NAMED_COORDINATES [ 3, 0 ]\n[ 0, -1 ]\nUNTWISTED_PROVED true true 1\nTWISTED_GROUP [ 2, 0, 0 ]\nTWISTED_NAMED_COORDINATES [ 1, 0, 0 ]\n[ 0, -1, 0 ]\n[ 1, 0, -1 ]\nTWISTED_PROVED true true 2\nSECTION7_LEMMA_7_3_MAGMA=PASS_RIGOROUS_FULL_GROUPS_AND_NAMED_GENERATORS\n\n",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "capture": "Live calculator DOM input and result; byte hashes computed on captured strings, checked against local files"
+}

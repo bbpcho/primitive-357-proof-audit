@@ -1,0 +1,11 @@
+{
+  "id": "quadratic_class42",
+  "inputSha256": "0e87fabb4b2e5f748683f3df613048c1714758f44fd61e5a7105eb5949fed49a",
+  "outputSha256": "74fda06545387e1c25a0df94ec35048259e91b73a19345fcb80b551c4b7961e7",
+  "observedAt": "2026-09-15T07:30:50.912Z",
+  "stats": "Seed: 2109730967; Total time: 20.390 seconds; Total memory usage: 32.09MB.",
+  "output": "E3_RANK_BOUNDS 2 2\nE3_TORSION_INVARIANTS []\nE3_GENERATORS_INDEPENDENT true\nE3_FULL_SATURATION_UNCHANGED true\nE3_LOCAL_CHABAUTY_N 1\nE3_LOCAL_CHABAUTY_V {\n    0\n}\nE3_LOCAL_CHABAUTY_R 4\nE3_LOCAL_CHABAUTY_UNRESOLVED {}\nE3_RATIONAL_X { (0 : 1) }\nCLASS42_STATUS=PASS_FULL_BASIS_AND_LOCAL_CHABAUTY\n\n",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "capture": "Live calculator DOM input and result; byte hashes computed on captured strings, checked against local files"
+}

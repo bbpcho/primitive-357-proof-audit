@@ -1,0 +1,11 @@
+{
+  "display_math": 60,
+  "inline_math": 888,
+  "equation": 41,
+  "theorem": 2,
+  "rank_appendix_unchanged": true,
+  "author": "Peter Chocian",
+  "affiliation": "Independent researcher",
+  "changes_are_editorial": true,
+  "latex_passes": 3
+}

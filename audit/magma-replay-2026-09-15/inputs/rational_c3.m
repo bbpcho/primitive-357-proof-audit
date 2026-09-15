@@ -1,0 +1,14 @@
+SetSeed(1);
+Qx<x> := PolynomialRing(Rationals());
+f := 76*x^6-240*x^5+5649*x^4-10538*x^3+5541*x^2-1320*x+79564;
+C := HyperellipticCurve(f);
+J := Jacobian(C);
+print "BadPrimes", BadPrimes(C);
+print "RankBounds", RankBounds(J);
+pts := Points(C : Bound:=1000);
+print "SearchPoints", pts;
+Pp := C![-2,540,1];
+Pm := C![-2,-540,1];
+D := J![Pp,Pm];
+print "OrderD", Order(D);
+print "Chabauty", Chabauty(D : ptC:=Pp);

@@ -1,0 +1,923 @@
+{
+  "scope": "Files explicitly cited in the assembled ledger; not a transitive replay manifest.",
+  "files": [
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/global_reducible_results.json",
+      "size": 5078,
+      "sha256": "c0544d991806f4cccb29c7a4ada715be5b06ffcd217624ec92873af32f4a6552",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/rational_c3.json",
+      "size": 733,
+      "sha256": "b64d70fbe465c848392fc39b6c8b38d31db123b838f94ffb968e0cd9d2d667e8",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/rational_c3_challenge.json",
+      "size": 686,
+      "sha256": "e29696af6a20c51483af53af679584190c36a8e61a122ab84378d0f2816f2e73",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/rational_c1_height.json",
+      "size": 2121,
+      "sha256": "4f8fa5623b3774a7caa3a98fc3731900b0ad91c0a545c1bc3ca4d136bc5791ea",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/quadratic_fake_selmer.json",
+      "size": 639,
+      "sha256": "195ac76fbc942e1b6d1c801333146eb88fc5fd249f640d6e3c8c5520ce77069f",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/quadratic_class41.json",
+      "size": 1139,
+      "sha256": "5953f239f51fea24b765c0f5221caf64d1f152a5a37a85e0825618763c776d73",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/quadratic_class42.json",
+      "size": 866,
+      "sha256": "20b611e618d445589d50f61c897d283ef9a51a69b699d10088bc2a0097b6c1b9",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/section7_groups.json",
+      "size": 863,
+      "sha256": "ad56e0cd5cf3d05270ad83b2ef194d2d1b2c4df5528a4023c20ae8c745b7fbff",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/manuscript_section7_review.md",
+      "size": 13260,
+      "sha256": "35c48423dc0af77199a648eb71dd1d701608f250856e210d0ca21b84b247fe10",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/flynn_coordinate_results.json",
+      "size": 6008,
+      "sha256": "4a24fed486be6cc8beb9d01fbbdf8184d7011b298b198d6393d4447a76935c27",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/section7_uniform_recheck.json",
+      "size": 5213,
+      "sha256": "7cbb5245ed4247459450f54531337127822ab625b53a6cad1f10f86d02e621bf",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/section7_second_review.md",
+      "size": 9286,
+      "sha256": "f005c2634175061da5554fd8bd1a6c3d5a950d9f44f400a7ebba0325c31dcf6d",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/VALIDATION_REPORT.json",
+      "size": 4886,
+      "sha256": "3d29280c6e3229b42eb1512d51a0897038b2fcba2c0609c46efb9f705270eac4",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/MANUSCRIPT_CHANGES.json",
+      "size": 9461,
+      "sha256": "256f745a2dd59f2a321810b3ea11f8836da7eac66eed65c7ae63e868507c4f9f",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Thesis_CasperPutz.pdf",
+      "size": 1946808,
+      "sha256": "5652812adac99a7d5c8b429a83072cbf5b1ccae35552645a837093dd8ade2c7c",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+      "size": 20224,
+      "sha256": "9ac0f7dc0df6f645dbfc31a42e952f23d82e4cef895080fc5d6eef0a282baaa0",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+      "size": 719399,
+      "sha256": "d5983c0949129942c3510d9c3a8de1fbf8998e4b0e5b5d822ddf94a795048004",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "size": 80472,
+      "sha256": "5dc92b60a88cdc0ec4addbe549efc5756e164db49b290fc0ac225bbc5dc972ff",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/hecke_foundations/scripts/independent_quaternion_generators.py",
+      "size": 5010,
+      "sha256": "207507d613106c785fa5f423e94a4eb1a971bc19502c30a8f037fcdc3e455d01",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/hecke_foundations/independent_quaternion_generators.json",
+      "size": 2543,
+      "sha256": "e138e838b0f7d954ce0d1c008b1b01e8f617d149e58d1d645b4414afe3791a52",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/independent_quaternion_generators.json",
+      "size": 2543,
+      "sha256": "e138e838b0f7d954ce0d1c008b1b01e8f617d149e58d1d645b4414afe3791a52",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/scripts/verify_hilbert_hecke_filter_coverage.py",
+      "size": 10161,
+      "sha256": "936a0eab39e1a9684614152bde52feff93815ae7a2fa0346a299db1ff1903441",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/hecke_foundations/scripts/independent_ordinary.py",
+      "size": 2854,
+      "sha256": "578ec76b033df8ee192f452d59f93b00f8b948a222a4c6c64a14d929c1a3e391",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/hecke_foundations/independent_boundary_jacobi.json",
+      "size": 37415,
+      "sha256": "fb8bb65b70397c73146f1c94830f739b72a516ee6d5eaf83c8da38485dbc311a",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/hecke_foundations/independent_ordinary.json",
+      "size": 319,
+      "sha256": "9d7bc5a9ff81b70641dabb8fdbea0868c64eba3d7774dafc58aed22ba8680e47",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/scripts/verify_hilbert_hecke_ambient_coverage.py",
+      "size": 11025,
+      "sha256": "0c4dac55eda72764d615e2e4c49431ff969165d4ed798eafa44baa798ffd96a3",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/independent_hecke_22_23_32_33.json",
+      "size": 2703,
+      "sha256": "8d80f7644b58043fa683641f65a47dd76f796a1ce1f367c6dd63e79bda6aa491",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/draft/manuscript.tex",
+      "size": 84105,
+      "sha256": "677973b6c12c3a65b0670a8886bdb3e89fce9be77af286fbbd1ccdcc3694af1e",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_odd_branch_local2_certificate.py",
+      "size": 3074,
+      "sha256": "71857eeedcd09eac374fed20613ac6fed72c94e7bc2efc3dbd97f81e34a47ab6",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_level33_mod7_intersection.c",
+      "size": 23998,
+      "sha256": "ea5a509f854c00966171021151163c1db143d4aea2d7b38187c78bf0c8a91920",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/hilbert-hecke-ambient-coverage.log",
+      "size": 32290,
+      "sha256": "71edc217d116e74622eec40a892189cd57a376bbee3ece9a056c3a37bd67dfae",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/review/exceptional_audit.py",
+      "size": 4512,
+      "sha256": "2e3d0d13a3327d0a1dd40a4b1032423cc5a55b7122d53914fe5eff39b7d2be96",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_cover_certificate.py",
+      "size": 6541,
+      "sha256": "dd93bdb302ab4adc0d9b731c73dda488402016a5ddf78e816bdb8d73aa38bda9",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/irreducible-septic-sector.log",
+      "size": 152,
+      "sha256": "0319a2f2afc56eaf12ebe3fbcd2a9fb486456851e7501a0045ed32f793b642f0",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_fano_resolvent_certificate.py",
+      "size": 9286,
+      "sha256": "de3b8e28368510cdc18abc5dae9c3310b793b616ea8a15278f25c25ace6acaf7",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/independent_fano_resolvent_foundation.log",
+      "size": 277,
+      "sha256": "be7314f90f8de78ddc1e29b3bef9e4bd38efa8297fcaeda90192291e4c624e1f",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/pure_parameter.md",
+      "size": 20284,
+      "sha256": "11b037e9aa9217c4f7036411547dca881a5e55f6658257195176bf3d060a7377",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_f42_canonical_verify.py",
+      "size": 16006,
+      "sha256": "c71f094867f544fa0e8c79ad6919cd0803328f9bd7e3c10c7c0efb8df3f1b028",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/validate_exact_log_tensors.sage",
+      "size": 8552,
+      "sha256": "e2d01830bb51f1fc7ff1ed3a1107126413b102e0dcef71758de7ff5bd99566d5",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/tensor_validation_s4.json",
+      "size": 2397,
+      "sha256": "9aadd6b8a8972264cedb1dc9b7e38d83cb1d8a6a16a109c1b6de81cb2b212c81",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/tensor_validation_s19.json",
+      "size": 2397,
+      "sha256": "8ffddc02aeff112b1ee09224f058931461f05899ab45e24befa460a56caa7185",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_projected_E.py",
+      "size": 4101,
+      "sha256": "450c952d3a4fcd2275cd7157e3bb3edb46a570b74923f9a97ccb78d7ede280b1",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/projected_E_reconstruction/p23_root4.json",
+      "size": 619,
+      "sha256": "4d47d4783d221c0431a105355aab17dc8f0328da8be906decb9372c079c1d3e5",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/review/pure_ramification_exact.py",
+      "size": 1151,
+      "sha256": "eb6b29439c389f17fe3a61bb15244e155f1d426b0503332618e1d2f8d91ed900",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/two_primary_saturation_characters.py",
+      "size": 4778,
+      "sha256": "871f65a92315b53569a9cecb688b444d4787c067065c6b1ab3731deabdc8c73a",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/check_c25_maps.py",
+      "size": 3791,
+      "sha256": "a3204cd0c096d84dc714b1b0d7b354ad6c09c45591f885436118fb75506ec90a",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/integration_prior/check_five_saturation.py",
+      "size": 1945,
+      "sha256": "f3762709e0f3d95d73a5133f2f4d0c6eb6b1005551fa9533ceb3410c756695b0",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/torsion_and_orders_checks.json",
+      "size": 818,
+      "sha256": "0a0659cf4d5cd5fb54e8c3d6cb0264560d09982e86a77b82381aa056e47618fe",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p23_root4.json",
+      "size": 389,
+      "sha256": "74e35064fe3fa1a44138ecacb38680351618fe2a8d5609b53fe1c0084b62dc89",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p43_root37.json",
+      "size": 392,
+      "sha256": "946ad7e2768614489ef1b770bacdae9b77c61dd982d7c61be6e44bc877944450",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/two_primary_saturation_characters.json",
+      "size": 4163,
+      "sha256": "810551d99da88ee75eb276d84b4b7fe7ad9df0994f295e8fbdd516888e0f3681",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_two_primary_maps.py",
+      "size": 11104,
+      "sha256": "596a6b69b1888248daff323a5ca36505b7e752f9b8bad751d9775a8cc90a7a55",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/verify_outside_projected_point_orders.py",
+      "size": 3576,
+      "sha256": "ab7423204c08c23330c257eec9f93447fb625eeb4621a22029397eeb30ea0c46",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/scripts/verify_mixed_rational_t_mw_sieve_durable_v1.py",
+      "size": 8279,
+      "sha256": "dca7a3638c06789de4cedf996e320f5fcc254e41c195ec47d7f10b2309f0f81e",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/rational-parameter-sieve-and-lifts.log",
+      "size": 69,
+      "sha256": "d74de997950cc8d0e3bf341fb99d9a2f51964540748885c0ce1de306f009682b",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-08_p23_rational_t_diagonal_residue_inventory_v1/certificates/mixed_rational_t_mw_sieve_v1.json",
+      "size": 340312,
+      "sha256": "d00c7f81b8f33ebd44d319a6a18e748a6ffb68757d1766823e370f2b4521c4b8",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/check_pure_finite.py",
+      "size": 7572,
+      "sha256": "fe2ec8822f2c345fd043f7d36f281a1163e05ff5abfb8124e67205d88ca83d5d",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/reconstruct_jacobian_orders.py",
+      "size": 1810,
+      "sha256": "da939b48614948fcdbdeb2a9948055c91a91f7e86a7aaa64f600df7be74869b8",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/jacobian_order_reconstruction/p23_root19.json",
+      "size": 389,
+      "sha256": "392bf76feb8f5a8fbbab25f5f0918c9c890de988033b92bfe355a200ef59997f",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/analyze_p23_P1_second_order_gate_v1.sage",
+      "size": 9896,
+      "sha256": "33c901c4011e2726556dffe3895b523f0bd249357c1f266a92607e758e85e113",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/check_p1_local_series.py",
+      "size": 6443,
+      "sha256": "907f7f2cb861a1b8149f9af91fef0aa76f234c53e591d71a59021c4e94e42e7c",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/proposed_log_replay_repair/compute_p23_s4_full_log_matrix_v1.sage",
+      "size": 23125,
+      "sha256": "e2ea28488f5805f12dae146a0be03b989ab918889591e7274aaf453984513d7b",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/proposed_log_replay_repair/compute_p23_s19_full_log_matrix_v1_import_repair.sage",
+      "size": 24008,
+      "sha256": "05cb84db0589fe2ccc6737ec78acbd1421c75f724fb769fff3aa9f04e6509cba",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-27_p23_branchwise_km_small_s4_probe_v1/scripts/replay_small_KM_group_law_and_75D.sage",
+      "size": 28562,
+      "sha256": "9d501691a1c77df34f41e0682dd153def5a1c981fbbb256f7df08a5521641a84",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/sage_replay/s4_candidate/audit_result.json",
+      "size": 1292,
+      "sha256": "0f4e14cccf1297010f5ba55647bd0cde33faafbf0acc056169019a7f50ee4efc",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/sage_replay/s19_candidate/audit_result.json",
+      "size": 1315,
+      "sha256": "5986d0625291ecb9008f984de3c693a8414146cda15ac07907253c2f03455031",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/check_global_log_binding.py",
+      "size": 4922,
+      "sha256": "8d7636a2b713aa94a1587e82bf1bd5019385960e8784c1e1811ce0efba34f743",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/v3_audit/global_log_binding_checks.json",
+      "size": 16979,
+      "sha256": "adbdc245fc6d6746f039d694ec2d08d23c421870de917ff8a947c0e55b474be1",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_ros_log_rank_and_siksek_v1.json",
+      "size": 5535,
+      "sha256": "183ae745a23d2b0353bf8280488a67e22ce39ee1cf9203b46e72fc85455456e8",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/p1_local_series_checks.json",
+      "size": 1643,
+      "sha256": "12092b94da42195e031e088204f8e582194f2c15e102f217c6f8e326a5768d10",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/scripts/lift_p23_P1_exceptional_root_and_coefficients_v1.sage",
+      "size": 6930,
+      "sha256": "e9606acb97db17e86e33ddfa6273aa885d06c8fcee4d8856361da731a3affabf",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-31_p23_s19_alternative_km_base_chart_screen_v1/certificates/p23_P1_exceptional_root_coefficients_v1.json",
+      "size": 2540,
+      "sha256": "dd1b1a200ea3ddfebe66bb704878baa79a3e0dde80002be833567d51f5cae71d",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-08_p23_exceptional_t_diagonal_test_v1/scripts/verify_p23_exceptional_t_diagonal_v2.py",
+      "size": 4700,
+      "sha256": "fcb2b33ac0ca0c99cf8c3aee8a8a872180861cea90253d0ba963e3ba6d8befd5",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-20_descent_support/certificates/descent_support_manifest.json",
+      "size": 1817649,
+      "sha256": "71fcb241f70527a8ff617b8b3d10d1ca204e9d990bfb743de82e9be060aeba73",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/manuscript.tex",
+      "size": 80472,
+      "sha256": "5dc92b60a88cdc0ec4addbe549efc5756e164db49b290fc0ac225bbc5dc972ff",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/fresh_replay_results.json",
+      "size": 4560,
+      "sha256": "3c7d279960d4cc4a9bcddb90cf256a52e8b25de0da7b60181f20dddf76d3c347",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/fresh_tetrad_replay_results.json",
+      "size": 1825,
+      "sha256": "c3e82db9f9e552f6ed3f5c2b03faf3ade54b7eda7737a23db8ba9b0ccacdf1a0",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/export_and_fibre_bindings.json",
+      "size": 2570,
+      "sha256": "e59a62fe1bc4cae3f53265bc6eecaa9e83d5496f421e85e961d87fe1e1c02f32",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/source_quartic_sign_results.json",
+      "size": 1318,
+      "sha256": "fb23c8036695e33248ffe30d7cd742a673f6d41b25302e67a6f291b36811836d",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/check_source_base.log",
+      "size": 58,
+      "sha256": "4909831f0e8cc73604d3778aad0aab1b5791890752c1f78c8311201896eeeb00",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/immutable_input_index.json",
+      "size": 6627,
+      "sha256": "4607772fc3d43a49469d04332c6b33248f61d8d5becb138589770c9afc6d7ea1",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_geometry_supplement.md",
+      "size": 11831,
+      "sha256": "e72068914ea13f2d34d5ca8d4e7a97e968023c0dc53603936c8b614060204d51",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/check_geometric_tetrads.py",
+      "size": 2355,
+      "sha256": "ceb5900d91f9f5e48ab5c9bd605c9b28dfe6373570cec9c26abd329dc6b3303a",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/p5_archive_audit/coherence/geometry_modq.json",
+      "size": 2327,
+      "sha256": "aa062e1dab2f6380a22010846c2f6ef937eaff4a1ecd5bf2f8ac7da2be75a3cb",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/work/p5_archive_audit/theta/theta_invariant_results.json",
+      "size": 2145,
+      "sha256": "bac64b8f4ef1d0c6b58b4a29e21ecd4e7192cd061e7e564709718cc6e06ad393",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/work/p5_archive_audit/coherence/intrinsic_theta_results.json",
+      "size": 1221,
+      "sha256": "674f50d194c47197af45ddc6ae1e08941edf52e654382ce52b6f83edfc39509f",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/runtime/rank_geometry/work/p5_archive_audit/coherence/affine_stabilizer_results.json",
+      "size": 763,
+      "sha256": "de1cebe839e81929cad8accab6b47bfda6ce848f4568393b984de853ead429fa",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.py",
+      "size": 4500,
+      "sha256": "65e1047013c3c82ca4511cc5c31f1dafe8baa5f5590df92d8da3b69826fe4e65",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_foundations.md",
+      "size": 14283,
+      "sha256": "97a25dfbb88ebb452843a4fe26fe540491bfb0861fac522b53db52ae961edb00",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_global_second_review.md",
+      "size": 13006,
+      "sha256": "f3a652828b8e212a6bf61f6b398e30e826ddf5c3bb8d6a2a26e836042f2f7cb1",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/macaulay_support_result.json",
+      "size": 1443,
+      "sha256": "fb7631b87ea158fd95536fdb4a72b62d747e934035f4a5541742e9b30ce346ff",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/base_conventions.log",
+      "size": 587,
+      "sha256": "45a43793d4afa37170cef09c0ea0db3d1b2509fcb72ee3ff76020602b521459b",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/regulator_factor_result.json",
+      "size": 463,
+      "sha256": "9a70f3641134a86aa7dbbc94902c96272b2d253e45a1f8c3e919b029b1ec7459",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/predyadic.gp",
+      "size": 8864,
+      "sha256": "cd529267f5064e63ebbf62d9ebf6433918a191c637866a1dd32593cd34e2f245",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/reconstruct_raw66.gp",
+      "size": 7284,
+      "sha256": "1506a1e11b7ad885610cd786090c50914628cc390b137daaa3799ace41102ba8",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/logs/reconstruct_raw66.log",
+      "size": 1320,
+      "sha256": "98e6629980ba7f1c9215041eb04f109ea991192cb221a9d26aa2bc889ea5b35f",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/odd_envelope.py",
+      "size": 2501,
+      "sha256": "3f3208cde0ea29786879a86fc6bebb55ce31bfc226608a710ce9415c770e7a10",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/predyadic/odd_decomposition_envelope.json",
+      "size": 4343,
+      "sha256": "864a695185bb011c5a142da084814b5ee70bde2d7c5a0c5bb7e61d09e6a7d362",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/predyadic/predyadic_review.md",
+      "size": 12307,
+      "sha256": "99c2fd9049e00b84c09a2d677d24f7563deebadde9111d64a9008c522dc3ec79",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/p7_replacement/p7_witness_review.md",
+      "size": 7936,
+      "sha256": "b9b6dbea18aa4eb92b104f6e6124b49b3cf2498d45a72e280346fe60ea84be33",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_p7_supplement.md",
+      "size": 12853,
+      "sha256": "67ea4931fdf0eca3f166a8c8f7a7f994c1ca9d4e1e3514bf1e0af9c4a6b71d3e",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/logs/predyadic_raw66.log",
+      "size": 1021,
+      "sha256": "26c7285c549c7fa960d90fb17095194b4f779a8559f983afcfa542f7952af3af",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_witness.py",
+      "size": 7369,
+      "sha256": "6cf2cf0c9e63b7e6b94a0bb48d0734bdce7a19525fd79a85b30839a4330f561d",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/p7/p7_witness_results_cycle3_N100.json",
+      "size": 3330,
+      "sha256": "e2f9857e810d074813deb49860268ee70f97d2cf28613421a7c601910f1348f9",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_finite.py",
+      "size": 8504,
+      "sha256": "52a44494fd4ad0116692a72ce35882e1d5a49f3d339a4d747815824d6654dcfa",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/p7/p7_carrier_envelope.json",
+      "size": 54742,
+      "sha256": "c2f2cfc349cc98233734965e16a4202bc0a76e0a5156fba1818061dbd0d6cce8",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_nonzero_source.gp",
+      "size": 5643,
+      "sha256": "aa647b15adb20af3e87e4c6e51cccee2d1307f9ac47216a2eb641eba9d6271a6",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/logs/p7_genuine_source.log",
+      "size": 229,
+      "sha256": "bc586537002715662eb3c2cefe04743824ff6c26bdd7b88ba31dc8062830a9bc",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/dyadic_arithmetic/dyadic_arithmetic_review.md",
+      "size": 11306,
+      "sha256": "49c4da54fd2cb8bf20aa7db92eb797e1703fbe948c2acf6c778eb56b5bb09897",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/dyadic_stopping.gp",
+      "size": 22588,
+      "sha256": "84744836dd8ec40f7568fbed92d5b14496da159c4ae61b89206f6fe5f63e7376",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_curve_charts.gp",
+      "size": 1444,
+      "sha256": "4ab675ab6914c83d888581fdde2ef7edb6aae564c2f5a10c7e7b0a39bf2351de",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_curve_charts.gp.log",
+      "size": 159,
+      "sha256": "712bfaf5e20a24a9e2e841c1c3c4193372f79abe4e997b0cf6a6a68f65e90a76",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_full_relations.gp",
+      "size": 10638,
+      "sha256": "55201f819a27f18908ed6274864b9e6e977543d317293ed9f4d1f4b71695837d",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_full_relations.gp.log",
+      "size": 1090,
+      "sha256": "fc044773aec7bde62b7a9c1a3d75b5f7bc2e803178977c27ad7b4f885a1313f1",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_full_relations.gp.triple.log",
+      "size": 798,
+      "sha256": "f8066009f6b7a404631d4d472d9a67e92bea7e2b94bd72ed645bba297e5171b4",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/dyadic_arithmetic/check_stronger_dyadic_precision.py",
+      "size": 6108,
+      "sha256": "3df51f296238ed6f77624b4969e32e25318ba72abcd59c51bc5bfe2be3d9cf16",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_full_true_target_profile.gp",
+      "size": 2007,
+      "sha256": "a058a57b554062c5edb107f1616df927bc6b6d0a728e9664e3aa1396592923de",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_full_true_target_profile.log",
+      "size": 472,
+      "sha256": "5f287f4a760517cd14b2ac7a17c44406c64b70dfff6a4dc5147be702797867c6",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_target_and_incidence_balls.gp",
+      "size": 23893,
+      "sha256": "0c10ef01e72e1a70f9c92b70a5e9b132b75071f243140066d78ddf377c39e45a",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_target_and_incidence_balls_3.log",
+      "size": 1526,
+      "sha256": "a7dea5e1f7b4e0785f1b90f5e1546fdd5b4a8748f27a211dd926fe1583daca76",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_target_and_incidence_balls_4.log",
+      "size": 1561,
+      "sha256": "acd411d394fe74c4a0348d2004efd63d46bba5da77c4ce301242b83851b9bf32",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/dyadic_finite.py",
+      "size": 12048,
+      "sha256": "f98d67e25fdf43a5830a0cb0302d93f34200285d730ee49b8a54e4486515248c",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/dyadic/all_finite_candidates.json",
+      "size": 825207,
+      "sha256": "e2215163177d799b9dd06fbf520532c2e9be74de0003ea6d6899c25728a196b7",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/rank/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_LOCAL_STOPPING_THEOREM.md",
+      "size": 7503,
+      "sha256": "61b5ac063ff1a538bec7a409671eddc7fa9cddb5c1c72906bbbf4415817ddc06",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.json",
+      "size": 4614,
+      "sha256": "86852bbc15ec7f2a1490a45b2984bdedd6943a22aa0e5218304d3a7ceaa0738c",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/independent_verify_p7_orbit42_56_cocycle_v4.py",
+      "size": 11568,
+      "sha256": "26240274762ddb10e4ffde6f7e22375638267c3e39e27c11e00cd163061a474d",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/check_exact_tau_sage.py",
+      "size": 4641,
+      "sha256": "652ecfcff99c9128faaa36b54451c63b4b553cf251117ff11171e131ac821163",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/evaluate_p7_orbit42_56_exact_roots_v3.gp",
+      "size": 5639,
+      "sha256": "b3edbd47443a83405f0fc014a6bc2fa221432295986bf599951834c254b9d0b3",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/validate_p7_orbit42_56_exact_roots_v3.gp",
+      "size": 4363,
+      "sha256": "6a9e18d922c2eaf69f289bfa2e64902434a707a027d7a0a50c63ea76488d9112",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_root_replay_results.json",
+      "size": 455,
+      "sha256": "ea399ceedeb53f3024e9b1d0c07208edd359776c0deee10cad677782fcd7df4f",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_root_values.gpdata",
+      "size": 8238,
+      "sha256": "09f6c0e4c81c1015eeffbaa68c5598594c1a395408a4de43f63b5f8755bfbe34",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/independent_verify_p7_orbit42_56_cocycle_v4.py",
+      "size": 11576,
+      "sha256": "6d5b62046d5d74ac1ec53535bd8ba8c01a388a1a8650b2e14b0b1e4e7b4a240f",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_cocycle_fresh.log",
+      "size": 378,
+      "sha256": "1c7b1b53fc11eae4298834d0d9a103c72d7ecb4c36b4d75cdac6e01a2859c8e8",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_root_inputs.json",
+      "size": 5020,
+      "sha256": "6b7607de5639bcaf0370b25240cfa11f378b703cebbd4ed71fae1cbb737fe253",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.log",
+      "size": 1329,
+      "sha256": "62b01308fd739bee2c304693489d1492e7412b6e73849aa07b823bfcf00cda5c",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/summarize_local5_image.py",
+      "size": 2471,
+      "sha256": "12b4b780cd40b2c06be6b5458a4d83fba06d481e632a83ffef846c9f5d5bb9c4",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/check_precision_and_controls.py",
+      "size": 5534,
+      "sha256": "1791b3c1d9b743b03084e8c8ae983e77b45cd2dd8f577591eb3a2b2255fdbe60",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/p5_logical_reduction.md",
+      "size": 4092,
+      "sha256": "ca6bd66da4222ef11fe2bd95186b156ca995db1fb97948ce18585f5a479e8899",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.gp",
+      "size": 4607,
+      "sha256": "cf934aa45ad1159ee9110d0ee1871417d407b43690a9b1290350af136ccc4557",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_divisor_identity_and_signs.gp",
+      "size": 11686,
+      "sha256": "a259901bc48e154e8a3426e16e1e0f24936d090b929c5e4856a358f1202b0602",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_divisor_identity_and_signs.log",
+      "size": 2336,
+      "sha256": "5e6be2c5ddc4daf748a7b70e1a69539473cca4417da71ea7f9ed7fa59a0117ce",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/p5/repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p5_literal_c_residue_bits_v2.gp",
+      "size": 10834,
+      "sha256": "41d66b5b97bc43d5b62246be0facf69f606c5debe2654ebcb19487a09e0ab94f",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/rank-proof.tex",
+      "size": 9348,
+      "sha256": "fd54ed8996f5ecbfd3fff53bbdf27eaacb1210846eb4fe5db2b0c942d56f81cd",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_finite_characters_degree_only.py",
+      "size": 10200,
+      "sha256": "095f4f679eab4f24539be9bd4826c26b8877601c2d111116de8797c7c7d51e80",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_finite_characters_degree_only.log",
+      "size": 205,
+      "sha256": "c6f2a93e6c6c8b384e403b34bc71ee97796a3605973f9d922bc65fca35e6829f",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/independent_target_characters.json",
+      "size": 52589,
+      "sha256": "cd773b28174d88bcefe7e985855da01ba14b92a99fd750c981ea16db57951609",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/verify_local_point_lifts.gp",
+      "size": 2785,
+      "sha256": "339edc07db4788ea3a861b2ee100da6ca794b12544fef5e1dcd282aad3983ff3",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/verify_source_columns.gp",
+      "size": 7336,
+      "sha256": "3be97c5217bdcf811ad30f4561d0782ffffa91f0de7acb38e555285870735162",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/logs/verify_local_point_lifts.log",
+      "size": 332,
+      "sha256": "e1d4ef63b30567d4d006f1384219d7d0e15452dbc556b7f8c045d5d8f57528c6",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/logs/verify_source_columns.log",
+      "size": 383,
+      "sha256": "4bd8eda05f2bd54a846cab7b1f3f20ec7046d7cbd92ef6b806fd24bd61098470",
+      "inside_addendum": false
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/dyadic_decomposition_envelope.py",
+      "size": 2714,
+      "sha256": "04cb564046b374d6832dc3c31aa711ba804b0d9930bfc8910aaf52ad353f020a",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/dyadic_decomposition_envelope.json",
+      "size": 7781,
+      "sha256": "c6ef37a434d2ee03d7769045f27fcbed132e2c80dd8101ced4f983f833a0673d",
+      "inside_addendum": true
+    },
+    {
+      "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/support/dyadic_decomposition_envelope.log",
+      "size": 5470,
+      "sha256": "4f1fcc4659a1350ed854a48c05e10795110d48411e772fe1339dc72f8fc4da4d",
+      "inside_addendum": true
+    }
+  ]
+}

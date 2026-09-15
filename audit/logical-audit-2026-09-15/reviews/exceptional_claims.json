@@ -1,0 +1,718 @@
+[
+  {
+    "id": "FIELD-END",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 736
+    },
+    "claim": "Conditional on the solution-induced septic field satisfying the stated local-algebra hypotheses, Putz's theorem leaves exactly the six pure fields and the displayed exceptional field.",
+    "hypotheses": [
+      "A_eta is a degree-seven field",
+      "Signature (1,3)",
+      "Unramified outside 3,5,7",
+      "The Dahmen–Siksek local algebras at 2,3,5,7"
+    ],
+    "dependencies": [
+      "Putz Theorem 3.50",
+      "Parent structural audit: solution-induced field satisfies Dahmen–Siksek Corollary 3.4 and Propositions 3.5–3.7"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Thesis_CasperPutz.pdf",
+        "detail": "Theorem 3.50, printed p.118 / PDF p.125; actual hypotheses and seven defining fields read."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Seven-field applicability; Phi'=105T^4(T-1)^2 proves one real root."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The displayed list matches the actual theorem, with no extra local or signature restriction omitted in the stated application.",
+    "remaining": "The exhaustive Hunter enumeration is imported, not freshly rerun. The parent structural audit owns the local-algebra and ramification premise; this terminal alias does not certify that premise by itself."
+  },
+  {
+    "id": "EXC-01",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 948
+    },
+    "claim": "The manuscript's solution maps to the PVT plus-Frey specialization at t0=eta/(eta-1).",
+    "hypotheses": [
+      "Nonzero primitive X^5+Y^3=Z^7",
+      "eta=X^5/Z^7"
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "§7.2 equation (3), definition t0=-a^5/c^3; §7.1 Proposition 7.1."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines 945–951 fix (a,b,c)=(X,-Z,Y)."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Since p=7 is odd, X^5+(-Z)^7+Y^3=0; eta-1=-Y^3/Z^7, giving the stated parameter. Nonzero coordinates exclude t0=0,1,infinity.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-02",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 953
+    },
+    "claim": "The weight-two plus realization is modular, has cyclotomic determinant, is residually unramified outside 3,5,7 and finite flat above 7.",
+    "hypotheses": [
+      "EXC-01",
+      "q=5,r=3,p=7",
+      "Weight-two normalization of the plus realization"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "PVT Theorems 2.1 and 2.4(1), Remark 2.2"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "Theorems 2.1,2.4 on p.8; Remark 2.2 normalization; plus Jacobian §7.1."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "These theorem statements apply to this rational specialization and p=7. The small prime is not excluded. The curve/count realization uses the weight-two Tate normalization.",
+    "remaining": "Optional clarity edit: name the weight-two realization explicitly. This is not an unresolved determinant or modularity gap."
+  },
+  {
+    "id": "EXC-03",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 965
+    },
+    "claim": "If the residual representation is irreducible, it comes from a trivial-nebentypus parallel-weight-two newform at one of the four displayed levels.",
+    "hypotheses": [
+      "EXC-01",
+      "Irreducibility over the stated algebraic closure"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "EXC-02",
+      "PVT Theorem 7.8"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "Actual p.32 Theorem 7.8: primitive (5,p,3) setup and irreducibility; epsilon3,epsilon5 each 2 or 3."
+      },
+      {
+        "path_or_url": "https://www.imo.universite-paris-saclay.fr/~christophe.breuil/PUBLICATIONS/extensions.pdf",
+        "detail": "Theorem 3.2.2 checked to distinguish a direct invocation from the specialized PVT import."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "All hypotheses of the theorem actually cited in the paper are satisfied; it does not impose a large-p or p!=7 condition.",
+    "remaining": "No open Breuil–Diamond applicability gate in the present argument. A separate direct application of BD would require irreducibility on G_{F(zeta7)}; that alternative was not asserted or independently proved here."
+  },
+  {
+    "id": "EXC-04",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1000
+    },
+    "claim": "The quaternion order, its complete projective unit group and all 20 neighbour sets used by the Brandt generator are the required exact objects.",
+    "hypotheses": [
+      "F=Q(sqrt5), epsilon^2=epsilon+1",
+      "B=(-1,-1)_F"
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/hecke_foundations/scripts/independent_quaternion_generators.py",
+        "detail": "Lines 16–115: multiplication, parity lattice, exhaustive norm-one units, transpose, and complete neighbours."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/hecke_foundations/independent_quaternion_generators.json",
+        "detail": "120 norm-one units, 60 projective units, index16, trace discriminant625; all 20 norm/count entries."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/independent_quaternion_generators.json",
+        "detail": "Prior independently executed arithmetic retained; core generator bytes unchanged."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "The finite norm equations bound every twice-coordinate by 2, proving enumeration completeness. Lattice discriminant implies relative reduced discriminant1. N(q)+1 distinct residue images exhaust neighbours; at2 exact right-unit inequivalence handles the five neighbours.",
+    "remaining": "The code's PASS is supported by the checked completeness argument; no ideal-class completeness is inferred until EXC-05."
+  },
+  {
+    "id": "EXC-05",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1000
+    },
+    "claim": "The displayed maximal quaternion order has ideal class number one, so the orbit-function model has no missing ideal classes.",
+    "hypotheses": [
+      "EXC-04",
+      "B definite at both real places",
+      "h_F=1",
+      "zeta_F(-1)=1/30"
+    ],
+    "dependencies": [
+      "EXC-04",
+      "Eichler maximal-order mass formula, Voight Theorem 26.5.4"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://jvoight.github.io/quat-book.pdf",
+        "detail": "Theorem26.5.4 actual maximal-order mass statement; finite discriminant1."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Minkowski bound sqrt5/2<2; epsilon norm -1; mass1/60 exhausted by principal class."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The principal class contributes 1/60 and the total mass is 1/60. Every class has positive mass, so none is omitted.",
+    "remaining": "No fresh Hunter or general ideal-class algorithm is being claimed; the standard mass theorem plus exact arithmetic proves completeness."
+  },
+  {
+    "id": "EXC-06",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 997
+    },
+    "claim": "Every level-lowered eigenform has a nonzero reduction in the computed cuspidal Brandt lattice, after coefficient-field extension if necessary.",
+    "hypotheses": [
+      "EXC-03",
+      "EXC-04",
+      "EXC-05",
+      "Prime-to-7 stabilizers",
+      "Stable integral orbit-function lattice"
+    ],
+    "dependencies": [
+      "EXC-03",
+      "EXC-04",
+      "EXC-05",
+      "Dembélé–Voight Theorem 3.9 and §4"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://jvoight.github.io/articles/hmf-crm-bcn-053024.pdf",
+        "detail": "Theorem3.9, §4: characteristic-zero Hecke-equivariant function model; finite discriminant1."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Projective-set totals, prime-to-7 mass kernel, primitive eigenvector reduction argument."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Transfer in characteristic zero, scale a nonzero eigenvector to be primitive in the local lattice, and reduce. The mass equation and all Hecke equations persist; kernels commute with scalar extension. Old/new subtraction and integral JL are unnecessary.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-07",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 983
+    },
+    "claim": "The local filter list covers ordinary, degenerate and level-lowering trace alternatives at every required auxiliary prime.",
+    "hypotheses": [
+      "EXC-01",
+      "PVT plus-Jacobian and boundary formulas",
+      "Correct weight-two and relative-degree conventions"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "EXC-02",
+      "PVT §7.4",
+      "EXC-08",
+      "EXC-09"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/scripts/verify_hilbert_hecke_filter_coverage.py",
+        "detail": "Lines202–220 distinguish ordinary data from boundary degree-two pullbacks."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/hecke_foundations/scripts/independent_ordinary.py",
+        "detail": "Checks all1264 (prime,parameter) pairs from independent integer point counts."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/hecke_foundations/independent_boundary_jacobi.json",
+        "detail": "128 boundary character values at16 split primes."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "§7.4 formulas37–40, rational-unit character choices and trace transport."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "All p-2 ordinary values are exhausted at18 required primes, and all five/three boundary characters at the16 split primes. Relative extension squares Frobenius, giving a^2-2p; ordinary data already over F must not be pulled back again. Both signs N(q)+1 are included.",
+    "remaining": "Precision improvement: manuscript986–989 should distinguish parsing/reducing6253 upstream polynomials at37 primes from independent point-count reconstruction of1264 ordinary cases at18 required primes."
+  },
+  {
+    "id": "EXC-08",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 989
+    },
+    "claim": "At inert auxiliary primes13 and17, every relevant residual trace is scalar in F7, so T^7-T is a valid filter.",
+    "hypotheses": [
+      "Galois-compatible RM structure of the rational plus Jacobian",
+      "Coefficient prime7 inert in F",
+      "Frobenius at the inert F-prime squares rational Frobenius"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "EXC-02",
+      "PVT §2.2 and §7.1 RM realization"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "Cyclotomic RM plus realization and equation32."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Semilinear trace proof A sigma(A); ordinary exact counts independently agree."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/hecke_foundations/independent_ordinary.json",
+        "detail": "Inert prime ordinary cases and AF7 identity."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "For semilinear rational Frobenius A sigma, trace(A sigma(A)) is sigma-fixed by cyclicity of trace. Good boundary realizations obey the same identity; multiplicative level-lowering traces ±(p^2+1) are scalar.",
+    "remaining": "Rational origin alone would not imply this assertion; the checked RM Galois compatibility is essential. No missing inert-prime case remains."
+  },
+  {
+    "id": "EXC-09",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 991
+    },
+    "claim": "Replacing the unsound131 condition by T^49-T preserves every required Frey eigenvector.",
+    "hypotheses": [
+      "Frey residual trace in F49",
+      "18 original filters; only131 differs"
+    ],
+    "dependencies": [
+      "EXC-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/scripts/verify_hilbert_hecke_ambient_coverage.py",
+        "detail": "Lines99–108 replace A131 by the49-degree F49 polynomial before execution."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/independent_hecke_22_23_32_33.json",
+        "detail": "Independent four-level arithmetic used exactly this replacement."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The historical A131 omits1=-132 mod7. T^49-T vanishes on every F49-valued trace, hence annihilates the required eigenvector.",
+    "remaining": "Replace literal 'no-filter' wording by 'no additional restriction on F49-valued Frey eigenvalues'; it is not an identity condition on arbitrary nilpotent directions or larger residue fields."
+  },
+  {
+    "id": "EXC-10",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1009
+    },
+    "claim": "The exceptional field forces Z odd, making the two prime-2 parity alternatives exhaustive.",
+    "hypotheses": [
+      "Primitive solution",
+      "A_eta is the displayed exceptional field"
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Fresh exact idealprimedec(nfinit(f),2) gave(e,f)=(1,1),(1,2),(1,4); explicit U=ZT reduction and factorization."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/draft/manuscript.tex",
+        "detail": "Corrected draft's added local contradiction independently validated."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "If2|Z, the integral U-polynomial reduces to the separable U7+1 with degrees1,3,3, incompatible with the exceptional field's1,2,4. Thus exactly one ofX,Y is even.",
+    "remaining": "Added in corrected draft. The original snapshot omitted this explanation; its proof is now supplied without changing the required arithmetic."
+  },
+  {
+    "id": "EXC-11",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1009
+    },
+    "claim": "The manuscript's correct prime-2 labels are Y-even trace−1, X-even trace0; the original snapshot reverses them.",
+    "hypotheses": [
+      "EXC-10",
+      "Manuscript uses X^5+Y^3=Z^7"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "EXC-10"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_odd_branch_local2_certificate.py",
+        "detail": "Lines4–15 and88–99 use X^3+Y^5 and give the two correct numerical traces in that convention."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Independent Chen–Villagra coordinate scalings, smooth special fibres and counts3/7 and3/5."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/draft/manuscript.tex",
+        "detail": "Validated corrected paragraph and swapped table labels; original snapshot and sealed release untouched."
+      }
+    ],
+    "status": "CORRECTION_REQUIRED",
+    "justification": "The source cube variable is the manuscriptY. Swap the sentence and row labels; keep1,2,2,5 with trace−1 and2,10,3,11 with trace0. Both branches were already retained, so the36-occurrence union and terminal exclusion are unchanged.",
+    "remaining": "ERROR CORRECTED IN DRAFT after independent validation. Original published/sealed snapshot still contains the reversal. Severity: repairable convention error, not terminal proof failure."
+  },
+  {
+    "id": "EXC-12",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1007
+    },
+    "claim": "The four filtered cuspidal modules and all T2-compatible eigenvalue supports are completely accounted for.",
+    "hypotheses": [
+      "EXC-06",
+      "EXC-07",
+      "EXC-10",
+      "Corrected prime-2 interpretation EXC-11"
+    ],
+    "dependencies": [
+      "EXC-06",
+      "EXC-07",
+      "EXC-09",
+      "EXC-10",
+      "EXC-11"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_level33_mod7_intersection.c",
+        "detail": "Lines204–257 check multiplicities during splitting;430–474 actual kernel and mass intersections."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/sectors/logs/hilbert-hecke-ambient-coverage.log",
+        "detail": "Four fresh runs: cusp8,38,28,98; packet4,14,12,24; all36 selected occurrences."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v2_audit/independent_hecke_22_23_32_33.json",
+        "detail": "Independent eigenspace/annihilator method bypasses packet identities."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Commutativity, full factor-kernel dimensions and total dimensions prove coverage. Independently, T(T+2)(T2+5T+2)(T2+3T+4) annihilates T29 on both scalar-T2 eigenspaces at every level. No old/new quotient is used.",
+    "remaining": "An eigensystem-signature merger would be a harmless superset. This claim concerns necessary eigenvalue support, not a complete characteristic-zero newform classification."
+  },
+  {
+    "id": "EXC-13",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1040
+    },
+    "claim": "A reducible constituent has conductor exponent at most1 at3 and5 and is unramified at other finite primes away from7.",
+    "hypotheses": [
+      "Reducible residual representation",
+      "Cyclotomic determinant",
+      "Local residual conductor bounds≤3"
+    ],
+    "dependencies": [
+      "EXC-02",
+      "PVT Corollaries3.6,3.11, Proposition3.14 and local tables"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "Local conductor bounds independent of residual irreducibility."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines1040–1052 use semisimplified conductor inequality."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Inertial characters are inverses away from7, so their conductor exponents agree. Twice the constituent exponent equals the semisimplified conductor, which is at most the original≤3. The earlier nonsplit equality error is correctly repaired.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-14",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1054
+    },
+    "claim": "Finite flatness permits exactly the four level-two constituent inertia characters1,omega2,omega2^7,omega2^8.",
+    "hypotheses": [
+      "EXC-02 finite flatness",
+      "Local absolute ramification index1",
+      "Rank-one character of the full local Galois group"
+    ],
+    "dependencies": [
+      "EXC-02",
+      "Raynaud Corollary3.4.4"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://www.numdam.org/article/BSMF_1974__102__241_0.pdf",
+        "detail": "Corollary3.4.4, printedp.270: finite-flat digits0..e."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Full local rank-one Frobenius compatibility bounds tame inertia order by48; e=1."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The coefficients7 are inert/unramified in F. Wild inertia maps trivially to Fbar7*, and full local Frobenius forces tame level≤2. Raynaud then gives the four indicated digits.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-15",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1065
+    },
+    "claim": "Global reciprocity excludes both mixed inertia characters, leaving a constituent unramified at7.",
+    "hypotheses": [
+      "EXC-13",
+      "EXC-14",
+      "u=epsilon8 totally positive"
+    ],
+    "dependencies": [
+      "EXC-13",
+      "EXC-14",
+      "Global class field reciprocity"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "u=13+21epsilon, congruent1mod3sqrt5 and−1mod7; complete place-by-place reciprocity argument."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "At every place except7 the unit's value is trivial by conductor/sign conditions. At7 the mixed cases give−1, contradiction. The remaining equal-digit cases allow one constituent unramified there.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-16",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1085
+    },
+    "claim": "The relevant narrow ray group is C4×C2 and its29-prime class gives exactly trace support±2.",
+    "hypotheses": [
+      "EXC-15",
+      "Strict class number1",
+      "Finite modulus3sqrt5 plus both real places"
+    ],
+    "dependencies": [
+      "EXC-15",
+      "Global ray class exact sequence"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Explicit128-element local/sign group,16-element unit image, eight-element quotient; alpha=6−epsilon order-two proof."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines1144–1151 include positive-unit congruence and nontriviality."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Unit relation quotient has invariant factors4,2. Alpha² is epsilon² mod the modulus and alpha cannot be a positive unit modulo3; thus class order2. Since29=1mod7, reducible traces are±2.",
+    "remaining": "No missing ray character or archimedean sign branch identified."
+  },
+  {
+    "id": "EXC-17",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1090
+    },
+    "claim": "For ordinary29-adic parameters the exceptional factor pattern allows exactly eta10,14,24,28.",
+    "hypotheses": [
+      "Exceptional septic local algebra",
+      "29 does not divideXYZ"
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/review/exceptional_audit.py",
+        "detail": "Independent elementary factor-degree enumeration rerun this turn."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Exceptional squarefree pattern1,3,3 and exhaustive eta2..28 result."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Comparing the actual squarefree reductions at all27 ordinary parameters gives precisely the four displayed values.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-18",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1097
+    },
+    "claim": "No branch residue0,1,infinity at29 has the exceptional factor pattern.",
+    "hypotheses": [
+      "Primitive solution",
+      "Valuations of eta and eta−1 have fifth/cube divisibility"
+    ],
+    "dependencies": [
+      "EXC-01"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Cluster scalings, residue degrees and Hensel argument."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines1097–1106 correctly attach five-cluster toX and three-cluster toY."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "X- andY-divisible branches give1,1,1,2,2; Z-divisible branch gives split7 or irreducible7. Each scaled reduction is separable. None is1,3,3.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-19",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1108
+    },
+    "claim": "The four count-derived polynomials correctly annihilate both conjugate RM Frobenius traces mod7.",
+    "hypotheses": [
+      "EXC-01",
+      "EXC-17",
+      "EXC-18",
+      "PVT curve/RM realization"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "EXC-17",
+      "EXC-18",
+      "PVT equation32 and Proposition7.1"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/review/exceptional_audit.py",
+        "detail": "Fresh countsF29/F841 and trace-norm polynomials."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Counts(29,955),(22,916),(37,931),(25,883) in displayed parameter order."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf",
+        "detail": "§7.1 plus Jacobian with RM overQsqrt5 and degree-four Frobenius factorization."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "The genus-two coefficient identities give sumA and productB−58 for the RM traces. The table records these norm polynomials, not degree-two Frobenius characteristic polynomials. Both conjugates are covered.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-20",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1127
+    },
+    "claim": "The six terminal factors cover all irreducible and reducible trace alternatives, including the conjugate29-prime convention.",
+    "hypotheses": [
+      "EXC-12",
+      "EXC-16"
+    ],
+    "dependencies": [
+      "EXC-12",
+      "EXC-16"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+        "detail": "Lines1135 and1141 now include the sixth factorT−5."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Norm5+epsilon generator versus6−epsilon; both curve conjugates and identical ray support."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The ambient T+2 factor is T−5, and T2+3T+4=(T−2)^2. Reducible±2 usesT−2,T−5. Changing to the conjugate prime permutes trace conjugates and preserves the endpoint.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-21",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1152
+    },
+    "claim": "All24 resultants are nonzero and therefore exclude every common trace in Fbar7.",
+    "hypotheses": [
+      "EXC-19",
+      "EXC-20"
+    ],
+    "dependencies": [
+      "EXC-19",
+      "EXC-20"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/review/exceptional_audit.py",
+        "detail": "Fresh resultant matrix agrees entrywise with manuscript."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Four resultant rows and Bezout argument."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Nonzero resultants imply coprimality overF7 and no common root over its algebraic closure. Repeated factors create no exception.",
+    "remaining": "No unresolved project-specific obligation identified for this claim; cited general results remain imports."
+  },
+  {
+    "id": "EXC-END",
+    "location": {
+      "file": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/sources/manuscript.tex",
+      "line": 1162
+    },
+    "claim": "A solution-induced exceptional field is incompatible with both residual irreducibility alternatives.",
+    "hypotheses": [
+      "The solution-induced algebra is the exceptional field",
+      "Corrected parity statement EXC-11",
+      "All explicit Frey, lattice, filter and local hypotheses"
+    ],
+    "dependencies": [
+      "EXC-01",
+      "EXC-02",
+      "EXC-03",
+      "EXC-06",
+      "EXC-07",
+      "EXC-10",
+      "EXC-11",
+      "EXC-12",
+      "EXC-13",
+      "EXC-14",
+      "EXC-15",
+      "EXC-16",
+      "EXC-17",
+      "EXC-18",
+      "EXC-19",
+      "EXC-20",
+      "EXC-21"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/exceptional.md",
+        "detail": "Conditional terminal deduction, complete two-case split and explicit import boundary."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Every2-dimensional residual representation is reducible or irreducible. In either case its29-trace must satisfy a curve polynomial and a terminal factor, contradicting EXC-21.",
+    "remaining": "No unresolved exceptional-specific mathematical gap found after the supplied correction. This deduction does not re-prove imported theorems, Putz's enumeration, the structural field premise, or other sectors; dependencies remain explicit."
+  }
+]

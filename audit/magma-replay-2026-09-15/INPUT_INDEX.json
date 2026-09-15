@@ -1,0 +1,65 @@
+{
+  "source_release": "verified-2026-09-14.1",
+  "source_archive_sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "observed_magma_version": "V2.29-10",
+  "observed_time_limit_seconds": 60,
+  "jobs": [
+    {
+      "id": "section7_groups",
+      "source_relative_to_results": "2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/scripts/verify_section7_mordell_weil_basis_lemma_7_3.m",
+      "input": "inputs/section7_groups.m",
+      "sha256": "1b348d417d63078157bcc20b8b96eeeb234e4cc89139d886bcef40aca24fc862",
+      "bytes": 2198,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "rational_c1_height",
+      "source_relative_to_results": "2026-09-09_rational_factor_mw_basis_attack_v1/inputs/magma_v2_29_10_height_pairing_points_bound15_input.m",
+      "input": "inputs/rational_c1_height.m",
+      "sha256": "96eaa0d189fa6529706de336c8a81184a866178cd1a6b6fdde54f1544880a468",
+      "bytes": 537,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "rational_c3",
+      "source_relative_to_results": "2026-09-10_rational_factor_proposition_6_1_composition_v2/inputs/magma_v2_29_10_c3_rank_chabauty_input.m",
+      "input": "inputs/rational_c3.m",
+      "sha256": "90ed1a57ca36d181f4f8e8ef91379c1cc3c99ce1d2d3800ee817fb7c21ce0c79",
+      "bytes": 409,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "rational_c3_challenge",
+      "source_relative_to_results": "2026-09-10_rational_factor_proposition_6_1_composition_v2/inputs/magma_v2_29_10_c3_chabauty_challenge_input.m",
+      "input": "inputs/rational_c3_challenge.m",
+      "sha256": "9dbca348ca214de1cce27beaf9f2d842d5e65c4a5fdf446a0818e05ea962351c",
+      "bytes": 364,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "quadratic_fake_selmer",
+      "source_relative_to_results": "2026-09-09_quadratic_factor_2_5_reconstruction_v1/scripts/reconstruct_fake_selmer.m",
+      "input": "inputs/quadratic_fake_selmer.m",
+      "sha256": "97b437293d97f71b00d81a6ebf95658e68143227763baba371fdbf58c7244a39",
+      "bytes": 621,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "quadratic_class41",
+      "source_relative_to_results": "2026-09-09_quadratic_factor_2_5_reconstruction_v1/scripts/reconstruct_class41.m",
+      "input": "inputs/quadratic_class41.m",
+      "sha256": "73a4f662f7731bac2f45fb225444f6a67089363a2d645e6411361ff6ac4687a8",
+      "bytes": 1967,
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "quadratic_class42",
+      "source_relative_to_results": "2026-09-09_quadratic_factor_2_5_reconstruction_v1/scripts/reconstruct_class42.m",
+      "input": "inputs/quadratic_class42.m",
+      "sha256": "0e87fabb4b2e5f748683f3df613048c1714758f44fd61e5a7105eb5949fed49a",
+      "bytes": 1725,
+      "status": "NOT_RUN"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "quadratic_fake_selmer",
+  "inputSha256": "97b437293d97f71b00d81a6ebf95658e68143227763baba371fdbf58c7244a39",
+  "outputSha256": "cf5ed75462093ac897f505f3898ddb9cfc9c9c4127914bad2246ec9b5c314d87",
+  "observedAt": "2026-09-15T07:27:20.510Z",
+  "stats": "Seed: 501187024; Total time: 6.179 seconds; Total memory usage: 85.16MB.",
+  "output": "TWO_COVER_DESCENT_CLASSES 3\nFAKE_SELMER_STATUS=PASS_EXACT_THREE_CLASSES\n\n",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "capture": "Live calculator DOM input and result; byte hashes computed on captured strings, checked against local files"
+}

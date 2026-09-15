@@ -1,6 +1,6 @@
 {
   "schema": "primitive_357_audit_status_v2",
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-15",
   "release_tag": "verified-2026-09-14.1",
   "release_asset_id": "PRIMITIVE_357_VERIFIED_RELEASE_2026_09_14_V1",
   "release_state": "verified",
@@ -8,7 +8,7 @@
   "public_proof_release_authorized": true,
   "github_repository": "https://github.com/bbpcho/primitive-357-proof-audit",
   "github_visibility": "private",
-  "current_candidate": "Integrated verified release with independently completed rank audit",
+  "current_candidate": "First-submission manuscript by Peter Chocian, with corrected argument audit and fresh Magma addendum",
   "blocking_gate": null,
   "rank_workplan": "audit/rank-gap/gates.json",
   "fresh_replay": {
@@ -95,5 +95,7 @@
       "evidence": "audit/verified-2026-09-14/REPLAY_BINDING.json"
     }
   ],
-  "verification_boundary": "The mathematical audit and fresh integrated replay of the exact sealed inputs are complete. Published results and the explicitly identified historical Magma computations remain imported premises; no fresh Magma execution or proof-assistant formalization is claimed. The replay binding records the tested inputs, final archive and unchanged manuscript identities."
+  "verification_boundary": "The sealed 14 September inputs retain their completed integrated replay. The 15 September grouped argument audit found no remaining project-specific gap at the reviewed level; seven unchanged Magma jobs and four negative controls were run separately. Published results and mathematical software remain dependencies. No proof-assistant formalization or external human specialist review is claimed. The current paper is bound separately; it is not the unchanged manuscript named in the historical replay binding.",
+  "current_paper_publication": "audit/first-submission-2026-09-15/PUBLICATION.json",
+  "computational_baseline_note": "release_tag, release_asset_id, fresh_replay and the original gates identify the unchanged sealed 14 September computational baseline. The current paper and added audit have separate identities in current_paper_publication."
 }

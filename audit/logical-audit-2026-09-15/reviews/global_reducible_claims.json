@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "GLOBAL-01",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 91
+    },
+    "claim": "Primitivity is equivalent to pairwise coprimality, and variable exchange preserves signed solutions.",
+    "hypotheses": [
+      "Integers satisfy x^3+y^5=z^7."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A prime dividing any two variables divides the third by the equation. Thus gcd=1 forbids all pairwise common primes. The change (X,Y,Z)=(y,x,z) is a bijection and preserves nonzero signs.",
+    "remaining": ""
+  },
+  {
+    "id": "GLOBAL-02",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 253
+    },
+    "claim": "The parameter eta=X^5/Z^7 is a reduced fifth-power/seventh-power quotient outside0,1,infinity.",
+    "hypotheses": [
+      "XYZ is nonzero.",
+      "Pairwise coprime integers."
+    ],
+    "dependencies": [
+      "GLOBAL-01"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Z\u22600 makes eta finite, X\u22600 makes eta\u22600, and eta=1 would force Y=0. Numerator and denominator have no cancellation, so their prime valuations are multiples5 and7 respectively.",
+    "remaining": ""
+  },
+  {
+    "id": "GLOBAL-03",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 288
+    },
+    "claim": "The septic has one real root and discriminant squareclass -7.",
+    "hypotheses": [
+      "eta is rational outside0,1."
+    ],
+    "dependencies": [
+      "GLOBAL-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The derivative105T^4(T-1)^2 is nonnegative and positive away from two isolated points, hence Phi is strictly increasing; its limits are \u00b1infinity. The independently computed discriminant is -3^6*5^6*7^7*eta^4*(eta-1)^2, nonzero with squareclass -7.",
+    "remaining": ""
+  },
+  {
+    "id": "GLOBAL-04",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 301
+    },
+    "claim": "The local7 degree patterns are among[1,6],[2,5],[3,4],[7].",
+    "hypotheses": [
+      "Signed primitive solution gives a locally primitive7-adic solution."
+    ],
+    "dependencies": [
+      "GLOBAL-01",
+      "DS:Proposition3.5"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Proposition3.5, pp7\u20138; hypotheses and every local branch inspected."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The actual primary proposition treats all four local valuation cases, including Z divisible by7. Its algebra is the same Phi(T)-eta; no positivity hypothesis occurs.",
+    "remaining": "The general structural-stability proof and all internal enumeration of the cited working paper are retained as literature dependencies."
+  },
+  {
+    "id": "GLOBAL-05",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 303
+    },
+    "claim": "The four displayed global sectors are exhaustive.",
+    "hypotheses": [
+      "The etale global algebra is obtained from a separable septic."
+    ],
+    "dependencies": [
+      "GLOBAL-03",
+      "GLOBAL-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Every global irreducible factor splits into disjoint local irreducible factors. Each listed local pattern has at most two parts, so its only coarsenings are itself and[7]. This proves exhaustiveness, not existence of each sector.",
+    "remaining": ""
+  },
+  {
+    "id": "GLOBAL-06",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 736
+    },
+    "claim": "Every solution-induced field has the ramification support and local algebras used in the seven-field theorem.",
+    "hypotheses": [
+      "A_eta is a field.",
+      "The integer solution is primitive and nonzero."
+    ],
+    "dependencies": [
+      "GLOBAL-01",
+      "GLOBAL-02",
+      "GLOBAL-03",
+      "GLOBAL-04",
+      "DS:Corollary3.4",
+      "DS:Propositions3.6-3.7",
+      "DS:UnramifiedSupport"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Equation(4), Proposition3.3, Corollary3.4, Propositions3.5\u20133.7 and Lemma4.1; exact hypotheses and field interface inspected."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The solution lies in the local set defined by equation(4) at every prime, with exactly the same parameter and variable convention. The four local cases are exhaustive by primitivity. The actual stated local results therefore apply; degree and signature follow from the global polynomial. Ramification away from3,5,7 is also seen from the separable ordinary or scaled branch reductions in Proposition3.3.",
+    "remaining": "The local classification and its structural-stability enumeration are cited mathematical inputs, not a newly rerun enumeration."
+  },
+  {
+    "id": "RAT-01",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 326
+    },
+    "claim": "A rational root gives the displayed integral-coefficient equation and quartic-cube equation.",
+    "hypotheses": [
+      "r is rational and Phi(r)=eta.",
+      "w=rZ."
+    ],
+    "dependencies": [
+      "GLOBAL-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Multiply by Z^7 and use the exact identity Phi(T)-1=(T-1)^3(15T^4+10T^3+6T^2+3T+1). The sign is -Y^3 because X^5-Z^7=-Y^3.",
+    "remaining": ""
+  },
+  {
+    "id": "RAT-02",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 341
+    },
+    "claim": "The local restrictions and denominator bound onw hold.",
+    "hypotheses": [
+      "r is a rational root arising from a primitive solution."
+    ],
+    "dependencies": [
+      "RAT-01",
+      "DS:Lemmas6.2-6.3"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemmas6.2\u20136.3, pp16\u201318; exact restrictions compared."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The cited lemmas use the same r,w and impose no extra global sign assumption. The rational-root denominator divides15; the5-adic restriction removes5, leaving denominator at most3. Coprimality gives the stated local alternative.",
+    "remaining": "Internal Newton-polygon enumeration remains a cited input."
+  },
+  {
+    "id": "RAT-03",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 352
+    },
+    "claim": "The norm decomposition and three cubic classes, including alpha=1 integrality, are valid.",
+    "hypotheses": [
+      "The local restrictions in RAT-02."
+    ],
+    "dependencies": [
+      "RAT-02",
+      "DS:Lemma6.4"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma6.4, pp18\u201319; reviewed ideal support, cube classes and integrality argument."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "Independent polynomial reduction verifies A^2-AB+9B^2 and all three cubic expansions. Lemma6.4 supplies the ideal-theoretic exhaustive alternatives and integrality/copimality for alpha=1.",
+    "remaining": "The class-number and ideal-principalization argument is imported; it is not inferred from the three printed choices alone."
+  },
+  {
+    "id": "RAT-04",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 376
+    },
+    "claim": "The second cubic case has no Q2-point, including infinity.",
+    "hypotheses": [
+      "A rational solution normalizes to a primitive pair(u,v) over Z2."
+    ],
+    "dependencies": [
+      "RAT-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The normalized homogeneous sextic is5 modulo8 for every primitive pair; all64 residue pairs were exhausted. A square in Q2 with unit value cannot have this residue. The v=0 case is included.",
+    "remaining": ""
+  },
+  {
+    "id": "RAT-05",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 377
+    },
+    "claim": "The third cubic curve has only the two stated rational points.",
+    "hypotheses": [
+      "Exact C3 sextic, same as release input."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/rational_c3.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/rational_c3_challenge.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Two fresh Magma Chabauty runs, one using a doubled negated divisor, return exactly(-2,\u00b1540); rank upper bound1 and infinite-order divisor give rank1. The leading coefficient76 is not a rational square, excluding rational infinity.",
+    "remaining": "Trusts Magma descent and genus-two Chabauty implementation/contracts; not a proof-assistant certificate."
+  },
+  {
+    "id": "RAT-06",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 379
+    },
+    "claim": "The C3 points cannot arise from a primitive nonzero solution.",
+    "hypotheses": [
+      "The two descent equations."
+    ],
+    "dependencies": [
+      "RAT-03",
+      "RAT-05",
+      "GLOBAL-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "At u/v=-2, F3/G3=3. Thus Z(Z+4w)=0; Z\u22600 forces r=w/Z=-1/4. Phi(r)=-491/2^14 has reduced numerator prime valuation1. No v=0 point exists.",
+    "remaining": ""
+  },
+  {
+    "id": "RAT-07",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 388
+    },
+    "claim": "The remaining descent gives the displayed C1 sextic.",
+    "hypotheses": [
+      "alpha=1 and v\u22600."
+    ],
+    "dependencies": [
+      "RAT-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The exact identity (A-B)^2+12B^2=((Z+w)^2+3w^2)^2 gives y=((Z+w)^2+3w^2)/v^3 and x=u/v. Polynomial expansion matches every coefficient of C1.",
+    "remaining": ""
+  },
+  {
+    "id": "RAT-08",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 392
+    },
+    "claim": "The three C1 divisors are a full Mordell-Weil basis.",
+    "hypotheses": [
+      "Exact C1 curve and specified divisors."
+    ],
+    "dependencies": [
+      "DS:Lemma6.6"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma6.6, pp20\u201321."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_rational_factor_mw_basis_attack_v1",
+        "detail": "Height-descent script and interval/archimedean scripts inspected; broad suite not rerun in this pass."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/rational_c1_height.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "Lemma6.6 identifies the same curve and divisors. The adopted exact-height reconstruction uses regulator intervals, small-prime saturation, local subgroup index72, and the exhaustive bounded search; fresh Magma corroborates the bounded points and numerical values.",
+    "remaining": "This pass inspected the exact-height implication but did not independently rederive all class/unit, saturation, local-height and uniform h-hhat<12 premises. Those remain imported/prior-audit inputs; the floating replay alone is insufficient."
+  },
+  {
+    "id": "RAT-09",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 393
+    },
+    "claim": "Every C1 rational point lies in one of six classes modulo1080.",
+    "hypotheses": [
+      "Full basis from RAT-08."
+    ],
+    "dependencies": [
+      "RAT-08",
+      "DS:Lemma6.7"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma6.7, p21."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_rational_factor_static_sieve_v1",
+        "detail": "Exact sieve inputs/program carried by sealed release."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The cited lemma is precisely a congruence covering, not a complete rational-point determination. Its modulus2^3*3^3*5=1080 and six representatives match the manuscript.",
+    "remaining": "The complete sieve is adopted from literature and prior replay; this row does not certify every line of its implementation."
+  },
+  {
+    "id": "RAT-10",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 400
+    },
+    "claim": "The six C1 classes imply ord3(x)\u2264-3 or ord5(y)\u22651.",
+    "hypotheses": [
+      "The point is affine."
+    ],
+    "dependencies": [
+      "RAT-09",
+      "DS:Lemma6.8"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma6.8, pp21\u201322."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1",
+        "detail": "Local formal-group verification package."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The cited local lemma has exactly this disjunction; infinity representatives use the3-adic formal group and finite representatives use the5-adic formal group.",
+    "remaining": "The local formal-coordinate computations are prior-replayed/imported here."
+  },
+  {
+    "id": "RAT-11",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 412
+    },
+    "claim": "The v=0 descent case cannot yield a solution.",
+    "hypotheses": [
+      "Integral coprime(u,v) in alpha=1."
+    ],
+    "dependencies": [
+      "RAT-03",
+      "GLOBAL-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "u=\u00b11. The second equation gives w=0 or Z=-w. The former forces X=0 in the cleared equation; the latter makes -3w^2=\u00b11, impossible for integerw.",
+    "remaining": ""
+  },
+  {
+    "id": "RAT-END",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 421
+    },
+    "claim": "The rational-factor sector is empty.",
+    "hypotheses": [
+      "Hypothetical primitive nonzero solution."
+    ],
+    "dependencies": [
+      "RAT-04",
+      "RAT-06",
+      "RAT-07",
+      "RAT-08",
+      "RAT-09",
+      "RAT-10",
+      "RAT-11"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "For v\u22600, ord5(y)\u22651 would force the numerator divisible by5, contradicting the exact primitive mod5 check. The other arm forces27|v; then27|w(Z+w). Since3\u2224Z the two factors cannot both be divisible by3;27|w contradicts the r-valuation bound. Thus27|Z+w, and the first descent equation mod3 forces3|u, contrary to gcd(u,v)=1.",
+    "remaining": ""
+  },
+  {
+    "id": "QUAD-01",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 444
+    },
+    "claim": "A quadratic factor must be Q(sqrt(-35)).",
+    "hypotheses": [
+      "The global factor is irreducible of degree2."
+    ],
+    "dependencies": [
+      "GLOBAL-03",
+      "GLOBAL-04",
+      "DS:Corollary3.4",
+      "DS:UnramifiedSupport"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Corollary3.4, Proposition3.5 and the quadratic-field argument in Proposition4.2."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1",
+        "detail": "Independent database-free routing package."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "It cannot be real, since that would give two real roots. At2 a global quadratic factor must be the degree2 component of[1,2,4];[1,3,3] has no coarsening2. Thus2 is inert and unramified. The only supported negative odd fundamental discriminants with D\u22615mod8 are-3,-35. The local degree2 component at7 is ramified, excluding-3.",
+    "remaining": "Unramified support and the local2/7 classification remain explicit DS inputs."
+  },
+  {
+    "id": "QUAD-02",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 459
+    },
+    "claim": "A quadratic root and its conjugate produce a rational point ofD.",
+    "hypotheses": [
+      "u,v are distinct nonzero conjugates in Q(sqrt(-35))."
+    ],
+    "dependencies": [
+      "QUAD-01",
+      "GLOBAL-02",
+      "DS:Proposition5.1"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Proposition5.1, equations30\u201338; conjugation and denominators inspected."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "uv\u22600 prevents poles in alpha. The symmetric quotient relation gives beta and gamma fixed by conjugation; the primary derivation explicitly gives the two D equations. The u+v=0 case is retained as alpha=0.",
+    "remaining": "Full symbolic quotient construction is imported, with endpoint algebra independently checked here."
+  },
+  {
+    "id": "QUAD-03",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 484
+    },
+    "claim": "D maps to the stated genus-two curve and is covered by three fake descent classes.",
+    "hypotheses": [
+      "(alpha,beta,gamma)\u2208D(Q)."
+    ],
+    "dependencies": [
+      "QUAD-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/quadratic_fake_selmer.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Set x=alpha and y=beta*gamma. Then -35y^2=x(x-4)*quartic(x). The fresh exact Magma descent asserts equality with the three specified classes, not just their cardinality.",
+    "remaining": "Completeness of TwoCoverDescent is a trusted Magma theorem/implementation input."
+  },
+  {
+    "id": "QUAD-04",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 508
+    },
+    "claim": "The first fake class has no nonendpoint lift toD, and x=4 is excluded.",
+    "hypotheses": [
+      "The additional D square condition."
+    ],
+    "dependencies": [
+      "QUAD-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "For x=-3ta^2 and x-4=tb^2 with all nonzero, dividing the D square by(t*a*b)^2 would make3/35 a square, but its7-adic valuation is-1. Endpointx=4 requires beta^2=105. Endpointx=0 is retained separately.",
+    "remaining": ""
+  },
+  {
+    "id": "QUAD-05",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 519
+    },
+    "claim": "The two elliptic-cover branches exhaust to x=0 or35/9.",
+    "hypotheses": [
+      "The covers and maps from the remaining two fake classes."
+    ],
+    "dependencies": [
+      "QUAD-03",
+      "Magma:EllipticChabauty",
+      "Magma:Saturation"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/quadratic_class41.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/quadratic_class42.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Fresh rank3 and rank2 runs pass all independence/torsion checks. In rank3 the unchanged basis is saturated at every prime dividing the returned R; rank2 full saturation is unchanged and unresolved cosets are empty. The rational images are the asserted sets.",
+    "remaining": "The explicit cover construction is in the cited reconstruction package; formal correctness of the Magma algorithms is not established here."
+  },
+  {
+    "id": "QUAD-06",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 474
+    },
+    "claim": "The six displayed D-points are exhaustive.",
+    "hypotheses": [
+      "Affine D as defined in the manuscript."
+    ],
+    "dependencies": [
+      "QUAD-04",
+      "QUAD-05"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "For alpha0, beta=\u00b13,gamma=0. For alpha35/9, beta=\u00b1782/81,gamma=\u00b11/9 independently. Direct substitution checks all six. There is no rational point above alpha=infinity on the projective completion, since gamma/alpha would square to-1/35.",
+    "remaining": ""
+  },
+  {
+    "id": "QUAD-END",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 539
+    },
+    "claim": "No displayed D-point gives an admissible primitive power quotient.",
+    "hypotheses": [
+      "The original conjugate roots satisfy Phi(u)=Phi(v)."
+    ],
+    "dependencies": [
+      "QUAD-02",
+      "QUAD-06",
+      "GLOBAL-02"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "For alpha0 the nonzero roots are \u00b1delta/5 and eta=2401/25. For alpha35/9, exact factorization for v/u=(17+delta)/18 gives two nonzero roots; conjugation covers the other ratio. Their eta values are0 or the printed large fraction. Exact coprime factorization shows a numerator valuation1. The branch and power obstructions exclude every case.",
+    "remaining": ""
+  },
+  {
+    "id": "CUBIC-01",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 571
+    },
+    "claim": "The two allowed cubic-quartic products share the stated quartic fieldM.",
+    "hypotheses": [
+      "The global factor pattern is[3,4]."
+    ],
+    "dependencies": [
+      "GLOBAL-05",
+      "DS:Proposition4.3"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Proposition4.3, p12; exact field polynomials and hypotheses matched."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The primary proposition gives exactly the same two cubic fields and quartic polynomial under the same primitive-solution setup.",
+    "remaining": "The completeness of the external cubic/quartic field databases used by DS is retained as a cited dependency."
+  },
+  {
+    "id": "CUBIC-02",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 583
+    },
+    "claim": "A solution in this sector gives P\u2208C2(k) with rational rho(P) and nonrational U(P).",
+    "hypotheses": [
+      "A quartic root generatesM."
+    ],
+    "dependencies": [
+      "CUBIC-01",
+      "GLOBAL-02",
+      "DS:Lemma7.2"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma7.2, p23; the independent norm argument uses the actual Phi coefficients."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_section7_terminal_engine_reconstruction_v1",
+        "detail": "Explicit rho construction and quotient discriminant identity inspected."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The quotient is defined on the conjugate nonzero pair. Independently: Norm(kappa)=21 implies thatk is the only quadratic subfield. RationalU would give u/v\u2208k and u=b*sqrt(kappa). RationalPhi(u) forces b^2=-7/(5*kappa), whose norm7/75 cannot be a square. The draft inserts this omitted interface explicitly.",
+    "remaining": "The quotient-map construction and rho function remain as cited/exact reconstructed inputs."
+  },
+  {
+    "id": "CUBIC-03",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 601
+    },
+    "claim": "The rational and twisted groups give rank3 and2A\u2282H0.",
+    "hypotheses": [
+      "The twist is identified with the anti-fixed subgroup overk."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/outputs/section7_groups.json",
+        "detail": "Fresh official Magma V2.29-10 execution on15September; input/output hashes checked."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Both full-group Magma computations freshly pass with named generators spanning. For everyP,2P=(P+sigmaP)+(P-sigmaP); fixed and anti-fixed terms lie in the named rational/twist subgroups. This uses actual groups, including torsion, not just eigenspaces modulo torsion.",
+    "remaining": "The twist identification is the standard quadratic-twist descent and exact displayed model."
+  },
+  {
+    "id": "CUBIC-04",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 602
+    },
+    "claim": "A has torsion Z/10 and H0\u2282H by the displayed divisor relation.",
+    "hypotheses": [
+      "Good reduction at11 and13.",
+      "Exact named divisor definitions."
+    ],
+    "dependencies": [
+      "CUBIC-03",
+      "DS:Lemma7.3"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma7.3; exact torsion and divisor statements."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1",
+        "detail": "Relation and good-reduction inputs; the old index-at-most-two paragraph is superseded."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The torsion bound is distinct from rank. Injecting prime-to-residue-characteristic torsion at both good primes gives the bound10; the displayed divisor has order10. The exact relation gives H0\u2282H.",
+    "remaining": "This pass inspected the relation checker and prior independent Kummer report; it did not rerun the large divisor addition or both reduction orders."
+  },
+  {
+    "id": "CUBIC-05",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 614
+    },
+    "claim": "The finite173 Kummer characters prove thatH=A.",
+    "hypotheses": [
+      "The Kummer map is a homomorphism killing doubles."
+    ],
+    "dependencies": [
+      "CUBIC-03",
+      "CUBIC-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-13_section7_basis_kummer_repair_v1",
+        "detail": "Actual finite-field repair."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/manuscript_section7_review.md",
+        "detail": "Independent entries, derivative-at-branch convention and all15 combinations reviewed."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Exact model transformation, five simple roots, and matrix determinant were independently checked now. The prior independent entry-by-entry Kummer check supplies the matrix. Rank3 and one-dimensional2-torsion give dimA/2A=4, so H+2A=A. Since2A\u2282H, A=H.",
+    "remaining": "Individual Kummer entries are carried forward from the sealed independent audit; the false historical index inference is not used."
+  },
+  {
+    "id": "CUBIC-06",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 641
+    },
+    "claim": "Every C2(k)-point belongs to a listed class modulo2240A.",
+    "hypotheses": [
+      "Full generation A=H."
+    ],
+    "dependencies": [
+      "CUBIC-05",
+      "DS:Lemma7.4"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma7.4, p24."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-10_section7_mw_sieve_lemma_7_4_v1",
+        "detail": "Finite sieve with exact Mordell-Weil coefficients."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The primary lemma supplies a congruence covering of every k-point. This is not a proof that the twelve reference points are all k-points.",
+    "remaining": "The full finite sieve is prior-replayed and imported here."
+  },
+  {
+    "id": "CUBIC-07",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 652
+    },
+    "claim": "The chosen origin neighbourhood has integral formal parameters, including at the bad prime7.",
+    "hypotheses": [
+      "The curve is smooth in characteristic0.",
+      "Its coefficients lie in the complete DVR at7."
+    ],
+    "dependencies": [
+      "Flynn:Corollary2.2",
+      "Flynn:Theorem3.5"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://people.maths.ox.ac.uk/~flynn/arts/art2.pdf",
+        "detail": "Sections1\u20133, especially the ring hypotheses before Theorem2.1, Corollary2.2 and Theorem3.5 inspected."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The actual primary text requires integral coefficients and a complete DVR; it does not require the polynomial discriminant to be a unit. Thus bad reduction does not invalidate this formal-neighbourhood application. Integral power-series addition and inversion preserve m^2.",
+    "remaining": "Flynn\u2019s universal identities and formal-group theorem are imported."
+  },
+  {
+    "id": "CUBIC-08",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 666
+    },
+    "claim": "The printed valuations imply2240A\u2282G[2].",
+    "hypotheses": [
+      "The adapted coordinate transform is integral unimodular."
+    ],
+    "dependencies": [
+      "CUBIC-05",
+      "CUBIC-07"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic",
+        "detail": "Adopted coordinate/depth package, with corrected propagated-precision audit."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The basis transform has determinant\u00b11 and fixes origin parameters. The printed first two parameter valuations are at least2; all nonorigin coordinates are in m^2. The torsion part is killed by2240, and closure under addition handles every integral combination.",
+    "remaining": "The valuations themselves are prior certified exact coordinate calculations."
+  },
+  {
+    "id": "CUBIC-09",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 680
+    },
+    "claim": "The local pullback check exhausts whole residue classes, including infinity.",
+    "hypotheses": [
+      "Uniform valuation exclusions use valid propagated errors."
+    ],
+    "dependencies": [
+      "CUBIC-07"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/flynn_coordinate_results.json",
+        "detail": "Fresh all16 coordinate identities and all24 infinity cases."
+      },
+      {
+        "path_or_url": "checks/section7_uniform_recheck.json",
+        "detail": "All ten affine base points, exact branching and18 propagated negative-beta cases."
+      },
+      {
+        "path_or_url": "reviews/section7_second_review.md",
+        "detail": "Independent review of universal coverage and precision inequalities."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Fresh exact comparison proves all16 adapted coordinate identities. The independently implemented uniform tree covers all residue pairs and49 lifts per pending node; strict valuation inequalities use valid error bounds, including all18 negative-beta cases. No pending nodes remain outside the stated disks. Integral square-root series and exact leading unit coefficients treat every infinity disk. A second source review verifies all-orders error bounds and the direct limit binding of the infinity vector.",
+    "remaining": "Imports Flynn\u2019s universal formal-neighbourhood theorem, with its hypotheses checked at CUBIC-07; no proof-assistant formalization."
+  },
+  {
+    "id": "CUBIC-10",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 717
+    },
+    "claim": "The7-adic and23-adic conditions leave only P4,P9,P12 solution-bearing disks.",
+    "hypotheses": [
+      "The rho function and nonrationalU condition from CUBIC-02."
+    ],
+    "dependencies": [
+      "CUBIC-02",
+      "CUBIC-06",
+      "CUBIC-08",
+      "CUBIC-09",
+      "DS:Lemma7.6"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma7.6, p25."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_section7_terminal_engine_reconstruction_v1",
+        "detail": "Finite group and rho filters inspected."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "The primary local root slopes forceU\u22614 and sufficientV-valuation. Mod23 the Jacobian exponent2240 identifies the reduction; rho at P10,P11 is outside F23, so those disks cannot contain a rational parameter.",
+    "remaining": "Finite arithmetic is supported by prior replay of the inspected terminal-engine code."
+  },
+  {
+    "id": "CUBIC-11",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 719
+    },
+    "claim": "P9,P12 disks contain no additional solution-bearing point.",
+    "hypotheses": [
+      "Integral analytic expansions and verified Coleman coefficient residues."
+    ],
+    "dependencies": [
+      "CUBIC-10",
+      "DS:Lemma7.7"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Lemma7.7, pp25\u201326; determinant argument and analytic hypotheses inspected."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_section7_terminal_engine_reconstruction_v1",
+        "detail": "Exact determinant and precision8/12 Coleman comparisons inspected."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Two necessary equations in s1,s2 have a unit linear determinant. Higher terms have valuation at least2r for r=min valuations\u22651, forcing both variables divisible by23^(2r), contradicting finite r. Conjugation covers P12.",
+    "remaining": "Coleman coefficient accuracy and all-order integrality are imported/prior-verified; this row is the implication, not a new numerical integration."
+  },
+  {
+    "id": "CUBIC-END",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 725
+    },
+    "claim": "The final P4 disk cannot contain a solution-bearing point; sector[3,4] is empty.",
+    "hypotheses": [
+      "RationalU is forbidden by CUBIC-02.",
+      "The trace integral has a unit leading coefficient."
+    ],
+    "dependencies": [
+      "CUBIC-02",
+      "CUBIC-10",
+      "CUBIC-11",
+      "DS:Proposition7.1"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "detail": "Proof of Proposition7.1, pp26\u201327; full all-order unit argument inspected."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-09-09_section7_terminal_engine_reconstruction_v1",
+        "detail": "Corrects leading residue to4 and checks series/model transformations."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The trace integral is2t1 times a unit: its higher terms have valuations at least2n-v23(2n+1)>0 for n\u22651. Thus t1=0. The even inverse series makes U\u2208Q23\u2229k=Q, since23 is inert, contradiction. The reconstructed leading residue is4; the primary source\u2019s12 is a harmless typo, since both are nonzero.",
+    "remaining": "Uses the certified Coleman unit and integral inverse series; does not assert that every k-point has been enumerated."
+  },
+  {
+    "id": "GLOBAL-END",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 1171
+    },
+    "claim": "The four sector exclusions imply the main nonexistence theorem.",
+    "hypotheses": [
+      "Every terminal sector conclusion has its stated hypotheses."
+    ],
+    "dependencies": [
+      "GLOBAL-01",
+      "GLOBAL-02",
+      "GLOBAL-05",
+      "RAT-END",
+      "QUAD-END",
+      "CUBIC-END",
+      "FIELD-END",
+      "PURE-END",
+      "EXC-END"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "checks/global_reducible_results.json",
+        "detail": "Selected exact identities; see check-specific names."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A hypothetical solution has exactly one of the four sectors. Reducible branches contradict the first three terminal claims. The irreducible branch is one of seven fields; pure and exceptional terminal exclusions cover that list. This is a valid conditional composition, not a claim that all dependencies have been certified in this pass.",
+    "remaining": ""
+  },
+  {
+    "id": "SCOPE-01",
+    "location": {
+      "file": "sources/manuscript.tex",
+      "line": 1231
+    },
+    "claim": "The old no-fresh-Magma statement needs an explicit dated addendum.",
+    "hypotheses": [
+      "Seven fresh executions on15September."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/magma_replay_2026_09_15/VALIDATION_REPORT.json",
+        "detail": "All seven fresh captures and four negative controls pass."
+      }
+    ],
+    "status": "CORRECTION_REQUIRED",
+    "justification": "The14September audit statement was historically accurate. A current review draft must distinguish it from the new seven-run replay. Both trust-boundary paragraphs are updated without rewriting the old release.",
+    "remaining": "Draft correction applied; the published release remains unchanged."
+  }
+]

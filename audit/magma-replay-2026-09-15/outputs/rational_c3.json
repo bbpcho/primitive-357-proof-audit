@@ -1,0 +1,11 @@
+{
+  "id": "rational_c3",
+  "inputSha256": "90ed1a57ca36d181f4f8e8ef91379c1cc3c99ce1d2d3800ee817fb7c21ce0c79",
+  "outputSha256": "76ed2254397caa3d452544bf0e0fdec60ead8c96b5ac56fbaca8eb8c1510cf9a",
+  "observedAt": "2026-09-15T07:25:51.979Z",
+  "stats": "Seed: 2673677097; Total time: 3.759 seconds; Total memory usage: 129.59MB.",
+  "output": "BadPrimes [ 2, 3, 5, 7 ]\nRankBounds 0 1\nSearchPoints {@ (-2 : -540 : 1), (-2 : 540 : 1) @}\nOrderD 0\nChabauty { (-2 : 540 : 1), (-2 : -540 : 1) }\n{ 11, 47, 79 }\n[ 3, 5 ]\n\n",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "capture": "Live calculator DOM input and result; byte hashes computed on captured strings, checked against local files"
+}

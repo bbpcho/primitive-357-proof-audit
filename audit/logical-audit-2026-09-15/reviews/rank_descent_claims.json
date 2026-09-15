@@ -1,0 +1,1180 @@
+[
+  {
+    "id": "RANK-01",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 5
+    },
+    "claim": "The printed curve is a smooth plane quartic over K=Q(sqrt(-7)) with a K-rational degree-one point P1.",
+    "hypotheses": [
+      "The listed coefficient manifest is the printed equation."
+    ],
+    "dependencies": [],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-20_descent_support/certificates/descent_support_manifest.json",
+        "detail": "Coefficient input; exact P1 and new smoothness checks performed 2026-09-15."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/manuscript.tex",
+        "detail": "Lines1347–1377: equation and points."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Fresh Fraction arithmetic substituted P1 and returned zero in both basis coefficients. A fresh SymPy Groebner computation returned [1] for the quartic and all partial derivatives in each of three projective charts, at both embeddings s=237021,496156 modulo733177. These good reductions imply geometric smoothness in characteristic zero. The 15 printed coefficient rows were inspected against the manifest.",
+    "remaining": "No claim here that every other displayed point or parameter value was recomputed."
+  },
+  {
+    "id": "RANK-02",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 4
+    },
+    "claim": "BPS hypotheses on divisor-class representability and local degree-one divisors apply.",
+    "hypotheses": [
+      "Smooth projective genus-three curve",
+      "Characteristic zero",
+      "P1 is K-rational"
+    ],
+    "dependencies": [
+      "RANK-01",
+      "BPS:10.2",
+      "BPS:Hyp10.1",
+      "BPS:Hyp11.1"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Published 2016 primary text, Hyp10.1/Lemma10.2 and Hyp11.1; compared with archived v2."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "P1 gives a global point and a point over every completion. BPS Lemma10.2(i) gives J(k)^circ=J(k) globally and locally; Hyp11.1 is satisfied since the completion field has characteristic zero, including residue characteristic2. The printed curve has genus3 as a smooth plane quartic.",
+    "remaining": "None for these hypotheses; descent-object identifications are separate dependencies."
+  },
+  {
+    "id": "RANK-03",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 20
+    },
+    "claim": "The exact line, contact and incidence algebras represent all actual bitangents and the required target tetrads.",
+    "hypotheses": [
+      "Exact coefficient transfer",
+      "Etale target and incidence algebras",
+      "Nonzero contact factors",
+      "Correct source/target embeddings"
+    ],
+    "dependencies": [
+      "RANK-01"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/check_exact_contact_sage.py",
+        "detail": "Lines11–51 contain the substantive exact tests."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/check_exact_tau_sage.py",
+        "detail": "Exact incidence and same-literal source/norm checks."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/p5_archive_audit/coherence/contact_data.json",
+        "detail": "Exact data consumed by local witnesses."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "Inspected check_exact_contact_sage.py and check_exact_tau_sage.py: they test quartic restrictions as contact squares, conic-contact proportionality, absolute/relative transfer, incidence divisibility and multiplication determinants. The algebraic interpretation is appropriate. This pass did not reproduce or audit every large coefficient export and exact quotient operation.",
+    "remaining": "Complete an equation-by-equation review of the exact export/identity chain; do not replace it with its recorded PASS."
+  },
+  {
+    "id": "RANK-04",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 23
+    },
+    "claim": "The supplied reduced incidence structure has all315 syzygetic tetrads.",
+    "hypotheses": [
+      "Actual bitangent/contact binding",
+      "Smooth reduction and distinct bitangents"
+    ],
+    "dependencies": [
+      "RANK-01",
+      "RANK-03",
+      "BPS:12.2",
+      "BPS:12.3"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/check_geometric_tetrads.py",
+        "detail": "Source inspected and rerun with input paths relocated; writes removed."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/p5_archive_audit/coherence/geometry_modq.json",
+        "detail": "Fresh conic tests used these explicit reductions."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Freshly executed the inspected conic-rank checker on both reductions:28 distinct line/contact squares each; among20,475 four-subsets per embedding exactly315 have conic rank5 and20,160 rank6. All315 match supplied masks. Given the exact binding, specialization preserves characteristic-zero syzygies; the known315 count and injective reduction identify the full structure.",
+    "remaining": "Characteristic-zero binding still inherits RANK-03."
+  },
+  {
+    "id": "RANK-05",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 24
+    },
+    "claim": "A compatible rational even theta characteristic and seven intrinsic tower blocks imply Galois containment in AGL3(F2).",
+    "hypotheses": [
+      "The eight compatible theta characteristics form a Galois-stable set",
+      "Exact tower blocks",
+      "Integral separating invariant and root bound"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-04"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/theta/check_theta_invariant.py",
+        "detail": "Exact tower and norm-bound algorithm inspected."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/check_intrinsic_theta.py",
+        "detail": "Intrinsic orthogonality rule defining the Galois-stable eight-set."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/check_affine_stabilizer.py",
+        "detail": "All8! vertex permutations reduced to1344 affine symmetries."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "Read the intrinsic-theta, tower-invariant and affine-stabilizer code. The norm-bound mechanism is valid: a nonzero integral difference of degree at most16 with bounded conjugates cannot be divisible by733177^24 when that exceeds its absolute norm bound. Distinct invariant residues then force the selected theta to be rational. The block-and-theta stabilizer is identified with affine transformations of eight vertices.",
+    "remaining": "Finish the exact tower/root-bound input audit and finite theta identification at the level of its numerical inputs; no contradiction found."
+  },
+  {
+    "id": "RANK-06",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 25
+    },
+    "claim": "Only containment in AGL and transitivity on28 bitangents are needed; full AGL equality is unnecessary.",
+    "hypotheses": [
+      "Correct dictionary",
+      "Irreducible degree56 absolute field with K subfield"
+    ],
+    "dependencies": [
+      "RANK-05",
+      "RANK-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.py",
+        "detail": "Exhausts edge-transitive subgroup classes, rather than assuming full AGL."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "An irreducible degree56 field containing quadratic K has degree28 over K, giving transitivity. The adopted finite arguments explicitly check every compatible subgroup. No later inference inspected requires full Galois-group equality.",
+    "remaining": "The irreducibility and exact embedded K are part of RANK-03/05 input audit."
+  },
+  {
+    "id": "RANK-07",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 21
+    },
+    "claim": "The actual descent is the BPS fake2-descent with J[2]=ker(Edual→Rdual).",
+    "hypotheses": [
+      "Smooth plane quartic in characteristic not2",
+      "All actual bitangents and syzygetic incidence",
+      "Universal line represents half-canonical contact divisor"
+    ],
+    "dependencies": [
+      "RANK-01",
+      "RANK-03",
+      "RANK-04",
+      "BPS:6.3",
+      "BPS:6.10",
+      "BPS:12.5"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Cor12.5, Section6.3 and Proposition6.10 inspected in primary source."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "Cor12.5 explicitly identifies the incidence modules and kernel; Proposition6.10 identifies line evaluation with the cohomological map. The contact-divisor interpretation and canonical polarization give the multiplication-by2 descent. The theorem does not require generic/full Sp6 or AGL image.",
+    "remaining": "Exact-data identification remains RANK-03; this node checks the theorem specialization, not all its arithmetic premises."
+  },
+  {
+    "id": "RANK-08",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 18
+    },
+    "claim": "The ordered66-dimensional space contains every relevant global fake Selmer representative.",
+    "hypotheses": [
+      "Correct support set",
+      "Unconditional class-group2-primary bound",
+      "Complete unit squareclasses",
+      "All support generators and diagonal normalization"
+    ],
+    "dependencies": [
+      "RANK-07",
+      "BPS:7.2",
+      "BPS:7.3",
+      "BPS:9.2",
+      "BPS:10.9a"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/v3_audit/rank_descent_review.md",
+        "detail": "Historical review details the class/unit argument and its evidence, with superseded later-gap descriptions."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/predyadic/predyadic_review.md",
+        "detail": "Explicitly imports global generation/support as a separate foundation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results/2026-08-20_descent_support/certificates/descent_support_manifest.json",
+        "detail": "Historical source data; embedded status text is not used as proof."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "BPS gives the required containing direction once support and generation are proved. The archive describes28 unit classes plus38 support generators, an unconditional class-group route and corrected29-prime generators. Principal multiplybacks alone do not establish completeness, and field-discriminant support alone does not establish the needed Jacobian/Tamagawa support.",
+    "remaining": "Audit the entire support theorem, class-number/regulator/ambiguous-class chain and unit-index chain against primary results. This is outstanding coverage of this pass, not an identified false premise."
+  },
+  {
+    "id": "RANK-09",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 29
+    },
+    "claim": "Each of66 local columns is the restriction of the same global generator in the actual local algebra.",
+    "hypotheses": [
+      "Complete prime inventory",
+      "Correct embeddings, uniformizers and square tests",
+      "Same ordered source basis"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-08"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/predyadic.gp",
+        "detail": "Adopted full-column arithmetic source."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/predyadic/predyadic_review.md",
+        "detail": "Describes actual-field and basis bindings."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "Read the adopted raw66 construction and report; it replaces the historical62-column prefix reuse and recomputes actual evaluations. The matrix recombination below was independently checked. This pass does not certify every underlying local-field arithmetic routine or source-column binding.",
+    "remaining": "Line-by-line review of predyadic.gp and both dyadic raw-column producers with explicit local error/support hypotheses. The isolated actual p5 image/source calculation is now checked separately as RANK-33; this does not discharge the other local maps or all66 columns."
+  },
+  {
+    "id": "RANK-10",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 31
+    },
+    "claim": "The odd-place local Kummer dimensions used for stopping are valid for every compatible subgroup.",
+    "hypotheses": [
+      "Actual bitangent degree profiles",
+      "BPS module dictionary"
+    ],
+    "dependencies": [
+      "RANK-06",
+      "RANK-07",
+      "BPS:11.6"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/odd_envelope.py",
+        "detail": "Inspected and freshly rerun without output writes."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/predyadic/odd_decomposition_envelope.json",
+        "detail": "Independent integer check of recorded representatives."
+      },
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Remark11.6, general local index formula."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Fresh GAP enumeration produced95 AGL subgroup classes. All matches give J[2] dimensions4 at1051,2 at3,3 at5,2 at7. Independently counted fixed even-eight-coordinate classes modulo complement from exported generators, with identical results. For odd residue characteristic multiplication by2 has unit derivative, giving local quotient size equal to local2-torsion size, even at bad reduction.",
+    "remaining": "Actual field profiles remain under RANK-09."
+  },
+  {
+    "id": "RANK-11",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 31
+    },
+    "claim": "The sampled images at the four split primes,1051,3 and5 are complete.",
+    "hypotheses": [
+      "Actual smooth local cycles",
+      "Correct evaluated squareclasses",
+      "Displayed ranks equal the local Kummer-domain dimensions"
+    ],
+    "dependencies": [
+      "RANK-09",
+      "RANK-10"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/predyadic/predyadic_review.md",
+        "detail": "Explicit local cycles, dimensions and Hensel hypotheses."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A map from a finite2-vector space cannot have image dimension exceeding its domain. The verified independent images reach6 at split primes,4 at1051,2 at3 and3 at5; therefore equality forces the whole image and zero fake kernel. No unproved exhaustiveness of a point search is needed once this dimension equality holds.",
+    "remaining": "Actual cycle/squareclass ranks still depend on arithmetic review RANK-09; no claim that stored ranks alone prove existence."
+  },
+  {
+    "id": "RANK-12",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 37
+    },
+    "claim": "The supplied matrices cut66 dimensions to46,28,24,23,22,20,19,18,15,12.",
+    "hypotheses": [
+      "Supplied raw and allowed matrices represent actual maps/images"
+    ],
+    "dependencies": [
+      "RANK-09",
+      "RANK-11",
+      "RANK-19",
+      "RANK-23"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/predyadic",
+        "detail": "All selected raw/allowed matrices were read."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/p5_archive_audit/local_upper_bound",
+        "detail": "Fresh dyadic raw and checkpoint allowed matrices used in the new join."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "New integer-only elimination constructs annihilators of every allowed column space and composes them with each66-column raw map. The resulting stage dimensions were recomputed and match exactly. Dropping other prime/norm conditions cannot discard true classes, and this route already supplies the stated final containing space.",
+    "remaining": "Arithmetic interpretation inherits the referenced map/image nodes."
+  },
+  {
+    "id": "RANK-13",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 48
+    },
+    "claim": "Modulo the seven-dimensional diagonal, the final containing quotient is exactly B direct-sum<c>.",
+    "hypotheses": [
+      "Point and literal-class coordinate identities",
+      "The same global diagonal",
+      "No source-basis mismatch"
+    ],
+    "dependencies": [
+      "RANK-08",
+      "RANK-12"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/rank/repository/results/2026-08-26_corrected_quotient_coordinates/inputs",
+        "detail": "Three coordinate text files independently read and joined."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "New integer calculation gave ranks7,11,12 for diagonal; diagonal+four point columns; and those columns+literal c. Every column lies in the reconstructed12-space, so equality follows. This proves actual row-space equality rather than merely equal dimensions.",
+    "remaining": "Exact field-to-coordinate identities and diagonal completeness inherit RANK-08/09."
+  },
+  {
+    "id": "RANK-14",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 63
+    },
+    "claim": "z3=P4−P1 has f(z3)=3 lambda² in the entire local bitangent algebra at7.",
+    "hypotheses": [
+      "Correct rational points and line values",
+      "Square test in every actual component"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-09"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/predyadic.gp",
+        "detail": "All-component square testing."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/p7_replacement/p7_witness_review.md",
+        "detail": "Separates full fake-kernel membership from target correction."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "The source/report explicitly require all seven components. Thus the claim is not inferred from the subsequently selected target carrier alone. This pass read the full-kernel argument but did not independently certify each local square witness.",
+    "remaining": "Check all seven exact local square criteria and source-point binding."
+  },
+  {
+    "id": "RANK-15",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 70
+    },
+    "claim": "The selected7-adic target and incidence fields have the claimed exact identities and controlled errors.",
+    "hypotheses": [
+      "Strong Hensel bounds",
+      "Krasner separation",
+      "Propagated coefficient errors",
+      "Two irreducible unramified quadratic incidence factors"
+    ],
+    "dependencies": [
+      "RANK-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_witness.py",
+        "detail": "Actual replacement implementation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/p7_replacement/p7_witness_review.md",
+        "detail": "Detailed model and precision reasoning."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "Inspected replacement algorithm/report. The planned logic—exact degree8 Eisenstein model, target-root lifting, Krasner identification and coefficientwise Gauss error bounds—addresses the required issue. Merely increasing precision would not suffice.",
+    "remaining": "Audit every valuation inequality, denominator loss and factor-lifting bound in the replacement source; this pass does not promote the previous log to that proof."
+  },
+  {
+    "id": "RANK-16",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 83
+    },
+    "claim": "The correction formula is r(z)/(tau(lambda)*a²), and exact mu2 membership precedes sign reading.",
+    "hypotheses": [
+      "Degree-zero cycle",
+      "Four-incidence tetrad",
+      "Exact contact-divisor identities",
+      "Certified local roots"
+    ],
+    "dependencies": [
+      "RANK-07",
+      "RANK-14",
+      "RANK-15",
+      "BPS:A24a"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "LemmaA24(a) checked against published and archived texts."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/p7_replacement/p7_witness_review.md",
+        "detail": "Matches exact formula with the implemented normalizations."
+      }
+    ],
+    "status": "IMPORTED_RESULT_APPLICABILITY_CHECKED",
+    "justification": "Weight4 gives theta(a)=a². The contact relation implies the quotient squares to1; units with residues1 and−1 are distinct in odd residue characteristic. Quadratic factor norms are invariant under root-sign change. This is the precise BPS fake-kernel formula; a high-precision near-one check by itself would be insufficient.",
+    "remaining": "Actual residue/norm values remain RANK-15."
+  },
+  {
+    "id": "RANK-17",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 95
+    },
+    "claim": "Every physically compatible7-adic target evaluation descends to Rdual(Kv)/q(Edual(Kv)).",
+    "hypotheses": [
+      "AGL containment",
+      "Actual bitangent and target/incidence ramification-residue profiles"
+    ],
+    "dependencies": [
+      "RANK-06",
+      "RANK-07",
+      "RANK-15"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_finite.py",
+        "detail": "Full source read and rerun with output writes omitted."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/p7/p7_carrier_envelope.json",
+        "detail": "Independent integer character check."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Fresh GAP recomputation found three D8 classes, one compatible inertia each, eight carriers each. All24 annihilate the image of invariant Edual; exactly12 characters are nonzero and12 zero. Independent integer pairing from recorded generators agrees. The arithmetic value−1 must select a nonzero character; the finite profile does not prove that value.",
+    "remaining": "Field-profile binding remains RANK-15."
+  },
+  {
+    "id": "RANK-18",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 101
+    },
+    "claim": "A genuine closed-point cycle supplies the nonzero fake image at7.",
+    "hypotheses": [
+      "Model transport Zoriginal=−7Zlocal",
+      "Strong Hensel inequality",
+      "Norm-line squareclasses stable in every component"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-09"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_nonzero_source.gp",
+        "detail": "Actual source and coordinate transport."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/predyadic/predyadic_review.md",
+        "detail": "Hensel valuations and all-component margins."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "The reported construction uses the unramified quadratic extension and Norm(P)−2P1, a degree-zero cycle as BPS requires. Its squareclass-stability inequality includes split incidence cases, rather than assuming an extension remains a field. The report has substantive bounds, but not every coefficient-level bound has been independently checked in this pass.",
+    "remaining": "Audit the point, content-normalization, derivative valuation and all line-perturbation inequalities directly."
+  },
+  {
+    "id": "RANK-19",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 109
+    },
+    "claim": "The full7-adic fake image has dimension1.",
+    "hypotheses": [
+      "Local Kummer domain has order4",
+      "Actual nonzero image",
+      "Actual nonzero fake-kernel correction"
+    ],
+    "dependencies": [
+      "RANK-02",
+      "RANK-10",
+      "RANK-14",
+      "RANK-15",
+      "RANK-16",
+      "RANK-17",
+      "RANK-18",
+      "BPS:A24b"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "LemmaA24(b): the product of image and detected-kernel orders equals the generated subgroup order."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A nonzero image and a nonzero kernel in a group of order4 force each to have order2. The injection of the local Kummer kernel into the correction quotient justifies detection by the nonzero character value. Both witnesses need not come from the same generating search.",
+    "remaining": "The implication is checked; its arithmetic witness dependencies remain open where specified."
+  },
+  {
+    "id": "RANK-20",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 117
+    },
+    "claim": "At the second dyadic place actual cycles give image rank3 and the two printed full fake-kernel relations.",
+    "hypotheses": [
+      "Genuine Hensel-lifted points on the same curve",
+      "Exhaustive component square tests",
+      "Positive line stability bounds"
+    ],
+    "dependencies": [
+      "RANK-01",
+      "RANK-03",
+      "RANK-07"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/dyadic_arithmetic/dyadic_arithmetic_review.md",
+        "detail": "Actual divisors, old masks, coordinates and stability margins."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/dyadic_stopping.gp",
+        "detail": "Adopted arithmetic."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_curve_charts.gp",
+        "detail": "Fresh exact scalar relation to the integral quartic and smooth normalized special-fibre equations."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_curve_charts.gp.log",
+        "detail": "Both same-curve and chart identities passed."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_full_relations.gp",
+        "detail": "Inspected original worker plus exact denominator-square input normalization and actual-prime/base-contraction checks; no supplied relation answer used as input."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_full_relations.gp.log",
+        "detail": "Fresh full old-mask/diagonal enumeration and independent C0 extension."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_full_relations.gp.triple.log",
+        "detail": "Fresh all-component source relations for P2 and P5, with positive Hensel/line stability margins."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Read every relevant raw point/refinement/relation calculation. Fresh checks prove the curve coefficients differ from the already identified integral model by one exact nonzero scalar. The normalized C chart has a unit d derivative at d=0; the triple chart has a unit g derivative at(0,0) and a unit e derivative at(1,0), supplying genuine unique Hensel roots for the chosen parameter disks. All three actual primes are freshly matched to idealprimedec, verified to contract to w=0, and have relative degrees4+12+12=28. Every local-square input is converted to the full integral-basis column times an exactly verified denominator square. Exhausting16 old masks and8 base squareclasses yields kernel masks0,5,11,14 and thus old image rank2. C0 has no old relation and strictly positive stability slacks58,56,28, hence supplies rank3. The P2 and P5 fresh full-component relations are respectively[1,1,-10] and[1,0,2], with slacks54,48,24 and60,56,28. Positive slacks mean each true line ratio differs from the tested truncation by a unit in1+pi^(2e+1), which is square by strong Hensel. The original scout comma bug is immaterial: the adopted C0 independent extension is established before that tracker, and full cycle relations are separately tested. No conclusion uses its unsupported second-extension state.",
+    "remaining": "The global geometric/line identification is RANK-03; no unverified second-dyadic raw point, squareclass or component-coverage step remains in this node."
+  },
+  {
+    "id": "RANK-21",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 126
+    },
+    "claim": "The dyadic sextic/quadratic fields and square-root calculations certify correction profile(0,1).",
+    "hypotheses": [
+      "Exact2-maximal local bases",
+      "Actual ramification/residue polynomials",
+      "Strong Hensel roots",
+      "Sign separation greater than v(2)"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-20"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/dyadic_arithmetic/check_stronger_dyadic_precision.py",
+        "detail": "Stronger model/error checks."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/dyadic_arithmetic/dyadic_arithmetic_review.md",
+        "detail": "Reported strengthened margins[19,2] and[2,18]."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_full_true_target_profile.gp",
+        "detail": "New direct original-target Hensel/Krasner and separation proof for every local factor, avoiding an inexact factorization assumption."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_full_true_target_profile.log",
+        "detail": "All five actual local factors: degrees3,3,6,6,24; e,f=(1,3),(1,3),(2,3),(2,3),(4,6), with strict Hensel/Krasner bounds."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_target_and_incidence_balls.gp",
+        "detail": "Fresh conservative target-root and incidence-factor error propagation added to the fully inspected strengthened source."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_target_and_incidence_balls_3.log",
+        "detail": "Actual target-root bound308, target uncertainty2^150, incidence error64 with resultant unit; fresh final margins19,2 and bit0."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/dyadic_actual_target_and_incidence_balls_4.log",
+        "detail": "Actual target-root bound318, target uncertainty2^155, incidence error64 with resultant unit; fresh final margins2,18 and bit1."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "The entire local model and strengthened source was read. New exact2-maximal models for all five factors of the target specialization have one prime each, degrees summing42. Direct evaluation of the original target polynomial in their integral bases gives residual/derivative/root-error bounds(160,12,148),(160,8,152),(320,12,308),(320,2,318),(640,6,634). Each error exceeds both its own defining-polynomial derivative bound and every cross-factor evaluation bound, so strong Hensel and Krasner identify five distinct genuine factors of the original target with profile[3,3,6,6,24]. For the two sextic carriers the checked six-element bases are locally maximal, their uniformizers have valuation1, and residue cubics are irreducible. The main arithmetic was rerun in exact truncated sextic models with a coefficient ball containing the actual target root (2^150 and2^155 on every power coefficient). The two lifted incidence factors are monic integral with resultant a unit; their product residual has target valuation64, so Hensel gives exact factors within that bound. Their lower coefficients were explicitly widened by2^28 on all six power coefficients, conservatively accounting for the basis denominators, before the final norm computation. The relative quadratics are Eisenstein or unramified with irreducible F8 reduction as asserted. True point-coordinate errors63/67 give relative line/conic errors at least118. Normalized unit-root residual/derivative pairs are(40,4) in ramified factors and(20,2) in the unramified factor, giving exact root errors36/18. Quadratic norms therefore have relative target error at least18, exceeding vA(2)=2. With the exact contact identity from RANK-03, the true obstruction is in mu2; fresh widened-input margins(19,2),(2,18) prove profile(0,1). Square-root uniqueness is neither established nor needed because changing a quadratic root sign leaves its norm unchanged.",
+    "remaining": "Standard exact local-field/Hensel/Krasner and PARI arithmetic specifications are trusted; no remaining project-specific second-dyadic field, factor, point or sign precision step. The geometric contact identity remains the explicit RANK-03 dependency. First-dyadic image arithmetic is separate RANK-09/23 input."
+  },
+  {
+    "id": "RANK-22",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 133
+    },
+    "claim": "Both physical sextic evaluations form an independent character pair on each compatible dyadic correction quotient.",
+    "hypotheses": [
+      "Actual42-target dictionary and splitting[3,3,6,6,24]",
+      "Exhaustive envelope of decomposition/inertia groups"
+    ],
+    "dependencies": [
+      "RANK-06",
+      "RANK-07",
+      "RANK-21"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/dyadic_finite.py",
+        "detail": "Envelope and wild/tame/Frobenius construction inspected."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/dyadic/all_finite_candidates.json",
+        "detail": "All28 compatible physical groups used in the independent recomputation."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "New integer linear algebra rebuilt315 tetrads, R of dimension21, and the physical42-target as affine matchings with two directions each twice. For all28 exported compatible groups it gave dimJ[2]=1, correction dimension2, and two descended sextic characters of rank2. Inspected envelope enumeration: Sylow conjugacy covers wild2-subgroups; a tame cyclic odd complement and a normalizing Frobenius cover finite local decomposition groups.",
+    "remaining": "The28-group data were independently checked, but the full dyadic enumeration was inspected rather than regenerated in this pass; field profiles remain RANK-21."
+  },
+  {
+    "id": "RANK-23",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 137
+    },
+    "claim": "The second-dyadic image is exactly3-dimensional and the first dyadic cut also uses a complete image.",
+    "hypotheses": [
+      "Split dyadic base is Q2",
+      "Genus3",
+      "J[2] local dimension1",
+      "Actual image rank3 plus nonzero kernel at place2; actual image rank4 at place1"
+    ],
+    "dependencies": [
+      "RANK-02",
+      "RANK-20",
+      "RANK-21",
+      "RANK-22",
+      "BPS:11.6",
+      "BPS:A24b",
+      "RANK-FIRST-DYADIC"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/rank/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_LOCAL_STOPPING_THEOREM.md",
+        "detail": "First-dyadic witness source theorem."
+      },
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Remark11.6 and LemmaA24 stopping argument."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The dyadic local Kummer group has order2^(3+1)=16. At place2 the actual image subgroup has order8 and the detected kernel at least2, so both are full. At place1 four independent actual images already attain16 and suffice. No point-search exhaustion beyond these size equalities is needed.",
+    "remaining": "First-dyadic actual rank4 witness is now an explicit parent supplement dependency RANK-FIRST-DYADIC; second-dyadic arithmetic is RANK20/21. No extra local stopping hypothesis remains."
+  },
+  {
+    "id": "RANK-24",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 145
+    },
+    "claim": "The global comparison correction is1-dimensional and the common root ratio is its nonzero class.",
+    "hypotheses": [
+      "Actual group is an edge-transitive subgroup of AGL",
+      "Correct R and E modules",
+      "Coherent ratio has asserted carrier evaluations"
+    ],
+    "dependencies": [
+      "RANK-06",
+      "RANK-07"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.py",
+        "detail": "Inspected and freshly rerun from scratch; no previous invariant matrix consumed."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/prior/work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.json",
+        "detail": "Recorded generators checked with independent integer arithmetic."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Fresh95-subgroup GAP enumeration found all four transitive cases of orders56,168,168,1344. In each, Edual invariants=0, Rdual invariants=1 and the AGL common ratio remains nonzero. Independent integer recomputation also gave J[2](K)=0 for each representative. Hence full AGL equality is unnecessary.",
+    "remaining": "Identification of the actual coherent root ratio inherits RANK-25."
+  },
+  {
+    "id": "RANK-25",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 145
+    },
+    "claim": "The literal c has exactly two coherent global lifts modulo the comparison kernel.",
+    "hypotheses": [
+      "Exact same-literal source",
+      "Global target square roots",
+      "All relation signs satisfy qprime compatibility",
+      "Galois-equivariant actual target sections"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-05",
+      "RANK-07",
+      "RANK-24",
+      "RANK-33",
+      "BPS:A13",
+      "BPS:A14"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "LemmaA13(b) and RemarkA14 read explicitly."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/coherence/independent_verify_p7_orbit42_56_cocycle_v4.py",
+        "detail": "Inspected77 relation and all315/root transport logic."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/check_exact_tau_sage.py",
+        "detail": "Same-literal norm/source chain."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/evaluate_p7_orbit42_56_exact_roots_v3.gp",
+        "detail": "Read in full; exact root squares/provenance and fresh196 reductions evaluated directly from root blobs and live N6 source."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/validate_p7_orbit42_56_exact_roots_v3.gp",
+        "detail": "Read in full; independent coefficient/reduction comparison."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_root_replay_results.json",
+        "detail": "Both exact GP workers freshly passed without diagnostics."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_root_values.gpdata",
+        "detail": "Fresh exact-root reductions, equal to all live incidence products, used by the finite verifier."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/independent_verify_p7_orbit42_56_cocycle_v4.py",
+        "detail": "Read in full; builds77 independent kernel relations, both whole-orbit sign choices,315 extensions and all equivariance transports."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_cocycle_fresh.log",
+        "detail": "Freshly passed423360 transports per embedding and all77 relation checks on each embedding."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/global_root_inputs.json",
+        "detail": "Exact input hashes and finite verifier arguments."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "Freshly evaluated the exact42- and56-target root blobs: each root squares to its recorded exact norm, with full coefficient equality to the norm/provenance arrays. The identification of those arrays with the actual four-incidence tau(c) is explicitly RANK-03, and c=N6=CP22 is RANK-33. At the odd split prime733177, all source coordinates and denominators are reduced directly and nonzero; every one of196 root reductions is evaluated from its exact algebra element and checked against the corresponding incidence product. Under the target/mask identification in RANK-03/05, each relation quotient is exactly in mu2 before reduction, so its residue detects its exact sign. The relation-sign rule is multiplicative on the binary kernel because the squared root identities cancel overlaps. The freshly reconstructed98 columns have rank21 and77-dimensional relation kernel; all77 basis quotients are+1. They therefore define a well-defined lift on all ofR, not merely a square tau(c). The entire315 extension and423360 transports per embedding were rerun; exact algebra elements defined overK supply the Galois transport on the98 input carriers, and kernel independence supplies the extension. The common whole-orbit sign solutions are exactly00 and11; both exact root42 signs used at5 thus belong to coherent global lifts. Their ratio is−1 on all98 spanning carriers, hence a nonzero invariant functional onR. RANK-24 gives zero Edual invariants and a1-dimensional correction quotient for every possible actual transitive group, so this ratio represents its unique nonzero class and exhausts the two lifts. No Sha1-vanishing or generic-full-Galois assumption is inserted.",
+    "remaining": "No remaining project-specific coherent-root/finite-relation step. Global source/target/bitangent identifications RANK-03 and actual theta/Galois embedding RANK-05 remain explicitly upstream and are being audited separately; this conditional status does not discharge them or the class/unit/support bounds."
+  },
+  {
+    "id": "RANK-26",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 156
+    },
+    "claim": "The local fake kernel at5 is zero, so the full finite correction quotient is W5.",
+    "hypotheses": [
+      "Actual5-adic image rank3",
+      "Local Kummer dimension3"
+    ],
+    "dependencies": [
+      "RANK-10",
+      "RANK-33"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.log",
+        "detail": "Fresh complete eleven-prime image calculation: diagonal rank2, total rank5."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/summarize_local5_image.py",
+        "detail": "Computational image premise."
+      },
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Definition10.3 and Lemma10.4 identify Wv."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "An image of dimension3 from a3-dimensional domain forces injectivity. Therefore the quotient by the local fake-kernel correction removes nothing. This is necessary: nonzero restriction into the unreduced correction quotient alone would not otherwise prove zero global Selmer comparison kernel.",
+    "remaining": "No further project-specific local5 image check remains after RANK-33. The geometry/Galois premises remain explicit upstream dependencies."
+  },
+  {
+    "id": "RANK-27",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 148
+    },
+    "claim": "The two coherent lift obstructions at5 are(1,0) and(0,1), differing by(1,1).",
+    "hypotheses": [
+      "Exact contact identity",
+      "Same-source local preimage",
+      "Coherent global roots",
+      "Actual quotient characters",
+      "Sufficient local error margins"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-25",
+      "RANK-26",
+      "RANK-33",
+      "RANK-34",
+      "BPS:A26"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/arithmetic/check_precision_and_controls.py",
+        "detail": "Source and stop-before-answer comparison logic inspected."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/p5_archive_audit/p5_logical_reduction.md",
+        "detail": "Exact sign formula and distinction between omega and kappa."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.gp",
+        "detail": "Focused fresh full-component local-square check of the actual chosen cycle, scalar and literal source."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.log",
+        "detail": "All11 local-square tests true, all22 odd-squareclass coordinates zero."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_divisor_identity_and_signs.gp",
+        "detail": "New exhaustive exact-divisor identification added to inspected norm-first arithmetic; no frozen sign input read."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_divisor_identity_and_signs.log",
+        "detail": "All six target incidence norms uniquely identified among19 degree8 divisor products, agreeing to39–41digits; fresh norm/sign margins and signs(-,+,-)."
+      },
+      {
+        "path_or_url": "https://pari.math.u-bordeaux.fr/dochtml/html/Polynomials_and_power_series.html",
+        "detail": "Official factorpadic specification distinguishes exact-input factorization from inexact-input truncation; the added divisor enumeration resolves that project-specific distinction."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/p5/repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p5_literal_c_residue_bits_v2.gp",
+        "detail": "Full norm-first source read, including ramified/unramified residue selection and scalar/contact formula."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "The exact chosen local source is now RANK-33. The norm-first computation uses genuine degree2 local components: the ramified model is Eisenstein (v(C)=1,v(D)>=1), while the unramified model has unit nonsquare discriminant. For G²=C+DG, Norm(A+BG)=A²+ABD-B²C. At a ramified quadratic component the residue of the norm of a unit square root is the square-root-square residue; at an unramified quadratic it is rbar^(25+1). The uniformizer norm contributes the recorded scale. These residue choices determine the correct square root of Norm(S), independent of sign of the local lambda root. Fixed-inverse iteration is valid because the normalized derivative2*n0 is a unit and final residuals are checked; all six residuals imply relative root errors at least21. Norm valuation1 is allowed and explicitly accounted for. Exact contact and global-root identities (RANK-03/25) force the target obstruction into mu2; the three computed signs are separated from the opposite sign at valuations22,21,22, while propagated target precision is at least35. Each exact absolute incidence norm divides the squarefree source polynomial under RANK-03. Enumerating every degree8 subset product (19 possibilities) finds the selected product uniquely modulo5, with agreement39–41digits and every competitor distance0. Thus the carrier association no longer relies on a potentially misleading factorization of an inexact intermediate. RANK-34 supplies the actual quotient coordinates: signs(-,+,-) give(1,0); reversing the coherent root gives(0,1). Standard PARI exact number-field/factorpadic/finite-precision arithmetic specifications are trusted, not re-proved internally.",
+    "remaining": "Local project-specific algorithm, carrier identification, character coordinates, chosen source and precision implications are checked. The exact global contact/target binding RANK-03 and coherent global lift association RANK-25 remain open; this local status does not close them."
+  },
+  {
+    "id": "RANK-28",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 153
+    },
+    "claim": "The5-adic obstruction excludes both lifts and proves the true-to-fake Selmer comparison kernel is zero.",
+    "hypotheses": [
+      "Kcorr has dimension1",
+      "W5 equals full local quotient",
+      "kappa5(rho)=(1,1) and lift obstructions(1,0),(0,1)"
+    ],
+    "dependencies": [
+      "RANK-02",
+      "RANK-24",
+      "RANK-25",
+      "RANK-26",
+      "RANK-27",
+      "BPS:10.14",
+      "BPS:A26"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "https://math.mit.edu/~poonen/papers/genus3.pdf",
+        "detail": "Theorem10.14, LemmasA24/A26 primary text; no Sha^1(Rdual)=0 hypothesis is imported."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The functional(u,v)↦u+v vanishes on the global correction image but equals1 on either obstruction. Both lifts fail local Kummer membership. Nonzero restriction of the sole global correction generator implies ker(kappa)=0. One place suffices; no computation of Wv at every other place is needed for these two negative conclusions.",
+    "remaining": "Witness dependencies remain open; the exact-sequence implication itself is checked."
+  },
+  {
+    "id": "RANK-29",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 160
+    },
+    "claim": "All true Selmer classes map into B, and dimSel2(J/K)=rankJ(K)=4 with Sha[2]=0.",
+    "hypotheses": [
+      "Containing quotient Q=B+<c>",
+      "B is the actual Kummer image of four global point classes",
+      "Zero comparison kernel",
+      "J(K)[2]=0"
+    ],
+    "dependencies": [
+      "RANK-07",
+      "RANK-13",
+      "RANK-24",
+      "RANK-28",
+      "STANDARD:KummerExactSequence",
+      "STANDARD:MordellWeil"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/rank-proof.tex",
+        "detail": "Lines160–172; argument reconstructed explicitly in this audit."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "A true Selmer class over c+b minus the global Kummer class of a point mapping to b would be a locally Kummer lift of c, contradiction. Injectivity gives dimension≤4. The known four-dimensional fake point image implies dimJ(K)/2J(K)≥4; with J(K)[2]=0 this gives rank≥4. Kummer exactness then forces equality and Sha[2]=0. No assumption that every element of the containing space is a fake Selmer class is used.",
+    "remaining": "This is a checked implication with open upstream input-verification nodes, not a closed certification of the final rank theorem."
+  },
+  {
+    "id": "RANK-30",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 174
+    },
+    "claim": "H0 has finite odd index in J(K).",
+    "hypotheses": [
+      "Rank4",
+      "Four point columns independent modulo2",
+      "J(K)[2]=0"
+    ],
+    "dependencies": [
+      "RANK-13",
+      "RANK-24",
+      "RANK-29",
+      "STANDARD:MordellWeil"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/rank-proof.tex",
+        "detail": "Lines174–175 and printed separation of H0/H1."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The four point classes form a basis of J(K)/2J(K). They are independent in the torsion-free quotient, so H0 has finite index. For F=J(K)/H0, surjectivity modulo2 gives F/2F=0; finiteF therefore has odd order. This also shows why no claim of5-saturation of H0 follows.",
+    "remaining": "No further abstract index step remains; arithmetic hypotheses remain upstream."
+  },
+  {
+    "id": "RANK-31",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 174
+    },
+    "claim": "H1 contains H0 and is5-saturated with index coprime400.",
+    "hypotheses": [
+      "K-rational class E",
+      "5E=D3+D4+3D5",
+      "Four independent mod5 images of H1",
+      "Rank4"
+    ],
+    "dependencies": [
+      "RANK-30",
+      "DOWNSTREAM:E_RELATION_AND_5_SATURATION"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/manuscript.tex",
+        "detail": "Lines855–872 state the E relation and C25/mod5 premise."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The relation gives D3=5E−D4−3D5, hence H0⊂H1. Thus J/H1 has odd order. If the four mod5 images are independent and the local maps factor through J/5J, rank4 gives5-saturation; J/H1 then also has order prime to5, so it is coprime400. An order25 target alone is insufficient unless its reduction/quotient is correctly a map on J/5J; that arithmetic interface belongs to the downstream branch.",
+    "remaining": "Link to the downstream audited E/divisor relation and exact5-saturation map predicates; do not infer it from determinant4 alone."
+  },
+  {
+    "id": "RANK-32",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 180
+    },
+    "claim": "H1 covers J(K)/400J(K), while logarithmic annihilators of H0 are global.",
+    "hypotheses": [
+      "Finite [J:H1] coprime400",
+      "Finite [J:H0]",
+      "Logarithm is a group homomorphism to characteristic-zero vector space"
+    ],
+    "dependencies": [
+      "RANK-30",
+      "RANK-31",
+      "STANDARD:FiniteAbelianGroups"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/rank-proof.tex",
+        "detail": "Lines178–184; elementary group arguments checked."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Multiplication by400 is an automorphism of the finite quotientJ/H1, hence J=H1+400J. For anyP, some nonzero integern has nP∈H0; nL(P)=L(nP)=0 implies L(P)=0 in characteristic zero. These implications require no saturation at other primes and no division by a p-adic unit.",
+    "remaining": "Construction and certified precision of the logarithmic functionals themselves belong to downstream review."
+  },
+  {
+    "id": "RANK-33",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 156
+    },
+    "claim": "At5 the actual chosen cycle P2+P4−2P1 has f(z)/(c(s−1)/2) square in all11 bitangent completions; four actual point images span a3-dimensional fake image.",
+    "hypotheses": [
+      "The exact normalized line and quartic represent the specified descent, as in RANK-03",
+      "Standard exact number-field, prime decomposition and finite residue arithmetic specifications"
+    ],
+    "dependencies": [
+      "RANK-01",
+      "RANK-03",
+      "RANK-07"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.gp",
+        "detail": "Inspected direct construction using actual prime decomposition and all actual point/line evaluations; it reads no old local-condition matrix."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_same_source_and_image.log",
+        "detail": "Fresh complete fibre with sum ef56, exact five smooth points, same literal CP22=N6, all22 coordinates zero, all11 local powers true, and image rank5−2=3."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "K has exactly one unramified quadratic completion at5. Fresh idealprimedec of the degree56 field yields11 primes with relative degrees totaling28. At odd residue characteristic each local squareclass is completely specified by valuation parity and its unit residue Euler character. The two diagonal generators5 and(s−1)/2 span the base squareclasses, with the latter nonsquare mod5. Exact f(z)/(c(s−1)/2) has zero coordinates in all22 rows and is separately tested with nfislocalpower at all11 primes after an exact denominator-square normalization. Five points satisfy the quartic and have nonzero gradients; line evaluations are nonzero. Exact reconstruction of c from N6 equals CP22. Thus this is the actual cycle used by the p5 obstruction, not only an unspecified preimage or selected-target square.",
+    "remaining": "The line/curve interpretation is explicitly upstream RANK-03; no all66-generator or other-place claim is made."
+  },
+  {
+    "id": "RANK-34",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 148
+    },
+    "claim": "Every compatible p5 local group gives a2-dimensional correction quotient with the physical rq1/rq2/rq3 characters satisfying chi1=chi3 and rank(chi1,chi2)=2.",
+    "hypotheses": [
+      "Actual faithful edge action inside AGL(3,2)",
+      "Correct identification of the42 target with the matching orbit",
+      "Actual source prime ef profile from RANK-33",
+      "Target orbit lengths1^6,2^8,4^5 from exact-input factorization"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-04",
+      "RANK-05",
+      "RANK-07",
+      "RANK-33"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_finite_characters_degree_only.py",
+        "detail": "Fresh version of the fully inspected ambient-quotient checker; target selection uses only orbit lengths, not an unreviewed target ramification profile."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/p5_finite_characters_degree_only.log",
+        "detail": "126 source-compatible inertia/decomposition pairs;84 compatible target-degree cases; all quotient/character and negative-control checks passed."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/checks/rank/independent_target_characters.json",
+        "detail": "Full newly computed84 case records."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "There is no wild inertia because5 does not divide1344. Tame inertia is cyclic, and the verified source ef profile with maximal ramification2 forces its faithful action to have order2. Frobenius commutes with it because the base residue size25 is1 mod2. Enumerating all such inertia/Frobenius pairs is therefore exhaustive. Every compatible group has lifted Rdual invariant dimension16, denominator dimension14 (after subtracting the7-dimensional ambient kernel:9 and7), correction quotient2, and J2 invariants3. Among all physical carrier assignments respecting one ramified and one unramified quadratic component, each case has exactly the required assignment, chi1=chi3 and independent chi1,chi2. Using only target factor degrees still gives84 cases. The extra split+split carrier fails character descent and is rejected in all84 cases.",
+    "remaining": "The actual global theta/target embeddings remain explicit upstream hypotheses. No further finite group enumeration remains for this local statement."
+  },
+  {
+    "id": "RANK-END",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 167
+    },
+    "claim": "Terminal rank-four and H0/H1 downstream conclusion is logically assembled, but full verification coverage is not yet closed.",
+    "hypotheses": [
+      "Every dependency in this branch and the downstream saturation relation is discharged"
+    ],
+    "dependencies": [
+      "RANK-08",
+      "RANK-09",
+      "RANK-19",
+      "RANK-23",
+      "RANK-25",
+      "RANK-27",
+      "RANK-29",
+      "RANK-30",
+      "RANK-31",
+      "RANK-32"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/paper/rank-proof.tex",
+        "detail": "Whole appendix covered by the grouped claims above."
+      }
+    ],
+    "status": "OPEN_VERIFICATION",
+    "justification": "The main mathematical implications were checked against BPS and independently tested finite modules. No new mathematical contradiction was established in this branch. Multiple arithmetic/geometric foundation and precision nodes remain open under this stricter line-by-line audit; a checked terminal deduction must not be reported as transitive closure of those dependencies.",
+    "remaining": "Discharge the explicit OPEN_VERIFICATION nodes; this AI review is not an external specialist review."
+  }
+]

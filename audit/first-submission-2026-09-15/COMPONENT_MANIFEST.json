@@ -1,0 +1,96 @@
+{
+  "artifact": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+  "author": "Peter Chocian",
+  "affiliation": "Independent researcher",
+  "purpose": "Companion to first arXiv submission; not a claim of prior papers, arXiv posting or formal verification.",
+  "created_utc": "2026-09-15T09:02:51.437081+00:00",
+  "canonical_paper": "paper/manuscript.pdf",
+  "audited_tex_sha256": "677973b6c12c3a65b0670a8886bdb3e89fce9be77af286fbbd1ccdcc3694af1e",
+  "files": [
+    {
+      "path": "computational_materials/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip",
+      "bytes": 588945520,
+      "sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33"
+    },
+    {
+      "path": "verification/PRIMITIVE_357_LOGICAL_AUDIT_AND_REVIEW_DRAFT_2026-09-15_V1.zip",
+      "bytes": 12084040,
+      "sha256": "4b076bdccfa998d96d7bd56200cfdb4a2355a0841439f7e7059859bcaaf1b4b4"
+    },
+    {
+      "path": "verification/PRIMITIVE_357_FRESH_MAGMA_REPLAY_2026-09-15_V1.zip",
+      "bytes": 28836,
+      "sha256": "e1f45e7d7c66656ee8db3c7c85b000bba3025904d3713b4f0f695794a7e05a54"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4325,
+      "sha256": "d00e561617db66bff521b8319c987938767d96b9ab298f932bbe0c328bc09948"
+    },
+    {
+      "path": "paper/manuscript.pdf",
+      "bytes": 506897,
+      "sha256": "b4faa9bbd0fb01f00fffa14c061e18ac5ba675b0da34308c0e7c812226dcab47"
+    },
+    {
+      "path": "paper/manuscript.tex",
+      "bytes": 84296,
+      "sha256": "3619e519ae58533573cc5b5ebd6e86df0f063a916376200949c6c8ab8cb6c507"
+    },
+    {
+      "path": "paper/rank-proof.tex",
+      "bytes": 9348,
+      "sha256": "fd54ed8996f5ecbfd3fff53bbdf27eaacb1210846eb4fe5db2b0c942d56f81cd"
+    },
+    {
+      "path": "arxiv/PRIMITIVE_357_ARXIV_SOURCE_PETER_CHOCIAN_V1.zip",
+      "bytes": 35879,
+      "sha256": "bdd7d0e8f277eeea9f918a1d3af552630a3514a058cb7b16d319561b27a85a84"
+    },
+    {
+      "path": "submission_record/EDITORIAL_CHANGES.json",
+      "bytes": 12501,
+      "sha256": "20764ae3b1de68326896dcb1cb75043db968329d856f4d8b7de81c788459cb25"
+    },
+    {
+      "path": "submission_record/EDITORIAL_CHANGES.diff",
+      "bytes": 15308,
+      "sha256": "11ded04760bdba66bebe29d25f6ce7ea630029111d8678d0c4b334579390fc96"
+    },
+    {
+      "path": "submission_record/mathematical_text_conservation.json",
+      "bytes": 242,
+      "sha256": "2640aca8312d4ba9c225714664c0e36866353bdd64e8bfc9152cf7d8c4771895"
+    },
+    {
+      "path": "submission_record/editorial_review.md",
+      "bytes": 3244,
+      "sha256": "fdf65ca3121efb2e970c27ae7808ca37b103a1546054fe6371c95fb369f2391d"
+    },
+    {
+      "path": "submission_record/component_contents.json",
+      "bytes": 1245,
+      "sha256": "8f33d364e3208f1605620511966c092d56160a701dcdd2ca2cb195f10aa4e2e2"
+    },
+    {
+      "path": "submission_record/pdf_visual_review.md",
+      "bytes": 2492,
+      "sha256": "9f57e7378a2cf4276318734e69bb09b3d0f6b77597c3b6d9bc04198784586004"
+    },
+    {
+      "path": "submission_record/prepare_paper.py",
+      "bytes": 9809,
+      "sha256": "73c844226c1c225e471a8be8e963fda1065dec1f591a59986ebe919bfe2a2d69"
+    },
+    {
+      "path": "submission_record/package_first_submission.py",
+      "bytes": 3937,
+      "sha256": "d2b95091759837b352f6ece4d19cf1f2a10a1888d50a5f484c09d964bd8bcf86"
+    },
+    {
+      "path": "checks/verify_companion.py",
+      "bytes": 678,
+      "sha256": "f04daf9676d5d88ff49035dd36af653d1e21f73b7a35b2102104a38eeaf04c00"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "primitive357_first_submission_publication_v1",
+  "date": "2026-09-15",
+  "release_tag": "first-submission-2026-09-15.1",
+  "repository": "https://github.com/bbpcho/primitive-357-proof-audit",
+  "author": "Peter Chocian",
+  "affiliation": "Independent researcher",
+  "arxiv_submission_made": false,
+  "formal_verification": false,
+  "external_human_specialist_review": false,
+  "computational_baseline_tag": "verified-2026-09-14.1",
+  "canonical_paper": {
+    "manuscript.tex": "3619e519ae58533573cc5b5ebd6e86df0f063a916376200949c6c8ab8cb6c507",
+    "rank-proof.tex": "fd54ed8996f5ecbfd3fff53bbdf27eaacb1210846eb4fe5db2b0c942d56f81cd",
+    "manuscript.pdf": "b4faa9bbd0fb01f00fffa14c061e18ac5ba675b0da34308c0e7c812226dcab47"
+  },
+  "assets": [
+    {
+      "name": "PRIMITIVE_357_PETER_CHOCIAN.pdf",
+      "bytes": 506897,
+      "sha256": "b4faa9bbd0fb01f00fffa14c061e18ac5ba675b0da34308c0e7c812226dcab47"
+    },
+    {
+      "name": "PRIMITIVE_357_ARXIV_SOURCE_PETER_CHOCIAN_V1.zip",
+      "bytes": 35879,
+      "sha256": "bdd7d0e8f277eeea9f918a1d3af552630a3514a058cb7b16d319561b27a85a84"
+    },
+    {
+      "name": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90"
+    }
+  ],
+  "publication_scope": "Canonical first-submission paper, unchanged computational baseline and separately recorded mathematical audit/fresh Magma addenda. Packaging integrity is not a new full arithmetic replay."
+}

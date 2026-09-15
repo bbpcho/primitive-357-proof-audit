@@ -1,0 +1,6 @@
+RankBounds 0 1
+OrderNegativeD 0
+ChabautyTwiceNegative { (-2 : 540 : 1), (-2 : -540 : 1) }
+{ 11, 47, 79 }
+[ 3, 5 ]
+

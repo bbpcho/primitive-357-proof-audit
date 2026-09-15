@@ -1,0 +1,8 @@
+BadPrimes [ 2, 3, 5, 7 ]
+RankBounds 0 1
+SearchPoints {@ (-2 : -540 : 1), (-2 : 540 : 1) @}
+OrderD 0
+Chabauty { (-2 : 540 : 1), (-2 : -540 : 1) }
+{ 11, 47, 79 }
+[ 3, 5 ]
+

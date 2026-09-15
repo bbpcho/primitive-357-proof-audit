@@ -1,0 +1,11 @@
+SetSeed(2);
+Qx<x> := PolynomialRing(Rationals());
+f := 76*x^6-240*x^5+5649*x^4-10538*x^3+5541*x^2-1320*x+79564;
+C := HyperellipticCurve(f);
+J := Jacobian(C);
+Pp := C![-2,540,1];
+Pm := C![-2,-540,1];
+Dnegative := J![Pm,Pp];
+print "RankBounds", RankBounds(J);
+print "OrderNegativeD", Order(Dnegative);
+print "ChabautyTwiceNegative", Chabauty(2*Dnegative : ptC:=Pm);

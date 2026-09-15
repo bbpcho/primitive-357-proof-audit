@@ -1,0 +1,25 @@
+# Final pure-branch draft review — 15 September 2026
+
+Reviewed draft `draft/manuscript.tex` SHA256 `677973b6c12c3a65b0670a8886bdb3e89fce9be77af286fbbd1ccdcc3694af1e` and builder `checks/make_review_draft.py` SHA256 `15134596f5a8e8caa44770cd61b19e88a3bd90d28110d683e4681a53e793468d`. No source, release, repository, or promotion file was changed in this review.
+
+**No residual correction was identified in the revised pure-branch passages.** This is a review of the corrections and their interfaces; the separately identified rank/field audit dependencies remain explicit in `pure_parameter.md` and its claim ledger.
+
+- **Common zeros, lines1598–1618:** the replacement correctly states the unique extension of the rational function on the smooth projective curve, local cancellation at common zeros, and conservative handling in the finite sieve. It removes the false confinement of the common-zero locus to branch fibres and does not overclaim the canonical verifier's scope. The five reference values and local orders are compatible with the previously checked substitutions and series. Neither the normalized function-field isomorphism nor the sieve or terminal disks requires branch-only common zeros.
+- **Section7 quotient interface, lines590–608:** with the defined delta squared equal to−35 and Phi(T)=15T^7−35T^6+21T^5, the argument is valid. Norm(kappa)=21 precludes a Galois quartic extension, so k is its only quadratic subfield. The quadratic equation for u/v and uv in k imply u=b sqrt(kappa); its odd coefficient in Phi(u) forces b squared=−7/(5kappa), whose norm would make 7/75 a rational square. This supplies the nonrational-U condition of Dahmen–Siksek Lemma7.2, whose actual statement and quotient formula were checked in the local primary-text copy `work/review/dahmen_siksek.txt`, lines1420–1474.
+- **Saturation interfaces, lines619–637 and871–898:** the explicit norm/anti-norm identity correctly gives 2A contained in the named Section7 H0, conditional on the cited full rational and twisted groups; it does not revive the invalid free-lattice gluing-index argument. In the pure branch, H0 is the original four point differences, H1 contains the fifth-division class E, and only H1 is claimed five-saturated. The E relation, odd-index step, coefficient coverage modulo400, and finite-index global annihilator argument are compatible with the earlier exact-map audit.
+- **Entire P1 disk, lines941–970:** the two normalized equations and two residue roots match the actual independent series computation and all seven digit lifts in sealed `verification/prior/work/v3_audit/p1_local_series_checks.json`. The determinants are20 and3. Integral differential coefficients give omitted integrated exponent k at least12 valuation at least k−v23(k), which is at least12. Modulo23^9 coefficient arithmetic loses at most two digits under the stated divisions; seven digits in u,v give eight in23u,23v. The canonical denominator is a unit at the endpoints, so the printed parameter comparison and valuation5 exclusion are justified. The local checker takes its annihilator as input; the separate global logarithm reconstruction is still the required upstream justification, already distinguished in `pure_parameter.md`.
+
+## Observed promotion-file state; no quarantine or restore indicated
+
+Using bundled Git2.53.0 (the system Git is blocked by the unaccepted Xcode license), `control_repository` is clean at HEAD `f65e4ed9e68fc4203b5339561b64f1a77f280691`, commit subject “Publish verified proof release with completed clean replay”. Both named files are ordinary tracked files (`git ls-files -v` prefix `H`); the complete porcelain status and their diff against HEAD are empty. Direct `git show HEAD:...` byte comparisons independently confirm equality, so this conclusion does not rely on timestamps or status caching.
+
+The four paths under `work/verified_release_2026_09_14/` are:
+
+| Path | SHA256 | Observed relationship |
+|---|---|---|
+| `control_repository/scripts/promote_release.py` | `631f93c371067a698c0b10ec1fa40f64abf033c5ffed790da9e0cccd030c4863` | Exactly HEAD |
+| `control_repository/scripts/select_final_artifacts.py` | `51a7f48403e842e46102d1e9b9cc0aaeab8000b21698a635a9234932806b5b0b` | Exactly HEAD |
+| `integration_paper/scripts/promote_release.py` | `631f93c371067a698c0b10ec1fa40f64abf033c5ffed790da9e0cccd030c4863` | Exactly the committed control copy |
+| `integration_paper/scripts/select_final_artifacts.py` | `51a7f48403e842e46102d1e9b9cc0aaeab8000b21698a635a9234932806b5b0b` | Exactly the committed control copy |
+
+`integration_paper` has no Git repository in its directory or ancestors, so it has no independent HEAD or Git diff to report. These hashes equal those in the earlier handoff, but the current files are committed/synchronized artifacts, not an outstanding worktree diff. Git does not establish individual authorship of the earlier working edits, and I do not claim that every committed line was authored by this agent. There is no separately identifiable unfinished change to revert or quarantine in these four files; doing so would remove the presently committed versions.

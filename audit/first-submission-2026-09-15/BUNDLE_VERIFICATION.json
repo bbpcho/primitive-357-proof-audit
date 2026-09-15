@@ -1,0 +1,14 @@
+{
+  "clean_extraction": "/var/folders/qn/v0kd017x2n1_64rtqtj7_8sr0000gn/T/primitive357-first-submission-0evkoq4k",
+  "included_files": 18,
+  "component_integrity": {
+    "files_verified": 17,
+    "status": "PASS",
+    "scope": "File identity only; no mathematical replay."
+  },
+  "source_zip_matches_canonical_paper": true,
+  "canonical_pdf_matches_visually_reviewed_pdf": true,
+  "mathematical_replay_in_this_packaging_check": false,
+  "arxiv_submission_made": false,
+  "github_modified_in_this_step": false
+}

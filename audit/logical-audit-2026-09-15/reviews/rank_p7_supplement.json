@@ -1,0 +1,115 @@
+[
+  {
+    "id": "RANK-14",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 63
+    },
+    "claim": "z3=P4\u2212P1 has f(z3)=3 lambda\u00b2 in the entire local bitangent algebra at7.",
+    "hypotheses": [
+      "Correct rational points and line values",
+      "Square test in every actual component"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-09"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/predyadic.gp",
+        "detail": "All-component square testing."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/p7_replacement/p7_witness_review.md",
+        "detail": "Separates full fake-kernel membership from target correction."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_p7_supplement.md",
+        "detail": "Independent source-level local square, exact-model perturbation and genuine-cycle stability review; includes fresh targeted valuation diagnostic."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/logs/predyadic_raw66.log",
+        "detail": "P7_Z3_OVER3_LOCAL_SQUARE=7; full absolute prime profiles and independent odd-coordinate ranks."
+      }
+    ],
+    "status": "CHECKED_COMPUTATION",
+    "justification": "The source derives Diffs[3] from the explicit P4 and P1 and the exact universal line, verifies all five points on the bound quartic, compares the full actual prime decomposition, and tests Diffs[3]/3 at every one of the seven primes with exact nfislocalpower. Clearing the integral-basis denominator by its square preserves the squareclass. Fresh sealed output and independently computed valuation/Euler columns agree. This is full semilocal fake-kernel membership, not a target-only test.",
+    "remaining": "No unresolved local square/source-point obligation. Exact global line/field dictionary remains the explicit RANK-03/09 dependency; nonzero kernel is supplied by the separate correction calculation."
+  },
+  {
+    "id": "RANK-15",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 70
+    },
+    "claim": "The selected7-adic target and incidence fields have the claimed exact identities and controlled errors.",
+    "hypotheses": [
+      "Strong Hensel bounds",
+      "Krasner separation",
+      "Propagated coefficient errors",
+      "Two irreducible unramified quadratic incidence factors"
+    ],
+    "dependencies": [
+      "RANK-03"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_witness.py",
+        "detail": "Actual replacement implementation."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/p7_replacement/p7_witness_review.md",
+        "detail": "Detailed model and precision reasoning."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_p7_supplement.md",
+        "detail": "Independent source-level local square, exact-model perturbation and genuine-cycle stability review; includes fresh targeted valuation diagnostic."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/p7/p7_witness_results_cycle3_N100.json",
+        "detail": "Exact lifted modulus, target radius793, coefficient-error769, product-error256, unramified factors and residue6; coefficient-level implications independently checked."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "Actual modulus coefficients are Eisenstein of degree8 with derivative valuation7. Original-target residual800 gives exact root radius793; conjugate separation1 and Krasner prove the same field. Rational input errors are bounded below by769. Coprime quadratic-block lifting gives coefficient error256; blow-up by the uniformizer square loses2, giving254 in the first unramified quadratic model. A fresh read-only diagnostic gives line numerator/denominator valuations and Gauss bounds (10,8)/(10,8) and (8,8)/(8,8), proving relative model-transfer margins254 and256. Conic values have valuations2,0 and relative error at least767. Thus the actual field/line squareclasses and the residue6 correction are stable; exact mu2 membership still comes from the cited contact identity, not numerical proximity.",
+    "remaining": "No unresolved target/Krasner/factor/denominator-loss obligation. Exact contact and Galois-incidence interpretation remains explicit under RANK-03/16/17; the factor-degree profile alone is not used to infer a nonzero quotient character."
+  },
+  {
+    "id": "RANK-18",
+    "location": {
+      "file": "sources/rank-proof.tex",
+      "line": 101
+    },
+    "claim": "A genuine closed-point cycle supplies the nonzero fake image at7.",
+    "hypotheses": [
+      "Model transport Zoriginal=\u22127Zlocal",
+      "Strong Hensel inequality",
+      "Norm-line squareclasses stable in every component"
+    ],
+    "dependencies": [
+      "RANK-03",
+      "RANK-09"
+    ],
+    "evidence": [
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_local/scripts/p7_nonzero_source.gp",
+        "detail": "Actual source and coordinate transport."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/audit/work/rank_closure_audit/predyadic/predyadic_review.md",
+        "detail": "Hensel valuations and all-component margins."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/mathematical_argument_audit_2026_09_15/reviews/rank_p7_supplement.md",
+        "detail": "Independent source-level local square, exact-model perturbation and genuine-cycle stability review; includes fresh targeted valuation diagnostic."
+      },
+      {
+        "path_or_url": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/verification/rank_local/logs/p7_genuine_source.log",
+        "detail": "Fresh source2 point bounds,14-entry nonzero squareclass vector and all seven positive stability margins."
+      }
+    ],
+    "status": "CHECKED_ARGUMENT",
+    "justification": "The absolute source model verifies K7(i)/K7 unramified quadratic. Applying Zoriginal=-7Zlocal to both quartic and line gives F, derivative and content valuations24,8,8; the content-normalized X derivative is a unit and Hensel changes X by at least16. For each L-component, each conjugate line valuation is at most v(A^2+B^2)-min(v(A),v(B)); the change bound v(line_X)+(e_L/2)*16 exceeds it by64,64,64,30,64,30,64, including the split incidence case. Hence the actual degree-zero Norm(P)-2P1 cycle has the exact nonzero raw squareclass vector. It raises diagonal rank2 to3 and lies in the stored allowed line.",
+    "remaining": "No unresolved source smoothness/content-normalization/model-transport or all-component stability obligation. This proves the lower bound; full local image dimension1 also uses the separately checked domain dimension2 and nonzero fake kernel."
+  }
+]

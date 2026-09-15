@@ -1,0 +1,11 @@
+{
+  "id": "rational_c3_challenge",
+  "inputSha256": "9dbca348ca214de1cce27beaf9f2d842d5e65c4a5fdf446a0818e05ea962351c",
+  "outputSha256": "5e55374cb5bfa370011378a97062f677c174de0ce18374b7d5fd55df7cb28f2c",
+  "observedAt": "2026-09-15T07:26:20.296Z",
+  "stats": "Seed: 2236025090; Total time: 3.779 seconds; Total memory usage: 129.59MB.",
+  "output": "RankBounds 0 1\nOrderNegativeD 0\nChabautyTwiceNegative { (-2 : 540 : 1), (-2 : -540 : 1) }\n{ 11, 47, 79 }\n[ 3, 5 ]\n\n",
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "capture": "Live calculator DOM input and result; byte hashes computed on captured strings, checked against local files"
+}
