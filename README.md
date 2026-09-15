@@ -10,6 +10,8 @@ Read the [revised paper (PDF)](paper/manuscript.pdf), its [LaTeX source](paper/m
 
 Submission remains on hold for Dahmen’s reply and resolution of third-party redistribution, including the PVT snapshot and full-paper copies inside nested archives. This revision has not been submitted to arXiv. The earlier paper and computational records retain their identities; the two large archive downloads have been withdrawn as described below.
 
+The [cumulative referee-report response](audit/referee-report-2026-09-15/README.md) distinguishes the report's earlier findings from its review of the current source. The [authorless V3 working manuscript](audit/historical-manuscripts/README.md) is retained under `audit/` for provenance.
+
 ## Current availability
 
 On 15 September 2026, the two large public assets `PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip` and `PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip` were withdrawn because a nested archive contained the Dahmen–Siksek working paper without redistribution permission. Their release pages and original checksums remain as historical records. The [withdrawal record](audit/dahmen-removal-2026-09-15/README.md) identifies the affected assets and verification scope.
@@ -27,6 +29,10 @@ The historical companion included seven Magma input jobs executed through the of
 **This is not proof-assistant certification or external human peer review.** The argument imports the cited mathematical theorems and computer-algebra algorithms. A recorded execution is not an independent implementation of that software. The [proof status](docs/PROOF_STATUS.md) and [evidence guide](docs/EVIDENCE.md) give the precise review and replay boundaries.
 
 The repository includes the [argument-audit report](audit/logical-audit-2026-09-15/AUDIT_REPORT.md), [claim ledger](audit/logical-audit-2026-09-15/PROOF_LEDGER.md), [Magma replay records](audit/magma-replay-2026-09-15/README.md), and [first-submission record](audit/first-submission-2026-09-15/README.md). The argument-audit extracts and Magma records support convenient review; the complete evidence collection and large replay inputs were in the withdrawn companion.
+
+## Substantial AI-assisted research and writing
+
+OpenAI Codex was used extensively in developing and checking mathematical arguments, computational investigation, program and certificate development, verification design, debugging, release preparation, and drafting and revising the manuscript. OpenAI ChatGPT also supported the research and writing. Anthropic Claude acted as an independent auditor, reproducing the finite data from published inputs and reviewing every draft; its findings led to the database-free identification of Q(√−35) and to the model-intrinsic formal-group argument at the prime above 7. Peter Chocian originated the project's discovery approach and research direction, supplied key inputs, reviewed the evidence, and accepts responsibility for all claims. AI-generated suggestions and reviews are not mathematical certificates: the proof rests on the arguments given in the paper, the cited results and the specified computations. These AI-assisted reviews do not constitute independent human peer review or proof-assistant formalization.
 
 ## Evidence and verification
 

@@ -1,0 +1,103 @@
+COMMAND ["/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3", "/Users/pcho/Documents/Codex/2026-09-13/ple/work/pre_submission_revision_2026_09_15/repository/audit/magma-replay-2026-09-15/verify_capture.py", "--self-test", "--source-results", "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/evidence/v3/repository/results"]
+EXIT_CODE 0
+STDOUT
+{
+  "status": "PASS_SEVEN_FRESH_MAGMA_CALCULATOR_CAPTURES",
+  "job_count": 7,
+  "service": "https://magma.maths.usyd.edu.au/calc/",
+  "magma_version": "V2.29-10",
+  "source_archive_sha256": "27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33",
+  "input_index_sha256": "716e1e53f65a2d689801d1f218dfbba83769d8ff9774881d20658ef3468548ad",
+  "validator_sha256": "c41943039a23af5169339e505ba9adf7d8ec4d5d81a89100a64c81cb5797488e",
+  "scope": "Fresh executions by the official web calculator of seven unchanged reducible-sector inputs; local validation of captured outputs, not local Magma or an independent implementation.",
+  "height_scope": "C1 floating values are comparisons only; the earlier independent exact duplication/interval proof remains the rigorous height bound.",
+  "jobs": [
+    {
+      "id": "section7_groups",
+      "status": "PASS",
+      "input_sha256": "1b348d417d63078157bcc20b8b96eeeb234e4cc89139d886bcef40aca24fc862",
+      "output_sha256": "2690df9f2b82b175f3c9ee37efa15bf280f17cae5cce81a2bedad5bc12b61d6a",
+      "observed_at": "2026-09-15T07:24:15.884Z",
+      "stats": "Seed: 3389539998; Total time: 26.149 seconds; Total memory usage: 129.59MB.",
+      "conclusion": "Both full groups proved; unchanged source asserts named generators generate."
+    },
+    {
+      "id": "rational_c1_height",
+      "status": "PASS",
+      "input_sha256": "96eaa0d189fa6529706de336c8a81184a866178cd1a6b6fdde54f1544880a468",
+      "output_sha256": "0b6b58bd80335e48167b771dc98aa23818b1edfa5e479eebd5eca7e331aab655",
+      "observed_at": "2026-09-15T07:25:08.105Z",
+      "stats": "Seed: 2505513338; Total time: 0.590 seconds; Total memory usage: 110.56MB.",
+      "conclusion": "Exact bounded point list agrees; floating height/regulator comparison only. Prior exact duplication bounds remain separate."
+    },
+    {
+      "id": "rational_c3",
+      "status": "PASS",
+      "input_sha256": "90ed1a57ca36d181f4f8e8ef91379c1cc3c99ce1d2d3800ee817fb7c21ce0c79",
+      "output_sha256": "76ed2254397caa3d452544bf0e0fdec60ead8c96b5ac56fbaca8eb8c1510cf9a",
+      "observed_at": "2026-09-15T07:25:51.979Z",
+      "stats": "Seed: 2673677097; Total time: 3.759 seconds; Total memory usage: 129.59MB.",
+      "conclusion": "Rank one, infinite-order divisor, and exhaustive Chabauty point set agree."
+    },
+    {
+      "id": "rational_c3_challenge",
+      "status": "PASS",
+      "input_sha256": "9dbca348ca214de1cce27beaf9f2d842d5e65c4a5fdf446a0818e05ea962351c",
+      "output_sha256": "5e55374cb5bfa370011378a97062f677c174de0ce18374b7d5fd55df7cb28f2c",
+      "observed_at": "2026-09-15T07:26:20.296Z",
+      "stats": "Seed: 2236025090; Total time: 3.779 seconds; Total memory usage: 129.59MB.",
+      "conclusion": "Rank one, infinite-order divisor, and exhaustive Chabauty point set agree."
+    },
+    {
+      "id": "quadratic_fake_selmer",
+      "status": "PASS",
+      "input_sha256": "97b437293d97f71b00d81a6ebf95658e68143227763baba371fdbf58c7244a39",
+      "output_sha256": "cf5ed75462093ac897f505f3898ddb9cfc9c9c4127914bad2246ec9b5c314d87",
+      "observed_at": "2026-09-15T07:27:20.510Z",
+      "stats": "Seed: 501187024; Total time: 6.179 seconds; Total memory usage: 85.16MB.",
+      "conclusion": "Unchanged source asserts exactly the three specified fake-cover classes."
+    },
+    {
+      "id": "quadratic_class41",
+      "status": "PASS",
+      "input_sha256": "73a4f662f7731bac2f45fb225444f6a67089363a2d645e6411361ff6ac4687a8",
+      "output_sha256": "e1b865d910019bbed86ff09c4eb068e3c0687a354b2c1cb1eb1be8133c88ac9c",
+      "observed_at": "2026-09-15T07:30:22.447Z",
+      "stats": "Seed: 467240505; Total time: 37.130 seconds; Total memory usage: 96.16MB.",
+      "conclusion": "Rank-three Chabauty points and every required index-prime saturation agree."
+    },
+    {
+      "id": "quadratic_class42",
+      "status": "PASS",
+      "input_sha256": "0e87fabb4b2e5f748683f3df613048c1714758f44fd61e5a7105eb5949fed49a",
+      "output_sha256": "74fda06545387e1c25a0df94ec35048259e91b73a19345fcb80b551c4b7961e7",
+      "observed_at": "2026-09-15T07:30:50.912Z",
+      "stats": "Seed: 2109730967; Total time: 20.390 seconds; Total memory usage: 32.09MB.",
+      "conclusion": "Full rank-two basis, one rational-image point, and no unresolved cosets agree."
+    }
+  ],
+  "negative_controls": [
+    {
+      "control": "missing_job",
+      "status": "PASS_REJECTED",
+      "reason": "missing/extra job in captures"
+    },
+    {
+      "control": "error_with_later_PASS_and_consistent_hash",
+      "status": "PASS_REJECTED",
+      "reason": "section7_groups: diagnostic in output"
+    },
+    {
+      "control": "changed_input",
+      "status": "PASS_REJECTED",
+      "reason": "section7_groups: changed source/input"
+    },
+    {
+      "control": "wrong_C3_point_with_consistent_hash",
+      "status": "PASS_REJECTED",
+      "reason": "wrong actual point set"
+    }
+  ]
+}
+
+STDERR

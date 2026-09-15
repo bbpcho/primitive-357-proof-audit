@@ -1,0 +1,36 @@
+{
+  "reviewed_baseline_commit": "b8d278de668861a30b72bdc947d7fdf84ab3d974",
+  "supplied_report": {
+    "filename": "REFEREE_REPORT_ARXIV_CANDIDATE_15SEP.md",
+    "sha256": "a3fdb49701d8786dd9f4b93dff1a16d04c77302b46b45f55de3cfad5fe82c69b"
+  },
+  "current_artifacts": [
+    {
+      "path": "paper/manuscript.tex",
+      "bytes": 87621,
+      "sha256": "70f66fe3605ecbde730e21fbee0308daaf0533fcd566d464274944066c3ef9cf",
+      "matches_current_revision": true
+    },
+    {
+      "path": "paper/rank-proof.tex",
+      "bytes": 21502,
+      "sha256": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8",
+      "matches_current_revision": true
+    },
+    {
+      "path": "paper/manuscript.pdf",
+      "bytes": 540209,
+      "sha256": "298c057b09e765e9bbe71ae4cd7460e323180691b7e4187201fa6bfffba121a5",
+      "matches_current_revision": true
+    },
+    {
+      "path": "release/PRIMITIVE_357_ARXIV_SOURCE_REVIEWER_CORRECTED_2026-09-15.zip",
+      "bytes": 41554,
+      "sha256": "2e4dfac874cecb55f16b1f18a039d430f7777ea472f9477129a0577b7ec976bf",
+      "matches_current_revision": true
+    }
+  ],
+  "zip_members_match_current_source": true,
+  "new_compilation_performed": false,
+  "new_complete_arithmetic_replay": false
+}

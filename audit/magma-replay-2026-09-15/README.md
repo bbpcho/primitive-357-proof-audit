@@ -6,13 +6,19 @@ All seven observations completed on 15 September 2026 and passed the local valid
 
 `INPUT_INDEX.json` pins the exact input copies to the sealed `verified-2026-09-14.1` archive (SHA-256 `27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33`). Its original `NOT_RUN` labels describe the pre-execution inventory and are retained unchanged. Actual observations are in `outputs/<job>.json` and the matching `.txt`; each contains the live result, input/output string hashes, observation time, and calculator statistics. These hashes bind the captured files; they are not cryptographic attestations issued by the service.
 
-Recheck the saved observations:
+Recheck the saved observations from this directory, using an existing local
+extraction of the identified historical release:
 
 ```sh
-/opt/anaconda3/bin/python3 verify_capture.py --self-test
+python3 -B verify_capture.py --self-test \
+  --source-results /path/to/extracted/release/evidence/v3/repository/results
 ```
 
-Its successful result is `PASS_SEVEN_FRESH_MAGMA_CALCULATOR_CAPTURES`. The validator performs no network requests, executes no mathematical software, and writes no files. It checks the copies against both fixed hashes and the unchanged extracted source release. Use `--source-results /path/to/release/evidence/v3/repository/results` to relocate that source comparison.
+Replace the example path with your extraction's `results` directory. The
+historical release download has been withdrawn; this command does not acquire
+the missing inputs. See the [current availability notice](../../README.md#current-availability).
+
+Its successful result is `PASS_SEVEN_FRESH_MAGMA_CALCULATOR_CAPTURES`. The validator performs no network requests, executes no mathematical software, and writes no files. It checks the copies against both fixed hashes and the unchanged extracted source release. Revalidating these saved observations is not a new Magma execution.
 
 | Job | Calculator seconds | Required conclusion |
 |---|---:|---|
