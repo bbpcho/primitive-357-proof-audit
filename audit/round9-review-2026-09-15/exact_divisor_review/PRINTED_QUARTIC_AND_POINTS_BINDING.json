@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXACT_PRINTED_QUARTIC_AND_POINT_BINDING",
+  "manuscript": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/pre_submission_revision_2026_09_15/repository/paper/manuscript.tex",
+  "manuscript_sha256": "70f66fe3605ecbde730e21fbee0308daaf0533fcd566d464274944066c3ef9cf",
+  "helper_sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+  "results": [
+    {
+      "script": "exactdiv.gp",
+      "sha256": "b26d23bcc9947834acf6f9da13c52c5aece94634e0cb7faf22aeb4d04093ddc2",
+      "quartic_all_30_components_and_15_monomials_match": true,
+      "all_five_printed_points_match": true
+    },
+    {
+      "script": "exactdiv2.gp",
+      "sha256": "eca57fc7ef5e6e678c48f6be23ecfff61c30bf53347e5d4c40f3912ec5232231",
+      "quartic_all_30_components_and_15_monomials_match": true,
+      "all_five_printed_points_match": true
+    },
+    {
+      "script": "smooth.gp",
+      "sha256": "79c6be823703464608a23398006811a70d986aae1f8e09de82ceae85bef43574",
+      "quartic_all_30_components_and_15_monomials_match": true
+    }
+  ],
+  "comparison": "Fractions exact; all monomial exponents checked. Point expressions compared after whitespace, multiplication-symbol, case and separator normalization."
+}

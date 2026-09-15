@@ -1,0 +1,11 @@
+leading coefficients in z (value at the centre [0:0:1]): Q: 1  H: ZERO  G: ZERO  G+H: ZERO
+--- the five printed points: number of distinct intersection points on the vertical line x = x_i
+P3 with H: deg_z gcd = 1   (z-coordinate matches printed point: 1)
+P4 with H: deg_z gcd = 1   (z-coordinate matches printed point: 1)
+P5 with H: deg_z gcd = 1   (z-coordinate matches printed point: 1)
+P1 with G: deg_z gcd = 1   (z-coordinate matches printed point: 1)
+P2 with G+H: deg_z gcd = 1   (z-coordinate matches printed point: 1)
+--- the conjugate points: irreducible factors phi(x) of degree > 1 of the non-base part
+G (zero divisor): factor of degree 2 with multiplicity 5: deg_z gcd over K_7(alpha) = 1
+G+H (t=1 divisor): factor of degree 4 with multiplicity 3: deg_z gcd over K_7(alpha) = 1
+  ***   Warning: new maximum stack size = 8000012288 (7629.406 Mbytes).

@@ -10,7 +10,7 @@ Read the [revised paper (PDF)](paper/manuscript.pdf), its [LaTeX source](paper/m
 
 Submission remains on hold for Dahmen’s reply and resolution of third-party redistribution, including the PVT snapshot and full-paper copies inside nested archives. This revision has not been submitted to arXiv. The earlier paper and computational records retain their identities; the two large archive downloads have been withdrawn as described below.
 
-The [cumulative referee-report response](audit/referee-report-2026-09-15/README.md) distinguishes the report's earlier findings from its review of the current source. The [authorless V3 working manuscript](audit/historical-manuscripts/README.md) is retained under `audit/` for provenance.
+The [round-9 review](audit/round9-review-2026-09-15/README.md) reproduces the new exact counts and divisors, documents repairs to the supplied scripts, and distinguishes numerical monodromy evidence from exact identification. The [preceding referee-report response](audit/referee-report-2026-09-15/README.md) distinguishes the earlier findings from their dispositions. The [authorless V3 working manuscript](audit/historical-manuscripts/README.md) is retained under `audit/` for provenance.
 
 ## Current availability
 

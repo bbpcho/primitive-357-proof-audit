@@ -1,0 +1,101 @@
+{
+  "status": "PASS_EXACT_DIVISORS_WITH_SEPARATE_SUPPLEMENT",
+  "original_exactdiv_final_distinctness": "NO (not accepted)",
+  "original_exactdiv2_nonbase_fibre_gcds": "PASS",
+  "original_smooth_stdin": "PASS",
+  "empty_filename_invocation": "NOT_A_PASS",
+  "base_tower_gcd_degrees": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "base_degree": 5,
+  "base_reduced": true,
+  "base_irreducible_over_K": true,
+  "intersection_factor_degree_multiplicity_fibre_gcd": [
+    [
+      "H",
+      1,
+      7,
+      1
+    ],
+    [
+      "H",
+      1,
+      7,
+      1
+    ],
+    [
+      "H",
+      1,
+      1,
+      1
+    ],
+    [
+      "H",
+      5,
+      1,
+      1
+    ],
+    [
+      "G",
+      1,
+      5,
+      1
+    ],
+    [
+      "G",
+      2,
+      5,
+      1
+    ],
+    [
+      "G",
+      5,
+      1,
+      1
+    ],
+    [
+      "G+H",
+      1,
+      3,
+      1
+    ],
+    [
+      "G+H",
+      4,
+      3,
+      1
+    ],
+    [
+      "G+H",
+      5,
+      1,
+      1
+    ]
+  ],
+  "map_degree": 15,
+  "genus": 3,
+  "passport": [
+    [
+      5,
+      5,
+      5
+    ],
+    [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    [
+      7,
+      7,
+      1
+    ]
+  ],
+  "total_ramification": 34,
+  "proof_scope": "Exact algebra over Q(s), s²=-7, and Riemann-Hurwitz; no numerical monodromy or unique-cover identification."
+}

@@ -1,0 +1,31 @@
+degrees of Res_z(Q,H), Res_z(Q,G), Res_z(Q,G+H) in x: [20, 20, 20]
+y=0 line: deg gcd(Q,H) = 0, deg gcd(Q,G) = 0, deg gcd(Q,G+H) = 0
+   (and at [1:0:0]: Q = nonzero)
+base-locus x-polynomial: degree 5
+  its factorisation over K_7: degrees [5] multiplicities [1]
+  multiplicity of B in each resultant: [1, 1, 1]
+multiplicity of (x - x_i) in Res(Q,H), i = 3,4,5: [7, 7, 1]
+multiplicity of (x - x_1) in Res(Q,G): 5;  of (x - x_2) in Res(Q,G+H): 3
+Res(Q,H) factors over K_7 as: [[1, 7], [1, 7], [1, 1], [5, 1]]
+Res(Q,G) factors over K_7 as: [[1, 5], [2, 5], [5, 1]]
+Res(Q,G+H) factors over K_7 as: [[1, 3], [4, 3], [5, 1]]
+pole part  (Res(Q,H)/B):   [degree, multiplicity] = [[1, 7], [1, 7], [1, 1]]
+zero part  (Res(Q,G)/B):   [[1, 5], [2, 5]]
+t=1 part   (Res(Q,G+H)/B): [[1, 3], [4, 3]]
+cubic A: degree 1, discriminant nonzero: 1
+quintic B': degree 1, discriminant nonzero: 1
+   factor of degree 1: gcd_z degree 0
+   factor of degree 1: gcd_z degree 0
+   factor of degree 1: gcd_z degree 0
+   factor of degree 5: gcd_z degree 0
+Q ∩ (H=0): distinct x-values 8; one point per x-value: NO
+   factor of degree 1: gcd_z degree 0
+   factor of degree 2: gcd_z degree 0
+   factor of degree 5: gcd_z degree 0
+Q ∩ (G=0): distinct x-values 8; one point per x-value: NO
+   factor of degree 1: gcd_z degree 0
+   factor of degree 4: gcd_z degree 0
+   factor of degree 5: gcd_z degree 0
+Q ∩ (G+H=0): distinct x-values 10; one point per x-value: NO
+distinctness check passed: NO
+  ***   Warning: new maximum stack size = 8000012288 (7629.406 Mbytes).

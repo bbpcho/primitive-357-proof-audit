@@ -1,0 +1,335 @@
+{
+  "scope": "Identities of the complete local review workspace at collection time; inclusion flags distinguish this public record selection.",
+  "files": [
+    {
+      "path": "BASELINE_CHECK.json",
+      "bytes": 632,
+      "sha256": "e794100ccddaecc773367f1b896a87fc8db556f48f2b8c4013e7ddccbc17f916",
+      "included_in_public_record": true
+    },
+    {
+      "path": "MONODROMY_GROUP_CHECK.json",
+      "bytes": 1457,
+      "sha256": "fa23a8df8607f054fec82d19f522c268f36ddc24de124ab260b4764246f3bb1b",
+      "included_in_public_record": true
+    },
+    {
+      "path": "ROUND9_RESPONSE.md",
+      "bytes": 8571,
+      "sha256": "10ae2d38538c1825c0b508bdbdf9a96ee1fbf35041854ab8d9df264bcffd7d6d",
+      "included_in_public_record": false
+    },
+    {
+      "path": "SUPPLIED_INPUTS.json",
+      "bytes": 944,
+      "sha256": "35628c3828a4aed8181137904ba5b98964c189a522fc6a42efda77ed800614f9",
+      "included_in_public_record": true
+    },
+    {
+      "path": "build_printed_t_coefficients.py",
+      "bytes": 3116,
+      "sha256": "6290f1fa0e965cbbf4eb013654494ae60f85304f66cc1853460f3adf3235af2c",
+      "included_in_public_record": false
+    },
+    {
+      "path": "check_monodromy_group.py",
+      "bytes": 2495,
+      "sha256": "5cde17a60bf8c6bbc93a8696c4d9595022297a7ae001618d9f63852bcc016af9",
+      "included_in_public_record": false
+    },
+    {
+      "path": "dessins_review/DESSINS_REVIEW.md",
+      "bytes": 9841,
+      "sha256": "5c8bda684a893ad6bd621344a6eeec6e4313d6e53406a3e5cb9ead501bd3e38a",
+      "included_in_public_record": true
+    },
+    {
+      "path": "dessins_review/MANIFEST.json",
+      "bytes": 1395,
+      "sha256": "6d5ac7d3fa13d3d8e5ce7005783c707083b37877dca0b6b4f3737e36ab9f60ab",
+      "included_in_public_record": false
+    },
+    {
+      "path": "dessins_review/independent_check.log",
+      "bytes": 1412,
+      "sha256": "e24391e453da2654bce90000e67111dbe87dd1e5e4042d65da08a01df4a31ed3",
+      "included_in_public_record": true
+    },
+    {
+      "path": "dessins_review/independent_check.py",
+      "bytes": 10698,
+      "sha256": "565ac846300a780d62e2c2783f7648194ecf61cc250152936d281683963294ba",
+      "included_in_public_record": false
+    },
+    {
+      "path": "dessins_review/independent_results.json",
+      "bytes": 2257,
+      "sha256": "f973a2c5200bad1ff4c12d7da3a526df3110e82ca023b3bf0213cc2bcfa72577",
+      "included_in_public_record": true
+    },
+    {
+      "path": "dessins_review/supplied_dessins.log",
+      "bytes": 224,
+      "sha256": "0b31df3a00368d96a89f271fc59877ab7691ed7523de9613ca15f6bd0badf4df",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/ARTIFACT_INDEX.json",
+      "bytes": 4430,
+      "sha256": "d45a3e69dfcc8c3b4519f0657a067eaf3d4102a385092f238673f08c23b72a76",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/EXACT_DIVISOR_RESULT.json",
+      "bytes": 1311,
+      "sha256": "314208c8c7341a9d01f63a6e1405cb0d96fd09f4e55a22d80bbcc390e2a31ed5",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/EXACT_DIVISOR_REVIEW.md",
+      "bytes": 7476,
+      "sha256": "521ee0baca32c0a9badfc1121fc88ea7db27ad5dcb2c1241d08088d45dabb25c",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/PRINTED_QUARTIC_AND_POINTS_BINDING.json",
+      "bytes": 1226,
+      "sha256": "1187931eba467a3a22d907332724f1951bfed56c7cb2e06f0155cb9d7e937d5c",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/check_printed_binding.py",
+      "bytes": 2683,
+      "sha256": "aa7f2a0a8da1139288bb9fb2e007a815fa23a1d49ad6a399c3d21328211b964b",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/exactdiv2_original/run.json",
+      "bytes": 1260,
+      "sha256": "ccab1213002a04305184c8e8094ecb9f2595f5669e6919df30555f0a863f5853",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/exactdiv2_original/run.log",
+      "bytes": 862,
+      "sha256": "29b3ada4b31d27fe39155ebebd3cfed4cd22fc70fedf92c66fa6fd13ccf3716b",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/exactdiv2_original/t_coeffs.gp",
+      "bytes": 10160,
+      "sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/exactdiv_original/run.json",
+      "bytes": 1962,
+      "sha256": "ee6783d04f11ad133fad3d931a14f95a82689a5e5b72708bfc8008db849ac15f",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/exactdiv_original/run.log",
+      "bytes": 1536,
+      "sha256": "11992fd048b9cc6800176779726aeaade94d7ad9663464f5d923f05fb6d7c5da",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/exactdiv_original/t_coeffs.gp",
+      "bytes": 10160,
+      "sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/smooth_original.log",
+      "bytes": 72,
+      "sha256": "7b1aec6cd7099ba9e22d0852b51c35bcb8ec45f0f768327cf474be6427af063f",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/smooth_original_run.json",
+      "bytes": 376,
+      "sha256": "47e453fcad37f82e9998ea060d8992bddb9d5e4b7fe3414aaf6698b9d666bc82",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/smooth_original_stdin.log",
+      "bytes": 365,
+      "sha256": "7038e0b1bd3e1b324dd5bee25fc962295e2373b8c3ef60356d37799121189849",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/smooth_original_stdin_run.json",
+      "bytes": 463,
+      "sha256": "c41e603eecaa3546a7fefbfd53af85d7e2eff2b7023abad248bca9a2e2b941ac",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/supplement/run.json",
+      "bytes": 223,
+      "sha256": "516674ea073bea0c4584d74f50d0cce264f9e6ed99737a0f9794a639c0a5aaa1",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/supplement/run.log",
+      "bytes": 22068,
+      "sha256": "05b34ac9c50fcda3d711f194ec58dfa34983c66ac68fb39abf2fcb14b5219a9d",
+      "included_in_public_record": true
+    },
+    {
+      "path": "exact_divisor_review/supplement/t_coeffs.gp",
+      "bytes": 10160,
+      "sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+      "included_in_public_record": false
+    },
+    {
+      "path": "exact_divisor_review/supplement/verify_common_base_and_fibres.gp",
+      "bytes": 4417,
+      "sha256": "f876c4aaaff0da2ec1b6c32f471df0a9a8dfd1264076d51e30f7602d942fbd81",
+      "included_in_public_record": false
+    },
+    {
+      "path": "generated_inputs/PRINTED_COEFFICIENTS.json",
+      "bytes": 22684,
+      "sha256": "7a3b122a1a97de9e0795ba44d6806392d12577083f24511c35579225a410f374",
+      "included_in_public_record": true
+    },
+    {
+      "path": "generated_inputs/t_coeffs.gp",
+      "bytes": 10160,
+      "sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/DISCRIMINANT_REPAIR.diff",
+      "bytes": 4708,
+      "sha256": "cdfe0e9e01128bbf62b62f3646b14505db8e83806f21528fa365d392c05b954b",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/INPUTS.json",
+      "bytes": 663,
+      "sha256": "613ac2b01f10d55c7c41ce89ec6168de75d12fd47d1a58d971707fab93f3a1e8",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/METHODOLOGY_REVIEW.md",
+      "bytes": 7437,
+      "sha256": "8a39ff59408a1144bdfbe889acf7cf5f27e3659b56df9773da07e6ee2a27ef45",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/PERMUTATIONS.json",
+      "bytes": 568,
+      "sha256": "c40a6cb91d9bc23701da413a4dc2dca8a78c5aa9d079afee1c5f099c40afc4b4",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/RESULTS.json",
+      "bytes": 4238,
+      "sha256": "e8c728555141b396c14ec1f49b109252ef22e0eabf11a9cc5f2ef08ccb59241a",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/run_repaired_discriminant/exact_model.gpbin",
+      "bytes": 1117953,
+      "sha256": "547970ef2211c801172a0bcd92a1bd646b75b4f6aa5d0bfc62a6228d14311920",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/run_repaired_discriminant/leading_coefficient_check.gp",
+      "bytes": 520,
+      "sha256": "a14eb96be9e8d7533059aca8c8391af7de8067ef692237fd6784ef3c39f77ed6",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/run_repaired_discriminant/leading_coefficient_check.log",
+      "bytes": 600,
+      "sha256": "faa89a54c0288c8b152cb9deda08be1db2c7a8786fdbf5e1e834566e64b9184b",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/run_repaired_discriminant/monodromy_exact_discriminant.gp",
+      "bytes": 3298,
+      "sha256": "2bfe07db1f3d0e00843e2e91163371bd3ebec3941c306f8e2b98b6bdf1b935f2",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/run_repaired_discriminant/repaired_replay.log",
+      "bytes": 982,
+      "sha256": "73902938dfd2222dce615b918b4928a00bf98fbfe3d8c6618c4c5312a1b2778c",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/run_repaired_discriminant/t_coeffs.gp",
+      "bytes": 10160,
+      "sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/run_supplied/monodromy.gp",
+      "bytes": 6248,
+      "sha256": "8bfacd927d36d4936e9c99a4bb809110387a6611a287476ae0a63065c9b090d6",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/run_supplied/supplied_replay.log",
+      "bytes": 178,
+      "sha256": "82f1f8948844398fca5ce3f5eac6510e8100f3b998eab4f275562aa0099bdf5c",
+      "included_in_public_record": false
+    },
+    {
+      "path": "monodromy_review/run_supplied/supplied_replay_direct.log",
+      "bytes": 72,
+      "sha256": "f63b9d0497bb0bbbd8eeb201dba7c8c1a3977617275dc2fd41acc70d05fbdab2",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/run_supplied/supplied_stdin.log",
+      "bytes": 1574,
+      "sha256": "f4c3aa90bdfac6ed4a98b12ae1225c89a36521570a22c5f6318eeee5ee2186cb",
+      "included_in_public_record": true
+    },
+    {
+      "path": "monodromy_review/run_supplied/t_coeffs.gp",
+      "bytes": 10160,
+      "sha256": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+      "included_in_public_record": false
+    },
+    {
+      "path": "publish_review_records.py",
+      "bytes": 3694,
+      "sha256": "a254b278662d783a65ab2e30d4f94b3aa5c2ec50e20f994962ef6c59cf686e15",
+      "included_in_public_record": false
+    },
+    {
+      "path": "supplied_scripts/dessins.py",
+      "bytes": 4386,
+      "sha256": "bf412c8cc95149aee8202f29db8e8362c308cf9f0d8033becec02346ca4524c6",
+      "included_in_public_record": false
+    },
+    {
+      "path": "supplied_scripts/exactdiv.gp",
+      "bytes": 5215,
+      "sha256": "b26d23bcc9947834acf6f9da13c52c5aece94634e0cb7faf22aeb4d04093ddc2",
+      "included_in_public_record": false
+    },
+    {
+      "path": "supplied_scripts/exactdiv2.gp",
+      "bytes": 3220,
+      "sha256": "eca57fc7ef5e6e678c48f6be23ecfff61c30bf53347e5d4c40f3912ec5232231",
+      "included_in_public_record": false
+    },
+    {
+      "path": "supplied_scripts/monodromy.gp",
+      "bytes": 6248,
+      "sha256": "8bfacd927d36d4936e9c99a4bb809110387a6611a287476ae0a63065c9b090d6",
+      "included_in_public_record": false
+    },
+    {
+      "path": "supplied_scripts/smooth.gp",
+      "bytes": 2394,
+      "sha256": "79c6be823703464608a23398006811a70d986aae1f8e09de82ceae85bef43574",
+      "included_in_public_record": false
+    }
+  ]
+}

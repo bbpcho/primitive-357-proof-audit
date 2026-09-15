@@ -1,0 +1,43 @@
+{
+  "source": "run_supplied/supplied_stdin.log",
+  "source_sha256": "f4c3aa90bdfac6ed4a98b12ae1225c89a36521570a22c5f6318eeee5ee2186cb",
+  "status": "Integer permutations obtained by uncertified numerical root tracking at requested precision400 decimal digits",
+  "accepted_steps": [
+    1617,
+    7661
+  ],
+  "sigma_0": [
+    14,
+    4,
+    12,
+    6,
+    8,
+    9,
+    2,
+    3,
+    7,
+    5,
+    13,
+    10,
+    15,
+    11,
+    1
+  ],
+  "sigma_1": [
+    11,
+    7,
+    4,
+    6,
+    2,
+    3,
+    5,
+    13,
+    8,
+    1,
+    10,
+    14,
+    9,
+    15,
+    12
+  ]
+}

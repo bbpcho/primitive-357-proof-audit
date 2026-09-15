@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-15",
+  "supplied_script_run_to_completion": true,
+  "supplied_program_exit_code": 0,
+  "supplied_script_all_diagnostics_correct": false,
+  "exact_elimination": {
+    "resultant_degrees": {
+      "x": 20,
+      "t": 4
+    },
+    "base_factor_division_exact": true,
+    "residual_degrees": {
+      "x": 15,
+      "t": 4
+    },
+    "discriminant_nonzero": true,
+    "discriminant_degree_t": 100
+  },
+  "supplied_discriminant_diagnostic": {
+    "reported_valuations": [
+      12,
+      0
+    ],
+    "reported_other_root_count": 88,
+    "defect": "Exact valuation was requested after finite-precision complex embedding; cancellation at t=1 is lost."
+  },
+  "repaired_discriminant_diagnostic": {
+    "exact_valuations": [
+      12,
+      10
+    ],
+    "exact_residual_degree": 78,
+    "numerical_remaining_root_count_with_multiplicity": 78,
+    "numerical_distance_minima": [
+      "0.027473284044117297323",
+      "0.06735478536621025048"
+    ],
+    "proved_distance_lower_bounds": false,
+    "tracking_repeated": false,
+    "exit_code": 0
+  },
+  "numerical_tracking": {
+    "requested_decimal_precision": 400,
+    "loop_steps": [
+      1617,
+      7661
+    ],
+    "sigma_0": [
+      14,
+      4,
+      12,
+      6,
+      8,
+      9,
+      2,
+      3,
+      7,
+      5,
+      13,
+      10,
+      15,
+      11,
+      1
+    ],
+    "sigma_1": [
+      11,
+      7,
+      4,
+      6,
+      2,
+      3,
+      5,
+      13,
+      8,
+      1,
+      10,
+      14,
+      9,
+      15,
+      12
+    ],
+    "cycle_types": {
+      "sigma_0": [
+        5,
+        5,
+        5
+      ],
+      "sigma_1": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "inverse_product": [
+        7,
+        7,
+        1
+      ]
+    },
+    "certified_continuation": false
+  },
+  "exact_group_calculation_on_returned_permutations": {
+    "bfs_order": 2520,
+    "orbit_of_one_size": 15,
+    "cycle_type_distribution": {
+      "5^3": 504,
+      "6^2 3": 210,
+      "7^2 1": 720,
+      "3^5": 70,
+      "4^3 2 1": 630,
+      "3^4 1^3": 280,
+      "2^6 1^3": 105,
+      "1^15": 1
+    },
+    "independent_isomorphism_check": "Parent auditor is checking separately; group order and cycle distribution alone are not used here as an isomorphism certificate."
+  },
+  "numerical_leading_x_coefficient_check": {
+    "degree_t": 4,
+    "distance_minima_from_tracking_circles": [
+      "0.496645349403346570734030677644743425839",
+      "0.179418806585363001619259481732112602404"
+    ],
+    "proved_distance_lower_bounds": false
+  },
+  "repository_modified": false,
+  "file_hashes": {
+    "DISCRIMINANT_REPAIR.diff": "cdfe0e9e01128bbf62b62f3646b14505db8e83806f21528fa365d392c05b954b",
+    "INPUTS.json": "613ac2b01f10d55c7c41ce89ec6168de75d12fd47d1a58d971707fab93f3a1e8",
+    "METHODOLOGY_REVIEW.md": "8a39ff59408a1144bdfbe889acf7cf5f27e3659b56df9773da07e6ee2a27ef45",
+    "PERMUTATIONS.json": "c40a6cb91d9bc23701da413a4dc2dca8a78c5aa9d079afee1c5f099c40afc4b4",
+    "run_repaired_discriminant/exact_model.gpbin": "547970ef2211c801172a0bcd92a1bd646b75b4f6aa5d0bfc62a6228d14311920",
+    "run_repaired_discriminant/leading_coefficient_check.gp": "a14eb96be9e8d7533059aca8c8391af7de8067ef692237fd6784ef3c39f77ed6",
+    "run_repaired_discriminant/leading_coefficient_check.log": "faa89a54c0288c8b152cb9deda08be1db2c7a8786fdbf5e1e834566e64b9184b",
+    "run_repaired_discriminant/monodromy_exact_discriminant.gp": "2bfe07db1f3d0e00843e2e91163371bd3ebec3941c306f8e2b98b6bdf1b935f2",
+    "run_repaired_discriminant/repaired_replay.log": "73902938dfd2222dce615b918b4928a00bf98fbfe3d8c6618c4c5312a1b2778c",
+    "run_repaired_discriminant/t_coeffs.gp": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52",
+    "run_supplied/monodromy.gp": "8bfacd927d36d4936e9c99a4bb809110387a6611a287476ae0a63065c9b090d6",
+    "run_supplied/supplied_replay.log": "82f1f8948844398fca5ce3f5eac6510e8100f3b998eab4f275562aa0099bdf5c",
+    "run_supplied/supplied_replay_direct.log": "f63b9d0497bb0bbbd8eeb201dba7c8c1a3977617275dc2fd41acc70d05fbdab2",
+    "run_supplied/supplied_stdin.log": "f4c3aa90bdfac6ed4a98b12ae1225c89a36521570a22c5f6318eeee5ee2186cb",
+    "run_supplied/t_coeffs.gp": "ff7115896a14617e5ecf8cb8fb5cdf0550bb5387e474de2de461fe2cf601ae52"
+  }
+}

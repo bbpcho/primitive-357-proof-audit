@@ -1,0 +1,27 @@
+  ***   Warning: new maximum stack size = 8000012288 (7629.406 Mbytes).
+F(x,t): degree in x = 20, degree in t = 4
+F15: degree in x = 15, degree in t = 4; exact division by B: 1
+  *** poldisc: Warning: increasing stack size to 16000000.
+  *** poldisc: Warning: increasing stack size to 32000000.
+  *** poldisc: Warning: increasing stack size to 64000000.
+Disc_x(F15) nonzero: 1; its degree in t: 100
+multiplicity of t=0 and t=1 as roots of Disc: [12, 0]  (expected 3*(5-1)=12 and 5*(3-1)=10)
+  *** polroots: Warning: increasing stack size to 16000000.
+other discriminant roots (apparent singularities of the x-projection): 88
+minimum distance of these roots from the circle |t|=1/2: 0.027473284044117297323,  from |t-1|=1/2: 0.06735478536621025048
+15 roots at t = 1/2, min separation 0.0012754493434400199163
+   steps: 1617
+   steps: 7661
+sigma_0 = [14, 4, 12, 6, 8, 9, 2, 3, 7, 5, 13, 10, 15, 11, 1]  cycle type [5, 5, 5]
+sigma_1 = [11, 7, 4, 6, 2, 3, 5, 13, 8, 1, 10, 14, 9, 15, 12]  cycle type [3, 3, 3, 3, 3]
+sigma_inf = (sigma_0 sigma_1)^-1: cycle type [7, 7, 1]
+order of <sigma_0, sigma_1>: 2520   (A_7 = 2520, A_8 = 20160, A_15 = 653837184000)
+orbit of point 1 under the group has size 15
+   cycle type [5, 5, 5]: 504 elements
+   cycle type [6, 6, 3]: 210 elements
+   cycle type [7, 7, 1]: 720 elements
+   cycle type [3, 3, 3, 3, 3]: 70 elements
+   cycle type [4, 4, 4, 2, 1]: 630 elements
+   cycle type [3, 3, 3, 3, 1, 1, 1]: 280 elements
+   cycle type [2, 2, 2, 2, 2, 2, 1, 1, 1]: 105 elements
+   cycle type [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: 1 elements

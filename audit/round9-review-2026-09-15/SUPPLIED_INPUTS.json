@@ -1,0 +1,31 @@
+{
+  "archive_sha256": "2ea0599fa4e004aa7b37f96668bf33a3456d3e59eed20685796cfaf49acf5394",
+  "report_sha256": "0635ff583dab4c93cd3e94b316483261456c9db57a4630c5887182b2280dabf6",
+  "files": [
+    {
+      "filename": "dessins.py",
+      "bytes": 4386,
+      "sha256": "bf412c8cc95149aee8202f29db8e8362c308cf9f0d8033becec02346ca4524c6"
+    },
+    {
+      "filename": "exactdiv.gp",
+      "bytes": 5215,
+      "sha256": "b26d23bcc9947834acf6f9da13c52c5aece94634e0cb7faf22aeb4d04093ddc2"
+    },
+    {
+      "filename": "exactdiv2.gp",
+      "bytes": 3220,
+      "sha256": "eca57fc7ef5e6e678c48f6be23ecfff61c30bf53347e5d4c40f3912ec5232231"
+    },
+    {
+      "filename": "smooth.gp",
+      "bytes": 2394,
+      "sha256": "79c6be823703464608a23398006811a70d986aae1f8e09de82ceae85bef43574"
+    },
+    {
+      "filename": "monodromy.gp",
+      "bytes": 6248,
+      "sha256": "8bfacd927d36d4936e9c99a4bb809110387a6611a287476ae0a63065c9b090d6"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "status": "PASS_EXACT_A7_RECOGNITION_OF_NUMERICALLY_DERIVED_PERMUTATIONS",
+  "source_log_sha256": "f4c3aa90bdfac6ed4a98b12ae1225c89a36521570a22c5f6318eeee5ee2186cb",
+  "sigma_0_one_based": [
+    14,
+    4,
+    12,
+    6,
+    8,
+    9,
+    2,
+    3,
+    7,
+    5,
+    13,
+    10,
+    15,
+    11,
+    1
+  ],
+  "sigma_1_one_based": [
+    11,
+    7,
+    4,
+    6,
+    2,
+    3,
+    5,
+    13,
+    8,
+    1,
+    10,
+    14,
+    9,
+    15,
+    12
+  ],
+  "generated_group_order": 2520,
+  "explicit_fano_action_order": 2520,
+  "conjugacy_checks": [
+    {
+      "fano_triple_class": 0,
+      "intertwiner_count": 0,
+      "bijections_zero_based": []
+    },
+    {
+      "fano_triple_class": 1,
+      "intertwiner_count": 1,
+      "bijections_zero_based": [
+        [
+          7,
+          8,
+          5,
+          9,
+          12,
+          14,
+          3,
+          0,
+          2,
+          11,
+          13,
+          6,
+          1,
+          10,
+          4
+        ]
+      ]
+    }
+  ],
+  "cycle_type_counts": {
+    "(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)": 1,
+    "(2, 2, 2, 2, 2, 2, 1, 1, 1)": 105,
+    "(3, 3, 3, 3, 1, 1, 1)": 280,
+    "(3, 3, 3, 3, 3)": 70,
+    "(4, 4, 4, 2, 1)": 630,
+    "(5, 5, 5)": 504,
+    "(6, 6, 3)": 210,
+    "(7, 7, 1)": 720
+  },
+  "scope": "Exact simultaneous permutation conjugacy with the faithful Fano action of A7. This does not certify the numerical root continuation or determine the manuscript orientation."
+}

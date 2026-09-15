@@ -1,0 +1,12 @@
+{
+  "repository_commit": "4983db9561e00b69a0418d7e7139c333f90cb186",
+  "canonical_files": {
+    "paper/manuscript.tex": "70f66fe3605ecbde730e21fbee0308daaf0533fcd566d464274944066c3ef9cf",
+    "paper/rank-proof.tex": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8",
+    "paper/manuscript.pdf": "298c057b09e765e9bbe71ae4cd7460e323180691b7e4187201fa6bfffba121a5",
+    "release/PRIMITIVE_357_ARXIV_SOURCE_REVIEWER_CORRECTED_2026-09-15.zip": "2e4dfac874cecb55f16b1f18a039d430f7777ea472f9477129a0577b7ec976bf"
+  },
+  "matches_previous_verified_revision": true,
+  "current_paper_pages": 40,
+  "new_compilation": false
+}
