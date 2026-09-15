@@ -1,0 +1,265 @@
+{
+  "baseline_root": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1",
+  "historical_timing": {
+    "schema": "primitive357_integrated_replay_v1",
+    "status": "PASS_FRESH_INTEGRATED_REPLAY",
+    "input_manifest": {
+      "files": 1746,
+      "manifest_sha256": "922d3d410834b2584afb9ebcb908357854c277deab33e0c1290af2080d117a0b"
+    },
+    "seconds": 3046.846905208,
+    "components": [
+      {
+        "id": "prior",
+        "exit_code": 0,
+        "process_group_id": 53490,
+        "log": "logs/prior.log",
+        "sha256": "e35bd52e25b05e89b0ada43a58bff9692d13fa1c57b3efed99ec1b2fbea9d0f5",
+        "seconds": 2965.0181362090007
+      },
+      {
+        "id": "rank_local",
+        "exit_code": 0,
+        "process_group_id": 56662,
+        "log": "logs/rank_local.log",
+        "sha256": "e87c1c26220fb07c7e685191cc8c872a35509ab4dc22e6c6549ce7c452918acb",
+        "seconds": 81.09134637500028
+      },
+      {
+        "id": "sectors",
+        "exit_code": 0,
+        "process_group_id": 53489,
+        "log": "logs/sectors.log",
+        "sha256": "0004ea475f7f4a438f2b3b2c0442409a6de392c273865b4287334140756f1f02",
+        "seconds": 926.7599637080002
+      }
+    ],
+    "rank_conclusions": {
+      "pre7_dimension": 19,
+      "post7_dimension": 18,
+      "final_dimension": 12,
+      "diagonal_dimension": 7,
+      "fake_containing_quotient_dimension": 5,
+      "equals_B_plus_literal_c": true
+    },
+    "prior_groups": [
+      "exports",
+      "rawdyadic",
+      "foundation",
+      "fiveplace",
+      "p5",
+      "logs",
+      "finite_maps"
+    ],
+    "subgroups": {
+      "H0": [
+        "D2",
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "H1": [
+        "D2",
+        "E",
+        "D4",
+        "D5"
+      ],
+      "relation": "5E=D3+D4+3D5",
+      "saturation_scope": "H0 is 2-saturated; H1 is 2- and 5-saturated. Rank4 supplies finite index. Coverage modulo400 uses H1. No assertion that H0 is 5-saturated."
+    },
+    "proof_scope": "The manuscript composes the freshly checked support, local containing space B+<c>, exclusion of both true lifts of c, saturation, logarithms, sieve and sector evidence. Checksums alone do not establish these implications.",
+    "retained_premises": "Published theorems and the explicitly identified historical Magma certificates retain their stated provenance; this is not a fresh Magma rerun or formal proof-assistant verification."
+  },
+  "runtime_versions": {
+    "ordinary_python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]\n{'sympy': '1.14.0', 'mpmath': '1.3.0', 'python-flint': '0.9.0'}",
+    "sage": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]\nSageMath 10.9",
+    "pari_gp": "GP/PARI CALCULATOR Version 2.15.4 (released)\n              arm64 running darwin (aarch64 kernel) 64-bit version\n     compiled: Sep 13 2026, Apple clang version 21.0.0 (clang-2100.1.1.101)\n                            threading engine: single\n               (readline not compiled in, extended help enabled)",
+    "pdf_text_extractor": "pdftotext version 26.04.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+  },
+  "runtime_arguments": {
+    "ordinary_python": "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "sage_python": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+    "gp": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+    "pdftotext": "/opt/homebrew/Cellar/poppler/26.04.0/bin/pdftotext",
+    "python_path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/runtime_deps",
+    "flint_prefix": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env"
+  },
+  "sector_ids": [
+    "v3_integrity_and_interfaces",
+    "signed-global-algebra",
+    "rational-factor-sector",
+    "quadratic-factor-router",
+    "quadratic-factor-terminal",
+    "cubic-quartic-section7-sector",
+    "rational-parameter-sieve-and-lifts",
+    "irreducible-septic-sector",
+    "hilbert-hecke-filter-coverage",
+    "hilbert-hecke-ambient-coverage",
+    "putz-pvt-interface",
+    "independent_hecke_input_foundations",
+    "independent_fano_resolvent_foundation"
+  ],
+  "prior_required_job_ids_by_group": {
+    "exports": [
+      "export_contact_data",
+      "export_line_data",
+      "export_geometry_modq",
+      "export_exact_tau_data",
+      "export_tower",
+      "exact_contact"
+    ],
+    "rawdyadic": [
+      "reconstruct_raw66",
+      "verify_source_columns",
+      "verify_local_point_lifts",
+      "dyadic_decomposition_envelope"
+    ],
+    "foundation": [
+      "T21_prime_principality",
+      "F_odd_class",
+      "pair_ambiguous",
+      "F_unit_domain",
+      "L_unit_domain",
+      "E_class_one",
+      "J27_images",
+      "J27_terminal",
+      "J27_chain",
+      "class_field_bindings",
+      "T21_norm_export",
+      "T21_directed_Arb_bound",
+      "S4_integral_relation",
+      "exact_66_point_diagonal_coordinates"
+    ],
+    "fiveplace": [
+      "fiveplace_producer",
+      "fiveplace_independent",
+      "fiveplace_semantic"
+    ],
+    "p5": [
+      "p5_producer_and_independent",
+      "p5_precision_and_negative_controls",
+      "exact_tau_norms",
+      "exact_stored_roots",
+      "exact_conjugate_evaluations",
+      "local5_point_image",
+      "local5_image_rank",
+      "finite_cocycle_and_line",
+      "check_exact_line_bindings",
+      "check_v3_same_c",
+      "check_completion_incidence",
+      "check_geometric_tetrads",
+      "check_smooth_modq",
+      "check_affine_stabilizer",
+      "check_intrinsic_theta",
+      "check_contact_units",
+      "check_global_fibre",
+      "theta_separating_invariant",
+      "global_transitive_correction_envelope",
+      "p5_target_character_span",
+      "p5_ambient_character_quotients"
+    ],
+    "logs": [
+      "exact_tensor_s4",
+      "exact_tensor_s19",
+      "tensor_reductions",
+      "prepare_four_column_logs",
+      "four_column_log_s4",
+      "four_column_log_s19",
+      "annihilator_binding",
+      "canonical_local_series_and_P1_lift"
+    ],
+    "finite_maps": [
+      "section7_precision_bounds",
+      "C25_all_six_maps",
+      "torsion_and_43_orders",
+      "corrected_H1_five_saturation",
+      "orders_23_43",
+      "all_sixteen_two_primary_maps",
+      "all_sixteen_projected_E",
+      "outside_point_annihilation",
+      "two_saturation_characters"
+    ]
+  },
+  "prior_total": 65,
+  "rank_check_names": [
+    "predyadic_raw66",
+    "p7_genuine_source",
+    "odd_subgroup_envelope",
+    "dyadic_curve_charts",
+    "dyadic_P2_kernel_carrier3",
+    "dyadic_P2_kernel_carrier4",
+    "dyadic_P5_kernel_carrier3",
+    "dyadic_P5_kernel_carrier4",
+    "dyadic_finite_reconstruction",
+    "dyadic_quotient_characters",
+    "p7_finite_carriers",
+    "p7_cycle3_N100",
+    "p7_cycle3_N120",
+    "p7_cycle1_N100",
+    "minimal_sage_intersection",
+    "independent_integer_final_join"
+  ],
+  "rank_upstream_relative_paths": [
+    "work/p5_archive_audit/coherence/contact_data.json",
+    "work/p5_archive_audit/local_upper_bound/fresh_dyadic_raw_place1.txt",
+    "work/p5_archive_audit/local_upper_bound/checkpoint_allowed_place1.txt",
+    "work/p5_archive_audit/local_upper_bound/fresh_dyadic_raw_place2.txt",
+    "work/p5_archive_audit/local_upper_bound/checkpoint_allowed_place2.txt"
+  ],
+  "rank_conclusions": {
+    "pre7_dimension": 19,
+    "post7_dimension": 18,
+    "final_dimension": 12,
+    "diagonal_dimension": 7,
+    "fake_containing_quotient_dimension": 5,
+    "equals_B_plus_literal_c": true
+  },
+  "largest_prior_jobs": [
+    {
+      "id": "reconstruct_raw66",
+      "seconds": 759.5837491670009
+    },
+    {
+      "id": "all_sixteen_two_primary_maps",
+      "seconds": 433.9349228329993
+    },
+    {
+      "id": "exact_66_point_diagonal_coordinates",
+      "seconds": 301.83852862500135
+    },
+    {
+      "id": "torsion_and_43_orders",
+      "seconds": 219.99658533299953
+    },
+    {
+      "id": "four_column_log_s19",
+      "seconds": 159.4575812080002
+    },
+    {
+      "id": "four_column_log_s4",
+      "seconds": 132.41628599999967
+    },
+    {
+      "id": "orders_23_43",
+      "seconds": 125.59578454099938
+    },
+    {
+      "id": "fiveplace_independent",
+      "seconds": 120.60153999999966
+    },
+    {
+      "id": "C25_all_six_maps",
+      "seconds": 115.67511624999861
+    },
+    {
+      "id": "exact_tensor_s4",
+      "seconds": 112.21892316599951
+    }
+  ],
+  "baseline_runner_hashes": {
+    "scripts/verify_release.py": "808d3dfd8da4a5d01733dac2d41222c701a1fd204ff36fbb5ee40189b6892e3e",
+    "scripts/replay_sectors.py": "04e6d55fe72e4689e3a7254611086bc602ee36c1ae521549fc7bed5832e7972f",
+    "audit/work/integration_prior/replay_prior_evidence.py": "ff2c9d32f606c6b7ab96d71c1a64c2e142eb91c990f533e31c64c8ba01f4e356",
+    "audit/work/rank_local/run_rank_local.py": "dff360ed5338c643e1142f53bda3b60a9204902db91083bf69d64be307ee0800"
+  }
+}

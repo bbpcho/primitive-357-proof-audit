@@ -1,0 +1,24 @@
+{
+  "elementary_result_sha256": "ca14677173f5cda42a09f399f564092015cd5372fa9c5c096c0df1292565d285",
+  "gp_markers": 6,
+  "imported_manifest_rows": {
+    "results/2026-09-09_rational_factor_local_lemma_6_8_v1/manifests/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_V1_SHA256SUMS.txt": 5,
+    "results/2026-09-09_rational_factor_mw_basis_attack_v1/manifests/RATIONAL_FACTOR_MW_BASIS_CHECKPOINT_V1_SHA256SUMS.txt": 13,
+    "results/2026-09-09_rational_factor_static_sieve_v1/manifests/RATIONAL_FACTOR_STATIC_SIEVE_V1_SHA256SUMS.txt": 9
+  },
+  "magma_c3_points": [
+    [
+      -2,
+      -540
+    ],
+    [
+      -2,
+      540
+    ]
+  ],
+  "magma_challenge_same_points": true,
+  "package_manifest_rows": 10,
+  "preseal": false,
+  "status": "PASS_RATIONAL_FACTOR_PROPOSITION_6_1_CHECKPOINT_REPLAY_V2_PROJECTIVE_BOUNDARY_REPAIRED"
+}
+CHECKPOINT_RESULT_SHA256=2f32b141afee43a5f5402474e3d8b08b8cd359bceaef5134c504d4e715e64581

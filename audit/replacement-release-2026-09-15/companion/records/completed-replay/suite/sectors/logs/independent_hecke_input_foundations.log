@@ -1,0 +1,11 @@
+START quaternion_units_and_neighbours
+PASS quaternion_units_and_neighbours
+START compile_exact_ordinary_counter
+PASS compile_exact_ordinary_counter
+START enumerate_ordinary_points
+PASS enumerate_ordinary_points
+START ordinary_trace_containment
+PASS ordinary_trace_containment
+START boundary_jacobi_sums
+PASS boundary_jacobi_sums
+PASS_FRESH_HECKE_FOUNDATIONS

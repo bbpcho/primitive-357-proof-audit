@@ -30,7 +30,7 @@ def mutate_record(root,path,fn,key):
  d=read(root,RDIR+path);fn(d);put(root,RDIR+path,d);binding_update(root,key)
 def fixture(root,assets,workspace,verified=False):
  (root/'scripts').mkdir(parents=True)
- for f in ('verification_common.py','verify_repository.py','verify_assets.py'):
+ for f in ('verification_common.py','verify_repository.py','verify_assets.py','verify_current_distribution.py','current_replay_coverage.py','verify_current_publication.py'):
   shutil.copy2(SOURCE/'scripts'/f,root/'scripts'/f)
  for f in ('README.md','paper/manuscript.tex','paper/rank-proof.tex','paper/manuscript.pdf','docs/PROOF_STATUS.md','docs/RANK_GAP.md','docs/EVIDENCE.md','docs/H0_H1_CORRIGENDUM.md','docs/RELEASE_PROCESS.md',RDIR+'PAPER_BUILD.log'):
   put(root,f,'SYNTHETIC CONTROL FIXTURE — no mathematical evidence\n')
@@ -41,6 +41,13 @@ def fixture(root,assets,workspace,verified=False):
  status.update(release_state='pending_fresh_replay',proof_complete=False,
                public_proof_release_authorized=False,
                fresh_replay={'state':'pending','binding':None},blocking_gate='synthetic pending fixture')
+ # Synthetic controls must not inherit actual replacement/publication bindings.
+ status.update(current_distribution={'state':'pending_complete_replay',
+               'public_complete_replay_inputs_available':False,
+               'replacement_complete_companion_published':False,
+               'original_mathematical_replay_status_unchanged':True},
+               current_publication={'state':'pending'},arxiv_submission_ready=False,
+               arxiv_submitted=False,arxiv_submission_made=False)
  for gate in status['gates']:
   if gate['id'] in ('fresh_integrated_replay','public_proof_release'):
    gate.update(state='pending',evidence='docs/RELEASE_PROCESS.md')
@@ -103,7 +110,7 @@ def main():
  with tempfile.TemporaryDirectory(prefix='primitive357-verified-host-fixture-') as temp:
   actual_source=SOURCE;host=Path(temp)
   (host/'scripts').mkdir()
-  for name in ('verification_common.py','verify_repository.py','verify_assets.py'):
+  for name in ('verification_common.py','verify_repository.py','verify_assets.py','verify_current_distribution.py','current_replay_coverage.py','verify_current_publication.py'):
    shutil.copy2(actual_source/'scripts'/name,host/'scripts'/name)
   host_status=read(actual_source,'audit/status.json')
   host_status.update(release_state='verified',proof_complete=True,public_proof_release_authorized=True,

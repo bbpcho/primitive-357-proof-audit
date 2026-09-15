@@ -1,0 +1,202 @@
+{
+  "status": "PASS_FRESH_RANK_LOCAL_COMPONENT",
+  "fresh_checks": [
+    {
+      "name": "predyadic_raw66",
+      "source_sha256": "cd529267f5064e63ebbf62d9ebf6433918a191c637866a1dd32593cd34e2f245",
+      "elapsed_seconds": 15.678313041004003,
+      "returncode": 0,
+      "log": "logs/predyadic_raw66.log",
+      "log_sha256": "26c7285c549c7fa960d90fb17095194b4f779a8559f983afcfa542f7952af3af"
+    },
+    {
+      "name": "p7_genuine_source",
+      "source_sha256": "aa647b15adb20af3e87e4c6e51cccee2d1307f9ac47216a2eb641eba9d6271a6",
+      "elapsed_seconds": 2.5727097079943633,
+      "returncode": 0,
+      "log": "logs/p7_genuine_source.log",
+      "log_sha256": "bc586537002715662eb3c2cefe04743824ff6c26bdd7b88ba31dc8062830a9bc"
+    },
+    {
+      "name": "odd_subgroup_envelope",
+      "source_sha256": "3f3208cde0ea29786879a86fc6bebb55ce31bfc226608a710ce9415c770e7a10",
+      "elapsed_seconds": 2.3234239169978537,
+      "returncode": 0,
+      "log": "logs/odd_subgroup_envelope.log",
+      "log_sha256": "4a427df1117264476535920f4e51e78a86b8284d6bfc566af42429ee63ff0d69"
+    },
+    {
+      "name": "dyadic_curve_charts",
+      "source_sha256": "f1d9244740ba7b14ef645345198830e4eca7aa439798772e3a8e4d40576aa675",
+      "elapsed_seconds": 0.0075272920075803995,
+      "returncode": 0,
+      "log": "logs/dyadic_curve_charts.log",
+      "log_sha256": "712bfaf5e20a24a9e2e841c1c3c4193372f79abe4e997b0cf6a6a68f65e90a76"
+    },
+    {
+      "name": "dyadic_P2_kernel_carrier3",
+      "source_sha256": "84744836dd8ec40f7568fbed92d5b14496da159c4ae61b89206f6fe5f63e7376",
+      "elapsed_seconds": 4.945488832992851,
+      "returncode": 0,
+      "log": "logs/dyadic_P2_kernel_carrier3.log",
+      "log_sha256": "5abfc03244c50ab85c4c7f6651ef14221820938c7088aa33fce974e2187d8824"
+    },
+    {
+      "name": "dyadic_P2_kernel_carrier4",
+      "source_sha256": "84744836dd8ec40f7568fbed92d5b14496da159c4ae61b89206f6fe5f63e7376",
+      "elapsed_seconds": 4.2024257500015665,
+      "returncode": 0,
+      "log": "logs/dyadic_P2_kernel_carrier4.log",
+      "log_sha256": "7813eff4033933a1cddafcf55de9cb2be318c276a6e51b4389e5a7459b4acab4"
+    },
+    {
+      "name": "dyadic_P5_kernel_carrier3",
+      "source_sha256": "84744836dd8ec40f7568fbed92d5b14496da159c4ae61b89206f6fe5f63e7376",
+      "elapsed_seconds": 5.477405291996547,
+      "returncode": 0,
+      "log": "logs/dyadic_P5_kernel_carrier3.log",
+      "log_sha256": "877765a4d8634193747d9aa73abd6561226fd0c5347c45077c8f39a4fe7430c0"
+    },
+    {
+      "name": "dyadic_P5_kernel_carrier4",
+      "source_sha256": "84744836dd8ec40f7568fbed92d5b14496da159c4ae61b89206f6fe5f63e7376",
+      "elapsed_seconds": 6.082883082999615,
+      "returncode": 0,
+      "log": "logs/dyadic_P5_kernel_carrier4.log",
+      "log_sha256": "18b5d8c4bd9102d13b1933116d4d0be013afc5133949953e4023326de458a1d8"
+    },
+    {
+      "name": "dyadic_finite_reconstruction",
+      "source_sha256": "f98d67e25fdf43a5830a0cb0302d93f34200285d730ee49b8a54e4486515248c",
+      "elapsed_seconds": 14.129657666999265,
+      "returncode": 0,
+      "log": "logs/dyadic_finite_reconstruction.log",
+      "log_sha256": "0e9757e488df04299d63335b61277e8e530c95c3538f55a0497c109b295df2c5"
+    },
+    {
+      "name": "dyadic_quotient_characters",
+      "source_sha256": "42e7a0058cdd84e6adba5da4c6f7503f1248f8a3e7cfad02ef4e55ecc9d9c0fe",
+      "elapsed_seconds": 0.15680533400154673,
+      "returncode": 0,
+      "log": "logs/dyadic_quotient_characters.log",
+      "log_sha256": "2af4455a88af07ac6ab80d4d9d5b28daebdfcf3838d531b3400d1e42e436ad08"
+    },
+    {
+      "name": "p7_finite_carriers",
+      "source_sha256": "52a44494fd4ad0116692a72ce35882e1d5a49f3d339a4d747815824d6654dcfa",
+      "elapsed_seconds": 1.7967096250067698,
+      "returncode": 0,
+      "log": "logs/p7_finite_carriers.log",
+      "log_sha256": "5af24d369eaedbb0c761a03ed80ce8d767e09d9a17161705a8d3dce916a49c64"
+    },
+    {
+      "name": "p7_cycle3_N100",
+      "source_sha256": "6cf2cf0c9e63b7e6b94a0bb48d0734bdce7a19525fd79a85b30839a4330f561d",
+      "elapsed_seconds": 3.9971711249963846,
+      "returncode": 0,
+      "log": "logs/p7_cycle3_N100.log",
+      "log_sha256": "2083dc74a4d3b6858ddcb6f4aa494daba6def9ad8b570e8547df5a2f6d8cdf51"
+    },
+    {
+      "name": "p7_cycle3_N120",
+      "source_sha256": "6cf2cf0c9e63b7e6b94a0bb48d0734bdce7a19525fd79a85b30839a4330f561d",
+      "elapsed_seconds": 3.886703583993949,
+      "returncode": 0,
+      "log": "logs/p7_cycle3_N120.log",
+      "log_sha256": "985b8cf0ef3d2bf56274badc4bbf0c9dee1caffb45280f7559aef65e795807a4"
+    },
+    {
+      "name": "p7_cycle1_N100",
+      "source_sha256": "6cf2cf0c9e63b7e6b94a0bb48d0734bdce7a19525fd79a85b30839a4330f561d",
+      "elapsed_seconds": 3.8714245000010123,
+      "returncode": 0,
+      "log": "logs/p7_cycle1_N100.log",
+      "log_sha256": "80d58360fb0285f0a43777c17f6bb576de10f7f886033191153cea092b9085c4"
+    },
+    {
+      "name": "minimal_sage_intersection",
+      "source_sha256": "66f00357560519a2bca9c10c3973a3c4c288cfdf570df02786765d891a3869f0",
+      "elapsed_seconds": 1.5402912499994272,
+      "returncode": 0,
+      "log": "logs/minimal_sage_intersection.log",
+      "log_sha256": "b7c44b748f73b0a41f592879abf9a72327686d9dfd78f82ffc0ae12d1bdc5cc2"
+    },
+    {
+      "name": "independent_integer_final_join",
+      "source_sha256": "8e08f1ce9516a91548bdb4bafa266077006be375cefdb3a480cf69cc3afbfdb8",
+      "elapsed_seconds": 0.02667045799898915,
+      "returncode": 0,
+      "log": "logs/independent_integer_final_join.log",
+      "log_sha256": "eda996bd2eb581e06d5fdeec1b92cd51f3d7708b3eec08b0e86078c4a62f3b83"
+    }
+  ],
+  "evidence_sha256": {
+    "evidence/rank/repository/beal_357_spark_handover_2026-08-20/checkpoint/p7_f42_bitangent_bnf.bin": "66299b2e47a6812a3b8b53adc365994fd6d554dba8e9bd7de5fc627ece9cc6c5",
+    "evidence/rank/repository/results/2026-08-20_descent_support/checkpoints/tower_exact.bin": "c5a0eb3d2743bae80a7d76d83eb4cd62f6636647eba9a1591bd046327146c40b",
+    "evidence/rank/repository/results/2026-08-20_descent_geometry/checkpoints/line_rational_normalization.bin": "77e9eb3f6290341dbdcab68f0fc9b252aceced8d11156e428bfc3e6d9d30812e",
+    "evidence/rank/repository/results/2026-08-20_descent_geometry/checkpoints/integral_quartic_model.bin": "8a44da187540a147e98077f9c6d5449aa12785c1febf7129501266a6a3029ed0",
+    "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/certificates/p29_hnf22_squareclass_packet_v1_package/checkpoints/p29_hnf22_support_principals_v1.bin": "f831b57fbe34ebe458b5f84779ec26ba126486df5af91b3c1ccfe3f1ce69f738",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/support_principals_2.bin": "6615d5e68b683b788b53bc2ebe1349ad2d41324c0276e9529448e485b6fe0d2d",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/support_principals_3.bin": "b28c834b5206d92a3cda43b1539e026478ecc7bd969216787c55f8591910d529",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/support_principals_5.bin": "155e78657fae4431bb68b933d7ad2d3557136361c9f103eaf03866aa835874bf",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/support_principals_7.bin": "2b073ee89a7394ba18795b91400af65600e98fadefc2cd561144ed0e4bcf4077",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/local_condition_3.bin": "90dc0267ae62b54083b10454558bc98807ef4560e34ae0ef4bdee928c957315a",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/local_condition_5.bin": "2bd42ec60a05810098cfc4798f8a838b62db85ea42f0db2f903fe25f397f2dd0",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/checkpoints/local_condition_7_v2.bin": "79ba671da94baac481959c1ac519fa239019baa7081e954c33625cadd71c530a",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/inputs/split_prime_geometry_homogeneous_19163_v1.json": "9f0c560f1bc6b89e5482cdcd8dd13d6ba627a2d92c6f10ab624920e9b8cb73a7",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/certificates/local_image_split_19163.json": "f0feb14646135d8e0e25c6b8db832f6ba5ccca313b9f9b57cc5722cdcb634049",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/inputs/split_prime_geometry_homogeneous_23431_v1.json": "94729d2b4192a5f7c100084318c33232d6f27ed662182c51b41c763dfa1577b6",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/certificates/local_image_split_23431.json": "663cc3fa53d82a047fef1c48c5dc264593bf9e486e1d6781fa5249ee66b1f695",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/inputs/split_prime_geometry_homogeneous_29059_v1.json": "300beed4d123b90e461e4bff89785474bf228234973f2b73375b82f72fabb472",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/certificates/local_image_split_29059.json": "756f78eb8ecb75aa5dadb7676b438a68a51ceb6b847b67eada3869a2532d289f",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/inputs/split_prime_geometry_homogeneous_38189_v1.json": "2ad11ad90dd0629ac7d23bdbf669bda44741e528588ff96041b9c235b0fd5c33",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/certificates/local_image_split_38189.json": "2887375342573cb88e54dfffc21ad1dc69d297b588c954855e54aa96a2c67ad7",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_split_global_19163_v1.txt": "5d3536b26c116576c23cc1daa5070fca0d17ada1a61d458a2be5f41e261bef90",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_split_global_23431_v1.txt": "ba485ad52d8766a425c1baf9518cb6526c99d03a83ca6cab207ff702b1bbc910",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_split_global_29059_v1.txt": "7798bde4c254fdcbfa2a391681b65aa2bbc559200cd27ebb899c6928777fad54",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_split_global_38189_v1.txt": "bde50ee518f545986f06cbeb2b80f19e5d68685342173db4932a9b21eccc2bff",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_nonsplit_global_1051_815_v1.txt": "9b439a23c974aa1d31665ac01be452f69733011f7ca944f5433ba4e62689f610",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/inputs/nonsplit_local_augmented_1051_815.txt": "a301a53a5302ad91be21a0b8319f2f19ad332e1b01ed3cf741e52ec78f25a3f9",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_relaxed_basis_without_p29_v1.txt": "2fc569ca2ce29d086fa64e9b0c1ff914b2b9a59f4aa3fcb7b5022aa9e96a4a5e",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_local_global_3_v1.txt": "ec8da2c16ec4128c3e919678802523205f5763c01d994d5c5ff818b2c0cc8404",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_local_global_5_v1.txt": "55867e29d382cc93a50d367ded9c3068aa1a1f7878b25899b86161e320e92417",
+    "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_local_global_7_v1.txt": "bf987e7d5df41805a4e1a25e05a899231a0f1fdb34bc17895dff9564aa1e9af7",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/scripts/certify_p2_local_subgroups.py": "719e9541bdeb56eada5eccca3076a15f3e7a0cf0743ad631bbc16e1ce4f1218e",
+    "evidence/rank/repository/results/2026-08-21_descent_galois/certificates/p7_target_tetrad_orbit.json": "2e44a8eb374ba7decab444149f537590286c152b138fa8f4c2311b9ab885eca2",
+    "evidence/rank/repository/results/2026-08-25_source_class_bridge_resume/scripts/certify_p7_full315_completion_attack_v1.py": "8494661e3e46f366fe21221e060065686a852ac12c13da57499f26b5d690b033",
+    "evidence/rank/repository/results/2026-08-20_descent_geometry/inputs/quartic_coefficients.gp": "a3154ffc3da16b62bf079c8365194a7d2f2d1428a2a36b4b4682ff6c746d045c",
+    "evidence/rank/repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_cross_matrices_v6.bin": "ee5a608769d29dd88cfcff4800609996df745c7fb736b1a259c808570f80b9fa",
+    "evidence/rank/repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_crt_exact_candidate_batch4_v1_after_128.bin": "daa64b9d2fffd5d0c6021f8b47f76d6982c4c07fef80c339d6cd2fff12463f95",
+    "evidence/rank/repository/results/2026-08-22_discovery_engine/checkpoints/degree42_line_contact_reduced_L_v3.bin": "5d93c3bac5f19a210836ec310265031f442392b91c91734594e9452f1ea46daf",
+    "evidence/rank/repository/results/2026-08-22_discovery_engine/checkpoints/degree42_horner_one_element_v3.bin": "9bf02783c7d5daf222dd9d5e8d26f8563d1fd9836fa8929471376201f60b813b",
+    "evidence/rank/repository/results/2026-08-22_discovery_engine/checkpoints/degree42_contact_v4_lineY.bin": "7377aa1221050c0f40c5a8c5e02d5793833d83a5eb08ae885429520a5912ea73",
+    "evidence/v3/repository/results/2026-08-26_p29_corrected_dyadic_replay/inputs/corrected_after_p7_basis_consumed_v1.txt": "842dc043bcc430a4a7a4961f173eb4e873aa6809bbccd935cc1b55ef781b77bf",
+    "evidence/v3/repository/results/2026-08-26_p29_corrected_dyadic_replay/inputs/corrected_final_after_both_dyadic_basis_v1.txt": "03f63890ad29c2e29fdf9f18427dbacf5a7d669145e99a065943d51eef9886ec",
+    "evidence/v3/repository/results/2026-08-26_p29_corrected_dyadic_replay/inputs/corrected_global_diagonal_coordinates_v1.txt": "d1cadcaac076ad299f2399f75fb1e3830e5505fd286f5112018d17c23e52cbd4",
+    "evidence/v3/repository/results/2026-08-20_descent_geometry/checkpoints/integral_quartic_model.bin": "8a44da187540a147e98077f9c6d5449aa12785c1febf7129501266a6a3029ed0",
+    "evidence/rank/repository/results/2026-08-26_corrected_quotient_coordinates/inputs/fresh_recomputed_corrected_diagonal_coordinates_66_v1.txt": "d1cadcaac076ad299f2399f75fb1e3830e5505fd286f5112018d17c23e52cbd4",
+    "evidence/rank/repository/results/2026-08-26_corrected_quotient_coordinates/inputs/fresh_corrected_known_point_coordinates_66_v1.txt": "f4c992905092f069709f06e0f450fe9ef6ac6adefb393df30bad9e76a60fa92d",
+    "evidence/rank/repository/results/2026-08-26_corrected_quotient_coordinates/inputs/fresh_corrected_literal_c_coordinates_66_v1.txt": "b93a74e9bd3dc7972bbe2717d3402bcc282e5f6f9dff9c9fde9011f1010dc9ec"
+  },
+  "fresh_upstream_sha256": {
+    "work/p5_archive_audit/coherence/contact_data.json": "7cbbfa60904c2bee09a21120507d2162c48a8cd59fbd1f972b224959119beba2",
+    "work/p5_archive_audit/local_upper_bound/fresh_dyadic_raw_place1.txt": "10c5bbf26492664abc673d5f0c097462fb5adfa9201fd9e5628cf5b7a0033f3e",
+    "work/p5_archive_audit/local_upper_bound/checkpoint_allowed_place1.txt": "d6f4847d151a6ed790b5560d11957ee349473ac3365f6a47b683a6ca2f475a0c",
+    "work/p5_archive_audit/local_upper_bound/fresh_dyadic_raw_place2.txt": "b44698ca169968bc5337f3b114a90401609f0372f333cc7fbfb59d1fe0b24197",
+    "work/p5_archive_audit/local_upper_bound/checkpoint_allowed_place2.txt": "9619430c2b5ae99211f3ca89f7ed45e60aae4ac3d6cc99e1204d27e09ac511d4"
+  },
+  "conclusions": {
+    "pre7_dimension": 19,
+    "post7_dimension": 18,
+    "final_dimension": 12,
+    "diagonal_dimension": 7,
+    "fake_containing_quotient_dimension": 5,
+    "equals_B_plus_literal_c": true
+  },
+  "explicit_premises": [
+    "Fresh prior class/unit/support completeness and actual dyadic map/source replay",
+    "Exact bitangent/universal-line/BPS dictionary and geometric target identification",
+    "Separate p5 true-lift obstruction and global correction-fibre proof"
+  ],
+  "scope": "Rank/local necessary-condition component. No global rank conclusion is inferred from a saved PASS or from fake-space dimension alone."
+}

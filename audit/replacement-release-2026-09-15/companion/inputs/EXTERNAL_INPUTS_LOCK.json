@@ -1,0 +1,1956 @@
+{
+  "schema": "primitive357-external-inputs-lock-v1",
+  "created_date": "2026-09-15",
+  "policy": {
+    "network_only_during_explicit_acquisition": true,
+    "downloaded_upstream_programs_executed": false,
+    "cache_name": "sha256",
+    "materialize_only_after_hash_and_size_verification": true,
+    "upstream_outputs_are_not_claimed_as_independently_regenerated": "Outputs/Data.txt is parsed and reduced; the underlying upstream6,253polynomial generation is not rerun by acquisition."
+  },
+  "inputs": [
+    {
+      "id": "pvt-codes-charpoly-m",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Codes/CharPoly.m"
+      ],
+      "sha256": "0a0e7a1aa51a8993eddd82bb7dbe858006bffc58577add1afc11841602662283",
+      "bytes": 1774,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Codes/CharPoly.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Codes/CharPoly.m"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_code",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-codes-curveconstruction-m",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Codes/CurveConstruction.m"
+      ],
+      "sha256": "4cbb2dba3100375a9234ee640f8e520ab98192275358544a4075c29258cfccec",
+      "bytes": 585,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Codes/CurveConstruction.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Codes/CurveConstruction.m"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_code",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-codes-gpcode-gp",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Codes/GPcode.gp"
+      ],
+      "sha256": "a6617041cd22bda5edf65beccfa59022fc5fb7ce2e05aa465f5e67406b438232",
+      "bytes": 5497,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Codes/GPcode.gp"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Codes/GPcode.gp"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_code",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-codes-igusain-m",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Codes/IgusaIn.m"
+      ],
+      "sha256": "642e2f5e362e922c59c0b8129abaad0294f39189c982c53de030514ada3eaba9",
+      "bytes": 2345,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Codes/IgusaIn.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Codes/IgusaIn.m"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_code",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-codes-irredtest-m",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Codes/IrredTest.m"
+      ],
+      "sha256": "1fd61e5307b008936cdc0a6094912d24353533bad4bb84b5962d2850e821a5e9",
+      "bytes": 1088,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Codes/IrredTest.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Codes/IrredTest.m"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_code",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-codes-magmacode-m",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Codes/MagmaCode.m"
+      ],
+      "sha256": "618bfed88d6809edb483ac78356305d226a52d79f24061626f55b8997d48ffe0",
+      "bytes": 9206,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Codes/MagmaCode.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Codes/MagmaCode.m"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_code",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-boundirreducibility-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/BoundIrreducibility.txt"
+      ],
+      "sha256": "192a54f878e11a8ff38617f69553cd559ff8db0d28f1247f69d30afb99c4e700",
+      "bytes": 310,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/BoundIrreducibility.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/BoundIrreducibility.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-charpoly-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/CharPoly.txt"
+      ],
+      "sha256": "33fa4cecdafe160187af8a4133c34533236b9aa3c57ffc67e295183a6ed6b02e",
+      "bytes": 718,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/CharPoly.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/CharPoly.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-curveconstruction-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/CurveConstruction.txt"
+      ],
+      "sha256": "4b7a562233c2b2e3611101dc84495f0cc7cebe3ef8f5cca2b53dc3dfb22607d3",
+      "bytes": 323,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/CurveConstruction.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/CurveConstruction.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-data-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/Data.txt"
+      ],
+      "sha256": "cc73ca915d3b25fe4def2b323b93bdc0fcdc46bbd560f16193af4dbdfae08ba5",
+      "bytes": 102250,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/Data.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/Data.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-datatimes-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/DataTimes.txt"
+      ],
+      "sha256": "f646e077d5e7c9a5e71f07e2ae95ec8579e1b0cfbb32c9a0b02e8bd95c4cf4d0",
+      "bytes": 2595,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/DataTimes.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/DataTimes.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-igusain-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/IgusaIn.txt"
+      ],
+      "sha256": "cb5c68e9b48613d86e1d18bd8af44d822a3651afa5e4609a524994a314a36e63",
+      "bytes": 2124,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/IgusaIn.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/IgusaIn.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-table-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/Table.txt"
+      ],
+      "sha256": "812a9e1e8f289532728d055c76c898b549ff0f2bf8bb3981f45dfc893c4f1cda",
+      "bytes": 358,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/Table.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/Table.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-outputs-theorema-txt",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/Outputs/TheoremA.txt"
+      ],
+      "sha256": "6b05ad7356248dd32e1d4661120893bada83685b5c7f7697fe2b44482b187489",
+      "bytes": 9609,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/Outputs/TheoremA.txt"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "Outputs/TheoremA.txt"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "upstream_computation_output",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-readme-md",
+      "kind": "download",
+      "urls": [
+        "https://raw.githubusercontent.com/lucasvillagra/GFE-5p3/e88f914c577ab6cf9a45e5cdd82c1993477fb423/README.md"
+      ],
+      "sha256": "9648cfced9f792e3f1cacb0618d74515c04b575c9af0d0676ec5ec714697f240",
+      "bytes": 1283,
+      "logical_destinations": [
+        "evidence/v3/third_party/GFE-5p3/README.md"
+      ],
+      "upstream": {
+        "repository": "https://github.com/lucasvillagra/GFE-5p3",
+        "commit": "e88f914c577ab6cf9a45e5cdd82c1993477fb423",
+        "path": "README.md"
+      },
+      "rights_status": "No downstream redistribution grant established; acquired privately, excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_documentation",
+      "private_destinations": []
+    },
+    {
+      "id": "pvt-paper-v1",
+      "kind": "download",
+      "urls": [
+        "https://arxiv.org/pdf/2512.17845v1"
+      ],
+      "sha256": "d5983c0949129942c3510d9c3a8de1fbf8998e4b0e5b5d822ddf94a795048004",
+      "bytes": 719399,
+      "logical_destinations": [
+        "evidence/v3/repository/references/Pacetti_Villagra_Torcomian_2512.17845v1.pdf"
+      ],
+      "citation": "Ariel Pacetti and Lucas Villagra Torcomian, On the generalized Fermat equation of signature (5,p,3), arXiv:2512.17845v1.",
+      "rights_status": "No downstream redistribution grant relied upon; acquired privately and omitted from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_paper",
+      "private_destinations": []
+    },
+    {
+      "id": "bps-paper-v2",
+      "kind": "download",
+      "urls": [
+        "https://arxiv.org/pdf/1205.4456v2"
+      ],
+      "sha256": "e53e4912cab98eb0e514afa2fbf17b21f446ac032b6b1855e11784bbc478fb47",
+      "bytes": 766724,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-21_descent_galois/inputs/Bruin_Poonen_Stoll_1205.4456v2.pdf",
+        "evidence/p5/repository/results/2026-08-21_descent_galois/inputs/Bruin_Poonen_Stoll_1205.4456v2.pdf",
+        "evidence/rank/repository/results/2026-08-21_descent_galois/inputs/Bruin_Poonen_Stoll_1205.4456v2.pdf"
+      ],
+      "citation": "Nils Bruin, Bjorn Poonen, and Michael Stoll, Generalized explicit descent and its application to curves of genus 3, arXiv:1205.4456v2.",
+      "rights_status": "No downstream redistribution grant relied upon; acquired privately and omitted from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_paper",
+      "private_destinations": []
+    },
+    {
+      "id": "dahmen-siksek-paper",
+      "kind": "download",
+      "urls": [
+        "https://few.vu.nl/~sdn249/GFE357.pdf",
+        "https://www.few.vu.nl/~sdn249/GFE357.pdf"
+      ],
+      "sha256": "8b69da80fe79959ed1e05d35b613f7f728f599571b8f84f0a0d29c78e4c205c6",
+      "bytes": 235180,
+      "logical_destinations": [],
+      "environment_variable": "PRIMITIVE357_EXTERNAL_INPUTS",
+      "original_archive_member": {
+        "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+        "member": "primary/dahmen-siksek/GFE357.pdf"
+      },
+      "citation": "Sander Dahmen and Samir Siksek, GFE357 working paper hosted on Dahmen's author webpage.",
+      "rights_status": "No downstream redistribution grant relied upon; acquired privately and omitted from public distribution.",
+      "execute_downloaded_code": false,
+      "material_type": "third_party_paper",
+      "private_destinations": [
+        "dahmen_siksek/GFE357.pdf"
+      ]
+    },
+    {
+      "id": "putz-919056cfa9f02586",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/CITATION.cff"
+      ],
+      "sha256": "919056cfa9f025860ca710b446ea0ba226651f8ab510b526d926d6a9f531b642",
+      "bytes": 202,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/CITATION.cff"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "CITATION.cff"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/CITATION.cff"
+        }
+      ]
+    },
+    {
+      "id": "putz-8d719de367805013",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/EtaleAlgebras/etale_algebra_family.m"
+      ],
+      "sha256": "8d719de3678050136ade65bb14d1db19a1c010c092de990004e4c77fc675283a",
+      "bytes": 13235,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/EtaleAlgebras/etale_algebra_family.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "EtaleAlgebras/etale_algebra_family.m"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/EtaleAlgebras/etale_algebra_family.m"
+        }
+      ]
+    },
+    {
+      "id": "putz-6444d836828e129d",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/EtaleAlgebras/padic_nbhd.m"
+      ],
+      "sha256": "6444d836828e129d6afdb2354f3176644d95f61835cfb46255aa3abe17bf8428",
+      "bytes": 10639,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/EtaleAlgebras/padic_nbhd.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "EtaleAlgebras/padic_nbhd.m"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/EtaleAlgebras/padic_nbhd.m"
+        }
+      ]
+    },
+    {
+      "id": "putz-7463f9fade91d2da",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/EtaleAlgebras/separant.m"
+      ],
+      "sha256": "7463f9fade91d2da8a4258513a69a6c7906ce013891e3690576764aeaed96cff",
+      "bytes": 6209,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/EtaleAlgebras/separant.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "EtaleAlgebras/separant.m"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/EtaleAlgebras/separant.m"
+        }
+      ]
+    },
+    {
+      "id": "putz-f7969369ac7e81c0",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/GFE/357.m"
+      ],
+      "sha256": "f7969369ac7e81c04fa61c41735551dd5e8d9aacbcf9f4affdf5f98f10222232",
+      "bytes": 3584,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/GFE/357.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "GFE/357.m"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/GFE/357.m"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/GFE/357.m"
+        }
+      ]
+    },
+    {
+      "id": "putz-fb130ad66f8033d7",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/README.md"
+      ],
+      "sha256": "fb130ad66f8033d770989b935a8adad00382610e18c8434efd1ecd52418868ae",
+      "bytes": 6450,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/README.md"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "README.md"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/README.md"
+        }
+      ]
+    },
+    {
+      "id": "putz-5a68a7f1cd9cbd63",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/scripts/357/local_algebras.m"
+      ],
+      "sha256": "5a68a7f1cd9cbd63849e1c1f8fa5b21c3a43363fa73445c9958200c1cd131f48",
+      "bytes": 1102,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/scripts/357/local_algebras.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "scripts/357/local_algebras.m"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/scripts/357/local_algebras.m"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/scripts/357/local_algebras.m"
+        }
+      ]
+    },
+    {
+      "id": "putz-d932722d5156142f",
+      "kind": "download",
+      "material_type": "upstream_numeric_data",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/scripts/357/local_covering_sets.dat"
+      ],
+      "sha256": "d932722d5156142f4bdfb26c20cd876cc7216fae574dfe740abcda2e569f3354",
+      "bytes": 1584,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/scripts/357/local_covering_sets.dat"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "scripts/357/local_covering_sets.dat"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/scripts/357/local_covering_sets.dat"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/scripts/357/local_covering_sets.dat"
+        }
+      ]
+    },
+    {
+      "id": "putz-e2043b5a8c33b41e",
+      "kind": "download",
+      "material_type": "upstream_numeric_data",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/scripts/357/output/local_algebras.m.out"
+      ],
+      "sha256": "e2043b5a8c33b41e62f3967f52561ee7ba9b9e56b37730c21d92bb37270b13cb",
+      "bytes": 315,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/scripts/357/output/local_algebras.m.out"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "scripts/357/output/local_algebras.m.out"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/scripts/357/output/local_algebras.m.out"
+        }
+      ]
+    },
+    {
+      "id": "putz-6a2f0a413ce70d54",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/spec"
+      ],
+      "sha256": "6a2f0a413ce70d5453a930e33362c376f4ae404e6a3e24e8abbb7ef520b9d96d",
+      "bytes": 340,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/spec"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "spec"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/local_algebra_covering_evidence_v6.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/spec"
+        }
+      ]
+    },
+    {
+      "id": "putz-d8f737edb38f53de",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/etale-algebra-family/9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5/EtaleAlgebras/tschirnhaus.m"
+      ],
+      "sha256": "d8f737edb38f53de15c896dc7b3735e11b4c3b7b05ccae83936607da0cdf635c",
+      "bytes": 4774,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/etale-algebra-family-9481cf02/EtaleAlgebras/tschirnhaus.m"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/etale-algebra-family",
+        "commit": "9481cf02b8282dd1d97b2d3206cf8f6ed12aabc5",
+        "path": "EtaleAlgebras/tschirnhaus.m"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/etale-algebra-family-9481cf02/EtaleAlgebras/tschirnhaus.m"
+        }
+      ]
+    },
+    {
+      "id": "putz-b2bf285a892de5cc",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/README.md"
+      ],
+      "sha256": "b2bf285a892de5cc5ef9c4538c3476c732f72de910ee3519c31f3e8944d5850c",
+      "bytes": 80,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/README.md"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "README.md"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/README.md"
+        }
+      ]
+    },
+    {
+      "id": "putz-ea858685167d4cf2",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/include/mathextra.hpp"
+      ],
+      "sha256": "ea858685167d4cf24a6f545c234fbc2ef602ec2f2570f011a524c3ba22463281",
+      "bytes": 203,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/include/mathextra.hpp"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "include/mathextra.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/include/mathextra.hpp"
+        }
+      ]
+    },
+    {
+      "id": "putz-d7d72c891e7d1bb0",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/include/polmodtree.hpp"
+      ],
+      "sha256": "d7d72c891e7d1bb06dba8615c50b84b1d235fa37ce766dc4fd59b586190c8c94",
+      "bytes": 763,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/include/polmodtree.hpp"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "include/polmodtree.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/include/polmodtree.hpp"
+        }
+      ]
+    },
+    {
+      "id": "putz-e7c9fb67e1c81fda",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/input/cong_tree.wls"
+      ],
+      "sha256": "e7c9fb67e1c81fdac342344b47da671d69f1e5d5848633104698428c7fff9515",
+      "bytes": 2212,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/input/cong_tree.wls"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "input/cong_tree.wls"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/input/cong_tree.wls"
+        }
+      ]
+    },
+    {
+      "id": "putz-a0398bbc628d7423",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/input/create_trees"
+      ],
+      "sha256": "a0398bbc628d7423d581d602f8527a40b19becb4a2b4fe27a7e0b150b830c113",
+      "bytes": 2020,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/input/create_trees"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "input/create_trees"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/input/create_trees"
+        }
+      ]
+    },
+    {
+      "id": "putz-d99751220d87d911",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/src/main.cpp"
+      ],
+      "sha256": "d99751220d87d911b4d10c6282c9a0dbab60b519fd543ecbf51388593b1c000d",
+      "bytes": 5324,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/src/main.cpp"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "src/main.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/src/main.cpp"
+        }
+      ]
+    },
+    {
+      "id": "putz-32d16f9228af9d0c",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/src/mathextra.cpp"
+      ],
+      "sha256": "32d16f9228af9d0c8c04cda73e1bee0ad6f12e903e58c4e11f1574f37e7a7f39",
+      "bytes": 915,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/src/mathextra.cpp"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "src/mathextra.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/src/mathextra.cpp"
+        }
+      ]
+    },
+    {
+      "id": "putz-2a1e4b5b5d483b07",
+      "kind": "download",
+      "material_type": "third_party_code_or_documentation",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/tschirnhaus_congruences/4fed16e2bfd8410e500df88cfbc7bde5c0a6d876/src/polmodtree.cpp"
+      ],
+      "sha256": "2a1e4b5b5d483b073a775e029331ef1cbdd8cff21027bda8e646045afd34760a",
+      "bytes": 2413,
+      "logical_destinations": [],
+      "private_destinations": [
+        "putz/tschirnhaus-congruences-4fed16e2/src/polmodtree.cpp"
+      ],
+      "upstream": {
+        "repository": "https://github.com/CPutz/tschirnhaus_congruences",
+        "commit": "4fed16e2bfd8410e500df88cfbc7bde5c0a6d876",
+        "path": "src/polmodtree.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established in the pinned full tree; acquired privately and excluded from public distribution.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_evidence_v5.tar.gz",
+          "member": "primary/tschirnhaus-congruences-4fed16e2/src/polmodtree.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-4a49f1d628954840",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/Makefile"
+      ],
+      "sha256": "4a49f1d6289548401931390631d00ba7f8d530287c159ab78ec80d70e458f9ae",
+      "bytes": 864,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/Makefile",
+        "hunter/v3/hunter-first-state-repair/Makefile"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "Makefile"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/Makefile"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/Makefile"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-2d3dfad1fb5fbf99",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/bounds.hpp"
+      ],
+      "sha256": "2d3dfad1fb5fbf99d36f2e7caad87466cdd4feee60188ce22606b92efc729f56",
+      "bytes": 1204,
+      "logical_destinations": [],
+      "private_destinations": [],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/bounds.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": []
+    },
+    {
+      "id": "hunter-base-a2d6de1eff9c7456",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/congruencegenerator.hpp"
+      ],
+      "sha256": "a2d6de1eff9c745655a558749102121750d803949f0f5460bf728da52a72b90e",
+      "bytes": 629,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/congruencegenerator.hpp",
+        "hunter/v3/hunter-first-state-repair/include/congruencegenerator.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/congruencegenerator.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/congruencegenerator.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/congruencegenerator.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-a2330f158d63e29a",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/congruencelookup.hpp"
+      ],
+      "sha256": "a2330f158d63e29a1e52a621fb0d9db8178050630452fc79c9bf9450256af92c",
+      "bytes": 1100,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/congruencelookup.hpp",
+        "hunter/v3/hunter-first-state-repair/include/congruencelookup.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/congruencelookup.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/congruencelookup.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/congruencelookup.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-7ae3f0eead9a5186",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/congruences.hpp"
+      ],
+      "sha256": "7ae3f0eead9a5186d1cbbcf2429f570b0cceedb329eb056f05ffeb525ef5cef1",
+      "bytes": 211,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/congruences.hpp",
+        "hunter/v3/hunter-first-state-repair/include/congruences.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/congruences.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/congruences.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/congruences.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-c28640e26221ae27",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/hornermodtree.hpp"
+      ],
+      "sha256": "c28640e26221ae27b06f7c365fb66701e5a4a8804a6c601ec98e59dc4329318c",
+      "bytes": 843,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/hornermodtree.hpp",
+        "hunter/v3/hunter-first-state-repair/include/hornermodtree.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/hornermodtree.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/hornermodtree.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/hornermodtree.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-f0fc052e94758d0f",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/hornertree.hpp"
+      ],
+      "sha256": "f0fc052e94758d0fd89a346bf528d6aa308f4770624b0a42e2280a8e1c23cada",
+      "bytes": 962,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/hornertree.hpp",
+        "hunter/v3/hunter-first-state-repair/include/hornertree.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/hornertree.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/hornertree.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/hornertree.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-ad1623c79728bca0",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/mathextra.hpp"
+      ],
+      "sha256": "ad1623c79728bca08cb6eae3fb27895b56f6758bec69fafb361b7939345e356d",
+      "bytes": 230,
+      "logical_destinations": [],
+      "private_destinations": [],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/mathextra.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": []
+    },
+    {
+      "id": "hunter-base-59db45abab3b3785",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/order.hpp"
+      ],
+      "sha256": "59db45abab3b3785b25b946b55cd51291cafd1bfec7b87ca10d6fc4e9ce53fd6",
+      "bytes": 547,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/order.hpp",
+        "hunter/v3/hunter-first-state-repair/include/order.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/order.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/order.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/order.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-4ccccc99ea176291",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/polgenerator.hpp"
+      ],
+      "sha256": "4ccccc99ea1762917cf49e096320b5abd01482f38bca4a0ac88632824ff61d31",
+      "bytes": 1742,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/polgenerator.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/polgenerator.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/polgenerator.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-9a04620f7734bfc6",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/print.hpp"
+      ],
+      "sha256": "9a04620f7734bfc6191ebdc56ca2c440947992ffa19c0dcb179d175c530b5ec1",
+      "bytes": 202,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/print.hpp",
+        "hunter/v3/hunter-first-state-repair/include/print.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/print.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/print.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/print.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-7388aa5c2e1e1d59",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/simplepolgenerator.hpp"
+      ],
+      "sha256": "7388aa5c2e1e1d59e152098258bfc4b1ec1ae35fc7a7e9708bd03144ce7fa7dc",
+      "bytes": 935,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/simplepolgenerator.hpp",
+        "hunter/v3/hunter-first-state-repair/include/simplepolgenerator.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/simplepolgenerator.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/simplepolgenerator.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/simplepolgenerator.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-b103b0928dd3715a",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/include/statistics.hpp"
+      ],
+      "sha256": "b103b0928dd3715a21098f7278fff043c756015b54ca9694cfc8508259a39178",
+      "bytes": 2459,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/statistics.hpp",
+        "hunter/v3/hunter-first-state-repair/include/statistics.hpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "include/statistics.hpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/statistics.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/statistics.hpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-557cdab84020b877",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/bounds.cpp"
+      ],
+      "sha256": "557cdab84020b877e0b10ca5a7bbf7adc19c0c51d5042bcfa5b4ec15021f7d34",
+      "bytes": 12367,
+      "logical_destinations": [],
+      "private_destinations": [],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/bounds.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": []
+    },
+    {
+      "id": "hunter-base-fbe051d6dd4bfd41",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/congruencegenerator.cpp"
+      ],
+      "sha256": "fbe051d6dd4bfd4118e07c7032cef9fb1e817ef80bbfca056cfe8890f986dcad",
+      "bytes": 2907,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/congruencegenerator.cpp",
+        "hunter/v3/hunter-first-state-repair/src/congruencegenerator.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/congruencegenerator.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/congruencegenerator.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/congruencegenerator.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-abe82fc4f473879f",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/congruencelookup.cpp"
+      ],
+      "sha256": "abe82fc4f473879f07a5783782eb18065a84304fa591157ad9b5934ef30c4f68",
+      "bytes": 3991,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/congruencelookup.cpp",
+        "hunter/v3/hunter-first-state-repair/src/congruencelookup.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/congruencelookup.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/congruencelookup.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/congruencelookup.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-2309089d159e6950",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/congruences.cpp"
+      ],
+      "sha256": "2309089d159e6950a924ef2b306458f46ed48a1c057027fc21029f6de0b0452e",
+      "bytes": 2012,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/congruences.cpp",
+        "hunter/v3/hunter-first-state-repair/src/congruences.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/congruences.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/congruences.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/congruences.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-2c3d851100379eb8",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/hornermodtree.cpp"
+      ],
+      "sha256": "2c3d851100379eb821254447ae3264cbeb472856d8b939310f7c3db3b485dd6a",
+      "bytes": 4999,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/hornermodtree.cpp",
+        "hunter/v3/hunter-first-state-repair/src/hornermodtree.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/hornermodtree.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/hornermodtree.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/hornermodtree.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-5570442bdf80c12b",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/hornertree.cpp"
+      ],
+      "sha256": "5570442bdf80c12bbd26274a36bf2e137039ed32ef9ac802bf1fbd8007031e69",
+      "bytes": 4672,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/hornertree.cpp",
+        "hunter/v3/hunter-first-state-repair/src/hornertree.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/hornertree.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/hornertree.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/hornertree.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-0fc12f3466de2ac0",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/main.cpp"
+      ],
+      "sha256": "0fc12f3466de2ac0a2f7da4f51faacf209347cc11f1741bc5fd8f4a88309ffa0",
+      "bytes": 13983,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/main.cpp",
+        "hunter/v3/hunter-first-state-repair/src/main.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/main.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/main.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/main.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-5cbf087571447b06",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/mathextra.cpp"
+      ],
+      "sha256": "5cbf087571447b06b91f953ba728aa54d255d1d3fbfd0c83439ba0dbcae14d44",
+      "bytes": 880,
+      "logical_destinations": [],
+      "private_destinations": [],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/mathextra.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": []
+    },
+    {
+      "id": "hunter-base-76fade023ddc9369",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/polgenerator.cpp"
+      ],
+      "sha256": "76fade023ddc936977c1e81a0b3e44166e877b42c64665bec1a87ea21a1e5565",
+      "bytes": 13475,
+      "logical_destinations": [],
+      "private_destinations": [],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/polgenerator.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": []
+    },
+    {
+      "id": "hunter-base-3d7d52c5675f150b",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/print.cpp"
+      ],
+      "sha256": "3d7d52c5675f150b5813083e5c1b3ebdf40ecc71b31cbc897be0f885c6cb475b",
+      "bytes": 1554,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/print.cpp",
+        "hunter/v3/hunter-first-state-repair/src/print.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/print.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/print.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/print.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-4d4db330f7393464",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/simplepolgenerator.cpp"
+      ],
+      "sha256": "4d4db330f739346417de36fe799b6eca46b1dff25ad4738617257f2f5e1f7691",
+      "bytes": 4756,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/simplepolgenerator.cpp",
+        "hunter/v3/hunter-first-state-repair/src/simplepolgenerator.cpp"
+      ],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/simplepolgenerator.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/simplepolgenerator.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/simplepolgenerator.cpp"
+        }
+      ]
+    },
+    {
+      "id": "hunter-base-8e7a3208295d033b",
+      "kind": "download",
+      "material_type": "third_party_code",
+      "urls": [
+        "https://raw.githubusercontent.com/CPutz/hunter_search/1c2e95d1e551f8d3b4e0d2b763021ce610125a56/src/statistics.cpp"
+      ],
+      "sha256": "8e7a3208295d033b2c033f7ed2adfbcd26e0c5ac10acf1b733c2742d24874797",
+      "bytes": 5302,
+      "logical_destinations": [],
+      "private_destinations": [],
+      "cache_only": true,
+      "upstream": {
+        "repository": "https://github.com/CPutz/hunter_search",
+        "commit": "1c2e95d1e551f8d3b4e0d2b763021ce610125a56",
+        "path": "src/statistics.cpp"
+      },
+      "rights_status": "No downstream redistribution grant established; complete source acquired privately and excluded from public release.",
+      "execute_downloaded_code": false,
+      "original_archive_members": []
+    }
+  ],
+  "derived_inputs": [
+    {
+      "id": "pvt-mod7-table",
+      "kind": "derived",
+      "depends_on": [
+        "pvt-outputs-data-txt"
+      ],
+      "generator": "scripts/regenerate_pvt_mod7.py",
+      "sha256": "2833cdd1e290727028496b1339997ac3b401ab1d42dd51a9a970502a69837403",
+      "bytes": 12869,
+      "logical_destinations": [
+        "evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/p7_level23_data_mod7.m"
+      ],
+      "generation": "Canonical reduction of the6,253polynomials at37primes in the pinned upstreamData.txt; generated only in private replay output. No upstream code executed.",
+      "material_type": "derived_upstream_numeric_data",
+      "private_destinations": []
+    },
+    {
+      "id": "hunter-derived-6c621d45449ca5c4",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-2d3dfad1fb5fbf99"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "6c621d45449ca5c45435942c439dc1442291576e3a8be7548b7a6aab46af7422",
+      "bytes": 1251,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/bounds.hpp",
+        "hunter/v3/hunter-first-state-repair/include/bounds.hpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/bounds.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/bounds.hpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-84a589170e1d6187",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-ad1623c79728bca0"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "84a589170e1d6187b0b4154d9fa1594db7d9255e5ce3d5bba079f2b68eefba76",
+      "bytes": 382,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/include/mathextra.hpp",
+        "hunter/v3/hunter-first-state-repair/include/mathextra.hpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/include/mathextra.hpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/mathextra.hpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-d5e54d6617522f24",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-557cdab84020b877"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "d5e54d6617522f243641b994b3ffc6582e937ea6e54f44e1348ea94624045de8",
+      "bytes": 17472,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/bounds.cpp",
+        "hunter/v3/hunter-first-state-repair/src/bounds.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/bounds.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/bounds.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-2bd2815d5fed112a",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-5cbf087571447b06"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "2bd2815d5fed112a47140357fc64c50f73452ad70ae274d4042df68c4687f076",
+      "bytes": 1780,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/mathextra.cpp",
+        "hunter/v3/hunter-first-state-repair/src/mathextra.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/mathextra.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/mathextra.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-534f47b281d0ed4f",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-76fade023ddc9369"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "534f47b281d0ed4fe7543ef0d2824727519d2583e0017c0a8a73cfbd0500042a",
+      "bytes": 13582,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/polgenerator.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/polgenerator.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-b3fa0477023230b3",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-8e7a3208295d033b"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "b3fa0477023230b3100d14a6073a8a8838bcebcc05cf3a6386f5409306174fed",
+      "bytes": 5341,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v2/putz-hunter-corrected/src/statistics.cpp",
+        "hunter/v3/hunter-first-state-repair/src/statistics.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_proof_safe_source_v2.tar.gz",
+          "member": "putz-hunter-corrected/src/statistics.cpp"
+        },
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/statistics.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-be5de69e6ba30959",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-76fade023ddc9369"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "be5de69e6ba3095982fbe9229ea0b0ef5a7006d30b335503f1afbd125ffdb286",
+      "bytes": 18726,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v4/src/polgenerator.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/inputs/hunter_finite_state_machine_audit_evidence_v4.tar.gz",
+          "member": "src/polgenerator.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-b2463fcad4bb1b4d",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-4d4db330f7393464"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "b2463fcad4bb1b4d8933af909cd08f0b50641a08484b25cd48d42a71fcc01df7",
+      "bytes": 5947,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v4/src/simplepolgenerator.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/inputs/hunter_finite_state_machine_audit_evidence_v4.tar.gz",
+          "member": "src/simplepolgenerator.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-9c192fb7976c4e79",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-4ccccc99ea176291"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "9c192fb7976c4e79a15d14b870e012bce64a01b3bf987391dcd503aa7f02ae92",
+      "bytes": 1782,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v3/hunter-first-state-repair/include/polgenerator.hpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/include/polgenerator.hpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-d257cf37fba20b41",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-76fade023ddc9369"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "d257cf37fba20b41d953b2ac058f479301d3b97a7416a6babedf144bc0975ef7",
+      "bytes": 13995,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v3/hunter-first-state-repair/src/polgenerator.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "hunter-first-state-repair/src/polgenerator.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    },
+    {
+      "id": "hunter-derived-d8473cc1ae8aad70",
+      "kind": "derived",
+      "material_type": "privately_reconstructed_modified_third_party_code",
+      "depends_on": [
+        "hunter-base-76fade023ddc9369"
+      ],
+      "generator": "scripts/regenerate_hunter_sources.py",
+      "recipe": "inputs/HUNTER_SOURCE_RECIPES.json",
+      "sha256": "d8473cc1ae8aad700af5781ed9eff5ddbafd88651296aea1571215f0c7dc60dc",
+      "bytes": 16344,
+      "logical_destinations": [],
+      "private_destinations": [
+        "hunter/v3/initial-state-audit/polgenerator.cpp"
+      ],
+      "original_archive_members": [
+        {
+          "archive": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_repair_source_v3.tar.gz",
+          "member": "initial-state-audit/polgenerator.cpp"
+        }
+      ],
+      "generation": "Reconstruct exact archived modified source privately from a pinned upstream source and project-added lines; no upstream program execution."
+    }
+  ]
+}

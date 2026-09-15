@@ -1,0 +1,57 @@
+{
+  "schema": "primitive357_final_paper_build_v1",
+  "status": "PASS_PAPER_BUILD_AND_CLEAN_SOURCE_REBUILD",
+  "paper": {
+    "manuscript.tex": "14e9d83527b01cb4c9bca9b7406024f549264cffb9b116e5e6e53f5a99f72f26",
+    "rank-proof.tex": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8",
+    "manuscript.pdf": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407"
+  },
+  "pages": 40,
+  "pdf": {
+    "filename": "primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+    "bytes": 541652,
+    "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407"
+  },
+  "source_bundle": {
+    "filename": "PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+    "bytes": 41982,
+    "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548"
+  },
+  "source_members": [
+    {
+      "name": "manuscript.tex",
+      "sha256": "14e9d83527b01cb4c9bca9b7406024f549264cffb9b116e5e6e53f5a99f72f26"
+    },
+    {
+      "name": "rank-proof.tex",
+      "sha256": "5d2df25bebb4f6bb9b737e6504adde76db4a21e8244c4611879dcd625efdebf8"
+    }
+  ],
+  "companion": {
+    "schema": "primitive357_final_archive_identity_v1",
+    "status": "PASS_FINAL_APPEND_ONLY_COMPANION",
+    "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+    "bytes": 320731221,
+    "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+    "release_tag": "replay-companion-2026-09-15.2",
+    "tested_public_manifest_sha256": "f64c38fd747a54ae7a7928b6a8fdbe96ec5ff4b785a7dabd1f8413fd73ec6e99",
+    "final_public_manifest_sha256": "355ebd822965069fc84ed015cb2c7024023b4fd1e26fc35adcad653f2ead0097",
+    "logical_manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9",
+    "new_selected_suite_files": 372,
+    "new_selected_suite_bytes": 37021164,
+    "public_files": 2516,
+    "zip_member_verification": {
+      "status": "PASS_EXACT_ZIP_MEMBERS",
+      "files": 2517
+    }
+  },
+  "prior_revision_sha256": "babe4234a06a93c5806a15ce7ac0466014e0310e7da7974c9562fd7248798931",
+  "clean_source_rebuild": "PASS_BYTE_IDENTICAL_PDF",
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "visual_review": "PASS_VISUAL_REVIEW",
+  "arxiv_submitted": false,
+  "submission_holds": [
+    "Requested Dahmen reply pending"
+  ]
+}

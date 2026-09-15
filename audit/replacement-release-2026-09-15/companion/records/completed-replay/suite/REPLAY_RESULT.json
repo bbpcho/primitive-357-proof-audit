@@ -1,0 +1,70 @@
+{
+  "schema": "primitive357_integrated_replay_v1",
+  "status": "PASS_FRESH_INTEGRATED_REPLAY",
+  "input_manifest": {
+    "files": 2127,
+    "manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9"
+  },
+  "seconds": 2938.320317040998,
+  "components": [
+    {
+      "id": "prior",
+      "exit_code": 0,
+      "process_group_id": 79244,
+      "log": "logs/prior.log",
+      "sha256": "fe24188e558226f0b87588b7cd28a24167d17356d09110b65035c0ba7635b599",
+      "seconds": 2866.916193625002
+    },
+    {
+      "id": "rank_local",
+      "exit_code": 0,
+      "process_group_id": 82205,
+      "log": "logs/rank_local.log",
+      "sha256": "e87c1c26220fb07c7e685191cc8c872a35509ab4dc22e6c6549ce7c452918acb",
+      "seconds": 70.85820887499722
+    },
+    {
+      "id": "sectors",
+      "exit_code": 0,
+      "process_group_id": 79243,
+      "log": "logs/sectors.log",
+      "sha256": "0004ea475f7f4a438f2b3b2c0442409a6de392c273865b4287334140756f1f02",
+      "seconds": 940.0710912909999
+    }
+  ],
+  "rank_conclusions": {
+    "pre7_dimension": 19,
+    "post7_dimension": 18,
+    "final_dimension": 12,
+    "diagonal_dimension": 7,
+    "fake_containing_quotient_dimension": 5,
+    "equals_B_plus_literal_c": true
+  },
+  "prior_groups": [
+    "exports",
+    "rawdyadic",
+    "foundation",
+    "fiveplace",
+    "p5",
+    "logs",
+    "finite_maps"
+  ],
+  "subgroups": {
+    "H0": [
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "H1": [
+      "D2",
+      "E",
+      "D4",
+      "D5"
+    ],
+    "relation": "5E=D3+D4+3D5",
+    "saturation_scope": "H0 is 2-saturated; H1 is 2- and 5-saturated. Rank4 supplies finite index. Coverage modulo400 uses H1. No assertion that H0 is 5-saturated."
+  },
+  "proof_scope": "The manuscript composes the freshly checked support, local containing space B+<c>, exclusion of both true lifts of c, saturation, logarithms, sieve and sector evidence. Checksums alone do not establish these implications.",
+  "retained_premises": "Published theorems and the explicitly identified historical Magma certificates retain their stated provenance; this is not a fresh Magma rerun or formal proof-assistant verification."
+}

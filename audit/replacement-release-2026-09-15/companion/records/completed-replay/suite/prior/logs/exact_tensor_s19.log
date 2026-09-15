@@ -1,0 +1,15 @@
+LOAD_START s19
+LOAD_DONE
+EXACT_CHARTS_DONE
+BASIS_DONE s19 2 seconds 3.275828375000856
+BASIS_DONE s19 3 seconds 4.886425499993493
+BASIS_DONE s19 4 seconds 6.550461584003642
+BASIS_DONE s19 5 seconds 14.954581625002902
+BASIS_DONE s19 6 seconds 29.910010499996133
+BASIS_DONE s19 7 seconds 50.247449292000965
+TENSOR_DONE s19 mu22 seconds 50.2504630839976
+TENSOR_DONE s19 mu23 seconds 50.25629620900145
+TENSOR_DONE s19 mu33 seconds 50.266422583998065
+TENSOR_DONE s19 mu24 seconds 50.27668712499144
+TENSOR_DONE s19 mu34 seconds 50.29299000000174
+{"branch": "s19", "status": "PASS_EXACT_RR_BASES_AND_TENSORS_MOD23POWER10", "canonical_curve_exact": true, "smooth_reduction_mod23": true, "distinct_base_y_coordinates_and_unit_z_derivatives": true, "s4_other_precisions_consistent": null, "basis_input_sha256": "aec718b283ae9d41687a21dd60636948a7f242b822b97732c311aef2489005ff", "tensor_input_sha256": "aec718b283ae9d41687a21dd60636948a7f242b822b97732c311aef2489005ff", "bases": [{"degree": 2, "basis_size": 10, "rank_mod23": 10, "exact_pole_cancellation": true, "infinity_degree_bound": true, "all_coefficients_integral_at_branch": true}, {"degree": 3, "basis_size": 16, "rank_mod23": 16, "exact_pole_cancellation": true, "infinity_degree_bound": true, "all_coefficients_integral_at_branch": true}, {"degree": 4, "basis_size": 22, "rank_mod23": 22, "exact_pole_cancellation": true, "infinity_degree_bound": true, "all_coefficients_integral_at_branch": true}, {"degree": 5, "basis_size": 28, "rank_mod23": 28, "exact_pole_cancellation": true, "infinity_degree_bound": true, "all_coefficients_integral_at_branch": true}, {"degree": 6, "basis_size": 34, "rank_mod23": 34, "exact_pole_cancellation": true, "infinity_degree_bound": true, "all_coefficients_integral_at_branch": true}, {"degree": 7, "basis_size": 40, "rank_mod23": 40, "exact_pole_cancellation": true, "infinity_degree_bound": true, "all_coefficients_integral_at_branch": true}], "tensors": [{"family": "mu22", "products_checked": 100, "all_polynomial_identities_mod23power10": true}, {"family": "mu23", "products_checked": 160, "all_polynomial_identities_mod23power10": true}, {"family": "mu33", "products_checked": 256, "all_polynomial_identities_mod23power10": true}, {"family": "mu24", "products_checked": 220, "all_polynomial_identities_mod23power10": true}, {"family": "mu34", "products_checked": 352, "all_polynomial_identities_mod23power10": true}], "zero_class_W0_equals_V2_inside_V3": true, "wall_seconds": 50.33718470900203}

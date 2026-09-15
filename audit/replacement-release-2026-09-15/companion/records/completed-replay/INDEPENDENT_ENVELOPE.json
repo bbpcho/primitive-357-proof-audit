@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INDEPENDENT_REPLAY_ENVELOPE",
+  "input_manifest": {
+    "files": 2127,
+    "manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9"
+  },
+  "sectors": 13,
+  "prior_jobs": 65,
+  "rank_checks": 16,
+  "fresh_rank_upstream_bindings": 5,
+  "scope": "Exact input inventory, completed result joins, current logs, and producer bindings checked. Fresh execution/isolation comes from the separately recorded driver run; no new mathematical replay or Magma execution is claimed by this envelope checker."
+}

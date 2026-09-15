@@ -1,0 +1,27 @@
+[
+  {
+    "embedding": 237021,
+    "distinct_odd_theta_labels": 28,
+    "polar_rank": 6,
+    "even_theta_labels": 36,
+    "actual_syzygetic_tetrads_match_xor_zero": 315,
+    "intrinsically_compatible_even_theta_count": 8,
+    "triple_sum_triangles_per_candidate": 56,
+    "intrinsic_rule": "Even theta a whose four translated odd theta vectors in every E-block are pairwise symplectically orthogonal",
+    "Galois_stability_condition": "Galois action preserves actual odd theta characteristics and the seven E-blocks",
+    "input_sha256": "37355c1cd1b3de2c487f0720349be1396f2d01ad1394a5c68570f200e3c2642f"
+  },
+  {
+    "embedding": 496156,
+    "distinct_odd_theta_labels": 28,
+    "polar_rank": 6,
+    "even_theta_labels": 36,
+    "actual_syzygetic_tetrads_match_xor_zero": 315,
+    "intrinsically_compatible_even_theta_count": 8,
+    "triple_sum_triangles_per_candidate": 56,
+    "intrinsic_rule": "Even theta a whose four translated odd theta vectors in every E-block are pairwise symplectically orthogonal",
+    "Galois_stability_condition": "Galois action preserves actual odd theta characteristics and the seven E-blocks",
+    "input_sha256": "58bc62aeb033aa828a7fdee68560dfac383209b299552f907809864c3d1a7949"
+  }
+]
+INTRINSIC_THETA_AND_EIGHT_CANDIDATE_RECONSTRUCTION_PASS=1

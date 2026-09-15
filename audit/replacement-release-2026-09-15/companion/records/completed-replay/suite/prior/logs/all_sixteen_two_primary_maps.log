@@ -1,0 +1,139 @@
+p23_root4 KM_READY elapsed=1.162
+p23_root4 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.457
+p23_root4 BFS_COMPLETE_STATES=8 elapsed=3.676
+p23_root4 CURVE_POINT_IMAGES=20 elapsed=7.304
+p23_root4 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=8.188
+p23_root4 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=8.192
+p23_root19 KM_READY elapsed=0.842
+p23_root19 FOUR_GENERATORS_KILLED_BY_16 elapsed=1.839
+p23_root19 BFS_COMPLETE_STATES=8 elapsed=3.032
+p23_root19 CURVE_POINT_IMAGES=20 elapsed=6.934
+p23_root19 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=7.795
+p23_root19 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=7.796
+p43_root6 KM_READY elapsed=0.778
+p43_root6 FOUR_GENERATORS_KILLED_BY_16 elapsed=1.925
+p43_root6 BFS_COMPLETE_STATES=16 elapsed=5.362
+p43_root6 CURVE_POINT_IMAGES=20 elapsed=9.764
+p43_root6 CURVE_POINT_IMAGES=40 elapsed=14.121
+p43_root6 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=15.094
+p43_root6 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=15.096
+p43_root37 KM_READY elapsed=0.824
+p43_root37 FOUR_GENERATORS_KILLED_BY_16 elapsed=1.900
+p43_root37 BFS_COMPLETE_STATES=16 elapsed=5.344
+p43_root37 CURVE_POINT_IMAGES=20 elapsed=9.520
+p43_root37 CURVE_POINT_IMAGES=40 elapsed=13.740
+p43_root37 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=14.704
+p43_root37 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=14.705
+p67_root23 KM_READY elapsed=0.885
+p67_root23 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.109
+p67_root23 BFS_COMPLETE_STATES=16 elapsed=5.598
+p67_root23 CURVE_POINT_IMAGES=20 elapsed=10.414
+p67_root23 CURVE_POINT_IMAGES=40 elapsed=15.023
+p67_root23 CURVE_POINT_IMAGES=60 elapsed=19.566
+p67_root23 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=24.235
+p67_root23 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=24.236
+p67_root44 KM_READY elapsed=0.803
+p67_root44 FOUR_GENERATORS_KILLED_BY_16 elapsed=1.927
+p67_root44 BFS_COMPLETE_STATES=8 elapsed=3.135
+p67_root44 CURVE_POINT_IMAGES=20 elapsed=7.747
+p67_root44 CURVE_POINT_IMAGES=40 elapsed=12.102
+p67_root44 CURVE_POINT_IMAGES=60 elapsed=16.546
+p67_root44 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=21.164
+p67_root44 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=21.166
+p71_root8 KM_READY elapsed=0.953
+p71_root8 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.027
+p71_root8 BFS_COMPLETE_STATES=32 elapsed=12.020
+p71_root8 CURVE_POINT_IMAGES=20 elapsed=16.785
+p71_root8 CURVE_POINT_IMAGES=40 elapsed=22.012
+p71_root8 CURVE_POINT_IMAGES=60 elapsed=26.667
+p71_root8 CURVE_POINT_IMAGES=80 elapsed=31.372
+p71_root8 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=33.252
+p71_root8 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=33.253
+p71_root63 KM_READY elapsed=0.820
+p71_root63 FOUR_GENERATORS_KILLED_BY_16 elapsed=1.867
+p71_root63 BFS_COMPLETE_STATES=16 elapsed=5.086
+p71_root63 CURVE_POINT_IMAGES=20 elapsed=9.451
+p71_root63 CURVE_POINT_IMAGES=40 elapsed=13.883
+p71_root63 CURVE_POINT_IMAGES=60 elapsed=18.456
+p71_root63 CURVE_POINT_IMAGES=80 elapsed=22.918
+p71_root63 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=24.764
+p71_root63 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=24.765
+p79_root25 KM_READY elapsed=0.802
+p79_root25 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.188
+p79_root25 BFS_COMPLETE_STATES=2 elapsed=2.436
+p79_root25 CURVE_POINT_IMAGES=20 elapsed=7.138
+p79_root25 CURVE_POINT_IMAGES=40 elapsed=11.774
+p79_root25 CURVE_POINT_IMAGES=60 elapsed=16.489
+p79_root25 CURVE_POINT_IMAGES=80 elapsed=21.179
+p79_root25 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=23.754
+p79_root25 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=23.755
+p79_root54 KM_READY elapsed=0.834
+p79_root54 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.669
+p79_root54 BFS_COMPLETE_STATES=4 elapsed=3.477
+p79_root54 CURVE_POINT_IMAGES=20 elapsed=9.798
+p79_root54 CURVE_POINT_IMAGES=40 elapsed=15.655
+p79_root54 CURVE_POINT_IMAGES=60 elapsed=20.833
+p79_root54 CURVE_POINT_IMAGES=80 elapsed=25.656
+p79_root54 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=28.212
+p79_root54 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=28.213
+p107_root10 KM_READY elapsed=0.932
+p107_root10 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.081
+p107_root10 BFS_COMPLETE_STATES=4 elapsed=2.587
+p107_root10 CURVE_POINT_IMAGES=20 elapsed=6.846
+p107_root10 CURVE_POINT_IMAGES=40 elapsed=11.087
+p107_root10 CURVE_POINT_IMAGES=60 elapsed=15.414
+p107_root10 CURVE_POINT_IMAGES=80 elapsed=19.752
+p107_root10 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=24.120
+p107_root10 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=24.121
+p107_root97 KM_READY elapsed=0.929
+p107_root97 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.105
+p107_root97 BFS_COMPLETE_STATES=4 elapsed=2.605
+p107_root97 CURVE_POINT_IMAGES=20 elapsed=6.765
+p107_root97 CURVE_POINT_IMAGES=40 elapsed=10.959
+p107_root97 CURVE_POINT_IMAGES=60 elapsed=15.223
+p107_root97 CURVE_POINT_IMAGES=80 elapsed=19.575
+p107_root97 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=23.976
+p107_root97 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=23.977
+p109_root50 KM_READY elapsed=0.865
+p109_root50 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.023
+p109_root50 BFS_COMPLETE_STATES=32 elapsed=12.109
+p109_root50 CURVE_POINT_IMAGES=20 elapsed=17.531
+p109_root50 CURVE_POINT_IMAGES=40 elapsed=22.571
+p109_root50 CURVE_POINT_IMAGES=60 elapsed=27.563
+p109_root50 CURVE_POINT_IMAGES=80 elapsed=32.617
+p109_root50 CURVE_POINT_IMAGES=100 elapsed=37.689
+p109_root50 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=40.698
+p109_root50 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=40.700
+p109_root59 KM_READY elapsed=0.835
+p109_root59 FOUR_GENERATORS_KILLED_BY_16 elapsed=1.932
+p109_root59 BFS_COMPLETE_STATES=32 elapsed=12.015
+p109_root59 CURVE_POINT_IMAGES=20 elapsed=17.251
+p109_root59 CURVE_POINT_IMAGES=40 elapsed=22.092
+p109_root59 CURVE_POINT_IMAGES=60 elapsed=27.058
+p109_root59 CURVE_POINT_IMAGES=80 elapsed=32.491
+p109_root59 CURVE_POINT_IMAGES=100 elapsed=37.576
+p109_root59 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=40.504
+p109_root59 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=40.506
+p113_root28 KM_READY elapsed=0.847
+p113_root28 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.147
+p113_root28 BFS_COMPLETE_STATES=8 elapsed=3.459
+p113_root28 CURVE_POINT_IMAGES=20 elapsed=8.272
+p113_root28 CURVE_POINT_IMAGES=40 elapsed=13.147
+p113_root28 CURVE_POINT_IMAGES=60 elapsed=17.847
+p113_root28 CURVE_POINT_IMAGES=80 elapsed=22.688
+p113_root28 CURVE_POINT_IMAGES=100 elapsed=27.622
+p113_root28 CURVE_POINT_IMAGES=120 elapsed=32.413
+p113_root28 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=34.949
+p113_root28 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=34.952
+p113_root85 KM_READY elapsed=0.838
+p113_root85 FOUR_GENERATORS_KILLED_BY_16 elapsed=2.084
+p113_root85 BFS_COMPLETE_STATES=16 elapsed=5.669
+p113_root85 CURVE_POINT_IMAGES=20 elapsed=11.412
+p113_root85 CURVE_POINT_IMAGES=40 elapsed=16.601
+p113_root85 CURVE_POINT_IMAGES=60 elapsed=21.467
+p113_root85 CURVE_POINT_IMAGES=80 elapsed=26.676
+p113_root85 CURVE_POINT_IMAGES=100 elapsed=31.659
+p113_root85 CURVE_POINT_IMAGES=120 elapsed=36.768
+p113_root85 INDEPENDENT_COMPUTATION_SAVED_BEFORE_COMPARISON elapsed=39.306
+p113_root85 PASS_ALL_STATES_EDGES_POINTS literal_labels=True elapsed=39.310
+TWO_PRIMARY_INDEPENDENT_RECONSTRUCTION_COMPLETE [{"rational_prime": 23, "sqrt_minus_7": 4, "known_basis_image_subgroup_order": 8, "curve_point_count": 20, "table_labels_agree_literally": true, "total_wall_seconds": 8.191929874999914}, {"rational_prime": 23, "sqrt_minus_7": 19, "known_basis_image_subgroup_order": 8, "curve_point_count": 20, "table_labels_agree_literally": true, "total_wall_seconds": 7.796074583005975}, {"rational_prime": 43, "sqrt_minus_7": 6, "known_basis_image_subgroup_order": 16, "curve_point_count": 40, "table_labels_agree_literally": true, "total_wall_seconds": 15.095181708005839}, {"rational_prime": 43, "sqrt_minus_7": 37, "known_basis_image_subgroup_order": 16, "curve_point_count": 40, "table_labels_agree_literally": true, "total_wall_seconds": 14.704997500011814}, {"rational_prime": 67, "sqrt_minus_7": 23, "known_basis_image_subgroup_order": 16, "curve_point_count": 76, "table_labels_agree_literally": true, "total_wall_seconds": 24.23589720900054}, {"rational_prime": 67, "sqrt_minus_7": 44, "known_basis_image_subgroup_order": 8, "curve_point_count": 76, "table_labels_agree_literally": true, "total_wall_seconds": 21.16531616600696}, {"rational_prime": 71, "sqrt_minus_7": 8, "known_basis_image_subgroup_order": 32, "curve_point_count": 84, "table_labels_agree_literally": true, "total_wall_seconds": 33.252817917003995}, {"rational_prime": 71, "sqrt_minus_7": 63, "known_basis_image_subgroup_order": 16, "curve_point_count": 84, "table_labels_agree_literally": true, "total_wall_seconds": 24.764745374995982}, {"rational_prime": 79, "sqrt_minus_7": 25, "known_basis_image_subgroup_order": 2, "curve_point_count": 86, "table_labels_agree_literally": true, "total_wall_seconds": 23.75476733299729}, {"rational_prime": 79, "sqrt_minus_7": 54, "known_basis_image_subgroup_order": 4, "curve_point_count": 86, "table_labels_agree_literally": true, "total_wall_seconds": 28.212610749993473}, {"rational_prime": 107, "sqrt_minus_7": 10, "known_basis_image_subgroup_order": 4, "curve_point_count": 96, "table_labels_agree_literally": true, "total_wall_seconds": 24.120793292007875}, {"rational_prime": 107, "sqrt_minus_7": 97, "known_basis_image_subgroup_order": 4, "curve_point_count": 96, "table_labels_agree_literally": true, "total_wall_seconds": 23.976966916990932}, {"rational_prime": 109, "sqrt_minus_7": 50, "known_basis_image_subgroup_order": 32, "curve_point_count": 108, "table_labels_agree_literally": true, "total_wall_seconds": 40.69937220799329}, {"rational_prime": 109, "sqrt_minus_7": 59, "known_basis_image_subgroup_order": 32, "curve_point_count": 108, "table_labels_agree_literally": true, "total_wall_seconds": 40.505510624992894}, {"rational_prime": 113, "sqrt_minus_7": 28, "known_basis_image_subgroup_order": 8, "curve_point_count": 126, "table_labels_agree_literally": true, "total_wall_seconds": 34.9497334589978}, {"rational_prime": 113, "sqrt_minus_7": 85, "known_basis_image_subgroup_order": 16, "curve_point_count": 126, "table_labels_agree_literally": true, "total_wall_seconds": 39.3070609169954}]

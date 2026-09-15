@@ -1,0 +1,110 @@
+{
+  "status": "PASS_FRESH_TEN_SECTORS_AND_INTERFACES",
+  "records": [
+    {
+      "id": "v3_integrity_and_interfaces",
+      "exit_code": 0,
+      "seconds": 0.7282922910089837,
+      "log": "logs/v3_integrity_and_interfaces.log",
+      "sha256": "0adb1821c4066874683fd8ff12787ef46bb1712853ca57da4617c02ce60c6b87",
+      "marker": "PRIMITIVE_357_DEPENDENCY_CLOSED_RELEASE_V3=PASS"
+    },
+    {
+      "id": "signed-global-algebra",
+      "exit_code": 0,
+      "seconds": 0.2260046669980511,
+      "log": "logs/signed-global-algebra.log",
+      "sha256": "51c54b4eeac2a6b73a78d82f0949e3152172968056dd25241e66b7d11bbfa939",
+      "marker": "PASS_SIGNED_GLOBAL_ALGEBRA_SUPERSELECTION_AUDIT_V8"
+    },
+    {
+      "id": "rational-factor-sector",
+      "exit_code": 0,
+      "seconds": 0.6746060409932397,
+      "log": "logs/rational-factor-sector.log",
+      "sha256": "53ef4bd2d4067f94d5c60c5770054eb813c8e9e00c78fcd84a2716b25a7828bb",
+      "marker": "PASS_RATIONAL_FACTOR_PROPOSITION_6_1_CHECKPOINT_REPLAY_V2_PROJECTIVE_BOUNDARY_REPAIRED"
+    },
+    {
+      "id": "quadratic-factor-router",
+      "exit_code": 0,
+      "seconds": 0.040377625002292916,
+      "log": "logs/quadratic-factor-router.log",
+      "sha256": "1d9ff4bb1fb42e7e19d6b67597068311038f03031bf0a698ec4c33b18cf621c8",
+      "marker": "QUADRATIC_FACTOR_ROUTER_2_5=PASS_EXACT_DATABASE_FREE"
+    },
+    {
+      "id": "quadratic-factor-terminal",
+      "exit_code": 0,
+      "seconds": 0.039789957998436876,
+      "log": "logs/quadratic-factor-terminal.log",
+      "sha256": "8b0a11ee9474607a88eea49d07daec875d66ce6fb02608d8d8423f2c7428b483",
+      "marker": "VERIFY_STATUS=PASS_QUADRATIC_FACTOR_2_5_RECONSTRUCTION"
+    },
+    {
+      "id": "cubic-quartic-section7-sector",
+      "exit_code": 0,
+      "seconds": 799.9704905829858,
+      "log": "logs/cubic-quartic-section7-sector.log",
+      "sha256": "0051b888bb93ced83ae172ad0aa8310e8fbcdc317211382b0dad904f8ce7e662",
+      "marker": "SECTION7_PROPOSITION_7_1_CLOSURE_V2=PASS_ROUTER_LEMMAS_7_3_7_4_MODEL_INTRINSIC_7_5_AND_TERMINAL"
+    },
+    {
+      "id": "rational-parameter-sieve-and-lifts",
+      "exit_code": 0,
+      "seconds": 23.82591400000092,
+      "log": "logs/rational-parameter-sieve-and-lifts.log",
+      "sha256": "d74de997950cc8d0e3bf341fb99d9a2f51964540748885c0ce1de306f009682b",
+      "marker": "PASS_MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_EXACT_FIVE_BRANCH_POINTS"
+    },
+    {
+      "id": "irreducible-septic-sector",
+      "exit_code": 0,
+      "seconds": 63.01479250000557,
+      "log": "logs/irreducible-septic-sector.log",
+      "sha256": "0319a2f2afc56eaf12ebe3fbcd2a9fb486456851e7501a0045ed32f793b642f0",
+      "marker": "IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE=PASS_EXACT_PUTZ_SEVEN_FIELDS_PURE_RATIONAL_PARAMETER_AND_EXCEPTIONAL_Q29"
+    },
+    {
+      "id": "hilbert-hecke-filter-coverage",
+      "exit_code": 0,
+      "seconds": 0.1502829999953974,
+      "log": "logs/hilbert-hecke-filter-coverage.log",
+      "sha256": "022c17a429c9cd88a4010e01d2dc810d5c359b57cc4a8ec962f46c44337c81aa",
+      "marker": "PASS_HILBERT_HECKE_FILTER_AUDIT_WITH_REQUIRED_ELL131_CONSERVATIVE_REPAIR"
+    },
+    {
+      "id": "hilbert-hecke-ambient-coverage",
+      "exit_code": 0,
+      "seconds": 45.2203566669923,
+      "log": "logs/hilbert-hecke-ambient-coverage.log",
+      "sha256": "73b01870cd6b96cd04dd6d6179f8923b62b80e3354591ad527b14f6f13fe91dc",
+      "marker": "PASS_HILBERT_HECKE_CONSERVATIVE_FILTERED_AMBIENT_COVERAGE_NO_NEWSPACE_SUBTRACTION"
+    },
+    {
+      "id": "putz-pvt-interface",
+      "exit_code": 0,
+      "seconds": 0.14628470900061075,
+      "log": "logs/putz-pvt-interface.log",
+      "sha256": "cc0be9084a1a7b461e3cb51fe0286e54f4e11c96dcb598d5b6f06f2686ca996e",
+      "marker": "PACKAGE_REPLAY=PASS_PVT_PUTZ_INTERFACE_AUDIT_V2"
+    },
+    {
+      "id": "independent_hecke_input_foundations",
+      "exit_code": 0,
+      "seconds": 2.0828504170058295,
+      "log": "logs/independent_hecke_input_foundations.log",
+      "sha256": "058ef79e412568962adc475a4dce5d888da205f60f60987cd53b5a2dfa501b67",
+      "marker": "PASS_FRESH_HECKE_FOUNDATIONS"
+    },
+    {
+      "id": "independent_fano_resolvent_foundation",
+      "exit_code": 0,
+      "seconds": 3.621712958003627,
+      "log": "logs/independent_fano_resolvent_foundation.log",
+      "sha256": "be7314f90f8de78ddc1e29b3bef9e4bd38efa8297fcaeda90192291e4c624e1f",
+      "marker": "status: PASS"
+    }
+  ],
+  "scope": "Fresh sector/interface/certificate replay including conservative ambient Hecke reconstruction. Published theorem premises and historical Magma rank/torsion certificates retain their stated provenance; no fresh Magma run is claimed."
+}

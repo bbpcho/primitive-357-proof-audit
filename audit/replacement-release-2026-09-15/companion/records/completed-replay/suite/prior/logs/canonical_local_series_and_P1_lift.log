@@ -1,0 +1,96 @@
+{
+  "annihilator_is_supplied_input": true,
+  "all_fifteen_log_minors": [
+    3,
+    11,
+    5,
+    16,
+    6,
+    3,
+    22,
+    19,
+    10,
+    19,
+    11,
+    14,
+    10,
+    22,
+    10
+  ],
+  "canonical_tangent_gate_determinants": {
+    "P1": 0,
+    "P2": 12,
+    "P3": 16,
+    "P4": 4,
+    "P5": 19
+  },
+  "quartic_local_series_derived_independently": true,
+  "normalized_linear": [
+    2,
+    4
+  ],
+  "normalized_second_linear": [
+    21,
+    6
+  ],
+  "normalized_second_quadratic": [
+    14,
+    21
+  ],
+  "all_normalized_roots_mod23": [
+    [
+      0,
+      0,
+      20
+    ],
+    [
+      14,
+      16,
+      3
+    ]
+  ],
+  "all_seven_digit_lifts_match": true,
+  "digit_lifts": [
+    {
+      "digits": 1,
+      "u": 14,
+      "v": 16
+    },
+    {
+      "digits": 2,
+      "u": 313,
+      "v": 292
+    },
+    {
+      "digits": 3,
+      "u": 3487,
+      "v": 1350
+    },
+    {
+      "digits": 4,
+      "u": 64322,
+      "v": 123020
+    },
+    {
+      "digits": 5,
+      "u": 64322,
+      "v": 3760953
+    },
+    {
+      "digits": 6,
+      "u": 77300438,
+      "v": 68124383
+    },
+    {
+      "digits": 7,
+      "u": 2889982329,
+      "v": 1104375606
+    }
+  ],
+  "local_logs_match_mod23power7": true,
+  "series_precision": 12,
+  "coefficient_modulus_exponent": 9,
+  "normalized_equation_precision": 7,
+  "rigorous_tail_bound": "differentials have integral coefficients by F_z unit; omitted integrals have exponent k>=12 and valuation k-v_23(k)>=12, hence remain zero modulo23^7 after both divisions by23.",
+  "limitation": "Does not reconstruct global abelian log matrix or prove supplied annihilator annihilates Mordell-Weil group."
+}

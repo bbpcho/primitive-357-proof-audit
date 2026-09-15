@@ -1,0 +1,5 @@
+  *** bnfisprincipal: Warning: increasing stack size to 800000000.
+  *** bnfisprincipal: Warning: increasing stack size to 1600000000.
+ALL_38_S_PRIMES_PRINCIPAL_WITH_IDENTITY_PIVOTS=1
+ALL_12_EXACT_SQUARE_WITNESSES=1
+STATUS=GO_STRICT_CORRECTED_QUOTIENT_EXACT_SQUARE_AND_S_PRINCIPAL_AUDIT_V1

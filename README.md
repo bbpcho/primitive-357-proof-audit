@@ -1,3 +1,5 @@
+> **Replacement preparation, 15 September 2026:** the current `paper/manuscript.pdf` and `release/PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip` have been rebuilt around the newly sealed companion. The complete declared isolated replay and separate adapted-reader checks passed. GitHub publication and public-download/withdrawal checks are still pending in this tag snapshot; the availability statements below describe the earlier state. See [the preparation record](audit/replacement-release-2026-09-15/README.md) and the [main-branch audit](https://github.com/bbpcho/primitive-357-proof-audit/tree/main/audit/replacement-release-2026-09-15) for later observations. No arXiv submission has been made.
+
 # The Primitive Generalized Fermat Equation x³+y⁵=z⁷
 
 **A computer-assisted proof — Peter Chocian, Independent researcher**

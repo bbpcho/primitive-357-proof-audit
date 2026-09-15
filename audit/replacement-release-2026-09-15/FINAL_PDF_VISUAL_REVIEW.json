@@ -1,0 +1,404 @@
+{
+  "schema": "primitive357_final_pdf_visual_review_v1",
+  "status": "PASS_VISUAL_REVIEW",
+  "checked_utc": "2026-09-15T16:02:02.375830+00:00",
+  "pdf": {
+    "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/output/pdf/primitive_357_peter_chocian_submission_2026_09_15_v2.pdf",
+    "bytes": 541652,
+    "sha256": "37e8235daf69b6bcd7e29511467b95b048c1ba9ce855bdc881f688da09f7a407",
+    "pages": 40
+  },
+  "source_bundle": {
+    "filename": "PRIMITIVE_357_ARXIV_SOURCE_2026-09-15_V2.zip",
+    "bytes": 41982,
+    "sha256": "f320bcea1ba1c0df28ca03253953d97b3d69fe0a090574b73261a6640e7c2548"
+  },
+  "companion": {
+    "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+    "bytes": 320731221,
+    "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+    "release_tag": "replay-companion-2026-09-15.2"
+  },
+  "render_record": {
+    "path": "final_visual_review/RENDER_RECORD.json",
+    "sha256": "c043885330937132bfe982b4b26e347ddcd2286d2619ba6c3e3465d0bd69b23a"
+  },
+  "coverage": {
+    "all_pages_rendered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "all_pages_contact_sheet_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "full_resolution_200dpi_inspected": [
+      1,
+      18,
+      19,
+      20
+    ],
+    "additional_144dpi_pages_inspected": [
+      21,
+      23,
+      26,
+      29,
+      32,
+      40
+    ],
+    "additional_detail": "final_visual_review/page-32-detail.png"
+  },
+  "checks": {
+    "title_author_date_legible": true,
+    "pdf_metadata_title_author_subject_keywords_present": true,
+    "printed_companion_name_size_sha256_tag_match_sealed_identity": true,
+    "changed_pages_no_overlap_or_clipping": true,
+    "contact_sheets_no_layout_defect_detected": true,
+    "long_tables_and_continuation_headers_no_truncation_detected": true,
+    "references_legible_and_within_margins": true,
+    "no_unfilled_identity_placeholders": true,
+    "final_latex_pass_no_undefined_references_or_overfull_boxes": true,
+    "original_pdf_and_source_unchanged": true
+  },
+  "metadata": {
+    "/Producer": "pdfTeX-1.40.29",
+    "/Author": "Peter Chocian",
+    "/Title": "The Primitive Generalized Fermat Equation of signature 3,5,7: A computer-assisted proof",
+    "/Subject": "A computer-assisted proof",
+    "/Creator": "LaTeX with hyperref",
+    "/Keywords": "generalized Fermat equation, rational points, descent, Jacobians, computer-assisted proof",
+    "/CreationDate": "D:20260915000000Z",
+    "/ModDate": "D:20260915000000Z",
+    "/Trapped": "/False",
+    "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) kpathsea version 6.4.2"
+  },
+  "final_pass_logs": [
+    {
+      "path": "FINAL_PAPER_BUILD.log",
+      "sha256": "3bfea32d9f99d748a030dc13fc961dff4dd8e5b8a3f94ba6ee075ab14ea1e706",
+      "last_pass_undefined_references": false,
+      "last_pass_overfull_boxes": false
+    },
+    {
+      "path": "FINAL_SOURCE_REBUILD.log",
+      "sha256": "3bfea32d9f99d748a030dc13fc961dff4dd8e5b8a3f94ba6ee075ab14ea1e706",
+      "last_pass_undefined_references": false,
+      "last_pass_overfull_boxes": false
+    }
+  ],
+  "images": [
+    {
+      "path": "final_visual_review/contact-1.png",
+      "bytes": 1376133,
+      "sha256": "56195742a70348d628b0d7c9e6022af8fe6f0e14c368e5cfff5d5ad3a4cff344"
+    },
+    {
+      "path": "final_visual_review/contact-2.png",
+      "bytes": 715709,
+      "sha256": "2f9b80df87316ead5729a3a0e4737ecf6958160bec52602d1c3c981d386966bb"
+    },
+    {
+      "path": "final_visual_review/full-page-01.png",
+      "bytes": 378273,
+      "sha256": "b7e5ed4b7101d5a201d8d06a52d8751f6e9148d10a352f54a4dacea4deea0058"
+    },
+    {
+      "path": "final_visual_review/full-page-18.png",
+      "bytes": 629655,
+      "sha256": "b066da821ab6200685f5112700fac6c67cae649074aba3f0f0b22e03946cc502"
+    },
+    {
+      "path": "final_visual_review/full-page-19.png",
+      "bytes": 501870,
+      "sha256": "7d4cecdc884b00611e6661c4d68b334c94eea8f9fff8e28b55cf94c668aad916"
+    },
+    {
+      "path": "final_visual_review/full-page-20.png",
+      "bytes": 489351,
+      "sha256": "073282916623e3c79312bae2e6ea2db106b0828f1fe0d0de6d1d3c0a0d4cdc89"
+    },
+    {
+      "path": "final_visual_review/page-01.png",
+      "bytes": 254880,
+      "sha256": "ae4212909e7a3ac676a2fd8944b55e56e3e7f816e227debbb318791df767eb05"
+    },
+    {
+      "path": "final_visual_review/page-02.png",
+      "bytes": 249506,
+      "sha256": "d49a6fe11491252b378e35b5d0b5d20eab9e59023b9ed3f5d966438d74f69ca1"
+    },
+    {
+      "path": "final_visual_review/page-03.png",
+      "bytes": 356147,
+      "sha256": "178c6ac5740c4383ce391380e82240db045fb6e76c41657ba9478051c9f1fa5e"
+    },
+    {
+      "path": "final_visual_review/page-04.png",
+      "bytes": 302697,
+      "sha256": "c20c99a3fd8bfbe14dfb6fcbdba8106bf4c2827ef6040a9c5b42c1a8aa359213"
+    },
+    {
+      "path": "final_visual_review/page-05.png",
+      "bytes": 331669,
+      "sha256": "ca750520f3d43bca39110f57be6663aa25671be6f73e758f8ed7ed0e44289266"
+    },
+    {
+      "path": "final_visual_review/page-06.png",
+      "bytes": 244874,
+      "sha256": "0c5e156abf05a39e470727b9aeb5bdf24d8ea9fa50df6308117b75ec8d52c09c"
+    },
+    {
+      "path": "final_visual_review/page-07.png",
+      "bytes": 286275,
+      "sha256": "3739051ab27cd1748d9f01bf664a1b0e4bb36348238f294828841e25770873ce"
+    },
+    {
+      "path": "final_visual_review/page-08.png",
+      "bytes": 224426,
+      "sha256": "3d1c6a7577bf1d0d763fe3e97993902f1b9c422b4d0510ece38d4ca8e58b717e"
+    },
+    {
+      "path": "final_visual_review/page-09.png",
+      "bytes": 336105,
+      "sha256": "2af33fa189f2a0d18988035e35083b2dc4ca3814e38f6273b47f030b509f9ddd"
+    },
+    {
+      "path": "final_visual_review/page-10.png",
+      "bytes": 262825,
+      "sha256": "34f778830ee57e6fdbd823b915a7a4c8266cfb914bcd80928080cb807f27be6c"
+    },
+    {
+      "path": "final_visual_review/page-11.png",
+      "bytes": 321950,
+      "sha256": "191475c38db6bccdfc524e935977ca088d4dcc83cc662d6763d2a0fd076fcc89"
+    },
+    {
+      "path": "final_visual_review/page-12.png",
+      "bytes": 329041,
+      "sha256": "68cf56feff02e2bc7ff92bd66e46d497201e07b035e1764a879cb790dcbe5505"
+    },
+    {
+      "path": "final_visual_review/page-13.png",
+      "bytes": 331184,
+      "sha256": "b6c155167f871dc78c393febf69282a71dd22a7f360a01163c2f383796d3492f"
+    },
+    {
+      "path": "final_visual_review/page-14.png",
+      "bytes": 329056,
+      "sha256": "2bee14b2d9083fcd585b925c2254e0a55afceacc766221ac590e21202ec4436b"
+    },
+    {
+      "path": "final_visual_review/page-15.png",
+      "bytes": 406600,
+      "sha256": "5f542833be11ae27bc7b27ed0a7eac387972dd4667dd2ddb3b7b0ae6d957d0db"
+    },
+    {
+      "path": "final_visual_review/page-16.png",
+      "bytes": 379475,
+      "sha256": "f9d35c7acc707e4cd06860e37f42e31884edd47eaee968b4af8b01dc9442be88"
+    },
+    {
+      "path": "final_visual_review/page-17.png",
+      "bytes": 352292,
+      "sha256": "3ee581bdae9d820f837715d6d86d5244c1f23b97c9453c86a2ee2b3234c87ae5"
+    },
+    {
+      "path": "final_visual_review/page-18.png",
+      "bytes": 438568,
+      "sha256": "f2102e2bbf071ce63c5820e577b79ac781d56060a592b4bde69fa70784011a04"
+    },
+    {
+      "path": "final_visual_review/page-19.png",
+      "bytes": 344235,
+      "sha256": "5332ee8852e92c9f89eb73cf28e43696c2304773868af8b778c4fb9bd7fc0b52"
+    },
+    {
+      "path": "final_visual_review/page-20.png",
+      "bytes": 336677,
+      "sha256": "0ac97cb924225d8d50d6804968196b303b2341e546fb006696fed9b2666b3996"
+    },
+    {
+      "path": "final_visual_review/page-21.png",
+      "bytes": 134893,
+      "sha256": "16d0fbaf1bf20401a4c20b0bed090d814e489ef088d886ef079695b8a4e06ead"
+    },
+    {
+      "path": "final_visual_review/page-22.png",
+      "bytes": 123224,
+      "sha256": "f585210845c6d063e01ad2740a2111ed6ba7e48d173c9e059cb50460c025e373"
+    },
+    {
+      "path": "final_visual_review/page-23.png",
+      "bytes": 137947,
+      "sha256": "497907f2fe712d5a29f5506b01a9f10b8107f27bbe695797ff1880be37a8e14c"
+    },
+    {
+      "path": "final_visual_review/page-24.png",
+      "bytes": 120838,
+      "sha256": "bfc2b465351ca200ac8237543ed7ea8c87f619cc7695de992787a31112fc3dc4"
+    },
+    {
+      "path": "final_visual_review/page-25.png",
+      "bytes": 122823,
+      "sha256": "e5ec5f68fb7d292b1aaa362528eef59794e0007bb90458839b1d0fd7dff21fec"
+    },
+    {
+      "path": "final_visual_review/page-26.png",
+      "bytes": 96387,
+      "sha256": "d9664405924e976f5abbfd7103389009e0ce2a5abd1e5e190ebba3f185f82c95"
+    },
+    {
+      "path": "final_visual_review/page-27.png",
+      "bytes": 95793,
+      "sha256": "1653c88aafc974f7fbe339ebc7a6ac7d2b1e486a763570b16037ebe118232ac0"
+    },
+    {
+      "path": "final_visual_review/page-28.png",
+      "bytes": 118328,
+      "sha256": "565311343e2e44d2cfbfc2f9147f0821661324b3d7f5bb589c4cd2eab9f81491"
+    },
+    {
+      "path": "final_visual_review/page-29.png",
+      "bytes": 119299,
+      "sha256": "417c097a7824ef5daa66c0b8b722eb976249c0eb7a077e6b96e4df426716bec6"
+    },
+    {
+      "path": "final_visual_review/page-30.png",
+      "bytes": 119529,
+      "sha256": "b8fc9959298b10853d605c04abdf8f70e941cd52bcaa01cb79f383a2bd744e18"
+    },
+    {
+      "path": "final_visual_review/page-31.png",
+      "bytes": 92067,
+      "sha256": "f1ea2cab6a6321ef2df6a5fd3ca44465c66c0f293c065bbf213f73ba467e121c"
+    },
+    {
+      "path": "final_visual_review/page-32-detail.png",
+      "bytes": 32832,
+      "sha256": "baff49d8e7d7f9b6083c1002b3a75f8b2958f6e64cf857374928e8c516b676c4"
+    },
+    {
+      "path": "final_visual_review/page-32.png",
+      "bytes": 34216,
+      "sha256": "d18ed3774ce4bfe6abea3e884709715c8bf0b84600ed42323b4aaeb83fc06812"
+    },
+    {
+      "path": "final_visual_review/page-33.png",
+      "bytes": 266268,
+      "sha256": "66ec51f7e4806960ebf0e8a07c5f773540ad02f30a182bec5616ef1864d597b1"
+    },
+    {
+      "path": "final_visual_review/page-34.png",
+      "bytes": 294633,
+      "sha256": "095dba42895ae3cb28b89d5c693970802e77524049d95d61e1e4fb18aa3fa00e"
+    },
+    {
+      "path": "final_visual_review/page-35.png",
+      "bytes": 359139,
+      "sha256": "22768baedb38b309faea2a5ac6671afaa3ea29a068dbc29465810eaa062b8204"
+    },
+    {
+      "path": "final_visual_review/page-36.png",
+      "bytes": 335859,
+      "sha256": "cc9821ab2ce9644f7962e0feaeb6662505798960d916e8016c3f4ec213278f5e"
+    },
+    {
+      "path": "final_visual_review/page-37.png",
+      "bytes": 365035,
+      "sha256": "b3973464a3905cf0fd27a1e3947556cd3f8de240d9e94607924e8a58c188b6d6"
+    },
+    {
+      "path": "final_visual_review/page-38.png",
+      "bytes": 411436,
+      "sha256": "628840807fe6c629fc6309c53243c51b0bd12c50c845dd42ed97184ef8359b2e"
+    },
+    {
+      "path": "final_visual_review/page-39.png",
+      "bytes": 380941,
+      "sha256": "6d63f7588bc5167938860a3d8464238a368135c88b6851e701e6eb553d09b187"
+    },
+    {
+      "path": "final_visual_review/page-40.png",
+      "bytes": 329451,
+      "sha256": "eb836f522593d46a08bab8e88ce8d370a4a6b1ad72e35792800474f80a1127e5"
+    }
+  ],
+  "limitations": "Visual/layout and document-identity review only. It is not a new arithmetic execution, complete digit-by-digit transcription audit, formal proof verification or independent human peer review.",
+  "arxiv_submitted": false
+}

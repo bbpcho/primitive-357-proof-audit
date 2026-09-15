@@ -1,0 +1,38 @@
+{
+  "branch": "s19",
+  "mode": "candidate",
+  "command": [
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+    "-B",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/extracted/2026-09-13_primitive_357_dependency_closed_release_v3/scripts/portable_python.py",
+    "-B",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/sage_replay/repository/.audit_candidates/compute_p23_s19_full_log_matrix_v1_import_repair.sage"
+  ],
+  "exit": 0,
+  "wall_seconds": 144.35799283300003,
+  "source_sha256": "05cb84db0589fe2ccc6737ec78acbd1421c75f724fb769fff3aa9f04e6509cba",
+  "success_marker": "P23_S19_FULL_LOG_STATUS=PASS_ALL_FOUR_S19_BRANCHWISE_LOG_COLUMNS_AT_23_POWER_8_AND_10",
+  "three_old_columns_and_non_D4_JSON_exact": true,
+  "D4_recomputed_and_compared_by_source": true,
+  "all_12_matrix_entries_equal_sealed_mod23power9": true,
+  "matrix_mod23power9": [
+    [
+      171622370867,
+      212975249160,
+      1632205321744,
+      1613576539500
+    ],
+    [
+      986961570668,
+      610401614883,
+      1055045473134,
+      1506243671221
+    ],
+    [
+      576796697783,
+      798459909980,
+      761350871271,
+      1540643079993
+    ]
+  ]
+}

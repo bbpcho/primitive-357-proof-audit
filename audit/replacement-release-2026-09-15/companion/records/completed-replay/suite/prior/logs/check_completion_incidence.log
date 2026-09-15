@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "trace_sha256": "292b168d18db5d29ee1cc1492d1ba3af3f8ed420bed7d42473ed0414802fe587",
+  "checks": [
+    {
+      "embedding": 237021,
+      "actual_quartic_fibres_checked": 56,
+      "nodes_distinct": true,
+      "all_denominators_invertible": true
+    },
+    {
+      "embedding": 496156,
+      "actual_quartic_fibres_checked": 56,
+      "nodes_distinct": true,
+      "all_denominators_invertible": true
+    }
+  ],
+  "scope": "Exact reduction/fibre identification; characteristic-zero polynomial divisibility checked by separate tau-norm worker."
+}
+ALL_112_COMPLETION_INCIDENCE_FIBRES_PASS=1

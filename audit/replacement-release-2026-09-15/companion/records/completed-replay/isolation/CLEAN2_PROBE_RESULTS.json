@@ -1,0 +1,249 @@
+{
+  "status": "PASS_OFFLINE_ISOLATION_PROBES",
+  "checks": [
+    {
+      "id": "allowed_distribution_read",
+      "passed": true
+    },
+    {
+      "id": "allowed_logical_read",
+      "passed": true
+    },
+    {
+      "id": "allowed_private_read",
+      "passed": true
+    },
+    {
+      "id": "fresh_write_and_read",
+      "passed": true
+    },
+    {
+      "id": "denied_read_4",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/.zshrc",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_5",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/replay_design/isolation/unallowed_home_canary.txt",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_6",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/staging/PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1/RELEASE_MANIFEST.json",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_7",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/verified_release_2026_09_14/final_replay2/REPLAY_RESULT.json",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_8",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/round9_review_2026_09_15/supplied_scripts/dessins.py",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_9",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean1/logical/RELEASE_MANIFEST.json",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_10",
+      "passed": true,
+      "detail": {
+        "path": "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean1/replay/REPLAY_INVOCATION.json",
+        "errno": 1
+      }
+    },
+    {
+      "id": "denied_read_11",
+      "passed": true,
+      "detail": {
+        "path": "/System/Volumes/Data/Users/pcho/.zshrc",
+        "errno": 1
+      }
+    },
+    {
+      "id": "immutable_logical_write_denied",
+      "passed": true,
+      "detail": {
+        "errno": 1
+      }
+    },
+    {
+      "id": "network_tcp_connect_denied",
+      "passed": true,
+      "detail": {
+        "errno": 1
+      }
+    },
+    {
+      "id": "network_udp_send_denied",
+      "passed": true,
+      "detail": {
+        "errno": 1
+      }
+    },
+    {
+      "id": "ordinary_python_packages",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+          "-B",
+          "-c",
+          "import sympy,mpmath,flint; assert sympy.Matrix([[1,2],[3,4]]).det()==-2; print(\"PYTHON_PACKAGES_OK\",sympy.__version__,mpmath.__version__,flint.__version__)"
+        ],
+        "exit_code": 0,
+        "output": "PYTHON_PACKAGES_OK 1.14.0 1.3.0 0.9.0\n"
+      }
+    },
+    {
+      "id": "sage_matrix",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+          "-B",
+          "-c",
+          "from sage.all import GF, matrix; from sage.env import SAGE_VERSION; assert matrix(GF(7),[[1,2],[3,4]]).rank()==2; print(\"SAGE_OK\",SAGE_VERSION)"
+        ],
+        "exit_code": 0,
+        "output": "SAGE_OK 10.9\n"
+      }
+    },
+    {
+      "id": "pari_gp",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+          "-q",
+          "-f",
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/probe.gp"
+        ],
+        "exit_code": 0,
+        "output": "GP_OK\n"
+      }
+    },
+    {
+      "id": "actual_path_compiler_selected",
+      "passed": true,
+      "detail": {
+        "cc": "/Library/Developer/CommandLineTools/usr/bin/cc",
+        "SDKROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+      }
+    },
+    {
+      "id": "native_flint_compile",
+      "passed": true,
+      "detail": {
+        "exit_code": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "native_flint_execute_and_old_input_denied",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/flint_probe",
+          "/Users/pcho/.zshrc"
+        ],
+        "exit_code": 0,
+        "output": "FLINT_OK\nNATIVE_OLD_INPUT_DENIED\n"
+      }
+    },
+    {
+      "id": "native_data_volume_alias_denied",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/flint_probe",
+          "/System/Volumes/Data/Users/pcho/.zshrc"
+        ],
+        "exit_code": 0,
+        "output": "FLINT_OK\nNATIVE_OLD_INPUT_DENIED\n"
+      }
+    },
+    {
+      "id": "exact_counter_source_hash",
+      "passed": true
+    },
+    {
+      "id": "exact_counter_compile",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/Library/Developer/CommandLineTools/usr/bin/cc",
+          "-O2",
+          "-std=c99",
+          "-Wall",
+          "-Wextra",
+          "-pedantic",
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/audit/work/hecke_foundations/scripts/independent_ordinary_counts.c",
+          "-o",
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/exact_ordinary_counter"
+        ],
+        "exit_code": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "exact_counter_execute",
+      "passed": true,
+      "detail": {
+        "exit_code": 0,
+        "sha256": "d40f8de256edc1fe77e2a49d14781111bcce10c880103059625cba11b721d193",
+        "bytes": 19915
+      }
+    },
+    {
+      "id": "native_sha256sum",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/sbin/sha256sum",
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/fresh-write.txt"
+        ],
+        "exit_code": 0,
+        "output": "e26e1e73b334b2bb9f363cfc276a5e2a3554edf75efded008bca8cff0bdb43b9  /Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/fresh-write.txt\n"
+      }
+    },
+    {
+      "id": "pdf_text_extractor",
+      "passed": true,
+      "detail": {
+        "command": [
+          "/opt/homebrew/Cellar/poppler/26.04.0/bin/pdftotext",
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/replay_design/isolation_clean2/probes/tiny.pdf",
+          "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/runtime-tmp/preflight/tiny.txt"
+        ],
+        "exit_code": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "pdf_actual_text",
+      "passed": true
+    }
+  ]
+}

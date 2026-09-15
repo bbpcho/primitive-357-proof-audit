@@ -1,0 +1,21 @@
+[
+  {
+    "embedding": 237021,
+    "actual_bitangent_contact_squares": 28,
+    "rank_distribution": {
+      "6": 20160,
+      "5": 315
+    },
+    "all315_archived_masks_match_actual_conics": true
+  },
+  {
+    "embedding": 496156,
+    "actual_bitangent_contact_squares": 28,
+    "rank_distribution": {
+      "6": 20160,
+      "5": 315
+    },
+    "all315_archived_masks_match_actual_conics": true
+  }
+]
+ALL_40950_TETRAD_GEOMETRY_CHECKS_PASS=1

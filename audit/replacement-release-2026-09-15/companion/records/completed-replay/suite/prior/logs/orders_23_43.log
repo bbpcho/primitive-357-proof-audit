@@ -1,0 +1,9 @@
+ORDER_START 23 4
+{"status": "PASS_EXACT_L_POLYNOMIAL_ORDER", "rational_prime": 23, "sqrt_minus_7": 4, "canonical_sha256": "1252327a057029dd0ff0f6347f848be88794842afa742503a6c179f683087739", "L_polynomial_coefficients_ascending": [1, -4, 4, 56, 92, -2116, 12167], "jacobian_order": 10200, "declared_order_matches": true, "wall_seconds": 8.534693499997957}
+ORDER_START 23 19
+{"status": "PASS_EXACT_L_POLYNOMIAL_ORDER", "rational_prime": 23, "sqrt_minus_7": 19, "canonical_sha256": "1252327a057029dd0ff0f6347f848be88794842afa742503a6c179f683087739", "L_polynomial_coefficients_ascending": [1, -4, 4, 56, 92, -2116, 12167], "jacobian_order": 10200, "declared_order_matches": true, "wall_seconds": 11.873553375000483}
+ORDER_START 43 6
+{"status": "PASS_EXACT_L_POLYNOMIAL_ORDER", "rational_prime": 43, "sqrt_minus_7": 6, "canonical_sha256": "1252327a057029dd0ff0f6347f848be88794842afa742503a6c179f683087739", "L_polynomial_coefficients_ascending": [1, -4, 20, 212, 860, -7396, 79507], "jacobian_order": 73200, "declared_order_matches": true, "wall_seconds": 60.94205591599166}
+ORDER_START 43 37
+{"status": "PASS_EXACT_L_POLYNOMIAL_ORDER", "rational_prime": 43, "sqrt_minus_7": 37, "canonical_sha256": "1252327a057029dd0ff0f6347f848be88794842afa742503a6c179f683087739", "L_polynomial_coefficients_ascending": [1, -4, 20, 212, 860, -7396, 79507], "jacobian_order": 73200, "declared_order_matches": true, "wall_seconds": 56.38136245899659}
+ALL_REQUESTED_JACOBIAN_ORDERS=PASS

@@ -159,6 +159,13 @@ def main():
     assets = asset_index(ROOT)
     phase = verify_status(assets)
     verify_tracked_manifest()
+    from verify_current_distribution import verify_current_distribution
+    from verify_current_publication import verify_current_publication
+    status = read_json(regular_file(ROOT, "audit/status.json"))
+    distribution = verify_current_distribution(ROOT, status)
+    publication = verify_current_publication(ROOT, status)
+    print("CURRENT_DISTRIBUTION_VERIFICATION=" + distribution["status"])
+    print("CURRENT_PUBLICATION_VERIFICATION=" + publication["status"])
     print("REPOSITORY_VERIFICATION=PASS_CONTROL_SNAPSHOT_" + phase.upper())
 
 

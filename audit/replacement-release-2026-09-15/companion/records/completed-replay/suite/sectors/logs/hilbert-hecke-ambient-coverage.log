@@ -1,0 +1,348 @@
+===== BEGIN CONSERVATIVE FILTERED AMBIENT LEVEL 22 =====
+all 190 pairwise integer Hecke commutativity checks: PASS (0.010 seconds)
+after ell=11 (degree 33): full intersection=33; cuspidal upper bound=32; 0.000 seconds
+after ell=13 (degree 7): full intersection=33; cuspidal upper bound=32; 0.000 seconds
+after ell=17 (degree 7): full intersection=33; cuspidal upper bound=32; 0.000 seconds
+after ell=19 (degree 34): full intersection=24; cuspidal upper bound=23; 0.000 seconds
+after ell=29 (degree 35): full intersection=17; cuspidal upper bound=16; 0.000 seconds
+after ell=31 (degree 42): full intersection=13; cuspidal upper bound=12; 0.000 seconds
+after ell=41 (degree 38): full intersection=13; cuspidal upper bound=12; 0.000 seconds
+after ell=59 (degree 37): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=61 (degree 39): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=71 (degree 43): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=79 (degree 44): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=89 (degree 47): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=101 (degree 48): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=109 (degree 48): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=131 (degree 49): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=139 (degree 49): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=149 (degree 49): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+after ell=151 (degree 49): full intersection=9; cuspidal upper bound=8; 0.000 seconds
+exact mass-kernel cusp dimension: 8
+T_11 characteristic factor degrees: 2^1 2^1 1^4
+T_13 characteristic factor degrees: 1^1 1^3 1^4
+T_17 characteristic factor degrees: 1^8
+T_19 characteristic factor degrees: 1^1 1^3 1^4
+T_29 characteristic factor degrees: 1^8
+T_31 characteristic factor degrees: 2^2 1^4
+T_41 characteristic factor degrees: 2^1 2^1 1^4
+T_59 characteristic factor degrees: 1^8
+T_61 characteristic factor degrees: 2^2 1^4
+T_71 characteristic factor degrees: 2^1 2^1 1^4
+T_79 characteristic factor degrees: 1^1 1^3 1^4
+T_89 characteristic factor degrees: 1^8
+T_101 characteristic factor degrees: 2^1 2^1 1^4
+T_109 characteristic factor degrees: 1^8
+T_131 characteristic factor degrees: 2^1 2^1 1^4
+T_139 characteristic factor degrees: 1^1 1^3 1^4
+T_149 characteristic factor degrees: 1^8
+T_151 characteristic factor degrees: 2^2 1^4
+T_7 characteristic factor degrees: 1^8
+T_2 characteristic factor degrees: 1^1 1^3 1^4
+all restricted Hecke commutativity checks: PASS
+combination_1 characteristic factor degrees: 1^1 2^1 1^2 1^3
+combination_2 characteristic factor degrees: 1^1 2^1 2^1 1^3
+combination_3 characteristic factor degrees: 2^1 2^1 1^4
+joint components after operator 1: 3; dimensions 2x2 1x4
+joint components after operator 2: 4; dimensions 1x1 2x2 1x3
+joint components after operator 3: 4; dimensions 1x1 2x2 1x3
+joint components after operator 4: 4; dimensions 1x1 2x2 1x3
+joint components after operator 5: 4; dimensions 1x1 2x2 1x3
+joint components after operator 6: 4; dimensions 1x1 2x2 1x3
+joint components after operator 7: 4; dimensions 1x1 2x2 1x3
+joint components after operator 8: 4; dimensions 1x1 2x2 1x3
+joint components after operator 9: 4; dimensions 1x1 2x2 1x3
+joint components after operator 10: 4; dimensions 1x1 2x2 1x3
+joint components after operator 11: 4; dimensions 1x1 2x2 1x3
+joint components after operator 12: 4; dimensions 1x1 2x2 1x3
+joint components after operator 13: 4; dimensions 1x1 2x2 1x3
+joint components after operator 14: 4; dimensions 1x1 2x2 1x3
+joint components after operator 15: 4; dimensions 1x1 2x2 1x3
+joint components after operator 16: 4; dimensions 1x1 2x2 1x3
+joint components after operator 17: 4; dimensions 1x1 2x2 1x3
+joint components after operator 18: 4; dimensions 1x1 2x2 1x3
+joint components after operator 19: 4; dimensions 1x1 2x2 1x3
+joint components after operator 20: 4; dimensions 1x1 2x2 1x3
+final residual eigensystem packet types (count x residue-degree x multiplicity): 1x1x1 1x1x3 2x2x1
+multiplicity-one quadratic packet 1 Hecke characteristic polynomials: [5,5,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [6,4,1] [2,5,1] [0,0,1] [0,0,1] [5,5,1] [0,0,1] [3,1,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 2 Hecke characteristic polynomials: [5,2,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [6,4,1] [2,2,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [3,6,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [5,5,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [6,4,1] [2,5,1] [0,0,1] [0,0,1] [5,5,1] [0,0,1] [3,1,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [5,2,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [6,4,1] [2,2,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [3,6,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=1 m=1 signature: [0,1] [5,1] [0,1] [3,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [5,1] [0,1] [0,1] [0,1] [0,1] [3,1] [0,1] [6,1] [0,1] [6,1]
+joint packet f=1 m=3 signature: [0,1] [2,1] [0,1] [4,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [2,1] [0,1] [0,1] [0,1] [0,1] [4,1] [0,1] [6,1] [0,1] [1,1]
+===== END CONSERVATIVE FILTERED AMBIENT LEVEL 22 =====
+===== BEGIN CONSERVATIVE FILTERED AMBIENT LEVEL 23 =====
+all 190 pairwise integer Hecke commutativity checks: PASS (0.210 seconds)
+after ell=11 (degree 33): full intersection=143; cuspidal upper bound=142; 0.004 seconds
+after ell=13 (degree 7): full intersection=99; cuspidal upper bound=98; 0.003 seconds
+after ell=17 (degree 7): full intersection=99; cuspidal upper bound=98; 0.003 seconds
+after ell=19 (degree 34): full intersection=75; cuspidal upper bound=74; 0.003 seconds
+after ell=29 (degree 35): full intersection=59; cuspidal upper bound=58; 0.003 seconds
+after ell=31 (degree 42): full intersection=51; cuspidal upper bound=50; 0.004 seconds
+after ell=41 (degree 38): full intersection=45; cuspidal upper bound=44; 0.004 seconds
+after ell=59 (degree 37): full intersection=39; cuspidal upper bound=38; 0.005 seconds
+after ell=61 (degree 39): full intersection=39; cuspidal upper bound=38; 0.005 seconds
+after ell=71 (degree 43): full intersection=39; cuspidal upper bound=38; 0.006 seconds
+after ell=79 (degree 44): full intersection=39; cuspidal upper bound=38; 0.007 seconds
+after ell=89 (degree 47): full intersection=39; cuspidal upper bound=38; 0.008 seconds
+after ell=101 (degree 48): full intersection=39; cuspidal upper bound=38; 0.009 seconds
+after ell=109 (degree 48): full intersection=39; cuspidal upper bound=38; 0.009 seconds
+after ell=131 (degree 49): full intersection=39; cuspidal upper bound=38; 0.010 seconds
+after ell=139 (degree 49): full intersection=39; cuspidal upper bound=38; 0.011 seconds
+after ell=149 (degree 49): full intersection=39; cuspidal upper bound=38; 0.011 seconds
+after ell=151 (degree 49): full intersection=39; cuspidal upper bound=38; 0.011 seconds
+exact mass-kernel cusp dimension: 38
+T_11 characteristic factor degrees: 2^1 2^1 2^1 2^1 2^1 2^1 2^1 2^1 2^1 2^2 2^2 2^3 1^6
+T_13 characteristic factor degrees: 1^4 1^6 1^28
+T_17 characteristic factor degrees: 1^38
+T_19 characteristic factor degrees: 2^1 2^1 1^2 1^4 1^28
+T_29 characteristic factor degrees: 2^2 1^34
+T_31 characteristic factor degrees: 2^2 2^2 2^2 1^4 2^4 2^4 1^6
+T_41 characteristic factor degrees: 2^1 2^1 2^6 1^6 2^8
+T_59 characteristic factor degrees: 2^2 1^34
+T_61 characteristic factor degrees: 2^2 2^2 2^2 2^4 2^6 1^6
+T_71 characteristic factor degrees: 2^1 2^1 2^1 2^1 2^1 2^2 2^2 2^2 2^2 2^3 1^6
+T_79 characteristic factor degrees: 2^2 1^2 1^4 1^28
+T_89 characteristic factor degrees: 2^2 1^34
+T_101 characteristic factor degrees: 2^1 2^1 2^1 2^1 2^1 2^1 2^1 1^2 1^2 2^2 2^2 2^3 1^6
+T_109 characteristic factor degrees: 1^38
+T_131 characteristic factor degrees: 2^1 2^1 2^1 2^1 2^1 2^2 2^2 2^2 2^2 2^3 1^6
+T_139 characteristic factor degrees: 2^1 2^1 1^2 1^4 1^28
+T_149 characteristic factor degrees: 2^2 1^34
+T_151 characteristic factor degrees: 2^2 2^2 2^2 2^2 2^4 2^4 1^6
+T_7 characteristic factor degrees: 1^2 1^2 1^34
+T_2 characteristic factor degrees: 1^4 1^6 1^28
+all restricted Hecke commutativity checks: PASS
+combination_1 characteristic factor degrees: 2^1 2^1 2^1 2^1 1^2 1^2 2^2 2^2 2^2 2^3 1^4 1^4
+combination_2 characteristic factor degrees: 2^1 2^1 2^1 2^1 2^1 2^1 1^2 2^2 2^2 2^3 2^3 1^4
+combination_3 characteristic factor degrees: 2^1 2^1 2^1 1^2 2^2 2^2 2^2 2^3 2^3 1^6
+joint components after operator 1: 13; dimensions 9x2 2x4 2x6
+joint components after operator 2: 14; dimensions 10x2 3x4 1x6
+joint components after operator 3: 14; dimensions 10x2 3x4 1x6
+joint components after operator 4: 14; dimensions 10x2 3x4 1x6
+joint components after operator 5: 14; dimensions 10x2 3x4 1x6
+joint components after operator 6: 14; dimensions 10x2 3x4 1x6
+joint components after operator 7: 14; dimensions 10x2 3x4 1x6
+joint components after operator 8: 14; dimensions 10x2 3x4 1x6
+joint components after operator 9: 14; dimensions 10x2 3x4 1x6
+joint components after operator 10: 14; dimensions 10x2 3x4 1x6
+joint components after operator 11: 14; dimensions 10x2 3x4 1x6
+joint components after operator 12: 14; dimensions 10x2 3x4 1x6
+joint components after operator 13: 14; dimensions 10x2 3x4 1x6
+joint components after operator 14: 14; dimensions 10x2 3x4 1x6
+joint components after operator 15: 14; dimensions 10x2 3x4 1x6
+joint components after operator 16: 14; dimensions 10x2 3x4 1x6
+joint components after operator 17: 14; dimensions 10x2 3x4 1x6
+joint components after operator 18: 14; dimensions 10x2 3x4 1x6
+joint components after operator 19: 14; dimensions 10x2 3x4 1x6
+joint components after operator 20: 14; dimensions 10x2 3x4 1x6
+final residual eigensystem packet types (count x residue-degree x multiplicity): 1x1x2 1x1x4 9x2x1 2x2x2 1x2x3
+multiplicity-one quadratic packet 1 Hecke characteristic polynomials: [6,1,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [1,4,1] [3,5,1] [0,0,1] [2,2,1] [5,3,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [2,2,1] [0,0,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 2 Hecke characteristic polynomials: [4,6,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [6,4,1] [3,2,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [0,0,1] [4,1,1] [0,0,1] [6,3,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 3 Hecke characteristic polynomials: [1,3,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,3,1] [3,2,1] [0,0,1] [6,6,1] [3,6,1] [0,0,1] [0,0,1] [6,4,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 4 Hecke characteristic polynomials: [5,3,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,2,1] [3,5,1] [0,0,1] [3,1,1] [1,3,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 5 Hecke characteristic polynomials: [2,2,1] [4,3,1] [0,0,1] [6,3,1] [2,5,1] [4,4,1] [6,3,1] [3,6,1] [4,1,1] [3,1,1] [2,0,1] [1,4,1] [2,6,1] [0,0,1] [2,5,1] [4,6,1] [5,2,1] [3,1,1] [1,5,1] [1,2,1]
+multiplicity-one quadratic packet 6 Hecke characteristic polynomials: [1,4,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,3,1] [3,5,1] [0,0,1] [6,6,1] [3,1,1] [0,0,1] [0,0,1] [6,3,1] [0,0,1] [4,1,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 7 Hecke characteristic polynomials: [5,4,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,2,1] [3,2,1] [0,0,1] [3,1,1] [1,4,1] [0,0,1] [0,0,1] [5,3,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 8 Hecke characteristic polynomials: [6,6,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [1,4,1] [3,2,1] [0,0,1] [2,2,1] [5,4,1] [0,0,1] [0,0,1] [1,4,1] [0,0,1] [2,5,1] [0,0,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1]
+multiplicity-one quadratic packet 9 Hecke characteristic polynomials: [2,5,1] [4,4,1] [0,0,1] [6,4,1] [2,5,1] [4,4,1] [6,4,1] [3,6,1] [4,1,1] [3,6,1] [2,0,1] [1,4,1] [2,1,1] [0,0,1] [2,2,1] [4,1,1] [5,2,1] [3,1,1] [1,2,1] [1,5,1]
+joint packet f=2 m=1 signature: [6,1,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [1,4,1] [3,5,1] [0,0,1] [2,2,1] [5,3,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [2,2,1] [0,0,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [4,6,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [6,4,1] [3,2,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [0,0,1] [4,1,1] [0,0,1] [6,3,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [1,3,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,3,1] [3,2,1] [0,0,1] [6,6,1] [3,6,1] [0,0,1] [0,0,1] [6,4,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [5,3,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,2,1] [3,5,1] [0,0,1] [3,1,1] [1,3,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [2,2,1] [4,3,1] [0,0,1] [6,3,1] [2,5,1] [4,4,1] [6,3,1] [3,6,1] [4,1,1] [3,1,1] [2,0,1] [1,4,1] [2,6,1] [0,0,1] [2,5,1] [4,6,1] [5,2,1] [3,1,1] [1,5,1] [1,2,1]
+joint packet f=2 m=1 signature: [1,4,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,3,1] [3,5,1] [0,0,1] [6,6,1] [3,1,1] [0,0,1] [0,0,1] [6,3,1] [0,0,1] [4,1,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [5,4,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,2,1] [3,2,1] [0,0,1] [3,1,1] [1,4,1] [0,0,1] [0,0,1] [5,3,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [6,6,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [1,4,1] [3,2,1] [0,0,1] [2,2,1] [5,4,1] [0,0,1] [0,0,1] [1,4,1] [0,0,1] [2,5,1] [0,0,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [2,5,1] [4,4,1] [0,0,1] [6,4,1] [2,5,1] [4,4,1] [6,4,1] [3,6,1] [4,1,1] [3,6,1] [2,0,1] [1,4,1] [2,1,1] [0,0,1] [2,2,1] [4,1,1] [5,2,1] [3,1,1] [1,2,1] [1,5,1]
+joint packet f=2 m=2 signature: [5,5,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [6,4,1] [2,5,1] [0,0,1] [0,0,1] [5,5,1] [0,0,1] [3,1,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [5,2,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [6,4,1] [2,2,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [3,6,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=3 signature: [4,1,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [6,4,1] [3,5,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [6,4,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [0,0,1]
+joint packet f=1 m=2 signature: [0,1] [5,1] [0,1] [3,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [5,1] [0,1] [0,1] [0,1] [0,1] [3,1] [0,1] [6,1] [0,1] [6,1]
+joint packet f=1 m=4 signature: [0,1] [2,1] [0,1] [4,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [2,1] [0,1] [0,1] [0,1] [0,1] [4,1] [0,1] [6,1] [0,1] [1,1]
+===== END CONSERVATIVE FILTERED AMBIENT LEVEL 23 =====
+===== BEGIN CONSERVATIVE FILTERED AMBIENT LEVEL 32 =====
+all 190 pairwise integer Hecke commutativity checks: PASS (0.487 seconds)
+after ell=11 (degree 33): full intersection=199; cuspidal upper bound=198; 0.016 seconds
+after ell=13 (degree 7): full intersection=163; cuspidal upper bound=162; 0.009 seconds
+after ell=17 (degree 7): full intersection=143; cuspidal upper bound=142; 0.012 seconds
+after ell=19 (degree 34): full intersection=118; cuspidal upper bound=117; 0.008 seconds
+after ell=29 (degree 35): full intersection=93; cuspidal upper bound=92; 0.010 seconds
+after ell=31 (degree 42): full intersection=53; cuspidal upper bound=52; 0.011 seconds
+after ell=41 (degree 38): full intersection=47; cuspidal upper bound=46; 0.011 seconds
+after ell=59 (degree 37): full intersection=39; cuspidal upper bound=38; 0.014 seconds
+after ell=61 (degree 39): full intersection=31; cuspidal upper bound=30; 0.014 seconds
+after ell=71 (degree 43): full intersection=31; cuspidal upper bound=30; 0.017 seconds
+after ell=79 (degree 44): full intersection=29; cuspidal upper bound=28; 0.021 seconds
+after ell=89 (degree 47): full intersection=29; cuspidal upper bound=28; 0.025 seconds
+after ell=101 (degree 48): full intersection=29; cuspidal upper bound=28; 0.028 seconds
+after ell=109 (degree 48): full intersection=29; cuspidal upper bound=28; 0.028 seconds
+after ell=131 (degree 49): full intersection=29; cuspidal upper bound=28; 0.035 seconds
+after ell=139 (degree 49): full intersection=29; cuspidal upper bound=28; 0.036 seconds
+after ell=149 (degree 49): full intersection=29; cuspidal upper bound=28; 0.038 seconds
+after ell=151 (degree 49): full intersection=29; cuspidal upper bound=28; 0.036 seconds
+exact mass-kernel cusp dimension: 28
+T_11 characteristic factor degrees: 1^1 2^2 2^2 1^19
+T_13 characteristic factor degrees: 1^1 1^3 1^4 1^4 1^8 1^8
+T_17 characteristic factor degrees: 1^1 1^2 1^2 1^3 1^20
+T_19 characteristic factor degrees: 1^1 2^1 2^1 1^2 1^6 1^15
+T_29 characteristic factor degrees: 1^1 1^27
+T_31 characteristic factor degrees: 2^2 2^4 1^9 1^7
+T_41 characteristic factor degrees: 1^1 2^2 2^2 1^19
+T_59 characteristic factor degrees: 1^1 1^27
+T_61 characteristic factor degrees: 1^1 2^2 2^4 1^8 1^7
+T_71 characteristic factor degrees: 2^2 2^2 1^20
+T_79 characteristic factor degrees: 2^1 2^1 1^2 1^2 1^2 1^4 1^6 1^8
+T_89 characteristic factor degrees: 1^1 1^27
+T_101 characteristic factor degrees: 1^1 2^2 2^2 1^19
+T_109 characteristic factor degrees: 1^1 2^2 1^3 1^4 1^16
+T_131 characteristic factor degrees: 1^1 2^2 2^2 1^19
+T_139 characteristic factor degrees: 1^1 2^1 2^1 1^2 1^4 1^6 1^11
+T_149 characteristic factor degrees: 1^1 1^27
+T_151 characteristic factor degrees: 2^2 1^3 2^4 1^5 1^8
+T_7 characteristic factor degrees: 1^1 1^1 1^1 1^2 1^3 1^20
+T_2 characteristic factor degrees: 1^1 1^1 1^2 1^3 1^4 1^8 1^9
+all restricted Hecke commutativity checks: PASS
+combination_1 characteristic factor degrees: 2^1 2^1 2^2 1^2 1^4 1^6 1^8
+combination_2 characteristic factor degrees: 2^1 2^1 2^2 2^2 1^3 1^5 1^8
+combination_3 characteristic factor degrees: 1^1 1^1 1^1 1^2 1^2 2^2 2^2 1^5 1^8
+joint components after operator 1: 4; dimensions 1x1 2x4 1x19
+joint components after operator 2: 7; dimensions 1x1 1x3 4x4 1x8
+joint components after operator 3: 9; dimensions 3x1 1x2 1x3 3x4 1x8
+joint components after operator 4: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 5: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 6: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 7: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 8: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 9: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 10: 11; dimensions 3x1 4x2 1x3 2x4 1x6
+joint components after operator 11: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 12: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 13: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 14: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 15: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 16: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 17: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 18: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 19: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+joint components after operator 20: 12; dimensions 5x1 3x2 1x3 2x4 1x6
+final residual eigensystem packet types (count x residue-degree x multiplicity): 5x1x1 1x1x2 1x1x3 1x1x6 2x2x1 2x2x2
+multiplicity-one quadratic packet 1 Hecke characteristic polynomials: [0,0,1] [4,3,1] [0,0,1] [1,4,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [3,2,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1] [2,0,1] [0,0,1] [5,4,1] [0,0,1] [3,1,1] [0,0,1] [1,5,1]
+multiplicity-one quadratic packet 2 Hecke characteristic polynomials: [0,0,1] [4,4,1] [0,0,1] [1,3,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [3,2,1] [0,0,1] [5,5,1] [0,0,1] [0,0,1] [2,0,1] [0,0,1] [5,3,1] [0,0,1] [3,1,1] [0,0,1] [1,2,1]
+joint packet f=1 m=1 signature: [5,1] [4,1] [1,1] [1,1] [2,1] [6,1] [2,1] [3,1] [4,1] [0,1] [1,1] [2,1] [3,1] [2,1] [6,1] [0,1] [6,1] [4,1] [5,1] [0,1]
+joint packet f=2 m=2 signature: [5,5,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [6,4,1] [2,5,1] [0,0,1] [0,0,1] [5,5,1] [0,0,1] [3,1,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [5,2,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [6,4,1] [2,2,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [3,6,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=1 m=1 signature: [0,1] [6,1] [1,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [3,1] [0,1] [0,1] [2,1] [0,1] [2,1] [0,1] [5,1] [1,1] [3,1]
+joint packet f=1 m=1 signature: [0,1] [6,1] [3,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [1,1] [0,1] [0,1] [3,1] [0,1] [5,1] [0,1] [5,1] [4,1] [2,1]
+joint packet f=1 m=1 signature: [0,1] [6,1] [3,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [3,1] [0,1] [0,1] [2,1] [0,1] [0,1] [0,1] [4,1] [2,1] [2,1]
+joint packet f=1 m=1 signature: [0,1] [1,1] [4,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [4,1] [0,1] [0,1] [5,1] [0,1] [0,1] [0,1] [4,1] [5,1] [5,1]
+joint packet f=1 m=3 signature: [0,1] [1,1] [6,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [4,1] [0,1] [0,1] [5,1] [0,1] [5,1] [0,1] [5,1] [6,1] [4,1]
+joint packet f=2 m=1 signature: [0,0,1] [4,3,1] [0,0,1] [1,4,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [3,2,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1] [2,0,1] [0,0,1] [5,4,1] [0,0,1] [3,1,1] [0,0,1] [1,5,1]
+joint packet f=1 m=2 signature: [0,1] [5,1] [0,1] [3,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [5,1] [0,1] [0,1] [0,1] [0,1] [3,1] [0,1] [6,1] [0,1] [6,1]
+joint packet f=2 m=1 signature: [0,0,1] [4,4,1] [0,0,1] [1,3,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [3,2,1] [0,0,1] [5,5,1] [0,0,1] [0,0,1] [2,0,1] [0,0,1] [5,3,1] [0,0,1] [3,1,1] [0,0,1] [1,2,1]
+joint packet f=1 m=6 signature: [0,1] [2,1] [0,1] [4,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [2,1] [0,1] [0,1] [0,1] [0,1] [4,1] [0,1] [6,1] [0,1] [1,1]
+===== END CONSERVATIVE FILTERED AMBIENT LEVEL 32 =====
+===== BEGIN CONSERVATIVE FILTERED AMBIENT LEVEL 33 =====
+all 190 pairwise integer Hecke commutativity checks: PASS (3.833 seconds)
+after ell=11 (degree 33): full intersection=709; cuspidal upper bound=708; 1.199 seconds
+after ell=13 (degree 7): full intersection=413; cuspidal upper bound=412; 0.480 seconds
+after ell=17 (degree 7): full intersection=369; cuspidal upper bound=368; 0.447 seconds
+after ell=19 (degree 34): full intersection=293; cuspidal upper bound=292; 0.336 seconds
+after ell=29 (degree 35): full intersection=237; cuspidal upper bound=236; 0.358 seconds
+after ell=31 (degree 42): full intersection=169; cuspidal upper bound=168; 0.379 seconds
+after ell=41 (degree 38): full intersection=147; cuspidal upper bound=146; 0.383 seconds
+after ell=59 (degree 37): full intersection=121; cuspidal upper bound=120; 0.467 seconds
+after ell=61 (degree 39): full intersection=107; cuspidal upper bound=106; 0.479 seconds
+after ell=71 (degree 43): full intersection=107; cuspidal upper bound=106; 0.593 seconds
+after ell=79 (degree 44): full intersection=101; cuspidal upper bound=100; 0.658 seconds
+after ell=89 (degree 47): full intersection=101; cuspidal upper bound=100; 0.763 seconds
+after ell=101 (degree 48): full intersection=99; cuspidal upper bound=98; 0.867 seconds
+after ell=109 (degree 48): full intersection=99; cuspidal upper bound=98; 0.918 seconds
+after ell=131 (degree 49): full intersection=99; cuspidal upper bound=98; 1.110 seconds
+after ell=139 (degree 49): full intersection=99; cuspidal upper bound=98; 1.158 seconds
+after ell=149 (degree 49): full intersection=99; cuspidal upper bound=98; 1.225 seconds
+after ell=151 (degree 49): full intersection=99; cuspidal upper bound=98; 1.237 seconds
+exact mass-kernel cusp dimension: 98
+T_11 characteristic factor degrees: 2^1 1^2 2^2 2^2 2^2 2^2 2^2 2^2 2^2 2^2 2^3 2^4 2^4 2^4 1^32
+T_13 characteristic factor degrees: 1^2 1^2 1^6 1^6 1^12 1^16 1^54
+T_17 characteristic factor degrees: 1^2 1^4 1^6 1^6 1^80
+T_19 characteristic factor degrees: 2^1 1^2 2^2 2^2 2^2 2^3 1^4 1^8 1^64
+T_29 characteristic factor degrees: 1^2 2^4 1^4 1^84
+T_31 characteristic factor degrees: 2^1 2^1 2^4 2^4 2^4 2^4 2^6 2^8 1^8 1^12 1^14
+T_41 characteristic factor degrees: 1^2 2^2 2^2 2^12 2^16 1^32
+T_59 characteristic factor degrees: 2^1 2^1 1^2 2^4 1^84
+T_61 characteristic factor degrees: 2^1 1^2 2^4 2^4 2^4 2^5 2^8 2^10 1^12 1^12
+T_71 characteristic factor degrees: 2^2 2^2 2^2 2^2 2^3 2^4 2^4 2^4 2^4 2^5 1^34
+T_79 characteristic factor degrees: 2^2 2^2 2^4 1^4 1^6 1^6 1^6 1^8 1^52
+T_89 characteristic factor degrees: 2^1 2^1 1^2 2^4 1^84
+T_101 characteristic factor degrees: 2^2 2^2 2^2 2^2 2^2 2^3 2^3 1^4 2^4 2^4 2^4 1^6 1^32
+T_109 characteristic factor degrees: 2^2 1^2 2^4 1^6 1^6 1^72
+T_131 characteristic factor degrees: 2^1 2^1 1^2 2^2 2^2 2^2 2^2 2^2 2^4 2^4 2^4 2^4 2^4 1^32
+T_139 characteristic factor degrees: 2^1 2^1 1^2 2^2 2^2 2^2 2^2 1^4 1^6 1^8 1^58
+T_149 characteristic factor degrees: 2^1 1^2 1^2 2^4 1^84
+T_151 characteristic factor degrees: 2^1 2^4 2^4 2^5 2^6 1^6 1^8 2^8 2^8 1^12
+T_7 characteristic factor degrees: 1^2 1^4 1^4 1^6 1^10 1^72
+T_2 characteristic factor degrees: 1^2 1^2 1^4 1^4 1^12 1^20 1^54
+all restricted Hecke commutativity checks: PASS
+combination_1 characteristic factor degrees: 2^1 2^2 2^2 2^2 2^2 2^2 2^2 1^4 1^4 2^4 2^4 2^4 2^5 1^6 1^12 1^12
+combination_2 characteristic factor degrees: 2^2 2^2 2^2 2^2 2^3 2^3 2^4 2^4 2^4 2^4 2^6 1^6 1^8 1^12
+combination_3 characteristic factor degrees: 2^1 1^2 1^2 2^2 2^2 2^2 1^4 1^4 2^4 2^4 2^4 2^4 1^6 1^8 1^12 2^7
+joint components after operator 1: 15; dimensions 2x2 8x4 1x6 3x8 1x32
+joint components after operator 2: 19; dimensions 3x2 9x4 2x6 4x8 1x12
+joint components after operator 3: 21; dimensions 5x2 11x4 4x8 1x12
+joint components after operator 4: 23; dimensions 5x2 14x4 4x8
+joint components after operator 5: 23; dimensions 5x2 14x4 4x8
+joint components after operator 6: 23; dimensions 5x2 14x4 4x8
+joint components after operator 7: 23; dimensions 5x2 14x4 4x8
+joint components after operator 8: 23; dimensions 5x2 14x4 4x8
+joint components after operator 9: 23; dimensions 5x2 14x4 4x8
+joint components after operator 10: 23; dimensions 5x2 14x4 4x8
+joint components after operator 11: 24; dimensions 7x2 13x4 4x8
+joint components after operator 12: 24; dimensions 7x2 13x4 4x8
+joint components after operator 13: 24; dimensions 7x2 13x4 4x8
+joint components after operator 14: 24; dimensions 7x2 13x4 4x8
+joint components after operator 15: 24; dimensions 7x2 13x4 4x8
+joint components after operator 16: 24; dimensions 7x2 13x4 4x8
+joint components after operator 17: 24; dimensions 7x2 13x4 4x8
+joint components after operator 18: 24; dimensions 7x2 13x4 4x8
+joint components after operator 19: 24; dimensions 7x2 13x4 4x8
+joint components after operator 20: 24; dimensions 7x2 13x4 4x8
+final residual eigensystem packet types (count x residue-degree x multiplicity): 5x1x2 2x1x4 1x1x8 2x2x1 11x2x2 3x2x4
+multiplicity-one quadratic packet 1 Hecke characteristic polynomials: [2,0,1] [2,6,1] [1,5,1] [6,3,1] [4,3,1] [3,5,1] [3,5,1] [3,2,1] [6,6,1] [3,2,1] [1,2,1] [6,3,1] [5,3,1] [4,0,1] [1,3,1] [1,4,1] [1,2,1] [6,3,1] [1,5,1] [1,2,1]
+multiplicity-one quadratic packet 2 Hecke characteristic polynomials: [2,5,1] [0,0,1] [2,6,1] [4,6,1] [4,3,1] [3,6,1] [3,5,1] [5,2,1] [4,0,1] [5,4,1] [4,3,1] [4,6,1] [1,3,1] [4,0,1] [5,3,1] [2,2,1] [6,4,1] [5,4,1] [2,1,1] [1,2,1]
+joint packet f=2 m=1 signature: [2,0,1] [2,6,1] [1,5,1] [6,3,1] [4,3,1] [3,5,1] [3,5,1] [3,2,1] [6,6,1] [3,2,1] [1,2,1] [6,3,1] [5,3,1] [4,0,1] [1,3,1] [1,4,1] [1,2,1] [6,3,1] [1,5,1] [1,2,1]
+joint packet f=1 m=2 signature: [5,1] [4,1] [1,1] [1,1] [2,1] [6,1] [2,1] [3,1] [4,1] [0,1] [1,1] [2,1] [3,1] [2,1] [6,1] [0,1] [6,1] [4,1] [5,1] [0,1]
+joint packet f=2 m=2 signature: [6,6,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [1,4,1] [3,2,1] [0,0,1] [2,2,1] [5,4,1] [0,0,1] [0,0,1] [1,4,1] [0,0,1] [2,5,1] [0,0,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [6,1,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [1,4,1] [3,5,1] [0,0,1] [2,2,1] [5,3,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [2,2,1] [0,0,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [5,4,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,2,1] [3,2,1] [0,0,1] [3,1,1] [1,4,1] [0,0,1] [0,0,1] [5,3,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [2,2,1] [4,3,1] [0,0,1] [6,3,1] [2,5,1] [4,4,1] [6,3,1] [3,6,1] [4,1,1] [3,1,1] [2,0,1] [1,4,1] [2,6,1] [0,0,1] [2,5,1] [4,6,1] [5,2,1] [3,1,1] [1,5,1] [1,2,1]
+joint packet f=2 m=2 signature: [1,3,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,3,1] [3,2,1] [0,0,1] [6,6,1] [3,6,1] [0,0,1] [0,0,1] [6,4,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [1,4,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,3,1] [3,5,1] [0,0,1] [6,6,1] [3,1,1] [0,0,1] [0,0,1] [6,3,1] [0,0,1] [4,1,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [5,3,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [5,2,1] [3,5,1] [0,0,1] [3,1,1] [1,3,1] [0,0,1] [0,0,1] [5,4,1] [0,0,1] [6,6,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1]
+joint packet f=2 m=2 signature: [4,6,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [6,4,1] [3,2,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [0,0,1] [4,1,1] [0,0,1] [6,3,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [0,0,1]
+joint packet f=2 m=1 signature: [2,5,1] [0,0,1] [2,6,1] [4,6,1] [4,3,1] [3,6,1] [3,5,1] [5,2,1] [4,0,1] [5,4,1] [4,3,1] [4,6,1] [1,3,1] [4,0,1] [5,3,1] [2,2,1] [6,4,1] [5,4,1] [2,1,1] [1,2,1]
+joint packet f=2 m=2 signature: [2,5,1] [4,4,1] [0,0,1] [6,4,1] [2,5,1] [4,4,1] [6,4,1] [3,6,1] [4,1,1] [3,6,1] [2,0,1] [1,4,1] [2,1,1] [0,0,1] [2,2,1] [4,1,1] [5,2,1] [3,1,1] [1,2,1] [1,5,1]
+joint packet f=2 m=4 signature: [5,2,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [6,4,1] [2,2,1] [0,0,1] [0,0,1] [5,2,1] [0,0,1] [3,6,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=2 m=4 signature: [4,1,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [6,4,1] [3,5,1] [0,0,1] [4,1,1] [3,2,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [6,4,1] [0,0,1] [0,0,1] [1,3,1] [0,0,1] [0,0,1]
+joint packet f=2 m=4 signature: [5,5,1] [0,0,1] [0,0,1] [0,0,1] [0,0,1] [4,1,1] [3,5,1] [0,0,1] [6,4,1] [2,5,1] [0,0,1] [0,0,1] [5,5,1] [0,0,1] [3,1,1] [0,0,1] [0,0,1] [4,6,1] [0,0,1] [0,0,1]
+joint packet f=1 m=2 signature: [0,1] [1,1] [4,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [4,1] [0,1] [0,1] [5,1] [0,1] [0,1] [0,1] [4,1] [5,1] [5,1]
+joint packet f=1 m=4 signature: [0,1] [1,1] [6,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [4,1] [0,1] [0,1] [5,1] [0,1] [5,1] [0,1] [5,1] [6,1] [4,1]
+joint packet f=1 m=2 signature: [0,1] [6,1] [1,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [3,1] [0,1] [0,1] [2,1] [0,1] [2,1] [0,1] [5,1] [1,1] [3,1]
+joint packet f=1 m=2 signature: [0,1] [6,1] [3,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [1,1] [0,1] [0,1] [3,1] [0,1] [5,1] [0,1] [5,1] [4,1] [2,1]
+joint packet f=1 m=2 signature: [0,1] [6,1] [3,1] [0,1] [0,1] [4,1] [0,1] [0,1] [1,1] [0,1] [3,1] [0,1] [0,1] [2,1] [0,1] [0,1] [0,1] [4,1] [2,1] [2,1]
+joint packet f=2 m=2 signature: [0,0,1] [4,3,1] [0,0,1] [1,4,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [3,2,1] [0,0,1] [5,2,1] [0,0,1] [0,0,1] [2,0,1] [0,0,1] [5,4,1] [0,0,1] [3,1,1] [0,0,1] [1,5,1]
+joint packet f=1 m=4 signature: [0,1] [5,1] [0,1] [3,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [5,1] [0,1] [0,1] [0,1] [0,1] [3,1] [0,1] [6,1] [0,1] [6,1]
+joint packet f=2 m=2 signature: [0,0,1] [4,4,1] [0,0,1] [1,3,1] [0,0,1] [6,1,1] [0,0,1] [0,0,1] [3,2,1] [0,0,1] [5,5,1] [0,0,1] [0,0,1] [2,0,1] [0,0,1] [5,3,1] [0,0,1] [3,1,1] [0,0,1] [1,2,1]
+joint packet f=1 m=8 signature: [0,1] [2,1] [0,1] [4,1] [0,1] [6,1] [0,1] [0,1] [5,1] [0,1] [2,1] [0,1] [0,1] [0,1] [0,1] [4,1] [0,1] [6,1] [0,1] [1,1]
+===== END CONSERVATIVE FILTERED AMBIENT LEVEL 33 =====
+HECKE_LEVEL_LOWERING_TARGETS=FOUR_NEWSPACES_AT_LEVELS_22_23_32_33
+COVERAGE_METHOD=CONSERVATIVELY_FILTERED_AMBIENT_SUPERSET_NO_OLD_NEW_SUBTRACTION
+ELL_131_FILTER=X49_MINUS_X_ALL_F49_TRACES
+FILTERED_PACKET_DIMENSION_COVERAGE=PASS_SUM_PACKET_DIMENSIONS_EQUALS_FILTERED_CUSP_AT_ALL_FOUR_LEVELS
+LOCAL_T2_TRACES=X_EVEN_MINUS1_Y_EVEN_ZERO
+AMBIENT_SELECTED_PACKET_OCCURRENCES=36
+AMBIENT_Q29_ANNIHILATORS=T,T2,T_PLUS_2,T2_PLUS_5T_PLUS_2,T2_PLUS_3T_PLUS_4
+REDUCIBLE_Q29_ANNIHILATORS=T_MINUS_2,T_MINUS_5
+AMBIENT_T_PLUS_2_EQUALS_EXISTING_TERMINAL_T_MINUS_5_MOD_7
+RESULTANT_MATRIX=PASS_24_OF_24_NONZERO_MOD_7
+PASS_HILBERT_HECKE_CONSERVATIVE_FILTERED_AMBIENT_COVERAGE_NO_NEWSPACE_SUBTRACTION

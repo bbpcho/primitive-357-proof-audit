@@ -1,0 +1,3 @@
+{"p": 53, "sqrt_minus_7": 24, "L_polynomial_coefficients": [1, 1, -29, -83, -1537, 2809, 148877], "Jacobian_order": 150039, "no_2_or_5_torsion_by_reduction": true, "seconds": 95.97286666699802}
+{"p": 43, "sqrt_minus_7": 6, "L_polynomial_coefficients": [1, -4, 20, 212, 860, -7396, 79507], "Jacobian_order": 73200, "no_2_or_5_torsion_by_reduction": false, "seconds": 56.67543266598659}
+{"p": 43, "sqrt_minus_7": 37, "L_polynomial_coefficients": [1, -4, 20, 212, 860, -7396, 79507], "Jacobian_order": 73200, "no_2_or_5_torsion_by_reduction": false, "seconds": 60.232555334005156}

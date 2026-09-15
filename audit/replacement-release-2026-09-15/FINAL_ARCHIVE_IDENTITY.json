@@ -1,0 +1,18 @@
+{
+  "schema": "primitive357_final_archive_identity_v1",
+  "status": "PASS_FINAL_APPEND_ONLY_COMPANION",
+  "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+  "bytes": 320731221,
+  "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "tested_public_manifest_sha256": "f64c38fd747a54ae7a7928b6a8fdbe96ec5ff4b785a7dabd1f8413fd73ec6e99",
+  "final_public_manifest_sha256": "355ebd822965069fc84ed015cb2c7024023b4fd1e26fc35adcad653f2ead0097",
+  "logical_manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9",
+  "new_selected_suite_files": 372,
+  "new_selected_suite_bytes": 37021164,
+  "public_files": 2516,
+  "zip_member_verification": {
+    "status": "PASS_EXACT_ZIP_MEMBERS",
+    "files": 2517
+  }
+}

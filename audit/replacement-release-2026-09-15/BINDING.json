@@ -1,0 +1,124 @@
+{
+  "schema": "primitive357_current_distribution_binding_v1",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "logical_release_tag": "verified-2026-09-14.1",
+  "asset": {
+    "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+    "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+    "bytes": 320731221,
+    "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip"
+  },
+  "archive_root": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2",
+  "verification_prefix": "records/completed-replay",
+  "local_artifact_root": "audit/replacement-release-2026-09-15/companion/records/completed-replay",
+  "records": {
+    "tested_public_manifest": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/TESTED_PUBLIC_MANIFEST.json",
+      "archive_path": "records/completed-replay/TESTED_PUBLIC_MANIFEST.json",
+      "sha256": "f64c38fd747a54ae7a7928b6a8fdbe96ec5ff4b785a7dabd1f8413fd73ec6e99",
+      "bytes": 412664
+    },
+    "final_public_manifest": {
+      "path": "audit/replacement-release-2026-09-15/companion/COMPANION_MANIFEST.json",
+      "archive_path": "COMPANION_MANIFEST.json",
+      "sha256": "355ebd822965069fc84ed015cb2c7024023b4fd1e26fc35adcad653f2ead0097",
+      "bytes": 524819
+    },
+    "logical_manifest": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/TESTED_LOGICAL_MANIFEST.json",
+      "archive_path": "records/completed-replay/TESTED_LOGICAL_MANIFEST.json",
+      "sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9",
+      "bytes": 503628
+    },
+    "replay_file_map": {
+      "path": "audit/replacement-release-2026-09-15/companion/inputs/REPLAY_FILE_MAP.json",
+      "archive_path": "inputs/REPLAY_FILE_MAP.json",
+      "sha256": "275f2d8d568f10c3f008fa458be40bd6814575767b5fa98979642065f42afaaa",
+      "bytes": 849779
+    },
+    "external_lock": {
+      "path": "audit/replacement-release-2026-09-15/companion/inputs/EXTERNAL_INPUTS_LOCK.json",
+      "archive_path": "inputs/EXTERNAL_INPUTS_LOCK.json",
+      "sha256": "478111f48b7a28ad4f184e8182c257b80c6daa5e408072519ea4e8c4571439fe",
+      "bytes": 89439
+    },
+    "replay_contract": {
+      "path": "audit/replacement-release-2026-09-15/companion/inputs/BASELINE_REPLAY_CONTRACT.json",
+      "archive_path": "inputs/BASELINE_REPLAY_CONTRACT.json",
+      "sha256": "2cd2cf59f67b5fc57950e4fd3fcbc03fff9126a404071d1b74f22b03d637fd45",
+      "bytes": 9049
+    },
+    "externalized_result": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/EXTERNALIZED_REPLAY_RESULT.json",
+      "archive_path": "records/completed-replay/EXTERNALIZED_REPLAY_RESULT.json",
+      "sha256": "5f9518a6f4442c8ecdd7a58f91dc8cd9a1ae44b435bb00cb267381616981f069",
+      "bytes": 14472
+    },
+    "integrated_result": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/suite/REPLAY_RESULT.json",
+      "archive_path": "records/completed-replay/suite/REPLAY_RESULT.json",
+      "sha256": "3c1a25d91cdc2b52c6cc2529023d38f69d27bbe795b26c07e4520753e8d314d2",
+      "bytes": 2169
+    },
+    "independent_envelope": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/INDEPENDENT_ENVELOPE.json",
+      "archive_path": "records/completed-replay/INDEPENDENT_ENVELOPE.json",
+      "sha256": "2913eaf2305bc31a579639216bd7332a0177a56a1882364b8069e48ec47ded3d",
+      "bytes": 544
+    },
+    "prior_result": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/suite/prior/PRIOR_REPLAY_RESULT.json",
+      "archive_path": "records/completed-replay/suite/prior/PRIOR_REPLAY_RESULT.json",
+      "sha256": "fb5d176be3ad84e39cfa5c694adcb578fc52c7b20ae0f8a10a3f10cb622bd4c3",
+      "bytes": 65431
+    },
+    "sector_result": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/suite/sectors/SECTOR_REPLAY_RESULT.json",
+      "archive_path": "records/completed-replay/suite/sectors/SECTOR_REPLAY_RESULT.json",
+      "sha256": "85f2f19d79ae0637fe9589318b0f53989f8a1101d45e9b263943f9ac3459ff90",
+      "bytes": 4650
+    },
+    "rank_result": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/suite/rank_local/rank_local_results.json",
+      "archive_path": "records/completed-replay/suite/rank_local/rank_local_results.json",
+      "sha256": "a2c7472ea448d57b70f967aa95c3391d22685dfe053369306e533435072f390b",
+      "bytes": 15534
+    },
+    "retained_artifacts": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/RETAINED_ARTIFACTS.json",
+      "archive_path": "records/completed-replay/RETAINED_ARTIFACTS.json",
+      "sha256": "9a8467290c887db496ac5792dc67cb68f9812b8ce40be97a6b3d58b45131691d",
+      "bytes": 153691
+    },
+    "isolated_driver": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/isolation/CLEAN2_ISOLATED_DRIVER.json",
+      "archive_path": "records/completed-replay/isolation/CLEAN2_ISOLATED_DRIVER.json",
+      "sha256": "c2c710e4c1ca56049b5c3d3004bc8b226153ccb4ceb35ee94c41dd89f45cd376",
+      "bytes": 3019
+    },
+    "driver_log": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/isolation/OUTER_DRIVER.log",
+      "archive_path": "records/completed-replay/isolation/OUTER_DRIVER.log",
+      "sha256": "5f9518a6f4442c8ecdd7a58f91dc8cd9a1ae44b435bb00cb267381616981f069",
+      "bytes": 14472
+    },
+    "isolation_profile": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/isolation/clean2_offline.sb",
+      "archive_path": "records/completed-replay/isolation/clean2_offline.sb",
+      "sha256": "8a0b0e45f0a17be12d069650678131ab4584ec632b18b41f1f70a003f7b381ef",
+      "bytes": 3330
+    },
+    "isolation_probes": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/isolation/CLEAN2_PROBE_RESULTS.json",
+      "archive_path": "records/completed-replay/isolation/CLEAN2_PROBE_RESULTS.json",
+      "sha256": "9459374c2abb8a01068a9d87199aa6a60ecf87baa60873a40d2f4301ddeed3aa",
+      "bytes": 7210
+    },
+    "suite_selection": {
+      "path": "audit/replacement-release-2026-09-15/companion/records/completed-replay/SUITE_ARTIFACT_SELECTION.json",
+      "archive_path": "records/completed-replay/SUITE_ARTIFACT_SELECTION.json",
+      "sha256": "ea1e988d7107907987b01611b3966afb6a4243eb7593301368d7f4b79f50cafc",
+      "bytes": 1370479
+    }
+  }
+}

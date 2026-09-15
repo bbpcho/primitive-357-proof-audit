@@ -1,0 +1,15 @@
+{
+  "answer_isolation": "production diagnostic opened only after fresh result",
+  "claim_boundary": "exact finite AGL/module replay only; A.26/W5 identification and source membership are not inputs",
+  "matching_local_pairs": 126,
+  "physical_assignment_statistics": {
+    "(False, True, False, 2)": 84
+  },
+  "protocol": "INDEPENDENT_P5_TARGET_CHARACTER_SPAN_V1",
+  "quotient_dimension_statistics": {
+    "2": 84
+  },
+  "selected_target_factor_branch": 84,
+  "split_split_non_descent_negative_controls": 84
+}
+STATUS=PASS_INDEPENDENT_P5_TARGET_CHARACTER_SPAN_V1

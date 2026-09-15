@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EXACT_TOWER_AND_SEPARATING_THETA_INVARIANT",
+  "degree56_polynomial_irreducible": true,
+  "relative_bitangent_degree_over_K": 28,
+  "tower_identities": [
+    "T1(T4)=0",
+    "T3(T4)=T5",
+    "T5^2=-7",
+    "T5=actual_source_s"
+  ],
+  "root_bound": 9,
+  "root_bound_inequality_margin": "1203667875907328603920201507700938464959372265898744",
+  "triangle_archimedean_bound": 40824,
+  "candidate_archimedean_bound": 65,
+  "degree_bound": 16,
+  "absolute_norm_bound": "61052553110133200106762487384127542891703819077749816583455980468086757761",
+  "prime_power": "582119276748520691111343963630551475695924944535955102363298632095695298211562721716090090272571626948364451888156929020154303584778716517441",
+  "norm_bound_strictly_smaller": true,
+  "embeddings": [
+    {
+      "base_residue": 237021,
+      "simple_Hensel_roots_verified": 28,
+      "exact_E_blocks_match": true,
+      "distinct_E_blocks": 7,
+      "fresh_triangle_sums": 8,
+      "terms_per_sum": 56,
+      "all_invariant_residues_distinct": true,
+      "candidate_index": 0,
+      "candidate": "-48+12w",
+      "congruence_precision": 24,
+      "checkpoint_sha256": "37355c1cd1b3de2c487f0720349be1396f2d01ad1394a5c68570f200e3c2642f"
+    },
+    {
+      "base_residue": 496156,
+      "simple_Hensel_roots_verified": 28,
+      "exact_E_blocks_match": true,
+      "distinct_E_blocks": 7,
+      "fresh_triangle_sums": 8,
+      "terms_per_sum": 56,
+      "all_invariant_residues_distinct": true,
+      "candidate_index": 0,
+      "candidate": "-48+12w",
+      "congruence_precision": 24,
+      "checkpoint_sha256": "58bc62aeb033aa828a7fdee68560dfac383209b299552f907809864c3d1a7949"
+    }
+  ],
+  "boundary": "The degree bound and G_K-rational theta conclusion use the separately checked G-stable set of eight compatible theta characteristics; finite arithmetic alone is not that geometric identification.",
+  "seconds": 0.05339208400982898,
+  "input_hashes": {
+    "theta/tower_data.json": "d73c5b52c87296d2446e1e12d119ccf5b70ea33fb75f2930411463f24eecee7a",
+    "arithmetic/exact_tau_data.json": "00eb0ab70218f15f06e40083d8ccaa22ad8cfcf53d6817299b323435994a155e"
+  }
+}

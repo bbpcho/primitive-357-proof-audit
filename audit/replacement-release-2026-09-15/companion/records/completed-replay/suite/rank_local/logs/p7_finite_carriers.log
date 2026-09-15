@@ -1,0 +1,5 @@
+CLASS 30 D8 correction dimension 2 orbit-only profiles {(True, False): 4, (True, True): 4} inertias 1 carriers [8]
+CLASS 31 D8 correction dimension 2 orbit-only profiles {(True, True): 4, (True, False): 4} inertias 1 carriers [8]
+CLASS 37 D8 correction dimension 2 orbit-only profiles {(True, True): 4, (True, False): 4} inertias 1 carriers [8]
+RESULT compatible carriers 24 descend True nonzero False
+P7_CARRIER_DESCENT_ENVELOPE_PASS

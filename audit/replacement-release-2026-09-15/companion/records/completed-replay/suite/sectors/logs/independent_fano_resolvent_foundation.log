@@ -1,0 +1,8 @@
+Fano planes: 30 = 15 + 15
+CRT primes: 80
+CRT modulus bits: 1330
+rigorous coefficient-bound bits: 1230
+fresh validation primes: [101879, 101917, 101921, 101929, 101957]
+normalization: q = M/225 = 15*sum_F x_i*x_j*x_k
+equation: R_+(q,t)=(U(q,t)+sqrt(-7)*W(q,t))/2=0
+status: PASS

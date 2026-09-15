@@ -1,0 +1,19 @@
+[
+  {
+    "embedding": 237021,
+    "target_nodes": 42,
+    "flag_orbit_size": 168,
+    "unit_pairs_checked": 168,
+    "all_input_denominators_invertible": true,
+    "contact_leading_coefficients_and_proportionality_numerators_units": true
+  },
+  {
+    "embedding": 496156,
+    "target_nodes": 42,
+    "flag_orbit_size": 168,
+    "unit_pairs_checked": 168,
+    "all_input_denominators_invertible": true,
+    "contact_leading_coefficients_and_proportionality_numerators_units": true
+  }
+]
+CONTACT_UNITS_AND_FLAG_TRANSITIVITY_PASS=1

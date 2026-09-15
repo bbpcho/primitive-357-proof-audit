@@ -1,0 +1,1499 @@
+{
+  "status": "PASS_SELECTED_PRIOR_GROUPS",
+  "groups": [
+    "exports",
+    "rawdyadic",
+    "foundation",
+    "fiveplace",
+    "p5",
+    "logs",
+    "finite_maps"
+  ],
+  "records": [
+    {
+      "id": "export_contact_data",
+      "source": "gp_runtime/export_contact_data.gp",
+      "source_sha256": "354438ca8f552996127c6ff8ed43b7d9d3cacca67289d07651833ab99ac1caca",
+      "input_source_sha256": "354438ca8f552996127c6ff8ed43b7d9d3cacca67289d07651833ab99ac1caca",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/export_contact_data.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "CONTACT_DATA_EXPORT_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/export_contact_data.log",
+      "log_sha256": "5649e51eee4fda95064692e82261a4a6a04ec279a1138571d30faf6b638abd6b",
+      "seconds": 0.42767041600018274
+    },
+    {
+      "id": "export_line_data",
+      "source": "gp_runtime/export_line_data.gp",
+      "source_sha256": "ca12a1c18a2c6c2596a0d7e0aac2e860721426bd12f12232f264504c1de1e24c",
+      "input_source_sha256": "ca12a1c18a2c6c2596a0d7e0aac2e860721426bd12f12232f264504c1de1e24c",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/export_line_data.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "LINE_DATA_EXPORT_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/export_line_data.log",
+      "log_sha256": "5c0c897ac393b99ada2ed22b254eb03ad839c20dba4a0b5f7ec28c0e735cc136",
+      "seconds": 0.008251374994870275
+    },
+    {
+      "id": "export_geometry_modq",
+      "source": "gp_runtime/export_geometry_modq.gp",
+      "source_sha256": "ffb633fa1e3d5e5e348d789b605f8a449dc043585521e1cc6cd50a1937b8f4bf",
+      "input_source_sha256": "ffb633fa1e3d5e5e348d789b605f8a449dc043585521e1cc6cd50a1937b8f4bf",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/export_geometry_modq.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "GEOMETRY_MODQ_EXPORT_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/export_geometry_modq.log",
+      "log_sha256": "ad887fb6af75c6464e4177bdebda588afb840f001d0047c8f1b3f07e1129f9de",
+      "seconds": 0.05345833300088998
+    },
+    {
+      "id": "export_exact_tau_data",
+      "source": "gp_runtime/export_exact_tau_data.gp",
+      "source_sha256": "44d04eea60291c0130c8c06cf7ff60bcd76bff694478cc7bb45c7577709319c7",
+      "input_source_sha256": "44d04eea60291c0130c8c06cf7ff60bcd76bff694478cc7bb45c7577709319c7",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/export_exact_tau_data.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "STATUS=PASS_EXACT_TAU_JSON_EXPORT"
+      ],
+      "success": true,
+      "log": "work/p5_archive_audit/arithmetic/export_exact_tau_data.log",
+      "log_sha256": "6f1f92cc88efdddd711f0a49b9031d9f63be010e53114132b95e3195645f12f5",
+      "seconds": 0.22868816700065508
+    },
+    {
+      "id": "export_tower",
+      "source": "gp_runtime/export_tower.gp",
+      "source_sha256": "c97362b7ec6e71e19aae66845c74eba96c6db40401c2a7dc3c2d6521be4e7bf3",
+      "input_source_sha256": "c97362b7ec6e71e19aae66845c74eba96c6db40401c2a7dc3c2d6521be4e7bf3",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/export_tower.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_TOWER_EXPORT"
+      ],
+      "success": true,
+      "log": "logs/export_tower.log",
+      "log_sha256": "0cac2baecd675ec50297f319cb35b7671dabd3d0ac5176ebc7c93b80053c32ad",
+      "seconds": 0.006524374999571592
+    },
+    {
+      "id": "exact_contact",
+      "source": "work/p5_archive_audit/coherence/check_exact_contact_sage.py",
+      "source_sha256": "1bbe66785a0b22e9ce939daf089c8dcb29cb6583be9e70c450d35ede18917ceb",
+      "input_source_sha256": "1bbe66785a0b22e9ce939daf089c8dcb29cb6583be9e70c450d35ede18917ceb",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_exact_contact_sage.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "EXACT_CONTACT_ALL_PASS"
+      ],
+      "success": true,
+      "log": "logs/exact_contact.log",
+      "log_sha256": "fb1182ffb6bd170ac5570aaaabed1da24a98880493ad248a87add7bf00659d4f",
+      "seconds": 25.434486958998605
+    },
+    {
+      "id": "reconstruct_raw66",
+      "source": "gp_runtime/reconstruct_raw66.gp",
+      "source_sha256": "1506a1e11b7ad885610cd786090c50914628cc390b137daaa3799ace41102ba8",
+      "input_source_sha256": "1506a1e11b7ad885610cd786090c50914628cc390b137daaa3799ace41102ba8",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/reconstruct_raw66.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "STATUS=RAW66_MAPS_CERTIFIED_IN_ACTUAL_COMPLETIONS_NO_LOCAL_IMAGE_CONTAINMENT_CLAIM"
+      ],
+      "success": true,
+      "log": "logs/reconstruct_raw66.log",
+      "log_sha256": "98e6629980ba7f1c9215041eb04f109ea991192cb221a9d26aa2bc889ea5b35f",
+      "seconds": 773.6473699170019
+    },
+    {
+      "id": "verify_source_columns",
+      "source": "gp_runtime/verify_source_columns.gp",
+      "source_sha256": "3be97c5217bdcf811ad30f4561d0782ffffa91f0de7acb38e555285870735162",
+      "input_source_sha256": "3be97c5217bdcf811ad30f4561d0782ffffa91f0de7acb38e555285870735162",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/verify_source_columns.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "STATUS=ALL_56_SOURCE_COLUMN_IDENTITIES_IN_ACTUAL_COMPLETIONS"
+      ],
+      "success": true,
+      "log": "logs/verify_source_columns.log",
+      "log_sha256": "4bd8eda05f2bd54a846cab7b1f3f20ec7046d7cbd92ef6b806fd24bd61098470",
+      "seconds": 9.609319625000353
+    },
+    {
+      "id": "verify_local_point_lifts",
+      "source": "gp_runtime/verify_local_point_lifts.gp",
+      "source_sha256": "339edc07db4788ea3a861b2ee100da6ca794b12544fef5e1dcd282aad3983ff3",
+      "input_source_sha256": "339edc07db4788ea3a861b2ee100da6ca794b12544fef5e1dcd282aad3983ff3",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/verify_local_point_lifts.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "STATUS=EXACT_HENSEL_AND_LINE_SQUARECLASS_BOUNDS"
+      ],
+      "success": true,
+      "log": "logs/verify_local_point_lifts.log",
+      "log_sha256": "e1d4ef63b30567d4d006f1384219d7d0e15452dbc556b7f8c045d5d8f57528c6",
+      "seconds": 0.056068334000883624
+    },
+    {
+      "id": "dyadic_decomposition_envelope",
+      "source": "work/p5_archive_audit/local_upper_bound/dyadic_decomposition_envelope.py",
+      "source_sha256": "04cb564046b374d6832dc3c31aa711ba804b0d9930bfc8910aaf52ad353f020a",
+      "input_source_sha256": "04cb564046b374d6832dc3c31aa711ba804b0d9930bfc8910aaf52ad353f020a",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/local_upper_bound/dyadic_decomposition_envelope.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/dyadic_decomposition_envelope.log",
+      "log_sha256": "a42f2572117b1877ff0677d7f19ab66465f283ceddfc09843fea1af90b3dab72",
+      "seconds": 2.640151291998336
+    },
+    {
+      "id": "T21_prime_principality",
+      "source": "gp_runtime/T21_prime_principality.gp",
+      "source_sha256": "b32623f4859af5d322ea89afc5dfcdb370abb45e05f0987389c54efc5e6419c0",
+      "input_source_sha256": "b32623f4859af5d322ea89afc5dfcdb370abb45e05f0987389c54efc5e6419c0",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/T21_prime_principality.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_T21_PRIME_GENERATORS_NORM30000_INDEPENDENT_REPLAY_V1"
+      ],
+      "success": true,
+      "log": "logs/T21_prime_principality.log",
+      "log_sha256": "93679a3d677821c6636bdf41ca5533168ed1a575974f2c9422e00c6b7c529661",
+      "seconds": 12.609522708997247
+    },
+    {
+      "id": "F_odd_class",
+      "source": "gp_runtime/F_odd_class.gp",
+      "source_sha256": "8c942040f7004779119141e6106ad72e56d522b39f10e4606708554ad41d1f9e",
+      "input_source_sha256": "8c942040f7004779119141e6106ad72e56d522b39f10e4606708554ad41d1f9e",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/F_odd_class.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_F_ODD_T21_FROZEN_CHAIN_V1"
+      ],
+      "success": true,
+      "log": "logs/F_odd_class.log",
+      "log_sha256": "6d39994453e3cffdda2712fbadeddee54fce82e5f984acd415acbf27ad389f4d",
+      "seconds": 8.87079950000043
+    },
+    {
+      "id": "pair_ambiguous",
+      "source": "gp_runtime/pair_ambiguous.gp",
+      "source_sha256": "9c319220a8417b192bdd1582b0a47da14fa97b7ac5de70811d276ade07d1bb5e",
+      "input_source_sha256": "9c319220a8417b192bdd1582b0a47da14fa97b7ac5de70811d276ade07d1bb5e",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/pair_ambiguous.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "CONDITIONAL_AMBIGUOUS_2_GATE_READY_IF_CUBIC_RESOLVENT_CLASS_NUMBER_IS_ODD"
+      ],
+      "success": true,
+      "log": "logs/pair_ambiguous.log",
+      "log_sha256": "01632dd97aac7393877a11d5ba08598b0da0093c4b7c9f9bc1394f3d61a71b15",
+      "seconds": 14.306240416000946
+    },
+    {
+      "id": "F_unit_domain",
+      "source": "gp_runtime/F_unit_domain.gp",
+      "source_sha256": "17559e0d303610c17dcfa4c5a4503d8b1cb75a3f843b46a28ec6d739ad93043d",
+      "input_source_sha256": "17559e0d303610c17dcfa4c5a4503d8b1cb75a3f843b46a28ec6d739ad93043d",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/F_unit_domain.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_F_DOMAIN_UNIT_ODD_INDEX_V1"
+      ],
+      "success": true,
+      "log": "logs/F_unit_domain.log",
+      "log_sha256": "26f14ae3af3d554fb6c5c35eca69513d61400f278e2d05f24ed313bedc3e84e4",
+      "seconds": 1.7376713749981718
+    },
+    {
+      "id": "L_unit_domain",
+      "source": "gp_runtime/L_unit_domain.gp",
+      "source_sha256": "1401a626bf43a4c4beca94ae065d507ddb52e5232c59948e3e15f65d975c0352",
+      "input_source_sha256": "1401a626bf43a4c4beca94ae065d507ddb52e5232c59948e3e15f65d975c0352",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/L_unit_domain.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_L_UNIT_DOMAIN_INDEPENDENT_EXACT"
+      ],
+      "success": true,
+      "log": "logs/L_unit_domain.log",
+      "log_sha256": "da0aac9441b90ba65a5a64e4a857f8d3fada9b40dd3f078dd6017abfb796bb8b",
+      "seconds": 0.2426654159935424
+    },
+    {
+      "id": "E_class_one",
+      "source": "gp_runtime/E_class_one.gp",
+      "source_sha256": "f708845b71f6ab6fa0eb654ea3502254cb1e48c6047f3fd32824af41558e28cf",
+      "input_source_sha256": "f708845b71f6ab6fa0eb654ea3502254cb1e48c6047f3fd32824af41558e28cf",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/E_class_one.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_E_UNCONDITIONAL_CLASS_NUMBER_ONE"
+      ],
+      "success": true,
+      "log": "logs/E_class_one.log",
+      "log_sha256": "58438790b08bdbdc9a7cecbb59735916352200c02cb91ce231d2301105007f40",
+      "seconds": 1.3347180420096265
+    },
+    {
+      "id": "J27_images",
+      "source": "gp_runtime/J27_images.gp",
+      "source_sha256": "b2ae21aa37336e3666d23cd54af7ff1b670c4229c31e850e5dcd622b4497d336",
+      "input_source_sha256": "b2ae21aa37336e3666d23cd54af7ff1b670c4229c31e850e5dcd622b4497d336",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/J27_images.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_J27_UNIT_IMAGES_V1"
+      ],
+      "success": true,
+      "log": "logs/J27_images.log",
+      "log_sha256": "01271d8a58bfd3402b47a076a113f41e96b752abe033cdfd22c501c74f97adbe",
+      "seconds": 42.14803774999746
+    },
+    {
+      "id": "J27_terminal",
+      "source": "gp_runtime/J27_terminal.gp",
+      "source_sha256": "43c199eaec9decc7c56face58a2b01b46efe2547b95ca057bf7eefc539930da1",
+      "input_source_sha256": "43c199eaec9decc7c56face58a2b01b46efe2547b95ca057bf7eefc539930da1",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/J27_terminal.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_J27_TERMINAL_MODSQUARE_INDEPENDENCE_V1"
+      ],
+      "success": true,
+      "log": "logs/J27_terminal.log",
+      "log_sha256": "6827bf378df59444fa2eefeb7eb146f86f9215b9e68affd208139799eff7503d",
+      "seconds": 2.306929250000394
+    },
+    {
+      "id": "J27_chain",
+      "source": "gp_runtime/J27_chain.gp",
+      "source_sha256": "4940fe5d77aa673726f4d9edc04aaf54db318188dbc34114b96d050bae91e68e",
+      "input_source_sha256": "4940fe5d77aa673726f4d9edc04aaf54db318188dbc34114b96d050bae91e68e",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/J27_chain.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_J27_FROZEN_CHAIN_V1"
+      ],
+      "success": true,
+      "log": "logs/J27_chain.log",
+      "log_sha256": "be7e3afd79852052fe0da9d4c729fe919c1a3f1beba453367671d67542b2d10c",
+      "seconds": 1.3012830410007155
+    },
+    {
+      "id": "class_field_bindings",
+      "source": "gp_runtime/class_field_bindings.gp",
+      "source_sha256": "ddc243c0c1b74c42d63dbe0a58cc1b85b1d54f5960f5830bc89f80da13fe0be7",
+      "input_source_sha256": "ddc243c0c1b74c42d63dbe0a58cc1b85b1d54f5960f5830bc89f80da13fe0be7",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/class_field_bindings.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_RANK_CLASS_FIELD_BINDINGS"
+      ],
+      "success": true,
+      "log": "logs/class_field_bindings.log",
+      "log_sha256": "daa43fc7effcb66d9f02e8310f65d05dced5f22795811bba8b8c940fbd24dd8b",
+      "seconds": 0.026694375002989545
+    },
+    {
+      "id": "T21_norm_export",
+      "source": "gp_runtime/T21_norm_export.gp",
+      "source_sha256": "2f3a4c00636fb4f1cc3fbe298d81a81677a6935e486f5591b67830d72918a6a4",
+      "input_source_sha256": "9238ba77f06da5514405042651bd9bc83cd27132f7c0dde6411682cba0aaf6b7",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/T21_norm_export.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_T21_PRIME_NORM_MULTIPLICITIES_V1"
+      ],
+      "success": true,
+      "log": "logs/T21_norm_export.log",
+      "log_sha256": "92e3eb8880553940d0641838e81d73350164308e101df7a29be18882e0b4599d",
+      "seconds": 0.07015433399647009
+    },
+    {
+      "id": "T21_directed_Arb_bound",
+      "source": "work/v3_audit/extracted/2026-09-13_primitive_357_dependency_closed_release_v3/repository/results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1/scripts/certify_t21_odlyzko_local_inequality_v1.py",
+      "source_sha256": "420b88f4c836cec229ac489b3940dd0e44ecc7475d73b71a4d1bde8b579e96c6",
+      "input_source_sha256": "420b88f4c836cec229ac489b3940dd0e44ecc7475d73b71a4d1bde8b579e96c6",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/extracted/2026-09-13_primitive_357_dependency_closed_release_v3/repository/results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1/scripts/certify_t21_odlyzko_local_inequality_v1.py",
+        "--norms",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/t21_fresh_norms.csv",
+        "--cells",
+        "262144",
+        "--output",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/t21_fresh_arb.json"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_T21_ODLYZKO_LOCAL_INEQUALITY_ARB_V1"
+      ],
+      "success": true,
+      "log": "logs/T21_directed_Arb_bound.log",
+      "log_sha256": "d4d6d14c452fea790b9fab55866a420160136fa0f0e8b0a95d4e7c233315548a",
+      "seconds": 2.891529333006474
+    },
+    {
+      "id": "S4_integral_relation",
+      "source": "check_s4_relation.py",
+      "source_sha256": "5ba8637d21feae8d8a033c934ae872d76d298d90fd66ab0a031733bad054b363",
+      "input_source_sha256": "5ba8637d21feae8d8a033c934ae872d76d298d90fd66ab0a031733bad054b363",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/check_s4_relation.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_S4_CHARACTER_AND_INTEGRAL_INCIDENCE_RELATION"
+      ],
+      "success": true,
+      "log": "logs/S4_integral_relation.log",
+      "log_sha256": "977aff764329bd5af509ea3c96845fd111de788ee514f98eda147553f9f5c4f3",
+      "seconds": 0.020414790997165255
+    },
+    {
+      "id": "exact_66_point_diagonal_coordinates",
+      "source": "gp_runtime/exact_66_point_diagonal_coordinates.gp",
+      "source_sha256": "0cce6c007f5fe34a024a7e997edcdd1e26bdad465bbba89163ff82348d5406ad",
+      "input_source_sha256": "0cce6c007f5fe34a024a7e997edcdd1e26bdad465bbba89163ff82348d5406ad",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/exact_66_point_diagonal_coordinates.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "GO_STRICT_CORRECTED_QUOTIENT_EXACT_SQUARE_AND_S_PRINCIPAL_AUDIT_V1"
+      ],
+      "success": true,
+      "log": "logs/exact_66_point_diagonal_coordinates.log",
+      "log_sha256": "ee27a7b10eeb75ebede881b25ae7a415c2892ad982cbad2646362c7cce654956",
+      "seconds": 308.0417715830117
+    },
+    {
+      "id": "fiveplace_producer",
+      "source": "gp_runtime/fiveplace_producer.gp",
+      "source_sha256": "fc4daef67e4e9aa38ca9c10ef6dfb93226b96a45881489e77968995ec6d3d3dc",
+      "input_source_sha256": "fc4daef67e4e9aa38ca9c10ef6dfb93226b96a45881489e77968995ec6d3d3dc",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/fiveplace_producer.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_LITERAL_C_FIVE_PLACE_SOURCE_PREIMAGE_V2R2_PRODUCTION"
+      ],
+      "success": true,
+      "log": "logs/fiveplace_producer.log",
+      "log_sha256": "73a0fd279fd99e002417133485e6996a0f4debd0c3ac46a87f692974219cb192",
+      "seconds": 28.798361334003857
+    },
+    {
+      "id": "fiveplace_independent",
+      "source": "gp_runtime/fiveplace_independent.gp",
+      "source_sha256": "0bd32790a167ea9ad7ba958c2ea13569b8cc56e15705fc357e051e3d32da5a92",
+      "input_source_sha256": "0bd32790a167ea9ad7ba958c2ea13569b8cc56e15705fc357e051e3d32da5a92",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/fiveplace_independent.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_LITERAL_C_FIVE_PLACE_SOURCE_PREIMAGE_V2R2_INDEPENDENT"
+      ],
+      "success": true,
+      "log": "logs/fiveplace_independent.log",
+      "log_sha256": "1d68f45a2afa1a379fb64e2f16111286c9f8000abcc597f5b60241d3b283907b",
+      "seconds": 107.23083575000055
+    },
+    {
+      "id": "fiveplace_semantic",
+      "source": "gp_runtime/fiveplace_semantic.gp",
+      "source_sha256": "9f29a2d61b7e09e0c6b0bafbc201ae471fcebc4008b340ac203b5a11420d6505",
+      "input_source_sha256": "9f29a2d61b7e09e0c6b0bafbc201ae471fcebc4008b340ac203b5a11420d6505",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/fiveplace_semantic.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_EXACT_INDEPENDENT_FIVE_PLACE_SOURCE_PREIMAGE_SEMANTIC_AGREEMENT"
+      ],
+      "success": true,
+      "log": "logs/fiveplace_semantic.log",
+      "log_sha256": "377e116fda2b944e74f4b9f4ab4f7ed1b5bb34b0daa29e8494b06bd56c5e5bee",
+      "seconds": 2.022426333001931
+    },
+    {
+      "id": "p5_producer_and_independent",
+      "source": "work/p5_archive_audit/arithmetic/run_reviewed_arithmetic.py",
+      "source_sha256": "f886a7a68bbbc9359dac0085eea9378b769fc4cf00e63b00abec96da84713424",
+      "input_source_sha256": "f886a7a68bbbc9359dac0085eea9378b769fc4cf00e63b00abec96da84713424",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/arithmetic/run_reviewed_arithmetic.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_FRESH_P5_ARITHMETIC_36_44_AND_EXACT_36_RECORD_COMPARISONS"
+      ],
+      "success": true,
+      "log": "logs/p5_producer_and_independent.log",
+      "log_sha256": "4deca8c58bef57c2852bfcf772adeba6ae2f106ae73ea67a0c6d065054822648",
+      "seconds": 7.014682667009765
+    },
+    {
+      "id": "p5_precision_and_negative_controls",
+      "source": "work/p5_archive_audit/arithmetic/check_precision_and_controls.py",
+      "source_sha256": "1791b3c1d9b743b03084e8c8ae983e77b45cd2dd8f577591eb3a2b2255fdbe60",
+      "input_source_sha256": "1791b3c1d9b743b03084e8c8ae983e77b45cd2dd8f577591eb3a2b2255fdbe60",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/arithmetic/check_precision_and_controls.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_INDEPENDENT_PRECISION_AND_NEGATIVE_CONTROLS"
+      ],
+      "success": true,
+      "log": "logs/p5_precision_and_negative_controls.log",
+      "log_sha256": "7ff3571a4fee370379da5256c676632d3a6549ba6345480a3810ef8b56a4b81f",
+      "seconds": 8.572560624990729
+    },
+    {
+      "id": "exact_tau_norms",
+      "source": "work/p5_archive_audit/arithmetic/check_exact_tau_sage.py",
+      "source_sha256": "652ecfcff99c9128faaa36b54451c63b4b553cf251117ff11171e131ac821163",
+      "input_source_sha256": "652ecfcff99c9128faaa36b54451c63b4b553cf251117ff11171e131ac821163",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/arithmetic/check_exact_tau_sage.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "ALL_EXACT_TAU_NORMS_PASS"
+      ],
+      "success": true,
+      "log": "logs/exact_tau_norms.log",
+      "log_sha256": "1aea703696feb60eddfc8c74760a670943a3cb29c436a76688cae0cebe1a0602",
+      "seconds": 10.197651624999708
+    },
+    {
+      "id": "exact_stored_roots",
+      "source": "gp_runtime/exact_stored_roots.gp",
+      "source_sha256": "d8f1135e337a3cdc8a5a40d5f59542f3195676d75b68b7bd32633ac28266220b",
+      "input_source_sha256": "d8f1135e337a3cdc8a5a40d5f59542f3195676d75b68b7bd32633ac28266220b",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/exact_stored_roots.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "INDEPENDENT_STORED_ROOTS_V3_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/exact_stored_roots.log",
+      "log_sha256": "3b71301f621f93ce252e94289cb7ab1800cceab494041d257f439f96f3d279c0",
+      "seconds": 17.289253875002032
+    },
+    {
+      "id": "exact_conjugate_evaluations",
+      "source": "work/p5_archive_audit/arithmetic/run_exact_conjugate_validator.py",
+      "source_sha256": "0070b96626e4bbcb5695edbe419f7197f650aa04fb0c04eb707c23cc18bd8449",
+      "input_source_sha256": "0070b96626e4bbcb5695edbe419f7197f650aa04fb0c04eb707c23cc18bd8449",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/arithmetic/run_exact_conjugate_validator.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "\"status\": \"PASS\""
+      ],
+      "success": true,
+      "log": "logs/exact_conjugate_evaluations.log",
+      "log_sha256": "b226e7f16f861ec1cf2be1788d03a49b2d5c06a882e664e6c206795cab52b031",
+      "seconds": 8.706443832998048
+    },
+    {
+      "id": "local5_point_image",
+      "source": "gp_runtime/local5_point_image.gp",
+      "source_sha256": "f998826ad600dee7f52ee69f905b84fa5fb7a965809b57458ea135e9faeca314",
+      "input_source_sha256": "f998826ad600dee7f52ee69f905b84fa5fb7a965809b57458ea135e9faeca314",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/local5_point_image.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_FRESH_LOCAL5_POINT_IMAGE_RANK3"
+      ],
+      "success": true,
+      "log": "work/p5_archive_audit/arithmetic/recheck_local5_image.log",
+      "log_sha256": "065d0837818095431ccd99c3be436dc52caeee0b11d6034c03f1adb51ec4cf85",
+      "seconds": 20.377995457994984
+    },
+    {
+      "id": "local5_image_rank",
+      "source": "work/p5_archive_audit/arithmetic/summarize_local5_image.py",
+      "source_sha256": "12b4b780cd40b2c06be6b5458a4d83fba06d481e632a83ffef846c9f5d5bb9c4",
+      "input_source_sha256": "12b4b780cd40b2c06be6b5458a4d83fba06d481e632a83ffef846c9f5d5bb9c4",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/arithmetic/summarize_local5_image.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_INDEPENDENT_LOCAL5_MATRIX_RANK"
+      ],
+      "success": true,
+      "log": "logs/local5_image_rank.log",
+      "log_sha256": "31c887d0098c47f9b6adbfa86dc09e354c6e9f7da744633aab5ed82878b0b161",
+      "seconds": 0.06478724999760743
+    },
+    {
+      "id": "finite_cocycle_and_line",
+      "source": "work/p5_archive_audit/coherence/run_finite_replays.py",
+      "source_sha256": "c2dfc9ee2a93f5de7fac68e012d2a7cfab433d7f46ee280a32cf3dfec95db1a8",
+      "input_source_sha256": "c2dfc9ee2a93f5de7fac68e012d2a7cfab433d7f46ee280a32cf3dfec95db1a8",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/run_finite_replays.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/finite_cocycle_and_line.log",
+      "log_sha256": "dbcb48bc0c869369326f31084cb4ffe0078c0ac39539597baffc57b8b7476659",
+      "seconds": 7.432294291997096
+    },
+    {
+      "id": "check_exact_line_bindings",
+      "source": "gp_runtime/check_exact_line_bindings.gp",
+      "source_sha256": "bfe961c4d773fde368272785c9cb24cf150be97038d81e5965aa09e49cbf974f",
+      "input_source_sha256": "bfe961c4d773fde368272785c9cb24cf150be97038d81e5965aa09e49cbf974f",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/check_exact_line_bindings.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "EXACT_V3_UNIVERSAL_LINE_HORNER_BINDING_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_exact_line_bindings.log",
+      "log_sha256": "08dd51a598c02339555d6beffeedd84eccbdd4092f732c6813d78bdfb974b142",
+      "seconds": 0.0266738750069635
+    },
+    {
+      "id": "check_v3_same_c",
+      "source": "gp_runtime/check_v3_same_c.gp",
+      "source_sha256": "5706ec7bacf4e9a864aac19420e5ce6365464cce9844cd5d19762bcee55c9821",
+      "input_source_sha256": "5706ec7bacf4e9a864aac19420e5ce6365464cce9844cd5d19762bcee55c9821",
+      "kind": "gp",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/pari-2.15.4/Odarwin-arm/gp-dyn",
+        "-q",
+        "-f",
+        "-s",
+        "400000000",
+        "-D",
+        "parisizemax=8000000000",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/gp_runtime/check_v3_same_c.gp"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "V3_SOURCE5_C_P2_P4_DIAG_U_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_v3_same_c.log",
+      "log_sha256": "e47bdff38099ad803bebbc410744e2156964fc59a9325bbedef69b5b9c778a98",
+      "seconds": 0.09249158301099669
+    },
+    {
+      "id": "check_completion_incidence",
+      "source": "work/p5_archive_audit/coherence/check_completion_incidence.py",
+      "source_sha256": "d713b308fbcdbe9d4854bb5fb4999dd978d2420a936940e4e65c725cf3de715b",
+      "input_source_sha256": "d713b308fbcdbe9d4854bb5fb4999dd978d2420a936940e4e65c725cf3de715b",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_completion_incidence.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "ALL_112_COMPLETION_INCIDENCE_FIBRES_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_completion_incidence.log",
+      "log_sha256": "15365e225cfadb0e763fdba19d59d95daa50b5708ccce7e6ba2346ae1868303d",
+      "seconds": 0.05013337499985937
+    },
+    {
+      "id": "check_geometric_tetrads",
+      "source": "work/p5_archive_audit/coherence/check_geometric_tetrads.py",
+      "source_sha256": "e16a32cf8ae56cb1151393e1642252e7600151db939226fe4afe8692ede61bb0",
+      "input_source_sha256": "e16a32cf8ae56cb1151393e1642252e7600151db939226fe4afe8692ede61bb0",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_geometric_tetrads.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "ALL_40950_TETRAD_GEOMETRY_CHECKS_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_geometric_tetrads.log",
+      "log_sha256": "fb2c626decca5383a29ec01d9031aa7f72fad4957aaa1399dc115b57de39ec71",
+      "seconds": 0.6470316249906318
+    },
+    {
+      "id": "check_smooth_modq",
+      "source": "work/p5_archive_audit/coherence/check_smooth_modq.py",
+      "source_sha256": "e0449e5081b709944d01dd84c7452fc49bbb54ef107a7bad879cae5567a97d77",
+      "input_source_sha256": "e0449e5081b709944d01dd84c7452fc49bbb54ef107a7bad879cae5567a97d77",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_smooth_modq.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "SMOOTH_REDUCTION_Q733177_BOTH_EMBEDDINGS_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_smooth_modq.log",
+      "log_sha256": "961fc2f12e6be895541dc62b71d17a090013bd76cc0c60f8d4a5a65d89fe3b81",
+      "seconds": 1.532142374999239
+    },
+    {
+      "id": "check_affine_stabilizer",
+      "source": "work/p5_archive_audit/coherence/check_affine_stabilizer.py",
+      "source_sha256": "41a635feb976ce41bd027a7e02464715eae489dc08a93df6232cbf41a8968349",
+      "input_source_sha256": "41a635feb976ce41bd027a7e02464715eae489dc08a93df6232cbf41a8968349",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_affine_stabilizer.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "ACTUAL_THETA_PARTITION_AFFINE_STABILIZER_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_affine_stabilizer.log",
+      "log_sha256": "b4c35bede2c5901a26e9a030ac620d9055ea8ceea177f1121c658066d472497b",
+      "seconds": 0.41966529199271463
+    },
+    {
+      "id": "check_intrinsic_theta",
+      "source": "work/p5_archive_audit/coherence/check_intrinsic_theta.py",
+      "source_sha256": "4afea06332269e355f2d4c42a8b3196d8d56708ddf22ff6cf9167b7589ef9941",
+      "input_source_sha256": "4afea06332269e355f2d4c42a8b3196d8d56708ddf22ff6cf9167b7589ef9941",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_intrinsic_theta.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "INTRINSIC_THETA_AND_EIGHT_CANDIDATE_RECONSTRUCTION_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_intrinsic_theta.log",
+      "log_sha256": "b550d27ca4ba66611288d23f1d29eca3bdcdeb0640ec8711f60f87d1b74d754a",
+      "seconds": 0.028773375001037493
+    },
+    {
+      "id": "check_contact_units",
+      "source": "work/p5_archive_audit/coherence/check_contact_units.py",
+      "source_sha256": "8b6ace0d320f4e4038bf9dce9fb856affb285e0882cd4bffc4f3f5670f54b081",
+      "input_source_sha256": "8b6ace0d320f4e4038bf9dce9fb856affb285e0882cd4bffc4f3f5670f54b081",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_contact_units.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "CONTACT_UNITS_AND_FLAG_TRANSITIVITY_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_contact_units.log",
+      "log_sha256": "1c394ad587530af97711435b80d9f63cb3eed7cb47ff120c31e3509fcb91e9fb",
+      "seconds": 0.8803197079978418
+    },
+    {
+      "id": "check_global_fibre",
+      "source": "work/p5_archive_audit/coherence/check_global_fibre.py",
+      "source_sha256": "fe8a6ee29ee508633fd2d092038217c39bb649f2d60ec15d6d88a735d12b0d55",
+      "input_source_sha256": "fe8a6ee29ee508633fd2d092038217c39bb649f2d60ec15d6d88a735d12b0d55",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/coherence/check_global_fibre.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "INDEPENDENT_GLOBAL_FIBRE_TWO_LIFTS_PASS=1"
+      ],
+      "success": true,
+      "log": "logs/check_global_fibre.log",
+      "log_sha256": "872f77acff7910f72d2f57461f581239041129b49b5b674685e4f9ae88dc43a5",
+      "seconds": 0.533784209008445
+    },
+    {
+      "id": "theta_separating_invariant",
+      "source": "work/p5_archive_audit/theta/check_theta_invariant.py",
+      "source_sha256": "633db68ef4e0c1621ab9bc5e0194518b1b7a35b40e192fbc1c77ce1294b78047",
+      "input_source_sha256": "633db68ef4e0c1621ab9bc5e0194518b1b7a35b40e192fbc1c77ce1294b78047",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/theta/check_theta_invariant.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_EXACT_TOWER_AND_SEPARATING_THETA_INVARIANT"
+      ],
+      "success": true,
+      "log": "logs/theta_separating_invariant.log",
+      "log_sha256": "0dd181f5c5f01eb687bbd7a8cb87635ede860e2bf89b4e2232e5cd2e18790c6b",
+      "seconds": 1.6135257089918014
+    },
+    {
+      "id": "global_transitive_correction_envelope",
+      "source": "work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.py",
+      "source_sha256": "65e1047013c3c82ca4511cc5c31f1dafe8baa5f5590df92d8da3b69826fe4e65",
+      "input_source_sha256": "65e1047013c3c82ca4511cc5c31f1dafe8baa5f5590df92d8da3b69826fe4e65",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/local_upper_bound/transitive_correction_envelope.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/global_transitive_correction_envelope.log",
+      "log_sha256": "2a0427151163c18d9624cd72451920de4d5811a6382e37e6fcedf911a131597c",
+      "seconds": 1.8373063750041183
+    },
+    {
+      "id": "p5_target_character_span",
+      "source": "work/p5_archive_audit/extracted/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1/repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p5_target_character_span_v1.py",
+      "source_sha256": "a9961a0f52a9d188e8c0e174be4abbac372105349876c7cd992f67c584e6031d",
+      "input_source_sha256": "a9961a0f52a9d188e8c0e174be4abbac372105349876c7cd992f67c584e6031d",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/extracted/2026-09-13_p5_literal_c_obstruction_dependency_closure_v1/repository/results/2026-08-26_literal_c_a26_residual_bits/scripts/independent_verify_p5_target_character_span_v1.py",
+        "--output",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/target_character_span_fresh.json"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_INDEPENDENT_P5_TARGET_CHARACTER_SPAN_V1"
+      ],
+      "success": true,
+      "log": "logs/p5_target_character_span.log",
+      "log_sha256": "3e18cfca339a3d8984c575027542a7a4a140660b663279e17c5f6acf3b1ab952",
+      "seconds": 0.29355720899184234
+    },
+    {
+      "id": "p5_ambient_character_quotients",
+      "source": "work/p5_archive_audit/independent_target_characters.py",
+      "source_sha256": "7f6ae23a9fda32028e3369e0a2023a9c16443d3930763dd6ac936fb44d8ff444",
+      "input_source_sha256": "7f6ae23a9fda32028e3369e0a2023a9c16443d3930763dd6ac936fb44d8ff444",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/independent_target_characters.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_INDEPENDENT_AMBIENT_QUOTIENT_AND_TARGET42"
+      ],
+      "success": true,
+      "log": "logs/p5_ambient_character_quotients.log",
+      "log_sha256": "c6f2a93e6c6c8b384e403b34bc71ee97796a3605973f9d922bc65fca35e6829f",
+      "seconds": 2.0426815420069033
+    },
+    {
+      "id": "exact_tensor_s4",
+      "source": "work/v3_audit/validate_exact_log_tensors.sage",
+      "source_sha256": "e2d01830bb51f1fc7ff1ed3a1107126413b102e0dcef71758de7ff5bd99566d5",
+      "input_source_sha256": "e2d01830bb51f1fc7ff1ed3a1107126413b102e0dcef71758de7ff5bd99566d5",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/validate_exact_log_tensors.sage",
+        "s4"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_EXACT_RR_BASES_AND_TENSORS_MOD23POWER10"
+      ],
+      "success": true,
+      "log": "logs/exact_tensor_s4.log",
+      "log_sha256": "e7062198d8fe185bea908c1ebed25134fedc54d6c46f5b608a1f2cef212a0f34",
+      "seconds": 107.52325479198771
+    },
+    {
+      "id": "exact_tensor_s19",
+      "source": "work/v3_audit/validate_exact_log_tensors.sage",
+      "source_sha256": "e2d01830bb51f1fc7ff1ed3a1107126413b102e0dcef71758de7ff5bd99566d5",
+      "input_source_sha256": "e2d01830bb51f1fc7ff1ed3a1107126413b102e0dcef71758de7ff5bd99566d5",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/validate_exact_log_tensors.sage",
+        "s19"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_EXACT_RR_BASES_AND_TENSORS_MOD23POWER10"
+      ],
+      "success": true,
+      "log": "logs/exact_tensor_s19.log",
+      "log_sha256": "2b802500c0758889880e79adb5c281a4ca180a4c1e17970d17ee704bdb599260",
+      "seconds": 51.767420958
+    },
+    {
+      "id": "tensor_reductions",
+      "source": "work/v3_audit/validate_tensor_reductions.sage",
+      "source_sha256": "c5b5cdd34cbf5eda9f822094b5c65a8e4404517dc2544ae1b6e3ebe20e449543",
+      "input_source_sha256": "c5b5cdd34cbf5eda9f822094b5c65a8e4404517dc2544ae1b6e3ebe20e449543",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/validate_tensor_reductions.sage"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_SMOOTH_REDUCTION_CHARTS_AND_ALL_S4_TENSOR_REDUCTIONS"
+      ],
+      "success": true,
+      "log": "logs/tensor_reductions.log",
+      "log_sha256": "5a97f7336932cb6bd3183e571a086391e8513d11aee5bbcdae526bb10afe6f4d",
+      "seconds": 6.012508915999206
+    },
+    {
+      "id": "prepare_four_column_logs",
+      "source": "work/v3_audit/run_global_log_audit.py",
+      "source_sha256": "233597892d311a1e033dcad856ea5ed5cc418d252adae097361be60f6edeff95",
+      "input_source_sha256": "233597892d311a1e033dcad856ea5ed5cc418d252adae097361be60f6edeff95",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/run_global_log_audit.py",
+        "--prepare"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/prepare_four_column_logs.log",
+      "log_sha256": "0ad458e47b10c1339976036462664c9b462edb8ffee0b01c93ca7413aa16d5df",
+      "seconds": 0.42709504200320225
+    },
+    {
+      "id": "four_column_log_s4",
+      "source": "work/v3_audit/run_global_log_audit.py",
+      "source_sha256": "233597892d311a1e033dcad856ea5ed5cc418d252adae097361be60f6edeff95",
+      "input_source_sha256": "233597892d311a1e033dcad856ea5ed5cc418d252adae097361be60f6edeff95",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/run_global_log_audit.py",
+        "--branch",
+        "s4",
+        "--mode",
+        "candidate",
+        "--python",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/four_column_log_s4.log",
+      "log_sha256": "e60dadb7b4761f6191b7316c8320b6f3254814be77e931d8a88c201c3297da31",
+      "seconds": 117.66355987499992
+    },
+    {
+      "id": "four_column_log_s19",
+      "source": "work/v3_audit/run_global_log_audit.py",
+      "source_sha256": "233597892d311a1e033dcad856ea5ed5cc418d252adae097361be60f6edeff95",
+      "input_source_sha256": "233597892d311a1e033dcad856ea5ed5cc418d252adae097361be60f6edeff95",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/run_global_log_audit.py",
+        "--branch",
+        "s19",
+        "--mode",
+        "candidate",
+        "--python",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/four_column_log_s19.log",
+      "log_sha256": "8926e6c971ef6a5f840ce07484bdfef8c874f22742cccd8b80c93d4f179b3068",
+      "seconds": 144.4008212500048
+    },
+    {
+      "id": "annihilator_binding",
+      "source": "work/v3_audit/check_global_log_binding.py",
+      "source_sha256": "8d7636a2b713aa94a1587e82bf1bd5019385960e8784c1e1811ce0efba34f743",
+      "input_source_sha256": "8d7636a2b713aa94a1587e82bf1bd5019385960e8784c1e1811ce0efba34f743",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/check_global_log_binding.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/annihilator_binding.log",
+      "log_sha256": "dd348a9a163f762e35c81c3dd70e96a1d46e5002cad3f725ceb48dfaa41b3709",
+      "seconds": 0.03734916700341273
+    },
+    {
+      "id": "canonical_local_series_and_P1_lift",
+      "source": "work/v3_audit/check_p1_local_series.py",
+      "source_sha256": "0a0e0eebe3e02878feb06e21e136e0077b825fbf0205e2be4d821b280ddfee5e",
+      "input_source_sha256": "0a0e0eebe3e02878feb06e21e136e0077b825fbf0205e2be4d821b280ddfee5e",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/check_p1_local_series.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "\"all_seven_digit_lifts_match\": true"
+      ],
+      "success": true,
+      "log": "logs/canonical_local_series_and_P1_lift.log",
+      "log_sha256": "12092b94da42195e031e088204f8e582194f2c15e102f217c6f8e326a5768d10",
+      "seconds": 0.025604458001907915
+    },
+    {
+      "id": "section7_precision_bounds",
+      "source": "work/v3_audit/section7_independent_local.py",
+      "source_sha256": "c15b44f5331b01ee8f38c463e86cd0c984151a8a9d23bd874a123d07c7be2b98",
+      "input_source_sha256": "c15b44f5331b01ee8f38c463e86cd0c984151a8a9d23bd874a123d07c7be2b98",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/section7_independent_local.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/section7_precision_bounds.log",
+      "log_sha256": "b1868ecd0f120a8b6d17c61b489a38bf53bcd8195490230361ffbd3367b15209",
+      "seconds": 11.881845417010481
+    },
+    {
+      "id": "C25_all_six_maps",
+      "source": "work/v3_audit/check_c25_maps.py",
+      "source_sha256": "a3204cd0c096d84dc714b1b0d7b354ad6c09c45591f885436118fb75506ec90a",
+      "input_source_sha256": "a3204cd0c096d84dc714b1b0d7b354ad6c09c45591f885436118fb75506ec90a",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/check_c25_maps.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/C25_all_six_maps.log",
+      "log_sha256": "eebea1cc2a2e7c8471d16355f315e76fa1d9c2902a9e2df117e3da6fae64b2a5",
+      "seconds": 94.86057099999744
+    },
+    {
+      "id": "torsion_and_43_orders",
+      "source": "work/v3_audit/check_torsion_order.py",
+      "source_sha256": "b2876285defa7fda3166226f09a48735fcfdacbf4af7ead07aac0cc4efd8a6bb",
+      "input_source_sha256": "b2876285defa7fda3166226f09a48735fcfdacbf4af7ead07aac0cc4efd8a6bb",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/check_torsion_order.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/torsion_and_43_orders.log",
+      "log_sha256": "bfd906f4244efa5e5d9e3dac7910b05ae8d70c46b52d358b032365274cca96b2",
+      "seconds": 222.8843124999985
+    },
+    {
+      "id": "corrected_H1_five_saturation",
+      "source": "check_five_saturation.py",
+      "source_sha256": "f3762709e0f3d95d73a5133f2f4d0c6eb6b1005551fa9533ceb3410c756695b0",
+      "input_source_sha256": "f3762709e0f3d95d73a5133f2f4d0c6eb6b1005551fa9533ceb3410c756695b0",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/check_five_saturation.py",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "PASS_CORRECTED_H1_FIVE_SATURATION_CHARACTERS"
+      ],
+      "success": true,
+      "log": "logs/corrected_H1_five_saturation.log",
+      "log_sha256": "70b8fc0fc4bf0965a3a5686e158fedbb9b66f5c551d8ad2fec33f03e16365524",
+      "seconds": 0.033491958005470224
+    },
+    {
+      "id": "orders_23_43",
+      "source": "work/v3_audit/reconstruct_jacobian_orders.py",
+      "source_sha256": "da939b48614948fcdbdeb2a9948055c91a91f7e86a7aaa64f600df7be74869b8",
+      "input_source_sha256": "da939b48614948fcdbdeb2a9948055c91a91f7e86a7aaa64f600df7be74869b8",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/reconstruct_jacobian_orders.py",
+        "--primes",
+        "23",
+        "43"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "ALL_REQUESTED_JACOBIAN_ORDERS=PASS"
+      ],
+      "success": true,
+      "log": "logs/orders_23_43.log",
+      "log_sha256": "6c332b335072f83421fac5b3b47df09481cd067b9818e46d1bea777a37a22494",
+      "seconds": 143.4829046250088
+    },
+    {
+      "id": "all_sixteen_two_primary_maps",
+      "source": "work/v3_audit/reconstruct_two_primary_maps.py",
+      "source_sha256": "596a6b69b1888248daff323a5ca36505b7e752f9b8bad751d9775a8cc90a7a55",
+      "input_source_sha256": "596a6b69b1888248daff323a5ca36505b7e752f9b8bad751d9775a8cc90a7a55",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/reconstruct_two_primary_maps.py",
+        "--primes",
+        "23",
+        "43",
+        "67",
+        "71",
+        "79",
+        "107",
+        "109",
+        "113"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/all_sixteen_two_primary_maps.log",
+      "log_sha256": "e551109f43f7575527d6b9ae79426da10967e2ff51a30f7a28b674699f3a2be3",
+      "seconds": 406.6432039170031
+    },
+    {
+      "id": "all_sixteen_projected_E",
+      "source": "work/v3_audit/reconstruct_projected_E.py",
+      "source_sha256": "450c952d3a4fcd2275cd7157e3bb3edb46a570b74923f9a97ccb78d7ede280b1",
+      "input_source_sha256": "450c952d3a4fcd2275cd7157e3bb3edb46a570b74923f9a97ccb78d7ede280b1",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/reconstruct_projected_E.py",
+        "--primes",
+        "23",
+        "43",
+        "67",
+        "71",
+        "79",
+        "107",
+        "109",
+        "113"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/all_sixteen_projected_E.log",
+      "log_sha256": "c4a654819b98e1ae1c3d115f3f5b866976c3427cb758221b1ea78ad91fd06cb8",
+      "seconds": 39.80120383400936
+    },
+    {
+      "id": "outside_point_annihilation",
+      "source": "work/v3_audit/verify_outside_projected_point_orders.py",
+      "source_sha256": "ab7423204c08c23330c257eec9f93447fb625eeb4621a22029397eeb30ea0c46",
+      "input_source_sha256": "ab7423204c08c23330c257eec9f93447fb625eeb4621a22029397eeb30ea0c46",
+      "kind": "sage",
+      "command": [
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/v3_audit/runtime/sage-env/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/verify_outside_projected_point_orders.py",
+        "--primes",
+        "23",
+        "43",
+        "67",
+        "71",
+        "79",
+        "107",
+        "109",
+        "113"
+      ],
+      "exit_code": 0,
+      "required_markers": [
+        "ALL_REQUESTED_OUTSIDE_POINT_ORDERS=PASS"
+      ],
+      "success": true,
+      "log": "logs/outside_point_annihilation.log",
+      "log_sha256": "22c5400beadf420b6f134bfe68793a8c633f1d33f8115c9b0c73899b9907b837",
+      "seconds": 82.50558362499578
+    },
+    {
+      "id": "two_saturation_characters",
+      "source": "work/v3_audit/two_primary_saturation_characters.py",
+      "source_sha256": "871f65a92315b53569a9cecb688b444d4787c067065c6b1ab3731deabdc8c73a",
+      "input_source_sha256": "871f65a92315b53569a9cecb688b444d4787c067065c6b1ab3731deabdc8c73a",
+      "kind": "python",
+      "command": [
+        "/Users/pcho/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-B",
+        "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/v3_audit/two_primary_saturation_characters.py"
+      ],
+      "exit_code": 0,
+      "required_markers": [],
+      "success": true,
+      "log": "logs/two_saturation_characters.log",
+      "log_sha256": "276170185e9da55ce5d7ca3595dcc8496ad34ea0fb49a3716813afb16db73fff",
+      "seconds": 0.021789749996969476
+    }
+  ],
+  "fresh_replay": true,
+  "all_required_prior_jobs_passed": true,
+  "observed_prior_job_ids_cover_index": true,
+  "observed_successful_job_count": 65,
+  "required_full_prior_job_count": 65,
+  "subgroups": {
+    "H0": [
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "H1": [
+      "D2",
+      "E",
+      "D4",
+      "D5"
+    ],
+    "relation": "5E=D3+D4+3D5",
+    "saturation_scope": "H0 is 2-saturated; H1 is 2- and 5-saturated. Rank4 supplies finite index. Coverage modulo400 uses H1. No assertion that H0 is 5-saturated."
+  },
+  "boundary": "These jobs certify their individual premises. The rank/local containing-space join, finite sieve, local endpoints and external published/Magma sector premises are separate release gates."
+}

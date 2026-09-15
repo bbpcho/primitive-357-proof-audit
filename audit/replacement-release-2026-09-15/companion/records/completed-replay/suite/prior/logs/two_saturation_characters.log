@@ -1,0 +1,178 @@
+{
+  "status": "PASS_FOUR_GLOBAL_MOD2_CHARACTERS_WITH_INVERTIBLE_BASIS_MATRIX",
+  "characters": [
+    {
+      "rational_prime": 23,
+      "sqrt_minus_7": 4,
+      "map_input_sha256": "d4dc92880f6dc7764b7995bb8c55c21fc40d1f19094c07850a25ececd219646b",
+      "order_input_sha256": "f06374b7cef97f5eb7a782a901a19e5647a3c069e048f2118b17495b2056ee22",
+      "E_input_sha256": "8251db57edb8a4c79683c343d19027716be02299a522048348593185069a2490",
+      "whole_jacobian_order": 10200,
+      "odd_projection_multiplier": 1275,
+      "independently_verified_full_two_part_order": 8,
+      "character_on_each_state": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "all_four_generator_edges_checked_at_every_state": true,
+      "row_D2_D3_D4_D5": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "row_D2_E_D4_D5": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "rational_prime": 23,
+      "sqrt_minus_7": 19,
+      "map_input_sha256": "cd77c129d82594fc2238893f5f70d9489918c75e373fad83d6bbd13eb168ad47",
+      "order_input_sha256": "76f5b9cd1defdd8db50b046c79ad947fba7c6707d7e9710bdc8d9fbf985d9c30",
+      "E_input_sha256": "0996a959784973b017575351cccbbf61520b54e1610d390bd1543b0938940eb4",
+      "whole_jacobian_order": 10200,
+      "odd_projection_multiplier": 1275,
+      "independently_verified_full_two_part_order": 8,
+      "character_on_each_state": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "all_four_generator_edges_checked_at_every_state": true,
+      "row_D2_D3_D4_D5": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "row_D2_E_D4_D5": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "rational_prime": 23,
+      "sqrt_minus_7": 19,
+      "map_input_sha256": "cd77c129d82594fc2238893f5f70d9489918c75e373fad83d6bbd13eb168ad47",
+      "order_input_sha256": "76f5b9cd1defdd8db50b046c79ad947fba7c6707d7e9710bdc8d9fbf985d9c30",
+      "E_input_sha256": "0996a959784973b017575351cccbbf61520b54e1610d390bd1543b0938940eb4",
+      "whole_jacobian_order": 10200,
+      "odd_projection_multiplier": 1275,
+      "independently_verified_full_two_part_order": 8,
+      "character_on_each_state": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "all_four_generator_edges_checked_at_every_state": true,
+      "row_D2_D3_D4_D5": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "row_D2_E_D4_D5": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "rational_prime": 43,
+      "sqrt_minus_7": 37,
+      "map_input_sha256": "9caa2a086e58a393bf6a268b17662204121ffa402d0f90866df205219335178a",
+      "order_input_sha256": "24211c4384aab6c4dc20c78ad54f1ca639b728c969773d1e4a8aaf6f36928391",
+      "E_input_sha256": "4e8328c41db0c03a5c9b9f142fbde36c8bc967c26531acf59b56b8d94ec0b326",
+      "whole_jacobian_order": 73200,
+      "odd_projection_multiplier": 4575,
+      "independently_verified_full_two_part_order": 16,
+      "character_on_each_state": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "all_four_generator_edges_checked_at_every_state": true,
+      "row_D2_D3_D4_D5": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "row_D2_E_D4_D5": [
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "corrected_basis_matrix": [
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "determinant_mod2": 1,
+  "global_character_domain": "J(K), via good reduction, multiplication by the verified odd part, and the checked full-two-part character",
+  "unconditional_intersection_conclusion": "H intersect 2J(K) equals 2H",
+  "additional_premise_for_two_saturation": "J(K)[2]=0, established separately by good reduction at53",
+  "rank_upper_bound_used": false,
+  "finite_global_index_proved_here": false
+}
+FOUR_CHARACTERS_AND_MOD2_DETERMINANT=PASS

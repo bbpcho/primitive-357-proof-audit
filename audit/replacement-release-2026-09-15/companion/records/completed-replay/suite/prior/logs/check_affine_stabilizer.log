@@ -1,0 +1,39 @@
+[
+  {
+    "embedding": 237021,
+    "chosen_even_theta_index": 0,
+    "triangle_graph_is_line_graph_K8": true,
+    "seven_blocks_are_perfect_matchings": true,
+    "explicit_vertex_F2cubed_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      5
+    ],
+    "affine_group_order": 1344,
+    "entire_even_theta_and_partition_stabilizer_equals_AGL3_2": true
+  },
+  {
+    "embedding": 496156,
+    "chosen_even_theta_index": 0,
+    "triangle_graph_is_line_graph_K8": true,
+    "seven_blocks_are_perfect_matchings": true,
+    "explicit_vertex_F2cubed_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      5,
+      6
+    ],
+    "affine_group_order": 1344,
+    "entire_even_theta_and_partition_stabilizer_equals_AGL3_2": true
+  }
+]
+ACTUAL_THETA_PARTITION_AFFINE_STABILIZER_PASS=1

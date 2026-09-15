@@ -1,0 +1,8 @@
+PASS_RELEASE_INTEGRITY {"files": 2127, "manifest_sha256": "6e34464323d8e55ba86ba2b8dcdce5a98661c9c657dcbfa25e9d9922402409e9"}
+START sectors
+START prior
+PASS sectors
+PASS prior
+START rank_local
+PASS rank_local
+PASS_FRESH_INTEGRATED_REPLAY

@@ -1,0 +1,41 @@
+[
+  {
+    "embedding": 237021,
+    "group_order": 1344,
+    "incidence_dimension": 21,
+    "E_dual_invariant_dimension": 0,
+    "R_dual_invariant_dimension": 1,
+    "q_of_E_dual_invariants_dimension": 0,
+    "global_correction_dimension": 1,
+    "coherent_ratio_nonzero_in_correction": true,
+    "carrier_count": 98,
+    "all_carrier_ratio_bits": 1,
+    "full315_ratio_minus_count": 105,
+    "rho_basis": "independent highest-pivot incidence basis",
+    "rho": "0x1e021",
+    "input_sha256": {
+      "results/2026-08-21_descent_galois/checkpoints/compatible_even_theta_733177_s237021.json": "37355c1cd1b3de2c487f0720349be1396f2d01ad1394a5c68570f200e3c2642f",
+      "results/2026-08-21_descent_galois/certificates/compatible_even_theta_733177_s237021.json": "62eb93e535daf7654fbf46a424a1534248a74e9c110cd47c43a4dc2545d09ccc"
+    }
+  },
+  {
+    "embedding": 496156,
+    "group_order": 1344,
+    "incidence_dimension": 21,
+    "E_dual_invariant_dimension": 0,
+    "R_dual_invariant_dimension": 1,
+    "q_of_E_dual_invariants_dimension": 0,
+    "global_correction_dimension": 1,
+    "coherent_ratio_nonzero_in_correction": true,
+    "carrier_count": 98,
+    "all_carrier_ratio_bits": 1,
+    "full315_ratio_minus_count": 105,
+    "rho_basis": "independent highest-pivot incidence basis",
+    "rho": "0x4e1c",
+    "input_sha256": {
+      "results/2026-08-21_descent_galois/checkpoints/compatible_even_theta_733177_s496156.json": "58bc62aeb033aa828a7fdee68560dfac383209b299552f907809864c3d1a7949",
+      "results/2026-08-21_descent_galois/certificates/compatible_even_theta_733177_s496156.json": "bcc0e40333c08a98291c07ed60ebeceae62737f48c729c0611bbf09336160e69"
+    }
+  }
+]
+INDEPENDENT_GLOBAL_FIBRE_TWO_LIFTS_PASS=1

@@ -1,0 +1,2 @@
+PASS: both sealed branch matrices agree with all 3 new JSON log columns and the imported D4 cache at all 9 normalized digits.
+This checks content binding; it does not establish that a cached D4 value is a genuine global logarithm.

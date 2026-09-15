@@ -1,0 +1,96 @@
+{
+  "stages": [
+    {
+      "stage": "split_19163",
+      "constraint_rank": 20,
+      "kernel_dimension": 46,
+      "allowed_rank": 6
+    },
+    {
+      "stage": "split_23431",
+      "constraint_rank": 38,
+      "kernel_dimension": 28,
+      "allowed_rank": 6
+    },
+    {
+      "stage": "split_29059",
+      "constraint_rank": 42,
+      "kernel_dimension": 24,
+      "allowed_rank": 6
+    },
+    {
+      "stage": "split_38189",
+      "constraint_rank": 43,
+      "kernel_dimension": 23,
+      "allowed_rank": 6
+    },
+    {
+      "stage": "nonsplit_1051",
+      "constraint_rank": 44,
+      "kernel_dimension": 22,
+      "allowed_rank": 5
+    },
+    {
+      "stage": "odd_3",
+      "constraint_rank": 46,
+      "kernel_dimension": 20,
+      "allowed_rank": 4
+    },
+    {
+      "stage": "odd_5",
+      "constraint_rank": 47,
+      "kernel_dimension": 19,
+      "allowed_rank": 5
+    },
+    {
+      "stage": "odd_7_separate_containment_proof",
+      "constraint_rank": 48,
+      "kernel_dimension": 18,
+      "allowed_rank": 3
+    },
+    {
+      "stage": "dyadic_1",
+      "constraint_rank": 51,
+      "kernel_dimension": 15,
+      "allowed_rank": 7
+    },
+    {
+      "stage": "dyadic_2",
+      "constraint_rank": 54,
+      "kernel_dimension": 12,
+      "allowed_rank": 6
+    }
+  ],
+  "fresh_pre19_equals_saved": true,
+  "post7_18_equals_consumed": true,
+  "final12_equals_saved": true,
+  "diagonal_rank": 7,
+  "quotient_dimension": 5,
+  "input_sha256": {
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_raw_19163.txt": "5d3536b26c116576c23cc1daa5070fca0d17ada1a61d458a2be5f41e261bef90",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_allowed_19163.txt": "77d6f2a6d09efd1e525332c7d25abb4cc5bf53ca503544adab165b9a30087fbf",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_raw_23431.txt": "ba485ad52d8766a425c1baf9518cb6526c99d03a83ca6cab207ff702b1bbc910",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_allowed_23431.txt": "19da96af4035336ca22d9ae625b0f2575098cdc8bf05f551f2a97438390b992f",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_raw_29059.txt": "7798bde4c254fdcbfa2a391681b65aa2bbc559200cd27ebb899c6928777fad54",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_allowed_29059.txt": "4c82aac2f3cf1124fb4c688ca5951785828a52af47173b14438f56ff593e098c",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_raw_38189.txt": "bde50ee518f545986f06cbeb2b80f19e5d68685342173db4932a9b21eccc2bff",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/split_allowed_38189.txt": "40173aa00349a7517432f1fbae9107b54693087efe345eccbe82c70fb23fb171",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/nonsplit_raw_1051.txt": "9b439a23c974aa1d31665ac01be452f69733011f7ca944f5433ba4e62689f610",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/nonsplit_allowed_1051.txt": "55f9d4e8bded5577863d61567c57cbf44d0cf54eb468d2f0fbc8311e8a87a2c2",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/odd_raw_3.txt": "ec8da2c16ec4128c3e919678802523205f5763c01d994d5c5ff818b2c0cc8404",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/odd_known_3.txt": "8ab8080604a9041386ffd2ba194892ec7f6566b2fef0c6a1805e468ab776ebb4",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/odd_raw_5.txt": "55867e29d382cc93a50d367ded9c3068aa1a1f7878b25899b86161e320e92417",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/odd_known_5.txt": "3cc136b521be13216c2c89b83f9f9bcf085d4639e419e5d53096c6f8cf39a0fb",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/inputs/corrected_relaxed_basis_without_p29_v1.txt": "2fc569ca2ce29d086fa64e9b0c1ff914b2b9a59f4aa3fcb7b5022aa9e96a4a5e",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/odd_raw_7.txt": "bf987e7d5df41805a4e1a25e05a899231a0f1fdb34bc17895dff9564aa1e9af7",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/rank_local/predyadic/odd_allowed_7.txt": "da03f9eab05dd6e05ac1e4c62c0135fcde98f460e6632e89020e444b81be3c0d",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/v3/repository/results/2026-08-26_p29_corrected_dyadic_replay/inputs/corrected_after_p7_basis_consumed_v1.txt": "842dc043bcc430a4a7a4961f173eb4e873aa6809bbccd935cc1b55ef781b77bf",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/local_upper_bound/fresh_dyadic_raw_place1.txt": "10c5bbf26492664abc673d5f0c097462fb5adfa9201fd9e5628cf5b7a0033f3e",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/local_upper_bound/checkpoint_allowed_place1.txt": "d6f4847d151a6ed790b5560d11957ee349473ac3365f6a47b683a6ca2f475a0c",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/local_upper_bound/fresh_dyadic_raw_place2.txt": "b44698ca169968bc5337f3b114a90401609f0372f333cc7fbfb59d1fe0b24197",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/replay/suite/prior/work/p5_archive_audit/local_upper_bound/checkpoint_allowed_place2.txt": "9619430c2b5ae99211f3ca89f7ed45e60aae4ac3d6cc99e1204d27e09ac511d4",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/v3/repository/results/2026-08-26_p29_corrected_dyadic_replay/inputs/corrected_final_after_both_dyadic_basis_v1.txt": "03f63890ad29c2e29fdf9f18427dbacf5a7d669145e99a065943d51eef9886ec",
+    "/Users/pcho/Documents/Codex/2026-09-13/ple/work/replacement_release_2026_09_15/clean2/logical/evidence/v3/repository/results/2026-08-26_p29_corrected_dyadic_replay/inputs/corrected_global_diagonal_coordinates_v1.txt": "d1cadcaac076ad299f2399f75fb1e3830e5505fd286f5112018d17c23e52cbd4"
+  },
+  "scope": "Independent Sage annihilator/kernel arithmetic; local containment is proved separately, never inferred from saved matrices."
+}

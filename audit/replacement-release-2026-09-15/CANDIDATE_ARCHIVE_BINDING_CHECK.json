@@ -1,0 +1,16 @@
+{
+  "status": "PASS_CURRENT_DISTRIBUTION_ARCHIVE_AND_RECORD_BINDING",
+  "release_tag": "replay-companion-2026-09-15.2",
+  "asset": {
+    "name": "PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip",
+    "sha256": "a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85",
+    "bytes": 320731221,
+    "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/replay-companion-2026-09-15.2/PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip"
+  },
+  "sectors": 13,
+  "prior_jobs": 65,
+  "rank_checks": 16,
+  "producer_joins": 5,
+  "archive_payloads_checked": true,
+  "boundary": "Authenticates retained records and completion logs for the observed isolated run; not a new replay or independent mathematical proof."
+}

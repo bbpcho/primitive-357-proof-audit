@@ -18,6 +18,7 @@
   pdftitle={The Primitive Generalized Fermat Equation of signature 3,5,7: A computer-assisted proof},
   pdfsubject={A computer-assisted proof},
   pdfauthor={Peter Chocian},
+  pdfkeywords={generalized Fermat equation, rational points, descent, Jacobians, computer-assisted proof},
   colorlinks=true,
   linkcolor=proofblue,
   citecolor=proofblue,
@@ -1299,7 +1300,10 @@ $2$-saturation step; it does not replace those rank and torsion inputs.
 Seven archived Magma inputs, including both full-group computations,
 were executed through the official Magma calculator, version V2.29-10.
 Their exact inputs, outputs and mathematical checks are included in
-the companion verification materials.  These executions use Magma's
+the companion verification materials.  In both full-group computations,
+the returned \texttt{finite\_index} and \texttt{proved} flags are true,
+and the returned rank bounds are respectively $1$ and $2$; the scripts
+also verify the named generators in the returned groups.  These executions use Magma's
 algorithms; they are not independent implementations.  The numerical
 height comparison supplements, and does not replace, the separate exact
 height bounds.
@@ -1336,48 +1340,63 @@ the third-party material in the frozen companion archives.
 The programs, exact inputs, certificates and verification records
 are available from the repository
 \href{https://github.com/bbpcho/primitive-357-proof-audit}{\texttt{bbpcho/primitive-357-proof-audit}}.
-The fixed first-submission companion is
-\path{PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip}
-($601\,649\,354$ bytes).  Its release tag is
+The replacement computational companion is
+\path{PRIMITIVE_357_REPLAY_COMPANION_2026-09-15_V2.zip}
+(320731221 bytes). Its public release tag is
 \begin{center}
-\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1}{\texttt{first-submission-2026-09-15.1}}.
+\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/replay-companion-2026-09-15.2}{\texttt{replay-companion-2026-09-15.2}}.
 \end{center}
 Its SHA-256 digest is
 \begin{quote}\small\ttfamily
-fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90
+a7e8308e906ab21410a18748e7b253518b26892aeab374baae7044407b164d85
 \end{quote}
-The unchanged source and data component is
-\path{PRIMITIVE_357_VERIFIED_RELEASE_2026-09-14_V1.zip}
-($588\,945\,520$ bytes).  Its release tag is
-\begin{center}
-\href{https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/verified-2026-09-14.1}{\texttt{verified-2026-09-14.1}}.
+This replaces the two withdrawn archives with historical tags
+\begin{center}\small
+\texttt{verified-2026-09-14.1}\\
+\texttt{first-submission-2026-09-15.1}.
 \end{center}
-Its SHA-256 digest is
-\begin{quote}\small\ttfamily
-27e3e6eeb50f83ea484e7cd0c94dbd88de0141ab9f47634ed5181e7db0ecba33
-\end{quote}
-The tags and digests identify fixed computational records.  Earlier
-manuscript copies inside those archives are retained as provenance; the
-present document incorporates the subsequent expository revisions.
-The companion guide records the component filenames and replay
-instructions.
-The source and data component contains the geometric, $5$-adic and
-rank-closure inputs under distinct evidence roots.  The companion also
-contains the argument-audit materials, exact supplementary checks and
-seven Magma execution records assembled for that release.
-The source and data component's integrity and theorem-interface verifier is
+The current paper and its small
+arXiv source archive are separate assets; earlier manuscript copies
+inside the computational records are retained as provenance.
+
+The companion stores repeated evidence once and reconstructs the exact
+logical input layout for replay. Its explicit dependency lock gives the
+source, size and SHA-256 digest of every separately acquired input.
+The Dahmen--Siksek, PVT and BPS papers and unlicensed upstream code
+snapshots are acquired from their sources rather than redistributed.
+Project modifications to pinned upstream source files are reconstructed
+locally and checked against their exact expected digests. Third-party
+material retained under its own licence is identified in the companion's
+attribution notice. Seven historical executables used only for byte
+identity checks in the earlier package are omitted; their identities and
+the affected provenance checks are recorded explicitly. No new execution
+of those binaries or of the historical Magma jobs is claimed.
+
+The public integrity check is
 \begin{center}
-\texttt{python3 -B scripts/verify\_release.py}.
+\texttt{python3 -B scripts/verify\_companion.py}.
 \end{center}
-Its \texttt{--replay} mode, supplied with explicit SageMath and PARI/GP
-executables and an output directory, runs the specified reconstruction
-checks.  The component guide \path{PROGRAMS_AND_CERTIFICATES.md} gives
-the commands, dependency indexes, successful logs and retained imported
-premises.  In particular, the rank route includes the actual local-image
+It verifies the exact public file set and logical input mapping.
+The separate script \path{scripts/replay_companion.py}, supplied with
+explicit software and input paths, runs the full declared suite from
+new output directories. The replacement was replayed from a clean
+extraction with network access and access to earlier proof workspaces
+blocked: all $13$ sector and interface records, all $65$ prior jobs,
+and all $16$ rank-local checks passed. The latter consume five freshly
+generated inputs. The expanded logical inputs and separately acquired
+private inputs are authenticated before and after execution.
+The inherited internal identifier \texttt{verified-2026-09-14.1} is
+retained only for verifier compatibility; the replacement has a newly
+computed input manifest and the public identity printed above.
+
+The companion guide gives acquisition, reconstruction and replay
+commands, runtime requirements, dependency indexes, successful logs and
+retained imported premises. The rank route includes the local-image
 and fake-kernel stopping proofs in Appendix~\ref{app:rank-proof},
-the same-literal-$c$ comparison, and the $H_0/H_1$ index statement.
-The companion guide identifies the supplementary verifiers separately;
-the integrity check alone is not an arithmetic replay.
+the same-literal-$c$ comparison and the $H_0/H_1$ index statement.
+Supplementary argument-audit records and the seven earlier Magma
+executions are identified separately. Integrity checking alone is not
+an arithmetic replay.
 The principal correspondence is:
 \begin{center}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{.22\textwidth}
