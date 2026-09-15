@@ -1,0 +1,47 @@
+{
+  "repository": "bbpcho/primitive-357-proof-audit",
+  "release_tag": "first-submission-2026-09-15.1",
+  "release_url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/tag/first-submission-2026-09-15.1",
+  "release_id": 389036163,
+  "published_at": "2026-09-15T10:29:42Z",
+  "draft": false,
+  "assets": [
+    {
+      "name": "PRIMITIVE_357_PETER_CHOCIAN.pdf",
+      "bytes": 506897,
+      "sha256": "b4faa9bbd0fb01f00fffa14c061e18ac5ba675b0da34308c0e7c812226dcab47",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_PETER_CHOCIAN.pdf",
+      "asset_id": 565436930,
+      "unauthenticated_full_download": true,
+      "status": "PASS"
+    },
+    {
+      "name": "PRIMITIVE_357_ARXIV_SOURCE_PETER_CHOCIAN_V1.zip",
+      "bytes": 35879,
+      "sha256": "bdd7d0e8f277eeea9f918a1d3af552630a3514a058cb7b16d319561b27a85a84",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_ARXIV_SOURCE_PETER_CHOCIAN_V1.zip",
+      "asset_id": 565438434,
+      "unauthenticated_full_download": true,
+      "status": "PASS"
+    },
+    {
+      "name": "PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "bytes": 601649354,
+      "sha256": "fa0eaae5e193010a0714b1e72fd141f146e3e155148d530706258e3bb42e9a90",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/PRIMITIVE_357_FIRST_SUBMISSION_COMPANION_V1.zip",
+      "asset_id": 565450862,
+      "unauthenticated_full_download": true,
+      "status": "PASS"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 326,
+      "sha256": "56079dab90dc221c7b02761e0c03b1f10ffe9a70aeea3c8b4157468ef262b2fe",
+      "url": "https://github.com/bbpcho/primitive-357-proof-audit/releases/download/first-submission-2026-09-15.1/SHA256SUMS.txt",
+      "asset_id": 565437005,
+      "unauthenticated_full_download": true,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_PUBLIC_DOWNLOADS_AND_IDENTITIES"
+}
